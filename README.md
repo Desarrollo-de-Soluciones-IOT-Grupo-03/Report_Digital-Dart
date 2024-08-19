@@ -205,3 +205,204 @@
 ### [Bibliografía](#bibliografía)
 
 ### [Anexos](#anexos)
+
+# Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC - Student Outcome 5**
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 5.
+
+<!-- Cambiamos el rowspan="1" por rowspan="n" cuando agregamos más de una acción realizada por criterio específico. (TB1, TP1, TB2, TF1)-->
+<table>
+    <tr>
+        <th><b>Criterio específico</b></th>
+        <th><b>Acciones realizadas</b></th>
+        <th><b>Conclusiones</b></th>
+    </tr>
+    <tr>
+        <td rowspan="1"><b>
+            Trabaja en equipo para proporcionar liderazgo en forma conjunta </b></td>
+        <td>TB1<br><br>
+            <b>Steve Roger Castillo Robles </b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br>
+        </td>
+        <td>TB1<br><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1"><b>
+            Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
+        <td>TB1<br><br>
+            <b>Steve Roger Castillo Robles </b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <br><br>
+        </td>
+        <td>TB1<br><br>
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+        </td>
+    </tr>
+</table>
+
+# Capítulo I: Introducción
+
+## 1.1. StartUp Profile
+
+### 1.1.1. Description de la StartUp
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies auctor lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies auctor
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+<table align="center"  border="1" width="70%" style="text-align:center;">
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274913126961123411/image.png?ex=66c3fae0&is=66c2a960&hm=1e8cb148caf0aa752e5428a508103aa84f72679f9840564047a3de59334b27d5&" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Steve Roger Castillo Robles
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Steve Roger Castillo Robles, estudiante de Ingeniería de Software con una pasión por las nuevas tecnologías. Tengo habilidades en Angular, Vue, Spring Boot, bases de datos como Mysql, PostgreSQL. Además, utilizo Git y GitHub para la gestión eficiente de mis proyectos de manera eficiente. Siempre estoy buscando oportunidades para aplicar y expandir mis conocimientos en proyectos reales. Mi objetivo es utilizar mis habilidades y educación para contribuir de manera significativa en el campo de la tecnología.
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274913126617321562/image.png?ex=66c3fae0&is=66c2a960&hm=9f352904ee15f6696e918f56fb77ea5dac10daf22ede763528ff524e40f97526&" alt="Diego Castro" style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Diego Mauricio Castro Soto
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Diego Castro, me considero alguien autodidacta a quién le gusta siempre aprender nuevas cosas leyendo diversos recursos en la web, ya sea investigando en foros, leyendo libros o a través de videos. Desde ya hace un tiempo me encuentro adquiriendo nuevos conocimientos de diversos lenguajes de programación como C, C++ y C#. Adicional a esto me encuentro sumamente interesado en ahondar en las ramas del desarrollo de videojuegos, la seguridad informática y el desarrollo de aplicaciones web.
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274913126369984522/image.png?ex=66c3fae0&is=66c2a960&hm=fd4016005b09acfcad507fadecc6e4eff4ba5c8c4524a55291cd058812c0bc2e&" alt="Jennifer Espinoza" style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Jennifer Mary Espinoza Quispe
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Jennifer Espinoza, me encuentro en el 7mo ciclo de la carrera de Ing. de Software. En lo personal, me agrada aprender cosas nuevas, como nuevos lenguajes de programación e idiomas. Actualmente manejo el lenguaje de C++, un poco de Python y TypeScript. A nivel de desarrollo web conozco frameworks como Angular y Sprint Boot. Me considero una persona creativa, responsable y paciente, habilidades que ayudarán en el presente proyecto.
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274916387881488425/image.png?ex=66c3fde9&is=66c2ac69&hm=d85d7cf93f53e8131c3a02629d36f78bd76f51777fd833c74c1fdaa1865c25d8&" alt="Diego Esquivel" style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Diego Martin Esquivel Aguayo
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Diego Esquivel, tengo 20 años, me encuentro en el séptimo ciclo de Ingeniería de Software. Soy una persona amigable, tranquila, responsable y ordenada. Cumplo con entregar los trabajos en los plazos establecidos y me adapto fácilmente a las condiciones del trabajo en equipo y a los nuevos lenguajes de programación. 
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274916388137336843/image.jpg?ex=66c3fde9&is=66c2ac69&hm=c20fc3c10c3af7566be3df6c3d1792e64c703980d21d3597588054645b73b1e6&" alt="Cristian Quito" style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Cristian Andrés Quito Igreda
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Cristian Andrés Quito Igreda y estoy estudiando la carrera de Ingeniería de Software en la UPC. La razón principal por la que escogí esta carrera es porque desde mis inicios de la secundaria me causó curiosidad el funcionamiento interno de las aplicaciones de escritorio y web como también el desarrollo de grandes proyectos de software. Entre mis principales habilidades destaca la responsabilidad, el trabajo en equipo y el pensamiento lógico para la resolución de problemas. Finalmente, poseo conocimientos intermedios en C++, Python y SQL Server, además de contar con experiencia en Git, GitHub, PostgreSQL y MongoDB.
+        </td>
+    </tr>
+</table>
