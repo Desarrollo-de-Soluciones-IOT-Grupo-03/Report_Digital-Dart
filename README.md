@@ -210,6 +210,7 @@
     - [How much (¿Cuánto?)](#how-much-cuánto)
   - [1.2.2. Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
 
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -469,3 +470,23 @@ La ausencia de un monitoreo y control eficaz de las condiciones ambientales cond
 
 ¿Cómo podemos mejorar la eficacia en la preservación de libros y documentos antiguos mediante un sistema automatizado de monitoreo y control ambiental en bibliotecas y museos?
 
+### 1.2.2.2. Lean UX Assumptions
+
+**Features:**
+- Monitoreo en tiempo real de humedad, temperatura e iluminación.
+- Control remoto de dispositivos que regulen estas condiciones.
+- Alertas automáticas ante cambios críticos en las condiciones ambientales.
+
+**Business outcomes:**
+- Incremento en la adopción de la solución por parte de instituciones académicas y culturales.
+- Generación de ingresos mediante la venta del dispositivo y suscripción a servicios de monitoreo avanzado.
+- Expansión geográfica a otras regiones y países donde la conservación de documentos es una prioridad.
+
+**Users:**
+- Bibliotecarios y conservadores responsables del mantenimiento de colecciones antiguas.
+- Administradores de museos y galerías que buscan proteger artefactos valiosos.
+
+**Users outcomes:**
+- Mejora en la conservación de colecciones, reduciendo el deterioro debido a condiciones ambientales.
+- Reducción en los costos asociados con la restauración y reemplazo de materiales dañados.
+- Tranquilidad para los administradores al saber que sus colecciones están protegidas de manera eficiente.
