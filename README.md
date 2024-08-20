@@ -212,6 +212,7 @@
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
 
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -505,3 +506,7 @@ La ausencia de un monitoreo y control eficaz de las condiciones ambientales cond
 **Hipótesis 5:** Creemos que, al ofrecer un sistema de alerta escalonado, donde los administradores son notificados según la gravedad del cambio ambiental, se reducirá el tiempo de respuesta ante condiciones críticas. Sabremos que hemos tenido éxito si el tiempo promedio de respuesta ante alertas críticas se reduce en un 40% dentro de los primeros dos meses.
 
 **Hipótesis 6:** Creemos que, al proporcionar opciones de personalización para los umbrales de alerta, los administradores podrán adaptar EnviroSafe a las necesidades específicas de sus colecciones. Sabremos que hemos tenido éxito si el 85% de los usuarios personaliza estos umbrales dentro del primer mes de uso.
+
+### 1.2.2.4. Lean UX Canvas
+
+![Lean UX Canvas](https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/Lean_UX_Canvas.png)
