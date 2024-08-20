@@ -199,6 +199,15 @@
   - [1.1. StartUp Profile](#11-startup-profile)
     - [1.1.1. Description de la StartUp](#111-description-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [What (¿Qué?)](#what-qué)
+    - [When (¿Cuándo?)](#when-cuándo)
+    - [Where (¿Dónde?)](#where-dónde)
+    - [Who (¿Quién?)](#who-quién)
+    - [Why (¿Por qué?)](#why-por-qué)
+    - [How (¿Cómo?)](#how-cómo)
+    - [How much (¿Cuánto?)](#how-much-cuánto)
 
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -285,15 +294,12 @@ del ABET – EAC - Student Outcome 5.
 
 **DigitalDart** es una empresa emergente de tecnología que se especializa en desarrollar soluciones IoT innovadoras para preservar y conservar recursos valiosos. Nos enfocamos en crear dispositivos inteligentes que permitan la administración remota de condiciones ambientales críticas en espacios como bibliotecas, museos y galerías de arte. Nuestra misión es ayudar a preservar la historia y la cultura al ofrecer herramientas tecnológicas que aseguren la longevidad de libros, documentos y artefactos antiguos.
 
-Además, DigitalDart también desarrolla soluciones en el ámbito laboral, como el proyecto **ChambeaPe**. Esta aplicación está diseñada para conectar trabajadores ocasionales con empleadores que buscan cubrir trabajos temporales, proyectos o tareas específicas. Con ChambeaPe, buscamos facilitar conexiones laborales eficientes, ayudando tanto a trabajadores como a empleadores a satisfacer sus necesidades de manera efectiva.
-
-
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <table align="center"  border="1" width="70%" style="text-align:center;">
     <tr align="center">
         <td rowspan="3">
-            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274913126961123411/image.png?ex=66c3fae0&is=66c2a960&hm=1e8cb148caf0aa752e5428a508103aa84f72679f9840564047a3de59334b27d5&" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
+            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/steve.png" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -317,7 +323,7 @@ Además, DigitalDart también desarrolla soluciones en el ámbito laboral, como 
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274913126617321562/image.png?ex=66c3fae0&is=66c2a960&hm=9f352904ee15f6696e918f56fb77ea5dac10daf22ede763528ff524e40f97526&" alt="Diego Castro" style="margin-bottom: 5px;" width="600"/>
+            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/castro.png" alt="Diego Castro" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -341,7 +347,7 @@ Además, DigitalDart también desarrolla soluciones en el ámbito laboral, como 
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274913126369984522/image.png?ex=66c3fae0&is=66c2a960&hm=fd4016005b09acfcad507fadecc6e4eff4ba5c8c4524a55291cd058812c0bc2e&" alt="Jennifer Espinoza" style="margin-bottom: 5px;" width="600"/>
+            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/Jenn.png" alt="Jennifer Espinoza" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -365,7 +371,7 @@ Además, DigitalDart también desarrolla soluciones en el ámbito laboral, como 
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274916387881488425/image.png?ex=66c3fde9&is=66c2ac69&hm=d85d7cf93f53e8131c3a02629d36f78bd76f51777fd833c74c1fdaa1865c25d8&" alt="Diego Esquivel" style="margin-bottom: 5px;" width="600"/>
+            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/esquivel.png" alt="Diego Esquivel" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -389,7 +395,7 @@ Además, DigitalDart también desarrolla soluciones en el ámbito laboral, como 
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://cdn.discordapp.com/attachments/1274912101852381215/1274916388137336843/image.jpg?ex=66c3fde9&is=66c2ac69&hm=c20fc3c10c3af7566be3df6c3d1792e64c703980d21d3597588054645b73b1e6&" alt="Cristian Quito" style="margin-bottom: 5px;" width="600"/>
+            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/cristian.jpg" alt="Cristian Quito" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -412,3 +418,41 @@ Además, DigitalDart también desarrolla soluciones en el ámbito laboral, como 
         </td>
     </tr>
 </table>
+
+## 1.2. Solution Profile
+
+## 1.2.1. Antecedentes y problemática
+
+La conservación de libros y documentos antiguos en bibliotecas y museos es una preocupación crítica. Estos objetos son extremadamente vulnerables a condiciones ambientales inadecuadas, como la humedad, la temperatura y la iluminación, que pueden acelerar su deterioro. La falta de un monitoreo y control efectivo de estas condiciones puede llevar a la pérdida irreversible de patrimonio cultural y conocimiento histórico.
+
+Según la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO, 2021), el deterioro de documentos históricos debido a la exposición a condiciones ambientales inadecuadas es un problema global significativo, especialmente en instituciones con recursos limitados. Estas condiciones adversas pueden causar daños irreversibles en los materiales y afectan la preservación a largo plazo.
+
+**EnviroSafe** es una aplicación diseñada para enfrentar estos desafíos proporcionando un sistema de monitoreo y control remoto de las condiciones ambientales en bibliotecas y museos. Con **EnviroSafe**, los administradores pueden supervisar y ajustar parámetros como la temperatura, la humedad y la iluminación en tiempo real, reduciendo así el riesgo de daños a las colecciones.
+
+### What (¿Qué?)
+
+El principal problema identificado es la dificultad de mantener condiciones ambientales óptimas en bibliotecas y museos para preservar libros y documentos antiguos. Esto resulta en un aumento del deterioro y la pérdida de patrimonio cultural.
+
+### When (¿Cuándo?)
+
+El problema surge cuando no se tiene un control constante y automatizado de las condiciones ambientales. Esto puede ocurrir durante todo el año, especialmente en temporadas con cambios climáticos drásticos o en instalaciones con infraestructura limitada.
+
+### Where (¿Dónde?)
+
+El problema se identifica en bibliotecas, museos y otras instituciones que albergan documentos y libros antiguos, especialmente en zonas con alta humedad o fluctuaciones de temperatura, como áreas costeras o tropicales.
+
+### Who (¿Quién?)
+
+Este problema afecta a los administradores de bibliotecas y museos, así como a los conservacionistas encargados de la preservación del patrimonio cultural. También impacta indirectamente a investigadores, académicos y al público en general que depende de la integridad de estos recursos.
+
+### Why (¿Por qué?)
+
+La causa principal es la falta de sistemas automatizados de monitoreo y control de condiciones ambientales, lo que dificulta el mantenimiento de un entorno adecuado para la conservación de libros y documentos. Los métodos manuales son insuficientes y propensos a errores.
+
+### How (¿Cómo?)
+
+La solución propuesta es **EnviroSafe**, una aplicación que permite el monitoreo y control remoto de las condiciones ambientales, alertando automáticamente a los administradores ante cualquier cambio crítico que pueda poner en riesgo la integridad de los documentos.
+
+### How much (¿Cuánto?)
+
+Este problema tiene un impacto significativo en la preservación de la cultura y el conocimiento, ya que un 30% de las colecciones en riesgo podría ser dañado o perdido si no se implementan medidas adecuadas. El uso de **EnviroSafe** podría reducir este riesgo significativamente, mejorando la preservación en un 25% dentro de los primeros seis meses de implementación.
