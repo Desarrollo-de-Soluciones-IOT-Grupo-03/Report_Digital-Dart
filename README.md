@@ -176,26 +176,29 @@
 
 ### [Capítulo VI: Product Implementation, Validation & Deployment](#capc3adtulo-vi-product-implementation-validation--deployment)
 
-- [6.1. Software Configuration Management](#61-software-configuration-management)
-  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-  - [6.1.2. Source Code Management](#612-source-code-management)
-  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
-  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
-  - [6.2.X. Sprint n](#62x-sprint-n)
-    - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-    - [6.2.X.2. Sprint Backlog n](#62x2-sprint-backlog-n)
-    - [6.2.X.3. Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
-    - [6.2.X.4. Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
-    - [6.2.X.5. Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
-    - [6.2.X.6. Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
-    - [6.2.X.7. Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
-    - [6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
-- [6.3. Validation Interviews](#63-validation-interviews)
-  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
-  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-- [6.4. Video About-the-Product](#64-video-about-the-product)
+- [COURSE PROJECT](#course-project)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+    - [Registro de Versiones del Informe](#registro-de-versiones-del-informe-1)
+    - [Project Report Collaboration Insights](#project-report-collaboration-insights-1)
+    - [Contenido](#contenido-1)
+    - [Student Outcome](#student-outcome)
+    - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+    - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Bibliografía](#bibliografía)
+    - [Anexos](#anexos)
+- [Student Outcome](#student-outcome-1)
+- [Capítulo I: Introducción](#capítulo-i-introducción-1)
+  - [1.1. StartUp Profile](#11-startup-profile)
+    - [1.1.1. Description de la StartUp](#111-description-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -280,7 +283,10 @@ del ABET – EAC - Student Outcome 5.
 
 ### 1.1.1. Description de la StartUp
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies auctor lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies auctor
+**DigitalDart** es una empresa emergente de tecnología que se especializa en desarrollar soluciones IoT innovadoras para preservar y conservar recursos valiosos. Nos enfocamos en crear dispositivos inteligentes que permitan la administración remota de condiciones ambientales críticas en espacios como bibliotecas, museos y galerías de arte. Nuestra misión es ayudar a preservar la historia y la cultura al ofrecer herramientas tecnológicas que aseguren la longevidad de libros, documentos y artefactos antiguos.
+
+Además, DigitalDart también desarrolla soluciones en el ámbito laboral, como el proyecto **ChambeaPe**. Esta aplicación está diseñada para conectar trabajadores ocasionales con empleadores que buscan cubrir trabajos temporales, proyectos o tareas específicas. Con ChambeaPe, buscamos facilitar conexiones laborales eficientes, ayudando tanto a trabajadores como a empleadores a satisfacer sus necesidades de manera efectiva.
+
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
