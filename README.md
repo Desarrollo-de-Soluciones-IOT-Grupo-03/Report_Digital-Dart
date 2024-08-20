@@ -90,7 +90,7 @@
 
 ### [Contenido](#contenido)
 
-### [Student Outcome](#student-outcome)
+### [Student Outcomes](#student-outcome)
 
 ### [Capítulo I: Introducción](#capítulo-i-introducción)
 
@@ -176,46 +176,7 @@
 
 ### [Capítulo VI: Product Implementation, Validation & Deployment](#capc3adtulo-vi-product-implementation-validation--deployment)
 
-- [COURSE PROJECT](#course-project)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-  - [Tabla de Contenidos](#tabla-de-contenidos)
-    - [Registro de Versiones del Informe](#registro-de-versiones-del-informe-1)
-    - [Project Report Collaboration Insights](#project-report-collaboration-insights-1)
-    - [Contenido](#contenido-1)
-    - [Student Outcome](#student-outcome)
-    - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-    - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-    - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
-    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-    - [Bibliografía](#bibliografía)
-    - [Anexos](#anexos)
-- [Student Outcome](#student-outcome-1)
-- [Capítulo I: Introducción](#capítulo-i-introducción-1)
-  - [1.1. StartUp Profile](#11-startup-profile)
-    - [1.1.1. Description de la StartUp](#111-description-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [What (¿Qué?)](#what-qué)
-    - [When (¿Cuándo?)](#when-cuándo)
-    - [Where (¿Dónde?)](#where-dónde)
-    - [Who (¿Quién?)](#who-quién)
-    - [Why (¿Por qué?)](#why-por-qué)
-    - [How (¿Cómo?)](#how-cómo)
-    - [How much (¿Cuánto?)](#how-much-cuánto)
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+### [Conclusiones](#conclusiones)
 
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
@@ -232,8 +193,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
 establecen objetivos, planifican tareas y cumplen objetivos.
 En el siguiente cuadro se describe las acciones realizadas y enunciados de
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
-del ABET – EAC - Student Outcome 5.
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
 <!-- Cambiamos el rowspan="1" por rowspan="n" cuando agregamos más de una acción realizada por criterio específico. (TB1, TP1, TB2, TF1)-->
 <table>
@@ -296,7 +256,7 @@ del ABET – EAC - Student Outcome 5.
 
 ## 1.1. StartUp Profile
 
-### 1.1.1. Description de la StartUp
+### 1.1.1. Descripción de la StartUp
 
 **DigitalDart** es una empresa emergente de tecnología que se especializa en desarrollar soluciones IoT innovadoras para preservar y conservar recursos valiosos. Nos enfocamos en crear dispositivos inteligentes que permitan la administración remota de condiciones ambientales críticas en espacios como bibliotecas, museos y galerías de arte. Nuestra misión es ayudar a preservar la historia y la cultura al ofrecer herramientas tecnológicas que aseguren la longevidad de libros, documentos y artefactos antiguos.
 
