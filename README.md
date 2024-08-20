@@ -213,6 +213,7 @@
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
     - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -510,3 +511,11 @@ La ausencia de un monitoreo y control eficaz de las condiciones ambientales cond
 ### 1.2.2.4. Lean UX Canvas
 
 ![Lean UX Canvas](https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/Lean_UX_Canvas.png)
+
+## 1.3. Segmentos objetivo
+
+**Segmento objetivo 1: Bibliotecas universitarias y académicas**  
+Este segmento se enfoca en instituciones educativas que tienen colecciones de libros y documentos antiguos que requieren una conservación cuidadosa. Estas bibliotecas buscan soluciones tecnológicas que les permitan mantener sus colecciones en condiciones óptimas, asegurando su disponibilidad para futuras generaciones de estudiantes e investigadores.
+
+**Segmento objetivo 2: Museos y galerías**  
+En este segmento, nos dirigimos a museos y galerías que albergan artefactos, documentos y obras de arte que requieren un control ambiental estricto para su preservación. Estas instituciones valoran las herramientas que les permitan monitorear y ajustar las condiciones en tiempo real, minimizando los riesgos de deterioro.
