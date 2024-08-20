@@ -208,6 +208,8 @@
     - [Why (¿Por qué?)](#why-por-qué)
     - [How (¿Cómo?)](#how-cómo)
     - [How much (¿Cuánto?)](#how-much-cuánto)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
 
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -456,3 +458,14 @@ La solución propuesta es **EnviroSafe**, una aplicación que permite el monitor
 ### How much (¿Cuánto?)
 
 Este problema tiene un impacto significativo en la preservación de la cultura y el conocimiento, ya que un 30% de las colecciones en riesgo podría ser dañado o perdido si no se implementan medidas adecuadas. El uso de **EnviroSafe** podría reducir este riesgo significativamente, mejorando la preservación en un 25% dentro de los primeros seis meses de implementación.
+
+## 1.2.2. Lean UX Process
+
+### 1.2.2.1. Lean UX Problem Statements
+
+Las bibliotecas y museos enfrentan dificultades para mantener condiciones ambientales óptimas, lo que resulta en un deterioro acelerado de libros y documentos antiguos. La falta de recursos y sistemas automatizados agrava este problema, poniendo en riesgo el patrimonio cultural.
+
+La ausencia de un monitoreo y control eficaz de las condiciones ambientales conduce a la degradación de colecciones valiosas, lo que limita su disponibilidad para futuras generaciones.
+
+¿Cómo podemos mejorar la eficacia en la preservación de libros y documentos antiguos mediante un sistema automatizado de monitoreo y control ambiental en bibliotecas y museos?
+
