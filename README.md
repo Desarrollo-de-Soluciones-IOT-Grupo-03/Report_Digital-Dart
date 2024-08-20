@@ -211,6 +211,7 @@
   - [1.2.2. Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
 
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -490,3 +491,17 @@ La ausencia de un monitoreo y control eficaz de las condiciones ambientales cond
 - Mejora en la conservación de colecciones, reduciendo el deterioro debido a condiciones ambientales.
 - Reducción en los costos asociados con la restauración y reemplazo de materiales dañados.
 - Tranquilidad para los administradores al saber que sus colecciones están protegidas de manera eficiente.
+
+### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hipótesis 1:** Creemos que, al proporcionar un sistema de monitoreo y control remoto para bibliotecas y museos, mejoraremos la preservación de libros y documentos antiguos. Sabremos que hemos tenido éxito cuando veamos una reducción del 25% en la incidencia de daños causados por condiciones ambientales inadecuadas dentro de los primeros seis meses de implementación.
+
+**Hipótesis 2:** Creemos que, al ofrecer alertas automáticas ante cambios críticos en la temperatura, humedad o iluminación, los administradores podrán reaccionar rápidamente para evitar daños. Sabremos que hemos tenido éxito si el 90% de las alertas son atendidas en un plazo de 30 minutos, evitando cualquier daño significativo.
+
+**Hipótesis 3:** Creemos que, al integrar reportes semanales automáticos sobre las condiciones ambientales, los administradores podrán tomar decisiones más informadas sobre el mantenimiento y conservación. Sabremos que hemos tenido éxito si el 80% de los administradores reporta un aumento en la eficiencia de sus intervenciones de conservación dentro de los primeros tres meses.
+
+**Hipótesis 4:** Creemos que, al permitir el acceso remoto a los datos históricos de condiciones ambientales, los conservacionistas podrán identificar patrones y prever problemas antes de que ocurran. Sabremos que hemos tenido éxito si el 70% de los usuarios utiliza esta función para realizar ajustes preventivos en sus instalaciones.
+
+**Hipótesis 5:** Creemos que, al ofrecer un sistema de alerta escalonado, donde los administradores son notificados según la gravedad del cambio ambiental, se reducirá el tiempo de respuesta ante condiciones críticas. Sabremos que hemos tenido éxito si el tiempo promedio de respuesta ante alertas críticas se reduce en un 40% dentro de los primeros dos meses.
+
+**Hipótesis 6:** Creemos que, al proporcionar opciones de personalización para los umbrales de alerta, los administradores podrán adaptar EnviroSafe a las necesidades específicas de sus colecciones. Sabremos que hemos tenido éxito si el 85% de los usuarios personaliza estos umbrales dentro del primer mes de uso.
