@@ -258,7 +258,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 
 ### 1.1.1. Descripción de la StartUp
 
-**DigitalDart** es una empresa emergente de tecnología que se especializa en desarrollar soluciones IoT innovadoras para preservar y conservar recursos valiosos. Nos enfocamos en crear dispositivos inteligentes que permitan la administración remota de condiciones ambientales críticas en espacios como bibliotecas, museos y galerías de arte. Nuestra misión es ayudar a preservar la historia y la cultura al ofrecer herramientas tecnológicas que aseguren la longevidad de libros, documentos y artefactos antiguos.
+**DigitalDart** es una empresa emergente de tecnología especializada en desarrollar soluciones IoT innovadoras para la seguridad y protección familiar. Nos enfocamos en crear dispositivos inteligentes que faciliten la monitorización y seguridad de personas vulnerables, como personas mayores con Alzheimer y niños pequeños. Nuestra misión es mejorar la seguridad familiar mediante herramientas tecnológicas avanzadas que ofrezcan monitoreo en tiempo real y alertas de seguridad.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -389,100 +389,103 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 
 ## 1.2.1. Antecedentes y problemática
 
-La conservación de libros y documentos antiguos en bibliotecas y museos es una preocupación crítica. Estos objetos son extremadamente vulnerables a condiciones ambientales inadecuadas, como la humedad, la temperatura y la iluminación, que pueden acelerar su deterioro. La falta de un monitoreo y control efectivo de estas condiciones puede llevar a la pérdida irreversible de patrimonio cultural y conocimiento histórico.
+El cuidado de personas vulnerables, como los mayores con Alzheimer y los niños pequeños, presenta desafíos importantes en cuanto a su seguridad. Estos grupos son especialmente susceptibles a situaciones peligrosas si no se monitorean adecuadamente. La falta de soluciones tecnológicas accesibles y efectivas puede poner en riesgo su bienestar, lo que genera preocupación en sus cuidadores y familiares.
 
-Según la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO, 2021), el deterioro de documentos históricos debido a la exposición a condiciones ambientales inadecuadas es un problema global significativo, especialmente en instituciones con recursos limitados. Estas condiciones adversas pueden causar daños irreversibles en los materiales y afectan la preservación a largo plazo.
+Según el Informe Mundial sobre el Alzheimer 2023, aproximadamente el 60% de las personas que padecen Alzheimer deambulan al menos una vez, lo que puede resultar en situaciones peligrosas si no se detectan a tiempo. De manera similar, los niños pequeños, al ser curiosos por naturaleza, pueden fácilmente salir de áreas seguras, lo que requiere una supervisión constante y efectiva.
 
-**EnviroSafe** es una aplicación diseñada para enfrentar estos desafíos proporcionando un sistema de monitoreo y control remoto de las condiciones ambientales en bibliotecas y museos. Con **EnviroSafe**, los administradores pueden supervisar y ajustar parámetros como la temperatura, la humedad y la iluminación en tiempo real, reduciendo así el riesgo de daños a las colecciones.
+**GuardianArea** es una solución diseñada para enfrentar estos desafíos, ofreciendo una pulsera con rastreador que permite establecer geo-cercas y recibir notificaciones en tiempo real si la persona monitoreada o el niño salen de las zonas seguras, asegurando su protección y brindando tranquilidad a los cuidadores y familiares.
+
 
 ### What (¿Qué?)
 
-El principal problema identificado es la dificultad de mantener condiciones ambientales óptimas en bibliotecas y museos para preservar libros y documentos antiguos. Esto resulta en un aumento del deterioro y la pérdida de patrimonio cultural.
+El principal problema identificado es la dificultad de monitorear a personas vulnerables, como los mayores con Alzheimer y los niños pequeños, lo que puede llevar a situaciones de riesgo si no se detectan a tiempo.
 
 ### When (¿Cuándo?)
 
-El problema surge cuando no se tiene un control constante y automatizado de las condiciones ambientales. Esto puede ocurrir durante todo el año, especialmente en temporadas con cambios climáticos drásticos o en instalaciones con infraestructura limitada.
+El problema surge cuando estas personas salen de áreas seguras, lo que puede ocurrir en cualquier momento si no se supervisa adecuadamente.
 
 ### Where (¿Dónde?)
 
-El problema se identifica en bibliotecas, museos y otras instituciones que albergan documentos y libros antiguos, especialmente en zonas con alta humedad o fluctuaciones de temperatura, como áreas costeras o tropicales.
+El problema se identifica en entornos familiares, centros de atención y espacios públicos, donde estas personas son más propensas a deambular sin supervisión.
 
 ### Who (¿Quién?)
 
-Este problema afecta a los administradores de bibliotecas y museos, así como a los conservacionistas encargados de la preservación del patrimonio cultural. También impacta indirectamente a investigadores, académicos y al público en general que depende de la integridad de estos recursos.
+Este problema afecta a los cuidadores y familiares de personas con Alzheimer y niños pequeños, quienes tienen la responsabilidad de garantizar su seguridad.
 
 ### Why (¿Por qué?)
 
-La causa principal es la falta de sistemas automatizados de monitoreo y control de condiciones ambientales, lo que dificulta el mantenimiento de un entorno adecuado para la conservación de libros y documentos. Los métodos manuales son insuficientes y propensos a errores.
+La causa principal es la falta de herramientas de monitoreo en tiempo real que permitan detectar y alertar sobre la salida de las zonas seguras, lo que pone en riesgo la seguridad de estas personas.
 
 ### How (¿Cómo?)
 
-La solución propuesta es **EnviroSafe**, una aplicación que permite el monitoreo y control remoto de las condiciones ambientales, alertando automáticamente a los administradores ante cualquier cambio crítico que pueda poner en riesgo la integridad de los documentos.
+La solución propuesta es **GuardianArea**, una pulsera con rastreador que permite establecer geo-cercas y recibir notificaciones en tiempo real si la persona monitoreada o el niño salen de las zonas seguras.
 
 ### How much (¿Cuánto?)
 
-Este problema tiene un impacto significativo en la preservación de la cultura y el conocimiento, ya que un 30% de las colecciones en riesgo podría ser dañado o perdido si no se implementan medidas adecuadas. El uso de **EnviroSafe** podría reducir este riesgo significativamente, mejorando la preservación en un 25% dentro de los primeros seis meses de implementación.
+Este problema tiene un impacto significativo en la seguridad y bienestar de las personas vulnerables. El uso de **GuardianArea** podría reducir el riesgo de situaciones peligrosas en un 70% dentro de los primeros seis meses de implementación.
 
 ## 1.2.2. Lean UX Process
 
 ### 1.2.2.1. Lean UX Problem Statements
 
-Las bibliotecas y museos enfrentan dificultades para mantener condiciones ambientales óptimas, lo que resulta en un deterioro acelerado de libros y documentos antiguos. La falta de recursos y sistemas automatizados agrava este problema, poniendo en riesgo el patrimonio cultural.
+El cuidado de personas mayores con Alzheimer y niños pequeños presenta desafíos significativos para garantizar su seguridad debido a la falta de herramientas efectivas de monitoreo. Estas personas vulnerables están en riesgo de situaciones peligrosas, como el deambular o salir de áreas seguras sin ser detectados.
 
-La ausencia de un monitoreo y control eficaz de las condiciones ambientales conduce a la degradación de colecciones valiosas, lo que limita su disponibilidad para futuras generaciones.
+La ausencia de soluciones tecnológicas accesibles y efectivas exacerba estos riesgos, poniendo en peligro la vida y el bienestar de estos individuos.
 
-¿Cómo podemos mejorar la eficacia en la preservación de libros y documentos antiguos mediante un sistema automatizado de monitoreo y control ambiental en bibliotecas y museos?
+¿Cómo podemos mejorar la seguridad de personas mayores con Alzheimer y niños pequeños mediante un sistema de monitoreo en tiempo real que alerte a sus cuidadores y familiares cuando se salen de las zonas seguras?
 
 ### 1.2.2.2. Lean UX Assumptions
 
 **Features:**
 
-- Monitoreo en tiempo real de humedad, temperatura e iluminación.
-- Control remoto de dispositivos que regulen estas condiciones.
-- Alertas automáticas ante cambios críticos en las condiciones ambientales.
+- Monitoreo en tiempo real mediante geo-cercas.
+- Alertas automáticas cuando la persona monitoreada sale de la zona segura.
+- Acceso a un historial de movimientos para análisis y prevención.
 
 **Business outcomes:**
 
-- Incremento en la adopción de la solución por parte de instituciones académicas y culturales.
-- Generación de ingresos mediante la venta del dispositivo y suscripción a servicios de monitoreo avanzado.
-- Expansión geográfica a otras regiones y países donde la conservación de documentos es una prioridad.
+- Incremento en la adopción del sistema por parte de familias y centros de cuidado.
+- Generación de ingresos mediante la venta de pulseras y suscripciones a servicios de monitoreo.
+- Expansión geográfica y diversificación en otros segmentos vulnerables.
 
 **Users:**
 
-- Bibliotecarios y conservadores responsables del mantenimiento de colecciones antiguas.
-- Administradores de museos y galerías que buscan proteger artefactos valiosos.
+- Cuidadores y familiares de personas mayores con Alzheimer.
+- Cuidadores y familiares de niños pequeños.
 
 **Users outcomes:**
 
-- Mejora en la conservación de colecciones, reduciendo el deterioro debido a condiciones ambientales.
-- Reducción en los costos asociados con la restauración y reemplazo de materiales dañados.
-- Tranquilidad para los administradores al saber que sus colecciones están protegidas de manera eficiente.
+- Mejora en la seguridad y bienestar de personas vulnerables.
+- Reducción en los niveles de ansiedad y estrés en cuidadores y familiares. 
+- Mayor tranquilidad al saber que pueden reaccionar rápidamente ante cualquier emergencia.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hipótesis 1:** Creemos que, al proporcionar un sistema de monitoreo y control remoto para bibliotecas y museos, mejoraremos la preservación de libros y documentos antiguos. Sabremos que hemos tenido éxito cuando veamos una reducción del 25% en la incidencia de daños causados por condiciones ambientales inadecuadas dentro de los primeros seis meses de implementación.
+**Hipótesis 1:** Creemos que, al proporcionar un sistema de monitoreo en tiempo real para personas vulnerables, mejoraremos su seguridad y bienestar. Sabremos que hemos tenido éxito cuando veamos una reducción del 70% en incidentes relacionados con la salida de zonas seguras dentro de los primeros seis meses de implementación.
 
-**Hipótesis 2:** Creemos que, al ofrecer alertas automáticas ante cambios críticos en la temperatura, humedad o iluminación, los administradores podrán reaccionar rápidamente para evitar daños. Sabremos que hemos tenido éxito si el 90% de las alertas son atendidas en un plazo de 30 minutos, evitando cualquier daño significativo.
+**Hipótesis 2:** Creemos que al ofrecer alertas automáticas cuando la persona monitoreada sale de la zona segura, los cuidadores podrán reaccionar rápidamente para evitar situaciones peligrosas. Sabremos que hemos tenido éxito si el 95% de las alertas son atendidas en un plazo de 10 minutos, evitando cualquier riesgo significativo.
 
-**Hipótesis 3:** Creemos que, al integrar reportes semanales automáticos sobre las condiciones ambientales, los administradores podrán tomar decisiones más informadas sobre el mantenimiento y conservación. Sabremos que hemos tenido éxito si el 80% de los administradores reporta un aumento en la eficiencia de sus intervenciones de conservación dentro de los primeros tres meses.
+**Hipótesis 3:** Creemos que, al permitir el acceso al historial de movimientos, los cuidadores podrán prever posibles situaciones de riesgo. Sabremos que hemos tenido éxito si el 80% de los usuarios utiliza esta función para ajustar las zonas seguras dentro de los primeros tres meses.
 
-**Hipótesis 4:** Creemos que, al permitir el acceso remoto a los datos históricos de condiciones ambientales, los conservacionistas podrán identificar patrones y prever problemas antes de que ocurran. Sabremos que hemos tenido éxito si el 70% de los usuarios utiliza esta función para realizar ajustes preventivos en sus instalaciones.
+**Hipótesis 4:** Creemos que al incorporar un sistema de geo-cercas personalizable en tiempo real, los cuidadores podrán adaptar rápidamente las áreas seguras. Sabremos que hemos tenido éxito cuando el 90% de los usuarios ajusten las zonas al menos una vez al mes.
 
-**Hipótesis 5:** Creemos que, al ofrecer un sistema de alerta escalonado, donde los administradores son notificados según la gravedad del cambio ambiental, se reducirá el tiempo de respuesta ante condiciones críticas. Sabremos que hemos tenido éxito si el tiempo promedio de respuesta ante alertas críticas se reduce en un 40% dentro de los primeros dos meses.
+**Hipótesis 5:** Creemos que, al integrar un sistema de notificaciones por voz, los cuidadores tendrán una respuesta más rápida. Sabremos que hemos tenido éxito si el 85% de los usuarios considera útil esta característica.
 
-**Hipótesis 6:** Creemos que, al proporcionar opciones de personalización para los umbrales de alerta, los administradores podrán adaptar EnviroSafe a las necesidades específicas de sus colecciones. Sabremos que hemos tenido éxito si el 85% de los usuarios personaliza estos umbrales dentro del primer mes de uso.
+**Hipótesis 6:** Creemos que, al implementar un historial de alertas con recomendaciones automatizadas, los cuidadores podrán anticiparse a situaciones de riesgo. Sabremos que hemos tenido éxito si el 75% de los cuidadores encuentran las recomendaciones útiles para la prevención.
 
 ### 1.2.2.4. Lean UX Canvas
 
-![Lean UX Canvas](https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/Lean_UX_Canvas.png)
+<div style="text-align: center;">
+    <img src="./images/chapter-01/lean-ux-canvas.png" alt="Lean Ux Canvas">
+</div>
 
 ## 1.3. Segmentos objetivo
 
-**Segmento objetivo 1: Bibliotecas universitarias y académicas**  
-Este segmento se enfoca en instituciones educativas que tienen colecciones de libros y documentos antiguos que requieren una conservación cuidadosa. Estas bibliotecas buscan soluciones tecnológicas que les permitan mantener sus colecciones en condiciones óptimas, asegurando su disponibilidad para futuras generaciones de estudiantes e investigadores.
+**Segmento objetivo 1: Cuidadores o Familiares de personas con Alzheimer**  
+Este segmento se enfoca en los cuidadores y familiares de personas con Alzheimer que necesitan monitorear de cerca a estos pacientes para garantizar su seguridad. Buscan herramientas que les permitan reaccionar rápidamente ante situaciones peligrosas y mantener la tranquilidad de saber que sus seres queridos están seguros.
 
-**Segmento objetivo 2: Museos y galerías**  
-En este segmento, nos dirigimos a museos y galerías que albergan artefactos, documentos y obras de arte que requieren un control ambiental estricto para su preservación. Estas instituciones valoran las herramientas que les permitan monitorear y ajustar las condiciones en tiempo real, minimizando los riesgos de deterioro.
+**Segmento objetivo 2: Cuidadores o Familiares de niños pequeños**  
+Este segmento incluye a los cuidadores y familiares de niños pequeños que desean aumentar la seguridad y supervisión de los niños. Están interesados en soluciones que les permitan prevenir situaciones peligrosas al recibir alertas cuando los niños salen de las zonas seguras establecidas.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
