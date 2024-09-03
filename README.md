@@ -632,16 +632,3 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
     <td colspan="1" valign="top">Competencia en un mercado saturado de dispositivos de rastreo y monitoreo.</td>
   </tr>
 </table>
-
-### 2.1.2. Estrategias y tácticas frente a competidores
-
-Guardian Area implementará estrategias específicas para destacar en el mercado, nos basaremos en nuestras fortalezas y oportunidades y abordaremos las áreas de mejora necesarias:
-
-1. **Interfaz Mejorada y Usabilidad**: Simplificaremos el diseño de la interfaz para que sea fácil de navegar, permitiendo que los usuarios configuren geocercas y reciban alertas sin complicaciones. La facilidad de uso será un diferenciador clave.
-
-2. **Optimización del Usuario**: Usaremos datos de sensores para presentar gráficos claros en el dashboard, lo que permitirá a los usuarios interpretar rápidamente la información relevante.
-
-3. **Retroalimentación para Mejora Continua**:
-   Recogeremos opiniones de los usuarios y ajustaremos la plataforma según sus necesidades, asegurando que las funcionalidades evolucionen de acuerdo con sus expectativas.
-
-4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
