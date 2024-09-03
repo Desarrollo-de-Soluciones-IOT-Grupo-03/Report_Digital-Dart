@@ -436,20 +436,24 @@ La ausencia de un monitoreo y control eficaz de las condiciones ambientales cond
 ### 1.2.2.2. Lean UX Assumptions
 
 **Features:**
+
 - Monitoreo en tiempo real de humedad, temperatura e iluminación.
 - Control remoto de dispositivos que regulen estas condiciones.
 - Alertas automáticas ante cambios críticos en las condiciones ambientales.
 
 **Business outcomes:**
+
 - Incremento en la adopción de la solución por parte de instituciones académicas y culturales.
 - Generación de ingresos mediante la venta del dispositivo y suscripción a servicios de monitoreo avanzado.
 - Expansión geográfica a otras regiones y países donde la conservación de documentos es una prioridad.
 
 **Users:**
+
 - Bibliotecarios y conservadores responsables del mantenimiento de colecciones antiguas.
 - Administradores de museos y galerías que buscan proteger artefactos valiosos.
 
 **Users outcomes:**
+
 - Mejora en la conservación de colecciones, reduciendo el deterioro debido a condiciones ambientales.
 - Reducción en los costos asociados con la restauración y reemplazo de materiales dañados.
 - Tranquilidad para los administradores al saber que sus colecciones están protegidas de manera eficiente.
@@ -479,3 +483,165 @@ Este segmento se enfoca en instituciones educativas que tienen colecciones de li
 
 **Segmento objetivo 2: Museos y galerías**  
 En este segmento, nos dirigimos a museos y galerías que albergan artefactos, documentos y obras de arte que requieren un control ambiental estricto para su preservación. Estas instituciones valoran las herramientas que les permitan monitorear y ajustar las condiciones en tiempo real, minimizando los riesgos de deterioro.
+
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
+Luego de realizar una investigación en el mercado IOT, hemos hallado tres portales que ofrecen características similares a la de Guardian Area, por eso son considerados como potenciales competidores. Estos competidores son:
+
+1. **Angel Sense**: Dispositivo de rastreo GPS diseñado específicamente para la seguridad de niños, personas con necesidades especiales y adultos mayores. Ofrece funcionalidades como alertas de geocercas, monitoreo en tiempo real y comunicación directa con el usuario a través de una aplicación móvil.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-02/angel-sense-logo.svg" alt="Angel Sens" style="max-width: 400px; width: 30%;">
+</div>
+
+2. **Theora Care**: Proporciona soluciones de monitoreo dirigidas a personas mayores, especialmente aquellas con Alzheimer. Su plataforma incluye sensores de actividad, rastreo GPS y herramientas para detectar comportamientos inusuales.
+ 
+<div style="text-align: center;">
+    <img src="./images/chapter-02/theora-care-logo.png" alt="Theora Care" style="max-width: 400px; width: 30%;">
+</div>
+
+3. **Revolutionary Tracker**: Dispositivo portátil que combina el rastreo GPS con sensores de salud y seguridad. Su enfoque principal está en ofrecer un monitoreo integral para personas mayores, ayudando a las familias a mantener a sus seres queridos seguros y monitoreados.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-02/revolutionary-tracker-logo.png" alt="Revolutionary Tracker" style="max-width: 400px; width: 30%;">
+</div>
+
+### 2.1.1. Análisis competitivo
+
+<table>
+  <tr>
+    <th colspan="7" valign="top"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Este análisis se realizó con la finalidad de poder identificar a nuestros potenciales competidores e idear estrategias y tácticas para diferenciarnos de estos.</td>
+  </tr>
+  <tr>
+    <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        Guardian Area
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="" alt="Guardian Area" width="60px">
+        </div>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+    Theora Care
+    <div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/theora-care-logo.png" alt="Theora Care" width="100px">
+    </div>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+      AngelSense
+      <div style="text-align: center;">
+      <img src="./images/chapter-02/angel-sense-logo.svg" alt="Theora Care" width="100px">
+    </div>
+    <td colspan="1" valign="top" style="font-weight: bold;" >
+      Revolutionary Tracker 
+      <div style="text-align: center; margin-top: 10px;">
+        <img src="./images/chapter-02/revolutionary-tracker-logo.png" alt="Revolutionary Tracker" width="60px">
+            </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil</p></td>
+    <td colspan="2">Overview</td>
+    <td colspan="1" valign="top">Solución avanzada de monitoreo GPS con sensores adicionales para niños y personas con Alzheimer.</td>
+    <td colspan="1" valign="top">Sistema de monitoreo para personas mayores con Alzheimer, incluye sensores de actividad.</td>
+    <td colspan="1" valign="top">Dispositivo de rastreo GPS enfocado en niños, personas con necesidades especiales y adultos mayores.</td>
+    <td colspan="1" valign="top">Dispositivo portátil de rastreo GPS con sensores para detección de caídas y alertas.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td colspan="1" valign="top">Monitoreo en tiempo real, detección de caídas, alertas personalizables, sensores de salud integrados y configuración de geocercas</td>
+    <td colspan="1" valign="top">Monitoreo constante de actividad diaria y detección de patrones de comportamiento para evitar caídas y futuras lesiones.</td>
+    <td colspan="1" valign="top">Enfoque específico en la seguridad infantil con alertas de geocercas.</td>
+    <td colspan="1" valign="top">Combinación de rastreo GPS con monitoreo de salud y seguridad.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
+    <td colspan="2">Mercado objetivo</td>
+    <td colspan="1" valign="top">Familia con niños y familia con personas con Alzheimer</td>
+    <td colspan="1" valign="top">Cuidadores y familias de personas con Alzheimer.</td>
+    <td colspan="1" valign="top">Padres de niños con necesidades especiales, escuelas.</td>
+    <td colspan="1" valign="top">Familias y cuidadores de personas mayores.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Estrategias de marketing</td>
+    <td colspan="1" valign="top">Guardian Area planteará una estrategia basada en publicidad en redes sociales, colaboraciones con centros de salud, comunidades médicas y de cuidado con un enfoque en tranquilidad familiar.</td>
+    <td colspan="1" valign="top">Campañas en comunidades médicas y asociaciones de Alzheimer.</td>
+    <td colspan="1" valign="top">Enfoque en redes sociales y grupos de apoyo para niños con necesidades especiales.</td>
+    <td colspan="1" valign="top">Publicidad en revistas de salud y bienestar, marketing digital enfocado en seguridad.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
+    <td colspan="2">Productos & Servicios</td>
+    <td colspan="1" valign="top">Dispositivo portátil con GPS y sensores para monitoreo de salud y seguridad. Además, plataforma digital para el monitoreo a través de un dashboard y control de sensores y configuración de geocercas.</td>
+    <td colspan="1" valign="top">Monitoreo de actividad, rastreo GPS, alertas de comportamiento inusual.</td>
+    <td colspan="1" valign="top">Dispositivo de rastreo GPS con alertas.</td>
+    <td colspan="1" valign="top">Dispositivo portátil con GPS, sensores de caída, y monitoreo de salud.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Precios & Costos</td>
+    <td colspan="1" valign="top">$150 por dispositivo, suscripción mensual de $10.</td>
+    <td colspan="1" valign="top">$247.97 por dispositivo con un plan mensual de $29.97</td>
+    <td colspan="1" valign="top">$229 por el dispositivo con un plan mensual de $49.99 mensuales por un plan anual. Con una tarifa de activación de $19.</td>
+    <td colspan="1" valign="top">262.87 por el dispositivo</td>
+  </tr>
+  <tr>
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top">Los canales de distribución son Página web oficial, App Store y Google Play.</td>
+    <td colspan="1" valign="top">Los canales de distribución son Página web oficial, App Store y Google Play.</td>
+    <td colspan="1" valign="top">Los canales de distribución son Página web oficial, App Store y Google Play.</td>
+    <td colspan="1" valign="top">El canal de distribución es la Web</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
+    <td colspan="6">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Fortalezas</td>
+    <td colspan="1" valign="top">Integración de sensores de salud y seguridad, fácil de usar, enfoque en segmentos vulnerables y genración de dashboard de indicadores.</td>
+    <td colspan="1" valign="top">Comunicación directa con el usuario, accesible y fácil de usar para personas mayores.</td>
+    <td colspan="1" valign="top">Diseño especializado para niños, alertas rápidas, fácil uso para padres.</td>
+    <td colspan="1" valign="top">Combinación de tecnologías de seguridad y salud en un solo dispositivo.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td colspan="1" valign="top">Necesidad de suscripción mensual.</td>
+    <td colspan="1" valign="top">Precio elevado y enfoque limitado a personas con Alzheimer.</td>
+    <td colspan="1" valign="top">Costo mensual elevado, limitado a un solo usuario por dispositivo.</td>
+    <td colspan="1" valign="top">Enfoque principal en personas mayores y sin actualizaciones constantes en sus redes.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td colspan="1" valign="top">Expansión hacia otros mercados de salud y bienestar, integración con apps de salud.</td>
+    <td colspan="1" valign="top">Expansión de las funciones para otros tipos de enfermedades neurodegenerativas.</td>
+    <td colspan="1" valign="top">Expansión a mercados internacionales, mejoras en la precisión del rastreo.</td>
+    <td colspan="1" valign="top">Ampliación de la funcionalidad para incluir más métricas de salud.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td colspan="1" valign="top">Competencia de dispositivos con integración de IA</td>
+    <td colspan="1" valign="top">Nuevas soluciones de monitoreo basadas en IA que podrían ofrecer mejores resultados.	</td>
+    <td colspan="1" valign="top">Aparición de nuevos competidores con tecnología más avanzada.</td>
+    <td colspan="1" valign="top">Competencia en un mercado saturado de dispositivos de rastreo y monitoreo.</td>
+  </tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Guardian Area implementará estrategias específicas para destacar en el mercado, nos basaremos en nuestras fortalezas y oportunidades y abordaremos las áreas de mejora necesarias:
+
+1. **Interfaz Mejorada y Usabilidad**: Simplificaremos el diseño de la interfaz para que sea fácil de navegar, permitiendo que los usuarios configuren geocercas y reciban alertas sin complicaciones. La facilidad de uso será un diferenciador clave.
+
+2. **Optimización del Usuario**: Usaremos datos de sensores para presentar gráficos claros en el dashboard, lo que permitirá a los usuarios interpretar rápidamente la información relevante.
+
+3. **Retroalimentación para Mejora Continua**:
+   Recogeremos opiniones de los usuarios y ajustaremos la plataforma según sus necesidades, asegurando que las funcionalidades evolucionen de acuerdo con sus expectativas.
+
+4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
