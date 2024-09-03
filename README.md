@@ -133,7 +133,7 @@
 ### [Capítulo IV: Solution Software Design](#capc3adtulo-iv-solution-software-design)
 
 - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. EventStorming](#411-eventstorming)
+  - [4.1.1. Event Storming](#411-event-storming)
     - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
     - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
     - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
@@ -491,7 +491,7 @@ Este segmento incluye a los cuidadores y familiares de niños pequeños que dese
 
 ## 2.1. Competidores
 
-Luego de realizar una investigación en el mercado IOT, hemos hallado tres portales que ofrecen características similares a la de Guardian Area, por eso son considerados como potenciales competidores. Estos competidores son:
+Luego de realizar una investigación en el mercado IOT, hemos hallado tres portales que ofrecen características similares a la de GuardianArea, por eso son considerados como potenciales competidores. Estos competidores son:
 
 1. **Angel Sense**: Dispositivo de rastreo GPS diseñado específicamente para la seguridad de niños, personas con necesidades especiales y adultos mayores. Ofrece funcionalidades como alertas de geocercas, monitoreo en tiempo real y comunicación directa con el usuario a través de una aplicación móvil.
 
@@ -502,7 +502,7 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
 2. **Theora Care**: Proporciona soluciones de monitoreo dirigidas a personas mayores, especialmente aquellas con Alzheimer. Su plataforma incluye sensores de actividad, rastreo GPS y herramientas para detectar comportamientos inusuales.
  
 <div style="text-align: center;">
-    <img src="./images/chapter-02/theora-care-logo.png" alt="Theora Care" style="max-width: 400px; width: 30%;">
+    <img src="./images/chapter-02/theora-care-logo.png" alt="Theora Care" style="max-width: 400px; width: 30%">
 </div>
 
 3. **Revolutionary Tracker**: Dispositivo portátil que combina el rastreo GPS con sensores de salud y seguridad. Su enfoque principal está en ofrecer un monitoreo integral para personas mayores, ayudando a las familias a mantener a sus seres queridos seguros y monitoreados.
@@ -527,10 +527,10 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
   <tr>
     <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
     <td colspan="1" valign="top" style="font-weight: bold;">
-        Guardian Area
+        GuardianArea
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="Guardian Area" width="60px">
+                <img src="" alt="GuardianArea" width="60px">
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Theora Care
@@ -575,7 +575,7 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
   </tr>
   <tr>
     <td colspan="2">Estrategias de marketing</td>
-    <td colspan="1" valign="top">Guardian Area planteará una estrategia basada en publicidad en redes sociales, colaboraciones con centros de salud, comunidades médicas y de cuidado con un enfoque en tranquilidad familiar.</td>
+    <td colspan="1" valign="top">GuardianArea planteará una estrategia basada en publicidad en redes sociales, colaboraciones con centros de salud, comunidades médicas y de cuidado con un enfoque en tranquilidad familiar.</td>
     <td colspan="1" valign="top">Campañas en comunidades médicas y asociaciones de Alzheimer.</td>
     <td colspan="1" valign="top">Enfoque en redes sociales y grupos de apoyo para niños con necesidades especiales.</td>
     <td colspan="1" valign="top">Publicidad en revistas de salud y bienestar, marketing digital enfocado en seguridad.</td>
@@ -638,13 +638,119 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-Guardian Area implementará estrategias específicas para destacar en el mercado, nos basaremos en nuestras fortalezas y oportunidades y abordaremos las áreas de mejora necesarias:
+GuardianArea implementará estrategias específicas para destacar en el mercado, nos basaremos en nuestras fortalezas y oportunidades y abordaremos las áreas de mejora necesarias:
 
 1. **Interfaz Mejorada y Usabilidad**: Simplificaremos el diseño de la interfaz para que sea fácil de navegar, permitiendo que los usuarios configuren geocercas y reciban alertas sin complicaciones. La facilidad de uso será un diferenciador clave.
 
 2. **Optimización del Usuario**: Usaremos datos de sensores para presentar gráficos claros en el dashboard, lo que permitirá a los usuarios interpretar rápidamente la información relevante.
 
-3. **Retroalimentación para Mejora Continua**:
-   Recogeremos opiniones de los usuarios y ajustaremos la plataforma según sus necesidades, asegurando que las funcionalidades evolucionen de acuerdo con sus expectativas.
+3. **Retroalimentación para Mejora Continua**: Recogeremos opiniones de los usuarios y ajustaremos la plataforma según sus necesidades, asegurando que las funcionalidades evolucionen de acuerdo con sus expectativas.
 
 4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
+
+# Capítulo IV: Solution Software Design
+## 4.1. Strategic-Level Domain-Driven Design
+### 4.1.1. Event Storming
+
+Durante nuestra sesión de event storming, llevamos a cabo una reunión en la que discutimos diversas ideas. A lo largo de la sesión, identificamos conceptos clave para nuestra aplicación y comenzamos a desarrollar las primeras versiones.
+
+A continuación, presentaremos el desarrollo de nuestro event storming, realizado con la herramienta Miro. En esta sesión participaron los cinco integrantes de Digital Dart, quienes contribuyeron con sus ideas y perspectivas para el avance del proyecto.
+
+**Paso 1: Unstructured Exploration**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/0-postits-event.png" alt="PostIts" style="max-width: 800px; width: 95%">
+</div>
+<div style="text-align: center;">
+    <img src="./images/chapter-04/1-step-event.png" alt="Paso 1" style="max-width: 800px; width: 95%">
+</div>
+En esta etapa, identificamos y agrupamos los eventos clave del sistema en pasado, considerando tanto las acciones significativas como los distintos tipos de usuarios y funcionalidades principales de la aplicación.
+
+**Paso 02: Timelines**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/1-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+En este paso, organizamos los eventos de dominio en el orden en que ocurren, comenzando con el flujo ideal ("happy path") y luego añadiendo escenarios alternativos para cubrir diversas situaciones("unhappy path").
+
+**Paso 03: Paint Points**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/3-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+Durante el proceso, identificamos los puntos críticos, que son áreas donde los usuarios enfrentan dificultades o fricciones. Abordar estos puntos es esencial para mejorar la experiencia del usuario y optimizar el diseño del sistema.
+
+**Paso 04: Pivotal Points**
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/4-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+
+Identificamos los eventos fundamentales, marcados con una barra vertical, que indican cambios significativos en el contexto o fase del flujo de trabajo. 
+
+**Paso 05: Commands**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/5-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+En esta etapa, identificamos los comandos que inician los eventos y asignamos cada uno a un actor específico, clarificando así las acciones y responsabilidades dentro del sistema.
+
+**Paso 06: Policies**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/6-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+Identificamos y definimos las políticas que automatizan la ejecución de comandos basados en eventos específicos del sistema.
+
+**Paso 07: Read Models**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/7-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+Durante este paso diseñamos los modelos de lectura que proporcionan la información necesaria para que los actores tomen decisiones y ejecuten comandos de manera eficiente.
+
+**Paso 08: External Systems**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/8-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+Durante esta etapa, se identifican los sistemas externos relevantes para cada contexto y se definen las interfaces y comunicaciones necesarias para su integración efectiva.
+
+**Paso 09: Aggregates**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/9-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+Definimos y diseñamos los agregados para cada contexto del sistema, asegurando que representen de manera coherente las transacciones y operaciones clave, agrupando conceptos relacionados y gestionando comandos y eventos asociados.
+
+**Paso 10: Bounded Contexts**
+<div style="text-align: center;">
+    <img src="./images/chapter-04/10-step-event.png" alt="Paso 2" style="max-width: 800px; width: 95%">
+</div>
+En esta etapa final, se identifican y definen los contextos delimitados, agrupando los agregados que están estrechamente relacionados o que interactúan entre sí mediante políticas. Estos contextos delimitados ayudan a organizar y gestionar las distintas áreas del sistema.
+
+**Link Miro:** [Event Storming]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
