@@ -648,6 +648,21 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
 
+# Capítulo III: Requirements Specification
+## 3.1. To-Be Scenario Mapping
+
+**Segmento: Cuidadores de Niños**
+<div style="text-align: center;">
+    <img src="./images/chapter-03/to-be-child.png" alt="To-Be Child" style="max-width: 800px; width: 95%">
+</div>
+<br>
+
+**Segmento: Cuidadores de Personas con Alzheimer**
+<div style="text-align: center;">
+    <img src="./images/chapter-03/to-be-alzheimer.png" alt="To-Be Alzheimer" style="max-width: 800px; width: 95%">
+</div>
+<br>
+
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. Event Storming
