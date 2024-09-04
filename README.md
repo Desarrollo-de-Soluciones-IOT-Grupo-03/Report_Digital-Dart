@@ -265,7 +265,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 <table align="center"  border="1" width="70%" style="text-align:center;">
     <tr align="center">
         <td rowspan="3">
-            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/steve.png" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/steve_rogers.png" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -289,7 +289,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/castro.png" alt="Diego Castro" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/diego_castro.png" alt="Diego Castro" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
