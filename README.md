@@ -337,7 +337,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/esquivel.png" alt="Diego Esquivel" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/diego_esquivel.png" alt="Diego Esquivel" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -647,6 +647,94 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 3. **Retroalimentación para Mejora Continua**: Recogeremos opiniones de los usuarios y ajustaremos la plataforma según sus necesidades, asegurando que las funcionalidades evolucionen de acuerdo con sus expectativas.
 
 4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
+
+## 2.2. Entrevistas
+
+### 2.2.1 Diseño de entrevistas
+
+**Preguntas Demográficas**
+
+- ¿Cómo te llamas?
+- ¿Cuántos años tienes?
+- ¿Lugar de residencia?
+- Estado Civil?
+- ¿A qué te dedicas actualmente?
+
+**Preguntas sobre personalidad:**
+
+- ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?
+
+---
+
+### Entrevistas para Cuidadores o Familiares de Personas con Alzheimer
+
+**Datos Demográficos**
+
+1. ¿Cuál es su relación con la persona que padece Alzheimer?
+
+**Preferencias y Uso de Tecnología**
+
+1. ¿Con qué frecuencia utiliza estas tecnologías (aplicaciones móviles y aplicaciones web)?
+2. ¿Utiliza actualmente algún dispositivo o tecnología para monitorear la salud o ubicación de su ser querido?
+3. ¿Ha habido alguna situación en la que sintió que una tecnología podría haberle ayudado, pero no la tenía a su disposición?
+
+**Objetivos y Motivaciones**
+
+1. ¿Cuáles son sus principales preocupaciones en el cuidado de su ser querido con Alzheimer?
+2. ¿Qué espera obtener de un sistema que monitoree en tiempo real la ubicación y salud de su ser querido?
+3. ¿Le gustaría tener la posibilidad de compartir los datos del monitoreo con otros miembros de la familia o cuidadores?
+
+**Frustraciones y Desafíos**
+
+1. ¿Cuáles son las mayores dificultades que enfrenta en el cuidado diario de su ser querido?
+2. ¿Ha enfrentado algún problema que podría haber sido resuelto con tecnología?
+
+**Biografía**
+
+1. ¿Cuánto tiempo lleva cuidando a su ser querido con Alzheimer?
+2. ¿Cómo describiría un día típico en el cuidado de su ser querido?
+
+**Opinión sobre la idea de negocio**
+
+1. ¿Qué te parece la idea de nuestro proyecto? ¿Te sería útil?
+2. ¿Tienes sugerencias sobre posibles mejoras o características adicionales que podríamos integrar en nuestra aplicación?
+
+---
+
+### Entrevistas para Cuidadores o Familiares de Niños Pequeños
+
+**Datos Demográficos**
+
+1. ¿Cuál es su relación con el niño que cuida?
+
+**Preferencias y Uso de Tecnología**
+
+1. ¿Con qué frecuencia utiliza dispositivos tecnológicos (smartphones, tablets, wearables)?
+2. ¿Qué tan cómodo se siente utilizando aplicaciones móviles?
+3. ¿Utiliza actualmente algún dispositivo o tecnología para monitorear la seguridad o salud de su hijo/a?
+4. ¿Ha habido alguna situación en la que sintió que una tecnología podría haberle ayudado, pero no la tenía a su disposición?
+
+**Objetivos y Motivaciones**
+
+1. ¿Cuáles son sus principales preocupaciones en relación a la seguridad y bienestar de su hijo/a?
+2. ¿Qué beneficios espera obtener de un sistema que monitoree en tiempo real la ubicación y salud de su hijo/a?
+3. ¿Qué características considera más importantes en un sistema de monitoreo? (e.g., alertas, seguimiento de ubicación, monitoreo de salud, facilidad de uso, etc.)
+4. ¿Le gustaría tener la posibilidad de compartir los datos del monitoreo con otros miembros de la familia o cuidadores?
+
+**Frustraciones y Desafíos**
+
+1. ¿Qué problemas has enfrentado en el cuidado diario de su hijo/a?
+2. ¿Ha enfrentado algún problema que podría haber sido resuelto con tecnología?
+
+**Biografía**
+
+1. ¿Cuánto tiempo lleva cuidando a su hijo/a?
+2. ¿Cómo describiría un día típico en el cuidado de su hijo/a?
+
+**Opinión sobre la idea de negocio**
+
+1. ¿Qué te parece la idea de nuestro proyecto? ¿Te sería útil?
+2. ¿Tienes sugerencias sobre posibles mejoras o características adicionales que podríamos integrar en nuestra aplicación?
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
