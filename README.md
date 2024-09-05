@@ -648,6 +648,27 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
 
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+#### **User Persona 01: María López**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_persona_01.png" alt="María López" width="70%">
+</div>
+
+#### **User Persona 02: Carlos Pérez**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_persona_02.png" alt="Carlos Pérez" width="70%">
+</div>
+
+### 2.3.2. User Task Matrix
+
+
+
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
