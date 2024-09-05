@@ -313,7 +313,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/Jenn.png" alt="Jennifer Espinoza" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/jennifer_espinoza.png" alt="Jennifer Espinoza" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
