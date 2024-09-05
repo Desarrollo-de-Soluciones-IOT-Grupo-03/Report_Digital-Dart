@@ -736,6 +736,80 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 1. ¿Qué te parece la idea de nuestro proyecto? ¿Te sería útil?
 2. ¿Tienes sugerencias sobre posibles mejoras o características adicionales que podríamos integrar en nuestra aplicación?
 
+### 2.2.2 Registro de entrevistas
+
+### Segmento 1
+
+**Entrevista 01**
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Distrito: 
+- Evidencia de la reunión: 
+- Inicio: 
+- Fin: 
+- Enlace de entrevista: 
+- Resumen de la entrevista: 
+
+**Entrevista 02**
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Distrito: 
+- Evidencia de la reunión: 
+- Inicio: 
+- Fin: 
+- Enlace de entrevista: 
+- Resumen de la entrevista: 
+
+**Entrevista 03**
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Distrito: 
+- Evidencia de la reunión: 
+- Inicio: 
+- Fin: 
+- Enlace de entrevista: 
+- Resumen de la entrevista: 
+
+---
+
+### Segmento 2
+
+**Entrevista 01**
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Distrito: 
+- Evidencia de la reunión: 
+- Inicio: 
+- Fin: 
+- Enlace de entrevista: 
+- Resumen de la entrevista: 
+
+**Entrevista 02**
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Distrito: 
+- Evidencia de la reunión: 
+- Inicio: 
+- Fin: 
+- Enlace de entrevista: 
+- Resumen de la entrevista: 
+
+**Entrevista 03**
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Distrito: 
+- Evidencia de la reunión: 
+- Inicio: 
+- Fin: 
+- Enlace de entrevista: 
+- Resumen de la entrevista: 
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
