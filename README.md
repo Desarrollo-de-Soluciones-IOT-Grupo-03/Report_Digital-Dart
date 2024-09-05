@@ -530,7 +530,7 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
         GuardianArea
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="GuardianArea" width="60px">
+            <img src="./images/chapter-02/guardian_area_logo.svg" alt="GuardianArea" width="60px">
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Theora Care
@@ -590,7 +590,7 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
   </tr>
   <tr>
     <td colspan="2">Precios & Costos</td>
-    <td colspan="1" valign="top">$150 por dispositivo, suscripción mensual de $10.</td>
+    <td colspan="1" valign="top">$150 por dispositivo, suscripción mensual entre $10 a $35</td>
     <td colspan="1" valign="top">$247.97 por dispositivo con un plan mensual de $29.97</td>
     <td colspan="1" valign="top">$229 por el dispositivo con un plan mensual de $49.99 mensuales por un plan anual. Con una tarifa de activación de $19.</td>
     <td colspan="1" valign="top">262.87 por el dispositivo</td>
@@ -738,7 +738,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ### 2.2.2 Registro de entrevistas
 
-### Segmento 1
+### Segmento 1: Cuidadores o Familiares de personas con Alzheimer
 
 **Entrevista 01**
 - Nombres: 
@@ -775,7 +775,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### Segmento 2
+### Segmento 2: Cuidadores o Familiares de niños pequeños
 
 **Entrevista 01**
 - Nombres: 
@@ -789,15 +789,26 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 - Resumen de la entrevista: 
 
 **Entrevista 02**
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Distrito: 
+- Nombres: Angie Beverly
+- Apellidos: Zavaleta Quispe
+- Edad: 28
+- Distrito: Rímac 
 - Evidencia de la reunión: 
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_angie_zavaleta.png" alt="Entrevista 01"  width="90%"/>
+    </div> 
 - Inicio: 
 - Fin: 
 - Enlace de entrevista: 
 - Resumen de la entrevista: 
+  
+  Angie Zavaleta Quispe, de 28 años, trabaja en el area de recursos humanos y vive en el Rímac. Ella se considera introvertida, especialmente con personas nuevas, aunque se siente más cómoda con quienes ya conoce. Angie se ocupa del cuidado de su hermana pequeña de 9 años, quien es bastante hiperactiva, ello le genera preocupación, especialmente cuando están fuera de casa.
+  
+  Actualmente, Angie no emplea dispositivos de monitoreo, pero la idea de un sistema que le permita verificar la ubicación de su hermana en tiempo real le resulta atractiva. Angie contó una experiencia, donde su hermana se perdió en un mercado, lo que preocupó a su familia y le generó la necesidad de controlar la ubicación de su hermana cuando sale.
+  
+  Angie comenta que durante los fines de semana, ella y su hermana disfrutan de salir a parques, lo que resalta la necesidad de vigilar constantemente a su hermana debido a su hiperactividad. GuardianArea sería ideal para ellas, facilitando este monitoreo constante de manera efectiva.
+  
+  En resumen, Angie ve un gran valor con **GuaridianArea** que puede ofrecerle tranquilidad y seguridad al saber que puede monitorear la ubicación de su hermana en tiempo real y recibir alertas si sale de una zona segura.
 
 **Entrevista 03**
 - Nombres: 
