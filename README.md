@@ -666,6 +666,178 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ### 2.3.2. User Task Matrix
 
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr>
+        <td></td>
+        <td colspan=2>
+            <b>User Persona</b>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan=2>
+            <b>María López</b> </br>Segmento Objetivo 01 (Cuidadora de personas con Alzheimer)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Task</b>
+        </td>
+        <td>
+            <b>Frequency</b>
+        </td>
+        <td>
+            <b>Importance</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Establecer geocercas de seguridad
+        </td>
+        <td>
+            Medium
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Monitorear ubicación en tiempo real
+        </td>
+        <td>
+            High
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recibir notificaciones de salida de geocerca
+        </td>
+        <td>
+            High
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Revisar historial de actividad
+        </td>
+        <td>
+            Medium
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Gestionar sincronización del dispositivo
+        </td>
+        <td>
+            Low
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recibir alertas de batería baja del dispositivo
+        </td>
+        <td>
+            Low
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr>
+        <td></td>
+        <td colspan=2>
+            <b>User Persona</b>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan=2>
+            <b>Carlos Pérez</b> </br>Segmento Objetivo 02 (Familiar de niños pequeños)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Task</b>
+        </td>
+        <td>
+            <b>Frequency</b>
+        </td>
+        <td>
+            <b>Importance</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Establecer geocercas de seguridad
+        </td>
+        <td>
+            Medium
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Monitorear ubicación en tiempo real
+        </td>
+        <td>
+            High
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recibir notificaciones de salida de geocerca
+        </td>
+        <td>
+            High
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Revisar historial de actividad
+        </td>
+        <td>
+            Low
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recibir alertas de batería baja del dispositivo
+        </td>
+        <td>
+            Low
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+</table>
 
 
 
