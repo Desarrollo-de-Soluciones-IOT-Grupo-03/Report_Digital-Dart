@@ -778,15 +778,24 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 ### Segmento 2: Cuidadores o Familiares de niños pequeños
 
 **Entrevista 01**
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Distrito: 
+- Nombres: Natalia Jimena 
+- Apellidos: La Rosa Marcos
+- Edad: 24
+- Distrito: Bellavista 
 - Evidencia de la reunión: 
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_natalia_larosa.jpg" alt="Entrevista 01"  width="90%"/>
+    </div> 
 - Inicio: 
 - Fin: 
 - Enlace de entrevista: 
 - Resumen de la entrevista: 
+
+    Natalia La Rosa tiene 24 años y es egresada de la carrera de ingeniería biomédica. Ella cuida a su hermano pequeño regularmente. Se considera una persona muy introvertida, especialmente en situaciones que incluyen a extraños. Josué usa dispositivos tecnológicos ocasionalmente para rastrear su estudio, y para monitorear la cámara de su hogar, pero no utiliza tecnología como sensores de monitoreo para cuidar a su hermano.
+
+    José dijo que no tener a un adulto presente para cuidar de su hermano, ya que su madre está trabajando, es la razón por la que está realmente preocupado por su hermano. Opina que una aplicación que lleve a cabo la vigilancia con acciones a control remoto sería una buena manera de cuidar a su hermano en situaciones críticas, como verse obligado a quedarse solo en casa. Además, le gustaría poder controlar las cámaras desde más de un dispositivo y cree que un sistema que no solo le permita vigilar, sino también intervenir en caso de una emergencia sería de un valor inestimable para él.
+
+    José siente que una aplicación como GuardianArea sería lo que el doctor ordenó en su caso, ya que no solo le permitiría estar en paz a través de vigilar y proteger a su hermano de una manera más competente, sino también de estar mejor equipado para intervenir en caso de una emergencia.
 
 **Entrevista 02**
 - Nombres: Angie Beverly
@@ -825,11 +834,15 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 - Enlace de entrevista: 
 - Resumen de la entrevista: 
 
-    José Ampudia tiene 20 años y es un estudiante de ingeniería que también cuida a su hermano de 5 años. Se considera una persona muy introvertida, especialmente en situaciones que incluyen a extraños. Josué usa dispositivos tecnológicos ocasionalmente para rastrear su estudio, y para monitorear la cámara de su hogar, pero no utiliza tecnología como sensores de monitoreo para cuidar a su hermano.
+    Natalia La Rosa, de 24 años, es ingeniera biomédica y reside en Bellavista, Callao. Se describe como una persona extrovertida, que disfruta de salir con amigos y conocer gente nueva. Además, es responsable del cuidado de su hermano menor, para lo cual utiliza herramientas tecnológicas, aunque su principal recurso ha sido el control parental de YouTube.
 
-    José dijo que no tener a un adulto presente para cuidar de su hermano, ya que su madre está trabajando, es la razón por la que está realmente preocupado por su hermano. Opina que una aplicación que lleve a cabo la vigilancia con acciones a control remoto sería una buena manera de cuidar a su hermano en situaciones críticas, como verse obligado a quedarse solo en casa. Además, le gustaría poder controlar las cámaras desde más de un dispositivo y cree que un sistema que no solo le permita vigilar, sino también intervenir en caso de una emergencia sería de un valor inestimable para él.
+    Natalia expresó su preocupación por la seguridad de su hermano, sobre todo cuando está ocupada con sus estudios universitarios o trabajo. Le preocupa que su hermano pueda abrir la puerta a extraños o salir solo, lo que lo pondría en peligro.
 
-    José siente que una aplicación como GuardianArea sería lo que el doctor ordenó en su caso, ya que no solo le permitiría estar en paz a través de vigilar y proteger a su hermano de una manera más competente, sino también de estar mejor equipado para intervenir en caso de una emergencia.
+    Natalia considera que un sistema de monitoreo en tiempo real sería ideal para su situación, destacando la importancia de la precisión en la ubicación y la emisión de alarmas inmediatas si su hermano sale de la zona segura. También le parece relevante que el sistema sea fácil de usar y tenga la posibilidad de conectarse con la policía para reportar emergencias de manera rápida.
+
+    En su experiencia diaria, Natalia ha enfrentado situaciones difíciles, como el hecho de que su hermano salga solo a la calle, exponiéndose a diversos peligros. Un día típico para ella incluye llevar y recoger a su hermano del colegio, y permitirle entrar y salir de casa con una llave, lo que le genera cierta preocupación.
+
+    Finalmente, Natalia considera que el proyecto de monitoreo propuesto sería de gran utilidad para su familia, ya que les permitiría estar más al tanto de la ubicación y las actividades de su hermano. Sugiere que se integre una conexión directa con la policía para reportar desapariciones de forma inmediata, lo que mejoraría significativamente la seguridad.
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
