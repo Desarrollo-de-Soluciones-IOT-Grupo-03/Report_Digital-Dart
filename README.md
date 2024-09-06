@@ -811,15 +811,25 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
   En resumen, Angie ve un gran valor con **GuaridianArea** que puede ofrecerle tranquilidad y seguridad al saber que puede monitorear la ubicación de su hermana en tiempo real y recibir alertas si sale de una zona segura.
 
 **Entrevista 03**
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Distrito: 
+- Nombres: José Carlos Isaac
+- Apellidos: Ampudia Flores
+- Edad: 20
+- Distrito: Monterrico
 - Evidencia de la reunión: 
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_jose_isaac.png" alt="Entrevista 01"  width="90%"/>
+    </div>
+
 - Inicio: 
 - Fin: 
 - Enlace de entrevista: 
 - Resumen de la entrevista: 
+
+    José Ampudia tiene 20 años y es un estudiante de ingeniería que también cuida a su hermano de 5 años. Se considera una persona muy introvertida, especialmente en situaciones que incluyen a extraños. Josué usa dispositivos tecnológicos ocasionalmente para rastrear su estudio, y para monitorear la cámara de su hogar, pero no utiliza tecnología como sensores de monitoreo para cuidar a su hermano.
+
+    José dijo que no tener a un adulto presente para cuidar de su hermano, ya que su madre está trabajando, es la razón por la que está realmente preocupado por su hermano. Opina que una aplicación que lleve a cabo la vigilancia con acciones a control remoto sería una buena manera de cuidar a su hermano en situaciones críticas, como verse obligado a quedarse solo en casa. Además, le gustaría poder controlar las cámaras desde más de un dispositivo y cree que un sistema que no solo le permita vigilar, sino también intervenir en caso de una emergencia sería de un valor inestimable para él.
+
+    José siente que una aplicación como GuardianArea sería lo que el doctor ordenó en su caso, ya que no solo le permitiría estar en paz a través de vigilar y proteger a su hermano de una manera más competente, sino también de estar mejor equipado para intervenir en caso de una emergencia.
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
