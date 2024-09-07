@@ -1298,6 +1298,13 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 | **Descripción:**         | Como cuidador, quiero establecer el comportamiento del dispositivo cuando la persona a cuidar se acerque a una geo-cerca para tener un mayor control. |
 | **Criterio de Aceptación:** | **Scenario 01:** Configurar Alerta Personalizada <br/> Dado que quiero establecer una alerta específica, <br/> Cuando accedo a la configuración de alertas, <br/> Entonces debería poder definir los criterios para la alerta personalizada. <br/><br/> **Scenario 02:** Editar Alerta Personalizada <br/> Dado que necesito ajustar una alerta existente, <br/> Cuando selecciono una alerta personalizada en la configuración, <br/> Entonces debería poder editar los criterios y guardar los cambios. |
 
+## 3.3. Impact Mapping
+<div style="text-align: center;">
+    <img src="./images/chapter-03/impact_map_1.png" alt="Impact Mapping" style="max-width: 800px; width: 95%">
+</div>
+<div style="text-align: center;">
+    <img src="./images/chapter-03/impact_map_2.png" alt="Impact Mapping" style="max-width: 800px; width: 95%">
+</div>
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
