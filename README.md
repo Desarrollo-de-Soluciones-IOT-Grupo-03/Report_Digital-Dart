@@ -1674,6 +1674,13 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 
 **Link:** https://miro.com/app/board/uXjVKmArvc8=/?share_link_id=24645524909 
 
+### 4.1.3. Software Architecture
+
+### 4.1.3.1. Software Architecture System Landscape Diagram
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/system-landscape.png" alt="System Landscape Diagram" style="max-width: 800px; width: 95%">
+</div>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
