@@ -789,15 +789,28 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
   Finalmente, Adrián considera que un sistema de geo-cerca sería una solución ideal para monitorear a su abuela. Además, sugiere que la inclusión de una cámara que se active al recibir una alarma ayudaría a verificar si su abuela está en peligro, brindando una mayor sensación de seguridad y tranquilidad.
 
 **Entrevista 03**
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Distrito: 
-- Evidencia de la reunión: 
+- Nombres: Piero Alessandro
+- Apellidos: Descalzi Saenz
+- Edad: 21
+- Distrito: Breña
+- Evidencia de la reunión:
+   <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_piero_descalzi.png" alt="Entrevista 03"  width="90%"/>
+    </div> 
 - Inicio: 
 - Fin: 
 - Enlace de entrevista: 
 - Resumen de la entrevista: 
+
+    Durante la entrevista, recibí a Piero Descalci, un diseñador de videojuegos de 21 años que vive en Lima, Breña, y que se describe como una persona introvertida. Piero me comentó que prefiere pasar tiempo en casa con su familia, especialmente ahora que su primo Campos, diagnosticado conDu Alzheimer hace unos años, necesita más atención.
+
+    Piero utiliza aplicaciones móviles y páginas web diariamente para coordinar citas médicas y gestionar las tareas del cuidado de su primo. Me confesó que la seguridad es su principal preocupación, ya que teme que Campos se pierda o enfrente problemas de salud sin que puedan intervenir a tiempo.
+
+    El desgaste emocional ha sido una de las mayores dificultades para Piero, quien compartió conmigo momentos realmente angustiosos, como cuando su primo se perdió, lo que resultó en situaciones aterradoras y en un sentimiento constante de no estar haciendo lo suficiente. Me contó que en varias ocasiones la tecnología podría haber sido de gran ayuda, como cuando su primo se alejó de casa y no contaban con un dispositivo que los alertara. Esto los hizo perder mucho tiempo buscándolo, deseando tener alguna herramienta que pudiera ayudarlos en esos momentos críticos.
+
+    Le hablé del desarrollo en el que estamos trabajando: una pulsera con rastreador que notifica si una persona con Alzheimer o un niño pequeño sale de un área delimitada. Piero consideró que esta idea sería de gran utilidad para ofrecer mayor seguridad y tranquilidad a las familias y cuidadores.
+
+    Finalmente, Piero sugirió algunas mejoras para la aplicación, como la capacidad de enviar alertas a varios miembros de la familia simultáneamente y la posibilidad de monitorear más parámetros de salud, como el ritmo cardíaco o la presión arterial. Le agradecí por su participación y concluimos la entrevista.
 
 ---
 
