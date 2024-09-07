@@ -1525,6 +1525,15 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
 
 ---
 
+### **IoT Technical Stories**
+
+| # Orden | Technical Story Id | Título                                                        | Descripción                                                                                                               | Story Points |
+|---------|--------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | TS10               | API para Activación de Alarmas en Situaciones de Peligro       | Como desarrollador, quiero implementar una API para activar alarmas sonoras en el dispositivo cuando se detecta peligro.   | 5            |
+| 2       | TS11               | API para Control de Dispositivos Externos                     | Como desarrollador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro. | 5            |
+| 3       | TS12               | API para Diagnóstico del Dispositivo                           | Como desarrollador, quiero implementar una API que realice un diagnóstico del dispositivo GuardianArea.                    | 3            |
+| 4       | TS13               | Crear APIs para Gestionar Geo-cercas en el Backend             | Como desarrollador, quiero implementar APIs en el backend para gestionar geo-cercas.                                       | 3            |
+
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
