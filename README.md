@@ -883,18 +883,64 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
     Finalmente, Natalia considera que el proyecto de monitoreo propuesto sería de gran utilidad para su familia, ya que les permitiría estar más al tanto de la ubicación y las actividades de su hermano. Sugiere que se integre una conexión directa con la policía para reportar desapariciones de forma inmediata, lo que mejoraría significativamente la seguridad.
 
+### 2.2.3 Análisis de entrevistas
+
+**Segmento objetivo 1: Cuidadores o Familiares de personas con Alzheimer**
+
+**Características Objetivas:**
+- Edad: Jóvenes (estudiantes) entre 20 y 25 años.
+- Nivel educativo: Universitario.
+- Rol: Cuidadores de familiares con Alzheimer.
+- Tecnología usada: Aplicaciones básicas como WhatsApp.
+
+**Características Subjetivas:**
+- Preocupaciones principales: Seguridad y bienestar del familiar (desorientación y fugas).
+- Sentimientos: Estrés por la responsabilidad del cuidado.
+
+**Problemas comunes:**
+- Desorientación del familiar.
+- Cuidado no eficiente sin tecnología avanzada.
+
+**Estadísticas:**
+- 100% consideran útil un sistema de monitoreo en tiempo real.
+- 66% valoran las alertas inmediatas al salir de zonas seguras.
+- 33% sugieren el uso de cámaras.
+
+---
+
+**Segmento objetivo 2: Cuidadores o Familiares de niños pequeños**
+
+**Características Objetivas:**
+- Edad: Entre 24 y 28 años.
+- Nivel educativo: Universitario.
+- Rol: Cuidadores de hermanos menores.
+- Tecnología usada: Cámaras de seguridad y control parental.
+
+**Características Subjetivas:**
+- Preocupaciones principales: Seguridad del niño en casa y lugares públicos.
+- Sentimientos: Ansiedad por el riesgo de que se pierdan.
+
+**Problemas comunes:**
+- Pérdida de ubicación en espacios públicos.
+- Monitoreo limitado sin capacidad de intervención inmediata.
+
+**Estadísticas:**
+- 100% desean recibir alertas si el niño sale de una zona segura.
+- 50% consideran importante la conexión con la policía.
+- 33% desean monitoreo desde múltiples dispositivos.
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
-
-**Segmento: Cuidadores de Niños**
-<div style="text-align: center;">
-    <img src="./images/chapter-03/to-be-child.png" alt="To-Be Child" style="max-width: 800px; width: 95%">
-</div>
-<br>
 
 **Segmento: Cuidadores de Personas con Alzheimer**
 <div style="text-align: center;">
     <img src="./images/chapter-03/to-be-alzheimer.png" alt="To-Be Alzheimer" style="max-width: 800px; width: 95%">
+</div>
+<br>
+
+**Segmento: Cuidadores de Niños**
+<div style="text-align: center;">
+    <img src="./images/chapter-03/to-be-child.png" alt="To-Be Child" style="max-width: 800px; width: 95%">
 </div>
 <br>
 
