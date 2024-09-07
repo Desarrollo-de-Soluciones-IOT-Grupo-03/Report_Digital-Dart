@@ -1677,10 +1677,110 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
+### 4.2.2. Bounded Context: Monitoring
+
+En el contexto del bounded context de **Monitoring** para pulseras usadas por niños y personas con Alzheimer, se centra en la gestión y coordinación de la supervisión de datos generados por sensores. El propósito de este contexto es monitorear la ubicación, el ritmo cardíaco y la detección de caídas, alertando a los cuidadores ante eventos críticos como la salida de una zona segura o la detección de caídas.
+
+#### 4.2.2.1. Domain Layer
+
+En la capa de Dominio, el contexto de **Sensors Monitorization** se modela como el **aggregate** que gestiona los datos de los sensores de la pulsera, tales como GPS, acelerómetro y el sensor de ritmo cardíaco.
+
+| **Aggregate**        | **Categoría**         | **Propósito**                                                             |
+|----------------------|-----------------------|---------------------------------------------------------------------------|
+| Sensors Monitorization | Entity/Aggregate      | Agrupa los datos monitoreados por los sensores de la pulsera (ubicación, caídas, ritmo cardíaco). |
+
+##### Atributos
+
+| **Nombre**           | **Tipo de dato**       | **Visibilidad**  | **Descripción**                                                          |
+|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
+| id                   | Long                   | Private          | Identificador único de la monitorización                                  |
+| gpsCoordinates       | String                 | Private          | Coordenadas GPS actuales del portador                                     |
+| heartRate            | Integer                | Private          | Última medición del ritmo cardíaco                                        |
+| accelerometerData    | String                 | Private          | Datos del acelerómetro (orientación, velocidad)                           |
+| eventHistory         | Set                    | Private          | Historial de eventos generados por la pulsera                             |
+
+##### Métodos
+
+| **Nombre**           | **Tipo de retorno**     | **Visibilidad**  | **Descripción**                                                          |
+|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
+| leaveSafeZone        | Void                   | Public           | Acción que ocurre cuando el portador sale de una zona segura              |
+| processAccelerometerData | Void               | Public           | Procesa los datos del acelerómetro para detectar caídas                   |
+| monitorHeartRate     | Void                   | Public           | Monitorea el ritmo cardíaco en tiempo real                                |
+
+#### 4.2.2.2. Interface Layer
+
+En el contexto de Monitoring, la capa de Interfaz facilita la comunicación entre el sistema y los cuidadores. Los controladores permiten el acceso a los datos críticos y las alertas generadas por la pulsera, como la ubicación actual, ritmo cardíaco, y las notificaciones de caídas.
+
+| **Controller**       | **Categoría**           | **Propósito**                                                             |
+|----------------------|-------------------------|---------------------------------------------------------------------------|
+| MonitoringController | Controller              | Controlador encargado de la interacción entre los datos de monitoreo y la interfaz para cuidadores |
+
+##### Atributos
+
+| **Nombre**           | **Tipo de dato**        | **Visibilidad**  | **Descripción**                                                          |
+|----------------------|-------------------------|------------------|--------------------------------------------------------------------------|
+| monitoringService    | MonitoringService       | Private          | Servicio para la monitorización de la pulsera                             |
+| mapper               | MonitoringMapper        | Private          | Mapper para transformar los datos entre la entidad y la vista             |
+
+##### Métodos
+
+| **Nombre**           | **Tipo de retorno**     | **Visibilidad**  | **Descripción**                                                          |
+|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
+| Constructor          | Void                   | Public           | Constructor del controlador                                               |
+| getLocationStatus    | String                 | Public           | Obtener el estado actual de la ubicación del portador                     |
+| getHeartRate         | Integer                | Public           | Obtener la última medición del ritmo cardíaco                             |
+| processFallDetection | Void                   | Public           | Procesar y enviar alertas de caídas                                       |
+
+#### 4.2.2.3. Application Layer
+
+La capa de Aplicación se encarga de gestionar la lógica empresarial y la funcionalidad específica de la supervisión, como el seguimiento de la ubicación, la detección de caídas, y el monitoreo del ritmo cardíaco. Actúa como intermediaria entre la capa de Interfaz y la capa de Dominio.
+
+| **Service**          | **Categoría**           | **Propósito**                                                             |
+|----------------------|-------------------------|---------------------------------------------------------------------------|
+| MonitoringService    | Service                 | Servicio con la lógica de monitoreo de los sensores de la pulsera          |
+
+##### Atributos
+
+| **Nombre**           | **Tipo de dato**        | **Visibilidad**  | **Descripción**                                                          |
+|----------------------|-------------------------|------------------|--------------------------------------------------------------------------|
+| sensorRepository     | SensorRepository        | Private          | Repositorio para los datos de los sensores                               |
+| alertService         | AlertService            | Private          | Servicio para el envío de alertas                                         |
+
+##### Métodos
+
+| **Nombre**           | **Tipo de retorno**     | **Visibilidad**  | **Descripción**                                                          |
+|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
+| trackLocation        | String                 | Public           | Rastrea la ubicación del portador y detecta si sale de la zona segura     |
+| monitorHeartRate     | Integer                | Public           | Monitorea el ritmo cardíaco y envía alertas en caso de anomalías          |
+| detectFall           | Void                   | Public           | Procesa los datos del acelerómetro para detectar caídas                   |
+
+#### 4.2.2.4. Infrastructure Layer
+
+La capa de Infraestructura se encarga de la persistencia de los datos generados por los sensores de la pulsera. Es responsable del almacenamiento de la información relacionada con las coordenadas GPS, las mediciones de ritmo cardíaco y los eventos de caídas, así como del envío de notificaciones a los cuidadores.
+
+| **Repository**       | **Categoría**           | **Propósito**                                                             |
+|----------------------|-------------------------|---------------------------------------------------------------------------|
+| SensorRepository     | Repository              | Repositorio que almacena los datos de los sensores (GPS, acelerómetro, ritmo cardíaco) |
+| AlertRepository      | Repository              | Repositorio que guarda las alertas generadas por los eventos              |
+
+##### Métodos
+
+| **Nombre**           | **Tipo de retorno**     | **Visibilidad**  | **Descripción**                                                          |
+|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
+| findByCoordinates    | SensorData             | Public           | Devuelve los datos del sensor según las coordenadas GPS                  |
+| findByHeartRate      | SensorData             | Public           | Devuelve los datos del sensor según el ritmo cardíaco                    |
+| findAlertsByEvent    | Alert                  | Public           | Devuelve las alertas generadas por un evento en particular               |
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/monitoring-component.png" alt="Monitoring Component" style="max-width: 800px; width: 95%">
+</div>
+
 ### 4.2.3. Bounded Context: User Account
 En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 
-#### 4.2.5.1. Domain Layer
+#### 4.2.3.1. Domain Layer
 
 **Entity**
 
@@ -1703,7 +1803,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | Constructor | Void  | Public  | Constructor para User |
 | addRoles | User   | Public  | Añadir roles al usuario |
 
-#### 4.2.5.2. Interface Layer
+#### 4.2.3.2. Interface Layer
 
 **Controller**
 
@@ -1725,7 +1825,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
 | GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
 
-#### 4.2.5.3. Application Layer
+#### 4.2.3.3. Application Layer
 
 **Service**
 
@@ -1746,7 +1846,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
 | GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
 
-#### 4.2.5.4. Infrastructure Layer
+#### 4.2.3.4. Infrastructure Layer
 
 **Repository**
 
@@ -1761,7 +1861,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | save | User | Public  | Guarda datos de usuario |
 | findById | User | Public  | Recupera el usuario por id  |
 
-#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/user_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
