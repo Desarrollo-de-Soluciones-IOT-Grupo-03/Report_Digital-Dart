@@ -1180,7 +1180,10 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 <br>
 
 ## 3.2. User Stories
-### **User Story 01**
+
+### **User Stories**
+
+#### **User Story 01**
 
 | **Épica**                | **Monitoreo y Seguridad en Tiempo Real**     |
 |--------------------------|--------------------------------------------------|
@@ -1192,7 +1195,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 02**
+#### **User Story 02**
 
 | **Épica**                | **Monitoreo y Seguridad en Tiempo Real**         |
 |--------------------------|--------------------------------------------------|
@@ -1204,7 +1207,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 03**
+#### **User Story 03**
 
 | **Épica**                | **Configuración y Gestión de Geo-cercas**  |
 |--------------------------|--------------------------------------------------|
@@ -1216,7 +1219,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 04**
+#### **User Story 04**
 
 | **Épica**                | **Comunicación y Control Remoto** |
 |--------------------------|------------------------------------------------------|
@@ -1228,7 +1231,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 05**
+#### **User Story 05**
 
 | **Épica**                | **Monitoreo y Seguridad en Tiempo Real**      |
 |--------------------------|----------------------------------------------------|
@@ -1240,7 +1243,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 06**
+#### **User Story 06**
 
 | **Épica**                | **Visualización de Historial**        |
 |--------------------------|----------------------------------------------------|
@@ -1252,7 +1255,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 07**
+#### **User Story 07**
 
 | **Épica**                | **Comunicación y Control Remoto** |
 |--------------------------|----------------------------------------------------------|
@@ -1264,7 +1267,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 08**
+#### **User Story 08**
 
 | **Épica**                | **Diagnóstico y Solución de Problemas del Dispositivo**           |
 |--------------------------|----------------------------------------------------|
@@ -1276,7 +1279,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 09**
+#### **User Story 09**
 
 | **Épica**                | **Visualización de Historial**          |
 |--------------------------|----------------------------------------------------|
@@ -1288,15 +1291,44 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 ---
 
-### **User Story 10**
+
+### **Frontend Technical Stories**
+
+#### **Technical Story 01**
+| **Épica**                | **Visualización en Tiempo Real**         |
+|--------------------------|------------------------------------------|
+| **ID-TS**                | 01                                       |
+| **Owner**                | Diego Castro                             |
+| **Título TS**            | Implementación de Mapa para Visualización en Tiempo Real |
+| **Descripción:**         | Como desarrollador, quiero implementar un mapa interactivo en la aplicación web para visualizar la ubicación en tiempo real de la persona monitoreada. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Ver ubicación en el mapa <br/> **Dado** que el mapa interactivo está disponible, <br/> **Cuando** visualizo la ubicación, <br/> **Entonces** debería ver la posición en tiempo real en el mapa. <br/><br/> **Scenario 02 (Unhappy Path):** Mapa no carga o no se muestra <br/> **Dado** que hay un problema de carga o de conexión, <br/> **Cuando** intento visualizar el mapa, <br/> **Entonces** no debería cargarse la ubicación y debería recibir un mensaje de error indicando "No se pudo cargar el mapa". <br/><br/> **Scenario 03 (Unhappy Path):** Problema con el API de mapas <br/> **Dado** que el servicio de mapas (por ejemplo, Google Maps) está inactivo, <br/> **Cuando** intento obtener la ubicación, <br/> **Entonces** no debería visualizarse nada y debería recibir un mensaje indicando que el servicio está temporalmente fuera de línea. <br/><br/> **Scenario 04 (Unhappy Path):** Permisos denegados para la ubicación <br/> **Dado** que el usuario ha denegado los permisos de ubicación en el navegador, <br/> **Cuando** intento acceder al mapa, <br/> **Entonces** debería recibir un mensaje solicitando activar los permisos de ubicación para que funcione correctamente. |
+
+---
+
+#### **Technical Story 02**
 
 | **Épica**                | **Configuración y Gestión de Geo-cercas** |
-|--------------------------|--------------------------------------------------------------|
-| **ID-HU**                | 10                                                           |
-| **Owner**                | Cristian Quito                                                 |
-| **Título HU**            | Configuración de Alertas Personalizadas                     |
-| **Descripción:**         | Como cuidador, quiero establecer el comportamiento del dispositivo cuando la persona a cuidar se acerque a una geo-cerca para tener un mayor control. |
-| **Criterio de Aceptación:** | **Scenario 01:** Configurar Alerta Personalizada <br/> Dado que quiero establecer una alerta específica, <br/> Cuando accedo a la configuración de alertas, <br/> Entonces debería poder definir los criterios para la alerta personalizada. <br/><br/> **Scenario 02:** Editar Alerta Personalizada <br/> Dado que necesito ajustar una alerta existente, <br/> Cuando selecciono una alerta personalizada en la configuración, <br/> Entonces debería poder editar los criterios y guardar los cambios. |
+|--------------------------|------------------------------------------|
+| **ID-TS**                | 02                                       |
+| **Owner**                | Diego Esquivel                           |
+| **Título TS**            | Crear Interfaz de Usuario para Geo-cercas en la Web |
+| **Descripción:**         | Como desarrollador, quiero crear una interfaz intuitiva en la aplicación web para que los usuarios puedan configurar y gestionar geo-cercas. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Configurar geo-cercas desde la web <br/> **Dado** que el usuario quiere definir una geo-cerca, <br/> **Cuando** accede a la interfaz de usuario, <br/> **Entonces** debería poder configurar una geo-cerca con parámetros como radio y ubicación. <br/><br/> **Scenario 02 (Unhappy Path):** No se acepta el área de la geo-cerca <br/> **Dado** que el usuario define un área demasiado pequeña o grande, <br/> **Cuando** intenta configurar la geo-cerca, <br/> **Entonces** debería recibir un mensaje de error indicando que el tamaño del área no es válido. <br/><br/> **Scenario 03 (Unhappy Path):** Fallo en la carga del mapa <br/> **Dado** que el servicio de mapas tiene problemas de conexión, <br/> **Cuando** el usuario intenta definir una geo-cerca, <br/> **Entonces** no debería visualizarse el mapa y debería recibir un mensaje de error que indique "No se puede cargar el mapa, inténtelo más tarde". <br/><br/> **Scenario 04 (Unhappy Path):** No se pueden guardar los cambios <br/> **Dado** que la conexión con el servidor se pierde durante la configuración, <br/> **Cuando** el usuario intenta guardar los parámetros de la geo-cerca, <br/> **Entonces** debería recibir un mensaje indicando que los cambios no se pudieron guardar y los datos no deben persistirse. <br/><br/> **Scenario 05 (Unhappy Path):** Error de validación de datos <br/> **Dado** que el usuario ingresa parámetros inválidos (como coordenadas fuera del rango o nombre no permitido), <br/> **Cuando** intenta configurar la geo-cerca, <br/> **Entonces** debería recibir un mensaje de error indicando qué campos necesitan corrección. |
+
+---
+
+#### **Technical Story 03**
+
+| **Épica**                | **Notificaciones en Tiempo Real en Frontend** |
+|--------------------------|------------------------------------------|
+| **ID-TS**                | 03                                       |
+| **Owner**                | Jennifer Espinoza                        |
+| **Título TS**            | Implementar Notificaciones en Tiempo Real en la Aplicación Móvil |
+| **Descripción:**         | Como desarrollador, quiero implementar notificaciones push en la aplicación móvil para alertar a los usuarios en tiempo real cuando ocurran eventos críticos. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Notificaciones push en Flutter <br/> **Dado** que se ha configurado una geo-cerca, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** debería recibir una notificación en la aplicación móvil. <br/><br/> **Scenario 02 (Unhappy Path):** No se recibió la notificación <br/> **Dado** que el servicio de notificaciones está inactivo o hay un problema de conectividad, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** no debería recibir la notificación, y la aplicación debería mostrar un mensaje de advertencia indicando el fallo en la recepción. <br/><br/> **Scenario 03 (Unhappy Path):** Notificación recibida con retraso <br/> **Dado** que el sistema de notificaciones está saturado, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** la notificación debería llegar con retraso, y el sistema debería registrar el tiempo del retraso. <br/><br/> **Scenario 04 (Unhappy Path):** Notificación enviada pero no visible en la aplicación <br/> **Dado** que la notificación fue enviada correctamente, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** la notificación debería ser visible en la bandeja de notificaciones del dispositivo; si no es visible, el sistema debería registrar un error de visualización. |
+
+---
+
 
 ## 3.3. Impact Mapping
 <div style="text-align: center;">
