@@ -7,9 +7,9 @@
     <strong>Desarrollo de Soluciones IOT</strong><br>
     <strong>SW74</strong><br>
     <strong>Profesor: Angel Augusto Velasquez Nuñez</strong><br>
-    <br><strong>INFORME DE TRABAJO FINAL</strong><br>
+    <br><strong>INFORME TB1 </strong><br>
     <br><strong>Digital Dart</strong><br>
-    <strong>Nombre del Producto</strong>
+    <strong>GuardianArea</strong>
 </p>
 
 <div style="text-align:center;">
@@ -1138,6 +1138,55 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_asis_map_2.png" alt="User As-is Scenario 2" width="100%">
 </div>
+
+## 2.4. Ubiquitous Language
+
+Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea son los siguientes:
+
+1. **Geo-cerca (Geofence)**:
+   - Un perímetro seguro delimitado por el usuario, donde el dispositivo SafeGuard supervisa la ubicación.
+
+2. **Zona Segura (Safe Zone)**:
+   - Área dentro de la geo-cerca donde la persona monitoreada puede moverse libremente sin activar alarmas.
+
+3. **Acelerómetro (Accelerometer)**:
+   - Sensor que mide la aceleración del dispositivo SafeGuard para detectar caídas.
+
+4. **Detección de Caídas (Fall Detection)**:
+   - Sistema que detecta si la persona monitoreada ha sufrido una caída mediante el acelerómetro.
+
+5. **Actuador de Bloqueo (Locking Actuator)**:
+   - Dispositivo físico utilizado para bloquear una puerta de manera remota o automática.
+
+6. **Credenciales (Credentials)**:
+   - Información utilizada para autenticar a un usuario, como un nombre de usuario y contraseña, para acceder a sistemas o servicios.
+
+7. **Autenticación (Authentication)**:
+   - Proceso para verificar si las credenciales proporcionadas por un usuario son válidas.
+
+8. **Notificación (Notification)**:
+   - Mensaje enviado a través de un dispositivo para recordar, informar o alertar al usuario sobre un evento importante.
+
+9. **Alerta (Alert)**:
+   - Tipo especial de notificación que informa al usuario sobre eventos críticos, como la salida de la zona segura o una caída detectada.
+
+10. **Plan de Pago (Payment Plan)**:
+   - Suscripción mensual o recurrente que el usuario paga para utilizar el servicio SafeGuard.
+
+11. **Método de Pago (Payment Method)**:
+   - La forma en que el usuario realiza un pago, por ejemplo, tarjeta de crédito o débito, para los servicios de SafeGuard.
+
+12. **Evento Crítico (Critical Event)**:
+   - Situación detectada por los sensores que requiere atención inmediata, como la salida de la geo-cerca o la detección de una caída.
+
+13. **Datos de Monitoreo en Tiempo Real (Real-time Monitoring Data)**:
+   - Información procesada y mostrada en tiempo real sobre la ubicación y estado de la persona monitoreada.
+
+14. **Sistema de Monitoreo (Monitoring System)**:
+   - Sistema que recopila, procesa y muestra información en tiempo real sobre la persona monitoreada a través de dispositivos IoT SafeGuard.
+
+15. **Historial de Eventos (Event History)**:
+   - Registro de eventos importantes y actividades detectadas por el sistema de monitoreo de SafeGuard, para ser revisado posteriormente.
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
