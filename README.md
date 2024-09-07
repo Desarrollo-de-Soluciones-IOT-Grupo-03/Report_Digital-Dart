@@ -153,33 +153,9 @@
       - [4.2.X.7.1. Bounded Context Domain Layer Class Diagrams](#42x71-bounded-context-domain-layer-class-diagrams)
       - [4.2.X.7.2. Bounded Context Database Design Diagram](#42x72-bounded-context-database-design-diagram)
 
-### [Capítulo V: Solution UI/UX Design](#capc3adtulo-v-solution-uiux-design)
-
-- [5.1. Style Guidelines](#51-style-guidelines)
-  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
-- [5.2. Information Architecture](#52-information-architecture)
-  - [5.2.1. Organization Systems](#521-organization-systems)
-  - [5.2.2. Labeling Systems](#522-labeling-systems)
-  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-  - [5.2.4. Searching Systems](#524-searching-systems)
-  - [5.2.5. Navigation Systems](#525-navigation-systems)
-- [5.3. Landing Page UI Design](#53-landing-page-ui-design)
-  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
-  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
-- [5.4. Applications UX/UI Design](#54-applications-uxui-design)
-  - [5.4.1. Applications Wireframes](#541-applications-wireframes)
-  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-  - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
-  - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
-- [5.5. Applications Prototyping](#55-applications-prototyping)
-
-### [Capítulo VI: Product Implementation, Validation & Deployment](#capc3adtulo-vi-product-implementation-validation--deployment)
-
 ### [Conclusiones](#conclusiones)
 
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
 
 ### [Bibliografía](#bibliografía)
 
@@ -1310,6 +1286,16 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. Event Storming
 
+EventStorming es una metodología colaborativa e iterativa de modelado que permite explorar a fondo problemas complejos y de gran magnitud, facilitando la identificación de numerosos detalles y posibles desafíos.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/10-step-event.png" alt="Event Storming" style="max-width: 800px; width: 95%">
+</div>
+
+**Link Miro:** [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
+
+#### 4.1.1.1. Candidate Context Discovery
+
 Durante nuestra sesión de event storming, llevamos a cabo una reunión en la que discutimos diversas ideas. A lo largo de la sesión, identificamos conceptos clave para nuestra aplicación y comenzamos a desarrollar las primeras versiones.
 
 A continuación, presentaremos el desarrollo de nuestro event storming, realizado con la herramienta Miro. En esta sesión participaron los cinco integrantes de Digital Dart, quienes contribuyeron con sus ideas y perspectivas para el avance del proyecto.
@@ -1379,7 +1365,7 @@ Definimos y diseñamos los agregados para cada contexto del sistema, asegurando 
 </div>
 En esta etapa final, se identifican y definen los contextos delimitados, agrupando los agregados que están estrechamente relacionados o que interactúan entre sí mediante políticas. Estos contextos delimitados ayudan a organizar y gestionar las distintas áreas del sistema.
 
-**Link Miro:** [Event Storming]()
+**Link Miro:** [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
@@ -1503,3 +1489,5 @@ En este bounded context se gestiona los pagos dentro del sistema.
 
 
 
+### ANEXOS
+- Link Event Storming: https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
