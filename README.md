@@ -1330,6 +1330,81 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 ---
 
 
+
+### **Backend Technical Stories**
+
+#### **Technical Story 04**
+
+| **Épica**                | **Visualización en Tiempo Real**         |
+|--------------------------|------------------------------------------|
+| **ID-TS**                | 04                                       |
+| **Owner**                | Diego Castro                             |
+| **Título TS**            | API para Visualización de Ubicación en Tiempo Real |
+| **Descripción:**         | Como desarrollador, quiero implementar una API para obtener la ubicación en tiempo real de la persona a monitorear para que pueda ser utilizada en la aplicación móvil. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Obtener ubicación en tiempo real <br/> **Dado** que el endpoint `/api/v1/location/:userId` está disponible, <br/> **Cuando** realizo una solicitud GET con el ID de la persona, <br/> **Entonces** debería recibir una respuesta con la ubicación actual. <br/><br/> **Scenario 02 (Unhappy Path):** Error por ID inválido o inexistente <br/> **Dado** que el ID del usuario es inválido o no existe, <br/> **Cuando** realizo una solicitud GET, <br/> **Entonces** debería recibir un error 404 indicando que el recurso no fue encontrado. <br/><br/> **Scenario 03 (Unhappy Path):** Fallo en la conectividad con el dispositivo monitoreado <br/> **Dado** que el dispositivo de la persona monitoreada no tiene conexión a Internet, <br/> **Cuando** intento obtener la ubicación, <br/> **Entonces** debería recibir un error 503 indicando que no se puede acceder a la ubicación por falta de conectividad. <br/><br/> **Scenario 04 (Unhappy Path):** Ubicación no actualizada <br/> **Dado** que la última actualización de la ubicación ocurrió hace más de 5 minutos, <br/> **Cuando** intento obtener la ubicación, <br/> **Entonces** debería recibir un aviso indicando que los datos de ubicación no son recientes. <br/><br/> **Scenario 05 (Unhappy Path):** Error en el servidor de ubicación <br/> **Dado** que el servicio de ubicación del sistema está inactivo o caído, <br/> **Cuando** realizo una solicitud GET, <br/> **Entonces** debería recibir un error 500 indicando que no se pudo procesar la solicitud debido a un fallo interno del servidor. |
+
+---
+
+#### **Technical Story 05**
+
+| **Épica**                | **Configuración y Gestión de Geo-cercas**         |
+|--------------------------|--------------------------------------------------|
+| **ID-TS**                | 05                                               |
+| **Owner**                | Diego Esquivel                                    |
+| **Título TS**            | API para Establecer Geo-cercas                  |
+| **Descripción:**         | Como desarrollador, quiero crear una API para establecer y gestionar geo-cercas, de modo que se puedan definir zonas seguras. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Crear una geo-cerca <br/> **Dado** que el endpoint `/api/v1/geofence` está disponible, <br/> **Cuando** envío una solicitud POST con los datos de la geo-cerca, <br/> **Entonces** debería recibir una respuesta con los detalles de la geo-cerca creada. <br/><br/> **Scenario 02 (Unhappy Path):** Error por datos incompletos o inválidos <br/> **Dado** que los datos enviados son incompletos o inválidos (e.g., coordenadas o radio no válidos), <br/> **Cuando** intento crear una geo-cerca, <br/> **Entonces** debería recibir un error 400 indicando que faltan campos obligatorios o los datos proporcionados no son válidos. <br/><br/> **Scenario 03 (Unhappy Path):** Error al intentar crear una geo-cerca superpuesta <br/> **Dado** que ya existe una geo-cerca activa que cubre la misma área, <br/> **Cuando** intento crear una nueva geo-cerca que se superpone, <br/> **Entonces** debería recibir un error indicando que no se puede crear una geo-cerca superpuesta. <br/><br/> **Scenario 04 (Unhappy Path):** Límite de geo-cercas alcanzado <br/> **Dado** que el número máximo de geo-cercas permitidas ha sido alcanzado, <br/> **Cuando** intento crear una nueva geo-cerca, <br/> **Entonces** debería recibir un error indicando que se ha alcanzado el límite de geo-cercas permitidas. <br/><br/> **Scenario 05 (Unhappy Path):** Fallo en el servidor <br/> **Dado** que el servidor que maneja las geo-cercas está caído o tiene problemas, <br/> **Cuando** intento enviar una solicitud POST para crear una geo-cerca, <br/> **Entonces** debería recibir un error 500 indicando un fallo en el servidor y que no se puede procesar la solicitud. <br/><br/> **Scenario 06 (Unhappy Path):** Error en la validación de coordenadas <br/> **Dado** que las coordenadas enviadas están fuera del rango permitido (e.g., fuera del área geográfica cubierta), <br/> **Cuando** intento crear una geo-cerca, <br/> **Entonces** debería recibir un mensaje de error indicando que las coordenadas no son válidas o están fuera de rango. |
+
+---
+
+#### **Technical Story 06**
+
+| **Épica**                | **Monitoreo y Seguridad en Tiempo Real**         |
+|--------------------------|--------------------------------------------------|
+| **ID-TS**                | 06                                               |
+| **Owner**                | Jennifer Espinoza                                |
+| **Título TS**            | API para Notificaciones de Salida de Zona Segura  |
+| **Descripción:**         | Como desarrollador, quiero implementar una API para gestionar notificaciones cuando una persona sale de una geo-cerca. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Notificación de salida de zona segura <br/> **Dado** que la persona monitoreada sale de la geo-cerca, <br/> **Cuando** la geo-cerca es cruzada, <br/> **Entonces** debería recibir una notificación en la aplicación. <br/><br/> **Scenario 02 (Unhappy Path):** No se recibió la notificación <br/> **Dado** que el servidor de notificaciones está inactivo o hay un problema de conectividad, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** no debería recibir la notificación, y la API debería registrar el error en los logs. <br/><br/> **Scenario 03 (Unhappy Path):** Notificación retrasada <br/> **Dado** que el sistema de notificaciones está saturado o presenta demoras, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** la notificación debería llegar con retraso, y el sistema debería registrar el tiempo de demora. <br/><br/> **Scenario 04 (Unhappy Path):** Fallo en la configuración de la geo-cerca <br/> **Dado** que la geo-cerca no está configurada correctamente (e.g., radio demasiado pequeño o zona no registrada), <br/> **Cuando** la persona monitoreada la cruza, <br/> **Entonces** no se debería generar una notificación, y el sistema debería alertar de un fallo en la configuración de la geo-cerca. <br/><br/> **Scenario 05 (Unhappy Path):** Fallo en la conectividad del dispositivo monitoreado <br/> **Dado** que el dispositivo de la persona monitoreada ha perdido conectividad, <br/> **Cuando** intenta cruzar la geo-cerca, <br/> **Entonces** la notificación no debería enviarse, y el sistema debería alertar de una pérdida de conectividad con el dispositivo. <br/><br/> **Scenario 06 (Unhappy Path):** Notificación enviada pero no visible en la aplicación <br/> **Dado** que la notificación fue enviada correctamente, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** la notificación debería ser visible en la aplicación; si no es visible, el sistema debería registrar un error en la visualización de la notificación. |
+
+---
+
+#### **Technical Story 07**
+
+| **Épica**                | **Comunicación Remota por Voz**         |
+|--------------------------|-------------------------------------------|
+| **ID-TS**                | 07                                        |
+| **Owner**                | Steve Castillo                            |
+| **Título TS**            | API para Comunicación Remota por Voz      |
+| **Descripción:**         | Como desarrollador, quiero implementar una API para enviar mensajes de voz al dispositivo de la persona monitoreada. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Enviar mensaje de voz <br/> **Dado** que el endpoint `/api/v1/voice` está disponible, <br/> **Cuando** envío una solicitud POST con un archivo de audio, <br/> **Entonces** el sistema debe transmitir el mensaje al dispositivo. <br/><br/> **Scenario 02 (Unhappy Path):** Error por formato de archivo no soportado <br/> **Dado** que el archivo de audio no es compatible (por ejemplo, formato no soportado), <br/> **Cuando** intento enviar el mensaje, <br/> **Entonces** el sistema debería devolver un error 415 indicando que el formato no es soportado. <br/><br/> **Scenario 03 (Unhappy Path):** Error por tamaño del archivo demasiado grande <br/> **Dado** que el archivo de audio excede el tamaño máximo permitido, <br/> **Cuando** intento enviar el mensaje, <br/> **Entonces** el sistema debería devolver un error 413 indicando que el archivo es demasiado grande. <br/><br/> **Scenario 04 (Unhappy Path):** Error por archivo dañado o incompleto <br/> **Dado** que el archivo de audio está corrupto o incompleto, <br/> **Cuando** intento enviar el mensaje, <br/> **Entonces** el sistema debería devolver un error 422 indicando que el archivo no puede ser procesado. <br/><br/> **Scenario 05 (Unhappy Path):** Fallo de conexión con el dispositivo de destino <br/> **Dado** que el dispositivo de la persona monitoreada no está conectado, <br/> **Cuando** intento enviar el mensaje, <br/> **Entonces** el sistema debería devolver un error 503 indicando que no se puede establecer conexión con el dispositivo. <br/><br/> **Scenario 06 (Unhappy Path):** El mensaje de voz no se escucha en el dispositivo <br/> **Dado** que el mensaje fue enviado correctamente, <br/> **Cuando** el dispositivo lo recibe, <br/> **Entonces** debería reproducir el mensaje de voz; si no se escucha, el sistema debería registrar un error en la reproducción de audio. |
+
+---
+
+#### **Technical Story 08**
+
+| **Épica**                | **Visualización de Historial**         |
+|--------------------------|----------------------------------------|
+| **ID-TS**                | 08                                     |
+| **Owner**                | Steve Castillo                         |
+| **Título TS**            | API para Revisión del Historial de Eventos y Actividad |
+| **Descripción:**         | Como desarrollador, quiero implementar una API para gestionar el historial de eventos del dispositivo y la actividad física de la persona monitoreada, para poder revisar estos datos en la aplicación. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Acceso al historial de eventos y actividad <br/> **Dado** que necesito revisar eventos pasados, <br/> **Cuando** accedo al historial, <br/> **Entonces** debería poder ver una lista de todos los eventos. <br/><br/> **Scenario 02 (Unhappy Path):** No se pudo acceder al historial por fallo en la base de datos <br/> **Dado** que la base de datos está caída o no responde, <br/> **Cuando** intento acceder al historial, <br/> **Entonces** debería recibir un error 500 indicando un fallo en el servidor. <br/><br/> **Scenario 03 (Unhappy Path):** Historial vacío <br/> **Dado** que no se han registrado eventos o actividad en el período solicitado, <br/> **Cuando** intento acceder al historial, <br/> **Entonces** debería recibir un mensaje indicando que no hay eventos ni actividad disponible. <br/><br/> **Scenario 04 (Unhappy Path):** Error de autenticación <br/> **Dado** que no tengo los permisos necesarios, <br/> **Cuando** intento acceder al historial de eventos o actividad, <br/> **Entonces** debería recibir un error 403 indicando que no tengo autorización para acceder a esos datos. <br/><br/> **Scenario 05 (Unhappy Path):** Error en el formato de la solicitud <br/> **Dado** que la solicitud GET tiene un formato incorrecto (e.g., fechas mal formateadas), <br/> **Cuando** intento acceder al historial, <br/> **Entonces** debería recibir un error 400 indicando un fallo en el formato de la solicitud. <br/><br/> **Scenario 06 (Unhappy Path):** Consulta de historial con un rango de fechas inválido <br/> **Dado** que el rango de fechas especificado no es válido, <br/> **Cuando** intento acceder al historial, <br/> **Entonces** debería recibir un error indicando que el rango de fechas seleccionado no es correcto. <br/><br/> **Scenario 07 (Unhappy Path):** Historial incompleto por error en el almacenamiento <br/> **Dado** que hubo un fallo en el almacenamiento de eventos o datos de actividad, <br/> **Cuando** intento acceder al historial, <br/> **Entonces** algunos eventos o datos podrían faltar, y debería recibir un mensaje indicando un error en la carga completa del historial. |
+
+---
+
+#### **Technical Story 09**
+
+| **Épica**                | **Monitoreo de Dispositivos IoT en Backend**         |
+|--------------------------|--------------------------------------------------|
+| **ID-TS**                | 09                                               |
+| **Owner**                | Cristian Quito                                    |
+| **Título TS**            | Implementar Servicio de Monitoreo de Dispositivos en SpringBoot |
+| **Descripción:**         | Como desarrollador, quiero implementar un servicio en SpringBoot que monitoree el estado de los dispositivos IoT y notifique en caso de desconexiones o fallas. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Monitorear dispositivos IoT <br/> **Dado** que el sistema monitorea los dispositivos, <br/> **Cuando** un dispositivo se desconecta, <br/> **Entonces** debería recibir una notificación del estado del dispositivo. <br/><br/> **Scenario 02 (Unhappy Path):** No se recibe la notificación de desconexión <br/> **Dado** que el servicio de notificaciones está inactivo o presenta fallas, <br/> **Cuando** un dispositivo IoT se desconecta, <br/> **Entonces** no se debería recibir ninguna notificación, y el sistema debería registrar el error en los logs. <br/><br/> **Scenario 03 (Unhappy Path):** Fallo en la actualización del estado del dispositivo <br/> **Dado** que el dispositivo está fuera de línea o con conectividad intermitente, <br/> **Cuando** se intenta actualizar su estado, <br/> **Entonces** el sistema debería devolver un error indicando que no es posible obtener el estado actual del dispositivo. <br/><br/> **Scenario 04 (Unhappy Path):** Errores por sobrecarga en el monitoreo <br/> **Dado** que el servicio de monitoreo de dispositivos está manejando múltiples solicitudes simultáneas, <br/> **Cuando** se superan los límites de capacidad, <br/> **Entonces** el sistema debería devolver un error 503 indicando que el servicio está temporalmente sobrecargado. <br/><br/> **Scenario 05 (Unhappy Path):** Datos de estado del dispositivo no disponibles <br/> **Dado** que el dispositivo no está enviando datos de estado correctamente, <br/> **Cuando** intento acceder al monitoreo, <br/> **Entonces** el sistema debería mostrar un mensaje indicando que los datos del dispositivo no están disponibles o no son válidos. <br/><br/> **Scenario 06 (Unhappy Path):** Error en la conexión con el servidor de monitoreo <br/> **Dado** que el servidor de monitoreo está caído o fuera de servicio, <br/> **Cuando** intento acceder al estado de los dispositivos, <br/> **Entonces** el sistema debería devolver un error 500 indicando que no se puede conectar con el servidor de monitoreo. |
+
+---
+
 ## 3.3. Impact Mapping
 <div style="text-align: center;">
     <img src="./images/chapter-03/impact_map_1.png" alt="Impact Mapping" style="max-width: 800px; width: 95%">
