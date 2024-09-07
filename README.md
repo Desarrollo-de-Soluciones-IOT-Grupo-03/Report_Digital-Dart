@@ -1662,7 +1662,12 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 <div style="text-align: center;">
     <img src="./images/chapter-04/user-account-bc-canvas.png" alt="User Account" style="max-width: 800px; width: 95%">
 
+**Bounded Context: Notification**
 
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user-account-bc-canvas.png" alt="User Account" style="max-width: 800px; width: 95%">
+
+Link: https://miro.com/app/board/uXjVKmArvc8=/?share_link_id=24645524909 
 
 
 ## 4.2. Tactical-Level Domain-Driven Design
