@@ -265,7 +265,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 <table align="center"  border="1" width="70%" style="text-align:center;">
     <tr align="center">
         <td rowspan="3">
-            <img src="./images/chapter-01/profile-pics/steve_rogers.png" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/steve_rogers.jfif" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -361,7 +361,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/cristian.jpg" alt="Cristian Quito" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/cristian_quito.jfif" alt="Cristian Quito" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -851,6 +851,34 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_journey_map_2.png" alt="User Journey Map 2" width="100%">
+</div>
+
+### 2.3.4. Empathy Mapping
+
+**Segmento 1**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_empathy_map_1.png" alt="User Empathy Map 1" width="100%">
+</div>
+
+**Segmento 2**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_empathy_map_2.png" alt="User Empathy Map 2" width="100%">
+</div>
+
+### 2.3.5. As-is Scenario Mapping
+
+**Segmento 1**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_asis_map_1.png" alt="User As-is Scenario 1" width="100%">
+</div>
+
+**Segmento 2**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_asis_map_2.png" alt="User As-is Scenario 2" width="100%">
 </div>
 
 # Capítulo III: Requirements Specification
