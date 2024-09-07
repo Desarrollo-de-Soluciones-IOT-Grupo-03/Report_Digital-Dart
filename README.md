@@ -1502,6 +1502,15 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
 
 ---
 
+### **Frontend Technical Stories**
+
+| # Orden | Technical Story Id | Título                                                        | Descripción                                                                                                               | Story Points |
+|---------|--------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | TS01               | Implementación de Mapa para Visualización en Tiempo Real       | Como desarrollador, quiero implementar un mapa interactivo en la aplicación web para visualizar la ubicación en tiempo real de la persona monitoreada. | 5            |
+| 2       | TS02               | Crear Interfaz de Usuario para Geo-cercas en la Web           | Como desarrollador, quiero crear una interfaz intuitiva en la aplicación web para que los usuarios puedan configurar y gestionar geo-cercas. | 3            |
+| 3       | TS03               | Implementar Notificaciones en Tiempo Real en la Aplicación Móvil | Como desarrollador, quiero implementar notificaciones push en la aplicación móvil para alertar a los usuarios en tiempo real cuando ocurran eventos críticos. | 3            |
+
+---
 
 
 # Capítulo IV: Solution Software Design
