@@ -7,9 +7,9 @@
     <strong>Desarrollo de Soluciones IOT</strong><br>
     <strong>SW74</strong><br>
     <strong>Profesor: Angel Augusto Velasquez Nuñez</strong><br>
-    <br><strong>INFORME DE TRABAJO FINAL</strong><br>
+    <br><strong>INFORME TB1 </strong><br>
     <br><strong>Digital Dart</strong><br>
-    <strong>Nombre del Producto</strong>
+    <strong>GuardianArea</strong>
 </p>
 
 <div style="text-align:center;">
