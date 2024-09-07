@@ -1512,6 +1512,19 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
 
 ---
 
+### **Backend Technical Stories**
+
+| # Orden | Technical Story Id | Título                                                        | Descripción                                                                                                               | Story Points |
+|---------|--------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | TS04               | API para Visualización de Ubicación en Tiempo Real            | Como desarrollador, quiero implementar una API para obtener la ubicación en tiempo real de la persona a monitorear.        | 5            |
+| 2       | TS05               | API para Establecer Geo-cercas                                | Como desarrollador, quiero crear una API para establecer y gestionar geo-cercas.                                           | 3            |
+| 3       | TS06               | API para Notificaciones de Salida de Zona Segura              | Como desarrollador, quiero implementar una API para gestionar notificaciones cuando una persona sale de una geo-cerca.     | 3            |
+| 4       | TS07               | API para Comunicación Remota por Voz                         | Como desarrollador, quiero implementar una API para enviar mensajes de voz al dispositivo de la persona monitoreada.       | 5            |
+| 5       | TS08               | API para Revisión del Historial de Eventos y Actividad        | Como desarrollador, quiero implementar una API para gestionar el historial de eventos del dispositivo y la actividad física de la persona monitoreada. | 3            |
+| 6       | TS09               | Implementar Servicio de Monitoreo de Dispositivos en SpringBoot | Como desarrollador, quiero implementar un servicio en SpringBoot que monitoree el estado de los dispositivos IoT.          | 5            |
+
+---
+
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
