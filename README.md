@@ -1640,6 +1640,41 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
     <img src="./images/chapter-04/person_to_care_for.png" alt="Person to care for" style="max-width: 800px; width: 95%">
 </div>
 
+#### 4.1.1.3. Bounded Context Canvases
+
+**Bounded Context: Configuration**
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user-account-bc-canvas.png" alt="Configuration" style="max-width: 800px; width: 95%">
+</div>
+
+**Bounded Context: Monitoring**
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/monitoring-bc-canvas.png" alt="Monitoring" style="max-width: 800px; width: 95%">
+</div>
+
+**Bounded Context: User Account**
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user-account-bc-canvas.png" alt="User Account" style="max-width: 800px; width: 95%">
+</div>
+
+**Bounded Context: Payment**
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user-account-bc-canvas.png" alt="User Account" style="max-width: 800px; width: 95%">
+</div>
+
+**Bounded Context: Notification**
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user-account-bc-canvas.png" alt="User Account" style="max-width: 800px; width: 95%">
+</div>
+
+**Link:** https://miro.com/app/board/uXjVKmArvc8=/?share_link_id=24645524909 
+
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.3. Bounded Context: User Account
