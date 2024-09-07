@@ -1374,7 +1374,98 @@ En esta etapa final, se identifican y definen los contextos delimitados, agrupan
 
 **Link Miro:** [Event Storming]()
 
+## 4.2. Tactical-Level Domain-Driven Design
 
+### 4.2.4. Bounded Context: Payment
+En este bounded context se gestiona los pagos dentro del sistema.
+
+#### 4.2.4.1. Domain Layer
+
+**Entity**
+
+| **Nombre** | **Categoría** | **Propósito**                                            |
+|:----------:|:--------------|:---------------------------------------------------------|
+|  Payment   | Entity        | Es la clase que representa el pago y sus características |
+
+*Atributos*
+
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
+|:----------:|:-----------------|:----------------|:-----------------------------------------|
+|     id     | Long             | Private         | Identificador único                      |
+|    date    | Date             | Private         | Fecha en la que se realiza el pago       |
+|   amount   | Double           | Private         | Monto del pago realizado                 |
+|   status   | String           | Private         | Estado actual del pago (ej. completado)  |
+
+*Métodos*
+
+| **Nombre**  | **Tipo de retorno** | **Visibilidad** | **Descripción**          |
+|:-----------:|:--------------------|:----------------|:-------------------------|
+| Constructor | Void                | Public          | Constructor para Payment |
+
+#### 4.2.4.2. Interface Layer
+
+**Controller**
+
+|    **Nombre**     | **Categoría** | **Propósito**            |
+|:-----------------:|:--------------|:-------------------------|
+| PaymentController | Controller    | Controlador para Payment |
+
+*Atributos*
+
+|   **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**       |
+|:--------------:|:-----------------|:----------------|:----------------------|
+| paymentService | PaymentService   | Private         | Servicio para Payment |
+
+*Métodos*
+
+|   **Nombre**   | **Tipo de retorno**    | **Visibilidad** | **Descripción**             |
+|:--------------:|:-----------------------|:----------------|:----------------------------|
+|  Constructor   | Void                   | Public          | Constructor del controlador |
+| createPayment  | ResponseEntity         | Public          | Crear un Payment            |
+| getPaymentById | PaymentResource        | Public          | Buscar Payment según Id     |
+| getAllPayment  | List\<PaymentResource> | Public          | Obtener todos los Payment   |
+
+#### 4.2.4.3. Application Layer
+
+**Service**
+
+|   **Nombre**   | **Categoría** | **Propósito**                                |
+|:--------------:|:--------------|:---------------------------------------------|
+| PaymentService | Service       | Servicio con la lógica de negocio de Payment |
+
+*Atributos*
+
+|   **Nombre**    | **Tipo de dato**  | **Visibilidad** | **Descripción**        |
+|:---------------:|:------------------|:----------------|:-----------------------|
+|paymentRepository| PaymentRepository | Private         | Repositorio de Payment |
+
+*Métodos*   
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                              |
+|:----------:|:--------------------|:----------------|:---------------------------------------------|
+|   getAll   | List\<Payment>       | Public          | Obtener todos los Payment                    |
+|  getById   | Payment              | Public          | Obtener un Payment según su Id               |
+|   create   | Payment              | Public          | Crear un Payment                             |
+
+#### 4.2.4.4. Infrastructure Layer
+
+**Repository**
+
+|    **Nombre**     | **Categoría** | **Propósito**                     |
+|:-----------------:|:--------------|:----------------------------------|
+| PaymentRepository | Repository    | Repositorio que almacena Payments |
+
+*Métodos*
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                         |
+|:----------:|:--------------------|:----------------|:--------------------------------------------------------|
+| findByDate | Payment             | Public          | Devolver el Payment según la Fecha                       |
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/payment_component.png" alt="Paymento Component" style="max-width: 800px; width: 95%">
+</div>
 
 
 
