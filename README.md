@@ -172,6 +172,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
 <!-- Cambiamos el rowspan="1" por rowspan="n" cuando agregamos más de una acción realizada por criterio específico. (TB1, TP1, TB2, TF1)-->
+
 <table>
     <tr>
         <th><b>Criterio específico</b></th>
@@ -182,51 +183,52 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         <td rowspan="1"><b>
             Trabaja en equipo para proporcionar liderazgo en forma conjunta </b></td>
         <td>TB1<br><br>
-            <b>Steve Roger Castillo Robles </b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <b>Steve Roger Castillo Robles</b><br>
+            - Desarrolló las user personas, user task matrix, y el ubiquitous language. Lideró la creación del product backlog y colaboró en el canvas y las technical stories.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - Realizó el to-be scenario mapping y contribuyó con user stories, bounded context canvases, bounded context y la arquitectura de software.
             <br><br>
             <b>Jennifer Mary Espinoza Quispe</b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - Lideró el análisis competitivo y el impact mapping. Participó en la creación de user stories, event storming y la arquitectura de software.
             <br><br>
             <b>Diego Martin Esquivel Aguayo</b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - Responsable del capítulo 1, introducción y descripción de la startup, lean UX process y segmentos objetivos. Colaboró en entrevistas, needfinding, event storming y bounded contexts.
             <br><br>
             <b>Cristian Andrés Quito Igreda</b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - Realizó el empathy mapping, as-is scenario mapping y context mapping. Contribuyó en los bounded contexts, diagramas de clases y diseño de la base de datos.
             <br><br>
         </td>
         <td>TB1<br><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - El equipo trabajó de manera cohesionada para liderar diversas áreas clave del proyecto. Cada miembro asumió un rol de liderazgo en tareas específicas, lo que permitió una distribución efectiva del trabajo y el logro de los objetivos del proyecto.
         </td>
     </tr>
     <tr>
         <td rowspan="1"><b>
             Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
         <td>TB1<br><br>
-            <b>Steve Roger Castillo Robles </b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            <b>Steve Roger Castillo Robles</b><br>
+            - Contribuyó significativamente en la planificación de tareas mediante la creación de las user personas, la matriz de tareas y el backlog de producto, asegurando una buena organización de las actividades del equipo.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - Estableció metas claras en el to-be scenario mapping y colaboró en la planificación de los bounded contexts, contribuyendo a la definición clara de roles y responsabilidades dentro del equipo.
             <br><br>
             <b>Jennifer Mary Espinoza Quispe</b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - Aportó en el impact mapping y análisis competitivo, fomentando un entorno inclusivo al integrar diversas perspectivas para mejorar la estrategia del proyecto.
             <br><br>
             <b>Diego Martin Esquivel Aguayo</b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - Organizó el capítulo introductorio y colaboró en las entrevistas y el event storming, garantizando que el equipo mantuviera sus metas en línea con los objetivos de la startup.
             <br><br>
             <b>Cristian Andrés Quito Igreda</b><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - Facilitó la planificación del contexto y los diagramas de clase, asegurando que el equipo tuviera una estructura clara para la toma de decisiones técnicas.
             <br><br>
         </td>
         <td>TB1<br><br>
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies. Nullam nec purus nec nunc ultricies ultricies.
+            - El equipo creó un entorno colaborativo en el que se fijaron metas claras y se asignaron tareas de manera equitativa. La planificación permitió cumplir los objetivos dentro del tiempo previsto y con alta calidad.
         </td>
     </tr>
 </table>
+
 
 # Capítulo I: Introducción
 
