@@ -313,7 +313,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/Jenn.png" alt="Jennifer Espinoza" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/jennifer_espinoza.png" alt="Jennifer Espinoza" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -337,7 +337,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/esquivel.png" alt="Diego Esquivel" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/diego_esquivel.png" alt="Diego Esquivel" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -530,7 +530,7 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
         GuardianArea
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="GuardianArea" width="60px">
+            <img src="./images/chapter-02/guardian_area_logo.svg" alt="GuardianArea" width="60px">
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Theora Care
@@ -590,7 +590,7 @@ Luego de realizar una investigación en el mercado IOT, hemos hallado tres porta
   </tr>
   <tr>
     <td colspan="2">Precios & Costos</td>
-    <td colspan="1" valign="top">$150 por dispositivo, suscripción mensual de $10.</td>
+    <td colspan="1" valign="top">$150 por dispositivo, suscripción mensual entre $10 a $35</td>
     <td colspan="1" valign="top">$247.97 por dispositivo con un plan mensual de $29.97</td>
     <td colspan="1" valign="top">$229 por el dispositivo con un plan mensual de $49.99 mensuales por un plan anual. Con una tarifa de activación de $19.</td>
     <td colspan="1" valign="top">262.87 por el dispositivo</td>
@@ -647,6 +647,288 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 3. **Retroalimentación para Mejora Continua**: Recogeremos opiniones de los usuarios y ajustaremos la plataforma según sus necesidades, asegurando que las funcionalidades evolucionen de acuerdo con sus expectativas.
 
 4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
+
+## 2.2. Entrevistas
+
+### 2.2.1 Diseño de entrevistas
+
+**Preguntas Demográficas**
+
+- ¿Cómo te llamas?
+- ¿Cuántos años tienes?
+- ¿Lugar de residencia?
+- Estado Civil?
+- ¿A qué te dedicas actualmente?
+
+**Preguntas sobre personalidad:**
+
+- ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?
+
+---
+
+### Entrevistas para Cuidadores o Familiares de Personas con Alzheimer
+
+**Datos Demográficos**
+
+1. ¿Cuál es su relación con la persona que padece Alzheimer?
+
+**Preferencias y Uso de Tecnología**
+
+1. ¿Con qué frecuencia utiliza estas tecnologías (aplicaciones móviles y aplicaciones web)?
+2. ¿Utiliza actualmente algún dispositivo o tecnología para monitorear la salud o ubicación de su ser querido?
+3. ¿Ha habido alguna situación en la que sintió que una tecnología podría haberle ayudado, pero no la tenía a su disposición?
+
+**Objetivos y Motivaciones**
+
+1. ¿Cuáles son sus principales preocupaciones en el cuidado de su ser querido con Alzheimer?
+2. ¿Qué espera obtener de un sistema que monitoree en tiempo real la ubicación y salud de su ser querido?
+3. ¿Le gustaría tener la posibilidad de compartir los datos del monitoreo con otros miembros de la familia o cuidadores?
+
+**Frustraciones y Desafíos**
+
+1. ¿Cuáles son las mayores dificultades que enfrenta en el cuidado diario de su ser querido?
+2. ¿Ha enfrentado algún problema que podría haber sido resuelto con tecnología?
+
+**Biografía**
+
+1. ¿Cuánto tiempo lleva cuidando a su ser querido con Alzheimer?
+2. ¿Cómo describiría un día típico en el cuidado de su ser querido?
+
+**Opinión sobre la idea de negocio**
+
+1. ¿Qué te parece la idea de nuestro proyecto? ¿Te sería útil?
+2. ¿Tienes sugerencias sobre posibles mejoras o características adicionales que podríamos integrar en nuestra aplicación?
+
+---
+
+### Entrevistas para Cuidadores o Familiares de Niños Pequeños
+
+**Datos Demográficos**
+
+1. ¿Cuál es su relación con el niño que cuida?
+
+**Preferencias y Uso de Tecnología**
+
+1. ¿Con qué frecuencia utiliza dispositivos tecnológicos (smartphones, tablets, wearables)?
+2. ¿Qué tan cómodo se siente utilizando aplicaciones móviles?
+3. ¿Utiliza actualmente algún dispositivo o tecnología para monitorear la seguridad o salud de su hijo/a?
+4. ¿Ha habido alguna situación en la que sintió que una tecnología podría haberle ayudado, pero no la tenía a su disposición?
+
+**Objetivos y Motivaciones**
+
+1. ¿Cuáles son sus principales preocupaciones en relación a la seguridad y bienestar de su hijo/a?
+2. ¿Qué beneficios espera obtener de un sistema que monitoree en tiempo real la ubicación y salud de su hijo/a?
+3. ¿Qué características considera más importantes en un sistema de monitoreo? (e.g., alertas, seguimiento de ubicación, monitoreo de salud, facilidad de uso, etc.)
+4. ¿Le gustaría tener la posibilidad de compartir los datos del monitoreo con otros miembros de la familia o cuidadores?
+
+**Frustraciones y Desafíos**
+
+1. ¿Qué problemas has enfrentado en el cuidado diario de su hijo/a?
+2. ¿Ha enfrentado algún problema que podría haber sido resuelto con tecnología?
+
+**Biografía**
+
+1. ¿Cuánto tiempo lleva cuidando a su hijo/a?
+2. ¿Cómo describiría un día típico en el cuidado de su hijo/a?
+
+**Opinión sobre la idea de negocio**
+
+1. ¿Qué te parece la idea de nuestro proyecto? ¿Te sería útil?
+2. ¿Tienes sugerencias sobre posibles mejoras o características adicionales que podríamos integrar en nuestra aplicación?
+
+### 2.2.2 Registro de entrevistas
+
+### Segmento 1: Cuidadores o Familiares de personas con Alzheimer
+
+**Entrevista 01**
+- Nombres: Aldo Alberto
+- Apellidos: Baldeón Fabian
+- Edad: 21
+- Distrito: Villa María del Triunfo 
+- Evidencia de la reunión: 
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_aldo_baldeon.PNG" alt="Entrevista 01"  width="90%"/>
+    </div> 
+- Inicio: 5:02
+- Fin: 9:43
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=0g4e0m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAyLjU1fX0%3D
+   
+- Resumen de la entrevista: 
+
+    Aldo Baldeón es estudiante en la UPC y se identifica como una persona introvertida. Comenta que pasa la mayor parte de su tiempo en casa estudiando y no suele salir con frecuencia. Aldo está a cargo del cuidado de su abuelo, quien padece de Alzheimer, y aunque no utiliza tecnologías avanzadas para monitorearlo, recurre a aplicaciones básicas como WhatsApp para sus estudios y comunicación.
+
+    Aldo expresó sus principales preocupaciones respecto al bienestar de su abuelo, que incluyen la confusión, desorientación y el riesgo de que se escape de casa, además de la necesidad constante de asistencia para sus necesidades básicas. Estos factores le generan mucho estrés en su día a día.
+
+    Un sistema de monitoreo en tiempo real le resultaría muy útil, especialmente uno que pueda alertarlo si su abuelo sale de los límites de su hogar, facilitando su búsqueda en caso de que se pierda.
+
+    Aldo comparte la responsabilidad del cuidado de su abuelo con una prima, turnándose los fines de semana y durante la semana. Entre sus tareas diarias destacan alimentarlo, bañarlo y mantenerlo entretenido mediante la conversación.
+
+    Finalmente, Cristian presentó la idea de Biocercos, un proyecto de sistema de monitoreo que podría definir áreas específicas y emitir alertas sobre la ubicación y estado de salud del paciente. Aldo consideró que este proyecto sería de gran utilidad, destacando que la capacidad de recibir alertas sobre la ubicación de su abuelo sería una característica esencial.
+
+**Entrevista 02**
+- Nombres: Adrián Martín
+- Apellidos: Quito Igreda
+- Edad: 20
+- Distrito: Los Olivos
+- Evidencia de la reunión:
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_adrian_quito.PNG" alt="Entrevista 01"  width="90%"/>
+    </div>  
+- Inicio: 0:11
+- Fin: 5:01
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=8xJ9D5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTEuOTR9fQ%3D%3D
+- Resumen de la entrevista:
+
+  Adrián Martín Quito es estudiante de Ingeniería Electrónica en la UPC y se describe como una persona introvertida. Vive en Los Olivos y está a cargo del cuidado de su abuela, quien padece de Alzheimer. Aunque utiliza aplicaciones móviles y web diariamente, Adrián no emplea dispositivos específicos para monitorear a su abuela, prefiriendo un enfoque más tradicional y constante en su cuidado.
+
+  Entre sus principales preocupaciones se encuentran los riesgos cotidianos a los que su abuela podría estar expuesta, como abrir la puerta a extraños o olvidar apagar electrodomésticos. La posibilidad de volver a clases presenciales aumenta su preocupación por la seguridad de su abuela. Adrián cree que una aplicación que monitoree en tiempo real la ubicación y el estado de su abuela sería muy útil.
+
+  En su rutina diaria, Adrián enfrenta desafíos como que su abuela a veces no lo reconoce o tiene dificultades para realizar tareas de manera independiente. Aunque esta situación ha afectado sus estudios, Adrián dedica más tiempo al cuidado de su abuela, priorizando su seguridad por encima de otras responsabilidades.
+
+  Adrián ha estado en esta situación durante aproximadamente cuatro meses, desde que la condición de su abuela se agravó. Aunque lo encuentra desafiante, está dispuesto a adaptarse y explorar nuevas soluciones que puedan mejorar la calidad de vida de su abuela y reducir el estrés del cuidado.
+
+  Finalmente, Adrián considera que un sistema de geo-cerca sería una solución ideal para monitorear a su abuela. Además, sugiere que la inclusión de una cámara que se active al recibir una alarma ayudaría a verificar si su abuela está en peligro, brindando una mayor sensación de seguridad y tranquilidad.
+
+**Entrevista 03**
+- Nombres: Piero Alessandro
+- Apellidos: Descalzi Saenz
+- Edad: 21
+- Distrito: Breña
+- Evidencia de la reunión:
+   <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_piero_descalzi.png" alt="Entrevista 03"  width="90%"/>
+    </div> 
+- Inicio: 9:44
+- Fin: 14:42
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=5Ahe9I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTg0LjUzfX0%3D
+- Resumen de la entrevista: 
+
+    Durante la entrevista, recibí a Piero Descalci, un diseñador de videojuegos de 21 años que vive en Lima, Breña, y que se describe como una persona introvertida. Piero me comentó que prefiere pasar tiempo en casa con su familia, especialmente ahora que su primo Campos, diagnosticado conDu Alzheimer hace unos años, necesita más atención.
+
+    Piero utiliza aplicaciones móviles y páginas web diariamente para coordinar citas médicas y gestionar las tareas del cuidado de su primo. Me confesó que la seguridad es su principal preocupación, ya que teme que Campos se pierda o enfrente problemas de salud sin que puedan intervenir a tiempo.
+
+    El desgaste emocional ha sido una de las mayores dificultades para Piero, quien compartió conmigo momentos realmente angustiosos, como cuando su primo se perdió, lo que resultó en situaciones aterradoras y en un sentimiento constante de no estar haciendo lo suficiente. Me contó que en varias ocasiones la tecnología podría haber sido de gran ayuda, como cuando su primo se alejó de casa y no contaban con un dispositivo que los alertara. Esto los hizo perder mucho tiempo buscándolo, deseando tener alguna herramienta que pudiera ayudarlos en esos momentos críticos.
+
+    Le hablé del desarrollo en el que estamos trabajando: una pulsera con rastreador que notifica si una persona con Alzheimer o un niño pequeño sale de un área delimitada. Piero consideró que esta idea sería de gran utilidad para ofrecer mayor seguridad y tranquilidad a las familias y cuidadores.
+
+    Finalmente, Piero sugirió algunas mejoras para la aplicación, como la capacidad de enviar alertas a varios miembros de la familia simultáneamente y la posibilidad de monitorear más parámetros de salud, como el ritmo cardíaco o la presión arterial. Le agradecí por su participación y concluimos la entrevista.
+
+---
+
+### Segmento 2: Cuidadores o Familiares de niños pequeños
+
+**Entrevista 01**
+- Nombres: Natalia Jimena 
+- Apellidos: La Rosa Marcos
+- Edad: 24
+- Distrito: Bellavista 
+- Evidencia de la reunión: 
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_natalia_larosa.jpg" alt="Entrevista 01"  width="90%"/>
+    </div> 
+- Inicio: 14:48
+- Fin: 19:47
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=QNUk9I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODg4LjV9fQ%3D%3D
+- Resumen de la entrevista: 
+
+    Natalia La Rosa tiene 24 años y es egresada de la carrera de ingeniería biomédica. Ella cuida a su hermano pequeño regularmente. Se considera una persona muy introvertida, especialmente en situaciones que incluyen a extraños. Josué usa dispositivos tecnológicos ocasionalmente para rastrear su estudio, y para monitorear la cámara de su hogar, pero no utiliza tecnología como sensores de monitoreo para cuidar a su hermano.
+
+    José dijo que no tener a un adulto presente para cuidar de su hermano, ya que su madre está trabajando, es la razón por la que está realmente preocupado por su hermano. Opina que una aplicación que lleve a cabo la vigilancia con acciones a control remoto sería una buena manera de cuidar a su hermano en situaciones críticas, como verse obligado a quedarse solo en casa. Además, le gustaría poder controlar las cámaras desde más de un dispositivo y cree que un sistema que no solo le permita vigilar, sino también intervenir en caso de una emergencia sería de un valor inestimable para él.
+
+    José siente que una aplicación como GuardianArea sería lo que el doctor ordenó en su caso, ya que no solo le permitiría estar en paz a través de vigilar y proteger a su hermano de una manera más competente, sino también de estar mejor equipado para intervenir en caso de una emergencia.
+
+**Entrevista 02**
+- Nombres: Angie Beverly
+- Apellidos: Zavaleta Quispe
+- Edad: 28
+- Distrito: Rímac 
+- Evidencia de la reunión: 
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_angie_zavaleta.png" alt="Entrevista 01"  width="90%"/>
+    </div> 
+- Inicio: 19:48
+- Fin: 24:47
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=oyMobB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE4OC40NH19
+- Resumen de la entrevista: 
+  
+  Angie Zavaleta Quispe, de 28 años, trabaja en el area de recursos humanos y vive en el Rímac. Ella se considera introvertida, especialmente con personas nuevas, aunque se siente más cómoda con quienes ya conoce. Angie se ocupa del cuidado de su hermana pequeña de 9 años, quien es bastante hiperactiva, ello le genera preocupación, especialmente cuando están fuera de casa.
+  
+  Actualmente, Angie no emplea dispositivos de monitoreo, pero la idea de un sistema que le permita verificar la ubicación de su hermana en tiempo real le resulta atractiva. Angie contó una experiencia, donde su hermana se perdió en un mercado, lo que preocupó a su familia y le generó la necesidad de controlar la ubicación de su hermana cuando sale.
+  
+  Angie comenta que durante los fines de semana, ella y su hermana disfrutan de salir a parques, lo que resalta la necesidad de vigilar constantemente a su hermana debido a su hiperactividad. GuardianArea sería ideal para ellas, facilitando este monitoreo constante de manera efectiva.
+  
+  En resumen, Angie ve un gran valor con **GuaridianArea** que puede ofrecerle tranquilidad y seguridad al saber que puede monitorear la ubicación de su hermana en tiempo real y recibir alertas si sale de una zona segura.
+
+**Entrevista 03**
+- Nombres: José Carlos Isaac
+- Apellidos: Ampudia Flores
+- Edad: 20
+- Distrito: Monterrico
+- Evidencia de la reunión: 
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_jose_isaac.png" alt="Entrevista 01"  width="90%"/>
+    </div>
+
+- Inicio: 24:48
+- Fin: 29:46
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=KaLquw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ4OC4yMn19
+- Resumen de la entrevista: 
+
+    Natalia La Rosa, de 24 años, es ingeniera biomédica y reside en Bellavista, Callao. Se describe como una persona extrovertida, que disfruta de salir con amigos y conocer gente nueva. Además, es responsable del cuidado de su hermano menor, para lo cual utiliza herramientas tecnológicas, aunque su principal recurso ha sido el control parental de YouTube.
+
+    Natalia expresó su preocupación por la seguridad de su hermano, sobre todo cuando está ocupada con sus estudios universitarios o trabajo. Le preocupa que su hermano pueda abrir la puerta a extraños o salir solo, lo que lo pondría en peligro.
+
+    Natalia considera que un sistema de monitoreo en tiempo real sería ideal para su situación, destacando la importancia de la precisión en la ubicación y la emisión de alarmas inmediatas si su hermano sale de la zona segura. También le parece relevante que el sistema sea fácil de usar y tenga la posibilidad de conectarse con la policía para reportar emergencias de manera rápida.
+
+    En su experiencia diaria, Natalia ha enfrentado situaciones difíciles, como el hecho de que su hermano salga solo a la calle, exponiéndose a diversos peligros. Un día típico para ella incluye llevar y recoger a su hermano del colegio, y permitirle entrar y salir de casa con una llave, lo que le genera cierta preocupación.
+
+    Finalmente, Natalia considera que el proyecto de monitoreo propuesto sería de gran utilidad para su familia, ya que les permitiría estar más al tanto de la ubicación y las actividades de su hermano. Sugiere que se integre una conexión directa con la policía para reportar desapariciones de forma inmediata, lo que mejoraría significativamente la seguridad.
+
+### 2.2.3 Análisis de entrevistas
+
+**Segmento objetivo 1: Cuidadores o Familiares de personas con Alzheimer**
+
+**Características Objetivas:**
+- Edad: Jóvenes (estudiantes) entre 20 y 25 años.
+- Nivel educativo: Universitario.
+- Rol: Cuidadores de familiares con Alzheimer.
+- Tecnología usada: Aplicaciones básicas como WhatsApp.
+
+**Características Subjetivas:**
+- Preocupaciones principales: Seguridad y bienestar del familiar (desorientación y fugas).
+- Sentimientos: Estrés por la responsabilidad del cuidado.
+
+**Problemas comunes:**
+- Desorientación del familiar.
+- Cuidado no eficiente sin tecnología avanzada.
+
+**Estadísticas:**
+- 100% consideran útil un sistema de monitoreo en tiempo real.
+- 66% valoran las alertas inmediatas al salir de zonas seguras.
+- 33% sugieren el uso de cámaras.
+
+---
+
+**Segmento objetivo 2: Cuidadores o Familiares de niños pequeños**
+
+**Características Objetivas:**
+- Edad: Entre 24 y 28 años.
+- Nivel educativo: Universitario.
+- Rol: Cuidadores de hermanos menores.
+- Tecnología usada: Cámaras de seguridad y control parental.
+
+**Características Subjetivas:**
+- Preocupaciones principales: Seguridad del niño en casa y lugares públicos.
+- Sentimientos: Ansiedad por el riesgo de que se pierdan.
+
+**Problemas comunes:**
+- Pérdida de ubicación en espacios públicos.
+- Monitoreo limitado sin capacidad de intervención inmediata.
+
+**Estadísticas:**
+- 100% desean recibir alertas si el niño sale de una zona segura.
+- 50% consideran importante la conexión con la policía.
+- 33% desean monitoreo desde múltiples dispositivos.
 
 ## 2.3. Needfinding
 
@@ -884,16 +1166,16 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
-**Segmento: Cuidadores de Niños**
-<div style="text-align: center;">
-    <img src="./images/chapter-03/to-be-child.png" alt="To-Be Child" style="max-width: 800px; width: 95%">
-</div>
-<br>
-
-
 **Segmento: Cuidadores de Personas con Alzheimer**
 <div style="text-align: center;">
     <img src="./images/chapter-03/to-be-alzheimer.png" alt="To-Be Alzheimer" style="max-width: 800px; width: 95%">
+</div>
+<br>
+
+**Segmento: Cuidadores de Niños**
+
+<div style="text-align: center;">
+    <img src="./images/chapter-03/to-be-child.png" alt="To-Be Child" style="max-width: 800px; width: 95%">
 </div>
 <br>
 
