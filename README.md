@@ -1689,6 +1689,15 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 </div>
 
 ## 4.2. Tactical-Level Domain-Driven Design
+### 4.1.3.2. Software Architecture Context Level Diagrams
+<div style="text-align: center;">
+    <img src="./images/chapter-04/context_diagram.png" alt="Context Level Diagrams" style="max-width: 800px; width: 95%">
+</div>
+
+### 4.1.3.3. Software Architecture Container Level Diagrams
+<div style="text-align: center;">
+    <img src="./images/chapter-04/container_diagram.png" alt="Container Level Diagrams" style="max-width: 800px; width: 95%">
+</div>
 
 ### 4.2.2. Bounded Context: Monitoring
 
