@@ -1682,6 +1682,12 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
     <img src="./images/chapter-04/system-landscape.png" alt="System Landscape Diagram" style="max-width: 800px; width: 95%">
 </div>
 
+### 4.1.3.4. Software Architecture Deployment Diagrams
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/deployment-diagram.png" alt="Deployment Diagrams" style="max-width: 800px; width: 95%">
+</div>
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.2. Bounded Context: Monitoring
