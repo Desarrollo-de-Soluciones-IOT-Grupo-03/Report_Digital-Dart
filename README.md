@@ -265,7 +265,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 <table align="center"  border="1" width="70%" style="text-align:center;">
     <tr align="center">
         <td rowspan="3">
-            <img src="./images/chapter-01/profile-pics/steve_rogers.png" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/steve_rogers.jfif" alt="Steve Castillo" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -361,7 +361,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://digitaldartstorage.blob.core.windows.net/digitaldartstorage/cristian.jpg" alt="Cristian Quito" style="margin-bottom: 5px;" width="600"/>
+            <img src="./images/chapter-01/profile-pics/cristian_quito.jfif" alt="Cristian Quito" style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -930,6 +930,239 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 - 50% consideran importante la conexión con la policía.
 - 33% desean monitoreo desde múltiples dispositivos.
 
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+#### **User Persona 01: María López**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_persona_01.png" alt="María López" width="70%">
+</div>
+
+#### **User Persona 02: Carlos Pérez**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_persona_02.png" alt="Carlos Pérez" width="70%">
+</div>
+
+### 2.3.2. User Task Matrix
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr>
+        <td></td>
+        <td colspan=2>
+            <b>User Persona</b>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan=2>
+            <b>María López</b> </br>Segmento Objetivo 01 (Cuidadora de personas con Alzheimer)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Task</b>
+        </td>
+        <td>
+            <b>Frequency</b>
+        </td>
+        <td>
+            <b>Importance</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Establecer geocercas de seguridad
+        </td>
+        <td>
+            Medium
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Monitorear ubicación en tiempo real
+        </td>
+        <td>
+            High
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recibir notificaciones de salida de geocerca
+        </td>
+        <td>
+            High
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Revisar historial de actividad
+        </td>
+        <td>
+            Medium
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Gestionar sincronización del dispositivo
+        </td>
+        <td>
+            Low
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recibir alertas de batería baja del dispositivo
+        </td>
+        <td>
+            Low
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr>
+        <td></td>
+        <td colspan=2>
+            <b>User Persona</b>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan=2>
+            <b>Carlos Pérez</b> </br>Segmento Objetivo 02 (Familiar de niños pequeños)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Task</b>
+        </td>
+        <td>
+            <b>Frequency</b>
+        </td>
+        <td>
+            <b>Importance</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Establecer geocercas de seguridad
+        </td>
+        <td>
+            Medium
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Monitorear ubicación en tiempo real
+        </td>
+        <td>
+            High
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recibir notificaciones de salida de geocerca
+        </td>
+        <td>
+            High
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Revisar historial de actividad
+        </td>
+        <td>
+            Low
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recibir alertas de batería baja del dispositivo
+        </td>
+        <td>
+            Low
+        </td>
+        <td>
+            Medium
+        </td>
+    </tr>
+</table>
+
+### 2.3.3. User Journey Mapping
+
+**Segmento 1**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_journey_map_1.png" alt="User Journey Map 1" width="100%">
+</div>
+
+**Segmento 2**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_journey_map_2.png" alt="User Journey Map 2" width="100%">
+</div>
+
+### 2.3.4. Empathy Mapping
+
+**Segmento 1**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_empathy_map_1.png" alt="User Empathy Map 1" width="100%">
+</div>
+
+**Segmento 2**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_empathy_map_2.png" alt="User Empathy Map 2" width="100%">
+</div>
+
+### 2.3.5. As-is Scenario Mapping
+
+**Segmento 1**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_asis_map_1.png" alt="User As-is Scenario 1" width="100%">
+</div>
+
+**Segmento 2**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_asis_map_2.png" alt="User As-is Scenario 2" width="100%">
+</div>
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
@@ -940,6 +1173,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 <br>
 
 **Segmento: Cuidadores de Niños**
+
 <div style="text-align: center;">
     <img src="./images/chapter-03/to-be-child.png" alt="To-Be Child" style="max-width: 800px; width: 95%">
 </div>
