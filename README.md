@@ -1484,6 +1484,57 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
     <img src="./images/chapter-03/impact_map_2.png" alt="Impact Mapping" style="max-width: 800px; width: 95%">
 </div>
 
+## 3.4. Product Backlog
+
+### User Stories
+
+| # Orden | User Story Id | Título                                                | Descripción                                                                                                               | Story Points |
+|---------|---------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | US01          | Visualización de Ubicación en Tiempo Real             | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación. | 5            |
+| 2       | US02          | Alerta de Salida de Zona Segura                       | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.       | 3            |
+| 3       | US03          | Establecer Geo-cercas                                 | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar.                      | 3            |
+| 4       | US04          | Comunicación Remota con el Niño a Cuidar              | Como cuidador, quiero poder comunicarme con la persona a cuidar a través del altavoz del dispositivo para darle instrucciones en caso de emergencia. | 5            |
+| 5       | US05          | Activación de Alarmas en Situación de Peligro         | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro.                    | 5            |
+| 6       | US06          | Monitoreo de Actividad Física                         | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.  | 3            |
+| 7       | US07          | Control de Dispositivos Externos                      | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro. | 5            |
+| 8       | US08          | Diagnóstico y Solución de Problemas del Dispositivo   | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo a través de la aplicación.                    | 3            |
+| 9       | US09          | Revisión del Historial de Eventos                     | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad. | 3            |
+
+---
+
+### **Frontend Technical Stories**
+
+| # Orden | Technical Story Id | Título                                                        | Descripción                                                                                                               | Story Points |
+|---------|--------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | TS01               | Implementación de Mapa para Visualización en Tiempo Real       | Como desarrollador, quiero implementar un mapa interactivo en la aplicación web para visualizar la ubicación en tiempo real de la persona monitoreada. | 5            |
+| 2       | TS02               | Crear Interfaz de Usuario para Geo-cercas en la Web           | Como desarrollador, quiero crear una interfaz intuitiva en la aplicación web para que los usuarios puedan configurar y gestionar geo-cercas. | 3            |
+| 3       | TS03               | Implementar Notificaciones en Tiempo Real en la Aplicación Móvil | Como desarrollador, quiero implementar notificaciones push en la aplicación móvil para alertar a los usuarios en tiempo real cuando ocurran eventos críticos. | 3            |
+
+---
+
+### **Backend Technical Stories**
+
+| # Orden | Technical Story Id | Título                                                        | Descripción                                                                                                               | Story Points |
+|---------|--------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | TS04               | API para Visualización de Ubicación en Tiempo Real            | Como desarrollador, quiero implementar una API para obtener la ubicación en tiempo real de la persona a monitorear.        | 5            |
+| 2       | TS05               | API para Establecer Geo-cercas                                | Como desarrollador, quiero crear una API para establecer y gestionar geo-cercas.                                           | 3            |
+| 3       | TS06               | API para Notificaciones de Salida de Zona Segura              | Como desarrollador, quiero implementar una API para gestionar notificaciones cuando una persona sale de una geo-cerca.     | 3            |
+| 4       | TS07               | API para Comunicación Remota por Voz                         | Como desarrollador, quiero implementar una API para enviar mensajes de voz al dispositivo de la persona monitoreada.       | 5            |
+| 5       | TS08               | API para Revisión del Historial de Eventos y Actividad        | Como desarrollador, quiero implementar una API para gestionar el historial de eventos del dispositivo y la actividad física de la persona monitoreada. | 3            |
+| 6       | TS09               | Implementar Servicio de Monitoreo de Dispositivos en SpringBoot | Como desarrollador, quiero implementar un servicio en SpringBoot que monitoree el estado de los dispositivos IoT.          | 5            |
+
+---
+
+### **IoT Technical Stories**
+
+| # Orden | Technical Story Id | Título                                                        | Descripción                                                                                                               | Story Points |
+|---------|--------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | TS10               | API para Activación de Alarmas en Situaciones de Peligro       | Como desarrollador, quiero implementar una API para activar alarmas sonoras en el dispositivo cuando se detecta peligro.   | 5            |
+| 2       | TS11               | API para Control de Dispositivos Externos                     | Como desarrollador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro. | 5            |
+| 3       | TS12               | API para Diagnóstico del Dispositivo                           | Como desarrollador, quiero implementar una API que realice un diagnóstico del dispositivo GuardianArea.                    | 3            |
+| 4       | TS13               | Crear APIs para Gestionar Geo-cercas en el Backend             | Como desarrollador, quiero implementar APIs en el backend para gestionar geo-cercas.                                       | 3            |
+
+
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. Event Storming
