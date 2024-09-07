@@ -741,26 +741,52 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 ### Segmento 1: Cuidadores o Familiares de personas con Alzheimer
 
 **Entrevista 01**
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Distrito: 
+- Nombres: Aldo Alberto
+- Apellidos: Baldeón Fabian
+- Edad: 21
+- Distrito: Villa María del Triunfo 
 - Evidencia de la reunión: 
 - Inicio: 
 - Fin: 
-- Enlace de entrevista: 
+- Enlace de entrevista:
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_aldo_baldeon.PNG" alt="Entrevista 01"  width="90%"/>
+    </div> 
 - Resumen de la entrevista: 
 
+    Aldo Baldeón es estudiante en la UPC y se identifica como una persona introvertida. Comenta que pasa la mayor parte de su tiempo en casa estudiando y no suele salir con frecuencia. Aldo está a cargo del cuidado de su abuelo, quien padece de Alzheimer, y aunque no utiliza tecnologías avanzadas para monitorearlo, recurre a aplicaciones básicas como WhatsApp para sus estudios y comunicación.
+
+    Aldo expresó sus principales preocupaciones respecto al bienestar de su abuelo, que incluyen la confusión, desorientación y el riesgo de que se escape de casa, además de la necesidad constante de asistencia para sus necesidades básicas. Estos factores le generan mucho estrés en su día a día.
+
+    Un sistema de monitoreo en tiempo real le resultaría muy útil, especialmente uno que pueda alertarlo si su abuelo sale de los límites de su hogar, facilitando su búsqueda en caso de que se pierda.
+
+    Aldo comparte la responsabilidad del cuidado de su abuelo con una prima, turnándose los fines de semana y durante la semana. Entre sus tareas diarias destacan alimentarlo, bañarlo y mantenerlo entretenido mediante la conversación.
+
+    Finalmente, Cristian presentó la idea de Biocercos, un proyecto de sistema de monitoreo que podría definir áreas específicas y emitir alertas sobre la ubicación y estado de salud del paciente. Aldo consideró que este proyecto sería de gran utilidad, destacando que la capacidad de recibir alertas sobre la ubicación de su abuelo sería una característica esencial.
+
 **Entrevista 02**
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Distrito: 
-- Evidencia de la reunión: 
+- Nombres: Adrián Martín
+- Apellidos: Quito Igreda
+- Edad: 20
+- Distrito: Los Olivos
+- Evidencia de la reunión:
+    <div align=center>
+        <img src="./images/chapter-02/interviews/entrevista_adrian_quito.PNG" alt="Entrevista 01"  width="90%"/>
+    </div>  
 - Inicio: 
 - Fin: 
 - Enlace de entrevista: 
-- Resumen de la entrevista: 
+- Resumen de la entrevista:
+
+  Adrián Martín Quito es estudiante de Ingeniería Electrónica en la UPC y se describe como una persona introvertida. Vive en Los Olivos y está a cargo del cuidado de su abuela, quien padece de Alzheimer. Aunque utiliza aplicaciones móviles y web diariamente, Adrián no emplea dispositivos específicos para monitorear a su abuela, prefiriendo un enfoque más tradicional y constante en su cuidado.
+
+  Entre sus principales preocupaciones se encuentran los riesgos cotidianos a los que su abuela podría estar expuesta, como abrir la puerta a extraños o olvidar apagar electrodomésticos. La posibilidad de volver a clases presenciales aumenta su preocupación por la seguridad de su abuela. Adrián cree que una aplicación que monitoree en tiempo real la ubicación y el estado de su abuela sería muy útil.
+
+  En su rutina diaria, Adrián enfrenta desafíos como que su abuela a veces no lo reconoce o tiene dificultades para realizar tareas de manera independiente. Aunque esta situación ha afectado sus estudios, Adrián dedica más tiempo al cuidado de su abuela, priorizando su seguridad por encima de otras responsabilidades.
+
+  Adrián ha estado en esta situación durante aproximadamente cuatro meses, desde que la condición de su abuela se agravó. Aunque lo encuentra desafiante, está dispuesto a adaptarse y explorar nuevas soluciones que puedan mejorar la calidad de vida de su abuela y reducir el estrés del cuidado.
+
+  Finalmente, Adrián considera que un sistema de geo-cerca sería una solución ideal para monitorear a su abuela. Además, sugiere que la inclusión de una cámara que se active al recibir una alarma ayudaría a verificar si su abuela está en peligro, brindando una mayor sensación de seguridad y tranquilidad.
 
 **Entrevista 03**
 - Nombres: 
