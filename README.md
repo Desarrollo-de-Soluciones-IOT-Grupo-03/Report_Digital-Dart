@@ -1645,12 +1645,18 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 **Bounded Context: Configuration**
 
 <div style="text-align: center;">
-    <img src="./images/chapter-04/user-account-bc-canvas.png" alt="User Account" style="max-width: 800px; width: 95%">
+    <img src="./images/chapter-04/user-account-bc-canvas.png" alt="Configuration" style="max-width: 800px; width: 95%">
 
 **Bounded Context: Monitoring**
 
 <div style="text-align: center;">
-    <img src="./images/chapter-04/monitoring-bc-canvas.png" alt="User Account" style="max-width: 800px; width: 95%">
+    <img src="./images/chapter-04/monitoring-bc-canvas.png" alt="Monitoring" style="max-width: 800px; width: 95%">
+
+**Bounded Context: User Account**
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user-account-bc-canvas.png" alt="User Account" style="max-width: 800px; width: 95%">
+
 
 
 
