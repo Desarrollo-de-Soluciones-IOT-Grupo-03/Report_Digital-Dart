@@ -746,12 +746,13 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 - Edad: 21
 - Distrito: Villa María del Triunfo 
 - Evidencia de la reunión: 
-- Inicio: 
-- Fin: 
-- Enlace de entrevista:
     <div align=center>
         <img src="./images/chapter-02/interviews/entrevista_aldo_baldeon.PNG" alt="Entrevista 01"  width="90%"/>
     </div> 
+- Inicio: 5:02
+- Fin: 9:43
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=0g4e0m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAyLjU1fX0%3D
+   
 - Resumen de la entrevista: 
 
     Aldo Baldeón es estudiante en la UPC y se identifica como una persona introvertida. Comenta que pasa la mayor parte de su tiempo en casa estudiando y no suele salir con frecuencia. Aldo está a cargo del cuidado de su abuelo, quien padece de Alzheimer, y aunque no utiliza tecnologías avanzadas para monitorearlo, recurre a aplicaciones básicas como WhatsApp para sus estudios y comunicación.
@@ -773,9 +774,9 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
     <div align=center>
         <img src="./images/chapter-02/interviews/entrevista_adrian_quito.PNG" alt="Entrevista 01"  width="90%"/>
     </div>  
-- Inicio: 
-- Fin: 
-- Enlace de entrevista: 
+- Inicio: 0:11
+- Fin: 5:01
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=8xJ9D5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTEuOTR9fQ%3D%3D
 - Resumen de la entrevista:
 
   Adrián Martín Quito es estudiante de Ingeniería Electrónica en la UPC y se describe como una persona introvertida. Vive en Los Olivos y está a cargo del cuidado de su abuela, quien padece de Alzheimer. Aunque utiliza aplicaciones móviles y web diariamente, Adrián no emplea dispositivos específicos para monitorear a su abuela, prefiriendo un enfoque más tradicional y constante en su cuidado.
@@ -797,9 +798,9 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
    <div align=center>
         <img src="./images/chapter-02/interviews/entrevista_piero_descalzi.png" alt="Entrevista 03"  width="90%"/>
     </div> 
-- Inicio: 
-- Fin: 
-- Enlace de entrevista: 
+- Inicio: 9:44
+- Fin: 14:42
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=5Ahe9I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTg0LjUzfX0%3D
 - Resumen de la entrevista: 
 
     Durante la entrevista, recibí a Piero Descalci, un diseñador de videojuegos de 21 años que vive en Lima, Breña, y que se describe como una persona introvertida. Piero me comentó que prefiere pasar tiempo en casa con su familia, especialmente ahora que su primo Campos, diagnosticado conDu Alzheimer hace unos años, necesita más atención.
@@ -825,9 +826,9 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
     <div align=center>
         <img src="./images/chapter-02/interviews/entrevista_natalia_larosa.jpg" alt="Entrevista 01"  width="90%"/>
     </div> 
-- Inicio: 
-- Fin: 
-- Enlace de entrevista: 
+- Inicio: 14:48
+- Fin: 19:47
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=QNUk9I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODg4LjV9fQ%3D%3D
 - Resumen de la entrevista: 
 
     Natalia La Rosa tiene 24 años y es egresada de la carrera de ingeniería biomédica. Ella cuida a su hermano pequeño regularmente. Se considera una persona muy introvertida, especialmente en situaciones que incluyen a extraños. Josué usa dispositivos tecnológicos ocasionalmente para rastrear su estudio, y para monitorear la cámara de su hogar, pero no utiliza tecnología como sensores de monitoreo para cuidar a su hermano.
@@ -845,9 +846,9 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
     <div align=center>
         <img src="./images/chapter-02/interviews/entrevista_angie_zavaleta.png" alt="Entrevista 01"  width="90%"/>
     </div> 
-- Inicio: 
-- Fin: 
-- Enlace de entrevista: 
+- Inicio: 19:48
+- Fin: 24:47
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=oyMobB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE4OC40NH19
 - Resumen de la entrevista: 
   
   Angie Zavaleta Quispe, de 28 años, trabaja en el area de recursos humanos y vive en el Rímac. Ella se considera introvertida, especialmente con personas nuevas, aunque se siente más cómoda con quienes ya conoce. Angie se ocupa del cuidado de su hermana pequeña de 9 años, quien es bastante hiperactiva, ello le genera preocupación, especialmente cuando están fuera de casa.
@@ -868,9 +869,9 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
         <img src="./images/chapter-02/interviews/entrevista_jose_isaac.png" alt="Entrevista 01"  width="90%"/>
     </div>
 
-- Inicio: 
-- Fin: 
-- Enlace de entrevista: 
+- Inicio: 24:48
+- Fin: 29:46
+- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=KaLquw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ4OC4yMn19
 - Resumen de la entrevista: 
 
     Natalia La Rosa, de 24 años, es ingeniera biomédica y reside en Bellavista, Callao. Se describe como una persona extrovertida, que disfruta de salir con amigos y conocer gente nueva. Además, es responsable del cuidado de su hermano menor, para lo cual utiliza herramientas tecnológicas, aunque su principal recurso ha sido el control parental de YouTube.
