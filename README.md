@@ -1484,6 +1484,26 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
     <img src="./images/chapter-03/impact_map_2.png" alt="Impact Mapping" style="max-width: 800px; width: 95%">
 </div>
 
+## 3.4. Product Backlog
+
+### User Stories
+
+| # Orden | User Story Id | Título                                                | Descripción                                                                                                               | Story Points |
+|---------|---------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | US01          | Visualización de Ubicación en Tiempo Real             | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación. | 5            |
+| 2       | US02          | Alerta de Salida de Zona Segura                       | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.       | 3            |
+| 3       | US03          | Establecer Geo-cercas                                 | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar.                      | 3            |
+| 4       | US04          | Comunicación Remota con el Niño a Cuidar              | Como cuidador, quiero poder comunicarme con la persona a cuidar a través del altavoz del dispositivo para darle instrucciones en caso de emergencia. | 5            |
+| 5       | US05          | Activación de Alarmas en Situación de Peligro         | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro.                    | 5            |
+| 6       | US06          | Monitoreo de Actividad Física                         | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.  | 3            |
+| 7       | US07          | Control de Dispositivos Externos                      | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro. | 5            |
+| 8       | US08          | Diagnóstico y Solución de Problemas del Dispositivo   | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo a través de la aplicación.                    | 3            |
+| 9       | US09          | Revisión del Historial de Eventos                     | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad. | 3            |
+
+---
+
+
+
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. Event Storming
