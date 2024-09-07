@@ -1642,6 +1642,96 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
+### 4.2.3. Bounded Context: User Account
+En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
+
+#### 4.2.5.1. Domain Layer
+
+**Entity**
+
+| **Nombre** | **Categoría** | **Propósito**                                            |
+|:----------:|:--------------|:---------------------------------------------------------|
+|  User   | Entity        | Representa un usuario. |
+
+*Atributos*
+
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
+|:----------:|:-----------------|:----------------|:-----------------------------------------|
+|     id     | Long  | Private         | Identificador único                      |
+|    username    | String  | Private         | nombre del usuario      |
+|   password   | String | Private         | contraseña codificada  |
+
+*Métodos*
+
+| **Nombre**  | **Tipo de retorno** | **Visibilidad** | **Descripción**          |
+|:-----------:|:--------------------|:----------------|:-------------------------|
+| Constructor | Void  | Public  | Constructor para User |
+| addRoles | User   | Public  | Añadir roles al usuario |
+
+#### 4.2.5.2. Interface Layer
+
+**Controller**
+
+|    **Nombre**     | **Categoría** | **Propósito**            |
+|:-----------------:|:--------------|:-------------------------|
+| UserAccountCOntroller | Controller    | Controlador para User |
+
+*Atributos*
+
+|   **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**       |
+|:--------------:|:-----------------|:----------------|:----------------------|
+| userAccountService | UserAccountService   | Private         | Servicio para User |
+
+*Métodos*
+
+|   **Nombre**   | **Tipo de retorno**    | **Visibilidad** | **Descripción**             |
+|:--------------:|:-----------------------|:----------------|:----------------------------|
+|  Constructor   | Void                   | Public          | Inicializa el UserAccountService |
+| CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
+| GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
+
+#### 4.2.5.3. Application Layer
+
+**Service**
+
+|   **Nombre**   | **Categoría** | **Propósito**                                |
+|:--------------:|:--------------|:---------------------------------------------|
+| UserAccountService | Service       | Servicio con la lógica de negocio de User |
+
+*Atributos*
+
+|   **Nombre**    | **Tipo de dato**  | **Visibilidad** | **Descripción**        |
+|:---------------:|:------------------|:----------------|:-----------------------|
+|userAccountRepository| UserAccountRepository | Private         | Repositorio de User |
+
+*Métodos*   
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                              |
+|:----------:|:--------------------|:----------------|:---------------------------------------------|
+| CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
+| GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
+
+#### 4.2.5.4. Infrastructure Layer
+
+**Repository**
+
+|    **Nombre**     | **Categoría** | **Propósito**                     |
+|:-----------------:|:--------------|:----------------------------------|
+| UserRepository | Repository    | Repositorio que almacena User |
+
+*Métodos*
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                         |
+|:----------:|:--------------------|:----------------|:--------------------------------------------------------|
+| save | User | Public  | Guarda datos de usuario |
+| findById | User | Public  | Recupera el usuario por id  |
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
+</div>
+
 ### 4.2.4. Bounded Context: Payment
 En este bounded context se gestiona los pagos dentro del sistema.
 
