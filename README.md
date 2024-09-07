@@ -1310,6 +1310,16 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. Event Storming
 
+EventStorming es una metodología colaborativa e iterativa de modelado que permite explorar a fondo problemas complejos y de gran magnitud, facilitando la identificación de numerosos detalles y posibles desafíos.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/10-step-event.png" alt="Event Storming" style="max-width: 800px; width: 95%">
+</div>
+
+**Link Miro:** [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
+
+#### 4.1.1.1. Candidate Context Discovery
+
 Durante nuestra sesión de event storming, llevamos a cabo una reunión en la que discutimos diversas ideas. A lo largo de la sesión, identificamos conceptos clave para nuestra aplicación y comenzamos a desarrollar las primeras versiones.
 
 A continuación, presentaremos el desarrollo de nuestro event storming, realizado con la herramienta Miro. En esta sesión participaron los cinco integrantes de Digital Dart, quienes contribuyeron con sus ideas y perspectivas para el avance del proyecto.
@@ -1379,7 +1389,7 @@ Definimos y diseñamos los agregados para cada contexto del sistema, asegurando 
 </div>
 En esta etapa final, se identifican y definen los contextos delimitados, agrupando los agregados que están estrechamente relacionados o que interactúan entre sí mediante políticas. Estos contextos delimitados ayudan a organizar y gestionar las distintas áreas del sistema.
 
-**Link Miro:** [Event Storming]()
+**Link Miro:** [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
@@ -1503,3 +1513,5 @@ En este bounded context se gestiona los pagos dentro del sistema.
 
 
 
+### ANEXOS
+- Link Event Storming: https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
