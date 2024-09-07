@@ -1691,6 +1691,15 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 </div>
 
 ## 4.2. Tactical-Level Domain-Driven Design
+### 4.1.3.2. Software Architecture Context Level Diagrams
+<div style="text-align: center;">
+    <img src="./images/chapter-04/context_diagram.png" alt="Context Level Diagrams" style="max-width: 800px; width: 95%">
+</div>
+
+### 4.1.3.3. Software Architecture Container Level Diagrams
+<div style="text-align: center;">
+    <img src="./images/chapter-04/container_diagram.png" alt="Container Level Diagrams" style="max-width: 800px; width: 95%">
+</div>
 
 ### 4.2.2. Bounded Context: Monitoring
 
@@ -2064,7 +2073,85 @@ En este bounded context maneja el envío y la gestión de notificaciones dentro 
 </div>
 
 
+### 4.2.6. Contexto Delimitado: Configuración
 
+Este contexto delimitado es responsable de gestionar la configuración inicial y la administración de dispositivos IoT, las geo-cercas y la configuración del sistema de monitoreo dentro del **Guardian Area**.
+
+#### 4.2.6.1. Capa de Dominio
+
+**Entidades**
+
+- **DeviceConfig**: Representa los detalles de configuración de un dispositivo IoT.
+- **GeoFenceConfig**: Representa la configuración de una geo-cerca utilizada para definir zonas seguras.
+
+##### Atributos de **DeviceConfig**
+
+| **Nombre**      | **Tipo**  | **Descripción**                                    |
+|:-------------:|:---------:|:---------------------------------------------------|
+| id            | Long      | Identificador único para la configuración del dispositivo.    |
+| status        | String    | El estado actual de la configuración del dispositivo.            |
+| lastUpdated   | Date      | Marca de tiempo de la última actualización de configuración.    |
+
+##### Atributos de **GeoFenceConfig**
+
+| **Nombre**          | **Tipo**  | **Descripción**                                  |
+|:-----------------:|:---------:|:-------------------------------------------------|
+| id                | Long      | Identificador único para la geo-cerca.             |
+| zoneCoordinates   | String    | Las coordenadas que definen el área de la geo-cerca.  |
+| isActive          | Boolean   | Indica si la geo-cerca está activa actualmente.  |
+
+#### 4.2.6.2. Capa de Interfaz
+
+**Controlador**
+
+- **ConfigurationController**: Administra las solicitudes API relacionadas con las configuraciones de dispositivos y geo-cercas.
+
+##### Métodos
+
+| **Nombre del Método**          | **Tipo de Retorno**  | **Descripción**                                     |
+|:------------------------:|:----------------:|:----------------------------------------------------|
+| configureDevice           | ResponseEntity   | Configura un dispositivo y devuelve el estado.         |
+| configureGeoFence         | ResponseEntity   | Configura una geo-cerca y devuelve el estado.      |
+| getDeviceConfigStatus     | DeviceConfigDTO  | Obtiene el estado de la configuración del dispositivo. |
+| getGeoFenceStatus         | GeoFenceConfigDTO| Obtiene el estado actual de una geo-cerca.          |
+
+#### 4.2.6.3. Capa de Aplicación
+
+**Servicio**
+
+- **ConfigurationService**: Se encarga de la lógica de negocio para la configuración de dispositivos y geo-cercas.
+
+##### Métodos
+
+| **Nombre del Método**          | **Tipo de Retorno**  | **Descripción**                                         |
+|:------------------------:|:----------------:|:--------------------------------------------------------|
+| setupDevice               | DeviceConfig     | Inicializa y configura un dispositivo IoT.                  |
+| configureGeoFence         | GeoFenceConfig   | Configura las zonas de geo-cerca para un dispositivo.               |
+| getDeviceConfig           | DeviceConfig     | Devuelve los detalles de configuración para un dispositivo específico. |
+| getGeoFenceConfig         | GeoFenceConfig   | Devuelve los detalles de configuración de una geo-cerca.       |
+
+#### 4.2.6.4. Capa de Infraestructura
+
+**Repositorio**
+
+- **ConfigurationRepository**: Administra la persistencia de los datos de configuración de dispositivos y geo-cercas.
+
+##### Métodos
+
+| **Nombre del Método**          | **Tipo de Retorno**  | **Descripción**                                         |
+|:------------------------:|:----------------:|:--------------------------------------------------------|
+| saveDeviceConfig          | DeviceConfig     | Guarda los detalles de configuración de un dispositivo IoT.        |
+| saveGeoFenceConfig        | GeoFenceConfig   | Guarda los detalles de configuración de una geo-cerca.          |
+| findDeviceConfigById      | DeviceConfig     | Recupera la configuración de un dispositivo por su ID.     |
+| findGeoFenceConfigById    | GeoFenceConfig   | Recupera la configuración de una geo-cerca por su ID.  |
+
+#### 4.2.6.5. Diagrama de Componentes del Contexto Delimitado
+
+El siguiente diagrama proporciona una vista general de los componentes dentro del contexto delimitado de Configuración, centrándose en los controladores, servicios y repositorios que administran la configuración de dispositivos y geo-cercas.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/configuration-component.png" alt="Configuration Component" style="max-width: 800px; width: 95%">
+</div>
 
 
 
