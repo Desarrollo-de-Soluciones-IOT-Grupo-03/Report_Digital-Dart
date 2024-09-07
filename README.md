@@ -1367,6 +1367,26 @@ En esta etapa final, se identifican y definen los contextos delimitados, agrupan
 
 **Link Miro:** [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
 
+#### 4.1.1.2. Domain Message Flows Modeling
+
+**User**
+Escenario: El usuario quiere iniciar sesión
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user.png" alt="User" style="max-width: 800px; width: 95%">
+</div>
+
+**Caregiver**
+Escenario: El cuidador desea configurar el dispositivo para monitorear la ubicación y el estado de salud de la persona que está cuidando.
+<div style="text-align: center;">
+    <img src="./images/chapter-04/caregiver.png" alt="Caregiver" style="max-width: 800px; width: 95%">
+</div>
+
+**Person to Care for**
+Escenario: La persona atendida abandona la zona segura o su estado de salud cambia.
+<div style="text-align: center;">
+    <img src="./images/chapter-04/person_to_care_for.png" alt="Person to care for" style="max-width: 800px; width: 95%">
+</div>
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.4. Bounded Context: Payment
