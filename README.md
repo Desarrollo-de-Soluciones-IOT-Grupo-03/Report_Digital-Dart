@@ -1460,6 +1460,95 @@ En este bounded context se gestiona los pagos dentro del sistema.
     <img src="./images/chapter-04/payment_component.png" alt="Paymento Component" style="max-width: 800px; width: 95%">
 </div>
 
+### 4.2.5. Bounded Context: Notification
+En este bounded context maneja el envío y la gestión de notificaciones dentro de la aplicación.
+
+#### 4.2.5.1. Domain Layer
+
+**Entity**
+
+| **Nombre** | **Categoría** | **Propósito**                                            |
+|:----------:|:--------------|:---------------------------------------------------------|
+|  Notification   | Entity        | Representa una notificación y su estado. |
+
+*Atributos*
+
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
+|:----------:|:-----------------|:----------------|:-----------------------------------------|
+|     id     | Long  | Private         | Identificador único                      |
+|    message    | String  | Private         | Contenido de la notificación       |
+|   sendStatus   | Boolean | Private         | Indica si se envió la notificación  |
+
+*Métodos*
+
+| **Nombre**  | **Tipo de retorno** | **Visibilidad** | **Descripción**          |
+|:-----------:|:--------------------|:----------------|:-------------------------|
+| Constructor | Void  | Public  | Constructor para Notification |
+| sendNotification | Void   | Public  | Lógica para enviar una notificación |
+
+#### 4.2.5.2. Interface Layer
+
+**Controller**
+
+|    **Nombre**     | **Categoría** | **Propósito**            |
+|:-----------------:|:--------------|:-------------------------|
+| NotificationController | Controller    | Controlador para Notification |
+
+*Atributos*
+
+|   **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**       |
+|:--------------:|:-----------------|:----------------|:----------------------|
+| notificationService | NotificationService   | Private         | Servicio para Notification |
+
+*Métodos*
+
+|   **Nombre**   | **Tipo de retorno**    | **Visibilidad** | **Descripción**             |
+|:--------------:|:-----------------------|:----------------|:----------------------------|
+|  Constructor   | Void                   | Public          | Inicializa el NotificationController |
+| sendNotification  | ResponseEntity         | Public          | Envía una notificación  |
+| getNotificationStatus | NotificationStatusDTO        | Public          | Devuelve el estado de una notificación |
+
+#### 4.2.5.3. Application Layer
+
+**Service**
+
+|   **Nombre**   | **Categoría** | **Propósito**                                |
+|:--------------:|:--------------|:---------------------------------------------|
+| NotificationService | Service       | Servicio con la lógica de negocio de Notification |
+
+*Atributos*
+
+|   **Nombre**    | **Tipo de dato**  | **Visibilidad** | **Descripción**        |
+|:---------------:|:------------------|:----------------|:-----------------------|
+|notificationRepository| NotificationRepository | Private         | Repositorio de Notification |
+
+*Métodos*   
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                              |
+|:----------:|:--------------------|:----------------|:---------------------------------------------|
+|   sendNotification   | Notification    | Public          | Envía una notificación |
+|  checkNotificationStatus   | Notification     | Public | Comprueba el estado de la notificación |
+
+#### 4.2.5.4. Infrastructure Layer
+
+**Repository**
+
+|    **Nombre**     | **Categoría** | **Propósito**                     |
+|:-----------------:|:--------------|:----------------------------------|
+| NotificationRepository | Repository    | Repositorio que almacena Notifications |
+
+*Métodos*
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                         |
+|:----------:|:--------------------|:----------------|:--------------------------------------------------------|
+| save | Notification | Public  | Guarda datos de notificación |
+| findById | Notification | Public  | Recupera la notificación por id  |
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/notification_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
+</div>
 
 
 
