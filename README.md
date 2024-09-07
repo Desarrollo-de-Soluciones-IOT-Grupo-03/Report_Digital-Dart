@@ -839,7 +839,19 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
     </tr>
 </table>
 
+### 2.3.3. User Journey Mapping
 
+**Segmento 1**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_journey_map_1.png" alt="User Journey Map 1" width="100%">
+</div>
+
+**Segmento 2**
+
+<div style="text-align: center; margin-top: 10px">
+      <img src="./images/chapter-02/user_journey_map_2.png" alt="User Journey Map 2" width="100%">
+</div>
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
@@ -849,6 +861,7 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
     <img src="./images/chapter-03/to-be-child.png" alt="To-Be Child" style="max-width: 800px; width: 95%">
 </div>
 <br>
+
 
 **Segmento: Cuidadores de Personas con Alzheimer**
 <div style="text-align: center;">
