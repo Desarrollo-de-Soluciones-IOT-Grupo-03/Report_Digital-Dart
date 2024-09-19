@@ -1676,6 +1676,25 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 
 **Link:** https://miro.com/app/board/uXjVKmArvc8=/?share_link_id=24645524909 
 
+### 4.1.2. Context Mapping
+Tras llevar a cabo la técnica de EventStorming, se definieron cuatro Bounded contexts: Payment, User Account, Monitoring, Notification y Configuration. 
+
+**ACL (Anti-Corruption Layer):** 
+* Definición: Crea una capa de aislamiento para proporcionar a los clientes funciones en términos de su propio modelo de dominio; la capa habla con el otro sistema a través de su interfaz existente, lo que requiere poca o ninguna modificación del otro sistema. 
+* Uso: Se implementará para cada Bounded Context que necesite interactuar con sistemas externos, preservando la integridad de su modelo de dominio. 
+
+**Custormer/Supplier:**
+* Definición: El patrón Customer/Supplier se utiliza cuando dos sistemas necesitan colaborar estrechamente, pero cada uno controla su propio modelo de dominio. El sistema "Supplier" proporciona servicios que el sistema "Customer" consume, y ambos deben negociar un contrato que defina cómo se realizará la interacción. 
+* Uso: Monitoring, Payment y Notification context son “Customers” de User Account Context. 
+
+**Shared Kernel:** 
+* Definición: Designa un subconjunto del modelo de dominio que los dos equipos acuerdan compartir. 
+* Uso: Todos los Bounded Context compartirán las abstracciones comunes, pero mantendrán su propia implementación y lógica interna.
+
+<div align=center>
+    <img src="./images/chapter-04/context_mapping.png" alt="Context Diagram"  width="100%"/>
+</div>
+
 ### 4.1.3. Software Architecture
 
 ### 4.1.3.1. Software Architecture System Landscape Diagram
@@ -2153,29 +2172,125 @@ El siguiente diagrama proporciona una vista general de los componentes dentro de
     <img src="./images/chapter-04/configuration-component.png" alt="Configuration Component" style="max-width: 800px; width: 95%">
 </div>
 
+# Capítulo V: Solution UI/UX Design
+## 5.1. Style Guidelines
+### 5.1.1. General Style Guidelines.
+### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
+## 5.2. Information Architecture
+### 5.2.1. Organization Systems.
+Al entrar a nuestra aplicación GuardianArea, el usuario podrá visualizar 4 secciones principales: Panel Principal, Historial de actividades, Hablar con el Dispositivo y Funciones vitales. En cada una de estas secciones, el usuario contará con diversas acciones para interactuar y gestionar la seguridad de las personas monitoreadas.
+<div align=center>
+    <img src="./images/chapter-05/organization_system.PNG" alt="Organization System 1"  width="100%"/>
+</div>
 
+### 5.2.2. Labeling Systems.
+Los sistemas de etiquetado en arquitectura de la información permiten organizar el contenido del sitio web de GuardianArea de manera clara y eficiente, facilitando la navegación y el acceso a funciones clave. Se utilizará un sistema de etiquetado por facetas, donde los contenidos se agruparán en las siguientes categorías:
 
+* HomePage (Página de inicio): Presentación de GuardianArea y sus principales características.
+* Login (Inicio de sesión): Página para que los usuarios accedan a su cuenta.
+* Register (Registro): Página para que los usuarios creen una nueva cuenta.
+* Profile (Perfil): Página de gestión del perfil del usuario, incluyendo detalles personales y de contacto.
+* Tracker (Rastreador): Página dedicada a la gestión y configuración de la pulsera con rastreador.
+* GeoFence (Geo-cerca): Configuración de las zonas seguras (geo-cercas) para cada usuario monitoreado.
+* GeoFenceNotification (Notificación de geo-cerca): Página que muestra las alertas en tiempo real cuando se cruza una geo-cerca.
+* MonitorList (Lista de monitoreados): Vista que permite ver a todas las personas o dispositivos bajo supervisión.
+* MonitorDetail (Detalle de monitoreado): Información detallada sobre un usuario o dispositivo monitoreado.
+* LocationHistory (Historial de ubicaciones): Registro de las ubicaciones pasadas del usuario o dispositivo monitoreado.
+* AlertList (Lista de alertas): Página que muestra todas las notificaciones y alertas recibidas.
+* AlertDetail (Detalle de alerta): Información detallada sobre una alerta específica.
+* Settings (Configuración): Página donde los usuarios pueden ajustar las preferencias de uso, alertas y configuraciones del sistema.
+* Support (Soporte): Sección de ayuda y preguntas frecuentes para resolver problemas y proporcionar orientación.
 
+### 5.2.3. SEO Tags and Meta Tags
+**Landing Page:** La página de inicio de nuestra aplicación contará con los siguientes tags:
+```
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuardianArea - Solución de Monitoreo y Protección</title>
+    <meta name="description" content="Protege a tus seres queridos con GuardianArea. Nuestra pulsera con rastreador permite establecer geo-cercas y recibir notificaciones en tiempo real si la persona monitoreada sale de las zonas seguras. Brindamos tranquilidad a cuidadores y familiares.">
+    <meta name="keywords" content="rastreador, seguridad, geo-cercas, notificaciones, protección, monitoreo, pulsera rastreadora">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="shortcut icon" href="./assets/icons/Logo.svg" type="image/x-icon">
+</head>
+```
 
+### 5.2.4. Searching Systems.
+Implementaremos sistemas de búsqueda por exploración, los cuales permitirán a nuestros usuarios encontrar la información que necesitan de manera rápida y eficiente. Los cuidadores o familiares que deseen buscar en el historial de actividades, contarán con un filtro por mes y año.
 
+<div align=center>
+    <img src="./images/chapter-05/searching_system.PNG" alt="searching system 1"  width="100%"/>
+</div>
 
+### 5.2.5. Navigation Systems.
+Para facilitar al usuario navegar por nuestro contenido, se utilizarán los siguientes sistemas de navegación:
+* **Navegación principal o global:** Es el sistema de navegación más común, presente en todos los apartados de la
+página y usualmente representado por la barra de navegación y el footer.
+* **Navegación local:** Se encuentra situado un nivel por debajo de la navegación global y su función es mostrar el
+contenido de la misma categoría, así como también lo que se encuentra jerárquicamente por debajo de esta.
+* **Navegación contextual:** Conformada por enlaces que dirigen al usuario a una sección distinta o a otro sitio
+web. Existen dos tipos: la navegación embebida, en donde los enlaces son ciertas frases o palabras del texto; y
+los links relacionados, los cuales pueden aparecer al final o al lado del contenido.
 
+<div align=center>
+    <img src="./images/chapter-05/navigation_system_example1.PNG" alt="Navigation Systems 1"  width="100%"/>
+</div>
 
+El patrón de lectura a utilizar para la visualización de nuestra web para las secciones que muestran contenido ligero
+será el patrón Z. Mientras que, para los apartados que cuenten con mayor volumen de texto, como en las ofertas de
+trabajo, se empleará el patrón F. De esta manera, lograremos captar la atención del lector durante más tiempo.
 
+<div align=center>
+    <img src="./images/chapter-05/patron_z.PNG" alt="patron z"  width="100%"/>
+    Contenido ligero (patrón Z)
+</div>
 
+<div align=center>
+    <img src="./images/chapter-05/patron_F.PNG" alt="patron z"  width="100%"/>
+    Contenido pesado (patrón F)
+</div>
 
+## 5.3. Landing Page UI Design.
+### 5.3.1. Landing Page Wireframe.
+### 5.3.2. Landing Page Mock-up.
 
+## 5.4. Applications UX/UI Design.
+### 5.4.1. Applications Wireframes.
+### 5.4.2. Applications Wireflow Diagrams.
+### 5.4.3. Applications Mock-ups.
+### 5.4.4. Applications User Flow Diagrams.
 
+## 5.5. Applications Prototyping.
 
+# Capítulo VI: Product Implementation, Validation & Deployment
+## 6.1. Software Configuration Management.
+### 6.1.1. Software Development Environment Configuration.
+### 6.1.2. Source Code Management.
+### 6.1.3. Source Code Style Guide & Conventions.
+### 6.1.4. Software Deployment Configuration.
 
+## 6.2. Landing Page, Services & Applications Implementation.
+### 6.2.X. Sprint n
+#### 6.2.X.1. Sprint Planning n.
+#### 6.2.X.2. Sprint Backlog n.
+#### 6.2.X.3. Development Evidence for Sprint Review.
+#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.X.5. Execution Evidence for Sprint Review.
+#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.X.8. Team Collaboration Insights during Sprint.
 
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
+### 6.3.3. Evaluaciones según heurísticas.
 
+## 6.4. Video About-the-Product.
 
+### Conclusiones
 
-
-
-
+### Bibliografía
 
 
 ### ANEXOS
