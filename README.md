@@ -1705,7 +1705,35 @@ Escenario: La persona atendida abandona la zona segura o su estado de salud camb
 **Link:** https://miro.com/app/board/uXjVKmArvc8=/?share_link_id=24645524909 
 
 ### 4.1.2. Context Mapping
-Tras llevar a cabo la técnica de EventStorming, se definieron cuatro Bounded contexts: Payment, User Account, Monitoring, Notification y Configuration. 
+Tras llevar a cabo la técnica de EventStorming, se definieron cuatro Bounded contexts: Payment, User Account, Monitoring, Notification y Configuration. Asimismo, se incluyeron una serie de preguntas que contribuyeron al proceso de formación y selección de cada bounded context.
+
+**1. ¿Qué pasaría si movemos este capability a otro bounded context?**
+
+Al considerar mover un capability del contexto de Payment al contexto de User Account, por ejemplo, tendríamos que evaluar si esto mejora la cohesión del modelo de dominio de User Account y si Payment puede seguir funcionando de manera efectiva sin ese capability. Además, tendríamos que implementar una ACL si el capability necesita interactuar con sistemas externos para evitar corrupción en el modelo de dominio.
+
+**2. ¿Qué pasaría si descomponemos este capability y movemos uno de los sub-capabilities a otro bounded context?**
+
+Si descomponemos un capability de Monitoring y movemos un sub-capability a Notification, necesitaríamos asegurarnos de que la comunicación entre estos contexts se mantenga clara y eficiente. Podría ser necesario establecer un acuerdo Customer/Supplier entre ellos o compartir un kernel para las abstracciones comunes.
+
+**3. ¿Qué pasaría si partimos el bounded context en múltiples bounded contexts?**
+
+Dividir el contexto de Configuration en múltiples bounded contexts podría permitir una mayor especialización y flexibilidad. Sin embargo, también podría aumentar la complejidad de la interacción entre estos nuevos contexts, lo que requeriría una cuidadosa implementación de patrones como ACL y Shared Kernel para mantener la integridad y coherencia.
+
+**4. ¿Qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?"**
+
+Crear un nuevo bounded context a partir de capabilities de Payment, Monitoring y Notification podría centralizar funciones comunes y reducir la duplicación. Sin embargo, tendríamos que definir nuevas interfaces y posiblemente utilizar ACLs para proteger los modelos de dominio existentes.
+
+**5. ¿Qué pasaría si duplicamos una funcionalidad para romper la dependencia?**
+
+Duplicar una funcionalidad podría ser útil para romper una dependencia fuerte entre User Account y Payment, pero también podría llevar a inconsistencias y dificultades en el mantenimiento. Sería esencial evaluar si los beneficios de la independencia superan los costos de la duplicación.
+
+**6. ¿Qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?**
+
+Un shared service podría ser una solución eficiente para reducir la duplicación entre los contexts de Monitoring y Notification, por ejemplo. Esto requeriría un Shared Kernel para garantizar que ambos contexts puedan interactuar con el servicio compartido sin conflictos.
+
+**7. ¿Qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?**
+
+Aislar los core capabilities en User Account y mover capacidades secundarias a un contexto separado podría simplificar el modelo de dominio y permitir una mayor especialización. Sin embargo, tendríamos que asegurarnos de que la comunicación entre estos contexts sea efectiva y que se mantenga la integridad del dominio a través de patrones como ACL.
 
 **ACL (Anti-Corruption Layer):** 
 * Definición: Crea una capa de aislamiento para proporcionar a los clientes funciones en términos de su propio modelo de dominio; la capa habla con el otro sistema a través de su interfaz existente, lo que requiere poca o ninguna modificación del otro sistema. 
