@@ -864,15 +864,15 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
         <img src="./images/chapter-02/interviews/entrevista_piero_descalzi.png" alt="Entrevista 03"  width="90%"/>
     </div> 
 - Inicio: 9:44
-- Fin: 14:42
+- Duración: 4:58
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=5Ahe9I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTg0LjUzfX0%3D
 - Resumen de la entrevista: 
 
-    Durante la entrevista, recibí a Piero Descalci, un diseñador de videojuegos de 21 años que vive en Lima, Breña, y que se describe como una persona introvertida. Piero me comentó que prefiere pasar tiempo en casa con su familia, especialmente ahora que su primo Campos, diagnosticado conDu Alzheimer hace unos años, necesita más atención.
+    Durante la entrevista, recibí a Piero Descalci, un diseñador de videojuegos de 21 años que vive en Lima, Breña, y que se describe como una persona introvertida. Piero me comentó que prefiere pasar tiempo en casa con su familia, especialmente ahora que su primo Campos, diagnosticado con Alzheimer hace unos años, necesita más atención.
 
-    Piero utiliza aplicaciones móviles y páginas web diariamente para coordinar citas médicas y gestionar las tareas del cuidado de su primo. Me confesó que la seguridad es su principal preocupación, ya que teme que Campos se pierda o enfrente problemas de salud sin que puedan intervenir a tiempo.
+    Piero utiliza aplicaciones móviles y páginas web diariamente para coordinar citas médicas y gestionar las tareas del cuidado de su primo. Me comentó que accede a estas plataformas a través de su navegador preferido, Google Chrome, tanto en su teléfono móvil Samsung Galaxy A51 como en su laptop HP Pavilion, dispositivos que usa con regularidad. La seguridad es su principal preocupación, ya que teme que Campos se pierda o enfrente problemas de salud sin que puedan intervenir a tiempo.
 
-    El desgaste emocional ha sido una de las mayores dificultades para Piero, quien compartió conmigo momentos realmente angustiosos, como cuando su primo se perdió, lo que resultó en situaciones aterradoras y en un sentimiento constante de no estar haciendo lo suficiente. Me contó que en varias ocasiones la tecnología podría haber sido de gran ayuda, como cuando su primo se alejó de casa y no contaban con un dispositivo que los alertara. Esto los hizo perder mucho tiempo buscándolo, deseando tener alguna herramienta que pudiera ayudarlos en esos momentos críticos.
+    El desgaste emocional ha sido una de las mayores dificultades para Piero, quien compartió conmigo momentos angustiosos, como cuando su primo se perdió, lo que resultó en situaciones aterradoras y en un sentimiento constante de no estar haciendo lo suficiente. Me contó que en varias ocasiones la tecnología podría haber sido de gran ayuda, como cuando su primo se alejó de casa y no contaban con un dispositivo que los alertara. Esto los hizo perder mucho tiempo buscándolo, deseando tener alguna herramienta que pudiera ayudarlos en esos momentos críticos.
 
     Le hablé del desarrollo en el que estamos trabajando: una pulsera con rastreador que notifica si una persona con Alzheimer o un niño pequeño sale de un área delimitada. Piero consideró que esta idea sería de gran utilidad para ofrecer mayor seguridad y tranquilidad a las familias y cuidadores.
 
