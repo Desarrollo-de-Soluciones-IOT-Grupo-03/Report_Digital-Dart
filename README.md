@@ -534,16 +534,18 @@ Sabremos que hemos tenido éxito cuando observemos una reducción significativa 
 ### 1.2.2.4. Lean UX Canvas
 
 <div style="text-align: center;">
-    <img src="./images/chapter-01/lean-ux-canvas.png" alt="Lean Ux Canvas">
+    <img src="./images/chapter-01/lean_ux_canvas.png" alt="Lean Ux Canvas">
 </div>
 
 ## 1.3. Segmentos objetivo
 
-**Segmento objetivo 1: Cuidadores o Familiares de personas con Alzheimer**  
-Este segmento se enfoca en los cuidadores y familiares de personas con Alzheimer que necesitan monitorear de cerca a estos pacientes para garantizar su seguridad. Buscan herramientas que les permitan reaccionar rápidamente ante situaciones peligrosas y mantener la tranquilidad de saber que sus seres queridos están seguros.
+**Segmento objetivo 1: Cuidadores o Familiares de personas con Alzheimer**
 
-**Segmento objetivo 2: Cuidadores o Familiares de niños pequeños**  
-Este segmento incluye a los cuidadores y familiares de niños pequeños que desean aumentar la seguridad y supervisión de los niños. Están interesados en soluciones que les permitan prevenir situaciones peligrosas al recibir alertas cuando los niños salen de las zonas seguras establecidas.
+Este segmento está compuesto por personas que tienen la responsabilidad de cuidar a familiares con Alzheimer, generalmente de entre 40 y 65 años, que viven en áreas urbanas o suburbanas y están a cargo de la supervisión diaria de los pacientes. Estos cuidadores suelen ser hijos adultos o cónyuges que necesitan herramientas tecnológicas para monitorear el estado de sus seres queridos en tiempo real, especialmente cuando no están físicamente presentes. Además, enfrentan altos niveles de estrés debido al riesgo constante de que los pacientes puedan deambular o salir de áreas seguras sin supervisión. Este grupo busca soluciones que les permitan reaccionar rápidamente ante situaciones peligrosas y que, a su vez, les ofrezcan tranquilidad al saber que sus seres queridos están protegidos en todo momento.
+
+**Segmento objetivo 2: Cuidadores o Familiares de niños pequeños**
+
+Este grupo está compuesto por padres y cuidadores, generalmente de entre 25 y 45 años, que viven en áreas urbanas y suburbanas y desean aumentar la seguridad y supervisión de los niños, especialmente aquellos de entre 2 y 8 años. Están altamente preocupados por la posibilidad de que los niños pequeños se alejen de zonas seguras, como el hogar, parques o entornos escolares. Estos cuidadores buscan soluciones tecnológicas que les permitan establecer geo-cercas virtuales y recibir alertas inmediatas cuando los niños salen de estas áreas, para así poder intervenir de forma oportuna. Además, valoran la posibilidad de monitorear el historial de movimientos de los niños para anticiparse a posibles situaciones de riesgo.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
