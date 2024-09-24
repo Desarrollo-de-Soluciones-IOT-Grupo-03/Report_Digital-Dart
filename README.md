@@ -1840,11 +1840,11 @@ Aislar los core capabilities en User Account y mover capacidades secundarias a u
     <img src="./images/chapter-04/container_diagram.png" alt="Container Level Diagrams" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.2. Bounded Context: Monitoring
+### 4.2.1. Bounded Context: Monitoring
 
 En el contexto del bounded context de **Monitoring** para pulseras usadas por niños y personas con Alzheimer, se centra en la gestión y coordinación de la supervisión de datos generados por sensores. El propósito de este contexto es monitorear la ubicación, el ritmo cardíaco y la detección de caídas, alertando a los cuidadores ante eventos críticos como la salida de una zona segura o la detección de caídas.
 
-#### 4.2.2.1. Domain Layer
+#### 4.2.1.1. Domain Layer
 
 En la capa de Dominio, el contexto de **Sensors Monitorization** se modela como el **aggregate** que gestiona los datos de los sensores de la pulsera, tales como GPS, acelerómetro y el sensor de ritmo cardíaco.
 
@@ -1870,7 +1870,7 @@ En la capa de Dominio, el contexto de **Sensors Monitorization** se modela como 
 | processAccelerometerData | Void               | Public           | Procesa los datos del acelerómetro para detectar caídas                   |
 | monitorHeartRate     | Void                   | Public           | Monitorea el ritmo cardíaco en tiempo real                                |
 
-#### 4.2.2.2. Interface Layer
+#### 4.2.1.2. Interface Layer
 
 En el contexto de Monitoring, la capa de Interfaz facilita la comunicación entre el sistema y los cuidadores. Los controladores permiten el acceso a los datos críticos y las alertas generadas por la pulsera, como la ubicación actual, ritmo cardíaco, y las notificaciones de caídas.
 
@@ -1894,7 +1894,7 @@ En el contexto de Monitoring, la capa de Interfaz facilita la comunicación entr
 | getHeartRate         | Integer                | Public           | Obtener la última medición del ritmo cardíaco                             |
 | processFallDetection | Void                   | Public           | Procesar y enviar alertas de caídas                                       |
 
-#### 4.2.2.3. Application Layer
+#### 4.2.1.3. Application Layer
 
 La capa de Aplicación se encarga de gestionar la lógica empresarial y la funcionalidad específica de la supervisión, como el seguimiento de la ubicación, la detección de caídas, y el monitoreo del ritmo cardíaco. Actúa como intermediaria entre la capa de Interfaz y la capa de Dominio.
 
@@ -1917,7 +1917,7 @@ La capa de Aplicación se encarga de gestionar la lógica empresarial y la funci
 | monitorHeartRate     | Integer                | Public           | Monitorea el ritmo cardíaco y envía alertas en caso de anomalías          |
 | detectFall           | Void                   | Public           | Procesa los datos del acelerómetro para detectar caídas                   |
 
-#### 4.2.2.4. Infrastructure Layer
+#### 4.2.1.4. Infrastructure Layer
 
 La capa de Infraestructura se encarga de la persistencia de los datos generados por los sensores de la pulsera. Es responsable del almacenamiento de la información relacionada con las coordenadas GPS, las mediciones de ritmo cardíaco y los eventos de caídas, así como del envío de notificaciones a los cuidadores.
 
@@ -1934,16 +1934,16 @@ La capa de Infraestructura se encarga de la persistencia de los datos generados 
 | findByHeartRate      | SensorData             | Public           | Devuelve los datos del sensor según el ritmo cardíaco                    |
 | findAlertsByEvent    | Alert                  | Public           | Devuelve las alertas generadas por un evento en particular               |
 
-#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/monitoring-component.png" alt="Monitoring Component" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.3. Bounded Context: User Account
+### 4.2.2. Bounded Context: User Account
 En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 
-#### 4.2.3.1. Domain Layer
+#### 4.2.2.1. Domain Layer
 
 **Entity**
 
@@ -1966,7 +1966,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | Constructor | Void  | Public  | Constructor para User |
 | addRoles | User   | Public  | Añadir roles al usuario |
 
-#### 4.2.3.2. Interface Layer
+#### 4.2.2.2. Interface Layer
 
 **Controller**
 
@@ -1988,7 +1988,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
 | GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
 
-#### 4.2.3.3. Application Layer
+#### 4.2.2.3. Application Layer
 
 **Service**
 
@@ -2009,7 +2009,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
 | GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
 
-#### 4.2.3.4. Infrastructure Layer
+#### 4.2.2.4. Infrastructure Layer
 
 **Repository**
 
@@ -2024,7 +2024,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | save | User | Public  | Guarda datos de usuario |
 | findById | User | Public  | Recupera el usuario por id  |
 
-#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama muestra la estructura de componentes de un sistema que gestiona cuentas de usuario y roles a través de una API REST. A continuación, te detallo los principales componentes y su interacción:
 
@@ -2048,8 +2048,8 @@ El diagrama muestra la estructura de componentes de un sistema que gestiona cuen
     <img src="./images/chapter-04/user_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
 </div>
 
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
-##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 **El flujo general:**
 * El AuthenticationController recibe una solicitud (ya sea de registro o inicio de sesión).
 * Esta solicitud se transforma en un comando (SignUpCommand o SignInCommand).
@@ -2059,7 +2059,7 @@ El diagrama muestra la estructura de componentes de un sistema que gestiona cuen
     <img src="./images/chapter-04/user-account-class-diagram.png" alt="User Account Class Diagram" style="max-width: 800px; width: 95%">
 </div>
 
-##### 4.2.3.6.1. Bounded Context Database Design Diagram
+##### 4.2.2.6.1. Bounded Context Database Design Diagram
 El diagrama muestra tres entidades relacionadas:
 
 1. **AuditableAbstractAggregateRoot**: Clase base con campos comunes (id, createdAt, updatedAt) heredados por otras entidades.
@@ -2071,101 +2071,126 @@ El diseño implementa auditoría y una relación de roles a usuarios.
     <img src="./images/chapter-04/user_account_database.png" alt="User Account Database" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.4. Bounded Context: Payment
-En este bounded context se gestiona los pagos dentro del sistema.
+### 4.2.3. Bounded Context: Payment
+En este bounded context se gestionan los pagos dentro del sistema, asegurando que las transacciones se procesen correctamente y que la información se almacene y se gestione de forma segura.
 
-#### 4.2.4.1. Domain Layer
+#### 4.2.3.1. Domain Layer
 
-**Entity**
+En la capa de dominio, se definen las clases centrales que representan el core del sistema de pagos, junto con las reglas de negocio.
 
-| **Nombre** | **Categoría** | **Propósito**                                            |
-|:----------:|:--------------|:---------------------------------------------------------|
-|  Payment   | Entity        | Es la clase que representa el pago y sus características |
+- **Entities:**
+  - Payment: Representa un pago, con atributos como el monto, la fecha, y el estado del pago.
 
-*Atributos*
+- **Value Objects:**
+  - PaymentStatus: Define el estado del pago, como pendiente, completado o fallido.
+  - PaymentMethod: Describe el método de pago utilizado, como tarjeta de crédito, PayPal, o transferencia bancaria.
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
-|:----------:|:-----------------|:----------------|:-----------------------------------------|
-|     id     | Long             | Private         | Identificador único                      |
-|    date    | Date             | Private         | Fecha en la que se realiza el pago       |
-|   amount   | Double           | Private         | Monto del pago realizado                 |
-|   status   | String           | Private         | Estado actual del pago (ej. completado)  |
+- **Aggregates:**
+  - PaymentAggregate: Encapsula la lógica relacionada con los pagos y combina las entidades y value objects. Permite realizar operaciones como procesar un pago, reembolsar, o actualizar el estado del pago.
 
-*Métodos*
+- **Factories:**
+  - PaymentFactory: Crea instancias de pagos, asegurando que se cumplan las reglas de negocio al momento de inicializar un pago.
 
-| **Nombre**  | **Tipo de retorno** | **Visibilidad** | **Descripción**          |
-|:-----------:|:--------------------|:----------------|:-------------------------|
-| Constructor | Void                | Public          | Constructor para Payment |
+- **Repositories (Interfaces):**
+  - PaymentRepository: Define los métodos para almacenar y consultar pagos, interactuando con la capa de infraestructura.
 
-#### 4.2.4.2. Interface Layer
+#### 4.2.3.2. Interface Layer
 
-**Controller**
+Esta capa se encarga de exponer las funcionalidades del sistema de pagos a través de controladores, que manejan las solicitudes HTTP relacionadas con la creación y gestión de pagos.
 
-|    **Nombre**     | **Categoría** | **Propósito**            |
-|:-----------------:|:--------------|:-------------------------|
-| PaymentController | Controller    | Controlador para Payment |
+- **Controllers:**
+  - PaymentController: Maneja las solicitudes relacionadas con pagos, como crear un nuevo pago, consultar el estado de un pago, o cancelar un pago. Interactúa con los servicios de la capa de aplicación.
 
-*Atributos*
+    - **Métodos:**
+      - `createPayment`: Crea un nuevo pago.
+      - `getPaymentById`: Obtiene un pago según su ID.
+      - `cancelPayment`: Cancela un pago.
+      - `refundPayment`: Procesa el reembolso de un pago.
 
-|   **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**       |
-|:--------------:|:-----------------|:----------------|:----------------------|
-| paymentService | PaymentService   | Private         | Servicio para Payment |
+  - PaymentGatewayController: Si se utiliza un servicio externo de pagos (Stripe, PayPal), este controlador interactúa con la pasarela de pagos, gestionando la validación y actualización del estado de los pagos.
 
-*Métodos*
+    - **Métodos:**
+      - `processPayment`: Procesa el pago a través del servicio externo.
+      - `validatePayment`: Valida el estado de la transacción y actualiza el estado en el sistema.
 
-|   **Nombre**   | **Tipo de retorno**    | **Visibilidad** | **Descripción**             |
-|:--------------:|:-----------------------|:----------------|:----------------------------|
-|  Constructor   | Void                   | Public          | Constructor del controlador |
-| createPayment  | ResponseEntity         | Public          | Crear un Payment            |
-| getPaymentById | PaymentResource        | Public          | Buscar Payment según Id     |
-| getAllPayment  | List\<PaymentResource> | Public          | Obtener todos los Payment   |
+#### 4.2.3.3. Application Layer
 
-#### 4.2.4.3. Application Layer
+La capa de aplicación maneja los flujos de proceso de negocio y contiene la lógica de negocio necesaria para gestionar los pagos de manera adecuada.
 
-**Service**
+- **Command Handlers:**
+  - CreatePaymentCommandHandler: Maneja la lógica para crear un nuevo pago.
+  - RefundPaymentCommandHandler: Gestiona la lógica para procesar el reembolso de un pago.
+  - CancelPaymentCommandHandler: Maneja la cancelación de un pago en proceso.
 
-|   **Nombre**   | **Categoría** | **Propósito**                                |
-|:--------------:|:--------------|:---------------------------------------------|
-| PaymentService | Service       | Servicio con la lógica de negocio de Payment |
+- **Event Handlers:**
+  - PaymentEventHandler: Gestiona los eventos relacionados con los pagos, como el evento de creación, validación o fallo de pago.
 
-*Atributos*
+    - **Eventos:**
+      - `PaymentCreatedEvent`: Disparado cuando se crea un pago.
+      - `PaymentFailedEvent`: Disparado cuando un pago no se procesa correctamente.
+      - `PaymentRefundedEvent`: Disparado cuando se procesa un reembolso.
 
-|   **Nombre**    | **Tipo de dato**  | **Visibilidad** | **Descripción**        |
-|:---------------:|:------------------|:----------------|:-----------------------|
-|paymentRepository| PaymentRepository | Private         | Repositorio de Payment |
+- **Services:**
+  - PaymentService: Coordina las operaciones relacionadas con pagos, como la validación, el procesamiento y las actualizaciones de estado. También interactúa con el PaymentRepository para manejar la persistencia.
 
-*Métodos*   
+#### 4.2.3.4. Infrastructure Layer
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                              |
-|:----------:|:--------------------|:----------------|:---------------------------------------------|
-|   getAll   | List\<Payment>       | Public          | Obtener todos los Payment                    |
-|  getById   | Payment              | Public          | Obtener un Payment según su Id               |
-|   create   | Payment              | Public          | Crear un Payment                             |
+En esta capa se implementan los repositorios y los servicios que interactúan con sistemas externos, como bases de datos o pasarelas de pago.
 
-#### 4.2.4.4. Infrastructure Layer
+- **Repositories:**
+  - PaymentRepository: Implementa los métodos para acceder a la base de datos, gestionando la persistencia y consulta de los pagos.
 
-**Repository**
+- **Payment Gateway:** Si el proceso de pago involucra un servicio externo (como Stripe o PayPal), esta clase interactúa con la pasarela de pagos, enviando la información de la transacción y manejando las respuestas del servicio.
 
-|    **Nombre**     | **Categoría** | **Propósito**                     |
-|:-----------------:|:--------------|:----------------------------------|
-| PaymentRepository | Repository    | Repositorio que almacena Payments |
+    - **Métodos:**
+      - `sendPayment`: Envía la solicitud de pago a la pasarela externa.
+      - `receivePaymentStatus`: Recibe y actualiza el estado del pago según la respuesta de la pasarela.
 
-*Métodos*
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                         |
-|:----------:|:--------------------|:----------------|:--------------------------------------------------------|
-| findByDate | Payment             | Public          | Devolver el Payment según la Fecha                       |
-
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+- **API REST:** Actúa como el punto de entrada del sistema de pagos, permitiendo que los clientes, aplicaciones móviles y aplicaciones web realicen solicitudes de pago mediante la API.
+- **Payment Controller:** Gestiona las operaciones relacionadas con los pagos, como la creación de nuevos pagos, la consulta de su estado y la interacción con servicios externos para el procesamiento de los mismos.
+- **Payment Service:** Contiene la lógica de negocio asociada al procesamiento de pagos. Este servicio gestiona las interacciones con el repositorio de pagos y las pasarelas de pago externas.
+- **Payment Repository:** Responsable de la persistencia de la información relacionada con los pagos en la base de datos. Lee y escribe datos de pagos.
+- **Payment Gateway System:** Un sistema externo que permite procesar los pagos a través de pasarelas de pago. Este componente es esencial para gestionar las transacciones con terceros.
+- **Mobile App y Web App:** Interfaces de usuario que permiten a los clientes gestionar pagos desde dispositivos móviles o navegadores web.
+- **Database:** Sistema de almacenamiento donde se guarda la información de los pagos, incluyendo su estado y otros atributos importantes.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-04/payment_component.png" alt="Paymento Component" style="max-width: 800px; width: 95%">
+    <img src="./images/chapter-04/payment_component.png" alt="Payment Component" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.5. Bounded Context: Notification
+#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+En el diagrama, se observa una relación de uno a uno entre `Payment` y `PaymentStatus`, y entre `Payment` y `PaymentMethod`, lo que asegura que cada pago tiene un estado y un método de pago único.
+
+- **Payment:** Es la entidad principal que representa un pago en el sistema. Incluye atributos como `id`, `date`, `amount`, `status`, y `method`, que almacenan la información básica de cada pago.
+- **PaymentStatus:** Un objeto de valor que indica el estado del pago, como completado, pendiente o fallido. Está relacionado con la entidad `Payment`.
+- **PaymentMethod:** Un objeto de valor que describe el método de pago utilizado, como tarjeta de crédito o PayPal.
+- **PaymentRepository:** Es una interfaz que define los métodos para persistir y recuperar pagos desde la base de datos. Tiene métodos como `save()` para guardar pagos y `findById()` para recuperar pagos por su ID.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/payment_class.png" alt="Payment Diagram Class" style="max-width: 800px; width: 95%">
+</div>
+
+#### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+Las relaciones entre las tablas están claramente definidas, con una relación de uno a uno entre `Payment` y `PaymentStatus`, así como entre `Payment` y `PaymentMethod`, asegurando que cada pago tiene un estado y un método de pago específico.
+
+- **Payment:** Tabla principal que almacena la información de los pagos, incluyendo `id`, `date`, `amount`, `PaymentStatus`, y `PaymentMethod`. La columna `id` es la clave primaria, mientras que `PaymentStatus` y `PaymentMethod` son claves foráneas que referencian a las tablas `PaymentStatus` y `PaymentMethod`.
+- **PaymentStatus:** Esta tabla almacena los diferentes estados posibles de un pago, como "completado", "pendiente" o "fallido". La columna `status` es la clave primaria.
+- **PaymentMethod:** Tabla que almacena los distintos métodos de pago, como "tarjeta de crédito" o "PayPal". La columna `methodType` es la clave primaria.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/payment_db.png" alt="Payment Diagram Database" style="max-width: 800px; width: 95%">
+</div>
+
+### 4.2.4. Bounded Context: Notification
 En este bounded context maneja el envío y la gestión de notificaciones dentro de la aplicación.
 
-#### 4.2.5.1. Domain Layer
+#### 4.2.4.1. Domain Layer
 
 **Entity**
 
@@ -2188,7 +2213,7 @@ En este bounded context maneja el envío y la gestión de notificaciones dentro 
 | Constructor | Void  | Public  | Constructor para Notification |
 | sendNotification | Void   | Public  | Lógica para enviar una notificación |
 
-#### 4.2.5.2. Interface Layer
+#### 4.2.4.2. Interface Layer
 
 **Controller**
 
@@ -2210,7 +2235,7 @@ En este bounded context maneja el envío y la gestión de notificaciones dentro 
 | sendNotification  | ResponseEntity         | Public          | Envía una notificación  |
 | getNotificationStatus | NotificationStatusDTO        | Public          | Devuelve el estado de una notificación |
 
-#### 4.2.5.3. Application Layer
+#### 4.2.4.3. Application Layer
 
 **Service**
 
@@ -2231,7 +2256,7 @@ En este bounded context maneja el envío y la gestión de notificaciones dentro 
 |   sendNotification   | Notification    | Public          | Envía una notificación |
 |  checkNotificationStatus   | Notification     | Public | Comprueba el estado de la notificación |
 
-#### 4.2.5.4. Infrastructure Layer
+#### 4.2.4.4. Infrastructure Layer
 
 **Repository**
 
@@ -2246,18 +2271,18 @@ En este bounded context maneja el envío y la gestión de notificaciones dentro 
 | save | Notification | Public  | Guarda datos de notificación |
 | findById | Notification | Public  | Recupera la notificación por id  |
 
-#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/notification_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
 </div>
 
 
-### 4.2.6. Contexto Delimitado: Configuración
+### 4.2.5. Contexto Delimitado: Configuración
 
 Este contexto delimitado es responsable de gestionar la configuración inicial y la administración de dispositivos IoT, las geo-cercas y la configuración del sistema de monitoreo dentro del **Guardian Area**.
 
-#### 4.2.6.1. Capa de Dominio
+#### 4.2.5.1. Capa de Dominio
 
 **Entidades**
 
@@ -2280,7 +2305,7 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | zoneCoordinates   | String    | Las coordenadas que definen el área de la geo-cerca.  |
 | isActive          | Boolean   | Indica si la geo-cerca está activa actualmente.  |
 
-#### 4.2.6.2. Capa de Interfaz
+#### 4.2.5.2. Capa de Interfaz
 
 **Controlador**
 
@@ -2295,7 +2320,7 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | getDeviceConfigStatus     | DeviceConfigDTO  | Obtiene el estado de la configuración del dispositivo. |
 | getGeoFenceStatus         | GeoFenceConfigDTO| Obtiene el estado actual de una geo-cerca.          |
 
-#### 4.2.6.3. Capa de Aplicación
+#### 4.2.5.3. Capa de Aplicación
 
 **Servicio**
 
@@ -2310,7 +2335,7 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | getDeviceConfig           | DeviceConfig     | Devuelve los detalles de configuración para un dispositivo específico. |
 | getGeoFenceConfig         | GeoFenceConfig   | Devuelve los detalles de configuración de una geo-cerca.       |
 
-#### 4.2.6.4. Capa de Infraestructura
+#### 4.2.5.4. Capa de Infraestructura
 
 **Repositorio**
 
@@ -2325,7 +2350,7 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | findDeviceConfigById      | DeviceConfig     | Recupera la configuración de un dispositivo por su ID.     |
 | findGeoFenceConfigById    | GeoFenceConfig   | Recupera la configuración de una geo-cerca por su ID.  |
 
-#### 4.2.6.5. Diagrama de Componentes del Contexto Delimitado
+#### 4.2.5.5. Diagrama de Componentes del Contexto Delimitado
 
 El siguiente diagrama proporciona una vista general de los componentes dentro del contexto delimitado de Configuración, centrándose en los controladores, servicios y repositorios que administran la configuración de dispositivos y geo-cercas.
 
