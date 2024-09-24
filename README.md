@@ -655,6 +655,8 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
 
 ## 2.2. Entrevistas
+Esta sección se enfoca en la investigación, utilizando los datos recopilados a través de las entrevistas con representantes de los segmentos objetivo como punto de partida.
+
 
 ### 2.2.1 Diseño de entrevistas
 
@@ -665,7 +667,10 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 - ¿Lugar de residencia?
 - Estado Civil?
 - ¿A qué te dedicas actualmente?
-
+- ¿Qué smartphone posee? ¿Android o IOS?
+- ¿Cuál es su motor de búsqueda favorito?
+- ¿Cuales son sus marcas favoritas en general?
+- ¿Cuales son las redes sociales que más utiliza?
 **Preguntas sobre personalidad:**
 
 - ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?
@@ -849,21 +854,22 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 - Edad: 28
 - Distrito: Rímac 
 - Evidencia de la reunión: 
-    <div align=center>
+    <div style="text-align: center;">
         <img src="./images/chapter-02/interviews/entrevista_angie_zavaleta.png" alt="Entrevista 01"  width="90%"/>
     </div> 
 - Inicio: 19:48
-- Fin: 24:47
+- Duración: 4:59
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=oyMobB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE4OC40NH19
 - Resumen de la entrevista: 
+  Angie Zavaleta Quispe, de 28 años, trabaja en el área de recursos humanos y vive en el Rímac. Ella se considera introvertida, especialmente con personas nuevas, aunque se siente más cómoda con quienes ya conoce. Angie se ocupa del cuidado de su hermana pequeña de 9 años, quien es bastante hiperactiva, lo que le genera preocupación, especialmente cuando están fuera de casa.
+
+  Respecto al dispositivo que utiliza, Angie menciona que tiene un teléfono de la marca Samsung con sistema operativo Android. Comenta que utiliza principalmente el navegador Google Chrome para acceder a internet y que se comunica frecuentemente a través de redes sociales como WhatsApp e Instagram. 
   
-  Angie Zavaleta Quispe, de 28 años, trabaja en el area de recursos humanos y vive en el Rímac. Ella se considera introvertida, especialmente con personas nuevas, aunque se siente más cómoda con quienes ya conoce. Angie se ocupa del cuidado de su hermana pequeña de 9 años, quien es bastante hiperactiva, ello le genera preocupación, especialmente cuando están fuera de casa.
+  Actualmente, Angie no emplea dispositivos de monitoreo, pero la idea de un sistema que le permita verificar la ubicación de su hermana en tiempo real le resulta atractiva. Angie contó una experiencia en la que su hermana se perdió en un mercado, lo que preocupó a su familia y le generó la necesidad de controlar la ubicación de su hermana cuando sale.
   
-  Actualmente, Angie no emplea dispositivos de monitoreo, pero la idea de un sistema que le permita verificar la ubicación de su hermana en tiempo real le resulta atractiva. Angie contó una experiencia, donde su hermana se perdió en un mercado, lo que preocupó a su familia y le generó la necesidad de controlar la ubicación de su hermana cuando sale.
+  Durante los fines de semana, ella y su hermana disfrutan de salir a parques, lo que resalta la necesidad de vigilar constantemente a su hermana debido a su hiperactividad. GuardianArea sería ideal para ellas, facilitando este monitoreo constante de manera efectiva.
   
-  Angie comenta que durante los fines de semana, ella y su hermana disfrutan de salir a parques, lo que resalta la necesidad de vigilar constantemente a su hermana debido a su hiperactividad. GuardianArea sería ideal para ellas, facilitando este monitoreo constante de manera efectiva.
-  
-  En resumen, Angie ve un gran valor con **GuaridianArea** que puede ofrecerle tranquilidad y seguridad al saber que puede monitorear la ubicación de su hermana en tiempo real y recibir alertas si sale de una zona segura.
+  En resumen, Angie ve un gran valor en GuardianArea, que puede ofrecerle tranquilidad y seguridad al saber que puede monitorear la ubicación de su hermana en tiempo real y recibir alertas si sale de una zona segura.
 
 **Entrevista 03**
 - Nombres: José Carlos Isaac
@@ -1569,13 +1575,13 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. Event Storming
 
-EventStorming es una metodología colaborativa e iterativa de modelado que permite explorar a fondo problemas complejos y de gran magnitud, facilitando la identificación de numerosos detalles y posibles desafíos.
+EventStorming es un taller colaborativo e iterativo de modelado que permite explorar a fondo los dominios comerciales complejos y de gran magnitud, facilitando la identificación de numerosos detalles y posibles desafíos.
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/10-step-event.png" alt="Event Storming" style="max-width: 800px; width: 95%">
 </div>
 
-**Link Miro:** [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
+**Link Miro:** https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -1747,7 +1753,7 @@ Aislar los core capabilities en User Account y mover capacidades secundarias a u
 * Definición: Designa un subconjunto del modelo de dominio que los dos equipos acuerdan compartir. 
 * Uso: Todos los Bounded Context compartirán las abstracciones comunes, pero mantendrán su propia implementación y lógica interna.
 
-<div align=center>
+<div style="text-align: center;">
     <img src="./images/chapter-04/context_mapping.png" alt="Context Diagram"  width="100%"/>
 </div>
 
@@ -2277,7 +2283,7 @@ El siguiente diagrama proporciona una vista general de los componentes dentro de
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems.
 Al entrar a nuestra aplicación GuardianArea, el usuario podrá visualizar 4 secciones principales: Panel Principal, Historial de actividades, Hablar con el Dispositivo y Funciones vitales. En cada una de estas secciones, el usuario contará con diversas acciones para interactuar y gestionar la seguridad de las personas monitoreadas.
-<div align=center>
+<div style="text-align: center;">
     <img src="./images/chapter-05/organization_system.PNG" alt="Organization System 1"  width="100%"/>
 </div>
 
@@ -2316,7 +2322,7 @@ Los sistemas de etiquetado en arquitectura de la información permiten organizar
 ### 5.2.4. Searching Systems.
 Implementaremos sistemas de búsqueda por exploración, los cuales permitirán a nuestros usuarios encontrar la información que necesitan de manera rápida y eficiente. Los cuidadores o familiares que deseen buscar en el historial de actividades, contarán con un filtro por mes y año.
 
-<div align=center>
+<div style="text-align: center;">
     <img src="./images/chapter-05/searching_system.PNG" alt="searching system 1"  width="100%"/>
 </div>
 
@@ -2330,7 +2336,7 @@ contenido de la misma categoría, así como también lo que se encuentra jerárq
 web. Existen dos tipos: la navegación embebida, en donde los enlaces son ciertas frases o palabras del texto; y
 los links relacionados, los cuales pueden aparecer al final o al lado del contenido.
 
-<div align=center>
+<div  style="text-align: center;">
     <img src="./images/chapter-05/navigation_system_example1.PNG" alt="Navigation Systems 1"  width="100%"/>
 </div>
 
@@ -2338,12 +2344,12 @@ El patrón de lectura a utilizar para la visualización de nuestra web para las 
 será el patrón Z. Mientras que, para los apartados que cuenten con mayor volumen de texto, como en las ofertas de
 trabajo, se empleará el patrón F. De esta manera, lograremos captar la atención del lector durante más tiempo.
 
-<div align=center>
+<div  style="text-align: center;">
     <img src="./images/chapter-05/patron_z.png" alt="patron z"  width="100%"/>
     Contenido ligero (patrón Z)
 </div>
 
-<div align=center>
+<div  style="text-align: center;">
     <img src="./images/chapter-05/patron_F.png" alt="patron f"  width="100%"/>
     Contenido pesado (patrón F)
 </div>
@@ -2368,22 +2374,143 @@ trabajo, se empleará el patrón F. De esta manera, lograremos captar la atenci�
 ### 6.1.4. Software Deployment Configuration.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n.
-#### 6.2.X.2. Sprint Backlog n.
-#### 6.2.X.3. Development Evidence for Sprint Review.
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
-#### 6.2.X.5. Execution Evidence for Sprint Review.
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
-#### 6.2.X.8. Team Collaboration Insights during Sprint.
+### 6.2.1. Sprint n
+#### 6.2.1.1. Sprint Planning n.
+#### 6.2.1.2. Sprint Backlog n.
+#### 6.2.1.3. Development Evidence for Sprint Review.
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.1.5. Execution Evidence for Sprint Review.
+En el desarrollo del presente sprint hemos logrado implementar la landing page de GuardianArea y la aplicación web desarrollada en Angular. A continuación, se presentan las evidencias de la ejecución del sprint.
 
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-### 6.3.2. Registro de Entrevistas.
-### 6.3.3. Evaluaciones según heurísticas.
+1. **Landing Page:** Se logró completar la implementación de la Landing Page de GuardianArea se realizó siguiendo las directrices de diseño y estilo establecidas en la fase de diseño UI/UX. Se utilizó HTML, CSS y JavaScript para desarrollar la página de inicio, con un diseño moderno y atractivo que refleja la esencia de la aplicación.
+   
+   <div style="text-align: center;">
+    <img src="./images/chapter-06/01-landing-page.png" alt="patron z"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-landing-page.png" alt="patron z"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/03-landing-page.png" alt="patron z"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/04-landing-page.png" alt="Landing Page"  width="100%"/>
+        
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/05-landing-page.png" alt="Landing Page"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/06-landing-page.png" alt="Landing Page"  width="100%"/>
+    </div>
+2. **Web Application**: Se avanzó con la creación de la aplicación web de GuardianArea utilizando Angular. Lo que incluyó es la creación de interfaces de registro e inicio de sesión, así como el diseño de la página principal, historial de actividades e integración con mapa usando Mapbox. 
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/01-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/03-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/04-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/05-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/06-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
 
-## 6.4. Video About-the-Product.
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+Debido que a que el objetivo de este sprint fue la implementación de la Landing Page y la aplicación web, no se generó documentación de servicios en este sprint.
+<table>
+    <thead>
+        <tr>
+            <th>Endpoint</th>
+            <th>Acción Implementada</th>
+            <th>Verbo HTTP</th>
+            <th>Sintaxis de Llamada</th>
+            <th>Parámetros</th>
+            <th>Ejemplo de Request</th>
+            <th>Ejemplo de Response</th>
+            <th>Documentación Desplegada</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+Para la implementación de la Landing Page y la aplicación web de GuardianArea, se ustilizó github pages para el despliegue de la Landing Page y Firebase para el despliegue de la aplicación web. A continuación, se presentan las evidencias de despliegue.
+1. Landing Page: Se escogió GitHub Pages, herramienta que permite alojar sitios web estáticos de forma gratuita, rápida y sencilla. Para ello, se creó un repositorio en GitHub y se configuró la opción de GitHub Pages para publicar la Landing Page de GuardianArea. Acontinuación, se muestra el proceso de despliegue.
+   <div style="text-align: center;">
+        <img src="./images/chapter-06/01-landing-deployment.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-landing-deployment.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/03-landing-deployment.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+   Enlace: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
+2. Aplicación Web: Para el despliegue de la aplicación web de GuardianArea, se utilizó Firebase Hosting, una plataforma de alojamiento web que permite desplegar aplicaciones web de forma sencilla y segura. A continuación, se muestra el proceso de despliegue.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/01-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/03-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/04-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/05-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/06-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/07-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    Enlace: 
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
+
+- Landing Page: Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la landing page.
+    
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/01-pulse-landing.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-contributors-landing.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+- Aplicación Web: Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la aplicación web.
+    
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/01-pulse-web.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-contributors-web.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
 
 ### Conclusiones
 
