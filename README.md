@@ -2162,7 +2162,7 @@ En esta capa se implementan los repositorios y los servicios que interactúan co
 
 #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
 
-#### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
 
 En el diagrama, se observa una relación de uno a uno entre `Payment` y `PaymentStatus`, y entre `Payment` y `PaymentMethod`, lo que asegura que cada pago tiene un estado y un método de pago único.
 
@@ -2175,7 +2175,7 @@ En el diagrama, se observa una relación de uno a uno entre `Payment` y `Payment
     <img src="./images/chapter-04/payment_class.png" alt="Payment Diagram Class" style="max-width: 800px; width: 95%">
 </div>
 
-#### 4.2.3.6.2 Bounded Context Database Design Diagram
+##### 4.2.3.6.2 Bounded Context Database Design Diagram
 
 Las relaciones entre las tablas están claramente definidas, con una relación de uno a uno entre `Payment` y `PaymentStatus`, así como entre `Payment` y `PaymentMethod`, asegurando que cada pago tiene un estado y un método de pago específico.
 
@@ -2188,95 +2188,120 @@ Las relaciones entre las tablas están claramente definidas, con una relación d
 </div>
 
 ### 4.2.4. Bounded Context: Notification
-En este bounded context maneja el envío y la gestión de notificaciones dentro de la aplicación.
+Este bounded context gestiona el envío y la administración de notificaciones dentro del sistema, asegurando que los usuarios sean informados en tiempo real de eventos críticos.
 
 #### 4.2.4.1. Domain Layer
 
-**Entity**
+En esta capa se representan las clases principales que forman el núcleo de la gestión de notificaciones y las reglas de negocio asociadas.
 
-| **Nombre** | **Categoría** | **Propósito**                                            |
-|:----------:|:--------------|:---------------------------------------------------------|
-|  Notification   | Entity        | Representa una notificación y su estado. |
+- **Entities:**
+  - Notification: Representa una notificación y su estado, incluyendo si fue enviada o no.
 
-*Atributos*
+- **Value Objects:**
+  - NotificationStatus: Indica el estado de la notificación, como "enviada", "pendiente" o "fallida".
+  - Message: Representa el contenido del mensaje de la notificación.
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
-|:----------:|:-----------------|:----------------|:-----------------------------------------|
-|     id     | Long  | Private         | Identificador único                      |
-|    message    | String  | Private         | Contenido de la notificación       |
-|   sendStatus   | Boolean | Private         | Indica si se envió la notificación  |
+- **Aggregates:**
+  - NotificationAggregate: Agrupa las entidades `Notification` y los value objects `NotificationStatus` y `Message`, permitiendo realizar operaciones como enviar o verificar el estado de una notificación.
 
-*Métodos*
+- **Repositories (Interfaces):**
+  - NotificationRepository: Define los métodos para almacenar y consultar notificaciones.
 
-| **Nombre**  | **Tipo de retorno** | **Visibilidad** | **Descripción**          |
-|:-----------:|:--------------------|:----------------|:-------------------------|
-| Constructor | Void  | Public  | Constructor para Notification |
-| sendNotification | Void   | Public  | Lógica para enviar una notificación |
+    - **Métodos:**
+      - `save(Notification notification)`: Guarda una notificación.
+      - `findById(Long id)`: Recupera una notificación por su ID.
+      - `findByStatus(NotificationStatus status)`: Busca notificaciones según su estado.
 
 #### 4.2.4.2. Interface Layer
 
-**Controller**
+Esta capa contiene los controladores que exponen las funcionalidades de las notificaciones a través de APIs.
 
-|    **Nombre**     | **Categoría** | **Propósito**            |
-|:-----------------:|:--------------|:-------------------------|
-| NotificationController | Controller    | Controlador para Notification |
+- **Controllers:**
+  - NotificationController: Gestiona las solicitudes HTTP relacionadas con las notificaciones, como el envío y la consulta del estado.
 
-*Atributos*
-
-|   **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**       |
-|:--------------:|:-----------------|:----------------|:----------------------|
-| notificationService | NotificationService   | Private         | Servicio para Notification |
-
-*Métodos*
-
-|   **Nombre**   | **Tipo de retorno**    | **Visibilidad** | **Descripción**             |
-|:--------------:|:-----------------------|:----------------|:----------------------------|
-|  Constructor   | Void                   | Public          | Inicializa el NotificationController |
-| sendNotification  | ResponseEntity         | Public          | Envía una notificación  |
-| getNotificationStatus | NotificationStatusDTO        | Public          | Devuelve el estado de una notificación |
+    - **Métodos:**
+      - `sendNotification()`: Envía una notificación a través de la API.
+      - `getNotificationStatus(Long id)`: Devuelve el estado de una notificación específica.
 
 #### 4.2.4.3. Application Layer
 
-**Service**
+En esta capa se gestionan los flujos de negocio asociados a las notificaciones, delegando la lógica a los servicios.
 
-|   **Nombre**   | **Categoría** | **Propósito**                                |
-|:--------------:|:--------------|:---------------------------------------------|
-| NotificationService | Service       | Servicio con la lógica de negocio de Notification |
+- **Command Handlers:**
+  - SendNotificationCommandHandler: Gestiona la lógica para enviar una notificación.
+  - CheckNotificationStatusCommandHandler: Maneja la lógica para consultar el estado de una notificación.
 
-*Atributos*
+- **Event Handlers:**
+  - NotificationEventHandler: Maneja eventos relacionados con el envío y el estado de las notificaciones.
 
-|   **Nombre**    | **Tipo de dato**  | **Visibilidad** | **Descripción**        |
-|:---------------:|:------------------|:----------------|:-----------------------|
-|notificationRepository| NotificationRepository | Private         | Repositorio de Notification |
+    - **Eventos:**
+      - `NotificationSentEvent`: Disparado cuando se envía una notificación.
+      - `NotificationFailedEvent`: Disparado cuando una notificación no se envía correctamente.
 
-*Métodos*   
+- **Services:**
+  - NotificationService: Coordina las operaciones relacionadas con el envío de notificaciones y el control de su estado.
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                              |
-|:----------:|:--------------------|:----------------|:---------------------------------------------|
-|   sendNotification   | Notification    | Public          | Envía una notificación |
-|  checkNotificationStatus   | Notification     | Public | Comprueba el estado de la notificación |
+    - **Métodos:**
+      - `sendNotification(Notification notification)`: Envía una notificación.
+      - `checkNotificationStatus(Long id)`: Verifica el estado de una notificación específica.
 
 #### 4.2.4.4. Infrastructure Layer
 
-**Repository**
+Aquí se implementan los repositorios y los servicios que interactúan con sistemas externos para el envío y almacenamiento de las notificaciones.
 
-|    **Nombre**     | **Categoría** | **Propósito**                     |
-|:-----------------:|:--------------|:----------------------------------|
-| NotificationRepository | Repository    | Repositorio que almacena Notifications |
+- **Repositories:**
+  - NotificationRepository: Implementa los métodos para acceder y gestionar las notificaciones en la base de datos.
 
-*Métodos*
+    - **Métodos:**
+      - `save(Notification notification)`: Almacena una nueva notificación.
+      - `findById(Long id)`: Recupera una notificación por su ID.
+      - `findByStatus(NotificationStatus status)`: Recupera notificaciones por su estado.
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                         |
-|:----------:|:--------------------|:----------------|:--------------------------------------------------------|
-| save | Notification | Public  | Guarda datos de notificación |
-| findById | Notification | Public  | Recupera la notificación por id  |
+- **External Notification Service:** Si se utiliza un sistema externo para el envío de notificaciones (por ejemplo, Firebase Cloud Messaging), este componente se encarga de interactuar con ese servicio.
+
+    - **Métodos:**
+      - `send(Notification notification)`: Envía una notificación a través del servicio externo.
+      - `checkStatus(Notification notification)`: Verifica el estado de la notificación en el servicio externo.
+
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+- **API REST:** Punto de entrada para la creación y envío de notificaciones desde aplicaciones móviles o web.
+- **Notification Controller:** Gestiona las funcionalidades relacionadas con las notificaciones, como el envío y la consulta de su estado.
+- **Email Notifications y Mobile Notifications:** Dos servicios clave encargados de enviar notificaciones por correo electrónico y dispositivos móviles, respectivamente. Cada uno se integra con sus respectivas pasarelas de notificaciones.
+- **Notification Repository:** Responsable de almacenar y recuperar las notificaciones desde la base de datos. Este repositorio maneja las interacciones con el almacenamiento persistente.
+- **Notification Gateway:** Un sistema externo que envía notificaciones a través de canales externos, como sistemas de mensajería y correo electrónico.
+- **Mobile App y Web App:** Interfaces de usuario desde donde se puede gestionar el envío y la recepción de notificaciones.
+- **Database:** Almacena las notificaciones y su estado, permitiendo que el sistema mantenga un historial de los eventos de notificación.
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/notification_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
 </div>
 
+#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+Las relaciones de uno a uno entre `Notification` y `NotificationStatus` aseguran que cada notificación tiene un estado único y específico.
+
+- **Notification:** Clase principal que representa una notificación en el sistema, con atributos como `id`, `message`, y `sendStatus`. Esta clase también contiene métodos para obtener y establecer estos atributos, así como el método `sendNotification()` para enviar la notificación.
+- **NotificationStatus:** Objeto de valor que representa el estado de una notificación, como "enviada" o "pendiente". Está relacionado de manera uno a uno con la entidad `Notification`.
+- **NotificationRepository:** Interfaz que define los métodos necesarios para almacenar y recuperar notificaciones de la base de datos, como `save()` y `findById()`.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/notification_class.png" alt="Notification Class Diagram" style="max-width: 800px; width: 95%">
+</div>
+
+##### 4.2.4.6.2 Bounded Context Database Design Diagram
+
+Las relaciones reflejan una conexión uno a uno entre las tablas `Notification` y `NotificationStatus`, asegurando que cada notificación tiene un estado único y rastreable.
+
+- **Notification:** Tabla que almacena las notificaciones, con columnas como `id`, `message`, `sendStatus`, y una clave foránea `NotificationStatus_status` que referencia la tabla `NotificationStatus`.
+- **NotificationStatus:** Tabla que almacena los diferentes estados de las notificaciones, como "enviada" o "fallida", con la columna `status` como clave primaria.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/notification_db.png" alt="Notification Database Diagram" style="max-width: 800px; width: 95%">
+</div>
 
 ### 4.2.5. Contexto Delimitado: Configuración
 
