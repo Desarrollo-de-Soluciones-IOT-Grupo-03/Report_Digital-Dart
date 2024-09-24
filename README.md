@@ -444,31 +444,78 @@ Nuestro enfoque inicial estará en los cuidadores y familiares de personas con A
 
 Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta de los cuidadores ante situaciones peligrosas, y una mayor percepción de seguridad y tranquilidad entre nuestros usuarios.
 
-
 ### 1.2.2.2. Lean UX Assumptions
 
-**Features:**
+**User Assumptions**
 
-- Monitoreo en tiempo real mediante geo-cercas.
-- Alertas automáticas cuando la persona monitoreada sale de la zona segura.
-- Acceso a un historial de movimientos para análisis y prevención.
+- Los cuidadores de personas con Alzheimer y los familiares de niños pequeños son accesibles para entrevistas y están dispuestos a participar en la validación del producto.
 
-**Business outcomes:**
+- Los cuidadores enfrentan altos niveles de ansiedad y estrés debido a la falta de herramientas que les permitan monitorear de forma efectiva a sus seres queridos en tiempo real.
 
-- Incremento en la adopción del sistema por parte de familias y centros de cuidado.
-- Generación de ingresos mediante la venta de pulseras y suscripciones a servicios de monitoreo.
-- Expansión geográfica y diversificación en otros segmentos vulnerables.
+- Los usuarios valorarán una solución que les permita reaccionar rápidamente cuando una persona vulnerable salga de una zona segura.
 
-**Users:**
+**Validación:** A través de entrevistas y encuestas, confirmaremos la existencia de estos usuarios y determinaremos si estos desafíos son significativos para ellos. Evaluaremos si están interesados en adoptar una solución que les brinde mayor tranquilidad.
 
-- Cuidadores y familiares de personas mayores con Alzheimer.
-- Cuidadores y familiares de niños pequeños.
+**User Outcome Assumptions**
 
-**Users outcomes:**
+- ¿Por qué buscaría tu usuario tu producto o servicio?  
+  Los cuidadores buscarán nuestra solución para mejorar la seguridad y bienestar de las personas que monitorean y reducir su ansiedad por el riesgo de extravío.
 
-- Mejora en la seguridad y bienestar de personas vulnerables.
-- Reducción en los niveles de ansiedad y estrés en cuidadores y familiares. 
-- Mayor tranquilidad al saber que pueden reaccionar rápidamente ante cualquier emergencia.
+- ¿Qué beneficio obtendrían al usarlo?  
+  Los cuidadores podrán monitorear en tiempo real a sus seres queridos, recibir alertas cuando salgan de zonas seguras, y así reaccionar rápidamente, lo que les dará mayor tranquilidad.
+
+- ¿Qué cambio de comportamiento podríamos observar para saber que han logrado su objetivo?  
+  Podríamos observar una reducción en incidentes peligrosos y un aumento en la percepción de seguridad, lo que se traduciría en mayor retención y satisfacción del usuario.
+
+**Feature Assumptions**
+
+- El monitoreo en tiempo real mediante geo-cercas será crucial para prevenir situaciones peligrosas.
+
+- Las alertas automáticas al salir de zonas seguras serán la característica más valorada por los usuarios.
+
+- La posibilidad de personalizar zonas seguras se ajustará a las necesidades individuales de cada entorno.
+
+- El historial de movimientos será útil para analizar patrones y mejorar la prevención de incidentes.
+
+- Notificaciones instantáneas en dispositivos móviles serán esenciales para mantener informados a los cuidadores.
+
+- La batería de larga duración será una prioridad para asegurar que el dispositivo funcione sin interrupciones.
+
+- La resistencia al agua y golpes será importante para garantizar durabilidad, especialmente en entornos exigentes.
+
+- Una interfaz fácil de usar será crucial para usuarios con distintos niveles de habilidad tecnológica.
+
+- Actualizaciones automáticas de software mejorarán la funcionalidad sin intervención del usuario.
+
+- Compatibilidad con múltiples dispositivos permitirá a varios cuidadores monitorear a la persona simultáneamente.
+
+- Alerta de batería baja será necesaria para evitar que el dispositivo quede sin energía.
+
+**Validación:** Realizaremos pruebas piloto para verificar si estas características resuelven los problemas de los usuarios y son valoradas como esenciales.
+
+**Business Assumptions**
+
+- El mercado de monitoreo de personas vulnerables está en crecimiento, y existe una demanda de soluciones accesibles y fáciles de usar.
+
+- Las familias y centros de cuidado estarán dispuestos a pagar por soluciones tecnológicas que mejoren la seguridad y bienestar de las personas monitoreadas.
+
+- El modelo de negocio basado en la venta de pulseras y suscripciones será rentable y sostenible a largo plazo.
+
+**Validación:** Confirmaremos estas suposiciones a través de estudios de mercado, pruebas de precios, y análisis de demanda en diferentes segmentos.
+
+**Business Outcome Assumptions**
+
+- Acquisition (Adquisición): Aumento en la cantidad de usuarios que adquieren la pulsera y activan el servicio dentro del primer mes de lanzamiento.
+
+- Activation (Activación): Incremento en el porcentaje de usuarios que configuran sus geo-cercas y activan las alertas dentro de las primeras 24 horas de uso.
+
+- Retention (Retención): Alta tasa de retención, con usuarios que continúan utilizando el servicio al menos una vez por semana para monitorear a sus seres queridos.
+
+- Revenue (Ingresos): Crecimiento mensual del 15% en la venta de pulseras y suscripciones de monitoreo durante el primer año.
+
+- Referral (Referencia): Incremento en el número de nuevos usuarios que llegan a través de recomendaciones de cuidadores existentes, logrando un crecimiento del 10% en referencias mensuales.
+
+**Validación:** Mediremos estos resultados a través de métricas clave como tasa de adopción, retención y satisfacción del usuario.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
