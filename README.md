@@ -655,6 +655,8 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 4. **Marketing Específico y Alianzas Estratégicas**:Ejecutaremos campañas digitales enfocadas en familias y cuidadores, usando redes sociales y grupos especializados. Además, estableceremos alianzas con instituciones de salud para aumentar nuestra presencia en el mercado.
 
 ## 2.2. Entrevistas
+Esta sección se enfoca en la investigación, utilizando los datos recopilados a través de las entrevistas con representantes de los segmentos objetivo como punto de partida.
+
 
 ### 2.2.1 Diseño de entrevistas
 
@@ -665,7 +667,10 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 - ¿Lugar de residencia?
 - Estado Civil?
 - ¿A qué te dedicas actualmente?
-
+- ¿Qué smartphone posee? ¿Android o IOS?
+- ¿Cuál es su motor de búsqueda favorito?
+- ¿Cuales son sus marcas favoritas en general?
+- ¿Cuales son las redes sociales que más utiliza?
 **Preguntas sobre personalidad:**
 
 - ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?
@@ -849,21 +854,22 @@ GuardianArea implementará estrategias específicas para destacar en el mercado,
 - Edad: 28
 - Distrito: Rímac 
 - Evidencia de la reunión: 
-    <div align=center>
+    <div style="text-align: center;">
         <img src="./images/chapter-02/interviews/entrevista_angie_zavaleta.png" alt="Entrevista 01"  width="90%"/>
     </div> 
 - Inicio: 19:48
-- Fin: 24:47
+- Duración: 4:59
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=oyMobB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE4OC40NH19
 - Resumen de la entrevista: 
+  Angie Zavaleta Quispe, de 28 años, trabaja en el área de recursos humanos y vive en el Rímac. Ella se considera introvertida, especialmente con personas nuevas, aunque se siente más cómoda con quienes ya conoce. Angie se ocupa del cuidado de su hermana pequeña de 9 años, quien es bastante hiperactiva, lo que le genera preocupación, especialmente cuando están fuera de casa.
+
+  Respecto al dispositivo que utiliza, Angie menciona que tiene un teléfono de la marca Samsung con sistema operativo Android. Comenta que utiliza principalmente el navegador Google Chrome para acceder a internet y que se comunica frecuentemente a través de redes sociales como WhatsApp e Instagram. 
   
-  Angie Zavaleta Quispe, de 28 años, trabaja en el area de recursos humanos y vive en el Rímac. Ella se considera introvertida, especialmente con personas nuevas, aunque se siente más cómoda con quienes ya conoce. Angie se ocupa del cuidado de su hermana pequeña de 9 años, quien es bastante hiperactiva, ello le genera preocupación, especialmente cuando están fuera de casa.
+  Actualmente, Angie no emplea dispositivos de monitoreo, pero la idea de un sistema que le permita verificar la ubicación de su hermana en tiempo real le resulta atractiva. Angie contó una experiencia en la que su hermana se perdió en un mercado, lo que preocupó a su familia y le generó la necesidad de controlar la ubicación de su hermana cuando sale.
   
-  Actualmente, Angie no emplea dispositivos de monitoreo, pero la idea de un sistema que le permita verificar la ubicación de su hermana en tiempo real le resulta atractiva. Angie contó una experiencia, donde su hermana se perdió en un mercado, lo que preocupó a su familia y le generó la necesidad de controlar la ubicación de su hermana cuando sale.
+  Durante los fines de semana, ella y su hermana disfrutan de salir a parques, lo que resalta la necesidad de vigilar constantemente a su hermana debido a su hiperactividad. GuardianArea sería ideal para ellas, facilitando este monitoreo constante de manera efectiva.
   
-  Angie comenta que durante los fines de semana, ella y su hermana disfrutan de salir a parques, lo que resalta la necesidad de vigilar constantemente a su hermana debido a su hiperactividad. GuardianArea sería ideal para ellas, facilitando este monitoreo constante de manera efectiva.
-  
-  En resumen, Angie ve un gran valor con **GuaridianArea** que puede ofrecerle tranquilidad y seguridad al saber que puede monitorear la ubicación de su hermana en tiempo real y recibir alertas si sale de una zona segura.
+  En resumen, Angie ve un gran valor en GuardianArea, que puede ofrecerle tranquilidad y seguridad al saber que puede monitorear la ubicación de su hermana en tiempo real y recibir alertas si sale de una zona segura.
 
 **Entrevista 03**
 - Nombres: José Carlos Isaac
@@ -1747,7 +1753,7 @@ Aislar los core capabilities en User Account y mover capacidades secundarias a u
 * Definición: Designa un subconjunto del modelo de dominio que los dos equipos acuerdan compartir. 
 * Uso: Todos los Bounded Context compartirán las abstracciones comunes, pero mantendrán su propia implementación y lógica interna.
 
-<div align=center>
+<div style="text-align: center;">
     <img src="./images/chapter-04/context_mapping.png" alt="Context Diagram"  width="100%"/>
 </div>
 
