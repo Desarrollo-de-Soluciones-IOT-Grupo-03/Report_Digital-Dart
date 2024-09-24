@@ -1569,13 +1569,13 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. Event Storming
 
-EventStorming es una metodología colaborativa e iterativa de modelado que permite explorar a fondo problemas complejos y de gran magnitud, facilitando la identificación de numerosos detalles y posibles desafíos.
+EventStorming es un taller colaborativo e iterativo de modelado que permite explorar a fondo los dominios comerciales complejos y de gran magnitud, facilitando la identificación de numerosos detalles y posibles desafíos.
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/10-step-event.png" alt="Event Storming" style="max-width: 800px; width: 95%">
 </div>
 
-**Link Miro:** [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
+**Link Miro:** https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -2376,7 +2376,7 @@ trabajo, se empleará el patrón F. De esta manera, lograremos captar la atenci�
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 En el desarrollo del presente sprint hemos logrado implementar la landing page de GuardianArea y la aplicación web desarrollada en Angular. A continuación, se presentan las evidencias de la ejecución del sprint.
 
-1. **Landing Page:** La implementación de la Landing Page de GuardianArea se realizó siguiendo las directrices de diseño y estilo establecidas en la fase de diseño UI/UX. Se utilizó HTML, CSS y JavaScript para desarrollar la página de inicio, con un diseño moderno y atractivo que refleja la esencia de la aplicación.
+1. **Landing Page:** Se logró completar la implementación de la Landing Page de GuardianArea se realizó siguiendo las directrices de diseño y estilo establecidas en la fase de diseño UI/UX. Se utilizó HTML, CSS y JavaScript para desarrollar la página de inicio, con un diseño moderno y atractivo que refleja la esencia de la aplicación.
    
    <div style="text-align: center;">
     <img src="./images/chapter-06/01-landing-page.png" alt="patron z"  width="100%"/>
@@ -2396,6 +2396,25 @@ En el desarrollo del presente sprint hemos logrado implementar la landing page d
     </div>
     <div style="text-align: center;">
         <img src="./images/chapter-06/06-landing-page.png" alt="Landing Page"  width="100%"/>
+    </div>
+2. **Web Application**: Se avanzó con la creación de la aplicación web de GuardianArea utilizando Angular. Lo que incluyó es la creación de interfaces de registro e inicio de sesión, así como el diseño de la página principal, historial de actividades e integración con mapa usando Mapbox. 
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/01-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/03-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/04-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/05-web-application.png" alt="Web Aplicacion"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/06-web-application.png" alt="Web Aplicacion"  width="100%"/>
     </div>
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -2428,6 +2447,7 @@ Debido que a que el objetivo de este sprint fue la implementación de la Landing
 </table>
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
