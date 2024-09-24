@@ -221,7 +221,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             - Lideró el análisis competitivo y el impact mapping. Participó en la creación de user stories, event storming y la arquitectura de software.
             <br><br>
             <b>Diego Martin Esquivel Aguayo</b><br>
-            - Responsable del capítulo 1, introducción y descripción de la startup, lean UX process y segmentos objetivos. Colaboró en entrevistas, needfinding, event storming y bounded contexts.
+            - Promoví el liderazgo compartido colaborando en la redacción del capítulo 1 y coordinando las actividades de entrevistas, needfinding, event storming, y bounded contexts. Aseguré que las decisiones se tomaran en conjunto, fomentando un ambiente donde todas las ideas del equipo fueran escuchadas.
             <br><br>
             <b>Cristian Andrés Quito Igreda</b><br>
             - Realizó el empathy mapping, as-is scenario mapping y context mapping. Contribuyó en los bounded contexts, diagramas de clases y diseño de la base de datos.
@@ -245,7 +245,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             - Aportó en el impact mapping y análisis competitivo, fomentando un entorno inclusivo al integrar diversas perspectivas para mejorar la estrategia del proyecto.
             <br><br>
             <b>Diego Martin Esquivel Aguayo</b><br>
-            - Organizó el capítulo introductorio y colaboró en las entrevistas y el event storming, garantizando que el equipo mantuviera sus metas en línea con los objetivos de la startup.
+            - Estructuré el capítulo introductorio y fomenté la colaboración activa del equipo en entrevistas y event storming. Contribuí al establecimiento de metas claras y ayudé a que el equipo mantuviera sus tareas alineadas con los objetivos de la startup.
             <br><br>
             <b>Cristian Andrés Quito Igreda</b><br>
             - Facilitó la planificación del contexto y los diagramas de clase, asegurando que el equipo tuviera una estructura clara para la toma de decisiones técnicas.
@@ -434,64 +434,118 @@ Este problema tiene un impacto significativo en la seguridad y bienestar de las 
 
 ### 1.2.2.1. Lean UX Problem Statements
 
-El cuidado de personas mayores con Alzheimer y niños pequeños presenta desafíos significativos para garantizar su seguridad debido a la falta de herramientas efectivas de monitoreo. Estas personas vulnerables están en riesgo de situaciones peligrosas, como el deambular o salir de áreas seguras sin ser detectados.
+El estado actual del cuidado de personas mayores con Alzheimer y niños pequeños se ha centrado principalmente en soluciones tradicionales de supervisión que dependen de la vigilancia constante de los cuidadores, lo cual no es siempre eficaz ni suficiente. Estos segmentos enfrentan grandes dificultades para garantizar la seguridad de sus seres queridos debido a la falta de herramientas de monitoreo en tiempo real que sean accesibles y fáciles de usar.
 
-La ausencia de soluciones tecnológicas accesibles y efectivas exacerba estos riesgos, poniendo en peligro la vida y el bienestar de estos individuos.
+Los productos o servicios existentes no abordan completamente la necesidad de notificaciones inmediatas y precisas cuando la persona monitoreada sale de una zona segura, lo que deja un vacío en el mercado para soluciones más efectivas que brinden tranquilidad a los cuidadores y familiares.
 
-¿Cómo podemos mejorar la seguridad de personas mayores con Alzheimer y niños pequeños mediante un sistema de monitoreo en tiempo real que alerte a sus cuidadores y familiares cuando se salen de las zonas seguras?
+Nuestro producto, GuardianArea, cubrirá este vacío al ofrecer un sistema de monitoreo en tiempo real con alertas instantáneas cuando las personas monitoreadas salen de las geo-cercas establecidas. Esta solución integrará tecnología fácil de usar y accesible, orientada específicamente a cuidar a personas con Alzheimer y niños pequeños.
+
+Nuestro enfoque inicial estará en los cuidadores y familiares de personas con Alzheimer, ya que necesitan una solución que les permita reaccionar rápidamente en situaciones de riesgo.
+
+Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta de los cuidadores ante situaciones peligrosas, y una mayor percepción de seguridad y tranquilidad entre nuestros usuarios.
 
 ### 1.2.2.2. Lean UX Assumptions
 
-**Features:**
+**User Assumptions**
 
-- Monitoreo en tiempo real mediante geo-cercas.
-- Alertas automáticas cuando la persona monitoreada sale de la zona segura.
-- Acceso a un historial de movimientos para análisis y prevención.
+- Los cuidadores de personas con Alzheimer y los familiares de niños pequeños son accesibles para entrevistas y están dispuestos a participar en la validación del producto.
 
-**Business outcomes:**
+- Los cuidadores enfrentan altos niveles de ansiedad y estrés debido a la falta de herramientas que les permitan monitorear de forma efectiva a sus seres queridos en tiempo real.
 
-- Incremento en la adopción del sistema por parte de familias y centros de cuidado.
-- Generación de ingresos mediante la venta de pulseras y suscripciones a servicios de monitoreo.
-- Expansión geográfica y diversificación en otros segmentos vulnerables.
+- Los usuarios valorarán una solución que les permita reaccionar rápidamente cuando una persona vulnerable salga de una zona segura.
 
-**Users:**
+**Validación:** A través de entrevistas y encuestas, confirmaremos la existencia de estos usuarios y determinaremos si estos desafíos son significativos para ellos. Evaluaremos si están interesados en adoptar una solución que les brinde mayor tranquilidad.
 
-- Cuidadores y familiares de personas mayores con Alzheimer.
-- Cuidadores y familiares de niños pequeños.
+**User Outcome Assumptions**
 
-**Users outcomes:**
+- ¿Por qué buscaría tu usuario tu producto o servicio?  
+  Los cuidadores buscarán nuestra solución para mejorar la seguridad y bienestar de las personas que monitorean y reducir su ansiedad por el riesgo de extravío.
 
-- Mejora en la seguridad y bienestar de personas vulnerables.
-- Reducción en los niveles de ansiedad y estrés en cuidadores y familiares. 
-- Mayor tranquilidad al saber que pueden reaccionar rápidamente ante cualquier emergencia.
+- ¿Qué beneficio obtendrían al usarlo?  
+  Los cuidadores podrán monitorear en tiempo real a sus seres queridos, recibir alertas cuando salgan de zonas seguras, y así reaccionar rápidamente, lo que les dará mayor tranquilidad.
+
+- ¿Qué cambio de comportamiento podríamos observar para saber que han logrado su objetivo?  
+  Podríamos observar una reducción en incidentes peligrosos y un aumento en la percepción de seguridad, lo que se traduciría en mayor retención y satisfacción del usuario.
+
+**Feature Assumptions**
+
+- El monitoreo en tiempo real mediante geo-cercas será crucial para prevenir situaciones peligrosas.
+
+- Las alertas automáticas al salir de zonas seguras serán la característica más valorada por los usuarios.
+
+- La posibilidad de personalizar zonas seguras se ajustará a las necesidades individuales de cada entorno.
+
+- El historial de movimientos será útil para analizar patrones y mejorar la prevención de incidentes.
+
+- Notificaciones instantáneas en dispositivos móviles serán esenciales para mantener informados a los cuidadores.
+
+- La batería de larga duración será una prioridad para asegurar que el dispositivo funcione sin interrupciones.
+
+- La resistencia al agua y golpes será importante para garantizar durabilidad, especialmente en entornos exigentes.
+
+- Una interfaz fácil de usar será crucial para usuarios con distintos niveles de habilidad tecnológica.
+
+- Actualizaciones automáticas de software mejorarán la funcionalidad sin intervención del usuario.
+
+- Compatibilidad con múltiples dispositivos permitirá a varios cuidadores monitorear a la persona simultáneamente.
+
+- Alerta de batería baja será necesaria para evitar que el dispositivo quede sin energía.
+
+**Validación:** Realizaremos pruebas piloto para verificar si estas características resuelven los problemas de los usuarios y son valoradas como esenciales.
+
+**Business Assumptions**
+
+- El mercado de monitoreo de personas vulnerables está en crecimiento, y existe una demanda de soluciones accesibles y fáciles de usar.
+
+- Las familias y centros de cuidado estarán dispuestos a pagar por soluciones tecnológicas que mejoren la seguridad y bienestar de las personas monitoreadas.
+
+- El modelo de negocio basado en la venta de pulseras y suscripciones será rentable y sostenible a largo plazo.
+
+**Validación:** Confirmaremos estas suposiciones a través de estudios de mercado, pruebas de precios, y análisis de demanda en diferentes segmentos.
+
+**Business Outcome Assumptions**
+
+- Acquisition (Adquisición): Aumento en la cantidad de usuarios que adquieren la pulsera y activan el servicio dentro del primer mes de lanzamiento.
+
+- Activation (Activación): Incremento en el porcentaje de usuarios que configuran sus geo-cercas y activan las alertas dentro de las primeras 24 horas de uso.
+
+- Retention (Retención): Alta tasa de retención, con usuarios que continúan utilizando el servicio al menos una vez por semana para monitorear a sus seres queridos.
+
+- Revenue (Ingresos): Crecimiento mensual del 15% en la venta de pulseras y suscripciones de monitoreo durante el primer año.
+
+- Referral (Referencia): Incremento en el número de nuevos usuarios que llegan a través de recomendaciones de cuidadores existentes, logrando un crecimiento del 10% en referencias mensuales.
+
+**Validación:** Mediremos estos resultados a través de métricas clave como tasa de adopción, retención y satisfacción del usuario.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hipótesis 1:** Creemos que, al proporcionar un sistema de monitoreo en tiempo real para personas vulnerables, mejoraremos su seguridad y bienestar. Sabremos que hemos tenido éxito cuando veamos una reducción del 70% en incidentes relacionados con la salida de zonas seguras dentro de los primeros seis meses de implementación.
+**Hipótesis 1:** Creemos que lograremos mejorar la seguridad y bienestar si los cuidadores de personas vulnerables obtienen una mayor capacidad de monitoreo en tiempo real con la función de monitoreo en tiempo real y geo-cercas.
 
-**Hipótesis 2:** Creemos que al ofrecer alertas automáticas cuando la persona monitoreada sale de la zona segura, los cuidadores podrán reaccionar rápidamente para evitar situaciones peligrosas. Sabremos que hemos tenido éxito si el 95% de las alertas son atendidas en un plazo de 10 minutos, evitando cualquier riesgo significativo.
+**Hipótesis 2:** Creemos que lograremos una mayor capacidad de respuesta en situaciones peligrosas si los cuidadores obtienen la capacidad de reaccionar rápidamente con la función de alertas automáticas cuando la persona sale de la zona segura.
 
-**Hipótesis 3:** Creemos que, al permitir el acceso al historial de movimientos, los cuidadores podrán prever posibles situaciones de riesgo. Sabremos que hemos tenido éxito si el 80% de los usuarios utiliza esta función para ajustar las zonas seguras dentro de los primeros tres meses.
+**Hipótesis 3:** Creemos que lograremos prevenir riesgos futuros si los cuidadores obtienen la capacidad de prever situaciones peligrosas con la función de acceso al historial de movimientos.
 
-**Hipótesis 4:** Creemos que al incorporar un sistema de geo-cercas personalizable en tiempo real, los cuidadores podrán adaptar rápidamente las áreas seguras. Sabremos que hemos tenido éxito cuando el 90% de los usuarios ajusten las zonas al menos una vez al mes.
+**Hipótesis 4:** Creemos que lograremos una mejor adaptabilidad en el monitoreo si los cuidadores obtienen flexibilidad para ajustar las zonas seguras con la función de geo-cercas personalizables en tiempo real.
 
-**Hipótesis 5:** Creemos que, al integrar un sistema de notificaciones por voz, los cuidadores tendrán una respuesta más rápida. Sabremos que hemos tenido éxito si el 85% de los usuarios considera útil esta característica.
+**Hipótesis 5:** Creemos que lograremos una respuesta más rápida ante alertas si los cuidadores obtienen una mayor eficiencia en la recepción de alertas con la función de notificaciones por voz.
 
-**Hipótesis 6:** Creemos que, al implementar un historial de alertas con recomendaciones automatizadas, los cuidadores podrán anticiparse a situaciones de riesgo. Sabremos que hemos tenido éxito si el 75% de los cuidadores encuentran las recomendaciones útiles para la prevención.
+**Hipótesis 6:** Creemos que lograremos una mejor prevención de riesgos si los cuidadores obtienen herramientas útiles para anticipar riesgos con la función de historial de alertas con recomendaciones automatizadas.
 
 ### 1.2.2.4. Lean UX Canvas
 
 <div style="text-align: center;">
-    <img src="./images/chapter-01/lean-ux-canvas.png" alt="Lean Ux Canvas">
+    <img src="./images/chapter-01/lean_ux_canvas.png" alt="Lean Ux Canvas">
 </div>
 
 ## 1.3. Segmentos objetivo
 
-**Segmento objetivo 1: Cuidadores o Familiares de personas con Alzheimer**  
-Este segmento se enfoca en los cuidadores y familiares de personas con Alzheimer que necesitan monitorear de cerca a estos pacientes para garantizar su seguridad. Buscan herramientas que les permitan reaccionar rápidamente ante situaciones peligrosas y mantener la tranquilidad de saber que sus seres queridos están seguros.
+**Segmento objetivo 1: Cuidadores o Familiares de personas con Alzheimer**
 
-**Segmento objetivo 2: Cuidadores o Familiares de niños pequeños**  
-Este segmento incluye a los cuidadores y familiares de niños pequeños que desean aumentar la seguridad y supervisión de los niños. Están interesados en soluciones que les permitan prevenir situaciones peligrosas al recibir alertas cuando los niños salen de las zonas seguras establecidas.
+Este segmento está compuesto por personas que tienen la responsabilidad de cuidar a familiares con Alzheimer, generalmente de entre 40 y 65 años, que viven en áreas urbanas o suburbanas y están a cargo de la supervisión diaria de los pacientes. Estos cuidadores suelen ser hijos adultos o cónyuges que necesitan herramientas tecnológicas para monitorear el estado de sus seres queridos en tiempo real, especialmente cuando no están físicamente presentes. Además, enfrentan altos niveles de estrés debido al riesgo constante de que los pacientes puedan deambular o salir de áreas seguras sin supervisión. Este grupo busca soluciones que les permitan reaccionar rápidamente ante situaciones peligrosas y que, a su vez, les ofrezcan tranquilidad al saber que sus seres queridos están protegidos en todo momento.
+
+**Segmento objetivo 2: Cuidadores o Familiares de niños pequeños**
+
+Este grupo está compuesto por padres y cuidadores, generalmente de entre 25 y 45 años, que viven en áreas urbanas y suburbanas y desean aumentar la seguridad y supervisión de los niños, especialmente aquellos de entre 2 y 8 años. Están altamente preocupados por la posibilidad de que los niños pequeños se alejen de zonas seguras, como el hogar, parques o entornos escolares. Estos cuidadores buscan soluciones tecnológicas que les permitan establecer geo-cercas virtuales y recibir alertas inmediatas cuando los niños salen de estas áreas, para así poder intervenir de forma oportuna. Además, valoran la posibilidad de monitorear el historial de movimientos de los niños para anticiparse a posibles situaciones de riesgo.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -810,15 +864,15 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
         <img src="./images/chapter-02/interviews/entrevista_piero_descalzi.png" alt="Entrevista 03"  width="90%"/>
     </div> 
 - Inicio: 9:44
-- Fin: 14:42
+- Duración: 4:58
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=5Ahe9I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTg0LjUzfX0%3D
 - Resumen de la entrevista: 
 
-    Durante la entrevista, recibí a Piero Descalci, un diseñador de videojuegos de 21 años que vive en Lima, Breña, y que se describe como una persona introvertida. Piero me comentó que prefiere pasar tiempo en casa con su familia, especialmente ahora que su primo Campos, diagnosticado conDu Alzheimer hace unos años, necesita más atención.
+    Durante la entrevista, recibí a Piero Descalci, un diseñador de videojuegos de 21 años que vive en Lima, Breña, y que se describe como una persona introvertida. Piero me comentó que prefiere pasar tiempo en casa con su familia, especialmente ahora que su primo Campos, diagnosticado con Alzheimer hace unos años, necesita más atención.
 
-    Piero utiliza aplicaciones móviles y páginas web diariamente para coordinar citas médicas y gestionar las tareas del cuidado de su primo. Me confesó que la seguridad es su principal preocupación, ya que teme que Campos se pierda o enfrente problemas de salud sin que puedan intervenir a tiempo.
+    Piero utiliza aplicaciones móviles y páginas web diariamente para coordinar citas médicas y gestionar las tareas del cuidado de su primo. Me comentó que accede a estas plataformas a través de su navegador preferido, Google Chrome, tanto en su teléfono móvil Samsung Galaxy A51 como en su laptop HP Pavilion, dispositivos que usa con regularidad. La seguridad es su principal preocupación, ya que teme que Campos se pierda o enfrente problemas de salud sin que puedan intervenir a tiempo.
 
-    El desgaste emocional ha sido una de las mayores dificultades para Piero, quien compartió conmigo momentos realmente angustiosos, como cuando su primo se perdió, lo que resultó en situaciones aterradoras y en un sentimiento constante de no estar haciendo lo suficiente. Me contó que en varias ocasiones la tecnología podría haber sido de gran ayuda, como cuando su primo se alejó de casa y no contaban con un dispositivo que los alertara. Esto los hizo perder mucho tiempo buscándolo, deseando tener alguna herramienta que pudiera ayudarlos en esos momentos críticos.
+    El desgaste emocional ha sido una de las mayores dificultades para Piero, quien compartió conmigo momentos angustiosos, como cuando su primo se perdió, lo que resultó en situaciones aterradoras y en un sentimiento constante de no estar haciendo lo suficiente. Me contó que en varias ocasiones la tecnología podría haber sido de gran ayuda, como cuando su primo se alejó de casa y no contaban con un dispositivo que los alertara. Esto los hizo perder mucho tiempo buscándolo, deseando tener alguna herramienta que pudiera ayudarlos en esos momentos críticos.
 
     Le hablé del desarrollo en el que estamos trabajando: una pulsera con rastreador que notifica si una persona con Alzheimer o un niño pequeño sale de un área delimitada. Piero consideró que esta idea sería de gran utilidad para ofrecer mayor seguridad y tranquilidad a las familias y cuidadores.
 
@@ -1137,11 +1191,15 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 **Segmento 1**
 
+María López enfrenta la constante preocupación por la seguridad de su madre con Alzheimer. A falta de una solución tecnológica adecuada, depende de métodos manuales y el apoyo de familiares, lo que genera ansiedad y estrés continuo. Su journey está marcado por la frustración de no poder actuar rápidamente en situaciones de riesgo, reforzando la necesidad de una herramienta confiable que le brinde tranquilidad.
+
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_journey_map_1.png" alt="User Journey Map 1" width="100%">
 </div>
 
 **Segmento 2**
+
+Carlos Pérez busca una solución de monitoreo para garantizar la seguridad de sus hijos, pero se enfrenta a un mercado confuso con opciones poco claras. A medida que evalúa productos, experimenta dudas sobre su efectividad y seguridad. Su journey está lleno de incertidumbre mientras intenta encontrar una herramienta confiable que le permita proteger a sus hijos sin depender solo de su supervisión personal.
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_journey_map_2.png" alt="User Journey Map 2" width="100%">
@@ -1782,11 +1840,11 @@ Aislar los core capabilities en User Account y mover capacidades secundarias a u
     <img src="./images/chapter-04/container_diagram.png" alt="Container Level Diagrams" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.2. Bounded Context: Monitoring
+### 4.2.1. Bounded Context: Monitoring
 
 En el contexto del bounded context de **Monitoring** para pulseras usadas por niños y personas con Alzheimer, se centra en la gestión y coordinación de la supervisión de datos generados por sensores. El propósito de este contexto es monitorear la ubicación, el ritmo cardíaco y la detección de caídas, alertando a los cuidadores ante eventos críticos como la salida de una zona segura o la detección de caídas.
 
-#### 4.2.2.1. Domain Layer
+#### 4.2.1.1. Domain Layer
 
 En la capa de Dominio, el contexto de **Sensors Monitorization** se modela como el **aggregate** que gestiona los datos de los sensores de la pulsera, tales como GPS, acelerómetro y el sensor de ritmo cardíaco.
 
@@ -1812,7 +1870,7 @@ En la capa de Dominio, el contexto de **Sensors Monitorization** se modela como 
 | processAccelerometerData | Void               | Public           | Procesa los datos del acelerómetro para detectar caídas                   |
 | monitorHeartRate     | Void                   | Public           | Monitorea el ritmo cardíaco en tiempo real                                |
 
-#### 4.2.2.2. Interface Layer
+#### 4.2.1.2. Interface Layer
 
 En el contexto de Monitoring, la capa de Interfaz facilita la comunicación entre el sistema y los cuidadores. Los controladores permiten el acceso a los datos críticos y las alertas generadas por la pulsera, como la ubicación actual, ritmo cardíaco, y las notificaciones de caídas.
 
@@ -1836,7 +1894,7 @@ En el contexto de Monitoring, la capa de Interfaz facilita la comunicación entr
 | getHeartRate         | Integer                | Public           | Obtener la última medición del ritmo cardíaco                             |
 | processFallDetection | Void                   | Public           | Procesar y enviar alertas de caídas                                       |
 
-#### 4.2.2.3. Application Layer
+#### 4.2.1.3. Application Layer
 
 La capa de Aplicación se encarga de gestionar la lógica empresarial y la funcionalidad específica de la supervisión, como el seguimiento de la ubicación, la detección de caídas, y el monitoreo del ritmo cardíaco. Actúa como intermediaria entre la capa de Interfaz y la capa de Dominio.
 
@@ -1859,7 +1917,7 @@ La capa de Aplicación se encarga de gestionar la lógica empresarial y la funci
 | monitorHeartRate     | Integer                | Public           | Monitorea el ritmo cardíaco y envía alertas en caso de anomalías          |
 | detectFall           | Void                   | Public           | Procesa los datos del acelerómetro para detectar caídas                   |
 
-#### 4.2.2.4. Infrastructure Layer
+#### 4.2.1.4. Infrastructure Layer
 
 La capa de Infraestructura se encarga de la persistencia de los datos generados por los sensores de la pulsera. Es responsable del almacenamiento de la información relacionada con las coordenadas GPS, las mediciones de ritmo cardíaco y los eventos de caídas, así como del envío de notificaciones a los cuidadores.
 
@@ -1876,16 +1934,16 @@ La capa de Infraestructura se encarga de la persistencia de los datos generados 
 | findByHeartRate      | SensorData             | Public           | Devuelve los datos del sensor según el ritmo cardíaco                    |
 | findAlertsByEvent    | Alert                  | Public           | Devuelve las alertas generadas por un evento en particular               |
 
-#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/monitoring-component.png" alt="Monitoring Component" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.3. Bounded Context: User Account
+### 4.2.2. Bounded Context: User Account
 En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 
-#### 4.2.3.1. Domain Layer
+#### 4.2.2.1. Domain Layer
 
 **Entity**
 
@@ -1908,7 +1966,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | Constructor | Void  | Public  | Constructor para User |
 | addRoles | User   | Public  | Añadir roles al usuario |
 
-#### 4.2.3.2. Interface Layer
+#### 4.2.2.2. Interface Layer
 
 **Controller**
 
@@ -1930,7 +1988,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
 | GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
 
-#### 4.2.3.3. Application Layer
+#### 4.2.2.3. Application Layer
 
 **Service**
 
@@ -1951,7 +2009,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
 | GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
 
-#### 4.2.3.4. Infrastructure Layer
+#### 4.2.2.4. Infrastructure Layer
 
 **Repository**
 
@@ -1966,7 +2024,7 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 | save | User | Public  | Guarda datos de usuario |
 | findById | User | Public  | Recupera el usuario por id  |
 
-#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama muestra la estructura de componentes de un sistema que gestiona cuentas de usuario y roles a través de una API REST. A continuación, te detallo los principales componentes y su interacción:
 
@@ -1990,8 +2048,8 @@ El diagrama muestra la estructura de componentes de un sistema que gestiona cuen
     <img src="./images/chapter-04/user_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
 </div>
 
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
-##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 **El flujo general:**
 * El AuthenticationController recibe una solicitud (ya sea de registro o inicio de sesión).
 * Esta solicitud se transforma en un comando (SignUpCommand o SignInCommand).
@@ -2001,7 +2059,7 @@ El diagrama muestra la estructura de componentes de un sistema que gestiona cuen
     <img src="./images/chapter-04/user-account-class-diagram.png" alt="User Account Class Diagram" style="max-width: 800px; width: 95%">
 </div>
 
-##### 4.2.3.6.1. Bounded Context Database Design Diagram
+##### 4.2.2.6.1. Bounded Context Database Design Diagram
 El diagrama muestra tres entidades relacionadas:
 
 1. **AuditableAbstractAggregateRoot**: Clase base con campos comunes (id, createdAt, updatedAt) heredados por otras entidades.
@@ -2013,193 +2071,243 @@ El diseño implementa auditoría y una relación de roles a usuarios.
     <img src="./images/chapter-04/user_account_database.png" alt="User Account Database" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.4. Bounded Context: Payment
-En este bounded context se gestiona los pagos dentro del sistema.
+### 4.2.3. Bounded Context: Payment
+En este bounded context se gestionan los pagos dentro del sistema, asegurando que las transacciones se procesen correctamente y que la información se almacene y se gestione de forma segura.
+
+#### 4.2.3.1. Domain Layer
+
+En la capa de dominio, se definen las clases centrales que representan el core del sistema de pagos, junto con las reglas de negocio.
+
+- **Entities:**
+  - Payment: Representa un pago, con atributos como el monto, la fecha, y el estado del pago.
+
+- **Value Objects:**
+  - PaymentStatus: Define el estado del pago, como pendiente, completado o fallido.
+  - PaymentMethod: Describe el método de pago utilizado, como tarjeta de crédito, PayPal, o transferencia bancaria.
+
+- **Aggregates:**
+  - PaymentAggregate: Encapsula la lógica relacionada con los pagos y combina las entidades y value objects. Permite realizar operaciones como procesar un pago, reembolsar, o actualizar el estado del pago.
+
+- **Factories:**
+  - PaymentFactory: Crea instancias de pagos, asegurando que se cumplan las reglas de negocio al momento de inicializar un pago.
+
+- **Repositories (Interfaces):**
+  - PaymentRepository: Define los métodos para almacenar y consultar pagos, interactuando con la capa de infraestructura.
+
+#### 4.2.3.2. Interface Layer
+
+Esta capa se encarga de exponer las funcionalidades del sistema de pagos a través de controladores, que manejan las solicitudes HTTP relacionadas con la creación y gestión de pagos.
+
+- **Controllers:**
+  - PaymentController: Maneja las solicitudes relacionadas con pagos, como crear un nuevo pago, consultar el estado de un pago, o cancelar un pago. Interactúa con los servicios de la capa de aplicación.
+
+    - **Métodos:**
+      - `createPayment`: Crea un nuevo pago.
+      - `getPaymentById`: Obtiene un pago según su ID.
+      - `cancelPayment`: Cancela un pago.
+      - `refundPayment`: Procesa el reembolso de un pago.
+
+  - PaymentGatewayController: Si se utiliza un servicio externo de pagos (Stripe, PayPal), este controlador interactúa con la pasarela de pagos, gestionando la validación y actualización del estado de los pagos.
+
+    - **Métodos:**
+      - `processPayment`: Procesa el pago a través del servicio externo.
+      - `validatePayment`: Valida el estado de la transacción y actualiza el estado en el sistema.
+
+#### 4.2.3.3. Application Layer
+
+La capa de aplicación maneja los flujos de proceso de negocio y contiene la lógica de negocio necesaria para gestionar los pagos de manera adecuada.
+
+- **Command Handlers:**
+  - CreatePaymentCommandHandler: Maneja la lógica para crear un nuevo pago.
+  - RefundPaymentCommandHandler: Gestiona la lógica para procesar el reembolso de un pago.
+  - CancelPaymentCommandHandler: Maneja la cancelación de un pago en proceso.
+
+- **Event Handlers:**
+  - PaymentEventHandler: Gestiona los eventos relacionados con los pagos, como el evento de creación, validación o fallo de pago.
+
+    - **Eventos:**
+      - `PaymentCreatedEvent`: Disparado cuando se crea un pago.
+      - `PaymentFailedEvent`: Disparado cuando un pago no se procesa correctamente.
+      - `PaymentRefundedEvent`: Disparado cuando se procesa un reembolso.
+
+- **Services:**
+  - PaymentService: Coordina las operaciones relacionadas con pagos, como la validación, el procesamiento y las actualizaciones de estado. También interactúa con el PaymentRepository para manejar la persistencia.
+
+#### 4.2.3.4. Infrastructure Layer
+
+En esta capa se implementan los repositorios y los servicios que interactúan con sistemas externos, como bases de datos o pasarelas de pago.
+
+- **Repositories:**
+  - PaymentRepository: Implementa los métodos para acceder a la base de datos, gestionando la persistencia y consulta de los pagos.
+
+- **Payment Gateway:** Si el proceso de pago involucra un servicio externo (como Stripe o PayPal), esta clase interactúa con la pasarela de pagos, enviando la información de la transacción y manejando las respuestas del servicio.
+
+    - **Métodos:**
+      - `sendPayment`: Envía la solicitud de pago a la pasarela externa.
+      - `receivePaymentStatus`: Recibe y actualiza el estado del pago según la respuesta de la pasarela.
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+- **API REST:** Actúa como el punto de entrada del sistema de pagos, permitiendo que los clientes, aplicaciones móviles y aplicaciones web realicen solicitudes de pago mediante la API.
+- **Payment Controller:** Gestiona las operaciones relacionadas con los pagos, como la creación de nuevos pagos, la consulta de su estado y la interacción con servicios externos para el procesamiento de los mismos.
+- **Payment Service:** Contiene la lógica de negocio asociada al procesamiento de pagos. Este servicio gestiona las interacciones con el repositorio de pagos y las pasarelas de pago externas.
+- **Payment Repository:** Responsable de la persistencia de la información relacionada con los pagos en la base de datos. Lee y escribe datos de pagos.
+- **Payment Gateway System:** Un sistema externo que permite procesar los pagos a través de pasarelas de pago. Este componente es esencial para gestionar las transacciones con terceros.
+- **Mobile App y Web App:** Interfaces de usuario que permiten a los clientes gestionar pagos desde dispositivos móviles o navegadores web.
+- **Database:** Sistema de almacenamiento donde se guarda la información de los pagos, incluyendo su estado y otros atributos importantes.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/payment_component.png" alt="Payment Component" style="max-width: 800px; width: 95%">
+</div>
+
+#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+En el diagrama, se observa una relación de uno a uno entre `Payment` y `PaymentStatus`, y entre `Payment` y `PaymentMethod`, lo que asegura que cada pago tiene un estado y un método de pago único.
+
+- **Payment:** Es la entidad principal que representa un pago en el sistema. Incluye atributos como `id`, `date`, `amount`, `status`, y `method`, que almacenan la información básica de cada pago.
+- **PaymentStatus:** Un objeto de valor que indica el estado del pago, como completado, pendiente o fallido. Está relacionado con la entidad `Payment`.
+- **PaymentMethod:** Un objeto de valor que describe el método de pago utilizado, como tarjeta de crédito o PayPal.
+- **PaymentRepository:** Es una interfaz que define los métodos para persistir y recuperar pagos desde la base de datos. Tiene métodos como `save()` para guardar pagos y `findById()` para recuperar pagos por su ID.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/payment_class.png" alt="Payment Diagram Class" style="max-width: 800px; width: 95%">
+</div>
+
+##### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+Las relaciones entre las tablas están claramente definidas, con una relación de uno a uno entre `Payment` y `PaymentStatus`, así como entre `Payment` y `PaymentMethod`, asegurando que cada pago tiene un estado y un método de pago específico.
+
+- **Payment:** Tabla principal que almacena la información de los pagos, incluyendo `id`, `date`, `amount`, `PaymentStatus`, y `PaymentMethod`. La columna `id` es la clave primaria, mientras que `PaymentStatus` y `PaymentMethod` son claves foráneas que referencian a las tablas `PaymentStatus` y `PaymentMethod`.
+- **PaymentStatus:** Esta tabla almacena los diferentes estados posibles de un pago, como "completado", "pendiente" o "fallido". La columna `status` es la clave primaria.
+- **PaymentMethod:** Tabla que almacena los distintos métodos de pago, como "tarjeta de crédito" o "PayPal". La columna `methodType` es la clave primaria.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/payment_db.png" alt="Payment Diagram Database" style="max-width: 800px; width: 95%">
+</div>
+
+### 4.2.4. Bounded Context: Notification
+Este bounded context gestiona el envío y la administración de notificaciones dentro del sistema, asegurando que los usuarios sean informados en tiempo real de eventos críticos.
 
 #### 4.2.4.1. Domain Layer
 
-**Entity**
+En esta capa se representan las clases principales que forman el núcleo de la gestión de notificaciones y las reglas de negocio asociadas.
 
-| **Nombre** | **Categoría** | **Propósito**                                            |
-|:----------:|:--------------|:---------------------------------------------------------|
-|  Payment   | Entity        | Es la clase que representa el pago y sus características |
+- **Entities:**
+  - Notification: Representa una notificación y su estado, incluyendo si fue enviada o no.
 
-*Atributos*
+- **Value Objects:**
+  - NotificationStatus: Indica el estado de la notificación, como "enviada", "pendiente" o "fallida".
+  - Message: Representa el contenido del mensaje de la notificación.
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
-|:----------:|:-----------------|:----------------|:-----------------------------------------|
-|     id     | Long             | Private         | Identificador único                      |
-|    date    | Date             | Private         | Fecha en la que se realiza el pago       |
-|   amount   | Double           | Private         | Monto del pago realizado                 |
-|   status   | String           | Private         | Estado actual del pago (ej. completado)  |
+- **Aggregates:**
+  - NotificationAggregate: Agrupa las entidades `Notification` y los value objects `NotificationStatus` y `Message`, permitiendo realizar operaciones como enviar o verificar el estado de una notificación.
 
-*Métodos*
+- **Repositories (Interfaces):**
+  - NotificationRepository: Define los métodos para almacenar y consultar notificaciones.
 
-| **Nombre**  | **Tipo de retorno** | **Visibilidad** | **Descripción**          |
-|:-----------:|:--------------------|:----------------|:-------------------------|
-| Constructor | Void                | Public          | Constructor para Payment |
+    - **Métodos:**
+      - `save(Notification notification)`: Guarda una notificación.
+      - `findById(Long id)`: Recupera una notificación por su ID.
+      - `findByStatus(NotificationStatus status)`: Busca notificaciones según su estado.
 
 #### 4.2.4.2. Interface Layer
 
-**Controller**
+Esta capa contiene los controladores que exponen las funcionalidades de las notificaciones a través de APIs.
 
-|    **Nombre**     | **Categoría** | **Propósito**            |
-|:-----------------:|:--------------|:-------------------------|
-| PaymentController | Controller    | Controlador para Payment |
+- **Controllers:**
+  - NotificationController: Gestiona las solicitudes HTTP relacionadas con las notificaciones, como el envío y la consulta del estado.
 
-*Atributos*
-
-|   **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**       |
-|:--------------:|:-----------------|:----------------|:----------------------|
-| paymentService | PaymentService   | Private         | Servicio para Payment |
-
-*Métodos*
-
-|   **Nombre**   | **Tipo de retorno**    | **Visibilidad** | **Descripción**             |
-|:--------------:|:-----------------------|:----------------|:----------------------------|
-|  Constructor   | Void                   | Public          | Constructor del controlador |
-| createPayment  | ResponseEntity         | Public          | Crear un Payment            |
-| getPaymentById | PaymentResource        | Public          | Buscar Payment según Id     |
-| getAllPayment  | List\<PaymentResource> | Public          | Obtener todos los Payment   |
+    - **Métodos:**
+      - `sendNotification()`: Envía una notificación a través de la API.
+      - `getNotificationStatus(Long id)`: Devuelve el estado de una notificación específica.
 
 #### 4.2.4.3. Application Layer
 
-**Service**
+En esta capa se gestionan los flujos de negocio asociados a las notificaciones, delegando la lógica a los servicios.
 
-|   **Nombre**   | **Categoría** | **Propósito**                                |
-|:--------------:|:--------------|:---------------------------------------------|
-| PaymentService | Service       | Servicio con la lógica de negocio de Payment |
+- **Command Handlers:**
+  - SendNotificationCommandHandler: Gestiona la lógica para enviar una notificación.
+  - CheckNotificationStatusCommandHandler: Maneja la lógica para consultar el estado de una notificación.
 
-*Atributos*
+- **Event Handlers:**
+  - NotificationEventHandler: Maneja eventos relacionados con el envío y el estado de las notificaciones.
 
-|   **Nombre**    | **Tipo de dato**  | **Visibilidad** | **Descripción**        |
-|:---------------:|:------------------|:----------------|:-----------------------|
-|paymentRepository| PaymentRepository | Private         | Repositorio de Payment |
+    - **Eventos:**
+      - `NotificationSentEvent`: Disparado cuando se envía una notificación.
+      - `NotificationFailedEvent`: Disparado cuando una notificación no se envía correctamente.
 
-*Métodos*   
+- **Services:**
+  - NotificationService: Coordina las operaciones relacionadas con el envío de notificaciones y el control de su estado.
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                              |
-|:----------:|:--------------------|:----------------|:---------------------------------------------|
-|   getAll   | List\<Payment>       | Public          | Obtener todos los Payment                    |
-|  getById   | Payment              | Public          | Obtener un Payment según su Id               |
-|   create   | Payment              | Public          | Crear un Payment                             |
+    - **Métodos:**
+      - `sendNotification(Notification notification)`: Envía una notificación.
+      - `checkNotificationStatus(Long id)`: Verifica el estado de una notificación específica.
 
 #### 4.2.4.4. Infrastructure Layer
 
-**Repository**
+Aquí se implementan los repositorios y los servicios que interactúan con sistemas externos para el envío y almacenamiento de las notificaciones.
 
-|    **Nombre**     | **Categoría** | **Propósito**                     |
-|:-----------------:|:--------------|:----------------------------------|
-| PaymentRepository | Repository    | Repositorio que almacena Payments |
+- **Repositories:**
+  - NotificationRepository: Implementa los métodos para acceder y gestionar las notificaciones en la base de datos.
 
-*Métodos*
+    - **Métodos:**
+      - `save(Notification notification)`: Almacena una nueva notificación.
+      - `findById(Long id)`: Recupera una notificación por su ID.
+      - `findByStatus(NotificationStatus status)`: Recupera notificaciones por su estado.
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                         |
-|:----------:|:--------------------|:----------------|:--------------------------------------------------------|
-| findByDate | Payment             | Public          | Devolver el Payment según la Fecha                       |
+- **External Notification Service:** Si se utiliza un sistema externo para el envío de notificaciones (por ejemplo, Firebase Cloud Messaging), este componente se encarga de interactuar con ese servicio.
+
+    - **Métodos:**
+      - `send(Notification notification)`: Envía una notificación a través del servicio externo.
+      - `checkStatus(Notification notification)`: Verifica el estado de la notificación en el servicio externo.
+
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-<div style="text-align: center;">
-    <img src="./images/chapter-04/payment_component.png" alt="Paymento Component" style="max-width: 800px; width: 95%">
-</div>
-
-### 4.2.5. Bounded Context: Notification
-En este bounded context maneja el envío y la gestión de notificaciones dentro de la aplicación.
-
-#### 4.2.5.1. Domain Layer
-
-**Entity**
-
-| **Nombre** | **Categoría** | **Propósito**                                            |
-|:----------:|:--------------|:---------------------------------------------------------|
-|  Notification   | Entity        | Representa una notificación y su estado. |
-
-*Atributos*
-
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
-|:----------:|:-----------------|:----------------|:-----------------------------------------|
-|     id     | Long  | Private         | Identificador único                      |
-|    message    | String  | Private         | Contenido de la notificación       |
-|   sendStatus   | Boolean | Private         | Indica si se envió la notificación  |
-
-*Métodos*
-
-| **Nombre**  | **Tipo de retorno** | **Visibilidad** | **Descripción**          |
-|:-----------:|:--------------------|:----------------|:-------------------------|
-| Constructor | Void  | Public  | Constructor para Notification |
-| sendNotification | Void   | Public  | Lógica para enviar una notificación |
-
-#### 4.2.5.2. Interface Layer
-
-**Controller**
-
-|    **Nombre**     | **Categoría** | **Propósito**            |
-|:-----------------:|:--------------|:-------------------------|
-| NotificationController | Controller    | Controlador para Notification |
-
-*Atributos*
-
-|   **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**       |
-|:--------------:|:-----------------|:----------------|:----------------------|
-| notificationService | NotificationService   | Private         | Servicio para Notification |
-
-*Métodos*
-
-|   **Nombre**   | **Tipo de retorno**    | **Visibilidad** | **Descripción**             |
-|:--------------:|:-----------------------|:----------------|:----------------------------|
-|  Constructor   | Void                   | Public          | Inicializa el NotificationController |
-| sendNotification  | ResponseEntity         | Public          | Envía una notificación  |
-| getNotificationStatus | NotificationStatusDTO        | Public          | Devuelve el estado de una notificación |
-
-#### 4.2.5.3. Application Layer
-
-**Service**
-
-|   **Nombre**   | **Categoría** | **Propósito**                                |
-|:--------------:|:--------------|:---------------------------------------------|
-| NotificationService | Service       | Servicio con la lógica de negocio de Notification |
-
-*Atributos*
-
-|   **Nombre**    | **Tipo de dato**  | **Visibilidad** | **Descripción**        |
-|:---------------:|:------------------|:----------------|:-----------------------|
-|notificationRepository| NotificationRepository | Private         | Repositorio de Notification |
-
-*Métodos*   
-
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                              |
-|:----------:|:--------------------|:----------------|:---------------------------------------------|
-|   sendNotification   | Notification    | Public          | Envía una notificación |
-|  checkNotificationStatus   | Notification     | Public | Comprueba el estado de la notificación |
-
-#### 4.2.5.4. Infrastructure Layer
-
-**Repository**
-
-|    **Nombre**     | **Categoría** | **Propósito**                     |
-|:-----------------:|:--------------|:----------------------------------|
-| NotificationRepository | Repository    | Repositorio que almacena Notifications |
-
-*Métodos*
-
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                         |
-|:----------:|:--------------------|:----------------|:--------------------------------------------------------|
-| save | Notification | Public  | Guarda datos de notificación |
-| findById | Notification | Public  | Recupera la notificación por id  |
-
-#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+- **API REST:** Punto de entrada para la creación y envío de notificaciones desde aplicaciones móviles o web.
+- **Notification Controller:** Gestiona las funcionalidades relacionadas con las notificaciones, como el envío y la consulta de su estado.
+- **Email Notifications y Mobile Notifications:** Dos servicios clave encargados de enviar notificaciones por correo electrónico y dispositivos móviles, respectivamente. Cada uno se integra con sus respectivas pasarelas de notificaciones.
+- **Notification Repository:** Responsable de almacenar y recuperar las notificaciones desde la base de datos. Este repositorio maneja las interacciones con el almacenamiento persistente.
+- **Notification Gateway:** Un sistema externo que envía notificaciones a través de canales externos, como sistemas de mensajería y correo electrónico.
+- **Mobile App y Web App:** Interfaces de usuario desde donde se puede gestionar el envío y la recepción de notificaciones.
+- **Database:** Almacena las notificaciones y su estado, permitiendo que el sistema mantenga un historial de los eventos de notificación.
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/notification_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
 </div>
 
+#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
 
-### 4.2.6. Contexto Delimitado: Configuración
+##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+Las relaciones de uno a uno entre `Notification` y `NotificationStatus` aseguran que cada notificación tiene un estado único y específico.
+
+- **Notification:** Clase principal que representa una notificación en el sistema, con atributos como `id`, `message`, y `sendStatus`. Esta clase también contiene métodos para obtener y establecer estos atributos, así como el método `sendNotification()` para enviar la notificación.
+- **NotificationStatus:** Objeto de valor que representa el estado de una notificación, como "enviada" o "pendiente". Está relacionado de manera uno a uno con la entidad `Notification`.
+- **NotificationRepository:** Interfaz que define los métodos necesarios para almacenar y recuperar notificaciones de la base de datos, como `save()` y `findById()`.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/notification_class.png" alt="Notification Class Diagram" style="max-width: 800px; width: 95%">
+</div>
+
+##### 4.2.4.6.2 Bounded Context Database Design Diagram
+
+Las relaciones reflejan una conexión uno a uno entre las tablas `Notification` y `NotificationStatus`, asegurando que cada notificación tiene un estado único y rastreable.
+
+- **Notification:** Tabla que almacena las notificaciones, con columnas como `id`, `message`, `sendStatus`, y una clave foránea `NotificationStatus_status` que referencia la tabla `NotificationStatus`.
+- **NotificationStatus:** Tabla que almacena los diferentes estados de las notificaciones, como "enviada" o "fallida", con la columna `status` como clave primaria.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/notification_db.png" alt="Notification Database Diagram" style="max-width: 800px; width: 95%">
+</div>
+
+### 4.2.5. Contexto Delimitado: Configuración
 
 Este contexto delimitado es responsable de gestionar la configuración inicial y la administración de dispositivos IoT, las geo-cercas y la configuración del sistema de monitoreo dentro del **Guardian Area**.
 
-#### 4.2.6.1. Capa de Dominio
+#### 4.2.5.1. Capa de Dominio
 
 **Entidades**
 
@@ -2222,7 +2330,7 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | zoneCoordinates   | String    | Las coordenadas que definen el área de la geo-cerca.  |
 | isActive          | Boolean   | Indica si la geo-cerca está activa actualmente.  |
 
-#### 4.2.6.2. Capa de Interfaz
+#### 4.2.5.2. Capa de Interfaz
 
 **Controlador**
 
@@ -2237,7 +2345,7 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | getDeviceConfigStatus     | DeviceConfigDTO  | Obtiene el estado de la configuración del dispositivo. |
 | getGeoFenceStatus         | GeoFenceConfigDTO| Obtiene el estado actual de una geo-cerca.          |
 
-#### 4.2.6.3. Capa de Aplicación
+#### 4.2.5.3. Capa de Aplicación
 
 **Servicio**
 
@@ -2252,7 +2360,7 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | getDeviceConfig           | DeviceConfig     | Devuelve los detalles de configuración para un dispositivo específico. |
 | getGeoFenceConfig         | GeoFenceConfig   | Devuelve los detalles de configuración de una geo-cerca.       |
 
-#### 4.2.6.4. Capa de Infraestructura
+#### 4.2.5.4. Capa de Infraestructura
 
 **Repositorio**
 
@@ -2267,7 +2375,7 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | findDeviceConfigById      | DeviceConfig     | Recupera la configuración de un dispositivo por su ID.     |
 | findGeoFenceConfigById    | GeoFenceConfig   | Recupera la configuración de una geo-cerca por su ID.  |
 
-#### 4.2.6.5. Diagrama de Componentes del Contexto Delimitado
+#### 4.2.5.5. Diagrama de Componentes del Contexto Delimitado
 
 El siguiente diagrama proporciona una vista general de los componentes dentro del contexto delimitado de Configuración, centrándose en los controladores, servicios y repositorios que administran la configuración de dispositivos y geo-cercas.
 
