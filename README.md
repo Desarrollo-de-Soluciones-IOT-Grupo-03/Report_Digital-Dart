@@ -2277,7 +2277,7 @@ El siguiente diagrama proporciona una vista general de los componentes dentro de
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems.
 Al entrar a nuestra aplicación GuardianArea, el usuario podrá visualizar 4 secciones principales: Panel Principal, Historial de actividades, Hablar con el Dispositivo y Funciones vitales. En cada una de estas secciones, el usuario contará con diversas acciones para interactuar y gestionar la seguridad de las personas monitoreadas.
-<div align=center>
+<div style="text-align: center;">
     <img src="./images/chapter-05/organization_system.PNG" alt="Organization System 1"  width="100%"/>
 </div>
 
@@ -2316,7 +2316,7 @@ Los sistemas de etiquetado en arquitectura de la información permiten organizar
 ### 5.2.4. Searching Systems.
 Implementaremos sistemas de búsqueda por exploración, los cuales permitirán a nuestros usuarios encontrar la información que necesitan de manera rápida y eficiente. Los cuidadores o familiares que deseen buscar en el historial de actividades, contarán con un filtro por mes y año.
 
-<div align=center>
+<div style="text-align: center;">
     <img src="./images/chapter-05/searching_system.PNG" alt="searching system 1"  width="100%"/>
 </div>
 
@@ -2330,7 +2330,7 @@ contenido de la misma categoría, así como también lo que se encuentra jerárq
 web. Existen dos tipos: la navegación embebida, en donde los enlaces son ciertas frases o palabras del texto; y
 los links relacionados, los cuales pueden aparecer al final o al lado del contenido.
 
-<div align=center>
+<div  style="text-align: center;">
     <img src="./images/chapter-05/navigation_system_example1.PNG" alt="Navigation Systems 1"  width="100%"/>
 </div>
 
@@ -2338,12 +2338,12 @@ El patrón de lectura a utilizar para la visualización de nuestra web para las 
 será el patrón Z. Mientras que, para los apartados que cuenten con mayor volumen de texto, como en las ofertas de
 trabajo, se empleará el patrón F. De esta manera, lograremos captar la atención del lector durante más tiempo.
 
-<div align=center>
+<div  style="text-align: center;">
     <img src="./images/chapter-05/patron_z.png" alt="patron z"  width="100%"/>
     Contenido ligero (patrón Z)
 </div>
 
-<div align=center>
+<div  style="text-align: center;">
     <img src="./images/chapter-05/patron_F.png" alt="patron f"  width="100%"/>
     Contenido pesado (patrón F)
 </div>
@@ -2368,22 +2368,69 @@ trabajo, se empleará el patrón F. De esta manera, lograremos captar la atenci�
 ### 6.1.4. Software Deployment Configuration.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n.
-#### 6.2.X.2. Sprint Backlog n.
-#### 6.2.X.3. Development Evidence for Sprint Review.
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
-#### 6.2.X.5. Execution Evidence for Sprint Review.
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
-#### 6.2.X.8. Team Collaboration Insights during Sprint.
+### 6.2.1. Sprint n
+#### 6.2.1.1. Sprint Planning n.
+#### 6.2.1.2. Sprint Backlog n.
+#### 6.2.1.3. Development Evidence for Sprint Review.
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.1.5. Execution Evidence for Sprint Review.
+En el desarrollo del presente sprint hemos logrado implementar la landing page de GuardianArea y la aplicación web desarrollada en Angular. A continuación, se presentan las evidencias de la ejecución del sprint.
 
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-### 6.3.2. Registro de Entrevistas.
-### 6.3.3. Evaluaciones según heurísticas.
+1. **Landing Page:** La implementación de la Landing Page de GuardianArea se realizó siguiendo las directrices de diseño y estilo establecidas en la fase de diseño UI/UX. Se utilizó HTML, CSS y JavaScript para desarrollar la página de inicio, con un diseño moderno y atractivo que refleja la esencia de la aplicación.
+   
+   <div style="text-align: center;">
+    <img src="./images/chapter-06/01-landing-page.png" alt="patron z"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-landing-page.png" alt="patron z"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/03-landing-page.png" alt="patron z"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/04-landing-page.png" alt="Landing Page"  width="100%"/>
+        
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/05-landing-page.png" alt="Landing Page"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/06-landing-page.png" alt="Landing Page"  width="100%"/>
+    </div>
 
-## 6.4. Video About-the-Product.
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+Debido que a que el objetivo de este sprint fue la implementación de la Landing Page y la aplicación web, no se generó documentación de servicios en este sprint.
+<table>
+    <thead>
+        <tr>
+            <th>Endpoint</th>
+            <th>Acción Implementada</th>
+            <th>Verbo HTTP</th>
+            <th>Sintaxis de Llamada</th>
+            <th>Parámetros</th>
+            <th>Ejemplo de Request</th>
+            <th>Ejemplo de Response</th>
+            <th>Documentación Desplegada</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
+
 
 ### Conclusiones
 
