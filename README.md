@@ -1962,8 +1962,49 @@ En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama muestra la estructura de componentes de un sistema que gestiona cuentas de usuario y roles a través de una API REST. A continuación, te detallo los principales componentes y su interacción:
+
+**1. API REST**: Actúa como la interfaz de entrada principal, permitiendo la comunicación entre el cliente y el servidor utilizando protocolos HTTP.
+
+**2. Authentication Controller**: Controla todas las funciones de autenticación, incluyendo el login y la gestión de sesiones de los usuarios.
+
+**3. User Account Controller**: Gestiona las funcionalidades de las cuentas de usuario, probablemente incluyendo operaciones como la creación, edición y visualización de cuentas de usuario.
+
+**4. Roles Controller**: Maneja las funcionalidades relacionadas con los roles de los usuarios, incluyendo la asignación y modificación de roles.
+
+**5.User Account Command Service y Role Command Service**: Proporcionan la lógica para procesar comandos (acciones de escritura como crear o modificar usuarios y roles) y están implementados siguiendo el patrón CQRS (Command Query Responsibility Segregation).
+
+**6. User Account Query Service y Role Query Service**: Manejan las solicitudes de consulta (lectura), proporcionando datos a los controladores sin modificar el estado del sistema.
+
+**7. User Repository y Role Repository**: Interactúan con la base de datos para realizar operaciones de almacenamiento y recuperación de información sobre usuarios y roles, respectivamente.
+
+**8. Database**: es el sistema de gestión de bases de datos que almacena toda la información relevante del sistema.
+
 <div style="text-align: center;">
     <img src="./images/chapter-04/user_component.png" alt="Notification Component" style="max-width: 800px; width: 95%">
+</div>
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+**El flujo general:**
+* El AuthenticationController recibe una solicitud (ya sea de registro o inicio de sesión).
+* Esta solicitud se transforma en un comando (SignUpCommand o SignInCommand).
+* El servicio (UserCommandServiceImpl) maneja la lógica de estos comandos, interactuando con el UserRepository y el HashingService según sea necesario.
+* Finalmente, el resultado es retornado al cliente en forma de un UserResource (en el caso de un registro exitoso).
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user-account-class-diagram.png" alt="User Account Class Diagram" style="max-width: 800px; width: 95%">
+</div>
+
+##### 4.2.3.6.1. Bounded Context Database Design Diagram
+El diagrama muestra tres entidades relacionadas:
+
+1. **AuditableAbstractAggregateRoot**: Clase base con campos comunes (id, createdAt, updatedAt) heredados por otras entidades.
+2. **User**: Entidad de usuario con username y password, que hereda los campos de auditoría.
+3. **Role**: Entidad de rol con id y name, también hereda de la clase base. Un Role puede asociarse con múltiples Users (relación uno a muchos).
+
+El diseño implementa auditoría y una relación de roles a usuarios.
+<div style="text-align: center;">
+    <img src="./images/chapter-04/user_account_database.png" alt="User Account Database" style="max-width: 800px; width: 95%">
 </div>
 
 ### 4.2.4. Bounded Context: Payment
