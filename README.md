@@ -519,17 +519,17 @@ Sabremos que hemos tenido éxito cuando observemos una reducción significativa 
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hipótesis 1:** Creemos que, al proporcionar un sistema de monitoreo en tiempo real para personas vulnerables, mejoraremos su seguridad y bienestar. Sabremos que hemos tenido éxito cuando veamos una reducción del 70% en incidentes relacionados con la salida de zonas seguras dentro de los primeros seis meses de implementación.
+**Hipótesis 1:** Creemos que lograremos mejorar la seguridad y bienestar si los cuidadores de personas vulnerables obtienen una mayor capacidad de monitoreo en tiempo real con la función de monitoreo en tiempo real y geo-cercas.
 
-**Hipótesis 2:** Creemos que al ofrecer alertas automáticas cuando la persona monitoreada sale de la zona segura, los cuidadores podrán reaccionar rápidamente para evitar situaciones peligrosas. Sabremos que hemos tenido éxito si el 95% de las alertas son atendidas en un plazo de 10 minutos, evitando cualquier riesgo significativo.
+**Hipótesis 2:** Creemos que lograremos una mayor capacidad de respuesta en situaciones peligrosas si los cuidadores obtienen la capacidad de reaccionar rápidamente con la función de alertas automáticas cuando la persona sale de la zona segura.
 
-**Hipótesis 3:** Creemos que, al permitir el acceso al historial de movimientos, los cuidadores podrán prever posibles situaciones de riesgo. Sabremos que hemos tenido éxito si el 80% de los usuarios utiliza esta función para ajustar las zonas seguras dentro de los primeros tres meses.
+**Hipótesis 3:** Creemos que lograremos prevenir riesgos futuros si los cuidadores obtienen la capacidad de prever situaciones peligrosas con la función de acceso al historial de movimientos.
 
-**Hipótesis 4:** Creemos que al incorporar un sistema de geo-cercas personalizable en tiempo real, los cuidadores podrán adaptar rápidamente las áreas seguras. Sabremos que hemos tenido éxito cuando el 90% de los usuarios ajusten las zonas al menos una vez al mes.
+**Hipótesis 4:** Creemos que lograremos una mejor adaptabilidad en el monitoreo si los cuidadores obtienen flexibilidad para ajustar las zonas seguras con la función de geo-cercas personalizables en tiempo real.
 
-**Hipótesis 5:** Creemos que, al integrar un sistema de notificaciones por voz, los cuidadores tendrán una respuesta más rápida. Sabremos que hemos tenido éxito si el 85% de los usuarios considera útil esta característica.
+**Hipótesis 5:** Creemos que lograremos una respuesta más rápida ante alertas si los cuidadores obtienen una mayor eficiencia en la recepción de alertas con la función de notificaciones por voz.
 
-**Hipótesis 6:** Creemos que, al implementar un historial de alertas con recomendaciones automatizadas, los cuidadores podrán anticiparse a situaciones de riesgo. Sabremos que hemos tenido éxito si el 75% de los cuidadores encuentran las recomendaciones útiles para la prevención.
+**Hipótesis 6:** Creemos que lograremos una mejor prevención de riesgos si los cuidadores obtienen herramientas útiles para anticipar riesgos con la función de historial de alertas con recomendaciones automatizadas.
 
 ### 1.2.2.4. Lean UX Canvas
 
