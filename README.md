@@ -1191,11 +1191,15 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 **Segmento 1**
 
+María López enfrenta la constante preocupación por la seguridad de su madre con Alzheimer. A falta de una solución tecnológica adecuada, depende de métodos manuales y el apoyo de familiares, lo que genera ansiedad y estrés continuo. Su journey está marcado por la frustración de no poder actuar rápidamente en situaciones de riesgo, reforzando la necesidad de una herramienta confiable que le brinde tranquilidad.
+
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_journey_map_1.png" alt="User Journey Map 1" width="100%">
 </div>
 
 **Segmento 2**
+
+Carlos Pérez busca una solución de monitoreo para garantizar la seguridad de sus hijos, pero se enfrenta a un mercado confuso con opciones poco claras. A medida que evalúa productos, experimenta dudas sobre su efectividad y seguridad. Su journey está lleno de incertidumbre mientras intenta encontrar una herramienta confiable que le permita proteger a sus hijos sin depender solo de su supervisión personal.
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_journey_map_2.png" alt="User Journey Map 2" width="100%">
