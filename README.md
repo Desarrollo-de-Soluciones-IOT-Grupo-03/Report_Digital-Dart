@@ -2447,10 +2447,64 @@ Debido que a que el objetivo de este sprint fue la implementación de la Landing
 </table>
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
-
+Para la implementación de la Landing Page y la aplicación web de GuardianArea, se ustilizó github pages para el despliegue de la Landing Page y Firebase para el despliegue de la aplicación web. A continuación, se presentan las evidencias de despliegue.
+1. Landing Page: Se escogió GitHub Pages, herramienta que permite alojar sitios web estáticos de forma gratuita, rápida y sencilla. Para ello, se creó un repositorio en GitHub y se configuró la opción de GitHub Pages para publicar la Landing Page de GuardianArea. Acontinuación, se muestra el proceso de despliegue.
+   <div style="text-align: center;">
+        <img src="./images/chapter-06/01-landing-deployment.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-landing-deployment.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/03-landing-deployment.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+   Enlace: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
+2. Aplicación Web: Para el despliegue de la aplicación web de GuardianArea, se utilizó Firebase Hosting, una plataforma de alojamiento web que permite desplegar aplicaciones web de forma sencilla y segura. A continuación, se muestra el proceso de despliegue.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/01-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/03-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/04-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/05-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/06-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/07-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    Enlace: 
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
+- Landing Page: Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la landing page.
+    
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/01-pulse-landing.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-contributors-landing.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+- Aplicación Web: Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la aplicación web.
+    
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/01-pulse-web.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/02-contributors-web.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
 
 ### Conclusiones
 
