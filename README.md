@@ -434,11 +434,16 @@ Este problema tiene un impacto significativo en la seguridad y bienestar de las 
 
 ### 1.2.2.1. Lean UX Problem Statements
 
-El cuidado de personas mayores con Alzheimer y niños pequeños presenta desafíos significativos para garantizar su seguridad debido a la falta de herramientas efectivas de monitoreo. Estas personas vulnerables están en riesgo de situaciones peligrosas, como el deambular o salir de áreas seguras sin ser detectados.
+El estado actual del cuidado de personas mayores con Alzheimer y niños pequeños se ha centrado principalmente en soluciones tradicionales de supervisión que dependen de la vigilancia constante de los cuidadores, lo cual no es siempre eficaz ni suficiente. Estos segmentos enfrentan grandes dificultades para garantizar la seguridad de sus seres queridos debido a la falta de herramientas de monitoreo en tiempo real que sean accesibles y fáciles de usar.
 
-La ausencia de soluciones tecnológicas accesibles y efectivas exacerba estos riesgos, poniendo en peligro la vida y el bienestar de estos individuos.
+Los productos o servicios existentes no abordan completamente la necesidad de notificaciones inmediatas y precisas cuando la persona monitoreada sale de una zona segura, lo que deja un vacío en el mercado para soluciones más efectivas que brinden tranquilidad a los cuidadores y familiares.
 
-¿Cómo podemos mejorar la seguridad de personas mayores con Alzheimer y niños pequeños mediante un sistema de monitoreo en tiempo real que alerte a sus cuidadores y familiares cuando se salen de las zonas seguras?
+Nuestro producto, GuardianArea, cubrirá este vacío al ofrecer un sistema de monitoreo en tiempo real con alertas instantáneas cuando las personas monitoreadas salen de las geo-cercas establecidas. Esta solución integrará tecnología fácil de usar y accesible, orientada específicamente a cuidar a personas con Alzheimer y niños pequeños.
+
+Nuestro enfoque inicial estará en los cuidadores y familiares de personas con Alzheimer, ya que necesitan una solución que les permita reaccionar rápidamente en situaciones de riesgo.
+
+Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta de los cuidadores ante situaciones peligrosas, y una mayor percepción de seguridad y tranquilidad entre nuestros usuarios.
+
 
 ### 1.2.2.2. Lean UX Assumptions
 
