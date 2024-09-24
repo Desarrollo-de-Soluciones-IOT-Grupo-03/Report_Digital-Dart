@@ -221,7 +221,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             - Lideró el análisis competitivo y el impact mapping. Participó en la creación de user stories, event storming y la arquitectura de software.
             <br><br>
             <b>Diego Martin Esquivel Aguayo</b><br>
-            - Responsable del capítulo 1, introducción y descripción de la startup, lean UX process y segmentos objetivos. Colaboró en entrevistas, needfinding, event storming y bounded contexts.
+            - Promoví el liderazgo compartido colaborando en la redacción del capítulo 1 y coordinando las actividades de entrevistas, needfinding, event storming, y bounded contexts. Aseguré que las decisiones se tomaran en conjunto, fomentando un ambiente donde todas las ideas del equipo fueran escuchadas.
             <br><br>
             <b>Cristian Andrés Quito Igreda</b><br>
             - Realizó el empathy mapping, as-is scenario mapping y context mapping. Contribuyó en los bounded contexts, diagramas de clases y diseño de la base de datos.
@@ -245,7 +245,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             - Aportó en el impact mapping y análisis competitivo, fomentando un entorno inclusivo al integrar diversas perspectivas para mejorar la estrategia del proyecto.
             <br><br>
             <b>Diego Martin Esquivel Aguayo</b><br>
-            - Organizó el capítulo introductorio y colaboró en las entrevistas y el event storming, garantizando que el equipo mantuviera sus metas en línea con los objetivos de la startup.
+            - Estructuré el capítulo introductorio y fomenté la colaboración activa del equipo en entrevistas y event storming. Contribuí al establecimiento de metas claras y ayudé a que el equipo mantuviera sus tareas alineadas con los objetivos de la startup.
             <br><br>
             <b>Cristian Andrés Quito Igreda</b><br>
             - Facilitó la planificación del contexto y los diagramas de clase, asegurando que el equipo tuviera una estructura clara para la toma de decisiones técnicas.
