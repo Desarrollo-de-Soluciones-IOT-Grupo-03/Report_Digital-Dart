@@ -1831,11 +1831,90 @@ Aislar los core capabilities en User Account y mover capacidades secundarias a u
 
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.1.3.2. Software Architecture Context Level Diagrams
+El diagrama de contexto ilustra las interacciones entre el sistema "Guardian Area" y sus entidades externas. "Guardian Area" es un sistema de monitoreo en tiempo real IoT diseñado para personas mayores, niños y personas con Alzheimer. Aquí hay una descripción detallada del diagrama:
+
+**1. Guardian Area (Sistema de Software)** :
+* Sistema central responsable del monitoreo en tiempo real.
+
+**2. Entidades Externas**:
+* **Cuidador/Familia (Persona)**:
+    * Rol: Persona responsable de monitorear a los usuarios (miembros de la familia, cuidadores).
+    * Interacción: Verifica la ubicación y el estado de la persona monitoreada.
+* **Usuario de Soporte (Persona)**:
+    * Rol: Persona responsable de proporcionar soporte técnico a los usuarios del sistema.
+    * Interacción: Proporciona soporte técnico y resuelve problemas del sistema.
+* **Persona Monitoreada (Persona)**:
+    * Rol: Niños o personas con Alzheimer que son monitoreados usando dispositivos IoT.
+    * Interacción: Monitoreado por el sistema a través de dispositivos IoT.
+* **Servicio de Pago (Sistema de Software)**:
+    * Rol: Sistema que gestiona el procesamiento de pagos para los servicios de monitoreo.
+    * Interacción: Gestiona los pagos para los servicios de monitoreo.
+* **Servicio de Geolocalización (Sistema de Software)**:
+    * Rol: Sistema que proporciona información de geolocalización en tiempo real.
+    * Interacción: Solicita información de geolocalización para mostrar la ubicación en tiempo real.
+* **Servicio de Notificación (Sistema de Software)**:
+    * Rol: Sistema que gestiona el envío de notificaciones en tiempo real.
+    * Interacción: Envía notificaciones en tiempo real.
+
 <div style="text-align: center;">
     <img src="./images/chapter-04/context_diagram.png" alt="Context Level Diagrams" style="max-width: 800px; width: 95%">
 </div>
 
 ### 4.1.3.3. Software Architecture Container Level Diagrams
+El diagrama de contenedores ilustra la arquitectura de un sistema de monitoreo diseñado para cuidadores, usuarios de soporte y personas monitoreadas. El sistema comprende varios componentes, cada uno representado como un contenedor, y sus interacciones.
+
+**Sistemas de Software**
+
+**1. Single Page Application (Contenedor: JavaScript, React)**
+* Configura el sistema.
+* Entrega contenido al navegador.
+* Intercambia datos con la API Web.
+
+**2. Aplicación Web (Contenedor: Spring MVC)**
+* Entrega contenido estático y la SPA.
+* Solicita ubicación en tiempo real del Servicio de Geolocalización.
+
+
+**3. Aplicación Móvil (Contenedor: iOS/Android)**
+* Verifica el estado y recibe notificaciones.
+* Intercambia datos con la API Web.
+
+**4. Aplicación Embebida IoT (Contenedor: C/C++)**
+* Interactúa con el hardware IoT.
+* Envía datos de sensores y recibe comandos de la API Edge.
+
+**5. API Edge (Contenedor: Node.js)**
+* Comunica dispositivos IoT con el backend.
+* Intercambia datos locales con la Base de Datos Edge.
+* Envía resúmenes procesados a la API Web.
+
+
+**6. API Web (Contenedor: Spring Boot)**
+* Proporciona servicios REST para las aplicaciones.
+* Intercambia datos con el Single Page Application, Aplicación Móvil, Base de Datos en la Nube, Servicio de Notificación y Servicio de Pago.
+
+**7. Servicio de Geolocalización (Sistema de Software)**
+* Proporciona información de geolocalización en tiempo real.
+* Envía datos a la API Web.
+
+**8. Servicio de Notificación (Sistema de Software)**
+* Gestiona el envío de notificaciones en tiempo real.
+* Envía notificaciones push a la API Web.
+
+**9. Servicio de Pago (Sistema de Software)**
+* Gestiona el procesamiento de pagos para los servicios de monitoreo.
+* Procesa pagos a través de la API Web.
+
+**Bases de Datos**
+
+**1. Base de Datos en la Nube (Contenedor: PostgreSQL)**
+* Almacena datos en la nube.
+* Intercambia datos con la API Web.
+
+**2. Base de Datos Edge (Contenedor: SQLite)**
+* Almacena datos locales.
+* Intercambia datos locales con la API Edge.
+
 <div style="text-align: center;">
     <img src="./images/chapter-04/container_diagram.png" alt="Container Level Diagrams" style="max-width: 800px; width: 95%">
 </div>
