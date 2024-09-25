@@ -2303,16 +2303,20 @@ Las relaciones reflejan una conexión uno a uno entre las tablas `Notification` 
     <img src="./images/chapter-04/notification_db.png" alt="Notification Database Diagram" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.5. Contexto Delimitado: Configuración
+### 4.2.6. Bounded Context: Configuration (Configuración)
 
-Este contexto delimitado es responsable de gestionar la configuración inicial y la administración de dispositivos IoT, las geo-cercas y la configuración del sistema de monitoreo dentro del **Guardian Area**.
+Este contexto delimitado es responsable de gestionar la configuración inicial y la administración de dispositivos IoT, las geo-cercas y la configuración del sistema de monitoreo dentro del **Guardian Area**.al y la administración de dispositivos IoT, las geo-cercas y la configuración del sistema de monitoreo dentro del **Guardian Area**.
 
-#### 4.2.5.1. Capa de Dominio
+#### 4.2.6.1. Domain Layer
+En esta capa se encuentran las clases y reglas de negocio que representan el núcleo del sistema. Para el Bounded Context de Configuración, las principales entidades y objetos de valor son:
 
-**Entidades**
+**Entities**
 
-- **DeviceConfig**: Representa los detalles de configuración de un dispositivo IoT.
-- **GeoFenceConfig**: Representa la configuración de una geo-cerca utilizada para definir zonas seguras.
+- **DeviceConfig**: Representa la configuración específica de un dispositivo IoT, como estado, versión de firmware, etc.
+- **GeoFence**: Representa una geocerca que delimita un área segura para el monitoreo.
+
+**Atributos de las Entidades**
+En el contexto de Configuración, las entidades DeviceConfig y GeoFence tienen los siguientes atributos:
 
 ##### Atributos de **DeviceConfig**
 
@@ -2321,67 +2325,184 @@ Este contexto delimitado es responsable de gestionar la configuración inicial y
 | id            | Long      | Identificador único para la configuración del dispositivo.    |
 | status        | String    | El estado actual de la configuración del dispositivo.            |
 | lastUpdated   | Date      | Marca de tiempo de la última actualización de configuración.    |
+| firmware      | Fireware  | Firmware instalada.    |
 
 ##### Atributos de **GeoFenceConfig**
 
 | **Nombre**          | **Tipo**  | **Descripción**                                  |
 |:-----------------:|:---------:|:-------------------------------------------------|
 | id                | Long      | Identificador único para la geo-cerca.             |
-| zoneCoordinates   | String    | Las coordenadas que definen el área de la geo-cerca.  |
+| latitude   | BigDecimal    | Las coordenadas de latitud de la geo-cerca.  |
+| longitude   | BigDecimal    | Las coordenadas de longitud de la geo-cerca. |
+| radius    | BigDecimal    | Ladio de la coordenada de la geo-cerca. |
 | isActive          | Boolean   | Indica si la geo-cerca está activa actualmente.  |
 
 #### 4.2.5.2. Capa de Interfaz
+**Aggregates**
 
-**Controlador**
+| **Nombre**        | **Descripción**                                  |
+|:-----------------:|:-------------------------------------------------|
+| ConfigurationAggregate | Encargado de gestionar los eventos relacionados con la configuración, incluyendo la interacción entre los dispositivos IoT y las geocercas.|
 
-- **ConfigurationController**: Administra las solicitudes API relacionadas con las configuraciones de dispositivos y geo-cercas.
+**Factories**
+| **Nombre**        | **Descripción**                                  |
+|:-----------------:|:-------------------------------------------------|
+| DeviceConfigFactory | Provee la lógica para crear y configurar dispositivos IoT en base a los requisitos del sistema.|
+| GeoFenceFactory | Crea y configura geo-cercas para delimitar zonas seguras en el sistema de monitoreo.|
 
+**Domain Services**
+| **Nombre**        | **Descripción**                                  |
+|:-----------------:|:-------------------------------------------------|
+| GeoFenceTrackingService | Servicio encargado de rastrear entradas y salidas en las geocercas, asegurando que las personas monitoreadas permanezcan dentro de las áreas seguras definidas, y emitiendo alertas cuando se infringen los límites.|
+
+
+#### 4.2.6.2. Interface Layer
+En la capa de Interfaz, se definen los controladores que gestionan las solicitudes de configuración de dispositivos y geo-cercas, así como los servicios que proporcionan la lógica de negocio para la configuración y el seguimiento de las geocercas.
+
+**Controladores**
+
+- **DeviceConfigController**: Administra las solicitudes API relacionadas con las configuraciones de dispositivos 
 ##### Métodos
 
-| **Nombre del Método**          | **Tipo de Retorno**  | **Descripción**                                     |
-|:------------------------:|:----------------:|:----------------------------------------------------|
-| configureDevice           | ResponseEntity   | Configura un dispositivo y devuelve el estado.         |
-| configureGeoFence         | ResponseEntity   | Configura una geo-cerca y devuelve el estado.      |
-| getDeviceConfigStatus     | DeviceConfigDTO  | Obtiene el estado de la configuración del dispositivo. |
-| getGeoFenceStatus         | GeoFenceConfigDTO| Obtiene el estado actual de una geo-cerca.          |
-
-#### 4.2.5.3. Capa de Aplicación
-
-**Servicio**
-
-- **ConfigurationService**: Se encarga de la lógica de negocio para la configuración de dispositivos y geo-cercas.
-
-##### Métodos
-
-| **Nombre del Método**          | **Tipo de Retorno**  | **Descripción**                                         |
+| **Nombre del Método**          | **Descripción**                                         |
 |:------------------------:|:----------------:|:--------------------------------------------------------|
-| setupDevice               | DeviceConfig     | Inicializa y configura un dispositivo IoT.                  |
-| configureGeoFence         | GeoFenceConfig   | Configura las zonas de geo-cerca para un dispositivo.               |
-| getDeviceConfig           | DeviceConfig     | Devuelve los detalles de configuración para un dispositivo específico. |
-| getGeoFenceConfig         | GeoFenceConfig   | Devuelve los detalles de configuración de una geo-cerca.       |
+| setupDevice              | Inicializa y configura un dispositivo IoT.                  |
+| configureGeoFence        | Configura las zonas de geo-cerca para un dispositivo.               |
+| getDeviceConfig          | Devuelve los detalles de configuración para un dispositivo específico. |
+| getGeoFenceConfig        | Devuelve los detalles de configuración de una geo-cerca.       |
+| sendDeviceConfig         | Envía la configuración de los dispositivos.                                    |
+| getDeviceStatus          | Consulta el estado actual del dispositivo (configurado, inicializado).         |
 
-#### 4.2.5.4. Capa de Infraestructura
-
-**Repositorio**
-
-- **ConfigurationRepository**: Administra la persistencia de los datos de configuración de dispositivos y geo-cercas.
-
+- **GeofenceController**: Administra las solicitudes API relacionadas con las geocercas.
 ##### Métodos
 
-| **Nombre del Método**          | **Tipo de Retorno**  | **Descripción**                                         |
-|:------------------------:|:----------------:|:--------------------------------------------------------|
-| saveDeviceConfig          | DeviceConfig     | Guarda los detalles de configuración de un dispositivo IoT.        |
-| saveGeoFenceConfig        | GeoFenceConfig   | Guarda los detalles de configuración de una geo-cerca.          |
-| findDeviceConfigById      | DeviceConfig     | Recupera la configuración de un dispositivo por su ID.     |
-| findGeoFenceConfigById    | GeoFenceConfig   | Recupera la configuración de una geo-cerca por su ID.  |
+| **Nombre del Método**    | **Descripción**                                     |
+|:------------------------:|:----------------------------------------------------|
+| create                   | Crea una nueva geocerca.      |
+| getAllGeoFence           | Lista todas las geocercas configuradas. |
+| getGeoFenceStatusById    | Consulta el estado actual de una geocerca específica.|
+| updateGeoFenceById       | Actualiza la configuración de una geo-cerca.          |
 
-#### 4.2.5.5. Diagrama de Componentes del Contexto Delimitado
 
-El siguiente diagrama proporciona una vista general de los componentes dentro del contexto delimitado de Configuración, centrándose en los controladores, servicios y repositorios que administran la configuración de dispositivos y geo-cercas.
+- **FirmwareController**: Administra las solicitudes API relacionadas con las actualizaciones de firmware de los dispositivos IoT.
+##### Métodos
+
+| **Nombre del Método**    | **Descripción**                                     |
+|:------------------------:|:----------------------------------------------------|
+| updateFirmware                 |  Inicia el proceso de actualización de firmware para un dispositivo |
+| checkFirmwareVersion           | Consulta la versión actual del firmware instalado en un dispositivo. |
+
+
+#### 4.2.6.3. Application Layer
+La Capa de Aplicación es responsable de coordinar los procesos de negocio relacionados con la configuración de dispositivos IoT, geocercas, y monitoreo del sistema. Aquí se gestionan tanto los Command Handlers como los Event Handlers, que orquestan la lógica del negocio y la interacción con el dominio.
+
+**Command Handlers:**
+
+**DeviceConfigCommandHandler**: Gestiona los comandos relacionados con la configuración de los dispositivos IoT.
+##### Comandos
+|  Comandos                | **Descripción**                                     |
+|:------------------------:|:----------------------------------------------------|
+| ApplyDeviceConfigCommand            | Aplica la configuración al dispositivo IoT. |
+| UpdateDeviceConfigCommand           | Actualiza la configuración de un dispositivo existente. |
+| ResetDeviceConfigCommand            | Restablece la configuración de un dispositivo. |
+
+
+**GeoFenceCommandHandler**:  Administra los comandos relacionados con la creación y actualización de geocercas.
+##### Comandos
+|  Comandos                | **Descripción**                                     |
+|:------------------------:|:----------------------------------------------------|
+| ApplyDeviceConfigCommand            | Crea una nueva geocerca para el sistema de monitoreo. |
+| UpdateDeviceConfigCommand           | Modifica una geocerca existente con nuevas coordenadas o estatus. |
+| ResetDeviceConfigCommand            | Elimina una geocerca configurada del sistema. |
+
+**FirmwareCommandHandler:** Controla los comandos relacionados con las actualizaciones de firmware de los dispositivos.
+##### Comandos
+|  Comandos                | **Descripción**                                     |
+|:------------------------:|:----------------------------------------------------|
+| UpdateFirmwareCommand            | Realiza la actualización del firmware de un dispositivo. |
+| CheckFirmwareVersionCommand      | Verifica la versión actual del firmware en el dispositivo. |
+| RollbackFirmwareCommand          | Revierte a una versión anterior del firmware en caso de error. |
+
+**Event Handlers:**
+**DeviceConfigEventHandler:** Reacciona a eventos relacionados con la configuración de dispositivos.
+##### Eventos
+|  Eventos                | **Descripción**                                     |
+|:------------------------:|:----------------------------------------------------|
+| DeviceConfiguredEvent      | Se emite cuando la configuración del dispositivo ha sido aplicada correctamente. |
+| DeviceConfigFailedEvent    | Se genera si ocurre un error al aplicar la configuración del dispositivo. |
+| DeviceResetEvent           | Se emite cuando el dispositivo ha sido restablecido a la configuración de fábrica. |
+
+**GeoFenceEventHandler:** Maneja los eventos relacionados con la activación, actualización o eliminación de geocercas.
+##### Eventos
+|  Eventos                | **Descripción**                                     |
+|:-----------------------:|:----------------------------------------------------|
+| GeoFenceCreatedEvent    | Se emite cuando una nueva geocerca ha sido creada con éxito. |
+| GeoFenceUpdatedEvent    | Se genera cuando se actualiza una geocerca existente. |
+| GeoFenceRemovedEvent    | Se emite cuando una geocerca ha sido eliminada del sistema.|
+
+**FirmwareEventHandler:** Reacciona a eventos relacionados con las actualizaciones de firmware.
+##### Eventos
+|  Eventos                | **Descripción**                                     |
+|:-----------------------:|:----------------------------------------------------|
+| FirmwareUpdatedEvent    | Se emite cuando el firmware ha sido actualizado correctamente en el dispositivo. |
+| FirmwareUpdateFailedEvent    | Se genera si la actualización del firmware falla. |
+| FirmwareRollbackEvent    | Se emite cuando el firmware ha sido revertido a una versión anterior.|
+
+#### 4.2.6.4. Infrastructure Layer
+En la Capa de Infraestructura, organizamos los servicios y repositorios que interactúan con servicios externos, como bases de datos y servicios de mensajería. A continuación, dividimos la infraestructura para configuración del dispositivo, geocercas, y firmware:
+
+#### Repositorios y Servicios Externos
+
+**Configuración del Dispositivo**
+
+| **Clase**                | **Descripción**                                     |
+|:-----------------------:|:----------------------------------------------------|
+| DeviceConfigRepository | Almacena y recupera las configuraciones de los dispositivos IoT. |
+| DatabaseService    | Gestiona la interacción con la base de datos para almacenar la configuración de los dispositivos. |
+
+**Geocercas (GeoFence)**
+
+#### Repositorios y Servicios Externos
+
+| **Clase**                | **Descripción**                                     |
+|:-----------------------:|:----------------------------------------------------|
+| GeoFenceRepository   | Almacena y recupera la información de las geocercas configuradas. |
+| GeoFenceTrackingService  | Gestiona el monitoreo y seguimiento de entradas y salidas en las geocercas. |
+| DatabaseService     | Proporciona soporte para almacenar y recuperar configuraciones de geocercas. |
+| NotificationService  | Envia notificaciones cuando ocurre un evento relacionado con una geocerca. |
+
+### **Firmware**
+
+#### Repositorios y Servicios Externos
+
+| **Clase**                | **Descripción**                                     |
+|:-----------------------:|:----------------------------------------------------|
+| FirmwareRepository    | Almacena las versiones de firmware y su estado de actualización. |
+| FirmwareUpdateService | Gestiona la actualización de firmware para los dispositivos IoT. |
+| DatabaseService    | Permite registrar en la base de datos las actualizaciones y estados del firmware. |
+
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+En el diagrama de componentes del Bounded Context de Configuración, se muestran los principales componentes y su interacción en el sistema de monitoreo Guardian Area. A continuación, se detallan los componentes y su función en el contexto de Configuración:
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/configuration-component.png" alt="Configuration Component" style="max-width: 800px; width: 95%">
 </div>
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
+En este apartado se presentará y explicaraá los diagramas que presentan un mayor nivel de detalle sobre la implementación de los componentes.
+
+##### 4.2.6.1. Bounded Context Domain Layer Class Diagrams.
+Acontinuación se muestra el diagrama de clases del Bounded Context de Configuración, que incluye las clases de la capa del dominio. Donse de incluye las clases, interfaces, enumeraciones y relaciones entre ellas.
+<div style="text-align: center;">
+    <img src="./images/chapter-04/class-diagram-configuration.png" alt="Class Diagram" style="max-width: 800px; width: 95%">
+</div>
+
+##### 4.2.6.2. Bounded Context Database Design Diagram.
+El diagrama de diseño de la base de datos para el Bounded Context de Configuración muestra las tablas y relaciones necesarias para almacenar la información de dispositivos, geocercas y actualizaciones de firmware.
+<div style="text-align: center;">
+    <img src="./images/chapter-04/database-configuration.png" alt="Class Diagram" style="max-width: 800px; width: 95%">
+</div>
+
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
