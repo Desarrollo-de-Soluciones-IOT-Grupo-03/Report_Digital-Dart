@@ -2492,9 +2492,11 @@ En el diagrama de componentes del Bounded Context de Configuración, se muestran
 En este apartado se presentará y explicaraá los diagramas que presentan un mayor nivel de detalle sobre la implementación de los componentes.
 
 ##### 4.2.6.1. Bounded Context Domain Layer Class Diagrams.
+Acontinuación se muestra el diagrama de clases del Bounded Context de Configuración, que incluye las clases de la capa del dominio. Donse de incluye las clases, interfaces, enumeraciones y relaciones entre ellas.
+<div style="text-align: center;">
+    <img src="./images/chapter-04/class-diagram-configuration.png" alt="Class Diagram" style="max-width: 800px; width: 95%">
+</div>
 
-
-##### 4.2.6.2. Bounded Context Database Design Diagram.
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
