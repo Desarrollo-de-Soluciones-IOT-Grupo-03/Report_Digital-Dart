@@ -2742,9 +2742,38 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
     </div>
 
 ### Conclusiones
+* La implementación del enfoque Lean UX en la comprensión de nuestra problemática y la concepción de nuestro concepto empresarial nos permitió llevar a cabo un análisis exhaustivo de nuestros competidores y definir claramente nuestros grupos de interés. 
+
+* Las entrevistas con nuestros segmentos objetivo han sido pilares fundamentales de nuestro proyecto, proporcionándonos información valiosa que nos ha ayudado a entender las necesidades y emociones de nuestros usuarios. Estas conversaciones nos han inspirado a diseñar una aplicación que trasciende las meras funcionalidades esperadas. Nos comprometemos a aplicar estas percepciones para desarrollar una solución que genere un impacto positivo en la vida de nuestros usuarios. 
+
+* La utilización de Github para la colaboración en equipo y la gestión de versiones resultó de suma relevancia, ya que logramos minimizar los obstáculos relacionados con las diferencias temporales y los problemas de compatibilidad entre las versiones. 
+
+* La adopción de Trello como plataforma para gestionar el backlog de productos ha simplificado la planificación y priorización de tareas. Esto ha facilitado la adaptación continua a las cambiantes necesidades del proyecto y ha asegurado que nuestras entregas sean más eficaces y estén alineadas con los objetivos del negocio. 
+
+* Las estimaciones de tiempo se mantuvieron en su mayoría dentro del rango estimado, lo que indica una buena comprensión de los requisitos y una gestión eficiente del tiempo. Sin embargo, hubo algunas desviaciones menores en las estimaciones de tiempo que podrían mejorarse en el futuro. 
+
+* A través del análisis competitivo, nos permitió conocer nuestras fortalezas y aspectos en los que podemos mejorar. De ello, podremos ofrecer un servicio que aborda de manera completa las demandas de nuestra aplicación.
+
+* La implementación de Domain-Driven Design (DDD) ha sido crucial para la viabilidad de nuestro proyecto, ya que nos ha permitido centrarnos en la complejidad del dominio del negocio y modelar nuestra solución en torno a él. Esto ha resultado en un software más cohesivo y alineado con las necesidades reales de nuestros usuarios.
+
+* La adopción del patrón Command Query Responsibility Segregation (CQRS) ha mejorado significativamente la escalabilidad y rendimiento de nuestra aplicación al separar las operaciones de lectura y escritura. Esto nos ha permitido optimizar las consultas y manejar de manera más eficiente las actualizaciones de datos.
+
+* La definición de los Bounded Contexts dentro de nuestro modelo de dominio ha facilitado la modularidad y el mantenimiento del código. Al establecer límites claros entre las diferentes partes del dominio, hemos mejorado la comunicación entre miembros del equipos y reducido las dependencias innecesarias.
+
+* La creación de diagramas C4 ha sido una herramienta valiosa para visualizar la arquitectura de nuestro sistema en diferentes niveles de abstracción. Estos diagramas han permitido a todos los miembros del equipo, desde desarrolladores hasta stakeholders, comprender la estructura y los componentes clave de nuestra aplicación.
 
 ### Bibliografía
+* Gothelf, J. & Seiden, J. (2021). Lean Ux Designing Great Products with Agile Teams. O'Reilly.
 
+* Brown, S. (2023). The C4 model for visualising software architecture.  Leanpub.
+
+* Cerquera, A. & Galvis, M. (2014). Efectos de cuidar personas con Alzheimer: un estudio sobre cuidadores formales e informales. Pensamiento psicológico, 12(1), 149-167. http://www.scielo.org.co/scielo.php?pid=S1657-89612014000100011&script=sci_arttext
+
+* Pradana, A., Sahar, J. & Permatasari, H. (2022). Cuidado de personas con demencia: respuestas positivas experimentadas por los cónyuges. Enfermería Global, 21(4), 439-459. https://doi.org/10.6018/eglobal.515341
+
+* Carbonell, O. (2013). La sensibilidad del cuidador y su importancia para promover un cuidado de calidad en la PRIMERA infancia. Ciencias psicológicas, 7(2), 201-207. http://www.scielo.edu.uy/pdf/cp/v7n2/v7n2a08.pdf
+
+* Araujo, M. & López, F. (2015). Los servicios de cuidado infantil en América Latina y el Caribe. El trimestre económico, 82(326), 249-275. https://www.scielo.org.mx/scielo.php?pid=S2448-718X2015000200249&script=sci_arttext
 
 ### ANEXOS
 - Link Event Storming: https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
