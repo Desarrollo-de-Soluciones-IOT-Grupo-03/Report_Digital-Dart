@@ -2497,6 +2497,12 @@ Acontinuación se muestra el diagrama de clases del Bounded Context de Configura
     <img src="./images/chapter-04/class-diagram-configuration.png" alt="Class Diagram" style="max-width: 800px; width: 95%">
 </div>
 
+##### 4.2.6.2. Bounded Context Database Design Diagram.
+El diagrama de diseño de la base de datos para el Bounded Context de Configuración muestra las tablas y relaciones necesarias para almacenar la información de dispositivos, geocercas y actualizaciones de firmware.
+<div style="text-align: center;">
+    <img src="./images/chapter-04/database-configuration.png" alt="Class Diagram" style="max-width: 800px; width: 95%">
+</div>
+
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
