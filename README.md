@@ -2772,8 +2772,103 @@ trabajo, se empleará el patrón F. De esta manera, lograremos captar la atenci�
 </div>
 
 ## 5.3. Landing Page UI Design.
+
+Nuestra propuesta para la landing page de **GuardianArea** se basa en los principios de diseño y la arquitectura de la información previamente definidos, asegurando una experiencia de usuario coherente y efectiva en todas las plataformas.Estos principios están alineados con nuestro Design System, que establece las pautas visuales y de interacción para todos los productos de **GuardianArea**.
+
+**Principios de diseño aplicados:**
+- **Simplicidad:** La interfaz es clara y directa, fácil de navegar, con una estructura visual limpia y centrada en los elementos clave, asegurando que la experiencia del usuario sea sencilla y sin complicaciones.
+- **Claridad:** El mensaje principal de **GuardianArea** se transmite desde el inicio, explicando de manera sencilla los beneficios de la solución IoT para la protección de seres queridos.
+- **Consistencia:** Todos los elementos visuales y de contenido se mantienen coherentes en términos de colores, tipografía, y estilo gráfico en toda la interfaz.
+- **Accesibilidad:** Se considera la accesibilidad para todos los usuarios, con botones y textos que cumplen los estándares de contraste y legibilidad.
+- **Estética:** El diseño mantiene una estética profesional y moderna, alineada con la identidad de la marca, transmitiendo confianza y seguridad.
+
+**Elementos de diseño aplicados:**
+- **Tipografía:** Se usa una tipografía **Roboto** legible y moderna que se adapta bien a diferentes tamaños de pantalla, ofreciendo una experiencia visual cómoda tanto en dispositivos móviles como en escritorio.
+- **Colores:** La paleta de colores sigue el Design System de **GuardianArea**, predominando el azul como color de confianza y profesionalismo, combinado con blanco y grises suaves para resaltar las llamadas a la acción.
+- **Imágenes:** Se emplean imágenes de alta calidad que ilustran la aplicación móvil y su uso para monitorear a seres queridos, incluyendo ejemplos de situaciones familiares y cotidianas.
+- **Íconos:** Los íconos son representativos y simples, facilitando la identificación de características clave como las geo-cercas y el monitoreo en tiempo real.
+- **Botones:** Los botones de acción están claramente definidos, con colores contrastantes y visibles, lo que facilita su identificación y uso. Los botones como "Obtener Plan" y "Ingresar" están diseñados para atraer la atención del usuario.
+
 ### 5.3.1. Landing Page Wireframe.
-### 5.3.2. Landing Page Mock-up.
+
+Hemos creado wireframes para la landing page de **GuardianArea**, tanto en su versión para desktop como para mobile, siguiendo los principios de arquitectura de información y asegurando un flujo claro y accesible para los usuarios.
+
+#### Desktop Web Browser:
+
+1. **Header**: Incluye el logotipo de la marca a la izquierda, con un menú de navegación visible y el botón de ingreso en la esquina derecha.
+2. **Sección Principal (Hero)**: Presenta una imagen de fondo que refleja la propuesta de valor de GuardianArea, con el título y subtítulo centrados y botones de descarga de la app en App Store y Google Play.
+3. **Sección de Características**: Muestra un carrusel que presenta las principales funcionalidades del producto, como la configuración de geo-cercas y el monitoreo en tiempo real.
+4. **Sección de Planes y Precios**: Tarjetas claras que destacan los distintos planes disponibles (básico, estándar y premium), con un énfasis visual en los precios y beneficios clave.
+5. **Testimonios de Usuarios**: Se presentan en tarjetas flotantes que muestran reseñas de clientes reales, ayudando a construir confianza en el producto.
+6. **Formulario de Contacto**: Formulario sencillo para que los usuarios puedan enviar preguntas o solicitar información adicional.
+7. **Pie de Página**: Información de contacto, enlaces, y redes sociales.
+
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Wireframe Landing.png"  width="60%" alt="wireframe web GuardianArea">
+</div>
+
+---
+
+#### Mobile Web Browser:
+
+1. **Header**: Logotipo de la marca.
+2. **Sección Principal (Hero)**: Adaptada a dispositivos móviles, con la imagen principal ajustada al formato vertical y los botones de descarga bien visibles.
+3. **Sección de Características**: Carrusel de funcionalidades clave en un formato horizontal, permitiendo que el usuario deslice para explorar las características.
+4. **Sección de Planes y Precios**: Tarjetas adaptadas al formato vertical con botones de llamada a la acción accesibles.
+5. **Testimonios**: Presentados en tarjetas que ocupan todo el ancho de la pantalla, optimizando el espacio en pantallas más pequeñas.
+6. **Formulario de Contacto**: Simplificado para facilitar la interacción en pantallas táctiles, con botones grandes y claros.
+7. **Pie de Página**: Enlaces de redes sociales y contacto con un diseño minimalista para dispositivos móviles.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Wireframe Landing Mobile.png"  width="30%" alt="wireframe mobile GuardianArea">
+</div>
+
+Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=29-3923&t=rLy4RhyWq8BMkuhR-1 
+
+### 5.3.2. Landing Page Mock-up
+
+#### Desktop Web Browser:
+
+- **Header:** El logotipo aparece en la esquina superior izquierda, con colores azul oscuro y blanco que contrastan claramente. El botón de "Ingresar" está a la derecha, visible y accesible.
+  
+- **Sección principal (Hero):** Presenta una imagen grande y de alta calidad que refuerza el mensaje de protección y tecnología avanzada, con botones de descarga de la aplicación en lugares estratégicos para captar la atención.
+
+- **Sección de características:** Tarjetas con íconos diseñados para una fácil navegación entre las principales funciones del producto, con colores y formas consistentes con el Design System de GuardianArea.
+
+- **Sección de planes y precios:** Tarjetas de planes alineadas con una jerarquía visual clara, donde los precios y beneficios están destacados. Botones de acción visibles y contrastantes.
+
+- **Sección de testimonios:** Tarjetas con testimonios de usuarios reales, cada uno en su propio espacio visual, generando confianza en el producto.
+
+- **Sección de contacto:** Presenta un diseño simple y directo, con campos de texto bien etiquetados y colores contrastantes que guían al usuario para completarlo de manera eficiente.
+
+- **Pie de página:** Enlaces a redes sociales y datos de contacto con iconografía que sigue los principios del Design System.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Mockup-landing-web.png"  width="60%" alt="Mockup web GuardianArea">
+</div>
+
+#### Mobile Web Browser:
+
+- **Header:** Logotipo y botón de "Ingresar".
+
+- **Sección principal (Hero):** Imagen adaptada al formato vertical con botones de acción grandes y visibles para facilitar la descarga de la aplicación desde cualquier dispositivo móvil.
+
+- **Sección de características:** Carrusel horizontal de íconos, permitiendo a los usuarios navegar fácilmente por las principales funcionalidades del producto.
+
+- **Sección de planes y precios:** Las tarjetas de los planes se presentan en formato vertical, con énfasis en los precios y beneficios clave, y botones de acción grandes para facilitar la interacción.
+
+- **Sección de testimonios:** Dispuestas de manera vertical, las tarjetas ocupan el espacio completo del móvil para asegurar legibilidad y claridad.
+
+- **Sección de contacto:** Campos de formulario ajustados a pantallas móviles, con botones de fácil acceso y optimizados para pantallas táctiles.
+
+- **Pie de página:** Enlaces de redes sociales y contacto dispuestos de manera compacta para optimizar el uso del espacio en pantallas más pequeñas.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Mockup-landing-mobile.png"  width="30%" alt="Mockup mobile GuardianArea">
+</div>
+
+Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
