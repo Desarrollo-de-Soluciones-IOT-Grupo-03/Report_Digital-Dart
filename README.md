@@ -2516,7 +2516,92 @@ El diagrama de diseño de la base de datos para el Bounded Context de Configurac
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
 ### 5.1.1. General Style Guidelines.
+
+#### **Colors:**
+
+En **GuardianArea** nos centramos en el uso de colores que transmitan seriedad, confianza y profesionalismo a través de una paleta de colores. La combinación de tonos azules y grises nos permite reflejar seguridad, a su vez que el uso de los colores de acción nos permite resaltar elementos importantes en la interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Colors.png"  width="80%" alt="Colores GuardianArea">
+</div>
+
+#### **Typography:**
+
+Para **GuardianArea**, la tipografía juega un papel fundamental para mantener la claridad y la jerarquía visual en nuestras interfaces. Por eso, hemos seleccionado la familia tipográfica **Roboto**, que proporciona un equilibrio entre modernidad, simplicidad y legibilidad. A continuación, se detallan los tamaños, pesos y estilos utilizados tanto para escritorio como para dispositivos móviles.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Typography.png"  width="80%" alt="Tipografía GuardianArea">
+</div>
+
+#### **Iconography:**
+
+La iconografía en **GuardianArea** es esencial para una buena experiencia de usuario, proporcionando claridad visual y mejorando la navegación a través de símbolos intuitivos y reconocibles. Los íconos utilizados son minimalistas, de líneas simples y sin rellenos innecesarios, lo que contribuye a una interfaz limpia y moderna. A continuación veremos los íconos presentes en nuestra interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Iconography.png"  width="80%" alt="Iconografía GuardianArea">
+</div>
+
+#### **Spacing:**
+
+El espaciado en **GuardianArea** es fundamental para garantizar una experiencia de usuario clara y ordenada. Se utilizan múltiples niveles de espaciado en toda la interfaz para asegurar una jerarquía visual efectiva. A continuación, se detallan los espacios utilizados en nuestra interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Spacing.png"  width="80%" alt="Espaciado GuardianArea">
+</div>
+
+#### **Buttons:**
+
+Los botones en **GuardianArea** están diseñados para ofrecer una experiencia de usuario intuitiva y consistente en toda la plataforma. Estos botones se presentan en varios tamaños y estilos para adaptarse a diferentes contextos y acciones dentro de la interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Buttons.png"  width="80%" alt="Botones GuardianArea">
+</div>
+
+#### **Breakpoints:**
+
+En **GuardianArea** nos aseguramos de que nuestra interfaz sea completamente receptiva y se adapte a diferentes tamaños de pantalla. A continuación, se detallan los puntos de interrupción utilizados en nuestra interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Breakpoints.png"  width="80%" alt="Puntos de interrupción GuardianArea">
+</div>
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
+
+Para el diseño de **GuardianArea**, se ha optado por un **sidebar** en lugar de una barra de navegación superior, ya que este estilo es más adecuado este tipo de aplicaciones. A continuación, se detallan los beneficios de utilizar un sidebar en nuestra interfaz.
+
+**Beneficios del Sidebar:**
+
+- **Mayor espacio para opciones:** Permite incluir más secciones sin saturar la interfaz.
+- **Acceso rápido:** Los usuarios pueden navegar entre herramientas sin desplazarse por la pantalla.
+- **Escalabilidad:** Es flexible, permitiendo la adición de nuevas funcionalidades de manera organizada.
+- **Aprovechamiento del espacio:** En pantallas grandes, el sidebar deja más área libre para visualización de datos y gráficos.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/web_guideline.png"  width="60%" alt="Sidebar GuardianArea">
+</div>
+<div style="text-align: center;">
+    <img src="./images/chapter-05/web_guideline_02.png"  width="60%" alt="Sidebar GuardianArea">
+</div>
+
+---
+
+En la versión móvil de **GuardianArea**, se ha implementado una barra de navegación inferior (bottom navbar), en lugar de un sidebar o navbar superior, para mejorar la accesibilidad y usabilidad en pantallas pequeñas.
+
+**Beneficios del Bottom Navbar:**
+- **Accesibilidad con una mano:** En dispositivos móviles, los usuarios pueden acceder fácilmente a las opciones principales con el pulgar sin necesidad de hacer grandes movimientos.
+- **Optimización del espacio:** Deja el área superior y central para el contenido relevante, sin saturar la pantalla.
+- **Navegación rápida:** Facilita el cambio entre secciones clave con solo un toque, lo que es crucial en aplicaciones móviles que requieren agilidad.
+- **Compatibilidad con patrones móviles:** Los usuarios están familiarizados con este patrón en aplicaciones móviles, lo que reduce la curva de aprendizaje, un ejemplo de ello es cuando usas **Flutter** para el desarrollo de aplicaciones móviles.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/mobile_guideline.png"  width="50%" alt="Bottom Navbar GuardianArea">
+</div>
+
+---
+
+Para los dispositivos IoT de **GuardianArea**, el estilo de diseño se enfoca en ofrecer una interfaz de usuario intuitiva y clara. El objetivo es presentar los datos en tiempo real de manera dinámica y fácilmente interpretable, permitiendo a los usuarios monitorear aspectos clave como ubicación, actividad, y alertas. La interfaz proporciona retroalimentación visual instantánea sobre eventos importantes, como el cruce de geocercas o cambios en la actividad del dispositivo.
+
+Además, se prioriza la personalización de la visualización de datos para que los usuarios puedan adaptar la información a sus necesidades específicas, mientras que la navegación sencilla facilita el acceso a las diferentes funciones y ajustes de monitoreo.
 
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems.
