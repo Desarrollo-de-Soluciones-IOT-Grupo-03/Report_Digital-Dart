@@ -2772,6 +2772,23 @@ trabajo, se empleará el patrón F. De esta manera, lograremos captar la atenci�
 </div>
 
 ## 5.3. Landing Page UI Design.
+
+Nuestra propuesta para la landing page de **GuardianArea** se basa en los principios de diseño y la arquitectura de la información previamente definidos, asegurando una experiencia de usuario coherente y efectiva en todas las plataformas.Estos principios están alineados con nuestro Design System, que establece las pautas visuales y de interacción para todos los productos de **GuardianArea**.
+
+**Principios de diseño aplicados:**
+- **Simplicidad:** La interfaz es clara y directa, fácil de navegar, con una estructura visual limpia y centrada en los elementos clave, asegurando que la experiencia del usuario sea sencilla y sin complicaciones.
+- **Claridad:** El mensaje principal de **GuardianArea** se transmite desde el inicio, explicando de manera sencilla los beneficios de la solución IoT para la protección de seres queridos.
+- **Consistencia:** Todos los elementos visuales y de contenido se mantienen coherentes en términos de colores, tipografía, y estilo gráfico en toda la interfaz.
+- **Accesibilidad:** Se considera la accesibilidad para todos los usuarios, con botones y textos que cumplen los estándares de contraste y legibilidad.
+- **Estética:** El diseño mantiene una estética profesional y moderna, alineada con la identidad de la marca, transmitiendo confianza y seguridad.
+
+**Elementos de diseño aplicados:**
+- **Tipografía:** Se usa una tipografía **Roboto** legible y moderna que se adapta bien a diferentes tamaños de pantalla, ofreciendo una experiencia visual cómoda tanto en dispositivos móviles como en escritorio.
+- **Colores:** La paleta de colores sigue el Design System de **GuardianArea**, predominando el azul como color de confianza y profesionalismo, combinado con blanco y grises suaves para resaltar las llamadas a la acción.
+- **Imágenes:** Se emplean imágenes de alta calidad que ilustran la aplicación móvil y su uso para monitorear a seres queridos, incluyendo ejemplos de situaciones familiares y cotidianas.
+- **Íconos:** Los íconos son representativos y simples, facilitando la identificación de características clave como las geo-cercas y el monitoreo en tiempo real.
+- **Botones:** Los botones de acción están claramente definidos, con colores contrastantes y visibles, lo que facilita su identificación y uso. Los botones como "Obtener Plan" y "Ingresar" están diseñados para atraer la atención del usuario.
+
 ### 5.3.1. Landing Page Wireframe.
 ### 5.3.2. Landing Page Mock-up.
 
