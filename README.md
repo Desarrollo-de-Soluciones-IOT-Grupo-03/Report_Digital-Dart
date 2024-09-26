@@ -1232,6 +1232,7 @@ Carlos Pérez busca una solución de monitoreo para garantizar la seguridad de s
 </div>
 
 ### 2.3.4. Empathy Mapping
+El "empathy mapping" (o mapa de empatía) es una herramienta utilizada en el diseño de experiencias de usuario, desarrollo de productos y marketing para obtener una comprensión más profunda de un grupo objetivo o persona específica. El objetivo es identificar y comprender los sentimientos, pensamientos, experiencias y motivaciones de los usuarios para poder responder mejor a sus necesidades y deseos.
 
 **Segmento 1**
 
@@ -1246,6 +1247,7 @@ Carlos Pérez busca una solución de monitoreo para garantizar la seguridad de s
 </div>
 
 ### 2.3.5. As-is Scenario Mapping
+El "As-Is Scenario Mapping" es una técnica utilizada en la gestión de procesos y el análisis de negocios para documentar y entender el estado actual de un proceso o sistema. Consiste en mapear paso a paso cómo se llevan a cabo las tareas o actividades en el presente, sin considerar mejoras o cambios
 
 **Segmento 1**
 
