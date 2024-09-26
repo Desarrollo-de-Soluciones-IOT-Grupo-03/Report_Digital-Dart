@@ -929,7 +929,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - Nombres: José Carlos Isaac
 - Apellidos: Ampudia Flores
 - Edad: 20
-- Distrito: Monterrico
+- Distrito: Santiago de Surco
 - Evidencia de la reunión: 
     <div align=center>
         <img src="./images/chapter-02/interviews/entrevista_jose_isaac.png" alt="Entrevista 01"  width="90%"/>
@@ -940,15 +940,15 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=KaLquw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ4OC4yMn19
 - Resumen de la entrevista: 
 
-    Natalia La Rosa, de 24 años, es ingeniera biomédica y reside en Bellavista, Callao. Se describe como una persona extrovertida, que disfruta de salir con amigos y conocer gente nueva. Además, es responsable del cuidado de su hermano menor, para lo cual utiliza herramientas tecnológicas, aunque su principal recurso ha sido el control parental de YouTube.
+    José Ampudia, de 20 años, es estudiante de ingeniería y cuida de su hermano pequeño de 5 años. José comentó que es introvertido, especialmente en contextos con personas nuevas. Utiliza dispositivos tecnológicos diariamente, tanto para sus estudios como para el monitoreo de cámaras de seguridad en su casa. Usa principalmente los navegadores Chrome y Brave en su PC, la cual tiene características avanzadas: procesador potente, 8 a 16 GB de memoria RAM, tarjeta gráfica dedicada y la posibilidad de trabajar con doble monitor. Además, cuenta con una velocidad de internet de 500mb.
 
-    Natalia expresó su preocupación por la seguridad de su hermano, sobre todo cuando está ocupada con sus estudios universitarios o trabajo. Le preocupa que su hermano pueda abrir la puerta a extraños o salir solo, lo que lo pondría en peligro.
+    Para el monitoreo, también utiliza su teléfono Samsung A31, aunque no tiene dispositivos específicamente diseñados para el cuidado de su hermano.
 
-    Natalia considera que un sistema de monitoreo en tiempo real sería ideal para su situación, destacando la importancia de la precisión en la ubicación y la emisión de alarmas inmediatas si su hermano sale de la zona segura. También le parece relevante que el sistema sea fácil de usar y tenga la posibilidad de conectarse con la policía para reportar emergencias de manera rápida.
+    José explicó que, al no haber un adulto disponible todo el tiempo para cuidar de su hermano debido al trabajo de su madre, le preocupa su bienestar. Cree que una aplicación que combine monitoreo y acciones a distancia sería útil para cuidar a su hermano en situaciones críticas, como cuando se queda solo en casa.
 
-    En su experiencia diaria, Natalia ha enfrentado situaciones difíciles, como el hecho de que su hermano salga solo a la calle, exponiéndose a diversos peligros. Un día típico para ella incluye llevar y recoger a su hermano del colegio, y permitirle entrar y salir de casa con una llave, lo que le genera cierta preocupación.
+    Además, le gustaría poder controlar las cámaras desde múltiples dispositivos y cree que una solución que no solo permita monitorear, sino también actuar en caso de emergencia, sería muy beneficiosa.
 
-    Finalmente, Natalia considera que el proyecto de monitoreo propuesto sería de gran utilidad para su familia, ya que les permitiría estar más al tanto de la ubicación y las actividades de su hermano. Sugiere que se integre una conexión directa con la policía para reportar desapariciones de forma inmediata, lo que mejoraría significativamente la seguridad.
+    José considera que una aplicación como GuardianArea encajaría perfectamente en su situación, ya que brindaría tranquilidad al monitorear y proteger a su hermano de manera más efectiva.
 
 ### 2.2.3 Análisis de entrevistas
 
