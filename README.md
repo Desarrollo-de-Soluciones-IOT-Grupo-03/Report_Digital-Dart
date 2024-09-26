@@ -3023,11 +3023,81 @@ Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page
 Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=14%3A3923&node-id=555-11703&node-type=frame&viewport=-40728%2C-812%2C1&t=zhbFfof6kQbzcznb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=555%3A11703
 
 # Capítulo VI: Product Implementation, Validation & Deployment
-## 6.1. Software Configuration Management.
-### 6.1.1. Software Development Environment Configuration.
-### 6.1.2. Source Code Management.
-### 6.1.3. Source Code Style Guide & Conventions.
-### 6.1.4. Software Deployment Configuration.
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+El entorno de desarrollo de la aplicación **GuardianArea** incluye las siguientes herramientas y configuraciones para garantizar un desarrollo eficiente en las distintas plataformas:
+
+- **IDE**: IntelliJ IDEA para el backend (Java Spring Boot), Visual Studio Code para el frontend y para el desarrollo móvil (Flutter y Angular).
+- **Lenguajes de programación**: Java para el backend, TypeScript para el frontend, y Dart para la aplicación móvil.
+- **Frameworks**: Spring Boot (backend), Angular (frontend) y Flutter (app móvil).
+- **Bases de datos**: MySQL para almacenamiento de datos.
+- **Contenedores**: Docker se utiliza para virtualizar y garantizar la consistencia entre los diferentes entornos de desarrollo y producción.
+- **Control de versiones**: Git, con la plataforma GitHub para la gestión del código fuente y trabajo colaborativo entre los desarrolladores.
+
+### 6.1.2. Source Code Management
+
+El código fuente del proyecto se gestiona a través de GitHub, donde se encuentran los siguientes repositorios públicos:
+
+| Solución                          | Repositorio                    | Enlace                                                                     |
+|-----------------------------------|--------------------------------|----------------------------------------------------------------------------|
+| Reporte Digital Dart              | Report_Digital-Dart            | [Report_Digital-Dart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Report_Digital-Dart) |
+| Aplicación Web Guardian           | Guardian-Area-Web              | [Guardian-Area-Web]()     |
+| Landing Page Guardian Area        | Landing-Page-GuardiaArea       | [Landing-Page-GuardiaArea](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Landing-Page-GuardiaArea) |
+| GuardianArea Web | Guardia-Area-Web     | [Guardian-Area-Web](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Guardian-Area-Web) |
+
+#### Organización de GitHub
+
+El proyecto está alojado en la organización de GitHub: [Organización DigitalDart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03).
+
+#### Gitflow
+
+El equipo de desarrollo sigue la metodología **Gitflow** para la gestión del código fuente. Las siguientes ramas son utilizadas en el flujo de trabajo:
+
+- **Main**: Contiene la versión estable del código que se despliega en producción.
+- **Develop**: Contiene las últimas funcionalidades y correcciones en desarrollo.
+- **Feature**: Se utiliza para desarrollar nuevas funcionalidades de manera aislada.
+- **Hotfix**: Se utiliza para aplicar correcciones rápidas a problemas críticos en producción.
+
+A continuación, un diagrama que ilustra el flujo de trabajo de Gitflow:
+
+![Gitflow Diagram](https://miro.medium.com/v2/resize:fit:1400/1*3-0EDzE63S_UZx2KbIz_dg.png)
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+Se han establecido las siguientes guías de estilo y convenciones para mantener la calidad y consistencia del código:
+
+- **Backend (Java)**:
+  - Usar la convención camelCase para métodos y variables.
+  - Mantener el código modular utilizando principios SOLID.
+  - Implementar un manejo adecuado de excepciones en todas las capas del backend.
+
+- **Frontend (Angular)**:
+  - Utilizar TypeScript con strict typing para evitar errores.
+  - Los nombres de componentes y servicios deben seguir la convención PascalCase.
+  - Mantener la arquitectura de componentes modular, asegurando reutilización y fácil mantenimiento.
+
+- **Móvil (Flutter)**:
+  - Seguir las convenciones de Dart, utilizando camelCase para variables y métodos.
+  - Mantener una separación clara entre lógica de presentación y lógica de negocio utilizando el patrón BLoC (Business Logic Component) o Provider para la gestión de estado.
+
+### 6.1.4. Software Deployment Configuration
+
+La configuración del despliegue del software se realiza mediante pipelines automatizados con GitHub Actions. Las configuraciones de despliegue incluyen:
+
+- **Backend (Spring Boot)**:
+  - Despliegue en un servidor de producción utilizando Azure para mayor simplicidad en la integración de pipelines y automatizacion.
+  - Integración continua que ejecuta pruebas automatizadas antes de desplegar cualquier nueva versión.
+
+- **Frontend (Angular)**:
+  - Despliegue en servidores web utilizando Nginx para servir la aplicación web.
+  - El código es empaquetado y minificado antes de ser desplegado.
+
+- **Aplicación móvil (Flutter)**:
+  - El código fuente de la aplicación móvil es compilado utilizando pipelines automáticos de CI/CD.
+
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 ### 6.2.1. Sprint n
