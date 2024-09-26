@@ -3140,10 +3140,14 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
     <div style="text-align: center;">
         <img src="./images/chapter-06/06-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
     </div>
+    Después de terminar con la configuración de nuestro hosting debemos configurar firebase en nuestro proyecto web.
     <div style="text-align: center;">
-        <img src="./images/chapter-06/07-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
+        <img src="./images/chapter-06/04-deploy-front.png" alt="Deployment Web Application"  width="80%"/>
     </div>
-    Enlace: 
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/05-deploy-front.png" alt="Deployment Web Application"  width="80%"/>
+    </div>
+    Enlace Aplicación Web: https://guardian-area.web.app/
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
@@ -3165,7 +3169,7 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
     </div>
     Contributors
     <div style="text-align: center;">
-        <img src="./images/chapter-06/02-contributors-web.png" alt="Contributors Evidence"  width="80%"/>
+        <img src="./images/chapter-06/03-contributors-web.png" alt="Contributors Evidence"  width="80%"/>
     </div>
 
 ### Conclusiones
