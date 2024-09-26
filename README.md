@@ -1728,11 +1728,15 @@ Aislar los core capabilities en User Account y mover capacidades secundarias a u
 
 ### 4.1.3.1. Software Architecture System Landscape Diagram
 
+El Landscape Diagram ofrece una representación visual de los diferentes componentes que componen la arquitectura del software. Este diagrama ilustra cómo se integran las diversas partes del sistema, incluyendo módulos, servicios y bases de datos, proporcionando una visión clara de la interacción entre ellos y su relación con los usuarios y otros sistemas externos.
+
 <div style="text-align: center;">
     <img src="./images/chapter-04/system-landscape.png" alt="System Landscape Diagram" style="max-width: 800px; width: 95%">
 </div>
 
 ### 4.1.3.4. Software Architecture Deployment Diagrams
+
+Los Diagramas de Despliegue detallan la implementación física de los componentes del software en el entorno de producción. Estos diagramas muestran cómo se distribuyen y configuran los recursos de hardware y software, incluyendo servidores, redes y dispositivos, así como las relaciones entre ellos, lo que permite entender mejor cómo se ejecuta el sistema en un contexto real.
 
 <div style="text-align: center;">
     <img src="./images/chapter-04/deployment-diagram.png" alt="Deployment Diagrams" style="max-width: 800px; width: 95%">
