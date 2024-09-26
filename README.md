@@ -2629,21 +2629,115 @@ Los sistemas de etiquetado en arquitectura de la información permiten organizar
 * Support (Soporte): Sección de ayuda y preguntas frecuentes para resolver problemas y proporcionar orientación.
 
 ### 5.2.3. SEO Tags and Meta Tags
-**Landing Page:** La página de inicio de nuestra aplicación contará con los siguientes tags:
+
+Para la **Landing Page** de **GuardianArea**, no solo utilizamos las etiquetas SEO estándar, sino que también añadimos las **Open Graph (OG) Tags** para mejorar la visibilidad y el formato de la página cuando se comparte en redes sociales.
+
+**Título de la página:**
+
+```html
+<title>GuardianArea | Solución IoT para la Seguridad de tus Seres Queridos</title>
 ```
+
+**Meta Tags Description:**
+
+```html
+<meta name="description" content="GuardianArea es una solución avanzada que utiliza la tecnología IoT para monitorear y proteger a personas mayores, con Alzheimer, y niños, ofreciendo alertas en tiempo real y geocercas personalizables." />
+```
+
+**Meta Tags Keywords:**
+
+```html
+<meta name="keywords" content="GuardianArea, IoT, monitoreo, seguridad, personas mayores, Alzheimer, niños, geocercas, alertas en tiempo real" />
+```
+
+**Autor:**
+
+```html
+<meta name="author" content="Digital Dart" />
+```
+
+**Copyright:**
+
+```html
+<meta name="copyright" content="© Digital Dart, 2024" />
+```
+
+---
+
+#### Open Graph Tags (OG)
+
+Las **Open Graph Tags** permiten a las plataformas de redes sociales, como Facebook, LinkedIn y Twitter, formatear de manera adecuada la información que se muestra cuando alguien comparte tu página. Esto incluye el título, descripción, imagen y otros detalles clave que hacen que el contenido compartido sea más atractivo.
+
+**OG Title:**
+```html
+<meta property="og:title" content="GuardianArea - Monitoreo IoT para la Seguridad de tus Seres Queridos" />
+```
+- **Explicación**: Define el título que aparecerá en la vista previa cuando alguien comparta tu sitio web. Asegura que sea llamativo y relevante para el usuario.
+
+**OG Description:**
+```html
+<meta property="og:description" content="Protege a tus seres queridos con GuardianArea, un sistema de monitoreo IoT con notificaciones en tiempo real, geocercas personalizables y reportes de actividad." />
+```
+- **Explicación**: Proporciona una descripción concisa y atractiva de lo que ofrece tu página. Esto aparecerá en la vista previa de las publicaciones en redes sociales y es clave para captar la atención de los usuarios.
+
+**OG Image:**
+```html
+<meta property="og:image" content="./assets/img/og-image.jpg" />
+```
+- **Explicación**: Especifica la imagen que se mostrará cuando la página sea compartida. Esta imagen debe ser representativa de tu producto o servicio, y debe estar optimizada (preferentemente de 1200x630 píxeles para un buen resultado).
+
+**OG Type:**
+```html
+<meta property="og:type" content="website" />
+```
+- **Explicación**: Define el tipo de contenido que es la página. En este caso, "website" es apropiado para una página de aterrizaje. Otros ejemplos podrían ser "article" o "video" si aplican.
+
+---
+
+#### Ejemplo completo de las Meta Tags con Open Graph:
+
+```html
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GuardianArea - Solución de Monitoreo y Protección</title>
-    <meta name="description" content="Protege a tus seres queridos con GuardianArea. Nuestra pulsera con rastreador permite establecer geo-cercas y recibir notificaciones en tiempo real si la persona monitoreada sale de las zonas seguras. Brindamos tranquilidad a cuidadores y familiares.">
-    <meta name="keywords" content="rastreador, seguridad, geo-cercas, notificaciones, protección, monitoreo, pulsera rastreadora">
-    <link rel="stylesheet" href="./assets/css/home.css">
-    <link rel="shortcut icon" href="./assets/icons/Logo.svg" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GuardianArea | Solución IoT para la Seguridad de tus Seres Queridos</title>
+
+	<!-- Meta Tags SEO -->
+	<meta name="description" content="GuardianArea es una solución avanzada que utiliza la tecnología IoT para monitorear y proteger a personas mayores, con Alzheimer, y niños, ofreciendo alertas en tiempo real y geocercas personalizables." />
+	<meta name="keywords" content="GuardianArea, IoT, monitoreo, seguridad, personas mayores, Alzheimer, niños, geocercas, alertas en tiempo real" />
+	<meta name="author" content="Digital Dart" />
+	<meta name="copyright" content="© Digital Dart, 2024" />
+
+	<!-- Open Graph Tags -->
+	<meta property="og:title" content="GuardianArea - Monitoreo IoT para la Seguridad de tus Seres Queridos" />
+	<meta property="og:description" content="Protege a tus seres queridos con GuardianArea, un sistema de monitoreo IoT con notificaciones en tiempo real, geocercas personalizables y reportes de actividad." />
+	<meta property="og:image" content="./assets/img/og-image.jpg" />
+	<meta property="og:type" content="website" />
 </head>
 ```
 
+
 ### 5.2.4. Searching Systems.
-Implementaremos sistemas de búsqueda por exploración, los cuales permitirán a nuestros usuarios encontrar la información que necesitan de manera rápida y eficiente. Los cuidadores o familiares que deseen buscar en el historial de actividades, contarán con un filtro por mes y año.
+
+En esta sección del informe, se definirá la estructura del sistema de búsqueda dentro de **GuardianArea**, asegurando que los usuarios puedan encontrar información de manera rápida y eficiente, tanto en la vista **desktop** como en **mobile**. La interfaz incluye la búsqueda por fechas y filtros básicos en el **Historial de Actividades**. Estos mecanismos permiten que los cuidadores o familiares gestionen y monitoreen de manera eficaz las actividades y ubicaciones de sus seres queridos.
+
+#### Mobile
+
+En la aplicación mobile, los usuarios cuentan con un **navbar inferior** y la opción de filtrar los eventos según el **mes** en el **Historial de Actividades**. Esto permite una experiencia de usuario simplificada para aquellos que acceden desde dispositivos móviles y desean revisar las actividades recientes sin tener que recorrer grandes volúmenes de datos.
+
+**Características principales:**
+- **Filtro por Mes:** El usuario puede seleccionar un mes específico para visualizar el historial de actividades relacionadas con las **geo-cercas** y eventos recientes.
+- **Acceso Rápido:** Desde el navbar inferior, se pueden acceder a secciones clave como la pantalla principal, el chat con el dispositivo, los **vitales** y la lista de **geo-cercas**.
+  
+#### Desktop
+
+En la versión **desktop**, el **sidebar** permite a los usuarios navegar rápidamente entre las secciones de **GuardianArea**, incluyendo el panel principal, **Historial de Actividades**, chat con el dispositivo y funciones vitales. Además, se ha implementado un filtro básico que permite al usuario seleccionar fechas específicas en el historial para encontrar eventos relacionados.
+
+**Características principales:**
+- **Navegación a través del sidebar:** Permite acceder rápidamente a las principales secciones del dashboard, incluyendo **geo-cercas**, historial y funciones vitales.
+- **Filtro por Mes:** En el **Historial de Actividades**, los usuarios pueden filtrar eventos según el mes seleccionado, lo que facilita la búsqueda de actividades específicas en una línea de tiempo ajustada.
+
+El enfoque de **GuardianArea** es proporcionar una experiencia de búsqueda intuitiva tanto en **mobile** como en **desktop**, asegurando que los cuidadores puedan acceder a la información relevante en cualquier momento, optimizando la experiencia de usuario mediante el uso de **filtros básicos**.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/searching_system.PNG" alt="searching system 1"  width="100%"/>
