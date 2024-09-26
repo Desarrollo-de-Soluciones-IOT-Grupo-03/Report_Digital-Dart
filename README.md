@@ -2567,6 +2567,42 @@ En **GuardianArea** nos aseguramos de que nuestra interfaz sea completamente rec
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
+Para el diseño de **GuardianArea**, se ha optado por un **sidebar** en lugar de una barra de navegación superior, ya que este estilo es más adecuado este tipo de aplicaciones. A continuación, se detallan los beneficios de utilizar un sidebar en nuestra interfaz.
+
+**Beneficios del Sidebar:**
+
+- **Mayor espacio para opciones:** Permite incluir más secciones sin saturar la interfaz.
+- **Acceso rápido:** Los usuarios pueden navegar entre herramientas sin desplazarse por la pantalla.
+- **Escalabilidad:** Es flexible, permitiendo la adición de nuevas funcionalidades de manera organizada.
+- **Aprovechamiento del espacio:** En pantallas grandes, el sidebar deja más área libre para visualización de datos y gráficos.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/web_guideline.png"  width="60%" alt="Sidebar GuardianArea">
+</div>
+<div style="text-align: center;">
+    <img src="./images/chapter-05/web_guideline_02.png"  width="60%" alt="Sidebar GuardianArea">
+</div>
+
+---
+
+En la versión móvil de **GuardianArea**, se ha implementado una barra de navegación inferior (bottom navbar), en lugar de un sidebar o navbar superior, para mejorar la accesibilidad y usabilidad en pantallas pequeñas.
+
+**Beneficios del Bottom Navbar:**
+- **Accesibilidad con una mano:** En dispositivos móviles, los usuarios pueden acceder fácilmente a las opciones principales con el pulgar sin necesidad de hacer grandes movimientos.
+- **Optimización del espacio:** Deja el área superior y central para el contenido relevante, sin saturar la pantalla.
+- **Navegación rápida:** Facilita el cambio entre secciones clave con solo un toque, lo que es crucial en aplicaciones móviles que requieren agilidad.
+- **Compatibilidad con patrones móviles:** Los usuarios están familiarizados con este patrón en aplicaciones móviles, lo que reduce la curva de aprendizaje, un ejemplo de ello es cuando usas **Flutter** para el desarrollo de aplicaciones móviles.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/mobile_guideline.png"  width="50%" alt="Bottom Navbar GuardianArea">
+</div>
+
+---
+
+Para los dispositivos IoT de **GuardianArea**, el estilo de diseño se enfoca en ofrecer una interfaz de usuario intuitiva y clara. El objetivo es presentar los datos en tiempo real de manera dinámica y fácilmente interpretable, permitiendo a los usuarios monitorear aspectos clave como ubicación, actividad, y alertas. La interfaz proporciona retroalimentación visual instantánea sobre eventos importantes, como el cruce de geocercas o cambios en la actividad del dispositivo.
+
+Además, se prioriza la personalización de la visualización de datos para que los usuarios puedan adaptar la información a sus necesidades específicas, mientras que la navegación sencilla facilita el acceso a las diferentes funciones y ajustes de monitoreo.
+
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems.
 Al entrar a nuestra aplicación GuardianArea, el usuario podrá visualizar 4 secciones principales: Panel Principal, Historial de actividades, Hablar con el Dispositivo y Funciones vitales. En cada una de estas secciones, el usuario contará con diversas acciones para interactuar y gestionar la seguridad de las personas monitoreadas.
