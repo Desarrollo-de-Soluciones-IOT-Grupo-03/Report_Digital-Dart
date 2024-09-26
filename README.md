@@ -2826,7 +2826,49 @@ Hemos creado wireframes para la landing page de **GuardianArea**, tanto en su ve
 
 Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=29-3923&t=rLy4RhyWq8BMkuhR-1 
 
-### 5.3.2. Landing Page Mock-up.
+### 5.3.2. Landing Page Mock-up
+
+#### Desktop Web Browser:
+
+- **Header:** El logotipo aparece en la esquina superior izquierda, con colores azul oscuro y blanco que contrastan claramente. El botón de "Ingresar" está a la derecha, visible y accesible.
+  
+- **Sección principal (Hero):** Presenta una imagen grande y de alta calidad que refuerza el mensaje de protección y tecnología avanzada, con botones de descarga de la aplicación en lugares estratégicos para captar la atención.
+
+- **Sección de características:** Tarjetas con íconos diseñados para una fácil navegación entre las principales funciones del producto, con colores y formas consistentes con el Design System de GuardianArea.
+
+- **Sección de planes y precios:** Tarjetas de planes alineadas con una jerarquía visual clara, donde los precios y beneficios están destacados. Botones de acción visibles y contrastantes.
+
+- **Sección de testimonios:** Tarjetas con testimonios de usuarios reales, cada uno en su propio espacio visual, generando confianza en el producto.
+
+- **Sección de contacto:** Presenta un diseño simple y directo, con campos de texto bien etiquetados y colores contrastantes que guían al usuario para completarlo de manera eficiente.
+
+- **Pie de página:** Enlaces a redes sociales y datos de contacto con iconografía que sigue los principios del Design System.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Mockup-landing-web.png"  width="60%" alt="Mockup web GuardianArea">
+</div>
+
+#### Mobile Web Browser:
+
+- **Header:** Logotipo y botón de "Ingresar".
+
+- **Sección principal (Hero):** Imagen adaptada al formato vertical con botones de acción grandes y visibles para facilitar la descarga de la aplicación desde cualquier dispositivo móvil.
+
+- **Sección de características:** Carrusel horizontal de íconos, permitiendo a los usuarios navegar fácilmente por las principales funcionalidades del producto.
+
+- **Sección de planes y precios:** Las tarjetas de los planes se presentan en formato vertical, con énfasis en los precios y beneficios clave, y botones de acción grandes para facilitar la interacción.
+
+- **Sección de testimonios:** Dispuestas de manera vertical, las tarjetas ocupan el espacio completo del móvil para asegurar legibilidad y claridad.
+
+- **Sección de contacto:** Campos de formulario ajustados a pantallas móviles, con botones de fácil acceso y optimizados para pantallas táctiles.
+
+- **Pie de página:** Enlaces de redes sociales y contacto dispuestos de manera compacta para optimizar el uso del espacio en pantallas más pequeñas.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Mockup-landing-mobile.png"  width="30%" alt="Mockup mobile GuardianArea">
+</div>
+
+Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
