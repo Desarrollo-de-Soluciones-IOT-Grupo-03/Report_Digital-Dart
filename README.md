@@ -891,16 +891,16 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
     <div align=center>
         <img src="./images/chapter-02/interviews/entrevista_natalia_larosa.jpg" alt="Entrevista 01"  width="90%"/>
     </div> 
-- Inicio: 14:48
-- Fin: 19:47
-- Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=QNUk9I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODg4LjV9fQ%3D%3D
-- Resumen de la entrevista: 
+- **Inicio:** 14:48
+- **Duración:** 4:59
+- **Enlace de entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=QNUk9I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODg4LjV9fQ%3D%3D
+- **Resumen de la entrevista:** 
 
-    Natalia La Rosa tiene 24 años y es egresada de la carrera de ingeniería biomédica. Ella cuida a su hermano pequeño regularmente. Se considera una persona muy introvertida, especialmente en situaciones que incluyen a extraños. Josué usa dispositivos tecnológicos ocasionalmente para rastrear su estudio, y para monitorear la cámara de su hogar, pero no utiliza tecnología como sensores de monitoreo para cuidar a su hermano.
+    Natalia La Rosa tiene 24 años y es egresada de la carrera de ingeniería biomédica. Ella cuida a su hermano pequeño regularmente y se considera una persona algo introvertida, especialmente en situaciones que incluyen a extraños. Natalia utiliza dispositivos tecnológicos ocasionalmente para sus estudios y para monitorear la cámara de su hogar, pero no utiliza tecnología como sensores de monitoreo para cuidar a su hermano ya que no conoce de algún dispositivo que le brinde lo que ella necesita.
 
-    José dijo que no tener a un adulto presente para cuidar de su hermano, ya que su madre está trabajando, es la razón por la que está realmente preocupado por su hermano. Opina que una aplicación que lleve a cabo la vigilancia con acciones a control remoto sería una buena manera de cuidar a su hermano en situaciones críticas, como verse obligado a quedarse solo en casa. Además, le gustaría poder controlar las cámaras desde más de un dispositivo y cree que un sistema que no solo le permita vigilar, sino también intervenir en caso de una emergencia sería de un valor inestimable para él.
+    Natalia expresó no tener en todo momento a un adulto presente para cuidar de su hermano, ya que sus padres trabajan la mayor parte del dia. Por esta razón, le preocupa que le pueda ocurrir algo a su hermano cuando está ocupada realizando otras actividades. Opina que una aplicación que lleve a cabo la vigilancia con acciones a control remoto sería una buena manera de cuidar a su hermano en situaciones críticas, como verse obligado a quedarse solo en casa. Además, le gustaría poder controlar las cámaras desde más de un dispositivo y cree que un sistema que no solo le permita vigilar, sino también intervenir en caso de una emergencia sería de un valor inestimable para ella.
 
-    José siente que una aplicación como GuardianArea sería lo que el doctor ordenó en su caso, ya que no solo le permitiría estar en paz a través de vigilar y proteger a su hermano de una manera más competente, sino también de estar mejor equipado para intervenir en caso de una emergencia.
+    Natalia comentó que su navegador favorito es Opera, utiliza un celular Galaxy S20 y su laptop es una Lenovo. Sus marcas favoritas son Samsung, Lenovo y Apple, que considera confiables y de alta calidad. Ella siente que una aplicación como GuardianArea sería ideal para su caso, ya que no solo le permitiría estar en paz al poder vigilar y proteger a su hermano de una manera más competente, sino también estar mejor equipada para intervenir en caso de una emergencia.
 
 **Entrevista 02**
 - Nombres: Angie Beverly
