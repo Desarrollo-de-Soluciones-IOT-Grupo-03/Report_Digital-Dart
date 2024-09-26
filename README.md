@@ -102,6 +102,46 @@
 * Link de la organización: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
 * Link del reporte: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Report_Digital-Dart
 
+**Entrega TB1**
+
+El grupo se congregó inicialmente en Discord para establecer las coordinaciones iniciales y, a partir de ahí, todas las sesiones de progreso y el desarrollo en sí se llevaron a cabo a través de esta plataforma.
+
+Evidencias de colaboración y commits - Github:
+
+* Commits del equipo
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/collaboration.PNG" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+* Commits por integrantes
+    * Castillo Robles, Steve Roger
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/steve_contribution_tb1.PNG" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Castro Soto, Diego Mauricio
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_c_contribution_tb1.PNG" alt="diego_c_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Espinoza Quispe, Jennifer Mary
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/jenn_contribution_tp.PNG" alt="jennifer_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Esquivel Aguayo, Diego Martin
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_u_contribution_tb1-1.PNG" alt="diego_u_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_u_contribution_tb1-2.PNG" alt="diego_u_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Quito Igreda, Cristian Andrés
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/cris_contribution_tb1.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
 **Entrega TP**
 
 Para optimizar la entrega del TP1, mantuvimos la estrategia de organizar reuniones mediante Discord, facilitando así la asignación eficiente de tareas para este proyecto. Además, establecimos un canal de comunicación a través de un chat grupal en Whatsapp, destinado a resolver dudas y realizar consultas, asegurando una interacción fluida y constante entre los miembros del equipo. Para garantizar un seguimiento detallado del avance de cada participante, implementamos un sistema de checklist que abarcó todas las responsabilidades asignadas, permitiendo una gestión clara y organizada del trabajo.
@@ -109,6 +149,9 @@ Para optimizar la entrega del TP1, mantuvimos la estrategia de organizar reunion
 Evidencias de colaboración y commits - Github:
 
 * Commits del equipo
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/collaboration.PNG" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
 
 * Commits por integrantes
     * Castillo Robles, Steve Roger
@@ -123,7 +166,7 @@ Evidencias de colaboración y commits - Github:
 
     * Espinoza Quispe, Jennifer Mary
     <div style="text-align: center;">
-        <img src="./images/chapter-01/cris_contribution_tp.PNG" alt="jennifer_contribution_tp" style="max-width: 800px; width: 95%">
+        <img src="./images/chapter-01/jenn_contribution_tp.PNG" alt="jennifer_contribution_tp" style="max-width: 800px; width: 95%">
     </div>
 
     * Esquivel Aguayo, Diego Martin
