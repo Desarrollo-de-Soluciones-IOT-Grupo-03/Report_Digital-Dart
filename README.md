@@ -2996,7 +2996,7 @@ El usuario selecciona "Crear geocerca" desde la pantalla de monitoreo. Define el
     <img src="./images/chapter-05/09-user-flow.png"  width="80%" alt="User Flow">
 </div>
 
--	UG10: Editar geocerca existente
+-	**UG10: Editar geocerca existente**
 El usuario selecciona la opción "Editar geocerca" desde el menú de configuración. En la pantalla de edición, ajusta el radio o cambia la ubicación de la geocerca creada previamente. Guarda los cambios y recibe una confirmación de que la configuración ha sido actualizada.
 <div style="text-align: center;">
     <img src="./images/chapter-05/10-user-flow.png"  width="80%" alt="User Flow">
