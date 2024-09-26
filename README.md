@@ -1302,111 +1302,18 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
 
 ### **User Stories**
 
-#### **User Story 01**
+| **Epic / Story**                          | **ID**  | **Título**                          | **Descripción**                                                                                                                                                                      | **Criterios de Aceptación**                                                                                                                                                                                                                                  | **Relacionado con (Epic ID)**    |
+|-------------------------------------------|---------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Monitoreo y Seguridad en Tiempo Real       | 01      | Visualización de Ubicación en Tiempo Real | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación.                                                 | **Scenario 01:** Ver Ubicación en Tiempo Real <br/> Dado que el cuidador ha configurado el dispositivo correctamente, <br/> Cuando accede a la aplicación, <br/> Entonces, el sistema permite visualizar la ubicación en tiempo real de la persona a cuidar en el mapa. <br/><br/> **Scenario 02:** Actualización en Tiempo Real <br/> Dado que la persona a cuidar está en movimiento, <br/> Cuando la ubicación cambia, <br/> Entonces, el sistema actualiza automáticamente la ubicación en el mapa.                                                                                                          | N/A                             |
+| Monitoreo y Seguridad en Tiempo Real       | 02      | Alerta de Salida de Zona Segura          | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.                                                                | **Scenario 01:** Recibir Notificación de Salida <br/> Dado que la persona a cuidar ha salido de la zona segura, <br/> Cuando la geo-cerca es cruzada, <br/> Entonces, el sistema envía una notificación al cuidador. <br/><br/> **Scenario 02:** Notificación Repetida <br/> Dado que la persona a cuidar permanece fuera de la geo-cerca, <br/> Cuando transcurren 2 minutos, <br/> Entonces, el sistema envía una segunda notificación al cuidador.                                                                                                   | N/A                             |
+| Configuración y Gestión de Geo-cercas      | 03      | Establecer Geo-cercas                    | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar.                                                                                | **Scenario 01:** Configurar Geo-cerca <br/> Dado que el cuidador necesita delimitar una zona segura, <br/> Cuando accede a la sección de geo-cercas, <br/> Entonces, el sistema permite dibujar un área en el mapa y guardarla como geo-cerca. <br/><br/> **Scenario 02:** Editar Geo-cerca Existente <br/> Dado que el cuidador necesita modificar los límites de una geo-cerca, <br/> Cuando selecciona una geo-cerca existente, <br/> Entonces, el sistema permite editar su tamaño y forma.                                                                                                  | N/A                             |
+| Comunicación y Control Remoto              | 04      | Comunicación Remota con el niño a cuidar | Como cuidador de un niño, quiero poder comunicarme con él a través del altavoz del dispositivo para darle instrucciones en caso de emergencia.                                          | **Scenario 01:** Enviar Mensaje de Voz <br/> Dado que el cuidador necesita comunicarse urgentemente, <br/> Cuando presiona el botón de altavoz en la aplicación, <br/> Entonces, el sistema permite grabar y enviar un mensaje de voz al dispositivo. <br/><br/> **Scenario 02:** Confirmación de Recepción <br/> Dado que el cuidador ha enviado un mensaje de voz, <br/> Cuando el dispositivo recibe el mensaje, <br/> Entonces, el sistema muestra una confirmación en la aplicación.                                                                 | N/A                             |
+| Monitoreo y Seguridad en Tiempo Real       | 05      | Activación de Alarmas en Situación de Peligro | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro, para llamar la atención de personas cercanas.                                 | **Scenario 01:** Activación Automática de Alarma <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta la salida, <br/> Entonces, el sistema activa la alarma sonora automáticamente. <br/><br/> **Scenario 02:** Desactivación Manual de Alarma <br/> Dado que el cuidador ha resuelto la situación, <br/> Cuando presiona el botón de desactivar en la aplicación, <br/> Entonces, el sistema apaga la alarma sonora de inmediato.                                                                                              | N/A                             |
+| Visualización de Historial                 | 06      | Monitoreo de Actividad Física             | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.                                                           | **Scenario 01:** Visualizar Actividad Física <br/> Dado que el cuidador accede a la pantalla principal de la aplicación, <br/> Cuando ingresa a la sección de historial de actividad física, <br/> Entonces, el sistema muestra un resumen de los movimientos y actividad física del día. <br/><br/> **Scenario 02:** Notificación de Inactividad <br/> Dado que el dispositivo detecta poca actividad física, <br/> Cuando el niño ha excedido el tiempo máximo de inactividad configurado en la aplicación, <br/> Entonces, el sistema envía una notificación al cuidador.                       | N/A                             |
+| Comunicación y Control Remoto              | 07      | Control de Dispositivos Externos          | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro para ayudarme a controlar la situación.         | **Scenario 01:** Activación de Luces Externas <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta este evento, <br/> Entonces, el sistema activa automáticamente las luces exteriores de la casa. <br/><br/> **Scenario 02:** Activación de Cámara de Seguridad <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta este evento, <br/> Entonces, el sistema activa la cámara de seguridad y comienza a grabar.                                                                                            | N/A                             |
+| Diagnóstico y Solución de Problemas del Dispositivo | 08 | Diagnóstico y Solución de Problemas del Dispositivo GuardianArea | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo a través de la aplicación para asegurar su correcto funcionamiento.                                           | **Scenario 01:** Diagnóstico Automático <br/> Dado que el dispositivo no está funcionando correctamente, <br/> Cuando el cuidador accede a la función de diagnóstico, <br/> Entonces, el sistema ejecuta un diagnóstico automático y genera un informe del estado del dispositivo. <br/><br/> **Scenario 02:** Solución de Problemas Guiada <br/> Dado que se ha identificado un problema, <br/> Cuando el cuidador accede a la función de solución de problemas, <br/> Entonces, el sistema ofrece instrucciones paso a paso para resolver el problema.                                     | N/A                             |
+| Visualización de Historial                 | 09      | Revisión del Historial de Eventos         | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad.                                                  | **Scenario 01:** Acceso al Historial de Eventos <br/> Dado que el cuidador necesita revisar eventos pasados, <br/> Cuando accede a la sección de historial, <br/> Entonces, el sistema permite visualizar una lista de todos los eventos y alertas anteriores. <br/><br/> **Scenario 02:** Filtrado del Historial <br/> Dado que el cuidador necesita encontrar eventos específicos, <br/> Cuando utiliza los filtros disponibles, <br/> Entonces, el sistema permite ver solo los eventos que cumplen con los criterios seleccionados.                                                 | N/A                             |
 
-| **Épica**                | **Monitoreo y Seguridad en Tiempo Real**     |
-|--------------------------|--------------------------------------------------|
-| **ID-HU**                | 01                                               |
-| **Owner**                | Diego Castro                                     |
-| **Título HU**            | Visualización de Ubicación en Tiempo Real        |
-| **Descripción:**         | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación. |
-| **Criterio de Aceptación:** | **Scenario 01:** Ver Ubicación en Tiempo Real <br/> Dado que he configurado el dispositivo correctamente, <br/> Cuando accedo a la aplicación, <br/> Entonces debería ver la ubicación en tiempo real de la persona a cuidar en el mapa. <br/><br/> **Scenario 02:** Actualización en Tiempo Real <br/> Dado que el niño o la persona con Alzheimer se está moviendo, <br/> Cuando la ubicación cambia, <br/> Entonces la aplicación debería actualizar la ubicación automáticamente. |
-
----
-
-#### **User Story 02**
-
-| **Épica**                | **Monitoreo y Seguridad en Tiempo Real**         |
-|--------------------------|--------------------------------------------------|
-| **ID-HU**                | 02                                               |
-| **Owner**                | Jennifer Espinoza                                    |
-| **Título HU**            | Alerta de Salida de Zona Segura                  |
-| **Descripción:**         | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente. |
-| **Criterio de Aceptación:** | **Scenario 01:** Recibir Notificación de Salida <br/> Dado que la persona a cuidar ha salido de la zona segura, <br/> Cuando la geo-cerca es cruzada, <br/> Entonces debería recibir una notificación en la aplicación móvil. <br/><br/> **Scenario 02:** Notificación Repetida <br/> Dado que la persona a cuidar permanece fuera de la geo-cerca, <br/> Cuando pasan 2 minutos, <br/> Entonces debería recibir una segunda notificación. |
-
----
-
-#### **User Story 03**
-
-| **Épica**                | **Configuración y Gestión de Geo-cercas**  |
-|--------------------------|--------------------------------------------------|
-| **ID-HU**                | 03                                               |
-| **Owner**                | Diego Esquivel                                     |
-| **Título HU**            | Establecer Geo-cercas                            |
-| **Descripción:**         | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar. |
-| **Criterio de Aceptación:** | **Scenario 01:** Configurar Geo-cerca <br/> Dado que deseo delimitar una zona segura, <br/> Cuando accedo a la sección de geo-cercas, <br/> Entonces debería poder dibujar un área en el mapa y guardarla como geo-cerca. <br/><br/> **Scenario 02:** Editar Geo-cerca Existente <br/> Dado que deseo cambiar los límites de una geo-cerca, <br/> Cuando selecciono una geo-cerca existente, <br/> Entonces debería poder editar su tamaño y forma. |
-
----
-
-#### **User Story 04**
-
-| **Épica**                | **Comunicación y Control Remoto** |
-|--------------------------|------------------------------------------------------|
-| **ID-HU**                | 04                                                   |
-| **Owner**                | Steve Castillo                                         |
-| **Título HU**            | Comunicación Remota con el niño a cuidar |
-| **Descripción:**         | Como cuidador de un niño, quiero poder comunicarme con él a través del altavoz del dispositivo para darle instrucciones en caso de emergencia. |
-| **Criterio de Aceptación:** | **Scenario 01:** Enviar Mensaje de Voz <br/> Dado que necesito comunicarme urgentemente, <br/> Cuando presiono el botón de altavoz en la aplicación, <br/> Entonces debería poder grabar y enviar un mensaje de voz al dispositivo. <br/><br/> **Scenario 02:** Confirmación de Recepción <br/> Dado que envié un mensaje de voz, <br/> Cuando el mensaje es recibido por el dispositivo, <br/> Entonces debería recibir una confirmación en la aplicación. |
-
----
-
-#### **User Story 05**
-
-| **Épica**                | **Monitoreo y Seguridad en Tiempo Real**      |
-|--------------------------|----------------------------------------------------|
-| **ID-HU**                | 05                                                 |
-| **Owner**                | Cristian Quito                                       |
-| **Título HU**            | Activación de Alarmas en Situación de Peligro      |
-| **Descripción:**         | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro, para llamar la atención de personas cercanas. |
-| **Criterio de Aceptación:** | **Scenario 01:** Activación Automática de Alarma <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando se detecta la salida, <br/> Entonces la alarma sonora instalada debería activarse automáticamente. <br/><br/> **Scenario 02:** Desactivación Manual de Alarma <br/> Dado que la situación ha sido resuelta, <br/> Cuando presiono el botón de desactivar en la aplicación, <br/> Entonces la alarma sonora debería apagarse inmediatamente. |
-
----
-
-#### **User Story 06**
-
-| **Épica**                | **Visualización de Historial**        |
-|--------------------------|----------------------------------------------------|
-| **ID-HU**                | 06                                                 |
-| **Owner**                | Diego Castro                                       |
-| **Título HU**            | Monitoreo de Actividad Física                      |
-| **Descripción:**         | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable. |
-| **Criterio de Aceptación:** | **Scenario 01:** Visualizar Actividad Física <br/> Dado que me encuentro en la pantalla principal de la aplicación, <br/> Cuando accedo a la sección de historial de actividad física, <br/> Entonces debería ver un resumen de los movimientos y actividad del día. <br/><br/> **Scenario 02:** Notificación de Inactividad <br/> Dado que el dispositivo detecta poca actividad, <br/> Cuando el niño ha superado el tiempo máximo de inactividad configurado en la aplicación, <br/> Entonces debería recibir una notificación para verificar la situación. |
-
----
-
-#### **User Story 07**
-
-| **Épica**                | **Comunicación y Control Remoto** |
-|--------------------------|----------------------------------------------------------|
-| **ID-HU**                | 07                                                       |
-| **Owner**                | Jennifer Espinoza                                             |
-| **Título HU**            | Control de Dispositivos Externos                         |
-| **Descripción:**         | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro para ayudarme a controlar la situación. |
-| **Criterio de Aceptación:** | **Scenario 01:** Activación de Luces Externas <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el evento es detectado, <br/> Entonces las luces exteriores de la casa deberían encenderse automáticamente. <br/><br/> **Scenario 02:** Activación de Cámara de Seguridad <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el evento es detectado, <br/> Entonces la cámara de seguridad debería activarse y comenzar a grabar. |
-
----
-
-#### **User Story 08**
-
-| **Épica**                | **Diagnóstico y Solución de Problemas del Dispositivo**           |
-|--------------------------|----------------------------------------------------|
-| **ID-HU**                | 08                                                 |
-| **Owner**                | Diego Esquivel                                       |
-| **Título HU**            | Diagnóstico y Solución de Problemas del Dispositivo GuardianArea       |
-| **Descripción:**         | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo a través de la aplicación para asegurar su correcto funcionamiento. |
-| **Criterio de Aceptación:** | **Scenario 01:** Diagnóstico Automático <br/> Dado que el dispositivo no está funcionando correctamente, <br/> Cuando accedo a la función de diagnóstico, <br/> Entonces debería poder ejecutar un diagnóstico automático y recibir un informe del estado del dispositivo. <br/><br/> **Scenario 02:** Solución de Problemas Guiada <br/> Dado que se ha identificado un problema, <br/> Cuando accedo a la función de solución de problemas, <br/> Entonces debería recibir instrucciones paso a paso para resolver el problema.|
-
----
-
-#### **User Story 09**
-
-| **Épica**                | **Visualización de Historial**          |
-|--------------------------|----------------------------------------------------|
-| **ID-HU**                | 09                                                 |
-| **Owner**                | Steve Castillo                                       |
-| **Título HU**            | Revisión del Historial de Eventos                  |
-| **Descripción:**         | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad. |
-| **Criterio de Aceptación:** | **Scenario 01:** Acceso al Historial de Eventos <br/> Dado que necesito revisar eventos pasados, <br/> Cuando accedo a la sección de historial, <br/> Entonces debería poder ver una lista de todos los eventos y alertas anteriores. <br/><br/> **Scenario 02:** Filtrado del Historial <br/> Dado que necesito encontrar eventos específicos, <br/> Cuando utilizo los filtros disponibles, <br/> Entonces debería poder ver solo los eventos que cumplen con los criterios seleccionados. |
 
 ---
 
