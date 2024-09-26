@@ -1000,13 +1000,23 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 ### 2.3.1. User Personas
 
+En esta sección, presentamos a los User Personas clave de **GuardianArea**, quienes representan segmentos fundamentales de nuestros usuarios. A través de estos perfiles, hemos capturado sus necesidades, motivaciones, frustraciones y características tecnológicas. Estas User Personas guiarán el diseño y desarrollo de nuestra solución, asegurando que abordamos adecuadamente los problemas y expectativas de nuestros usuarios objetivo.
+
 #### **User Persona 01: María López**
+
+María López es una cuidadora de 30 años que se encarga del bienestar de su madre, quien padece de Alzheimer. María trabaja desde casa, lo que le permite estar más presente, pero sus responsabilidades laborales a menudo limitan su capacidad de vigilar a su madre de manera constante. Es una persona organizada y empática, que busca una solución confiable para monitorear la seguridad de su madre.
+
+Entre sus principales objetivos se encuentra garantizar la seguridad de su familiar, recibir alertas en tiempo real cuando su madre salga de la zona segura y tener la tranquilidad de poder monitorearla a distancia. Utiliza navegadores como Chrome y Brave, y prefiere marcas como Samsung y Lenovo. Sus frustraciones incluyen la dificultad de no poder estar pendiente de su madre en todo momento y la falta de soluciones accesibles para su monitoreo.
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_persona_01.png" alt="María López" width="70%">
 </div>
 
 #### **User Persona 02: Carlos Pérez**
+
+Carlos Pérez, de 30 años, es ingeniero de sistemas y vive en un barrio seguro en Arequipa. Como padre de niños pequeños, su principal preocupación es la seguridad de sus hijos, especialmente cuando juegan en el parque o están bajo el cuidado de otros. Carlos es una persona analítica y organizada, acostumbrado al uso de herramientas tecnológicas, y busca una solución que le permita monitorear a sus hijos de forma efectiva sin comprometer su atención en otras tareas.
+
+Sus objetivos incluyen monitorear la ubicación de sus hijos y recibir alertas en tiempo real si salen de zonas seguras. Utiliza dispositivos de Samsung y Lenovo, además de navegadores como Chrome y Opera. Sus principales frustraciones están relacionadas con la falta de soluciones que ofrezcan geocercas personalizables y su constante preocupación por la seguridad de sus hijos.
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_persona_02.png" alt="Carlos Pérez" width="70%">
