@@ -52,31 +52,99 @@
         <th>Descripción de modificación</th>
     </tr>
     <tr>
-        <td rowspan="25">TB1</td>
-        <td rowspan="5">Mes/Año</td>
+        <td rowspan="5">TB1</td>
+        <td rowspan="5">Septiembre-2024</td>
         <td>Steve Roger Castillo Robles</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Desarrollo del Task Matrix, User Persona, Ubiquitous Language y Product backlog.</td>
     </tr>
     <tr>
         <td>Diego Mauricio Castro Soto</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Desarrollo de Bounded context Canvas.</td>
     </tr>
     <tr>
         <td>Jennifer Mary Espinoza Quispe</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Búsqueda, análisis y estrategias frente a competidores.</td>
     </tr>
     <tr>
         <td>Diego Martin Esquivel Aguayo</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Desarrollo del Capítulo I: Introducción y domain message flow modeling.</td>
     </tr>
     <tr>
         <td>Cristian Andrés Quito Igreda</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Desarrollo Registro de entrevistas, Empathy map, As Is escenario y Context Mapping</td>
+    </tr>
+    <tr>
+        <td rowspan="5">TP</td>
+        <td rowspan="5">Septiembre-2024</td>
+        <td>Steve Roger Castillo Robles</td>
+        <td>- Se realizó las correciones correspondientes. <br> - Contribución en el Landing Page y frontend. <br> - Desarrollo de Landing Page UI design </td>
+    </tr>
+    <tr>
+        <td>Diego Mauricio Castro Soto</td>
+        <td>- Se realizó las correciones correspondientes. <br>- Desarrollo de Software Configuration Management. <br> - Contribución en el Landing Page y frontend.</td>
+    </tr>
+    <tr>
+        <td>Jennifer Mary Espinoza Quispe</td>
+        <td>- Se realizó las correciones correspondientes.<br> - Desarrollo de User Flow diagram y application prototyping. <br> - Contribución en el Landing Page y frontend.</td>
+    </tr>
+    <tr>
+        <td>Diego Martin Esquivel Aguayo</td>
+        <td>- Se realizó las correciones correspondientes. <br> - Desarrollo de WireFlow y mock ups. <br> - Contribución en el Landing Page y frontend.</td>
+    </tr>
+    <tr>
+        <td>Cristian Andrés Quito Igreda</td>
+        <td>- Se realizó las correciones correspondientes. <br>- Contribución en el Landing Page y frontend.<br> - Se adicionó conclusiones y bibliografía. </td>
     </tr>
 </table>
 <br><br>
 
 # Project Report Collaboration Insights
+* Link de la organización: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
+* Link del reporte: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Report_Digital-Dart
+
+**Entrega TP**
+
+Para optimizar la entrega del TP1, mantuvimos la estrategia de organizar reuniones mediante Discord, facilitando así la asignación eficiente de tareas para este proyecto. Además, establecimos un canal de comunicación a través de un chat grupal en Whatsapp, destinado a resolver dudas y realizar consultas, asegurando una interacción fluida y constante entre los miembros del equipo. Para garantizar un seguimiento detallado del avance de cada participante, implementamos un sistema de checklist que abarcó todas las responsabilidades asignadas, permitiendo una gestión clara y organizada del trabajo.
+
+Evidencias de colaboración y commits - Github:
+
+* Commits del equipo
+
+* Commits por integrantes
+    * Castillo Robles, Steve Roger
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/steve_contribution_tp.PNG" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Castro Soto, Diego Mauricio
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_c_contribution_tp.PNG" alt="diego_c_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Espinoza Quispe, Jennifer Mary
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/cris_contribution_tp.PNG" alt="jennifer_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Esquivel Aguayo, Diego Martin
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_u_contribution_tp.PNG" alt="diego_u_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Quito Igreda, Cristian Andrés
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/cris_contribution_tp.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+* Evidencias de colaboracion: Otras herramientas
+    * Notion: Para monitorear avance y asignación de tareas.
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/notion2.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/notion.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
 
 <br>
 
@@ -824,7 +892,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
     Aldo expresó sus principales preocupaciones respecto al bienestar de su abuelo, que incluyen la confusión, desorientación y el riesgo de que se escape de casa, además de la necesidad constante de asistencia para sus necesidades básicas. Estos factores le generan mucho estrés en su día a día.
 
-    Un sistema de monitoreo en tiempo real le resultaría muy útil, especialmente uno que pueda alertarlo si su abuelo sale de los límites de su hogar, facilitando su búsqueda en caso de que se pierda.
+    Un sistema de monitoreo en tiempo real le resultaría muy útil, especialmente uno que pueda alertarlo si su abuelo sale de los límites de su hogar, facilitando su búsqueda en caso de que se pierda. Destaco que el sistema pudiera ser utilizado en diversas plataformas, pues recurrentemente accede por el navegador Firefox, tanto en su celular Redmi note 13 como en su laptop Lenovo ThinkPad. 
 
     Aldo comparte la responsabilidad del cuidado de su abuelo con una prima, turnándose los fines de semana y durante la semana. Entre sus tareas diarias destacan alimentarlo, bañarlo y mantenerlo entretenido mediante la conversación.
 
@@ -852,7 +920,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
   Adrián ha estado en esta situación durante aproximadamente cuatro meses, desde que la condición de su abuela se agravó. Aunque lo encuentra desafiante, está dispuesto a adaptarse y explorar nuevas soluciones que puedan mejorar la calidad de vida de su abuela y reducir el estrés del cuidado.
 
-  Finalmente, Adrián considera que un sistema de geo-cerca sería una solución ideal para monitorear a su abuela. Además, sugiere que la inclusión de una cámara que se active al recibir una alarma ayudaría a verificar si su abuela está en peligro, brindando una mayor sensación de seguridad y tranquilidad.
+  Finalmente, Adrián considera que un sistema de geo-cerca sería una solución ideal para monitorear a su abuela. Además, sugiere que la inclusión de una cámara que se active al recibir una alarma ayudaría a verificar si su abuela está en peligro, brindando una mayor sensación de seguridad y tranquilidad. Además, Destaco que el sistema pudiera ser utilizado en diversas plataformas, pues recurrentemente accede por el navegador Firefox, tanto en su celular Redmi note 13 como en su laptop HP Pavilion. 
 
 **Entrevista 03**
 - Nombres: Piero Alessandro
