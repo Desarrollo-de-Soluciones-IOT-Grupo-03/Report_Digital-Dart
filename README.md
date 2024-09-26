@@ -2872,8 +2872,44 @@ Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
+
+En esta sección, hemos colaborado para crear wireframes que actúan como una representación visual detallada de la estructura y diseño de las interfaces de usuario de **GuardianArea**. Estos wireframes se han desarrollado con el objetivo de traducir los requisitos funcionales y las especificaciones del proyecto en diagramas gráficos claros y organizados. A través de este enfoque, se presenta una visión estructurada de cómo los usuarios interactuarán con la aplicación, tanto en su versión web como móvil.
+
+#### Desktop Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/app-wireframes.png"  width="80%" alt="Wireframes web GuardianArea">
+</div>
+
+Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
+
+#### Mobile Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/app-wireframes-mobile.png"  width="80%" alt="Wireframes mobile GuardianArea">
+</div>
+
+Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
+
 ### 5.4.2. Applications Wireflow Diagrams.
+
 ### 5.4.3. Applications Mock-ups.
+
+En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que representan visualmente el aspecto y la experiencia de nuestras interfaces de usuario. A través de este proceso, hemos transformado las ideas y especificaciones del proyecto en representaciones visuales detalladas y precisas que muestran cómo será la versión final de la aplicación.
+
+#### Desktop Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/app-mockup-web.png"  width="80%" alt="Mockup web GuardianArea">
+</div>
+
+#### Mobile Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/app-mockup-mobile.png"  width="80%" alt="Mockup mobile GuardianArea">
+</div>
+
+
 ### 5.4.4. Applications User Flow Diagrams.
 
 ## 5.5. Applications Prototyping.
