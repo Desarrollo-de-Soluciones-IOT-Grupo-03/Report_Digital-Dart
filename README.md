@@ -1014,178 +1014,83 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 ### 2.3.2. User Task Matrix
 
-<table align="center" border="1" width="90%" style="text-align:center;">
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>User Persona</b>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>María López</b> </br>Segmento Objetivo 01 (Cuidadora de personas con Alzheimer)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Task</b>
-        </td>
-        <td>
-            <b>Frequency</b>
-        </td>
-        <td>
-            <b>Importance</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Establecer geocercas de seguridad
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Monitorear ubicación en tiempo real
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Recibir notificaciones de salida de geocerca
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Revisar historial de actividad
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Gestionar sincronización del dispositivo
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Recibir alertas de batería baja del dispositivo
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
+Este User Task Matrix identifica y organiza las tareas esenciales que realizan nuestros segmentos principales: cuidadores de personas con Alzheimer y familiares de niños pequeños. Cada tarea listada es una acción que los segmentos necesitan llevar a cabo regularmente para alcanzar sus objetivos diarios, sin importar si usan herramientas tecnológicas o no. En las siguientes columnas, se asignan una frecuencia y una importancia a estas tareas para cada **User Persona**, lo que nos ayuda a entender mejor sus prioridades y cómo nuestro servicio puede facilitar estas actividades cotidianas.
+
+<table>
+  <tr>
+    <th>Tarea</th>
+    <th colspan="2">Cuidadores de personas con Alzheimer (María López)</th>
+    <th colspan="2">Familiares de niños pequeños (Carlos Pérez)</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Supervisar ubicación del ser querido</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Asegurarse de que no salga de una zona segura</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Coordinar con otros cuidadores</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Revisar o registrar incidentes importantes</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Baja</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+    <td>Comunicarse con el ser querido</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Verificar que dispositivos de monitoreo funcionen</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Estar alerta sobre emergencias</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
 </table>
 
-<table align="center" border="1" width="90%" style="text-align:center;">
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>User Persona</b>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>Carlos Pérez</b> </br>Segmento Objetivo 02 (Familiar de niños pequeños)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Task</b>
-        </td>
-        <td>
-            <b>Frequency</b>
-        </td>
-        <td>
-            <b>Importance</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Establecer geocercas de seguridad
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Monitorear ubicación en tiempo real
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Recibir notificaciones de salida de geocerca
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Revisar historial de actividad
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Recibir alertas de batería baja del dispositivo
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-</table>
+**Leyenda**:
+
+- **Frecuencia**:
+  - **Alta**: Tarea realizada diariamente o en cada interacción con el ser querido.
+  - **Media**: Tarea realizada con frecuencia, pero no necesariamente cada día.
+  - **Baja**: Tarea realizada ocasionalmente o a demanda.
+
+- **Importancia**:
+  - **Alta**: Tarea crucial que impacta directamente en la seguridad y bienestar del ser querido.
+  - **Media**: Tarea importante que tiene un impacto significativo en la tranquilidad y eficiencia del cuidador.
+  - **Baja**: Tarea de menor impacto en la rutina diaria, pero aún relevante para mantener un cuidado adecuado.
 
 ### 2.3.3. User Journey Mapping
 
