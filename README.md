@@ -2790,6 +2790,42 @@ Nuestra propuesta para la landing page de **GuardianArea** se basa en los princi
 - **Botones:** Los botones de acción están claramente definidos, con colores contrastantes y visibles, lo que facilita su identificación y uso. Los botones como "Obtener Plan" y "Ingresar" están diseñados para atraer la atención del usuario.
 
 ### 5.3.1. Landing Page Wireframe.
+
+Hemos creado wireframes para la landing page de **GuardianArea**, tanto en su versión para desktop como para mobile, siguiendo los principios de arquitectura de información y asegurando un flujo claro y accesible para los usuarios.
+
+#### Desktop Web Browser:
+
+1. **Header**: Incluye el logotipo de la marca a la izquierda, con un menú de navegación visible y el botón de ingreso en la esquina derecha.
+2. **Sección Principal (Hero)**: Presenta una imagen de fondo que refleja la propuesta de valor de GuardianArea, con el título y subtítulo centrados y botones de descarga de la app en App Store y Google Play.
+3. **Sección de Características**: Muestra un carrusel que presenta las principales funcionalidades del producto, como la configuración de geo-cercas y el monitoreo en tiempo real.
+4. **Sección de Planes y Precios**: Tarjetas claras que destacan los distintos planes disponibles (básico, estándar y premium), con un énfasis visual en los precios y beneficios clave.
+5. **Testimonios de Usuarios**: Se presentan en tarjetas flotantes que muestran reseñas de clientes reales, ayudando a construir confianza en el producto.
+6. **Formulario de Contacto**: Formulario sencillo para que los usuarios puedan enviar preguntas o solicitar información adicional.
+7. **Pie de Página**: Información de contacto, enlaces, y redes sociales.
+
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Wireframe Landing.png"  width="60%" alt="wireframe web GuardianArea">
+</div>
+
+---
+
+#### Mobile Web Browser:
+
+1. **Header**: Logotipo de la marca.
+2. **Sección Principal (Hero)**: Adaptada a dispositivos móviles, con la imagen principal ajustada al formato vertical y los botones de descarga bien visibles.
+3. **Sección de Características**: Carrusel de funcionalidades clave en un formato horizontal, permitiendo que el usuario deslice para explorar las características.
+4. **Sección de Planes y Precios**: Tarjetas adaptadas al formato vertical con botones de llamada a la acción accesibles.
+5. **Testimonios**: Presentados en tarjetas que ocupan todo el ancho de la pantalla, optimizando el espacio en pantallas más pequeñas.
+6. **Formulario de Contacto**: Simplificado para facilitar la interacción en pantallas táctiles, con botones grandes y claros.
+7. **Pie de Página**: Enlaces de redes sociales y contacto con un diseño minimalista para dispositivos móviles.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Wireframe Landing Mobile.png"  width="30%" alt="wireframe mobile GuardianArea">
+</div>
+
+Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=29-3923&t=rLy4RhyWq8BMkuhR-1 
+
 ### 5.3.2. Landing Page Mock-up.
 
 ## 5.4. Applications UX/UI Design.
