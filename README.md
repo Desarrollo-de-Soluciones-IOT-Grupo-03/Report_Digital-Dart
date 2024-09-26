@@ -2516,6 +2516,55 @@ El diagrama de diseño de la base de datos para el Bounded Context de Configurac
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
 ### 5.1.1. General Style Guidelines.
+
+#### **Colors:**
+
+En **GuardianArea** nos centramos en el uso de colores que transmitan seriedad, confianza y profesionalismo a través de una paleta de colores. La combinación de tonos azules y grises nos permite reflejar seguridad, a su vez que el uso de los colores de acción nos permite resaltar elementos importantes en la interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Colors.png"  width="80%" alt="Colores GuardianArea">
+</div>
+
+#### **Typography:**
+
+Para **GuardianArea**, la tipografía juega un papel fundamental para mantener la claridad y la jerarquía visual en nuestras interfaces. Por eso, hemos seleccionado la familia tipográfica **Roboto**, que proporciona un equilibrio entre modernidad, simplicidad y legibilidad. A continuación, se detallan los tamaños, pesos y estilos utilizados tanto para escritorio como para dispositivos móviles.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Typography.png"  width="80%" alt="Tipografía GuardianArea">
+</div>
+
+#### **Iconography:**
+
+La iconografía en **GuardianArea** es esencial para una buena experiencia de usuario, proporcionando claridad visual y mejorando la navegación a través de símbolos intuitivos y reconocibles. Los íconos utilizados son minimalistas, de líneas simples y sin rellenos innecesarios, lo que contribuye a una interfaz limpia y moderna. A continuación veremos los íconos presentes en nuestra interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Iconography.png"  width="80%" alt="Iconografía GuardianArea">
+</div>
+
+#### **Spacing:**
+
+El espaciado en **GuardianArea** es fundamental para garantizar una experiencia de usuario clara y ordenada. Se utilizan múltiples niveles de espaciado en toda la interfaz para asegurar una jerarquía visual efectiva. A continuación, se detallan los espacios utilizados en nuestra interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Spacing.png"  width="80%" alt="Espaciado GuardianArea">
+</div>
+
+#### **Buttons:**
+
+Los botones en **GuardianArea** están diseñados para ofrecer una experiencia de usuario intuitiva y consistente en toda la plataforma. Estos botones se presentan en varios tamaños y estilos para adaptarse a diferentes contextos y acciones dentro de la interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Buttons.png"  width="80%" alt="Botones GuardianArea">
+</div>
+
+#### **Breakpoints:**
+
+En **GuardianArea** nos aseguramos de que nuestra interfaz sea completamente receptiva y se adapte a diferentes tamaños de pantalla. A continuación, se detallan los puntos de interrupción utilizados en nuestra interfaz.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/Breakpoints.png"  width="80%" alt="Puntos de interrupción GuardianArea">
+</div>
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
 ## 5.2. Information Architecture
