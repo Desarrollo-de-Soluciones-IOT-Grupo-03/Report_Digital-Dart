@@ -1285,6 +1285,8 @@ Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea s
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
+A continuación, se presenta el diagrama del proceso To-Be, que ilustra la solución propuesta para el monitoreo y cuidado de niños o personas con Alzheimer. Este modelo describe de manera visual cómo la aplicación móvil y el dispositivo IoT trabajan en conjunto para mejorar la seguridad y comunicación entre el cuidador y la persona a cuidar. A través de la configuración de geo-cercas, alertas automáticas, y un historial detallado de actividades, se busca optimizar el cuidado y la tranquilidad tanto para el cuidador como para la persona monitoreada.
+
 **Segmento: Cuidadores de Personas con Alzheimer**
 <div style="text-align: center;">
     <img src="./images/chapter-03/to-be-alzheimer.png" alt="To-Be Alzheimer" style="max-width: 800px; width: 95%">
