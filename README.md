@@ -1840,104 +1840,177 @@ Aislar los core capabilities en User Account y mover capacidades secundarias a u
     <img src="./images/chapter-04/container_diagram.png" alt="Container Level Diagrams" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.1. Bounded Context: Monitoring
-
-En el contexto del bounded context de **Monitoring** para pulseras usadas por niños y personas con Alzheimer, se centra en la gestión y coordinación de la supervisión de datos generados por sensores. El propósito de este contexto es monitorear la ubicación, el ritmo cardíaco y la detección de caídas, alertando a los cuidadores ante eventos críticos como la salida de una zona segura o la detección de caídas.
+### 4.2.1. Bounded Context: Monitoring Bounded Context
 
 #### 4.2.1.1. Domain Layer
 
-En la capa de Dominio, el contexto de **Sensors Monitorization** se modela como el **aggregate** que gestiona los datos de los sensores de la pulsera, tales como GPS, acelerómetro y el sensor de ritmo cardíaco.
+Esta capa se encarga de definir las entidades, objetos de valor y agregados que representan los conceptos fundamentales del dominio de monitoreo.
 
-| **Aggregate**        | **Categoría**         | **Propósito**                                                             |
-|----------------------|-----------------------|---------------------------------------------------------------------------|
-| Sensors Monitorization | Entity/Aggregate      | Agrupa los datos monitoreados por los sensores de la pulsera (ubicación, caídas, ritmo cardíaco). |
+**Entities:**
 
-##### Atributos
+- **Sensor:** Clase que representa un sensor IoT que recoge datos sobre el estado del entorno.
+- **MonitoringDevice:** Clase que representa un dispositivo que monitoriza diferentes parámetros de salud, seguridad, etc.
+- **Alert:** Clase que representa una alerta generada en base a los datos recogidos por los sensores.
+- **MonitoringReport:** Clase que representa un informe generado a partir de los datos de los sensores.
 
-| **Nombre**           | **Tipo de dato**       | **Visibilidad**  | **Descripción**                                                          |
-|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
-| id                   | Long                   | Private          | Identificador único de la monitorización                                  |
-| gpsCoordinates       | String                 | Private          | Coordenadas GPS actuales del portador                                     |
-| heartRate            | Integer                | Private          | Última medición del ritmo cardíaco                                        |
-| accelerometerData    | String                 | Private          | Datos del acelerómetro (orientación, velocidad)                           |
-| eventHistory         | Set                    | Private          | Historial de eventos generados por la pulsera                             |
+**Value Objects:**
 
-##### Métodos
+- **SensorId:** Identificador único del sensor.
+- **Temperature:** Valor de temperatura registrado por un sensor.
+- **Humidity:** Valor de humedad registrado por un sensor.
+- **Timestamp:** Marca de tiempo de cuando se registró el dato.
+- **AlertType:** Tipo de alerta (por ejemplo, temperatura alta, humedad baja).
+- **Location:** Ubicación física del sensor o dispositivo.
 
-| **Nombre**           | **Tipo de retorno**     | **Visibilidad**  | **Descripción**                                                          |
-|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
-| leaveSafeZone        | Void                   | Public           | Acción que ocurre cuando el portador sale de una zona segura              |
-| processAccelerometerData | Void               | Public           | Procesa los datos del acelerómetro para detectar caídas                   |
-| monitorHeartRate     | Void                   | Public           | Monitorea el ritmo cardíaco en tiempo real                                |
+**Aggregates:**
+
+- **MonitoringAggregate:** Encargado de manejar los eventos relacionados con la recopilación y análisis de datos de monitoreo.
+
+**Repository Interfaces:**
+
+- **ISensorRepository:** Interface que define métodos para gestionar los sensores.
+  - `Sensor GetById(SensorId id)`: Recupera un sensor por su identificador.
+  - `void Add(Sensor sensor)`: Agrega un nuevo sensor.
+  - `void Update(Sensor sensor)`: Actualiza un sensor existente.
+
+- **IMonitoringDeviceRepository:** Interface para gestionar dispositivos de monitoreo.
+  - `MonitoringDevice GetById(Guid id)`: Recupera un dispositivo de monitoreo por su identificador.
+  - `void Add(MonitoringDevice device)`: Agrega un nuevo dispositivo de monitoreo.
+  - `void Update(MonitoringDevice device)`: Actualiza un dispositivo existente.
+
+- **IAlertRepository:** Interface para gestionar alertas.
+  - `Alert GetById(Guid id)`: Recupera una alerta por su identificador.
+  - `void Add(Alert alert)`: Agrega una nueva alerta.
+  - `void Acknowledge(Guid id)`: Marca una alerta como reconocida.
+
+- **IMonitoringReportRepository:** Interface para gestionar informes de monitoreo.
+  - `MonitoringReport GetById(Guid id)`: Recupera un informe de monitoreo por su identificador.
+  - `void Add(MonitoringReport report)`: Agrega un nuevo informe.
+
 
 #### 4.2.1.2. Interface Layer
 
-En el contexto de Monitoring, la capa de Interfaz facilita la comunicación entre el sistema y los cuidadores. Los controladores permiten el acceso a los datos críticos y las alertas generadas por la pulsera, como la ubicación actual, ritmo cardíaco, y las notificaciones de caídas.
+Esta capa expone los controladores que permiten la interacción con las entidades del dominio a través de solicitudes HTTP.
 
-| **Controller**       | **Categoría**           | **Propósito**                                                             |
-|----------------------|-------------------------|---------------------------------------------------------------------------|
-| MonitoringController | Controller              | Controlador encargado de la interacción entre los datos de monitoreo y la interfaz para cuidadores |
+**SensorController:** Controlador encargado de realizar peticiones HTTPS relacionadas con los sensores.
+  - `GetSensor(SensorId id)`: Obtiene información de un sensor específico.
+  - `RegisterSensor(Sensor sensor)`: Registra un nuevo sensor.
 
-##### Atributos
+**MonitoringDeviceController:** Controlador encargado de gestionar los dispositivos de monitoreo.
+  - `GetDevice(Guid id)`: Obtiene información de un dispositivo de monitoreo.
+  - `RegisterDevice(MonitoringDevice device)`: Registra un nuevo dispositivo de monitoreo.
 
-| **Nombre**           | **Tipo de dato**        | **Visibilidad**  | **Descripción**                                                          |
-|----------------------|-------------------------|------------------|--------------------------------------------------------------------------|
-| monitoringService    | MonitoringService       | Private          | Servicio para la monitorización de la pulsera                             |
-| mapper               | MonitoringMapper        | Private          | Mapper para transformar los datos entre la entidad y la vista             |
+**AlertController:** Controlador encargado de gestionar las alertas generadas.
+  - `GetAlert(Guid id)`: Obtiene información de una alerta.
+  - `AcknowledgeAlert(Guid id)`: Reconoce una alerta específica.
 
-##### Métodos
+**MonitoringReportController:** Controlador encargado de realizar peticiones HTTPS para los informes de monitoreo.
+  - `GetReport(Guid id)`: Obtiene un informe de monitoreo.
+  - `GenerateReport(MonitoringReport report)`: Genera un nuevo informe de monitoreo.
 
-| **Nombre**           | **Tipo de retorno**     | **Visibilidad**  | **Descripción**                                                          |
-|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
-| Constructor          | Void                   | Public           | Constructor del controlador                                               |
-| getLocationStatus    | String                 | Public           | Obtener el estado actual de la ubicación del portador                     |
-| getHeartRate         | Integer                | Public           | Obtener la última medición del ritmo cardíaco                             |
-| processFallDetection | Void                   | Public           | Procesar y enviar alertas de caídas                                       |
 
 #### 4.2.1.3. Application Layer
 
-La capa de Aplicación se encarga de gestionar la lógica empresarial y la funcionalidad específica de la supervisión, como el seguimiento de la ubicación, la detección de caídas, y el monitoreo del ritmo cardíaco. Actúa como intermediaria entre la capa de Interfaz y la capa de Dominio.
+Esta capa maneja la lógica de negocio y las interacciones entre los comandos y eventos, así como los servicios de aplicación.
 
-| **Service**          | **Categoría**           | **Propósito**                                                             |
-|----------------------|-------------------------|---------------------------------------------------------------------------|
-| MonitoringService    | Service                 | Servicio con la lógica de monitoreo de los sensores de la pulsera          |
+**CommandHandler:**
 
-##### Atributos
+- **SensorCommandHandler:**
+  - `RegisterSensorCommand`: Registra un nuevo sensor en el sistema.
+  - `UpdateSensorDataCommand`: Actualiza los datos de un sensor existente.
 
-| **Nombre**           | **Tipo de dato**        | **Visibilidad**  | **Descripción**                                                          |
-|----------------------|-------------------------|------------------|--------------------------------------------------------------------------|
-| sensorRepository     | SensorRepository        | Private          | Repositorio para los datos de los sensores                               |
-| alertService         | AlertService            | Private          | Servicio para el envío de alertas                                         |
+- **MonitoringDeviceCommandHandler:**
+  - `RegisterMonitoringDeviceCommand`: Registra un nuevo dispositivo de monitoreo.
+  - `UpdateMonitoringDeviceCommand`: Actualiza la información de un dispositivo existente.
 
-##### Métodos
+- **AlertCommandHandler:**
+  - `CreateAlertCommand`: Crea una nueva alerta cuando se detecta un evento crítico.
+  - `AcknowledgeAlertCommand`: Marca una alerta como reconocida en el sistema.
 
-| **Nombre**           | **Tipo de retorno**     | **Visibilidad**  | **Descripción**                                                          |
-|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
-| trackLocation        | String                 | Public           | Rastrea la ubicación del portador y detecta si sale de la zona segura     |
-| monitorHeartRate     | Integer                | Public           | Monitorea el ritmo cardíaco y envía alertas en caso de anomalías          |
-| detectFall           | Void                   | Public           | Procesa los datos del acelerómetro para detectar caídas                   |
+- **MonitoringReportCommandHandler:**
+  - `GenerateMonitoringReportCommand`: Genera un informe basado en los datos de monitoreo registrados.
+
+**EventHandler:**
+
+- **SensorEventHandler:**
+  - `SensorRegisteredEvent`: Se dispara cuando un nuevo sensor ha sido registrado.
+  - `SensorDataUpdatedEvent`: Se dispara cuando los datos de un sensor se actualizan.
+
+- **MonitoringDeviceEventHandler:**
+  - `MonitoringDeviceRegisteredEvent`: Se dispara cuando un nuevo dispositivo de monitoreo es registrado.
+  - `MonitoringDeviceUpdatedEvent`: Se dispara cuando un dispositivo de monitoreo es actualizado.
+
+- **AlertEventHandler:**
+  - `AlertCreatedEvent`: Se dispara cuando se crea una nueva alerta.
+  - `AlertAcknowledgedEvent`: Se dispara cuando una alerta ha sido reconocida.
+
+- **MonitoringReportEventHandler:**
+  - `MonitoringReportGeneratedEvent`: Se dispara cuando se genera un nuevo informe de monitoreo.
+
+**Services:**
+
+- **SensorService:**
+  - `Sensor GetSensorById(SensorId id)`: Recupera un sensor por su identificador llamando al `ISensorRepository`.
+  - `void RegisterSensor(Sensor sensor)`: Registra un nuevo sensor a través del `ISensorRepository`.
+  - `void UpdateSensor(Sensor sensor)`: Actualiza un sensor existente mediante el `ISensorRepository`.
+
+- **MonitoringDeviceService:**
+  - `MonitoringDevice GetDeviceById(Guid id)`: Recupera un dispositivo de monitoreo por su identificador utilizando el `IMonitoringDeviceRepository`.
+  - `void RegisterMonitoringDevice(MonitoringDevice device)`: Agrega un nuevo dispositivo de monitoreo con el `IMonitoringDeviceRepository`.
+  - `void UpdateMonitoringDevice(MonitoringDevice device)`: Actualiza la información de un dispositivo existente llamando al `IMonitoringDeviceRepository`.
+
+- **AlertService:**
+  - `Alert GetAlertById(Guid id)`: Recupera una alerta por su identificador a través del `IAlertRepository`.
+  - `void CreateAlert(Alert alert)`: Crea una nueva alerta usando el `IAlertRepository`.
+  - `void AcknowledgeAlert(Guid id)`: Marca una alerta como reconocida mediante el `IAlertRepository`.
+
+- **MonitoringReportService:**
+  - `MonitoringReport GetReportById(Guid id)`: Recupera un informe de monitoreo por su identificador utilizando el `IMonitoringReportRepository`.
+  - `void GenerateReport(MonitoringReport report)`: Genera un nuevo informe de monitoreo a través del `IMonitoringReportRepository`.
 
 #### 4.2.1.4. Infrastructure Layer
 
-La capa de Infraestructura se encarga de la persistencia de los datos generados por los sensores de la pulsera. Es responsable del almacenamiento de la información relacionada con las coordenadas GPS, las mediciones de ritmo cardíaco y los eventos de caídas, así como del envío de notificaciones a los cuidadores.
+Esta capa se encarga de la persistencia de datos y las interacciones con servicios externos.
 
-| **Repository**       | **Categoría**           | **Propósito**                                                             |
-|----------------------|-------------------------|---------------------------------------------------------------------------|
-| SensorRepository     | Repository              | Repositorio que almacena los datos de los sensores (GPS, acelerómetro, ritmo cardíaco) |
-| AlertRepository      | Repository              | Repositorio que guarda las alertas generadas por los eventos              |
+- **SensorRepository:** Implementación de `ISensorRepository`, maneja la persistencia de los sensores.
+  - Recupera sensores de la base de datos, agrega nuevos sensores y actualiza los existentes.
 
-##### Métodos
+- **MonitoringDeviceRepository:** Implementación de `IMonitoringDeviceRepository`, maneja la persistencia de dispositivos de monitoreo.
+  - Realiza operaciones CRUD en dispositivos de monitoreo en la base de datos.
 
-| **Nombre**           | **Tipo de retorno**     | **Visibilidad**  | **Descripción**                                                          |
-|----------------------|------------------------|------------------|--------------------------------------------------------------------------|
-| findByCoordinates    | SensorData             | Public           | Devuelve los datos del sensor según las coordenadas GPS                  |
-| findByHeartRate      | SensorData             | Public           | Devuelve los datos del sensor según el ritmo cardíaco                    |
-| findAlertsByEvent    | Alert                  | Public           | Devuelve las alertas generadas por un evento en particular               |
+- **AlertRepository:** Implementación de `IAlertRepository`, maneja la persistencia de alertas.
+  - Administra las alertas, permitiendo crear nuevas y reconocer alertas existentes.
+
+- **MonitoringReportRepository:** Implementación de `IMonitoringReportRepository`, maneja la persistencia de informes de monitoreo.
+  - Gestiona la creación y recuperación de informes en la base de datos.
+
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
+A continuación, se muestra el diagrama de componentes C4 para el Bounded Context de Monitoring, que incluye los controladores, servicios, repositorios y entidades clave del dominio.
+
 <div style="text-align: center;">
     <img src="./images/chapter-04/monitoring-component.png" alt="Monitoring Component" style="max-width: 800px; width: 95%">
+</div>
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección, se presentan el diagrama de clases UML y el diseño de la base de datos para el Bounded Context de Monitoring.
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases UML del bounded context de Monitoring muestra las entidades, objetos de valor y agregados clave del dominio, así como sus relaciones y atributos.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/monitoring-classs-uml.png" alt="Monitoring DB Diagram" style="max-width: 800px; width: 95%">
+</div>
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+En el diagrama de diseño de la base de datos para el bounded context de Monitoring, se muestran las tablas y relaciones necesarias para almacenar y gestionar los datos del dominio.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/monitoring-db-diagram.png" alt="Monitoring DB Diagram" style="max-width: 800px; width: 95%">
 </div>
 
 ### 4.2.2. Bounded Context: User Account
