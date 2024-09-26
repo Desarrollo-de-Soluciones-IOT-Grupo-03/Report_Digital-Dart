@@ -2939,6 +2939,68 @@ En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que re
 
 
 ### 5.4.4. Applications User Flow Diagrams.
+En esta sección, presentamos los diagramas de flujo de usuario de **GuardianArea** para Mobile, que representan visualmente los caminos y acciones que los usuarios seguirán al interactuar con la aplicación. Estos diagramas proporcionan una guía clara y detallada de cómo los usuarios navegarán por las diferentes secciones y funciones de la aplicación, asegurando una experiencia de usuario coherente y efectiva.
+
+-	**UG01: Registrar usuario en la aplicación GuardianArea**
+Después de abrir la aplicación, el usuario selecciona la opción "Registrarse". Completa el formulario de registro ingresando su nombre, correo electrónico y creando una contraseña. Confirma el registro y recibe un enlace por correo electrónico para la verificación. Tras la verificación, el usuario accede a la pantalla principal donde puede comenzar a utilizar la aplicación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/01-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-   **UG02: Iniciar sesión en GuardianArea**
+El usuario selecciona la opción "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña. Luego de verificar las credenciales, el usuario accede a la pantalla principal de la aplicación donde puede gestionar todas las funcionalidades.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/02-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG03: Recuperar acceso a la cuenta**
+En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?". Ingresa su correo electrónico y recibe un enlace para restablecer su contraseña. Al hacer clic en el enlace, es redirigido a una página donde puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/03-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+- **UG04: Editar perfil de usuario**
+El usuario accede al menú de configuración y selecciona la opción "Editar perfil". Aquí puede modificar su información personal, como nombre, correo electrónico y número de teléfono, además de actualizar su foto de perfil. Guarda los cambios y recibe una confirmación de que el perfil ha sido actualizado.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/04-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+- **UG05: Ver mapa en tiempo real de monitoreo**
+El usuario selecciona la opción "Mapa en tiempo real" desde el menú principal. En el mapa, puede observar la ubicación actual de la persona monitoreada, así como las zonas seguras configuradas (geocercas). Si la persona sale de la zona segura, se muestra una alerta en tiempo real con notificaciones visuales y sonoras.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/05-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG06: Revisar historial de actividades**
+El usuario navega al menú principal y selecciona "Historial de actividades". En esta pantalla, puede ver un registro detallado de los movimientos y eventos de la persona monitoreada, incluyendo entradas y salidas de las zonas seguras, junto con alertas generadas en el día.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/06-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG07: Activar alarmas y mensajes de emergencia**
+Desde la pantalla principal, el usuario accede a la opción "Alarma de emergencia". Puede activar una alarma sonora en el dispositivo de la persona monitoreada, grabar un mensaje de voz o reproducir un mensaje pregrabado por altavoz. También tiene la opción de enviar una notificación de emergencia a varios miembros de la familia simultáneamente.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/07-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG08: Monitorear signos vitales (frecuencia cardíaca y oxigenación)**
+En la pantalla principal, el usuario selecciona "Signos vitales". Aquí puede visualizar los datos de la frecuencia cardíaca y la oxigenación de la persona monitoreada en tiempo real. La aplicación alerta al usuario si alguno de estos valores está fuera de los rangos normales.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/08-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG09: Crear una geocerca**
+El usuario selecciona "Crear geocerca" desde la pantalla de monitoreo. Define el radio y la ubicación de la zona segura directamente en el mapa. Una vez configurada, guarda los cambios y recibe una confirmación de que la geocerca ha sido creada exitosamente. Las salidas de la persona monitoreada fuera de esta zona generarán una alerta.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/09-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	UG10: Editar geocerca existente
+El usuario selecciona la opción "Editar geocerca" desde el menú de configuración. En la pantalla de edición, ajusta el radio o cambia la ubicación de la geocerca creada previamente. Guarda los cambios y recibe una confirmación de que la configuración ha sido actualizada.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/10-user-flow.png"  width="80%" alt="User Flow">
+</div>
 
 ## 5.5. Applications Prototyping.
 
