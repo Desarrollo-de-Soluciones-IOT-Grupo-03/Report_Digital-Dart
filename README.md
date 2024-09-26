@@ -2718,7 +2718,26 @@ Las **Open Graph Tags** permiten a las plataformas de redes sociales, como Faceb
 
 
 ### 5.2.4. Searching Systems.
-Implementaremos sistemas de búsqueda por exploración, los cuales permitirán a nuestros usuarios encontrar la información que necesitan de manera rápida y eficiente. Los cuidadores o familiares que deseen buscar en el historial de actividades, contarán con un filtro por mes y año.
+
+En esta sección del informe, se definirá la estructura del sistema de búsqueda dentro de **GuardianArea**, asegurando que los usuarios puedan encontrar información de manera rápida y eficiente, tanto en la vista **desktop** como en **mobile**. La interfaz incluye la búsqueda por fechas y filtros básicos en el **Historial de Actividades**. Estos mecanismos permiten que los cuidadores o familiares gestionen y monitoreen de manera eficaz las actividades y ubicaciones de sus seres queridos.
+
+#### Mobile
+
+En la aplicación mobile, los usuarios cuentan con un **navbar inferior** y la opción de filtrar los eventos según el **mes** en el **Historial de Actividades**. Esto permite una experiencia de usuario simplificada para aquellos que acceden desde dispositivos móviles y desean revisar las actividades recientes sin tener que recorrer grandes volúmenes de datos.
+
+**Características principales:**
+- **Filtro por Mes:** El usuario puede seleccionar un mes específico para visualizar el historial de actividades relacionadas con las **geo-cercas** y eventos recientes.
+- **Acceso Rápido:** Desde el navbar inferior, se pueden acceder a secciones clave como la pantalla principal, el chat con el dispositivo, los **vitales** y la lista de **geo-cercas**.
+  
+#### Desktop
+
+En la versión **desktop**, el **sidebar** permite a los usuarios navegar rápidamente entre las secciones de **GuardianArea**, incluyendo el panel principal, **Historial de Actividades**, chat con el dispositivo y funciones vitales. Además, se ha implementado un filtro básico que permite al usuario seleccionar fechas específicas en el historial para encontrar eventos relacionados.
+
+**Características principales:**
+- **Navegación a través del sidebar:** Permite acceder rápidamente a las principales secciones del dashboard, incluyendo **geo-cercas**, historial y funciones vitales.
+- **Filtro por Mes:** En el **Historial de Actividades**, los usuarios pueden filtrar eventos según el mes seleccionado, lo que facilita la búsqueda de actividades específicas en una línea de tiempo ajustada.
+
+El enfoque de **GuardianArea** es proporcionar una experiencia de búsqueda intuitiva tanto en **mobile** como en **desktop**, asegurando que los cuidadores puedan acceder a la información relevante en cualquier momento, optimizando la experiencia de usuario mediante el uso de **filtros básicos**.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/searching_system.PNG" alt="searching system 1"  width="100%"/>
