@@ -2914,6 +2914,24 @@ En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que re
 
 ## 5.5. Applications Prototyping.
 
+En esta sección, presentamos los prototipos interactivos de las aplicaciones de **GuardianArea** para Desktop y Mobile Web Browser, diseñados para simular la interacción y la navegación del usuario. Estos prototipos están alineados con las decisiones de arquitectura de información y los User Flow Diagrams, reflejando cómo los usuarios recorrerán los principales caminos (paths) dentro de las aplicaciones, tanto en sus versiones de escritorio como móvil.
+
+#### Desktop Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/prototype-app-web.png"  width="80%" alt="Prototipo web GuardianArea">
+</div>
+
+Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=524%3A3077&node-id=524-3824&node-type=canvas&viewport=1367%2C645%2C0.14&t=b11LAGIjor6GArVT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=524%3A3824
+
+#### Mobile Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/prototype-app-mobile.png"  width="80%" alt="Prototipo mobile GuardianArea">
+</div>
+
+Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=14%3A3923&node-id=555-11703&node-type=frame&viewport=-40728%2C-812%2C1&t=zhbFfof6kQbzcznb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=555%3A11703
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management.
 ### 6.1.1. Software Development Environment Configuration.
