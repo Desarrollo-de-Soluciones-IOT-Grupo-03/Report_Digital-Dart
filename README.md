@@ -815,7 +815,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
         <img src="./images/chapter-02/interviews/entrevista_aldo_baldeon.PNG" alt="Entrevista 01"  width="90%"/>
     </div> 
 - Inicio: 5:02
-- Fin: 9:43
+- Duración: 4:41
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=0g4e0m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAyLjU1fX0%3D
    
 - Resumen de la entrevista: 
@@ -840,7 +840,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
         <img src="./images/chapter-02/interviews/entrevista_adrian_quito.PNG" alt="Entrevista 01"  width="90%"/>
     </div>  
 - Inicio: 0:11
-- Fin: 5:01
+- Duracion: 4:50
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=8xJ9D5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTEuOTR9fQ%3D%3D
 - Resumen de la entrevista:
 
@@ -936,7 +936,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
     </div>
 
 - Inicio: 24:48
-- Fin: 29:46
+- Duración: 4:58
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=KaLquw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ4OC4yMn19
 - Resumen de la entrevista: 
 
@@ -1237,50 +1237,38 @@ Carlos Pérez busca una solución de monitoreo para garantizar la seguridad de s
 
 Los términos y conceptos clave que se utilizarán en el proyecto GuardianArea son los siguientes:
 
-1. **Geo-cerca (Geofence)**:
-   - Un perímetro seguro delimitado por el usuario, donde el dispositivo SafeGuard supervisa la ubicación.
+1. **Geo-Fence (Geo-Cerca)**:
+   - Límite virtual definido por coordenadas geográficas que establece una zona segura para el paciente o el niño. Si la persona monitoreada cruza este límite, se activa una alerta.
 
-2. **Zona Segura (Safe Zone)**:
-   - Área dentro de la geo-cerca donde la persona monitoreada puede moverse libremente sin activar alarmas.
+2. **Dementia (Demencia)**:
+    - Condición médica caracterizada por el deterioro de la función cognitiva. Afecta la memoria, el pensamiento, la orientación, la comprensión, el cálculo, la capacidad de aprendizaje, el lenguaje y el juicio. 
 
-3. **Acelerómetro (Accelerometer)**:
-   - Sensor que mide la aceleración del dispositivo SafeGuard para detectar caídas.
+3. **Cognitive Decline (Declive Cognitivo)**:
+    - Proceso por el cual una persona experimenta un deterioro en sus habilidades cognitivas, como la memoria y el pensamiento, que es común en diversas formas de demencia, incluyendo el Alzheimer.
 
-4. **Detección de Caídas (Fall Detection)**:
-   - Sistema que detecta si la persona monitoreada ha sufrido una caída mediante el acelerómetro.
+4. **Wandering (Deambulación)**:
+    - Comportamiento común en personas con demencia, donde pueden caminar sin rumbo o perderse incluso en entornos familiares, lo que representa un riesgo significativo para su seguridad.
 
-5. **Actuador de Bloqueo (Locking Actuator)**:
-   - Dispositivo físico utilizado para bloquear una puerta de manera remota o automática.
+5. **Disorientation (Desorientación)**:
+    - Estado de confusión sobre el tiempo, el lugar o la identidad personal que las personas con demencia pueden experimentar, aumentando el riesgo de deambulación y otros comportamientos peligrosos.
 
-6. **Credenciales (Credentials)**:
-   - Información utilizada para autenticar a un usuario, como un nombre de usuario y contraseña, para acceder a sistemas o servicios.
+6. **Alzheimer's Patient (Paciente con Alzheimer)**:
+    - Persona que sufre de la enfermedad de Alzheimer, una condición neurodegenerativa que afecta la memoria y otras funciones cognitivas, lo que puede llevar a la desorientación y a la dificultad para realizar tareas diarias.
 
-7. **Autenticación (Authentication)**:
-   - Proceso para verificar si las credenciales proporcionadas por un usuario son válidas.
+7. **Child (Niño/Niña)**:
+    - Individuo en la etapa de desarrollo infantil que requiere supervisión y cuidado para garantizar su seguridad y bienestar.
 
-8. **Notificación (Notification)**:
-   - Mensaje enviado a través de un dispositivo para recordar, informar o alertar al usuario sobre un evento importante.
+8. **Caregiver (Cuidador)**:
+   - Persona responsable de atender y supervisar a un paciente con Alzheimer o a un niño, asegurando su seguridad y atendiendo sus necesidades.
 
-9. **Alerta (Alert)**:
-   - Tipo especial de notificación que informa al usuario sobre eventos críticos, como la salida de la zona segura o una caída detectada.
+9. **Safety Zone (Zona de Seguridad)**: 
+    - Área geográficamente delimitada en la que se considera que el paciente con Alzheimer o el niño está seguro. Es una región dentro de la cual no se generan alertas de salida.
 
-10. **Plan de Pago (Payment Plan)**:
-   - Suscripción mensual o recurrente que el usuario paga para utilizar el servicio SafeGuard.
+10. **Elopement Risk (Riesgo de Fuga)**: 
+    - Posibilidad de que una persona con demencia salga de un área segura sin ser detectada, lo que puede llevar a situaciones peligrosas.
 
-11. **Método de Pago (Payment Method)**:
-   - La forma en que el usuario realiza un pago, por ejemplo, tarjeta de crédito o débito, para los servicios de SafeGuard.
-
-12. **Evento Crítico (Critical Event)**:
-   - Situación detectada por los sensores que requiere atención inmediata, como la salida de la geo-cerca o la detección de una caída.
-
-13. **Datos de Monitoreo en Tiempo Real (Real-time Monitoring Data)**:
-   - Información procesada y mostrada en tiempo real sobre la ubicación y estado de la persona monitoreada.
-
-14. **Sistema de Monitoreo (Monitoring System)**:
-   - Sistema que recopila, procesa y muestra información en tiempo real sobre la persona monitoreada a través de dispositivos IoT SafeGuard.
-
-15. **Historial de Eventos (Event History)**:
-   - Registro de eventos importantes y actividades detectadas por el sistema de monitoreo de SafeGuard, para ser revisado posteriormente.
+11. **Heart Risk (Riesgo Cardíaco)**: 
+    - Probabilidad de que una persona sufra eventos cardíacos adversos, como un ataque cardíaco o insuficiencia cardíaca, basada en factores como la edad, historial médico, estilo de vida y condiciones de salud preexistentes.
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
@@ -2008,89 +1996,42 @@ En el diagrama de diseño de la base de datos para el bounded context de Monitor
     <img src="./images/chapter-04/monitoring-db-diagram.png" alt="Monitoring DB Diagram" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.2.2. Bounded Context: User Account
+### 4.2.2. Bounded Context: AIM (Access and Identity Management)
 En este bounded context maneja la autenticaciòn y creaciòn de usuarios.
 
 #### 4.2.2.1. Domain Layer
 
 **Entity**
 
-| **Nombre** | **Categoría** | **Propósito**                                            |
-|:----------:|:--------------|:---------------------------------------------------------|
-|  User   | Entity        | Representa un usuario. |
+- User: Representa a un usuario en el sistema con un ID único, nombre de usuario, contraseña y una lista de roles.
 
-*Atributos*
+**Value Objects**
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
-|:----------:|:-----------------|:----------------|:-----------------------------------------|
-|     id     | Long  | Private         | Identificador único                      |
-|    username    | String  | Private         | nombre del usuario      |
-|   password   | String | Private         | contraseña codificada  |
+- Role: Representa un rol que puede ser asignado a un usuario, con un ID único y nombre.
 
-*Métodos*
+**Aggregates**
 
-| **Nombre**  | **Tipo de retorno** | **Visibilidad** | **Descripción**          |
-|:-----------:|:--------------------|:----------------|:-------------------------|
-| Constructor | Void  | Public  | Constructor para User |
-| addRoles | User   | Public  | Añadir roles al usuario |
+- UserAggregate: Encargado de manejar los eventos del bounded context.
 
 #### 4.2.2.2. Interface Layer
 
 **Controller**
 
-|    **Nombre**     | **Categoría** | **Propósito**            |
-|:-----------------:|:--------------|:-------------------------|
-| UserAccountCOntroller | Controller    | Controlador para User |
-
-*Atributos*
-
-|   **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**       |
-|:--------------:|:-----------------|:----------------|:----------------------|
-| userAccountService | UserAccountService   | Private         | Servicio para User |
-
-*Métodos*
-
-|   **Nombre**   | **Tipo de retorno**    | **Visibilidad** | **Descripción**             |
-|:--------------:|:-----------------------|:----------------|:----------------------------|
-|  Constructor   | Void                   | Public          | Inicializa el UserAccountService |
-| CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
-| GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
+- AuthenticationController: Maneja las peticiones HTTP para la autenticación de usuarios, incluyendo operaciones de registro y inicio de sesión.
 
 #### 4.2.2.3. Application Layer
 
-**Service**
+**CommandHandler**
 
-|   **Nombre**   | **Categoría** | **Propósito**                                |
-|:--------------:|:--------------|:---------------------------------------------|
-| UserAccountService | Service       | Servicio con la lógica de negocio de User |
-
-*Atributos*
-
-|   **Nombre**    | **Tipo de dato**  | **Visibilidad** | **Descripción**        |
-|:---------------:|:------------------|:----------------|:-----------------------|
-|userAccountRepository| UserAccountRepository | Private         | Repositorio de User |
-
-*Métodos*   
-
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                              |
-|:----------:|:--------------------|:----------------|:---------------------------------------------|
-| CreateUserAccount  | CreateUserAccountResource         | Public          | Crea un usuario  |
-| GetUserAccounts | List<UserAccountResource>        | Public          | Devuelve una lista de usuarios |
+- UserCommandServiceImpl:
+    - SignUpCommand
+    - SignInCommand 
 
 #### 4.2.2.4. Infrastructure Layer
 
 **Repository**
 
-|    **Nombre**     | **Categoría** | **Propósito**                     |
-|:-----------------:|:--------------|:----------------------------------|
-| UserRepository | Repository    | Repositorio que almacena User |
-
-*Métodos*
-
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                         |
-|:----------:|:--------------------|:----------------|:--------------------------------------------------------|
-| save | User | Public  | Guarda datos de usuario |
-| findById | User | Public  | Recupera el usuario por id  |
+- UserRepository: Gestiona la persistencia de entidades User, incluyendo la búsqueda de usuarios por nombre de usuario y el guardado de datos de usuario.
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2432,8 +2373,8 @@ En la capa de Interfaz, se definen los controladores que gestionan las solicitud
 - **DeviceConfigController**: Administra las solicitudes API relacionadas con las configuraciones de dispositivos 
 ##### Métodos
 
-| **Nombre del Método**          | **Descripción**                                         |
-|:------------------------:|:----------------:|:--------------------------------------------------------|
+| **Nombre del Método**    | **Descripción**                                     |
+|:------------------------:|:----------------------------------------------------|
 | setupDevice              | Inicializa y configura un dispositivo IoT.                  |
 | configureGeoFence        | Configura las zonas de geo-cerca para un dispositivo.               |
 | getDeviceConfig          | Devuelve los detalles de configuración para un dispositivo específico. |
