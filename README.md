@@ -3047,79 +3047,145 @@ Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211
 
 ## 6.1. Software Configuration Management
 
+Este apartado aborda las directrices y convenciones implementadas para mantener la coherencia durante todo el ciclo de vida del proyecto. Incluye la gestión del código fuente, la configuración del entorno de desarrollo y el proceso de despliegue del software.
+
 ### 6.1.1. Software Development Environment Configuration
 
-El entorno de desarrollo de la aplicación **GuardianArea** incluye las siguientes herramientas y configuraciones para garantizar un desarrollo eficiente en las distintas plataformas:
+La configuración adecuada del entorno de desarrollo es fundamental para garantizar la colaboración efectiva y la eficiencia durante el desarrollo del software. Para este proyecto, se utilizaron herramientas y plataformas que cubren distintas fases del ciclo de vida, desde la gestión de requisitos hasta el despliegue final. Las herramientas seleccionadas son:
 
-- **IDE**: IntelliJ IDEA para el backend (Java Spring Boot), Visual Studio Code para el frontend y para el desarrollo móvil (Flutter y Angular).
-- **Lenguajes de programación**: Java para el backend, TypeScript para el frontend, y Dart para la aplicación móvil.
-- **Frameworks**: Spring Boot (backend), Angular (frontend) y Flutter (app móvil).
-- **Bases de datos**: MySQL para almacenamiento de datos.
-- **Contenedores**: Docker se utiliza para virtualizar y garantizar la consistencia entre los diferentes entornos de desarrollo y producción.
-- **Control de versiones**: Git, con la plataforma GitHub para la gestión del código fuente y trabajo colaborativo entre los desarrolladores.
+- **Gestión de Requisitos y Proyectos**: Utilizamos **Notion** como plataforma centralizada para la organización y el seguimiento de los requisitos y tareas del proyecto.
+- **Diseño UX/UI**: Los diseños de interfaces fueron desarrollados en **Figma**, permitiendo la colaboración en tiempo real y la creación de prototipos interactivos para las aplicaciones móviles y web.
+- **Desarrollo de Software**:
+  - **Backend**: El desarrollo del backend se realizó utilizando **Java Spring Boot** dentro del entorno de desarrollo **IntelliJ IDEA**, y se desplegó en **Azure Web Apps**.
+  - **Frontend Web**: La aplicación web fue desarrollada con **Angular** y desplegada en **Firebase Hosting**.
+  - **Aplicación Móvil**: Se utilizó **Flutter** en **Visual Studio Code** para desarrollar la aplicación móvil.
+  - **Base de Datos**: La persistencia de datos fue gestionada mediante **MySQL**.
+  - **Testing**: Se emplearon herramientas como **JUnit** y **Mockito** para la realización de pruebas unitarias en el backend.
 
 ### 6.1.2. Source Code Management
 
-El código fuente del proyecto se gestiona a través de GitHub, donde se encuentran los siguientes repositorios públicos:
+Para garantizar un control eficiente de las versiones y mantener la trazabilidad de los cambios en el código, utilizamos GitHub como la plataforma principal de control de versiones. A continuación, se listan los repositorios clave:
 
-| Solución                          | Repositorio                    | Enlace                                                                     |
-|-----------------------------------|--------------------------------|----------------------------------------------------------------------------|
-| Reporte Digital Dart              | Report_Digital-Dart            | [Report_Digital-Dart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Report_Digital-Dart) |
-| Aplicación Web Guardian           | Guardian-Area-Web              | [Guardian-Area-Web]()     |
-| Landing Page Guardian Area        | Landing-Page-GuardiaArea       | [Landing-Page-GuardiaArea](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Landing-Page-GuardiaArea) |
-| GuardianArea Web | Guardia-Area-Web     | [Guardian-Area-Web](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Guardian-Area-Web) |
+- [Report_Digital-Dart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Report_Digital-Dart)
+- [Landing-Page-GuardiaArea](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Landing-Page-GuardiaArea)
+- [Guardian-Area-Web](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Guardian-Area-Web)
 
-#### Organización de GitHub
+La organización que agrupa los repositorios del proyecto es [Organización DigitalDart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03).
 
-El proyecto está alojado en la organización de GitHub: [Organización DigitalDart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03).
+Para la gestión del control de versiones, implementamos el modelo **GitFlow**, que permite organizar el trabajo en distintas ramas de desarrollo y producción. Las principales ramas utilizadas son:
 
-#### Gitflow
+- **main**: Rama que contiene el código listo para producción.
+- **develop**: Rama de integración continua donde se combinan los desarrollos antes de ser liberados a producción.
+- **feature/**: Ramas dedicadas a nuevas características, creadas con el formato `feature/nombre-característica`.
+- **hotfix/**: Ramas para corrección de errores en producción, con el formato `hotfix/nombre-fix`.
 
-El equipo de desarrollo sigue la metodología **Gitflow** para la gestión del código fuente. Las siguientes ramas son utilizadas en el flujo de trabajo:
-
-- **Main**: Contiene la versión estable del código que se despliega en producción.
-- **Develop**: Contiene las últimas funcionalidades y correcciones en desarrollo.
-- **Feature**: Se utiliza para desarrollar nuevas funcionalidades de manera aislada.
-- **Hotfix**: Se utiliza para aplicar correcciones rápidas a problemas críticos en producción.
-
-A continuación, un diagrama que ilustra el flujo de trabajo de Gitflow:
+El siguiente diagrama ilustra el flujo de trabajo realizado con Gitflow:
 
 ![Gitflow Diagram](https://miro.medium.com/v2/resize:fit:1400/1*3-0EDzE63S_UZx2KbIz_dg.png)
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
-Se han establecido las siguientes guías de estilo y convenciones para mantener la calidad y consistencia del código:
+Para asegurar la calidad y coherencia del código, se han adoptado diversas guías de estilo y convenciones de acuerdo con los lenguajes y frameworks utilizados. Esto garantiza la legibilidad del código y facilita la colaboración entre los desarrolladores. A continuación, se detallan las guías y convenciones aplicadas:
 
-- **Backend (Java)**:
-  - Usar la convención camelCase para métodos y variables.
-  - Mantener el código modular utilizando principios SOLID.
-  - Implementar un manejo adecuado de excepciones en todas las capas del backend.
+- **Java**: Se sigue la [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), aplicando convenciones como el uso de **PascalCase** para nombres de clases y **camelCase** para métodos y variables. Esto asegura un código limpio y estructurado en el desarrollo backend con **Spring Boot**.
+- **TypeScript**: En el desarrollo frontend con **Angular**, seguimos la [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html). Esta guía proporciona estándares sobre el uso adecuado de tipos, modularización y la organización del código, lo que resulta en un frontend robusto y escalable.
+- **HTML/CSS**: Para el código de la interfaz web, hemos adoptado la [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html), que promueve buenas prácticas en la estructuración del HTML y la organización modular de los estilos en CSS.
+- **Flutter/Dart**: En la aplicación móvil desarrollada en **Flutter**, seguimos las pautas definidas en la [Effective Dart Guide](https://dart.dev/guides/language/effective-dart), que promueve prácticas recomendadas para la creación y organización de **widget trees**, el manejo de programación asíncrona y la utilización de **Streams**.
+- **Angular**: Además, aplicamos la [Angular Style Guide](https://angular.io/guide/styleguide), la cual proporciona lineamientos específicos para el desarrollo en **Angular**, incluyendo el uso de **componentes**, **directivas** y **pipes**.
+- **Testing**: En las pruebas de JavaScript y TypeScript, utilizamos **Jasmine** y **Karma** siguiendo las convenciones estándar para pruebas unitarias, asegurando que el código esté cubierto y validado antes de ser desplegado.
 
-- **Frontend (Angular)**:
-  - Utilizar TypeScript con strict typing para evitar errores.
-  - Los nombres de componentes y servicios deben seguir la convención PascalCase.
-  - Mantener la arquitectura de componentes modular, asegurando reutilización y fácil mantenimiento.
+Además, para los mensajes de commits, seguimos las prácticas definidas por **Conventional Commits**, lo que permite mantener un registro claro y estructurado del historial de cambios. Las categorías principales para los mensajes son:
 
-- **Móvil (Flutter)**:
-  - Seguir las convenciones de Dart, utilizando camelCase para variables y métodos.
-  - Mantener una separación clara entre lógica de presentación y lógica de negocio utilizando el patrón BLoC (Business Logic Component) o Provider para la gestión de estado.
+- `feat`: Incorporación de nuevas funcionalidades.
+- `fix`: Corrección de errores.
+- `docs`: Actualizaciones en la documentación.
+- `refactor`: Refactorización del código sin cambios en la funcionalidad.
+- `test`: Cambios relacionados con las pruebas unitarias y de integración.
+
+Los nombres de clases, variables y métodos son definidos en inglés, siguiendo las convenciones **camelCase** y **PascalCase** según corresponda, asegurando una coherencia en todo el proyecto. Adicionalmente, se han estandarizado los nombres de las ramas de Git con convenciones claras, como `feature/nombre-funcionalidad` o `hotfix/nombre-fix`.
 
 ### 6.1.4. Software Deployment Configuration
 
-La configuración del despliegue del software se realiza mediante pipelines automatizados con GitHub Actions. Las configuraciones de despliegue incluyen:
+El proceso de despliegue es fundamental para garantizar que el software funcione correctamente en entornos productivos. A continuación, se describen los pasos necesarios para desplegar tanto el frontend web en **Firebase** como el backend de **Spring Boot** en **Azure**, utilizando **GitHub Pipelines** para automatizar el despliegue. Este enfoque asegura una integración continua (CI) y un despliegue continuo (CD), facilitando la entrega de nuevas versiones con menor riesgo de fallos.
 
-- **Backend (Spring Boot)**:
-  - Despliegue en un servidor de producción utilizando Azure para mayor simplicidad en la integración de pipelines y automatizacion.
-  - Integración continua que ejecuta pruebas automatizadas antes de desplegar cualquier nueva versión.
+#### Despliegue del Frontend Web en Firebase
 
-- **Frontend (Angular)**:
-  - Despliegue en servidores web utilizando Nginx para servir la aplicación web.
-  - El código es empaquetado y minificado antes de ser desplegado.
+El despliegue del frontend en **Firebase** requiere la configuración del hosting para servir la aplicación desde una URL pública. A continuación, se detallan los pasos para realizar este despliegue:
 
-- **Aplicación móvil (Flutter)**:
-  - El código fuente de la aplicación móvil es compilado utilizando pipelines automáticos de CI/CD.
+1. Se accede a la consola de Firebase desde la URL https://console.firebase.google.com/. En esta página, se puede registrar o iniciar sesión en una cuenta de Firebase si no se ha hecho previamente.
 
+2. Se procede a crear un nuevo proyecto haciendo clic en "Añadir proyecto". Durante el proceso, se siguen las instrucciones que proporciona Firebase para la creación de proyectos.
 
+3. Luego, se configura el servicio de hosting. Desde el panel de control de Firebase, se selecciona la opción "Hosting" en el menú de la izquierda y se hace clic en "Comenzar" para iniciar la configuración.
+
+4. Se instala la Firebase CLI (Command Line Interface) para manejar el proyecto desde la terminal. Para ello, se abre una terminal y se ejecuta el siguiente comando para instalar la herramienta globalmente:
+
+   ```
+   npm install -g firebase-tools
+    ```
+5. Con la Firebase CLI instalada, se procede a iniciar sesión en Firebase desde la terminal, ejecutando el siguiente comando:
+
+    ```
+    firebase login
+    ```
+6. Una vez autenticado, se inicializa el proyecto para el servicio de hosting en Firebase. Esto se realiza desde el directorio raíz del proyecto web, ejecutando el comando:
+
+    ```
+    firebase init hosting
+    ```
+
+7. Si el proyecto utiliza Angular como framework, es necesario generar los archivos de distribución ejecutando el siguiente comando:
+
+    ```
+    ng build --prod
+    ```
+
+8. Finalmente, una vez completado el proceso de construcción del proyecto, se despliega la aplicación ejecutando el siguiente comando:
+    
+    ```
+    firebase deploy
+    ```
+
+9. Firebase proporcionará una URL pública donde se alojará la aplicación web, permitiendo acceder a ella desde cualquier navegador.
+
+#### Despliegue del Backend de Spring Boot en Azure con GitHub Pipelines
+
+El backend basado en **Spring Boot** se despliega utilizando **Azure** y se automatiza el proceso mediante **GitHub Actions** y **Pipelines**. Los pasos detallados para el despliegue son los siguientes:
+
+1. Se ingresa al portal de **Azure** desde la URL https://portal.azure.com/ e inicia sesión o se registra en una cuenta si aún no se posee una.
+
+2. Dentro del portal, se navega a la sección "App Services" y se crea una nueva aplicación web seleccionando "Crear". Durante este proceso, se seleccionan las opciones de configuración necesarias para ejecutar una aplicación de **Spring Boot**.
+
+3. En la sección "Deployment Center" del servicio de App, se configura **GitHub** como fuente de despliegue. Para ello, se selecciona el repositorio en GitHub donde se encuentra el código fuente del backend, eligiendo la rama (main o develop) desde la que se desea realizar el despliegue.
+
+4. A continuación, se configura el pipeline de CI/CD en GitHub agregando un archivo `azure-pipelines.yml` al repositorio. Este archivo debe contener la configuración para compilar y desplegar la aplicación en Azure. Un ejemplo de configuración sería el siguiente:
+
+   ```yaml
+   trigger:
+   - main
+
+   pool:
+     vmImage: 'ubuntu-latest'
+
+   steps:
+   - task: Maven@3
+     inputs:
+       goals: 'package'
+       mavenPomFile: 'pom.xml'
+
+   - task: AzureWebApp@1
+     inputs:
+       azureSubscription: 'NombreSuscripcion'
+       appName: 'GuardianArea'
+       package: '$(System.DefaultWorkingDirectory)/target/*.jar'
+    ```
+    Este archivo define que cada vez que se realice un push a la rama main, se ejecutará el pipeline para compilar la aplicación usando Maven y desplegar el artefacto .jar en Azure App Services.
+
+5. Se configuran las variables de entorno necesarias para la aplicación Spring Boot en Azure. Estas variables pueden incluir configuraciones de base de datos, credenciales de terceros, entre otros.
+
+6. Una vez configurado el pipeline y las variables de entorno, cada vez que se realice un commit en la rama main o develop, GitHub Pipelines se encargará de ejecutar el despliegue automático hacia Azure.
+
+7. Finalmente, se accede al enlace proporcionado por Azure para verificar que el backend esté funcionando correctamente.
 ## 6.2. Landing Page, Services & Applications Implementation.
 ### 6.2.1. Sprint n
 #### 6.2.1.1. Sprint Planning n.
