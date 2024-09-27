@@ -52,31 +52,142 @@
         <th>Descripción de modificación</th>
     </tr>
     <tr>
-        <td rowspan="25">TB1</td>
-        <td rowspan="5">Mes/Año</td>
+        <td rowspan="5">TB1</td>
+        <td rowspan="5">Septiembre-2024</td>
         <td>Steve Roger Castillo Robles</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Desarrollo del Task Matrix, User Persona, Ubiquitous Language y Product backlog.</td>
     </tr>
     <tr>
         <td>Diego Mauricio Castro Soto</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Desarrollo de Bounded context Canvas.</td>
     </tr>
     <tr>
         <td>Jennifer Mary Espinoza Quispe</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Búsqueda, análisis y estrategias frente a competidores.</td>
     </tr>
     <tr>
         <td>Diego Martin Esquivel Aguayo</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Desarrollo del Capítulo I: Introducción y domain message flow modeling.</td>
     </tr>
     <tr>
         <td>Cristian Andrés Quito Igreda</td>
-        <td>Descripción de las modificaciones realizadas en esta versión.</td>
+        <td>- Desarrollo Registro de entrevistas, Empathy map, As Is escenario y Context Mapping</td>
+    </tr>
+    <tr>
+        <td rowspan="5">TP</td>
+        <td rowspan="5">Septiembre-2024</td>
+        <td>Steve Roger Castillo Robles</td>
+        <td>- Se realizó las correciones correspondientes. <br> - Contribución en el Landing Page y frontend. <br> - Desarrollo de Landing Page UI design </td>
+    </tr>
+    <tr>
+        <td>Diego Mauricio Castro Soto</td>
+        <td>- Se realizó las correciones correspondientes. <br>- Desarrollo de Software Configuration Management. <br> - Contribución en el Landing Page y frontend.</td>
+    </tr>
+    <tr>
+        <td>Jennifer Mary Espinoza Quispe</td>
+        <td>- Se realizó las correciones correspondientes.<br> - Desarrollo de User Flow diagram y application prototyping. <br> - Contribución en el Landing Page y frontend.</td>
+    </tr>
+    <tr>
+        <td>Diego Martin Esquivel Aguayo</td>
+        <td>- Se realizó las correciones correspondientes. <br> - Desarrollo de WireFlow y mock ups. <br> - Contribución en el Landing Page y frontend.</td>
+    </tr>
+    <tr>
+        <td>Cristian Andrés Quito Igreda</td>
+        <td>- Se realizó las correciones correspondientes. <br>- Contribución en el Landing Page y frontend.<br> - Se adicionó conclusiones y bibliografía. </td>
     </tr>
 </table>
 <br><br>
 
 # Project Report Collaboration Insights
+* Link de la organización: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
+* Link del reporte: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Report_Digital-Dart
+
+**Entrega TB1**
+
+El grupo se congregó inicialmente en Discord para establecer las coordinaciones iniciales y, a partir de ahí, todas las sesiones de progreso y el desarrollo en sí se llevaron a cabo a través de esta plataforma.
+
+Evidencias de colaboración y commits - Github:
+
+* Commits del equipo
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/collaboration.PNG" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+* Commits por integrantes
+    * Castillo Robles, Steve Roger
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/steve_contribution_tb1.PNG" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Castro Soto, Diego Mauricio
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_c_contribution_tb1.PNG" alt="diego_c_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Espinoza Quispe, Jennifer Mary
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/jenn_contribution_tp.PNG" alt="jennifer_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Esquivel Aguayo, Diego Martin
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_u_contribution_tb1-1.PNG" alt="diego_u_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_u_contribution_tb1-2.PNG" alt="diego_u_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Quito Igreda, Cristian Andrés
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/cris_contribution_tb1.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+**Entrega TP**
+
+Para optimizar la entrega del TP1, mantuvimos la estrategia de organizar reuniones mediante Discord, facilitando así la asignación eficiente de tareas para este proyecto. Además, establecimos un canal de comunicación a través de un chat grupal en Whatsapp, destinado a resolver dudas y realizar consultas, asegurando una interacción fluida y constante entre los miembros del equipo. Para garantizar un seguimiento detallado del avance de cada participante, implementamos un sistema de checklist que abarcó todas las responsabilidades asignadas, permitiendo una gestión clara y organizada del trabajo.
+
+Evidencias de colaboración y commits - Github:
+
+* Commits del equipo
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/collaboration.PNG" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+* Commits por integrantes
+    * Castillo Robles, Steve Roger
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/steve_contribution_tp.PNG" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Castro Soto, Diego Mauricio
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_c_contribution_tp.PNG" alt="diego_c_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Espinoza Quispe, Jennifer Mary
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/jenn_contribution_tp.PNG" alt="jennifer_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Esquivel Aguayo, Diego Martin
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/diego_u_contribution_tp.PNG" alt="diego_u_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Quito Igreda, Cristian Andrés
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/cris_contribution_tp.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+* Evidencias de colaboracion: Otras herramientas
+    * Notion: Para monitorear avance y asignación de tareas.
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/notion2.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-01/notion.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
 
 <br>
 
@@ -208,11 +319,11 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         <th><b>Conclusiones</b></th>
     </tr>
     <tr>
-        <td rowspan="1"><b>
+        <td rowspan="2"><b>
             Trabaja en equipo para proporcionar liderazgo en forma conjunta </b></td>
         <td>TB1<br><br>
             <b>Steve Roger Castillo Robles</b><br>
-            - Desarrolló las user personas, user task matrix, y el ubiquitous language. Lideró la creación del product backlog y colaboró en el canvas y las technical stories.
+            - Conjuntamente con mis compañeros, realizamos la planificación de tareas y la distribución de responsabilidades para el desarrollo del proyecto. Aporté en la creación de las user personas, user task matrix, y el ubiquitous language. Además, realicé la creación del product backlog y colaboré en la definición de las technical stories.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
             - Realizó el to-be scenario mapping y contribuyó con user stories, bounded context canvases, bounded context y la arquitectura de software.
@@ -228,15 +339,37 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             <br><br>
         </td>
         <td>TB1<br><br>
+            - EL equipo se distribuyó el liderazgo de tal manera que cada integrante asumió un rol de liderazgo en tareas específicas, lo que permitió una distribución efectiva del trabajo y el logro de los objetivos del proyecto.
+        </td>
+    </tr>
+    <tr>
+        <td>TP<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - En esta parte del proyecto creamos la maquetación de la landing page y el frontend. También realicé las correcciones necesarias y lideré la creación de la landing page.
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - Realizó el to-be scenario mapping y contribuyó con user stories, bounded context canvases, bounded context y la arquitectura de software.
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - Lideró el análisis competitivo y el impact mapping. Participó en la creación de user stories, event storming y la arquitectura de software.
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Promoví el liderazgo compartido colaborando en la redacción del capítulo 1 y coordinando las actividades de entrevistas, needfinding, event storming, y bounded contexts. Aseguré que las decisiones se tomaran en conjunto, fomentando un ambiente donde todas las ideas del equipo fueran escuchadas.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - Realizó el empathy mapping, as-is scenario mapping y context mapping. Contribuyó en los bounded contexts, diagramas de clases y diseño de la base de datos.
+            <br><br>
+        </td>
+        <td>TP<br><br>
             - El equipo trabajó de manera cohesionada para liderar diversas áreas clave del proyecto. Cada miembro asumió un rol de liderazgo en tareas específicas, lo que permitió una distribución efectiva del trabajo y el logro de los objetivos del proyecto.
         </td>
     </tr>
     <tr>
-        <td rowspan="1"><b>
+        <td rowspan="2"><b>
             Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
         <td>TB1<br><br>
             <b>Steve Roger Castillo Robles</b><br>
-            - Contribuyó significativamente en la planificación de tareas mediante la creación de las user personas, la matriz de tareas y el backlog de producto, asegurando una buena organización de las actividades del equipo.
+            - En esta parte del proyecto cree un entorno colaborativo y equitativo, estableciendo metas claras y planificando tareas de manera efectiva. Contribuí en la creación de las user personas, user task matrix, y el ubiquitous language. Además, realicé la creación del product backlog y colaboré en la definición de las technical stories.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
             - Estableció metas claras en el to-be scenario mapping y colaboró en la planificación de los bounded contexts, contribuyendo a la definición clara de roles y responsabilidades dentro del equipo.
@@ -253,6 +386,28 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         </td>
         <td>TB1<br><br>
             - El equipo creó un entorno colaborativo en el que se fijaron metas claras y se asignaron tareas de manera equitativa. La planificación permitió cumplir los objetivos dentro del tiempo previsto y con alta calidad.
+        </td>
+    </tr>
+    <tr>
+        <td>TP<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - En el la creación de los wireframes y mockups pudimos colaborar de manera efectiva, así como la distribución del trabajo para la codificación de la landing page y el frontend.
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - Estableció metas claras en el to-be scenario mapping y colaboró en la planificación de los bounded contexts, contribuyendo a la definición clara de roles y responsabilidades dentro del equipo.
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - Aportó en el impact mapping y análisis competitivo, fomentando un entorno inclusivo al integrar diversas perspectivas para mejorar la estrategia del proyecto.
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Estructuré el capítulo introductorio y fomenté la colaboración activa del equipo en entrevistas y event storming. Contribuí al establecimiento de metas claras y ayudé a que el equipo mantuviera sus tareas alineadas con los objetivos de la startup.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - Facilitó la planificación del contexto y los diagramas de clase, asegurando que el equipo tuviera una estructura clara para la toma de decisiones técnicas.
+            <br><br>
+        </td>
+        <td>TP<br><br>
+            - El equipo se distribuyó de manera equitativa las tareas y estableció metas claras para el desarrollo del proyecto. La colaboración activa y la planificación efectiva permitieron cumplir con los objetivos establecidos y garantizar la calidad del trabajo.
         </td>
     </tr>
 </table>
@@ -824,7 +979,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
     Aldo expresó sus principales preocupaciones respecto al bienestar de su abuelo, que incluyen la confusión, desorientación y el riesgo de que se escape de casa, además de la necesidad constante de asistencia para sus necesidades básicas. Estos factores le generan mucho estrés en su día a día.
 
-    Un sistema de monitoreo en tiempo real le resultaría muy útil, especialmente uno que pueda alertarlo si su abuelo sale de los límites de su hogar, facilitando su búsqueda en caso de que se pierda.
+    Un sistema de monitoreo en tiempo real le resultaría muy útil, especialmente uno que pueda alertarlo si su abuelo sale de los límites de su hogar, facilitando su búsqueda en caso de que se pierda. Destaco que el sistema pudiera ser utilizado en diversas plataformas, pues recurrentemente accede por el navegador Firefox, tanto en su celular Redmi note 13 como en su laptop Lenovo ThinkPad. 
 
     Aldo comparte la responsabilidad del cuidado de su abuelo con una prima, turnándose los fines de semana y durante la semana. Entre sus tareas diarias destacan alimentarlo, bañarlo y mantenerlo entretenido mediante la conversación.
 
@@ -852,7 +1007,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
   Adrián ha estado en esta situación durante aproximadamente cuatro meses, desde que la condición de su abuela se agravó. Aunque lo encuentra desafiante, está dispuesto a adaptarse y explorar nuevas soluciones que puedan mejorar la calidad de vida de su abuela y reducir el estrés del cuidado.
 
-  Finalmente, Adrián considera que un sistema de geo-cerca sería una solución ideal para monitorear a su abuela. Además, sugiere que la inclusión de una cámara que se active al recibir una alarma ayudaría a verificar si su abuela está en peligro, brindando una mayor sensación de seguridad y tranquilidad.
+  Finalmente, Adrián considera que un sistema de geo-cerca sería una solución ideal para monitorear a su abuela. Además, sugiere que la inclusión de una cámara que se active al recibir una alarma ayudaría a verificar si su abuela está en peligro, brindando una mayor sensación de seguridad y tranquilidad. Además, Destaco que el sistema pudiera ser utilizado en diversas plataformas, pues recurrentemente accede por el navegador Firefox, tanto en su celular Redmi note 13 como en su laptop HP Pavilion. 
 
 **Entrevista 03**
 - Nombres: Piero Alessandro
@@ -929,7 +1084,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - Nombres: José Carlos Isaac
 - Apellidos: Ampudia Flores
 - Edad: 20
-- Distrito: Monterrico
+- Distrito: Santiago de Surco
 - Evidencia de la reunión: 
     <div align=center>
         <img src="./images/chapter-02/interviews/entrevista_jose_isaac.png" alt="Entrevista 01"  width="90%"/>
@@ -940,15 +1095,15 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - Enlace de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EbNi22cIs6xAuxvyhGVKZ3oBwrIO8owUbi7ou5sCDa-2GA?e=KaLquw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ4OC4yMn19
 - Resumen de la entrevista: 
 
-    Natalia La Rosa, de 24 años, es ingeniera biomédica y reside en Bellavista, Callao. Se describe como una persona extrovertida, que disfruta de salir con amigos y conocer gente nueva. Además, es responsable del cuidado de su hermano menor, para lo cual utiliza herramientas tecnológicas, aunque su principal recurso ha sido el control parental de YouTube.
+    José Ampudia, de 20 años, es estudiante de ingeniería y cuida de su hermano pequeño de 5 años. José comentó que es introvertido, especialmente en contextos con personas nuevas. Utiliza dispositivos tecnológicos diariamente, tanto para sus estudios como para el monitoreo de cámaras de seguridad en su casa. Usa principalmente los navegadores Chrome y Brave en su PC, la cual tiene características avanzadas: procesador potente, 8 a 16 GB de memoria RAM, tarjeta gráfica dedicada y la posibilidad de trabajar con doble monitor. Además, cuenta con una velocidad de internet de 500mb.
 
-    Natalia expresó su preocupación por la seguridad de su hermano, sobre todo cuando está ocupada con sus estudios universitarios o trabajo. Le preocupa que su hermano pueda abrir la puerta a extraños o salir solo, lo que lo pondría en peligro.
+    Para el monitoreo, también utiliza su teléfono Samsung A31, aunque no tiene dispositivos específicamente diseñados para el cuidado de su hermano.
 
-    Natalia considera que un sistema de monitoreo en tiempo real sería ideal para su situación, destacando la importancia de la precisión en la ubicación y la emisión de alarmas inmediatas si su hermano sale de la zona segura. También le parece relevante que el sistema sea fácil de usar y tenga la posibilidad de conectarse con la policía para reportar emergencias de manera rápida.
+    José explicó que, al no haber un adulto disponible todo el tiempo para cuidar de su hermano debido al trabajo de su madre, le preocupa su bienestar. Cree que una aplicación que combine monitoreo y acciones a distancia sería útil para cuidar a su hermano en situaciones críticas, como cuando se queda solo en casa.
 
-    En su experiencia diaria, Natalia ha enfrentado situaciones difíciles, como el hecho de que su hermano salga solo a la calle, exponiéndose a diversos peligros. Un día típico para ella incluye llevar y recoger a su hermano del colegio, y permitirle entrar y salir de casa con una llave, lo que le genera cierta preocupación.
+    Además, le gustaría poder controlar las cámaras desde múltiples dispositivos y cree que una solución que no solo permita monitorear, sino también actuar en caso de emergencia, sería muy beneficiosa.
 
-    Finalmente, Natalia considera que el proyecto de monitoreo propuesto sería de gran utilidad para su familia, ya que les permitiría estar más al tanto de la ubicación y las actividades de su hermano. Sugiere que se integre una conexión directa con la policía para reportar desapariciones de forma inmediata, lo que mejoraría significativamente la seguridad.
+    José considera que una aplicación como GuardianArea encajaría perfectamente en su situación, ya que brindaría tranquilidad al monitorear y proteger a su hermano de manera más efectiva.
 
 ### 2.2.3 Análisis de entrevistas
 
@@ -1000,7 +1155,13 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 ### 2.3.1. User Personas
 
+En esta sección, presentamos a los User Personas clave de **GuardianArea**, quienes representan segmentos fundamentales de nuestros usuarios. A través de estos perfiles, hemos capturado sus necesidades, motivaciones, frustraciones y características tecnológicas. Estas User Personas guiarán el diseño y desarrollo de nuestra solución, asegurando que abordamos adecuadamente los problemas y expectativas de nuestros usuarios objetivo.
+
 #### **User Persona 01: María López**
+
+María López es una cuidadora de 30 años que se encarga del bienestar de su madre, quien padece de Alzheimer. María trabaja desde casa, lo que le permite estar más presente, pero sus responsabilidades laborales a menudo limitan su capacidad de vigilar a su madre de manera constante. Es una persona organizada y empática, que busca una solución confiable para monitorear la seguridad de su madre.
+
+Entre sus principales objetivos se encuentra garantizar la seguridad de su familiar, recibir alertas en tiempo real cuando su madre salga de la zona segura y tener la tranquilidad de poder monitorearla a distancia. Utiliza navegadores como Chrome y Brave, y prefiere marcas como Samsung y Lenovo. Sus frustraciones incluyen la dificultad de no poder estar pendiente de su madre en todo momento y la falta de soluciones accesibles para su monitoreo.
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_persona_01.png" alt="María López" width="70%">
@@ -1008,184 +1169,93 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 #### **User Persona 02: Carlos Pérez**
 
+Carlos Pérez, de 30 años, es ingeniero de sistemas y vive en un barrio seguro en Arequipa. Como padre de niños pequeños, su principal preocupación es la seguridad de sus hijos, especialmente cuando juegan en el parque o están bajo el cuidado de otros. Carlos es una persona analítica y organizada, acostumbrado al uso de herramientas tecnológicas, y busca una solución que le permita monitorear a sus hijos de forma efectiva sin comprometer su atención en otras tareas.
+
+Sus objetivos incluyen monitorear la ubicación de sus hijos y recibir alertas en tiempo real si salen de zonas seguras. Utiliza dispositivos de Samsung y Lenovo, además de navegadores como Chrome y Opera. Sus principales frustraciones están relacionadas con la falta de soluciones que ofrezcan geocercas personalizables y su constante preocupación por la seguridad de sus hijos.
+
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_persona_02.png" alt="Carlos Pérez" width="70%">
 </div>
 
 ### 2.3.2. User Task Matrix
 
-<table align="center" border="1" width="90%" style="text-align:center;">
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>User Persona</b>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>María López</b> </br>Segmento Objetivo 01 (Cuidadora de personas con Alzheimer)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Task</b>
-        </td>
-        <td>
-            <b>Frequency</b>
-        </td>
-        <td>
-            <b>Importance</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Establecer geocercas de seguridad
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Monitorear ubicación en tiempo real
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Recibir notificaciones de salida de geocerca
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Revisar historial de actividad
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Gestionar sincronización del dispositivo
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Recibir alertas de batería baja del dispositivo
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
+Este User Task Matrix identifica y organiza las tareas esenciales que realizan nuestros segmentos principales: cuidadores de personas con Alzheimer y familiares de niños pequeños. Cada tarea listada es una acción que los segmentos necesitan llevar a cabo regularmente para alcanzar sus objetivos diarios, sin importar si usan herramientas tecnológicas o no. En las siguientes columnas, se asignan una frecuencia y una importancia a estas tareas para cada **User Persona**, lo que nos ayuda a entender mejor sus prioridades y cómo nuestro servicio puede facilitar estas actividades cotidianas.
+
+<table>
+  <tr>
+    <th>Tarea</th>
+    <th colspan="2">Cuidadores de personas con Alzheimer (María López)</th>
+    <th colspan="2">Familiares de niños pequeños (Carlos Pérez)</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Supervisar ubicación del ser querido</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Asegurarse de que no salga de una zona segura</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Coordinar con otros cuidadores</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Revisar o registrar incidentes importantes</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Baja</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+    <td>Comunicarse con el ser querido</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Verificar que dispositivos de monitoreo funcionen</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Estar alerta sobre emergencias</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
 </table>
 
-<table align="center" border="1" width="90%" style="text-align:center;">
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>User Persona</b>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>Carlos Pérez</b> </br>Segmento Objetivo 02 (Familiar de niños pequeños)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Task</b>
-        </td>
-        <td>
-            <b>Frequency</b>
-        </td>
-        <td>
-            <b>Importance</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Establecer geocercas de seguridad
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Monitorear ubicación en tiempo real
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Recibir notificaciones de salida de geocerca
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Revisar historial de actividad
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Recibir alertas de batería baja del dispositivo
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-</table>
+**Leyenda**:
+
+- **Frecuencia**:
+  - **Alta**: Tarea realizada diariamente o en cada interacción con el ser querido.
+  - **Media**: Tarea realizada con frecuencia, pero no necesariamente cada día.
+  - **Baja**: Tarea realizada ocasionalmente o a demanda.
+
+- **Importancia**:
+  - **Alta**: Tarea crucial que impacta directamente en la seguridad y bienestar del ser querido.
+  - **Media**: Tarea importante que tiene un impacto significativo en la tranquilidad y eficiencia del cuidador.
+  - **Baja**: Tarea de menor impacto en la rutina diaria, pero aún relevante para mantener un cuidado adecuado.
 
 ### 2.3.3. User Journey Mapping
 
@@ -1294,22 +1364,150 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 
 | **Epic / Story**                          | **ID**  | **Título**                          | **Descripción**                                                                                                                                                                      | **Criterios de Aceptación**                                                                                                                                                                                                                                  | **Relacionado con (Epic ID)**    |
 |-------------------------------------------|---------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Monitoreo y Seguridad en Tiempo Real       | 01      | Visualización de Ubicación en Tiempo Real | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación.                                                 | **Scenario 01:** Ver Ubicación en Tiempo Real <br/> Dado que el cuidador ha configurado el dispositivo correctamente, <br/> Cuando accede a la aplicación, <br/> Entonces, el sistema permite visualizar la ubicación en tiempo real de la persona a cuidar en el mapa. <br/><br/> **Scenario 02:** Actualización en Tiempo Real <br/> Dado que la persona a cuidar está en movimiento, <br/> Cuando la ubicación cambia, <br/> Entonces, el sistema actualiza automáticamente la ubicación en el mapa.                                                                                                          | N/A                             |
-| Monitoreo y Seguridad en Tiempo Real       | 02      | Alerta de Salida de Zona Segura          | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.                                                                | **Scenario 01:** Recibir Notificación de Salida <br/> Dado que la persona a cuidar ha salido de la zona segura, <br/> Cuando la geo-cerca es cruzada, <br/> Entonces, el sistema envía una notificación al cuidador. <br/><br/> **Scenario 02:** Notificación Repetida <br/> Dado que la persona a cuidar permanece fuera de la geo-cerca, <br/> Cuando transcurren 2 minutos, <br/> Entonces, el sistema envía una segunda notificación al cuidador.                                                                                                   | N/A                             |
-| Configuración y Gestión de Geo-cercas      | 03      | Establecer Geo-cercas                    | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar.                                                                                | **Scenario 01:** Configurar Geo-cerca <br/> Dado que el cuidador necesita delimitar una zona segura, <br/> Cuando accede a la sección de geo-cercas, <br/> Entonces, el sistema permite dibujar un área en el mapa y guardarla como geo-cerca. <br/><br/> **Scenario 02:** Editar Geo-cerca Existente <br/> Dado que el cuidador necesita modificar los límites de una geo-cerca, <br/> Cuando selecciona una geo-cerca existente, <br/> Entonces, el sistema permite editar su tamaño y forma.                                                                                                  | N/A                             |
-| Comunicación y Control Remoto              | 04      | Comunicación Remota con el niño a cuidar | Como cuidador de un niño, quiero poder comunicarme con él a través del altavoz del dispositivo para darle instrucciones en caso de emergencia.                                          | **Scenario 01:** Enviar Mensaje de Voz <br/> Dado que el cuidador necesita comunicarse urgentemente, <br/> Cuando presiona el botón de altavoz en la aplicación, <br/> Entonces, el sistema permite grabar y enviar un mensaje de voz al dispositivo. <br/><br/> **Scenario 02:** Confirmación de Recepción <br/> Dado que el cuidador ha enviado un mensaje de voz, <br/> Cuando el dispositivo recibe el mensaje, <br/> Entonces, el sistema muestra una confirmación en la aplicación.                                                                 | N/A                             |
-| Monitoreo y Seguridad en Tiempo Real       | 05      | Activación de Alarmas en Situación de Peligro | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro, para llamar la atención de personas cercanas.                                 | **Scenario 01:** Activación Automática de Alarma <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta la salida, <br/> Entonces, el sistema activa la alarma sonora automáticamente. <br/><br/> **Scenario 02:** Desactivación Manual de Alarma <br/> Dado que el cuidador ha resuelto la situación, <br/> Cuando presiona el botón de desactivar en la aplicación, <br/> Entonces, el sistema apaga la alarma sonora de inmediato.                                                                                              | N/A                             |
-| Visualización de Historial                 | 06      | Monitoreo de Actividad Física             | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.                                                           | **Scenario 01:** Visualizar Actividad Física <br/> Dado que el cuidador accede a la pantalla principal de la aplicación, <br/> Cuando ingresa a la sección de historial de actividad física, <br/> Entonces, el sistema muestra un resumen de los movimientos y actividad física del día. <br/><br/> **Scenario 02:** Notificación de Inactividad <br/> Dado que el dispositivo detecta poca actividad física, <br/> Cuando el niño ha excedido el tiempo máximo de inactividad configurado en la aplicación, <br/> Entonces, el sistema envía una notificación al cuidador.                       | N/A                             |
-| Comunicación y Control Remoto              | 07      | Control de Dispositivos Externos          | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro para ayudarme a controlar la situación.         | **Scenario 01:** Activación de Luces Externas <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta este evento, <br/> Entonces, el sistema activa automáticamente las luces exteriores de la casa. <br/><br/> **Scenario 02:** Activación de Cámara de Seguridad <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta este evento, <br/> Entonces, el sistema activa la cámara de seguridad y comienza a grabar.                                                                                            | N/A                             |
-| Diagnóstico y Solución de Problemas del Dispositivo | 08 | Diagnóstico y Solución de Problemas del Dispositivo GuardianArea | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo a través de la aplicación para asegurar su correcto funcionamiento.                                           | **Scenario 01:** Diagnóstico Automático <br/> Dado que el dispositivo no está funcionando correctamente, <br/> Cuando el cuidador accede a la función de diagnóstico, <br/> Entonces, el sistema ejecuta un diagnóstico automático y genera un informe del estado del dispositivo. <br/><br/> **Scenario 02:** Solución de Problemas Guiada <br/> Dado que se ha identificado un problema, <br/> Cuando el cuidador accede a la función de solución de problemas, <br/> Entonces, el sistema ofrece instrucciones paso a paso para resolver el problema.                                     | N/A                             |
-| Visualización de Historial                 | 09      | Revisión del Historial de Eventos         | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad.                                                  | **Scenario 01:** Acceso al Historial de Eventos <br/> Dado que el cuidador necesita revisar eventos pasados, <br/> Cuando accede a la sección de historial, <br/> Entonces, el sistema permite visualizar una lista de todos los eventos y alertas anteriores. <br/><br/> **Scenario 02:** Filtrado del Historial <br/> Dado que el cuidador necesita encontrar eventos específicos, <br/> Cuando utiliza los filtros disponibles, <br/> Entonces, el sistema permite ver solo los eventos que cumplen con los criterios seleccionados.                                                 | N/
+| Monitoreo y Seguridad en Tiempo Real       | 01      | Visualización de Ubicación en Tiempo Real | Como cuidador, quiero visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación.                                                 | **Scenario 01:** Ver Ubicación en Tiempo Real <br/> Dado que el cuidador se encuentra en la vista de monitoreo, <br/> Cuando el cuidador haga un acercamiento en el mapa con el slider, <br/> Entonces, el sistema automáticamente actualizará <br/> Y mostrará la ubicación precisa y en tiempo real de la pulsera. <br/><br/> | N/A                             |
+| Monitoreo y Seguridad en Tiempo Real       | 02      | Alerta de Salida de Zona Segura          | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.                                                                | **Scenario 01:** Recibir Notificación de Salida <br/> Dado que la persona a cuidar ha salido de la zona segura, <br/> Cuando la geo-cerca es cruzada, <br/> Entonces, el sistema envía una notificación al cuidador. <br/><br/> **Scenario 02:** Notificación Repetida <br/> Dado que la persona a cuidar permanece fuera de la geo-cerca, <br/> Cuando transcurren 2 minutos, <br/> Entonces, el sistema envía una segunda notificación al cuidador. | N/A                             |
+| Configuración y Gestión de Geo-cercas      | 03      | Configuración y Gestión de Geo-cercas                  | Como cuidador, quiero establecer geo-cercas para definir zonas seguras para la persona a cuidar.                                                                                | **Scenario 01:** Crear Geo-cerca <br/> Dado que el cuidador se encuentra en la vista de monitoreo, <br/> Y se dirige la sección del mapa <br/> Cuando el cuidador presione el boton crear <br/> Y defina los 4 puntos del area a monitorear <br/> Entonces, el sistema registra la nueva geo-cerca <br/><br/> **Scenario 02:** Editar Geo-cerca Existente <br/> Dado que el cuidador se encuentra en la vista de monitoreo, <br/> Y se dirige la sección del mapa <br/> Cuando el cuidador presione una de las geo-cercas creadas <br/> Y presione el boton de editar <br/> Y cambia la ubicacion de los puntos de la geo-cerca <br/> Entonces, el sistema registra los nuevos cambios de la geo-cerca existente. | N/A                             |
+| Comunicación y Control Remoto              | 04      | Comunicación Remota con el niño a cuidar | Como cuidador de un niño, quiero comunicarme con él a través del altavoz del dispositivo para darle instrucciones en caso de emergencia.                                          | **Scenario 01:** Enviar Mensaje de Voz <br/> **Dado** que el cuidador se encuentra en la vista de chat, <br/> **Cuando** inicia a grabar su voz <br/> **Y** presione el botón enviar el mensaje de voz, <br/> **Entonces** el sistema registra el mensaje de voz con el estado pendiente de envío. <br/><br/> **Scenario 02:** Enviar Mensaje de Texto a Voz <br/> **Dado** que el cuidador se encuentra en la vista de chat, <br/> **Cuando** escribe el comando `/speech` <br/> **Y** redacta el mensaje a ser reproducido, <br/> **Entonces** el sistema registra el mensaje de texto a ser reproducido con el estado pendiente de envío. | N/A                             |
+| Monitoreo y Seguridad en Tiempo Real       | 05      | Activación de Alarmas en Situación de Peligro | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro, para llamar la atención de personas cercanas.                                 | **Scenario 01:** Activación Automática de Alarma <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta la salida, <br/> Entonces, el sistema activa la alarma sonora automáticamente. <br/><br/> **Scenario 02:** Desactivación Manual de Alarma <br/> Dado que el cuidador ha resuelto la situación, <br/> Cuando presiona el botón de desactivar en la aplicación, <br/> Entonces, el sistema apaga la alarma sonora de inmediato. | N/A                             |
+| Visualización de Historial                 | 06      | Monitoreo de Actividad Física             | Como cuidador, quiero monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.                                                           | **Scenario 01:** Visualizar Actividad Física <br/> Dado que el cuidador accede a la pantalla principal de la aplicación, <br/> Cuando ingresa a la sección de historial de actividad física, <br/> Entonces, el sistema muestra un resumen de los movimientos y actividad física del día. <br/><br/> **Scenario 02:** Notificación de Inactividad <br/> Dado que el dispositivo detecta poca actividad física, <br/> Cuando el niño ha excedido el tiempo máximo de inactividad configurado en la aplicación, <br/> Entonces, el sistema envía una notificación al cuidador. | N/A                             |
+| Comunicación y Control Remoto              | 07      | Control de Dispositivos Externos          | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro para ayudarme a controlar la situación.         | **Scenario 01:** Activación de Luces Externas <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta este evento, <br/> Entonces, el sistema activa automáticamente las luces exteriores de la casa. <br/><br/> **Scenario 02:** Activación de Cámara de Seguridad <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta este evento, <br/> Entonces, el sistema activa la cámara de seguridad y comienza a grabar. | N/A                             |
+| Diagnóstico y Solución de Problemas del Dispositivo | 08 | Diagnóstico y Solución de Problemas del Dispositivo GuardianArea | Como cuidador, quiero diagnosticar y resolver problemas del dispositivo a través de la aplicación para asegurar su correcto funcionamiento.                                           | **Scenario 01:** Diagnóstico Automático <br/> Dado que el dispositivo no está funcionando correctamente, <br/> Cuando el cuidador accede a la función de diagnóstico, <br/> Entonces, el sistema ejecuta un diagnóstico automático y genera un informe del estado del dispositivo. <br/><br/> **Scenario 02:** Solución de Problemas Guiada <br/> Dado que se ha identificado un problema, <br/> Cuando el cuidador accede a la función de solución de problemas, <br/> Entonces, el sistema ofrece instrucciones paso a paso para resolver el problema. | N/A                             |
+| Visualización de Historial                 | 09      | Revisión del Historial de Eventos         | Como cuidador, quiero revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad.                                                  | **Scenario 01:** Acceso al Historial de Eventos <br/> Dado que el cuidador necesita revisar eventos pasados, <br/> Cuando accede a la sección de historial, <br/> Entonces, el sistema permite visualizar una lista de todos los eventos y alertas anteriores. <br/><br/> **Scenario 02:** Filtrado del Historial <br/> Dado que el cuidador necesita encontrar eventos específicos, <br/> Cuando utiliza los filtros disponibles, <br/> Entonces, el sistema permite ver solo los eventos que cumplen con los criterios seleccionados. | N/A                             |
+| Monitoreo y Seguridad en Tiempo Real       | 10      | Recuperación de Contraseña              | Como usuario, quiero recuperar mi contraseña en caso de olvidarla para acceder nuevamente a mi cuenta sin inconvenientes.                                                      | **Scenario 01:** Solicitar Recuperación de Contraseña <br/> Dado que el usuario ha olvidado su contraseña, <br/> Cuando selecciona la opción de "Olvidé mi contraseña" y proporciona su correo electrónico, <br/> Entonces, el sistema envía un enlace de recuperación al correo del usuario. <br/><br/> **Scenario 02:** Acceder al Enlace de Recuperación <br/> Dado que el usuario ha recibido el enlace de recuperación, <br/> Cuando hace clic en el enlace, <br/> Entonces, el sistema permite que el usuario ingrese una nueva contraseña. <br/><br/> **Scenario 03:** Cambiar Contraseña <br/> Dado que el usuario ha ingresado una nueva contraseña, <br/> Cuando confirma la nueva contraseña, <br/> Entonces, el sistema actualiza la contraseña y permite el acceso a la cuenta. <br/><br/> **Scenario 04:** Notificación de Éxito <br/> Dado que la contraseña se ha cambiado con éxito, <br/> Cuando el usuario intenta iniciar sesión con la nueva contraseña, <br/> Entonces, el sistema le permite acceder a su cuenta. | N/A                             |
 
-| Monitoreo y Seguridad en Tiempo Real       | 10      | Recuperación de Contraseña              | Como usuario, quiero poder recuperar mi contraseña en caso de olvidarla para acceder nuevamente a mi cuenta sin inconvenientes.                                                      | **Scenario 01:** Solicitar Recuperación de Contraseña <br/> Dado que el usuario ha olvidado su contraseña, <br/> Cuando selecciona la opción de "Olvidé mi contraseña" y proporciona su correo electrónico, <br/> Entonces, el sistema envía un enlace de recuperación al correo del usuario. <br/><br/> **Scenario 02:** Acceder al Enlace de Recuperación <br/> Dado que el usuario ha recibido el enlace de recuperación, <br/> Cuando hace clic en el enlace, <br/> Entonces, el sistema permite que el usuario ingrese una nueva contraseña. <br/><br/> **Scenario 03:** Cambiar Contraseña <br/> Dado que el usuario ha ingresado una nueva contraseña, <br/> Cuando confirma la nueva contraseña, <br/> Entonces, el sistema actualiza la contraseña y permite el acceso a la cuenta. <br/><br/> **Scenario 04:** Notificación de Éxito <br/> Dado que la contraseña se ha cambiado con éxito, <br/> Cuando el usuario intenta iniciar sesión con la nueva contraseña, <br/> Entonces, el sistema le permite acceder a su cuenta.                                                                                   
+### **Landing Page Technical Stories**
 
+#### **Technical Story 01**
 
+| **Épica**                | **Interactividad y Visualización de Características** |
+|--------------------------|------------------------------------------------------|
+| **ID-TS**                | 01                                                   |
+| **Owner**                | Castillo Robles, Steve Roger                         |
+| **Título TS**            | Implementar carrusel en la sección de características |
+| **Descripción:**         | Como desarrollador, quiero implementar un carrusel en la sección de características para mostrar múltiples características de manera interactiva y atractiva. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Navegar al siguiente slide <br/> **Dado** que la página de inicio está cargada <br/> **Y** el carrusel está en la primera diapositiva <br/> **Cuando** el usuario hace clic en el botón "Siguiente" <br/> **Entonces** el carrusel muestra la siguiente diapositiva <br/> **Y** el indicador correspondiente se activa. <br/><br/> **Scenario 02 (Happy Path):** Navegar al slide anterior <br/> **Dado** que el carrusel está en una diapositiva que no es la primera <br/> **Cuando** el usuario hace clic en el botón "Anterior" <br/> **Entonces** el carrusel muestra la diapositiva anterior <br/> **Y** el indicador correspondiente se activa. <br/><br/> **Scenario 03 (Happy Path):** Seleccionar un slide específico usando indicadores <br/> **Dado** que la página de inicio está cargada <br/> **Cuando** el usuario hace clic en uno de los indicadores debajo del carrusel <br/> **Entonces** el carrusel muestra la diapositiva correspondiente al indicador seleccionado <br/> **Y** el indicador seleccionado se activa. <br/><br/> **Scenario 04 (Happy Path):** Ciclar al inicio después de la última diapositiva <br/> **Dado** que el carrusel está en la última diapositiva <br/> **Cuando** el usuario hace clic en el botón "Siguiente" <br/> **Entonces** el carrusel vuelve a la primera diapositiva <br/> **Y** el indicador correspondiente se activa. <br/><br/> **Scenario 05 (Happy Path):** Ciclar al final desde la primera diapositiva <br/> **Dado** que el carrusel está en la primera diapositiva <br/> **Cuando** el usuario hace clic en el botón "Anterior" <br/> **Entonces** el carrusel muestra la última diapositiva <br/> **Y** el indicador correspondiente se activa. |
 
+---
 
+#### **Technical Story 02**
 
+| **Épica**                | **Validación y Procesamiento de Formularios** |
+|--------------------------|----------------------------------------------|
+| **ID-TS**                | 02                                           |
+| **Owner**                | Castro Soto, Diego Mauricio                  |
+| **Título TS**            | Validar y procesar formulario de contacto sin envío real |
+| **Descripción:**         | Como desarrollador, quiero validar los campos del formulario de contacto (nombre completo, correo electrónico, asunto, teléfono, seleccionar plan, mensaje) y procesar los datos localmente sin enviar la información a un servidor, para simular la funcionalidad de envío y asegurar que la información ingresada es correcta. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Procesar formulario con todos los campos correctamente llenados <br/> **Dado** que el usuario ha llenado todos los campos obligatorios del formulario de contacto con datos válidos: <br/> - Nombre Completo <br/> - Correo Electrónico <br/> - Asunto <br/> - Teléfono <br/> - Seleccionar Plan <br/> - Mensaje <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** el formulario se valida exitosamente <br/> **Y** los datos ingresados se registran en la consola para propósitos de prueba <br/> **Y** se muestra una alerta de confirmación "Formulario enviado con éxito." <br/><br/> **Scenario 02 (Unhappy Path):** Intentar enviar formulario con campos obligatorios vacíos <br/> **Dado** que el usuario ha dejado uno o más campos obligatorios vacíos en el formulario de contacto <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, completa todos los campos." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 03 (Unhappy Path):** Intentar enviar formulario con correo electrónico inválido <br/> **Dado** que el usuario ha ingresado un correo electrónico con formato incorrecto en el campo "Correo Electrónico" <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, ingresa un correo electrónico válido." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 04 (Unhappy Path):** Intentar enviar formulario con número de teléfono inválido <br/> **Dado** que el usuario ha ingresado caracteres no numéricos en el campo "Teléfono" <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, ingresa un número de teléfono válido (solo números)." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 05 (Happy Path):** Restringir entrada de caracteres no numéricos en el campo de teléfono <br/> **Dado** que el usuario está ingresando datos en el campo "Teléfono" <br/> **Cuando** el usuario intenta ingresar caracteres no numéricos <br/> **Entonces** dichos caracteres son eliminados automáticamente del campo de entrada <br/> **Y** solo se permiten dígitos numéricos en el campo. <br/><br/> **Scenario 06 (Happy Path):** Simular procesamiento exitoso del formulario con `fakeFetch` <br/> **Dado** que el usuario ha llenado el formulario correctamente <br/> **Cuando** el formulario es procesado <br/> **Entonces** la función `fakeFetch` es llamada para simular una solicitud al servidor <br/> **Y** después de un breve retraso, se muestra una alerta "Formulario enviado con éxito." <br/> **Y** los datos ingresados se registran en la consola para propósitos de prueba. <br/><br/> **Scenario 07 (Unhappy Path):** Manejar error simulado en el procesamiento del formulario <br/> **Dado** que ocurre un error durante el procesamiento del formulario (simulado) <br/> **Cuando** la función `fakeFetch` rechaza la promesa (simulación de error) <br/> **Entonces** se muestra una alerta con el mensaje "Hubo un error al enviar el formulario." <br/> **Y** el usuario puede intentar procesar el formulario nuevamente. |
+
+---
+
+#### **Technical Story 03**
+
+| **Épica**                | **Mantenimiento de Contenido Actualizado** |
+|--------------------------|-------------------------------------------|
+| **ID-TS**                | 03                                        |
+| **Owner**                | Espinoza Quispe, Jennifer Mary            |
+| **Título TS**            | Actualizar automáticamente el año en el pie de página |
+| **Descripción:**         | Como desarrollador, quiero que el año en el pie de página se actualice automáticamente al año actual, para mantener la información de derechos de autor siempre actualizada. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Mostrar el año actual en el pie de página <br/> **Dado** que la página se ha cargado completamente <br/> **Cuando** el script que actualiza el año es ejecutado <br/> **Entonces** el elemento con id "copyRight" muestra "© [año actual] Todos los derechos reservados." <br/> **Y** el año se actualiza dinámicamente sin necesidad de cambiar el código manualmente cada año. |
+
+---
+
+#### **Technical Story 04**
+
+| **Épica**                | **Navegación y Accesibilidad** |
+|--------------------------|-------------------------------|
+| **ID-TS**                | 04                            |
+| **Owner**                | Esquivel Aguayo, Diego Martin  |
+| **Título TS**            | Implementar enlaces a las páginas principales de redes sociales en el pie de página |
+| **Descripción:**         | Como desarrollador, quiero que los iconos de redes sociales en el pie de página dirijan a las páginas principales de las redes sociales, para permitir que los usuarios visiten estas plataformas. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Hacer clic en el icono de Facebook <br/> **Dado** que el usuario está viendo el pie de página <br/> **Cuando** el usuario hace clic en el icono de Facebook <br/> **Entonces** se abre una nueva pestaña o ventana que dirige a la página principal de Facebook. <br/><br/> **Scenario 02 (Happy Path):** Hacer clic en el icono de Instagram <br/> **Dado** que el usuario está viendo el pie de página <br/> **Cuando** el usuario hace clic en el icono de Instagram <br/> **Entonces** se abre una nueva pestaña o ventana que dirige a la página principal de Instagram. <br/><br/> **Scenario 03 (Happy Path):** Hacer clic en el icono de Twitter <br/> **Dado** que el usuario está viendo el pie de página <br/> **Cuando** el usuario hace clic en el icono de Twitter <br/> **Entonces** se abre una nueva pestaña o ventana que dirige a la página principal de Twitter. |
+
+---
+
+#### **Technical Story 05**
+
+| **Épica**                | **Navegación y Accesibilidad** |
+|--------------------------|-------------------------------|
+| **ID-TS**                | 05                            |
+| **Owner**                | Quito Igreda, Cristian Andrés  |
+| **Título TS**            | Implementar navegación interna en el encabezado |
+| **Descripción:**         | Como desarrollador, quiero que los enlaces del menú de navegación permitan al usuario desplazarse a las diferentes secciones de la página de forma fluida. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Navegar a la sección "Características" <br/> **Dado** que el usuario está en cualquier parte de la página de inicio <br/> **Cuando** el usuario hace clic en el enlace "Características" en el menú <br/> **Entonces** la página se desplaza hasta la sección "Características". <br/><br/> **Scenario 02 (Happy Path):** Navegar a la sección "Planes" <br/> **Dado** que el usuario está en cualquier parte de la página de inicio <br/> **Cuando** el usuario hace clic en el enlace "Planes" en el menú <br/> **Entonces** la página se desplaza hasta la sección "Planes". <br/><br/> **Scenario 03 (Happy Path):** Navegar a la sección "Testimonios" <br/> **Dado** que el usuario está en cualquier parte de la página de inicio <br/> **Cuando** el usuario hace clic en el enlace "Testimonios" en el menú <br/> **Entonces** la página se desplaza hasta la sección "Testimonios". <br/><br/> **Scenario 04 (Happy Path):** Navegar a la sección "Contactos" <br/> **Dado** que el usuario está en cualquier parte de la página de inicio <br/> **Cuando** el usuario hace clic en el enlace "Contactos" en el menú <br/> **Entonces** la página se desplaza hasta la sección "Contactos". |
+
+---
+
+#### **Technical Story 06**
+
+| **Épica**                | **Navegación y Accesibilidad** |
+|--------------------------|-------------------------------|
+| **ID-TS**                | 06                            |
+| **Owner**                | Castillo Robles, Steve Roger   |
+| **Título TS**            | Redirigir al inicio de la página al hacer clic en el logo |
+| **Descripción:**         | Como desarrollador, quiero que al hacer clic en el logo de la aplicación en el encabezado, el usuario sea redirigido al inicio de la página, para mejorar la navegación y usabilidad. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Hacer clic en el logo redirige al inicio de la página <br/> **Dado** que el usuario está en cualquier sección de la página <br/> **Cuando** el usuario hace clic en el logo de la aplicación en el encabezado <br/> **Entonces** la página se desplaza hasta la sección "Hero" o inicio de la página. |
+
+---
+
+#### **Technical Story 07**
+
+| **Épica**                | **Presentación de Contenido** |
+|--------------------------|------------------------------|
+| **ID-TS**                | 07                           |
+| **Owner**                | Castro Soto, Diego Mauricio   |
+| **Título TS**            | Mostrar testimonios en tarjetas organizadas |
+| **Descripción:**         | Como desarrollador, quiero presentar los testimonios de clientes en tarjetas organizadas para mejorar la legibilidad y el impacto visual. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar testimonios en formato de tarjeta <br/> **Dado** que el usuario ha llegado a la sección de "Testimonios" <br/> **Cuando** la sección se carga <br/> **Entonces** los testimonios se muestran en tarjetas individuales con foto, nombre, descripción y comentario. |
+
+---
+
+#### **Technical Story 08**
+
+| **Épica**                | **Presentación de Contenido** |
+|--------------------------|------------------------------|
+| **ID-TS**                | 08                           |
+| **Owner**                | Espinoza Quispe, Jennifer Mary |
+| **Título TS**            | Mostrar planes en tarjetas organizadas |
+| **Descripción:**         | Como desarrollador, quiero mostrar los diferentes planes en tarjetas organizadas para que los usuarios puedan comparar fácilmente las opciones disponibles. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar planes en formato de tarjeta <br/> **Dado** que el usuario ha llegado a la sección de "Planes" <br/> **Cuando** la sección se carga <br/> **Entonces** los planes se muestran en tarjetas individuales con el nombre del plan, precio, características y botón "Obtener Plan". |
+
+---
+
+#### **Technical Story 09**
+
+| **Épica**                | **Interfaz de Usuario y Diseño** |
+|--------------------------|---------------------------------|
+| **ID-TS**                | 09                              |
+| **Owner**                | Quito Igreda, Cristian Andrés    |
+| **Título TS**            | Mostrar botones de descarga de aplicaciones sin funcionalidad activa |
+| **Descripción:**         | Como desarrollador, quiero mostrar los botones de descarga de App Store y Google Play en la sección principal para simular su presencia, aunque actualmente no estén vinculados a ninguna aplicación. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar botones de descarga en la sección principal <br/> **Dado** que el usuario está en la sección "Hero" de la página de inicio <br/> **Cuando** la sección se carga <br/> **Entonces** se muestran los botones de descarga de App Store y Google Play sin funcionalidad activa <br/> **Y** los botones sirven como elementos visuales para representar la disponibilidad futura de la aplicación. |
+
+---
+
+#### **Technical Story 10**
+
+| **Épica**                | **Interfaz de Usuario y Diseño** |
+|--------------------------|---------------------------------|
+| **ID-TS**                | 10                              |
+| **Owner**                | Quito Igreda, Cristian Andrés    |
+| **Título TS**            | Mostrar botón "Ingresar" sin funcionalidad activa |
+| **Descripción:**         | Como desarrollador, quiero incluir un botón "Ingresar" en el encabezado que actualmente no tiene funcionalidad activa, para representar una futura característica de inicio de sesión. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar botón "Ingresar" en el encabezado <br/> **Dado** que el usuario está en cualquier sección de la página de inicio <br/> **Cuando** la página se carga <br/> **Entonces** el botón "Ingresar" se muestra en el encabezado sin funcionalidad activa <br/> **Y** al hacer clic en él, no ocurre ninguna acción. |
+
+---
+
+#### **Technical Story 11**
+
+| **Épica**                | **Interfaz de Usuario y Diseño Responsivo** |
+|--------------------------|--------------------------------------------|
+| **ID-TS**                | 11                                         |
+| **Owner**                | Esquivel Aguayo, Diego Martin               |
+| **Título TS**            | Implementar diseño responsivo para dispositivos móviles |
+| **Descripción:**         | Como desarrollador, quiero que la landing page sea responsiva y se adapte correctamente a diferentes tamaños de pantalla, especialmente dispositivos móviles, para mejorar la experiencia del usuario. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar la página correctamente en dispositivos móviles <br/> **Dado** que el usuario accede a la landing page desde un dispositivo móvil <br/> **Cuando** la página se carga <br/> **Entonces** el contenido se ajusta correctamente al tamaño de pantalla <br/> **Y** los elementos son fácilmente navegables y legibles. |
+
+---
 
 ### **Frontend Technical Stories**
 
@@ -1350,75 +1548,54 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 
 ### **Backend Technical Stories**
 
-#### **Technical Story 04**
+| **Épica**                | **Configuración y Gestión de Geo-cercas**         |
+|--------------------------|--------------------------------------------------|
+| **ID-TS**                | 01                                               |
+| **Owner**                | Jennifer Espinoza                                 |
+| **Título TS**            | Crear Geo-Cerca mediante RESTful API              |
+| **Descripción:**         | Como desarrollador, quiero crear una Geo-Cerca mediante el API, de modo que se puedan establecer zonas seguras. |
+| **Criterio de Aceptación:** | **Scenario 01:** Crear una geo-cerca con nombre único <br/> **Dado** que el endpoint `/api/v1/geofence` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el nombre y coordenadas <br/> **Entonces** una respuesta es recibida con el estado 201. <br/> **Y** una Geofence Resource es incluida en el cuerpo de la respuesta con una nueva id y registrada con los valores para el nombre y coordenadas. <br/><br/> **Scenario 02:** Crear una geo-cerca con nombre existente <br/> **Dado** que el endpoint `/api/v1/geofence` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el nombre y coordenadas <br/> **Y** una Geofence Resource con el mismo nombre ya se encuentra guardada <br/> **Entonces** una respuesta es recibida con el estado 400 <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "A geofence with the same name already exists." <br/><br/> **Scenario 03:** Crear una geo-cerca superpuesta a otra <br/> **Dado** que el endpoint `/api/v1/geofence` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el nombre y coordenadas <br/> **Y** las coordenadas se superponen con una Geofence Resource ya existente <br/> **Entonces** una respuesta es recibida con el estado 400 <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "Coordinates overlap with an already existing geofence." |
 
-| **Épica**                | **Visualización en Tiempo Real**         |
-|--------------------------|------------------------------------------|
-| **ID-TS**                | 04                                       |
-| **Owner**                | Diego Castro                             |
-| **Título TS**            | API para Visualización de Ubicación en Tiempo Real |
-| **Descripción:**         | Como desarrollador, quiero implementar una API para obtener la ubicación en tiempo real de la persona a monitorear para que pueda ser utilizada en la aplicación móvil. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Obtener ubicación en tiempo real <br/> **Dado** que el endpoint `/api/v1/location/:userId` está disponible, <br/> **Cuando** realizo una solicitud GET con el ID de la persona, <br/> **Entonces** debería recibir una respuesta con la ubicación actual. <br/><br/> **Scenario 02 (Unhappy Path):** Error por ID inválido o inexistente <br/> **Dado** que el ID del usuario es inválido o no existe, <br/> **Cuando** realizo una solicitud GET, <br/> **Entonces** debería recibir un error 404 indicando que el recurso no fue encontrado. <br/><br/> **Scenario 03 (Unhappy Path):** Fallo en la conectividad con el dispositivo monitoreado <br/> **Dado** que el dispositivo de la persona monitoreada no tiene conexión a Internet, <br/> **Cuando** intento obtener la ubicación, <br/> **Entonces** debería recibir un error 503 indicando que no se puede acceder a la ubicación por falta de conectividad. <br/><br/> **Scenario 04 (Unhappy Path):** Ubicación no actualizada <br/> **Dado** que la última actualización de la ubicación ocurrió hace más de 5 minutos, <br/> **Cuando** intento obtener la ubicación, <br/> **Entonces** debería recibir un aviso indicando que los datos de ubicación no son recientes. <br/><br/> **Scenario 05 (Unhappy Path):** Error en el servidor de ubicación <br/> **Dado** que el servicio de ubicación del sistema está inactivo o caído, <br/> **Cuando** realizo una solicitud GET, <br/> **Entonces** debería recibir un error 500 indicando que no se pudo procesar la solicitud debido a un fallo interno del servidor. |
 
 ---
-
-#### **Technical Story 05**
 
 | **Épica**                | **Configuración y Gestión de Geo-cercas**         |
 |--------------------------|--------------------------------------------------|
 | **ID-TS**                | 05                                               |
-| **Owner**                | Diego Esquivel                                    |
-| **Título TS**            | API para Establecer Geo-cercas                  |
-| **Descripción:**         | Como desarrollador, quiero crear una API para establecer y gestionar geo-cercas, de modo que se puedan definir zonas seguras. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Crear una geo-cerca <br/> **Dado** que el endpoint `/api/v1/geofence` está disponible, <br/> **Cuando** envío una solicitud POST con los datos de la geo-cerca, <br/> **Entonces** debería recibir una respuesta con los detalles de la geo-cerca creada. <br/><br/> **Scenario 02 (Unhappy Path):** Error por datos incompletos o inválidos <br/> **Dado** que los datos enviados son incompletos o inválidos (e.g., coordenadas o radio no válidos), <br/> **Cuando** intento crear una geo-cerca, <br/> **Entonces** debería recibir un error 400 indicando que faltan campos obligatorios o los datos proporcionados no son válidos. <br/><br/> **Scenario 03 (Unhappy Path):** Error al intentar crear una geo-cerca superpuesta <br/> **Dado** que ya existe una geo-cerca activa que cubre la misma área, <br/> **Cuando** intento crear una nueva geo-cerca que se superpone, <br/> **Entonces** debería recibir un error indicando que no se puede crear una geo-cerca superpuesta. <br/><br/> **Scenario 04 (Unhappy Path):** Límite de geo-cercas alcanzado <br/> **Dado** que el número máximo de geo-cercas permitidas ha sido alcanzado, <br/> **Cuando** intento crear una nueva geo-cerca, <br/> **Entonces** debería recibir un error indicando que se ha alcanzado el límite de geo-cercas permitidas. <br/><br/> **Scenario 05 (Unhappy Path):** Fallo en el servidor <br/> **Dado** que el servidor que maneja las geo-cercas está caído o tiene problemas, <br/> **Cuando** intento enviar una solicitud POST para crear una geo-cerca, <br/> **Entonces** debería recibir un error 500 indicando un fallo en el servidor y que no se puede procesar la solicitud. <br/><br/> **Scenario 06 (Unhappy Path):** Error en la validación de coordenadas <br/> **Dado** que las coordenadas enviadas están fuera del rango permitido (e.g., fuera del área geográfica cubierta), <br/> **Cuando** intento crear una geo-cerca, <br/> **Entonces** debería recibir un mensaje de error indicando que las coordenadas no son válidas o están fuera de rango. |
+| **Owner**                | Cristian Quito                                 |
+| **Título TS**            | Obtener ubicación actual del usuario mediante RESTful API |
+| **Descripción:**         | Como desarrollador, quiero obtener la ubicación actual del usuario mediante el API, de modo que pueda detectar si el usuario entra o sale de una geocerca. |
+| **Criterio de Aceptación:** | **Scenario 01:** Obtener ubicacion actual con el Id del dispositivo <br/> **Dado** que el endpoint `/api/v1/device/{id}/current-location` está disponible, <br/> **Cuando** una solicitud GET es enviada con el id del dispositivo <br/> **Entonces** una respuesta es recibida con el estado 200 <br/> **Y** un Current Location Resource es incluido en el cuerpo de la respuesta con los valores para latitud y longitud en grados, minutos y segundos. |
 
 ---
 
-#### **Technical Story 06**
-
-| **Épica**                | **Monitoreo y Seguridad en Tiempo Real**         |
+| **Épica**                | **Gestión de Usuarios**                           |
 |--------------------------|--------------------------------------------------|
 | **ID-TS**                | 06                                               |
-| **Owner**                | Jennifer Espinoza                                |
-| **Título TS**            | API para Notificaciones de Salida de Zona Segura  |
-| **Descripción:**         | Como desarrollador, quiero implementar una API para gestionar notificaciones cuando una persona sale de una geo-cerca. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Notificación de salida de zona segura <br/> **Dado** que la persona monitoreada sale de la geo-cerca, <br/> **Cuando** la geo-cerca es cruzada, <br/> **Entonces** debería recibir una notificación en la aplicación. <br/><br/> **Scenario 02 (Unhappy Path):** No se recibió la notificación <br/> **Dado** que el servidor de notificaciones está inactivo o hay un problema de conectividad, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** no debería recibir la notificación, y la API debería registrar el error en los logs. <br/><br/> **Scenario 03 (Unhappy Path):** Notificación retrasada <br/> **Dado** que el sistema de notificaciones está saturado o presenta demoras, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** la notificación debería llegar con retraso, y el sistema debería registrar el tiempo de demora. <br/><br/> **Scenario 04 (Unhappy Path):** Fallo en la configuración de la geo-cerca <br/> **Dado** que la geo-cerca no está configurada correctamente (e.g., radio demasiado pequeño o zona no registrada), <br/> **Cuando** la persona monitoreada la cruza, <br/> **Entonces** no se debería generar una notificación, y el sistema debería alertar de un fallo en la configuración de la geo-cerca. <br/><br/> **Scenario 05 (Unhappy Path):** Fallo en la conectividad del dispositivo monitoreado <br/> **Dado** que el dispositivo de la persona monitoreada ha perdido conectividad, <br/> **Cuando** intenta cruzar la geo-cerca, <br/> **Entonces** la notificación no debería enviarse, y el sistema debería alertar de una pérdida de conectividad con el dispositivo. <br/><br/> **Scenario 06 (Unhappy Path):** Notificación enviada pero no visible en la aplicación <br/> **Dado** que la notificación fue enviada correctamente, <br/> **Cuando** la persona monitoreada sale de la geo-cerca, <br/> **Entonces** la notificación debería ser visible en la aplicación; si no es visible, el sistema debería registrar un error en la visualización de la notificación. |
+| **Owner**                | Diego Castro                                       |
+| **Título TS**            | Crear un usuario mediante RESTful API             |
+| **Descripción:**         | Como desarrollador, quiero crear un usuario mediante el API, de modo que pueda tener acceso a las funcionalidades del sistema. |
+| **Criterio de Aceptación:** | **Scenario 01:** Crear un usuario con email, contraseña y username únicos <br/> **Dado** que el endpoint `/api/v1/users` está disponible, <br/> **Cuando** se envía una solicitud POST con los datos para el email, contraseña y username, <br/> **Entonces** se recibe una respuesta con el estado 201, <br/> **Y** un User Resource es incluido en el cuerpo de la respuesta con un nuevo id y los valores registrados para email, contraseña y username. <br/><br/> **Scenario 02:** Crear un usuario con email o username ya existentes <br/> **Dado** que el endpoint `/api/v1/users` está disponible, <br/> **Cuando** se envía una solicitud POST con los datos para el email, contraseña y username, <br/> **Y** ya existe un usuario con el mismo email o username registrado, <br/> **Entonces** se recibe una respuesta con el estado 400, <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "A user with the same email or username already exists." |
 
 ---
 
-#### **Technical Story 07**
-
-| **Épica**                | **Comunicación Remota por Voz**         |
-|--------------------------|-------------------------------------------|
-| **ID-TS**                | 07                                        |
-| **Owner**                | Steve Castillo                            |
-| **Título TS**            | API para Comunicación Remota por Voz      |
-| **Descripción:**         | Como desarrollador, quiero implementar una API para enviar mensajes de voz al dispositivo de la persona monitoreada. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Enviar mensaje de voz <br/> **Dado** que el endpoint `/api/v1/voice` está disponible, <br/> **Cuando** envío una solicitud POST con un archivo de audio, <br/> **Entonces** el sistema debe transmitir el mensaje al dispositivo. <br/><br/> **Scenario 02 (Unhappy Path):** Error por formato de archivo no soportado <br/> **Dado** que el archivo de audio no es compatible (por ejemplo, formato no soportado), <br/> **Cuando** intento enviar el mensaje, <br/> **Entonces** el sistema debería devolver un error 415 indicando que el formato no es soportado. <br/><br/> **Scenario 03 (Unhappy Path):** Error por tamaño del archivo demasiado grande <br/> **Dado** que el archivo de audio excede el tamaño máximo permitido, <br/> **Cuando** intento enviar el mensaje, <br/> **Entonces** el sistema debería devolver un error 413 indicando que el archivo es demasiado grande. <br/><br/> **Scenario 04 (Unhappy Path):** Error por archivo dañado o incompleto <br/> **Dado** que el archivo de audio está corrupto o incompleto, <br/> **Cuando** intento enviar el mensaje, <br/> **Entonces** el sistema debería devolver un error 422 indicando que el archivo no puede ser procesado. <br/><br/> **Scenario 05 (Unhappy Path):** Fallo de conexión con el dispositivo de destino <br/> **Dado** que el dispositivo de la persona monitoreada no está conectado, <br/> **Cuando** intento enviar el mensaje, <br/> **Entonces** el sistema debería devolver un error 503 indicando que no se puede establecer conexión con el dispositivo. <br/><br/> **Scenario 06 (Unhappy Path):** El mensaje de voz no se escucha en el dispositivo <br/> **Dado** que el mensaje fue enviado correctamente, <br/> **Cuando** el dispositivo lo recibe, <br/> **Entonces** debería reproducir el mensaje de voz; si no se escucha, el sistema debería registrar un error en la reproducción de audio. |
-
----
-
-#### **Technical Story 08**
-
-| **Épica**                | **Visualización de Historial**         |
-|--------------------------|----------------------------------------|
-| **ID-TS**                | 08                                     |
-| **Owner**                | Steve Castillo                         |
-| **Título TS**            | API para Revisión del Historial de Eventos y Actividad |
-| **Descripción:**         | Como desarrollador, quiero implementar una API para gestionar el historial de eventos del dispositivo y la actividad física de la persona monitoreada, para poder revisar estos datos en la aplicación. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Acceso al historial de eventos y actividad <br/> **Dado** que necesito revisar eventos pasados, <br/> **Cuando** accedo al historial, <br/> **Entonces** debería poder ver una lista de todos los eventos. <br/><br/> **Scenario 02 (Unhappy Path):** No se pudo acceder al historial por fallo en la base de datos <br/> **Dado** que la base de datos está caída o no responde, <br/> **Cuando** intento acceder al historial, <br/> **Entonces** debería recibir un error 500 indicando un fallo en el servidor. <br/><br/> **Scenario 03 (Unhappy Path):** Historial vacío <br/> **Dado** que no se han registrado eventos o actividad en el período solicitado, <br/> **Cuando** intento acceder al historial, <br/> **Entonces** debería recibir un mensaje indicando que no hay eventos ni actividad disponible. <br/><br/> **Scenario 04 (Unhappy Path):** Error de autenticación <br/> **Dado** que no tengo los permisos necesarios, <br/> **Cuando** intento acceder al historial de eventos o actividad, <br/> **Entonces** debería recibir un error 403 indicando que no tengo autorización para acceder a esos datos. <br/><br/> **Scenario 05 (Unhappy Path):** Error en el formato de la solicitud <br/> **Dado** que la solicitud GET tiene un formato incorrecto (e.g., fechas mal formateadas), <br/> **Cuando** intento acceder al historial, <br/> **Entonces** debería recibir un error 400 indicando un fallo en el formato de la solicitud. <br/><br/> **Scenario 06 (Unhappy Path):** Consulta de historial con un rango de fechas inválido <br/> **Dado** que el rango de fechas especificado no es válido, <br/> **Cuando** intento acceder al historial, <br/> **Entonces** debería recibir un error indicando que el rango de fechas seleccionado no es correcto. <br/><br/> **Scenario 07 (Unhappy Path):** Historial incompleto por error en el almacenamiento <br/> **Dado** que hubo un fallo en el almacenamiento de eventos o datos de actividad, <br/> **Cuando** intento acceder al historial, <br/> **Entonces** algunos eventos o datos podrían faltar, y debería recibir un mensaje indicando un error en la carga completa del historial. |
-
----
-
-#### **Technical Story 09**
-
-| **Épica**                | **Monitoreo de Dispositivos IoT en Backend**         |
+| **Épica**                | **Subir Archivos**                                |
 |--------------------------|--------------------------------------------------|
-| **ID-TS**                | 09                                               |
-| **Owner**                | Cristian Quito                                    |
-| **Título TS**            | Implementar Servicio de Monitoreo de Dispositivos en SpringBoot |
-| **Descripción:**         | Como desarrollador, quiero implementar un servicio en SpringBoot que monitoree el estado de los dispositivos IoT y notifique en caso de desconexiones o fallas. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Monitorear dispositivos IoT <br/> **Dado** que el sistema monitorea los dispositivos, <br/> **Cuando** un dispositivo se desconecta, <br/> **Entonces** debería recibir una notificación del estado del dispositivo. <br/><br/> **Scenario 02 (Unhappy Path):** No se recibe la notificación de desconexión <br/> **Dado** que el servicio de notificaciones está inactivo o presenta fallas, <br/> **Cuando** un dispositivo IoT se desconecta, <br/> **Entonces** no se debería recibir ninguna notificación, y el sistema debería registrar el error en los logs. <br/><br/> **Scenario 03 (Unhappy Path):** Fallo en la actualización del estado del dispositivo <br/> **Dado** que el dispositivo está fuera de línea o con conectividad intermitente, <br/> **Cuando** se intenta actualizar su estado, <br/> **Entonces** el sistema debería devolver un error indicando que no es posible obtener el estado actual del dispositivo. <br/><br/> **Scenario 04 (Unhappy Path):** Errores por sobrecarga en el monitoreo <br/> **Dado** que el servicio de monitoreo de dispositivos está manejando múltiples solicitudes simultáneas, <br/> **Cuando** se superan los límites de capacidad, <br/> **Entonces** el sistema debería devolver un error 503 indicando que el servicio está temporalmente sobrecargado. <br/><br/> **Scenario 05 (Unhappy Path):** Datos de estado del dispositivo no disponibles <br/> **Dado** que el dispositivo no está enviando datos de estado correctamente, <br/> **Cuando** intento acceder al monitoreo, <br/> **Entonces** el sistema debería mostrar un mensaje indicando que los datos del dispositivo no están disponibles o no son válidos. <br/><br/> **Scenario 06 (Unhappy Path):** Error en la conexión con el servidor de monitoreo <br/> **Dado** que el servidor de monitoreo está caído o fuera de servicio, <br/> **Cuando** intento acceder al estado de los dispositivos, <br/> **Entonces** el sistema debería devolver un error 500 indicando que no se puede conectar con el servidor de monitoreo. |
+| **ID-TS**                | 07                                               |
+| **Owner**                | Diego Esquivel                                     |
+| **Título TS**            | Subir mensaje de voz mediante RESTful API         |
+| **Descripción:**         | Como desarrollador, quiero subir un mensaje de voz mediante el API, de modo que se mejore la experiencia del usuario al permitir la comunicación con su ser querido a través de mensajes de voz. |
+| **Criterio de Aceptación:** | **Scenario 01:** Subir mensaje de voz en formato mp3 y con duración menor a 30 segundos <br/> **Dado** que el endpoint `/api/v1/voice` esta disponible, <br/> **Cuando** una solicitud POST es enviada con el audio <br/> **Y** el formato es mp3 con duración menor a 30 segundos <br/> **Entonces** se recibe una respuesta con el estado 201, <br/> **Y** un Voice Resource es incluido en el cuerpo de la respuesta con un nuevo id y el enlace generado para el audio. <br/><br/> **Scenario 02:** Subir mensaje de voz con un formato diferente de mp3 y con duración menor a 30 segundos <br/> **Dado** que el endpoint `/api/v1/voice` esta disponible, <br/> **Cuando** una solicitud POST es enviada con el audio <br/> **Y** el formato no corresponde a mp3 <br/> **Y** la duración es menor a 30 segundos <br/> **Entonces** se recibe una respuesta con el estado 400, <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "The file format must be mp3." <br/><br/> **Scenario 03:** Subir mensaje de voz en mp3 y con duración mayor a 30 segundos <br/> **Dado** que el endpoint `/api/v1/voice` esta disponible, <br/> **Cuando** una solicitud POST es enviada con el audio <br/> **Y** el formato corresponde a mp3 <br/> **Y** la duración es mayor a 30 segundos <br/> **Entonces** se recibe una respuesta con el estado 400, <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "The duration of the audio must be less than 30 seconds." |
+
+---
+
+| **Épica**                | **Notificaciones**                               |
+|--------------------------|--------------------------------------------------|
+| **ID-TS**                | 08                                               |
+| **Owner**                | Cristian Quito                                |
+| **Título TS**            | Crear notificación mediante RESTful API           |
+| **Descripción:**         | Como desarrollador, quiero crear una notificación mediante el API, de modo que los usuarios puedan recibir alertas de seguridad. |
+| **Criterio de Aceptación:** | **Scenario 01:** Crear una notificación <br/> **Dado** que el endpoint `/api/v1/notification` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el tipo de notificación y descripción <br/> **Entonces** una respuesta es recibida con el estado 201 <br/> **Y** una Notification Resource es incluida en el cuerpo de la respuesta con una nueva id y registrada con los valores para el tipo de notificación y descripción. |
 
 ---
 
@@ -1484,15 +1661,15 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 
 | # Orden | User Story Id | Título                                                | Descripción                                                                                                               | Story Points |
 |---------|---------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------|
-| 1       | US01          | Visualización de Ubicación en Tiempo Real             | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación. | 5            |
+| 1       | US01          | Visualización de Ubicación en Tiempo Real             | Como cuidador, quiero visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación. | 5            |
 | 2       | US02          | Alerta de Salida de Zona Segura                       | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.       | 3            |
-| 3       | US03          | Establecer Geo-cercas                                 | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar.                      | 3            |
-| 4       | US04          | Comunicación Remota con el Niño a Cuidar              | Como cuidador, quiero poder comunicarme con la persona a cuidar a través del altavoz del dispositivo para darle instrucciones en caso de emergencia. | 5            |
+| 3       | US03          | Establecer Geo-cercas                                 | Como cuidador, quiero establecer geo-cercas para definir zonas seguras para la persona a cuidar.                      | 3            |
+| 4       | US04          | Comunicación Remota con el Niño a Cuidar              | Como cuidador, quiero comunicarme con la persona a cuidar a través del altavoz del dispositivo para darle instrucciones en caso de emergencia. | 5            |
 | 5       | US05          | Activación de Alarmas en Situación de Peligro         | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro.                    | 5            |
-| 6       | US06          | Monitoreo de Actividad Física                         | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.  | 3            |
+| 6       | US06          | Monitoreo de Actividad Física                         | Como cuidador, quiero monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.  | 3            |
 | 7       | US07          | Control de Dispositivos Externos                      | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro. | 5            |
-| 8       | US08          | Diagnóstico y Solución de Problemas del Dispositivo   | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo a través de la aplicación.                    | 3            |
-| 9       | US09          | Revisión del Historial de Eventos                     | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad. | 3            |
+| 8       | US08          | Diagnóstico y Solución de Problemas del Dispositivo   | Como cuidador, quiero diagnosticar y resolver problemas del dispositivo a través de la aplicación.                    | 3            |
+| 9       | US09          | Revisión del Historial de Eventos                     | Como cuidador, quiero revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad. | 3            |
 
 ---
 
@@ -2872,23 +3049,493 @@ Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
+
+En esta sección, hemos colaborado para crear wireframes que actúan como una representación visual detallada de la estructura y diseño de las interfaces de usuario de **GuardianArea**. Estos wireframes se han desarrollado con el objetivo de traducir los requisitos funcionales y las especificaciones del proyecto en diagramas gráficos claros y organizados. A través de este enfoque, se presenta una visión estructurada de cómo los usuarios interactuarán con la aplicación, tanto en su versión web como móvil.
+
+#### Desktop Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/app-wireframes.png"  width="80%" alt="Wireframes web GuardianArea">
+</div>
+
+Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
+
+#### Mobile Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/app-wireframes-mobile.png"  width="80%" alt="Wireframes mobile GuardianArea">
+</div>
+
+Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
+
 ### 5.4.2. Applications Wireflow Diagrams.
+
+En esta sección, presentamos los diagramas de flujo de la aplicación GuardianArea, elaborados por nuestro equipo. Estos diagramas reflejan el comportamiento de la aplicación en función de las interacciones esperadas de nuestros usuarios, tanto los cuidadores de personas con Alzheimer como los padres de niños pequeños. Hemos desarrollado un diagrama de flujo para cada objetivo del usuario, teniendo en cuenta los perfiles de usuario (cuidadores y familiares) para cada funcionalidad clave de la aplicación.
+
+**TaskFlow**
+
+- Registrar usuario en la aplicación
+- Iniciar sesión en GuardianArea
+- Recuperar acceso a la cuenta
+- Editar perfil de usuario
+- Conectar con un dispositivo
+- Ver mapa en tiempo real de monitoreo
+- Revisar historial de actividades
+- Activar alarmas y mensajes de emergencia
+- Monitorear signos vitales (frecuencia cardíaca y oxigenación)
+- Crear una geocerca
+- Editar geocerca existente
+
+### **Cuidadores o Familiares de personas con Alzheimer**
+
+#### UG01: Registrar usuario en la aplicación
+El usuario accede a la aplicación GuardianArea y selecciona "Registrarse". Completa el formulario con su información personal, como nombre, correo electrónico y contraseña, y luego confirma la creación de su cuenta. Recibe un enlace por correo electrónico para verificar la cuenta y, tras la verificación, es redirigido a la pantalla de inicio de sesión.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG01.png" width="80%" alt="UG01">
+</div>
+
+#### UG02: Iniciar sesión en GuardianArea
+El usuario selecciona "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña, y una vez que el sistema verifica las credenciales, es redirigido a la pantalla principal de la aplicación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG02.png" width="80%" alt="UG02">
+</div>
+
+#### UG03: Recuperar acceso a la cuenta
+En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?" e ingresa su correo electrónico. Recibe un enlace para restablecer la contraseña, y al hacer clic en el enlace, puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG03.png" width="80%" alt="UG03">
+</div>
+
+#### UG04: Editar perfil de usuario
+El usuario accede al menú de configuración y selecciona "Editar perfil". Aquí puede modificar su información personal, como nombre y correo electrónico, y guardar los cambios.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG04.png" width="80%" alt="UG04">
+</div>
+
+#### UG05: Conectar con un dispositivo
+El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Si selecciona "Agregar dispositivo", la aplicación buscará nuevos dispositivos por Bluetooth. Una vez encontrado el dispositivo, el usuario asigna un nombre y selecciona el rol "Adulto" para la persona con Alzheimer antes de conectar el dispositivo.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG05.png" width="80%" alt="UG05">
+</div>
+
+#### UG06: Ver mapa en tiempo real de monitoreo
+El usuario selecciona "Mapa en tiempo real" en el menú principal. Puede observar la ubicación actual de la persona con Alzheimer, y si sale de las zonas seguras (geocercas), se activa una alerta visual y sonora.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG06.png" width="80%" alt="UG06">
+</div>
+
+#### UG07: Revisar historial de actividades
+El usuario selecciona "Historial de actividades" en el menú principal. Aquí puede revisar un registro detallado de los movimientos de la persona monitoreada, incluyendo alertas y entradas/salidas de zonas seguras.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG07.png" width="80%" alt="UG07">
+</div>
+
+#### UG08: Activar alarmas y mensajes de emergencia
+El usuario accede a la opción "Alarma de emergencia" y puede activar una alarma sonora, grabar un mensaje de voz o reproducir un mensaje pregrabado a través del altavoz del dispositivo. También puede enviar una notificación de emergencia a varios miembros de la familia.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG08.png" width="80%" alt="UG08">
+</div>
+
+#### UG09: Monitorear signos vitales (frecuencia cardíaca y oxigenación)
+El usuario selecciona "Signos vitales" y puede monitorear los datos de la frecuencia cardíaca y la oxigenación de la persona con Alzheimer en tiempo real. Si los valores están fuera de los rangos normales, se genera una alerta automática.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG09.png" width="80%" alt="UG09">
+</div>
+
+#### UG10: Crear una geocerca
+El usuario selecciona "Crear geocerca" y puede definir la ubicación y el radio de una zona segura directamente en el mapa. Una vez creada, la aplicación activará alertas si la persona con Alzheimer sale de esta zona.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG10.png" width="80%" alt="UG10">
+</div>
+
+#### UG11: Editar geocerca existente
+El usuario selecciona "Editar geocerca" y puede ajustar la ubicación o el radio de una geocerca previamente creada. Los cambios son guardados y confirmados por la aplicación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG11.png" width="80%" alt="UG11">
+</div>
+
+### **Cuidadores o Familiares de niños pequeños**
+
+#### UG01: Registrar usuario en la aplicación
+El usuario accede a la aplicación y selecciona "Registrarse". Completa el formulario con su información personal y confirma la creación de la cuenta. Luego, verifica su correo electrónico y accede a la pantalla de inicio de sesión.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG01.png" width="80%" alt="UG01">
+</div>
+
+#### UG02: Iniciar sesión en GuardianArea
+El usuario selecciona "Iniciar sesión", ingresa su correo electrónico y contraseña, y accede a la pantalla principal de la aplicación tras la verificación de sus credenciales.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG02.png" width="80%" alt="UG02">
+</div>
+
+#### UG03: Recuperar acceso a la cuenta
+El usuario selecciona "¿Olvidaste tu contraseña?" y recibe un enlace por correo electrónico para restablecerla. Ingresa una nueva contraseña y luego puede iniciar sesión nuevamente.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG03.png" width="80%" alt="UG03">
+</div>
+
+#### UG04: Editar perfil de usuario
+El usuario accede al menú de configuración y selecciona "Editar perfil" para modificar su información personal. Guarda los cambios y recibe una confirmación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG04.png" width="80%" alt="UG04">
+</div>
+
+#### UG05: Conectar con un dispositivo
+El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Al seleccionar "Agregar dispositivo", la aplicación buscará dispositivos cercanos por Bluetooth. Tras encontrar un dispositivo, el usuario asigna un nombre y selecciona el rol "Infante" antes de conectarlo al sistema.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG05.png" width="80%" alt="UG05">
+</div>
+
+#### UG06: Ver mapa en tiempo real de monitoreo
+El usuario selecciona "Mapa en tiempo real" para ver la ubicación actual del niño monitoreado. Si el niño sale de las zonas seguras, la aplicación activa una alerta.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG06.png" width="80%" alt="UG06">
+</div>
+
+#### UG07: Revisar historial de actividades
+El usuario accede al "Historial de actividades", donde puede revisar los movimientos del niño monitoreado, entradas y salidas de las zonas seguras, y alertas generadas.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG07.png" width="80%" alt="UG07">
+</div>
+
+#### UG08: Activar alarmas y mensajes de emergencia
+El usuario selecciona "Alarma de emergencia" para activar una alarma sonora, grabar un mensaje o reproducir un mensaje pregrabado por el altavoz del dispositivo. También puede enviar notificaciones de emergencia a otros miembros de la familia.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG08.png" width="80%" alt="UG09">
+</div>
+
+#### UG09: Crear una geocerca
+El usuario selecciona "Crear geocerca" y puede definir una zona segura en el mapa. Recibe alertas si el niño sale de la geocerca.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG10.png" width="80%" alt="UG10">
+</div>
+
+#### UG10: Editar geocerca existente
+El usuario selecciona "Editar geocerca" y ajusta el radio o la ubicación de una geocerca previamente creada. La configuración actualizada es guardada y confirmada.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG11.png" width="80%" alt="UG11">
+</div>
+
 ### 5.4.3. Applications Mock-ups.
+
+En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que representan visualmente el aspecto y la experiencia de nuestras interfaces de usuario. A través de este proceso, hemos transformado las ideas y especificaciones del proyecto en representaciones visuales detalladas y precisas que muestran cómo será la versión final de la aplicación.
+
+#### Desktop Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/app-mockup-web.png"  width="80%" alt="Mockup web GuardianArea">
+</div>
+
+#### Mobile Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/app-mockup-mobile.png"  width="80%" alt="Mockup mobile GuardianArea">
+</div>
+
+
 ### 5.4.4. Applications User Flow Diagrams.
+En esta sección, presentamos los diagramas de flujo de usuario de **GuardianArea** para Mobile, que representan visualmente los caminos y acciones que los usuarios seguirán al interactuar con la aplicación. Estos diagramas proporcionan una guía clara y detallada de cómo los usuarios navegarán por las diferentes secciones y funciones de la aplicación, asegurando una experiencia de usuario coherente y efectiva.
+
+-	**UG01: Registrar usuario en la aplicación GuardianArea**
+Después de abrir la aplicación, el usuario selecciona la opción "Registrarse". Completa el formulario de registro ingresando su nombre, correo electrónico y creando una contraseña. Confirma el registro y recibe un enlace por correo electrónico para la verificación. Tras la verificación, el usuario accede a la pantalla principal donde puede comenzar a utilizar la aplicación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/01-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-   **UG02: Iniciar sesión en GuardianArea**
+El usuario selecciona la opción "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña. Luego de verificar las credenciales, el usuario accede a la pantalla principal de la aplicación donde puede gestionar todas las funcionalidades.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/02-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG03: Recuperar acceso a la cuenta**
+En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?". Ingresa su correo electrónico y recibe un enlace para restablecer su contraseña. Al hacer clic en el enlace, es redirigido a una página donde puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/03-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+- **UG04: Editar perfil de usuario**
+El usuario accede al menú de configuración y selecciona la opción "Editar perfil". Aquí puede modificar su información personal, como nombre, correo electrónico y número de teléfono, además de actualizar su foto de perfil. Guarda los cambios y recibe una confirmación de que el perfil ha sido actualizado.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/04-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+- **UG05: Ver mapa en tiempo real de monitoreo**
+El usuario selecciona la opción "Mapa en tiempo real" desde el menú principal. En el mapa, puede observar la ubicación actual de la persona monitoreada, así como las zonas seguras configuradas (geocercas). Si la persona sale de la zona segura, se muestra una alerta en tiempo real con notificaciones visuales y sonoras.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/05-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG06: Revisar historial de actividades**
+El usuario navega al menú principal y selecciona "Historial de actividades". En esta pantalla, puede ver un registro detallado de los movimientos y eventos de la persona monitoreada, incluyendo entradas y salidas de las zonas seguras, junto con alertas generadas en el día.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/06-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG07: Activar alarmas y mensajes de emergencia**
+Desde la pantalla principal, el usuario accede a la opción "Alarma de emergencia". Puede activar una alarma sonora en el dispositivo de la persona monitoreada, grabar un mensaje de voz o reproducir un mensaje pregrabado por altavoz. También tiene la opción de enviar una notificación de emergencia a varios miembros de la familia simultáneamente.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/07-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG08: Monitorear signos vitales (frecuencia cardíaca y oxigenación)**
+En la pantalla principal, el usuario selecciona "Signos vitales". Aquí puede visualizar los datos de la frecuencia cardíaca y la oxigenación de la persona monitoreada en tiempo real. La aplicación alerta al usuario si alguno de estos valores está fuera de los rangos normales.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/08-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG09: Crear una geocerca**
+El usuario selecciona "Crear geocerca" desde la pantalla de monitoreo. Define el radio y la ubicación de la zona segura directamente en el mapa. Una vez configurada, guarda los cambios y recibe una confirmación de que la geocerca ha sido creada exitosamente. Las salidas de la persona monitoreada fuera de esta zona generarán una alerta.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/09-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG10: Editar geocerca existente**
+El usuario selecciona la opción "Editar geocerca" desde el menú de configuración. En la pantalla de edición, ajusta el radio o cambia la ubicación de la geocerca creada previamente. Guarda los cambios y recibe una confirmación de que la configuración ha sido actualizada.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/10-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+- Link User Flow diagrams: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
 
 ## 5.5. Applications Prototyping.
 
+En esta sección, presentamos los prototipos interactivos de las aplicaciones de **GuardianArea** para Desktop y Mobile Web Browser, diseñados para simular la interacción y la navegación del usuario. Estos prototipos están alineados con las decisiones de arquitectura de información y los User Flow Diagrams, reflejando cómo los usuarios recorrerán los principales caminos (paths) dentro de las aplicaciones, tanto en sus versiones de escritorio como móvil.
+
+#### Desktop Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/prototype-app-web.png"  width="80%" alt="Prototipo web GuardianArea">
+</div>
+
+Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=524%3A3077&node-id=524-3824&node-type=canvas&viewport=1367%2C645%2C0.14&t=b11LAGIjor6GArVT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=524%3A3824
+
+Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+#### Mobile Web Browser:
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/prototype-app-mobile.png"  width="80%" alt="Prototipo mobile GuardianArea">
+</div>
+
+Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=14%3A3923&node-id=555-11703&node-type=frame&viewport=-40728%2C-812%2C1&t=zhbFfof6kQbzcznb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=555%3A11703
+
+Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 # Capítulo VI: Product Implementation, Validation & Deployment
-## 6.1. Software Configuration Management.
-### 6.1.1. Software Development Environment Configuration.
-### 6.1.2. Source Code Management.
-### 6.1.3. Source Code Style Guide & Conventions.
-### 6.1.4. Software Deployment Configuration.
+
+## 6.1. Software Configuration Management
+
+Este apartado aborda las directrices y convenciones implementadas para mantener la coherencia durante todo el ciclo de vida del proyecto. Incluye la gestión del código fuente, la configuración del entorno de desarrollo y el proceso de despliegue del software.
+
+### 6.1.1. Software Development Environment Configuration
+
+La configuración adecuada del entorno de desarrollo es fundamental para garantizar la colaboración efectiva y la eficiencia durante el desarrollo del software. Para este proyecto, se utilizaron herramientas y plataformas que cubren distintas fases del ciclo de vida, desde la gestión de requisitos hasta el despliegue final. Las herramientas seleccionadas son:
+
+- **Gestión de Requisitos y Proyectos**: Utilizamos **Notion** como plataforma centralizada para la organización y el seguimiento de los requisitos y tareas del proyecto.
+- **Diseño UX/UI**: Los diseños de interfaces fueron desarrollados en **Figma**, permitiendo la colaboración en tiempo real y la creación de prototipos interactivos para las aplicaciones móviles y web.
+- **Desarrollo de Software**:
+  - **Backend**: El desarrollo del backend se realizó utilizando **Java Spring Boot** dentro del entorno de desarrollo **IntelliJ IDEA**, y se desplegó en **Azure Web Apps**.
+  - **Frontend Web**: La aplicación web fue desarrollada con **Angular** y desplegada en **Firebase Hosting**.
+  - **Aplicación Móvil**: Se utilizó **Flutter** en **Visual Studio Code** para desarrollar la aplicación móvil.
+  - **Base de Datos**: La persistencia de datos fue gestionada mediante **MySQL**.
+  - **Testing**: Se emplearon herramientas como **JUnit** y **Mockito** para la realización de pruebas unitarias en el backend.
+
+### 6.1.2. Source Code Management
+
+Para garantizar un control eficiente de las versiones y mantener la trazabilidad de los cambios en el código, utilizamos GitHub como la plataforma principal de control de versiones. A continuación, se listan los repositorios clave:
+
+- [Report_Digital-Dart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Report_Digital-Dart)
+- [Landing-Page-GuardiaArea](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Landing-Page-GuardiaArea)
+- [Guardian-Area-Web](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Guardian-Area-Web)
+
+La organización que agrupa los repositorios del proyecto es [Organización DigitalDart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03).
+
+Para la gestión del control de versiones, implementamos el modelo **GitFlow**, que permite organizar el trabajo en distintas ramas de desarrollo y producción. Las principales ramas utilizadas son:
+
+- **main**: Rama que contiene el código listo para producción.
+- **develop**: Rama de integración continua donde se combinan los desarrollos antes de ser liberados a producción.
+- **feature/**: Ramas dedicadas a nuevas características, creadas con el formato `feature/nombre-característica`.
+- **hotfix/**: Ramas para corrección de errores en producción, con el formato `hotfix/nombre-fix`.
+
+El siguiente diagrama ilustra el flujo de trabajo realizado con Gitflow:
+
+![Gitflow Diagram](https://miro.medium.com/v2/resize:fit:1400/1*3-0EDzE63S_UZx2KbIz_dg.png)
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+Para asegurar la calidad y coherencia del código, se han adoptado diversas guías de estilo y convenciones de acuerdo con los lenguajes y frameworks utilizados. Esto garantiza la legibilidad del código y facilita la colaboración entre los desarrolladores. A continuación, se detallan las guías y convenciones aplicadas:
+
+- **Java**: Se sigue la [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), aplicando convenciones como el uso de **PascalCase** para nombres de clases y **camelCase** para métodos y variables. Esto asegura un código limpio y estructurado en el desarrollo backend con **Spring Boot**.
+- **TypeScript**: En el desarrollo frontend con **Angular**, seguimos la [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html). Esta guía proporciona estándares sobre el uso adecuado de tipos, modularización y la organización del código, lo que resulta en un frontend robusto y escalable.
+- **HTML/CSS**: Para el código de la interfaz web, hemos adoptado la [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html), que promueve buenas prácticas en la estructuración del HTML y la organización modular de los estilos en CSS.
+- **Flutter/Dart**: En la aplicación móvil desarrollada en **Flutter**, seguimos las pautas definidas en la [Effective Dart Guide](https://dart.dev/guides/language/effective-dart), que promueve prácticas recomendadas para la creación y organización de **widget trees**, el manejo de programación asíncrona y la utilización de **Streams**.
+- **Angular**: Además, aplicamos la [Angular Style Guide](https://angular.io/guide/styleguide), la cual proporciona lineamientos específicos para el desarrollo en **Angular**, incluyendo el uso de **componentes**, **directivas** y **pipes**.
+- **Testing**: En las pruebas de JavaScript y TypeScript, utilizamos **Jasmine** y **Karma** siguiendo las convenciones estándar para pruebas unitarias, asegurando que el código esté cubierto y validado antes de ser desplegado.
+
+Además, para los mensajes de commits, seguimos las prácticas definidas por **Conventional Commits**, lo que permite mantener un registro claro y estructurado del historial de cambios. Las categorías principales para los mensajes son:
+
+- `feat`: Incorporación de nuevas funcionalidades.
+- `fix`: Corrección de errores.
+- `docs`: Actualizaciones en la documentación.
+- `refactor`: Refactorización del código sin cambios en la funcionalidad.
+- `test`: Cambios relacionados con las pruebas unitarias y de integración.
+
+Los nombres de clases, variables y métodos son definidos en inglés, siguiendo las convenciones **camelCase** y **PascalCase** según corresponda, asegurando una coherencia en todo el proyecto. Adicionalmente, se han estandarizado los nombres de las ramas de Git con convenciones claras, como `feature/nombre-funcionalidad` o `hotfix/nombre-fix`.
+
+### 6.1.4. Software Deployment Configuration
+
+El proceso de despliegue es fundamental para garantizar que el software funcione correctamente en entornos productivos. A continuación, se describen los pasos necesarios para desplegar tanto el frontend web en **Firebase** como el backend de **Spring Boot** en **Azure**, utilizando **GitHub Pipelines** para automatizar el despliegue. Este enfoque asegura una integración continua (CI) y un despliegue continuo (CD), facilitando la entrega de nuevas versiones con menor riesgo de fallos.
+
+#### Despliegue del Frontend Web en Firebase
+
+El despliegue del frontend en **Firebase** requiere la configuración del hosting para servir la aplicación desde una URL pública. A continuación, se detallan los pasos para realizar este despliegue:
+
+1. Se accede a la consola de Firebase desde la URL https://console.firebase.google.com/. En esta página, se puede registrar o iniciar sesión en una cuenta de Firebase si no se ha hecho previamente.
+
+2. Se procede a crear un nuevo proyecto haciendo clic en "Añadir proyecto". Durante el proceso, se siguen las instrucciones que proporciona Firebase para la creación de proyectos.
+
+3. Luego, se configura el servicio de hosting. Desde el panel de control de Firebase, se selecciona la opción "Hosting" en el menú de la izquierda y se hace clic en "Comenzar" para iniciar la configuración.
+
+4. Se instala la Firebase CLI (Command Line Interface) para manejar el proyecto desde la terminal. Para ello, se abre una terminal y se ejecuta el siguiente comando para instalar la herramienta globalmente:
+
+   ```
+   npm install -g firebase-tools
+    ```
+5. Con la Firebase CLI instalada, se procede a iniciar sesión en Firebase desde la terminal, ejecutando el siguiente comando:
+
+    ```
+    firebase login
+    ```
+6. Una vez autenticado, se inicializa el proyecto para el servicio de hosting en Firebase. Esto se realiza desde el directorio raíz del proyecto web, ejecutando el comando:
+
+    ```
+    firebase init hosting
+    ```
+
+7. Si el proyecto utiliza Angular como framework, es necesario generar los archivos de distribución ejecutando el siguiente comando:
+
+    ```
+    ng build --prod
+    ```
+
+8. Finalmente, una vez completado el proceso de construcción del proyecto, se despliega la aplicación ejecutando el siguiente comando:
+    
+    ```
+    firebase deploy
+    ```
+
+9. Firebase proporcionará una URL pública donde se alojará la aplicación web, permitiendo acceder a ella desde cualquier navegador.
+
+#### Despliegue del Backend de Spring Boot en Azure con GitHub Pipelines
+
+El backend basado en **Spring Boot** se despliega utilizando **Azure** y se automatiza el proceso mediante **GitHub Actions** y **Pipelines**. Los pasos detallados para el despliegue son los siguientes:
+
+1. Se ingresa al portal de **Azure** desde la URL https://portal.azure.com/ e inicia sesión o se registra en una cuenta si aún no se posee una.
+
+2. Dentro del portal, se navega a la sección "App Services" y se crea una nueva aplicación web seleccionando "Crear". Durante este proceso, se seleccionan las opciones de configuración necesarias para ejecutar una aplicación de **Spring Boot**.
+
+3. En la sección "Deployment Center" del servicio de App, se configura **GitHub** como fuente de despliegue. Para ello, se selecciona el repositorio en GitHub donde se encuentra el código fuente del backend, eligiendo la rama (main o develop) desde la que se desea realizar el despliegue.
+
+4. A continuación, se configura el pipeline de CI/CD en GitHub agregando un archivo `azure-pipelines.yml` al repositorio. Este archivo debe contener la configuración para compilar y desplegar la aplicación en Azure. Un ejemplo de configuración sería el siguiente:
+
+   ```yaml
+   trigger:
+   - main
+
+   pool:
+     vmImage: 'ubuntu-latest'
+
+   steps:
+   - task: Maven@3
+     inputs:
+       goals: 'package'
+       mavenPomFile: 'pom.xml'
+
+   - task: AzureWebApp@1
+     inputs:
+       azureSubscription: 'NombreSuscripcion'
+       appName: 'GuardianArea'
+       package: '$(System.DefaultWorkingDirectory)/target/*.jar'
+    ```
+    Este archivo define que cada vez que se realice un push a la rama main, se ejecutará el pipeline para compilar la aplicación usando Maven y desplegar el artefacto .jar en Azure App Services.
+
+5. Se configuran las variables de entorno necesarias para la aplicación Spring Boot en Azure. Estas variables pueden incluir configuraciones de base de datos, credenciales de terceros, entre otros.
+
+6. Una vez configurado el pipeline y las variables de entorno, cada vez que se realice un commit en la rama main o develop, GitHub Pipelines se encargará de ejecutar el despliegue automático hacia Azure.
+
+7. Finalmente, se accede al enlace proporcionado por Azure para verificar que el backend esté funcionando correctamente.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 ### 6.2.1. Sprint n
 #### 6.2.1.1. Sprint Planning n.
-#### 6.2.1.2. Sprint Backlog n.
+
+| **Sprint #**                | Sprint 1                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                               |
+| **Date**                    | 2024-09-17                                                                                     |
+| **Time**                    | 17:00 PM                                                                                       |
+| **Location**                | Reunión virtual vía Discord                                                                       |
+| **Prepared By**             | Castillo Robles, Steve Roger                                                                  |
+| **Attendees (to planning meeting)** | Castillo Robles, Steve Roger<br>Castro Soto, Diego Mauricio<br>Espinoza Quispe, Jennifer Mary<br>Esquivel Aguayo, Diego Martín<br>Quito Igreda, Cristian Andrés |
+| **Sprint 0 Review Summary**  | (Como este es el primer sprint, no hay un sprint anterior. El enfoque de este sprint será establecer las bases del diseño y estructura de la aplicación, tanto para la versión web como móvil, y la implementación de la landing page de la aplicación GuardianArea.                                         |
+| **Sprint 0 Retrospective Summary** | Al ser el primer sprint, no hay un Sprint 0 Retrospective. En futuros sprints, esta sección incluirá el análisis de aciertos, oportunidades de mejora y las opiniones del equipo sobre el trabajo realizado.|
+| **Sprint Goal & User Stories** |                                                                                              |
+| **Sprint 1 Goal**           | El objetivo de este primer sprint es diseñar e implementar las vistas clave de la aplicación, tanto en la versión web como en la móvil, desplegar la landing page, y lanzar la primera versión del frontend en web (Angular). En particular, se desarrollarán las vistas de Login, Register, el Mapa para monitoreo en tiempo real, y la Historial de actividades. Aunque estas vistas aún no serán funcionales, se deben construir como mockups para posteriores integraciones. **Métrica de cumplimiento**:  Al finalizar el sprint, se deben haber completado las vistas de la aplicación y la landing page debe estar desplegada en el entorno de producción|
+| **Sprint 1 Velocity**        |                                                                                               |
+| **Velocity establecido**     | El equipo ha decidido que puede aceptar 30 Story Points para este primer sprint, considerando el enfoque en diseño e implementación de la interfaz.|
+| **Sum of Story Points**      | Total de Story Points para este Sprint: 30 Story Points.|
+
+#### 6.2.1.2. Sprint Backlog 1.
+
+## Sprint Backlog Introduction
+
+El objetivo principal de este Sprint 1 es crear y diseñar las vistas clave de la aplicación GuardianArea, tanto en la versión web como en la versión móvil, además de implementar la landing page. Las vistas principales incluyen el login, registro, el mapa de monitoreo en tiempo real, y el historial de actividades. El equipo también desarrollará la landing page con la sección Hero, el carrusel de testimonios y el formulario de suscripción.
+
+
+
+*Trello:* [https://trello.com/b/Cx1a45vr/sprint-backlog-01](https://trello.com/b/s74QJuaK/sprint-01)
+
+---
+
+## User Story Work-Items / Tasks
+
+| **User Story ID** | **Título User Story**                            | **Task ID** | **Título Task**                            | **Descripción**                                                                                                                                     | **Estimación (Horas)** | **Assigned To**                     | **Status**     |
+|-------------------|--------------------------------------------------|------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------------------------|----------------|
+| US01              | Visualización de Ubicación en Tiempo Real        | T01        | Crear mapa para mostrar ubicación en tiempo real | Implementar un mapa interactivo que muestre la ubicación de la persona monitoreada en tiempo real.                                                   | 8                      | Esquivel Aguayo, Diego Martin       | In Process      |
+|                   |                                                  | T02        | Integrar actualización automática de ubicación | Configurar el sistema para que actualice la ubicación en tiempo real mientras la persona está en movimiento.                                         | 5                      | Quito Igreda, Cristian Andrés       | To-do           |
+| US03              | Establecer Geo-cercas                            | T04        | Crear interfaz para configuración de geo-cercas | Desarrollar una interfaz en la web donde los cuidadores puedan configurar geo-cercas directamente en el mapa.                                        | 7                      | Esquivel Aguayo, Diego Martin       | In Process      |
+|                   |                                                  | T05        | Habilitar edición de geo-cercas              | Permitir que los cuidadores editen las geo-cercas configuradas previamente desde la aplicación.                                                      | 5                      | Quito Igreda, Cristian Andrés       | To-do           |
+| TS01              | Implementación de Mapa para Visualización en Tiempo Real | T06        | Implementar API de mapas en la aplicación     | Integrar la API de Google Maps para visualizar la ubicación en tiempo real en la aplicación web.                                                     | 6                      | Castro Soto, Diego Mauricio         | In Process      |
+| TS02              | Crear Interfaz de Usuario para Geo-cercas        | T07        | Desarrollar interfaz intuitiva para geo-cercas | Crear una interfaz de usuario simple e intuitiva que permita a los cuidadores establecer y gestionar geo-cercas.                                     | 8                      | Castillo Robles, Steve Roger        | In Process      |
+| TS03              | Implementar Hero Section en el Landing Page      | T08        | Desarrollar la sección Hero en el Landing Page | Crear una sección hero con título, subtítulo, CTA y contenido visual que refleje el propósito de GuardianArea.                                        | 4                      | Espinoza Quispe, Jennifer Mary      | Done            |
+| TS04              | Implementar Carrusel de Testimonios en Landing Page | T09        | Implementar carrusel de testimonios           | Implementar un carrusel interactivo en la landing page que muestre testimonios de usuarios anteriores.                                                | 3                      | Quito Igreda, Cristian Andrés       | Done            |
+| TS05              | Implementar Formulario de Suscripción en Landing Page | T10        | Crear formulario de suscripción               | Crear un formulario que permita a los usuarios ingresar su correo electrónico para suscribirse a actualizaciones y noticias de GuardianArea.          | 4                      | Castillo Robles, Steve Roger        | Done            |
+
+---
+
 #### 6.2.1.3. Development Evidence for Sprint Review.
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
 #### 6.2.1.5. Execution Evidence for Sprint Review.
@@ -2935,6 +3582,8 @@ En el desarrollo del presente sprint hemos logrado implementar la landing page d
         <img src="./images/chapter-06/06-web-application.png" alt="Web Aplicacion"  width="100%"/>
     </div>
 
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 Debido que a que el objetivo de este sprint fue la implementación de la Landing Page y la aplicación web, no se generó documentación de servicios en este sprint.
 <table>
@@ -3060,3 +3709,11 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
 
 ### ANEXOS
 - Link Event Storming: https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
+- Link Aplicacion web: https://guardian-area.web.app/
+- Link Landing Page: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
+- Link Execution Eviden for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Link Organización de Github: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
+- Link Diagrams LucidChart: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
+- Link Video Prototipo Web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Link Video Prototipo Movil: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
