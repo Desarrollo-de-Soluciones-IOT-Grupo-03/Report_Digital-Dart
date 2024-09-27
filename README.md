@@ -3257,65 +3257,155 @@ En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que re
 ### 5.4.4. Applications User Flow Diagrams.
 En esta sección, presentamos los diagramas de flujo de usuario de **GuardianArea** para Mobile, que representan visualmente los caminos y acciones que los usuarios seguirán al interactuar con la aplicación. Estos diagramas proporcionan una guía clara y detallada de cómo los usuarios navegarán por las diferentes secciones y funciones de la aplicación, asegurando una experiencia de usuario coherente y efectiva.
 
--	**UG01: Registrar usuario en la aplicación GuardianArea**
-Después de abrir la aplicación, el usuario selecciona la opción "Registrarse". Completa el formulario de registro ingresando su nombre, correo electrónico y creando una contraseña. Confirma el registro y recibe un enlace por correo electrónico para la verificación. Tras la verificación, el usuario accede a la pantalla principal donde puede comenzar a utilizar la aplicación.
+### **Cuidadores o Familiares de personas con Alzheimer**
+
+#### UG01: Registrar usuario en la aplicación
+El usuario accede a la aplicación GuardianArea y selecciona "Registrarse". Completa el formulario con su información personal, como nombre, correo electrónico y contraseña, y luego confirma la creación de su cuenta. Recibe un enlace por correo electrónico para verificar la cuenta y, tras la verificación, es redirigido a la pantalla de inicio de sesión.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/01-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/01-user-flow.png" width="80%" alt="UG01">
 </div>
 
--   **UG02: Iniciar sesión en GuardianArea**
-El usuario selecciona la opción "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña. Luego de verificar las credenciales, el usuario accede a la pantalla principal de la aplicación donde puede gestionar todas las funcionalidades.
+#### UG02: Iniciar sesión en GuardianArea
+El usuario selecciona "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña, y una vez que el sistema verifica las credenciales, es redirigido a la pantalla principal de la aplicación.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/02-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/02-user-flow.png" width="80%" alt="UG02">
 </div>
 
--	**UG03: Recuperar acceso a la cuenta**
-En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?". Ingresa su correo electrónico y recibe un enlace para restablecer su contraseña. Al hacer clic en el enlace, es redirigido a una página donde puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
+#### UG03: Recuperar acceso a la cuenta
+En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?" e ingresa su correo electrónico. Recibe un enlace para restablecer la contraseña, y al hacer clic en el enlace, puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/03-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/03-user-flow.png" width="80%" alt="UG03">
 </div>
 
-- **UG04: Editar perfil de usuario**
-El usuario accede al menú de configuración y selecciona la opción "Editar perfil". Aquí puede modificar su información personal, como nombre, correo electrónico y número de teléfono, además de actualizar su foto de perfil. Guarda los cambios y recibe una confirmación de que el perfil ha sido actualizado.
+#### UG04: Editar perfil de usuario
+El usuario accede al menú de configuración y selecciona "Editar perfil". Aquí puede modificar su información personal, como nombre y correo electrónico, y guardar los cambios.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/04-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/04-user-flow.png" width="80%" alt="UG04">
 </div>
 
-- **UG05: Ver mapa en tiempo real de monitoreo**
-El usuario selecciona la opción "Mapa en tiempo real" desde el menú principal. En el mapa, puede observar la ubicación actual de la persona monitoreada, así como las zonas seguras configuradas (geocercas). Si la persona sale de la zona segura, se muestra una alerta en tiempo real con notificaciones visuales y sonoras.
+#### UG05: Conectar con un dispositivo
+El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Si selecciona "Agregar dispositivo", la aplicación buscará nuevos dispositivos por Bluetooth. Una vez encontrado el dispositivo, el usuario asigna un nombre y selecciona el rol "Adulto" para la persona con Alzheimer antes de conectar el dispositivo.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/05-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/05-user-flow.png" width="80%" alt="UG05">
 </div>
 
--	**UG06: Revisar historial de actividades**
-El usuario navega al menú principal y selecciona "Historial de actividades". En esta pantalla, puede ver un registro detallado de los movimientos y eventos de la persona monitoreada, incluyendo entradas y salidas de las zonas seguras, junto con alertas generadas en el día.
+#### UG06: Ver mapa en tiempo real de monitoreo
+El usuario selecciona "Mapa en tiempo real" en el menú principal. Puede observar la ubicación actual de la persona con Alzheimer, y si sale de las zonas seguras (geocercas), se activa una alerta visual y sonora.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/06-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/06-user-flow.png" width="80%" alt="UG06">
 </div>
 
--	**UG07: Activar alarmas y mensajes de emergencia**
-Desde la pantalla principal, el usuario accede a la opción "Alarma de emergencia". Puede activar una alarma sonora en el dispositivo de la persona monitoreada, grabar un mensaje de voz o reproducir un mensaje pregrabado por altavoz. También tiene la opción de enviar una notificación de emergencia a varios miembros de la familia simultáneamente.
+#### UG07: Revisar historial de actividades
+El usuario selecciona "Historial de actividades" en el menú principal. Aquí puede revisar un registro detallado de los movimientos de la persona monitoreada, incluyendo alertas y entradas/salidas de zonas seguras.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/07-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/07-user-flow.png" width="80%" alt="UG07">
 </div>
 
--	**UG08: Monitorear signos vitales (frecuencia cardíaca y oxigenación)**
-En la pantalla principal, el usuario selecciona "Signos vitales". Aquí puede visualizar los datos de la frecuencia cardíaca y la oxigenación de la persona monitoreada en tiempo real. La aplicación alerta al usuario si alguno de estos valores está fuera de los rangos normales.
+#### UG08: Activar alarmas y mensajes de emergencia
+El usuario accede a la opción "Alarma de emergencia" y puede activar una alarma sonora, grabar un mensaje de voz o reproducir un mensaje pregrabado a través del altavoz del dispositivo. También puede enviar una notificación de emergencia a varios miembros de la familia.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/08-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/08-user-flow.png" width="80%" alt="UG08">
 </div>
 
--	**UG09: Crear una geocerca**
-El usuario selecciona "Crear geocerca" desde la pantalla de monitoreo. Define el radio y la ubicación de la zona segura directamente en el mapa. Una vez configurada, guarda los cambios y recibe una confirmación de que la geocerca ha sido creada exitosamente. Las salidas de la persona monitoreada fuera de esta zona generarán una alerta.
+#### UG09: Monitorear signos vitales (frecuencia cardíaca y oxigenación)
+El usuario selecciona "Signos vitales" y puede monitorear los datos de la frecuencia cardíaca y la oxigenación de la persona con Alzheimer en tiempo real. Si los valores están fuera de los rangos normales, se genera una alerta automática.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/09-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/09-user-flow.png" width="80%" alt="UG09">
 </div>
 
--	**UG10: Editar geocerca existente**
-El usuario selecciona la opción "Editar geocerca" desde el menú de configuración. En la pantalla de edición, ajusta el radio o cambia la ubicación de la geocerca creada previamente. Guarda los cambios y recibe una confirmación de que la configuración ha sido actualizada.
+#### UG10: Crear una geocerca
+El usuario selecciona "Crear geocerca" y puede definir la ubicación y el radio de una zona segura directamente en el mapa. Una vez creada, la aplicación activará alertas si la persona con Alzheimer sale de esta zona.
+
 <div style="text-align: center;">
-    <img src="./images/chapter-05/10-user-flow.png"  width="80%" alt="User Flow">
+    <img src="./images/chapter-05/10-user-flow.png" width="80%" alt="UG10">
+</div>
+
+#### UG11: Editar geocerca existente
+El usuario selecciona "Editar geocerca" y puede ajustar la ubicación o el radio de una geocerca previamente creada. Los cambios son guardados y confirmados por la aplicación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/11-user-flow.png" width="80%" alt="UG11">
+</div>
+
+### **Cuidadores o Familiares de niños pequeños**
+
+#### UG01: Registrar usuario en la aplicación
+El usuario accede a la aplicación y selecciona "Registrarse". Completa el formulario con su información personal y confirma la creación de la cuenta. Luego, verifica su correo electrónico y accede a la pantalla de inicio de sesión.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/01-user-flow.png" width="80%" alt="UG01">
+</div>
+
+#### UG02: Iniciar sesión en GuardianArea
+El usuario selecciona "Iniciar sesión", ingresa su correo electrónico y contraseña, y accede a la pantalla principal de la aplicación tras la verificación de sus credenciales.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/02-user-flow.png" width="80%" alt="UG02">
+</div>
+
+#### UG03: Recuperar acceso a la cuenta
+El usuario selecciona "¿Olvidaste tu contraseña?" y recibe un enlace por correo electrónico para restablecerla. Ingresa una nueva contraseña y luego puede iniciar sesión nuevamente.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/03-user-flow.png" width="80%" alt="UG03">
+</div>
+
+#### UG04: Editar perfil de usuario
+El usuario accede al menú de configuración y selecciona "Editar perfil" para modificar su información personal. Guarda los cambios y recibe una confirmación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/04-user-flow.png" width="80%" alt="UG04">
+</div>
+
+#### UG05: Conectar con un dispositivo
+El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Al seleccionar "Agregar dispositivo", la aplicación buscará dispositivos cercanos por Bluetooth. Tras encontrar un dispositivo, el usuario asigna un nombre y selecciona el rol "Infante" antes de conectarlo al sistema.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/05-user-flow.png" width="80%" alt="UG05">
+</div>
+
+#### UG06: Ver mapa en tiempo real de monitoreo
+El usuario selecciona "Mapa en tiempo real" para ver la ubicación actual del niño monitoreado. Si el niño sale de las zonas seguras, la aplicación activa una alerta.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/06-user-flow.png" width="80%" alt="UG06">
+</div>
+
+#### UG07: Revisar historial de actividades
+El usuario accede al "Historial de actividades", donde puede revisar los movimientos del niño monitoreado, entradas y salidas de las zonas seguras, y alertas generadas.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/07-user-flow.png" width="80%" alt="UG07">
+</div>
+
+#### UG08: Activar alarmas y mensajes de emergencia
+El usuario selecciona "Alarma de emergencia" para activar una alarma sonora, grabar un mensaje o reproducir un mensaje pregrabado por el altavoz del dispositivo. También puede enviar notificaciones de emergencia a otros miembros de la familia.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/08-user-flow.png" width="80%" alt="UG09">
+</div>
+
+#### UG09: Crear una geocerca
+El usuario selecciona "Crear geocerca" y puede definir una zona segura en el mapa. Recibe alertas si el niño sale de la geocerca.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/10-user-flow.png" width="80%" alt="UG10">
+</div>
+
+#### UG10: Editar geocerca existente
+El usuario selecciona "Editar geocerca" y ajusta el radio o la ubicación de una geocerca previamente creada. La configuración actualizada es guardada y confirmada.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/11-user-flow.png" width="80%" alt="UG11">
 </div>
 
 - Link User Flow diagrams: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
@@ -3538,6 +3628,10 @@ El objetivo principal de este Sprint 1 es crear y diseñar las vistas clave de l
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+Debido a que el objetivo del sprint abarcó la landing page y la implementación de las vistas clave de la aplicación, no se generó documentación de pruebas en este sprint.
+| Repository           | Branch              | Commit Id | Commit Message        | Commit Message Body                            | Commited on (Date) |
+|----------------------|---------------------|-----------|-----------------------|------------------------------------------------|--------------------|
+
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 En el desarrollo del presente sprint hemos logrado implementar la landing page de GuardianArea y la aplicación web desarrollada en Angular. A continuación, se presentan las evidencias de la ejecución del sprint.
 
