@@ -2977,6 +2977,91 @@ Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id
 
 ### 5.4.2. Applications Wireflow Diagrams.
 
+En esta sección, presentamos los diagramas de flujo de la aplicación GuardianArea, elaborados por nuestro equipo. Estos diagramas reflejan el comportamiento de la aplicación en función de las interacciones esperadas de nuestros usuarios, tanto los cuidadores de personas con Alzheimer como los padres de niños pequeños. Hemos desarrollado un diagrama de flujo para cada objetivo del usuario, teniendo en cuenta los perfiles de usuario (cuidadores y familiares) para cada funcionalidad clave de la aplicación.
+
+**TaskFlow**
+
+- Registrar usuario en la aplicación
+- Iniciar sesión en GuardianArea
+- Recuperar acceso a la cuenta
+- Editar perfil de usuario
+- Ver mapa en tiempo real de monitoreo
+- Revisar historial de actividades
+- Activar alarmas y mensajes de emergencia
+- Monitorear signos vitales (frecuencia cardíaca y oxigenación)
+- Crear una geocerca
+- Editar geocerca existente
+
+#### UG01: Registrar usuario en la aplicación
+El usuario accede a la aplicación GuardianArea y selecciona la opción "Registrarse". Completa el formulario de registro proporcionando su información personal, como nombre, correo electrónico y contraseña. Luego, debe elegir un plan de suscripción adecuado para su uso. Posteriormente, se le solicita agregar un método de pago para procesar la suscripción. Una vez que se completa esta información, el usuario recibe una notificación por correo electrónico para verificar su cuenta y confirmar la suscripción. Después de la verificación, es redirigido a la pantalla de inicio de sesión, donde puede iniciar sesión con sus nuevas credenciales.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG01.png" width="80%" alt="UG01">
+</div>
+
+#### UG02: Iniciar sesión en GuardianArea
+El usuario selecciona la opción "Iniciar sesión" en la pantalla de bienvenida de la aplicación. Ingresa su correo electrónico y contraseña en los campos correspondientes. Tras hacer clic en "Iniciar sesión", el sistema verifica sus credenciales. Si las credenciales son correctas, el usuario es redirigido a la pantalla principal de la aplicación, desde donde puede acceder a todas las funcionalidades disponibles.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG02.png" width="80%" alt="UG02">
+</div>
+
+#### UG03: Recuperar acceso a la cuenta
+En caso de haber olvidado su contraseña, el usuario selecciona la opción "¿Olvidaste tu contraseña?" en la pantalla de inicio de sesión. Luego, ingresa su correo electrónico asociado a la cuenta y recibe un código para restablecer su contraseña. Al colocar el código, es redirigido a una pantalla donde puede ingresar una nueva contraseña. Finalmente, el usuario puede iniciar sesión con la nueva contraseña.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG03.png" width="80%" alt="UG03">
+</div>
+
+#### UG04: Editar perfil de usuario
+El usuario accede al menú de configuración desde la pantalla principal y selecciona la opción "Editar perfil". En esta pantalla, puede actualizar su nombre, correo electrónico, número de teléfono y cambiar su foto de perfil. Después de realizar los cambios, hace clic en "Guardar" y recibe una notificación que confirma que su perfil ha sido actualizado correctamente.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG04.png" width="80%" alt="UG04">
+</div>
+
+#### UG05: Ver mapa en tiempo real de monitoreo
+El usuario selecciona la opción "Mapa en tiempo real" desde el menú principal. En el mapa, puede observar la ubicación actual de la persona monitoreada, así como las zonas seguras configuradas (geocercas). Si la persona sale de la zona segura, se muestra una alerta en tiempo real en el mapa, indicando la salida de la zona delimitada y activando una notificación para el usuario.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG05.png" width="80%" alt="UG05">
+</div>
+
+#### UG06: Revisar historial de actividades
+El usuario selecciona la opción "Historial de actividades" en el menú principal. En esta pantalla, puede ver un registro detallado de los movimientos y eventos de la persona monitoreada, como entradas y salidas de las zonas seguras y alertas generadas. La información está organizada cronológicamente para facilitar la revisión y el análisis por parte del cuidador o familiar.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG06.png" width="80%" alt="UG06">
+</div>
+
+#### UG07: Activar alarmas y mensajes de emergencia
+En caso de emergencia, el usuario accede a la opción "Alarma de emergencia" desde la pantalla principal. En esta sección, puede activar una alarma sonora en el dispositivo de la persona monitoreada, grabar un mensaje de voz o reproducir un mensaje pregrabado por el altavoz del dispositivo. Además, el usuario puede enviar una notificación de emergencia a otros miembros de la familia de manera simultánea.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG07.png" width="80%" alt="UG07">
+</div>
+
+#### UG08: Monitorear signos vitales (frecuencia cardíaca y oxigenación)
+El usuario selecciona la opción "Signos vitales" desde la pantalla principal. En esta sección, puede monitorear los datos de la frecuencia cardíaca y la oxigenación de la persona monitoreada en tiempo real. Si los valores están fuera de los rangos normales, la aplicación genera una alerta automática que notifica al usuario para que tome acción.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG08.png" width="80%" alt="UG08">
+</div>
+
+#### UG09: Crear una geocerca
+Desde la pantalla de monitoreo en tiempo real, el usuario selecciona la opción "Crear geocerca". En esta pantalla, puede definir el radio y la ubicación de la zona segura directamente en el mapa. Después de configurar la geocerca, guarda los cambios y recibe una confirmación de que la geocerca ha sido creada exitosamente. Las salidas de la persona monitoreada fuera de esta zona generan una alerta automática.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG09.png" width="80%" alt="UG09">
+</div>
+
+#### UG10: Editar geocerca existente
+El usuario selecciona la opción "Editar geocerca" en el menú de configuración. Desde esta pantalla, puede ajustar el radio o cambiar la ubicación de una geocerca previamente creada. Tras realizar los ajustes necesarios, guarda los cambios y recibe una confirmación de que la configuración ha sido actualizada correctamente.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG10.png" width="80%" alt="UG10">
+</div>
+
 ### 5.4.3. Applications Mock-ups.
 
 En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que representan visualmente el aspecto y la experiencia de nuestras interfaces de usuario. A través de este proceso, hemos transformado las ideas y especificaciones del proyecto en representaciones visuales detalladas y precisas que muestran cómo será la versión final de la aplicación.
