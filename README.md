@@ -3080,6 +3080,70 @@ En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que re
 
 
 ### 5.4.4. Applications User Flow Diagrams.
+En esta sección, presentamos los diagramas de flujo de usuario de **GuardianArea** para Mobile, que representan visualmente los caminos y acciones que los usuarios seguirán al interactuar con la aplicación. Estos diagramas proporcionan una guía clara y detallada de cómo los usuarios navegarán por las diferentes secciones y funciones de la aplicación, asegurando una experiencia de usuario coherente y efectiva.
+
+-	**UG01: Registrar usuario en la aplicación GuardianArea**
+Después de abrir la aplicación, el usuario selecciona la opción "Registrarse". Completa el formulario de registro ingresando su nombre, correo electrónico y creando una contraseña. Confirma el registro y recibe un enlace por correo electrónico para la verificación. Tras la verificación, el usuario accede a la pantalla principal donde puede comenzar a utilizar la aplicación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/01-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-   **UG02: Iniciar sesión en GuardianArea**
+El usuario selecciona la opción "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña. Luego de verificar las credenciales, el usuario accede a la pantalla principal de la aplicación donde puede gestionar todas las funcionalidades.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/02-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG03: Recuperar acceso a la cuenta**
+En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?". Ingresa su correo electrónico y recibe un enlace para restablecer su contraseña. Al hacer clic en el enlace, es redirigido a una página donde puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/03-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+- **UG04: Editar perfil de usuario**
+El usuario accede al menú de configuración y selecciona la opción "Editar perfil". Aquí puede modificar su información personal, como nombre, correo electrónico y número de teléfono, además de actualizar su foto de perfil. Guarda los cambios y recibe una confirmación de que el perfil ha sido actualizado.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/04-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+- **UG05: Ver mapa en tiempo real de monitoreo**
+El usuario selecciona la opción "Mapa en tiempo real" desde el menú principal. En el mapa, puede observar la ubicación actual de la persona monitoreada, así como las zonas seguras configuradas (geocercas). Si la persona sale de la zona segura, se muestra una alerta en tiempo real con notificaciones visuales y sonoras.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/05-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG06: Revisar historial de actividades**
+El usuario navega al menú principal y selecciona "Historial de actividades". En esta pantalla, puede ver un registro detallado de los movimientos y eventos de la persona monitoreada, incluyendo entradas y salidas de las zonas seguras, junto con alertas generadas en el día.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/06-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG07: Activar alarmas y mensajes de emergencia**
+Desde la pantalla principal, el usuario accede a la opción "Alarma de emergencia". Puede activar una alarma sonora en el dispositivo de la persona monitoreada, grabar un mensaje de voz o reproducir un mensaje pregrabado por altavoz. También tiene la opción de enviar una notificación de emergencia a varios miembros de la familia simultáneamente.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/07-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG08: Monitorear signos vitales (frecuencia cardíaca y oxigenación)**
+En la pantalla principal, el usuario selecciona "Signos vitales". Aquí puede visualizar los datos de la frecuencia cardíaca y la oxigenación de la persona monitoreada en tiempo real. La aplicación alerta al usuario si alguno de estos valores está fuera de los rangos normales.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/08-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG09: Crear una geocerca**
+El usuario selecciona "Crear geocerca" desde la pantalla de monitoreo. Define el radio y la ubicación de la zona segura directamente en el mapa. Una vez configurada, guarda los cambios y recibe una confirmación de que la geocerca ha sido creada exitosamente. Las salidas de la persona monitoreada fuera de esta zona generarán una alerta.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/09-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+-	**UG10: Editar geocerca existente**
+El usuario selecciona la opción "Editar geocerca" desde el menú de configuración. En la pantalla de edición, ajusta el radio o cambia la ubicación de la geocerca creada previamente. Guarda los cambios y recibe una confirmación de que la configuración ha sido actualizada.
+<div style="text-align: center;">
+    <img src="./images/chapter-05/10-user-flow.png"  width="80%" alt="User Flow">
+</div>
+
+- Link User Flow diagrams: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
 
 ## 5.5. Applications Prototyping.
 
@@ -3093,6 +3157,8 @@ En esta sección, presentamos los prototipos interactivos de las aplicaciones de
 
 Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=524%3A3077&node-id=524-3824&node-type=canvas&viewport=1367%2C645%2C0.14&t=b11LAGIjor6GArVT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=524%3A3824
 
+Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 #### Mobile Web Browser:
 
 <div style="text-align: center;">
@@ -3100,6 +3166,8 @@ Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page
 </div>
 
 Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=14%3A3923&node-id=555-11703&node-type=frame&viewport=-40728%2C-812%2C1&t=zhbFfof6kQbzcznb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=555%3A11703
+
+Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -3339,6 +3407,8 @@ En el desarrollo del presente sprint hemos logrado implementar la landing page d
         <img src="./images/chapter-06/06-web-application.png" alt="Web Aplicacion"  width="100%"/>
     </div>
 
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 Debido que a que el objetivo de este sprint fue la implementación de la Landing Page y la aplicación web, no se generó documentación de servicios en este sprint.
 <table>
@@ -3464,3 +3534,11 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
 
 ### ANEXOS
 - Link Event Storming: https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
+- Link Aplicacion web: https://guardian-area.web.app/
+- Link Landing Page: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
+- Link Execution Eviden for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Link Organización de Github: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
+- Link Diagrams LucidChart: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
+- Link Video Prototipo Web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Link Video Prototipo Movil: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
