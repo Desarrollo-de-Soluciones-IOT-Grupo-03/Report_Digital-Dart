@@ -3125,6 +3125,7 @@ En esta sección, presentamos los diagramas de flujo de la aplicación GuardianA
 - Iniciar sesión en GuardianArea
 - Recuperar acceso a la cuenta
 - Editar perfil de usuario
+- Conectar con un dispositivo
 - Ver mapa en tiempo real de monitoreo
 - Revisar historial de actividades
 - Activar alarmas y mensajes de emergencia
@@ -3132,74 +3133,155 @@ En esta sección, presentamos los diagramas de flujo de la aplicación GuardianA
 - Crear una geocerca
 - Editar geocerca existente
 
+### **Cuidadores o Familiares de personas con Alzheimer**
+
 #### UG01: Registrar usuario en la aplicación
-El usuario accede a la aplicación GuardianArea y selecciona la opción "Registrarse". Completa el formulario de registro proporcionando su información personal, como nombre, correo electrónico y contraseña. Luego, debe elegir un plan de suscripción adecuado para su uso. Posteriormente, se le solicita agregar un método de pago para procesar la suscripción. Una vez que se completa esta información, el usuario recibe una notificación por correo electrónico para verificar su cuenta y confirmar la suscripción. Después de la verificación, es redirigido a la pantalla de inicio de sesión, donde puede iniciar sesión con sus nuevas credenciales.
+El usuario accede a la aplicación GuardianArea y selecciona "Registrarse". Completa el formulario con su información personal, como nombre, correo electrónico y contraseña, y luego confirma la creación de su cuenta. Recibe un enlace por correo electrónico para verificar la cuenta y, tras la verificación, es redirigido a la pantalla de inicio de sesión.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG01.png" width="80%" alt="UG01">
 </div>
 
 #### UG02: Iniciar sesión en GuardianArea
-El usuario selecciona la opción "Iniciar sesión" en la pantalla de bienvenida de la aplicación. Ingresa su correo electrónico y contraseña en los campos correspondientes. Tras hacer clic en "Iniciar sesión", el sistema verifica sus credenciales. Si las credenciales son correctas, el usuario es redirigido a la pantalla principal de la aplicación, desde donde puede acceder a todas las funcionalidades disponibles.
+El usuario selecciona "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña, y una vez que el sistema verifica las credenciales, es redirigido a la pantalla principal de la aplicación.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG02.png" width="80%" alt="UG02">
 </div>
 
 #### UG03: Recuperar acceso a la cuenta
-En caso de haber olvidado su contraseña, el usuario selecciona la opción "¿Olvidaste tu contraseña?" en la pantalla de inicio de sesión. Luego, ingresa su correo electrónico asociado a la cuenta y recibe un código para restablecer su contraseña. Al colocar el código, es redirigido a una pantalla donde puede ingresar una nueva contraseña. Finalmente, el usuario puede iniciar sesión con la nueva contraseña.
+En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?" e ingresa su correo electrónico. Recibe un enlace para restablecer la contraseña, y al hacer clic en el enlace, puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG03.png" width="80%" alt="UG03">
 </div>
 
 #### UG04: Editar perfil de usuario
-El usuario accede al menú de configuración desde la pantalla principal y selecciona la opción "Editar perfil". En esta pantalla, puede actualizar su nombre, correo electrónico, número de teléfono y cambiar su foto de perfil. Después de realizar los cambios, hace clic en "Guardar" y recibe una notificación que confirma que su perfil ha sido actualizado correctamente.
+El usuario accede al menú de configuración y selecciona "Editar perfil". Aquí puede modificar su información personal, como nombre y correo electrónico, y guardar los cambios.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG04.png" width="80%" alt="UG04">
 </div>
 
-#### UG05: Ver mapa en tiempo real de monitoreo
-El usuario selecciona la opción "Mapa en tiempo real" desde el menú principal. En el mapa, puede observar la ubicación actual de la persona monitoreada, así como las zonas seguras configuradas (geocercas). Si la persona sale de la zona segura, se muestra una alerta en tiempo real en el mapa, indicando la salida de la zona delimitada y activando una notificación para el usuario.
+#### UG05: Conectar con un dispositivo
+El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Si selecciona "Agregar dispositivo", la aplicación buscará nuevos dispositivos por Bluetooth. Una vez encontrado el dispositivo, el usuario asigna un nombre y selecciona el rol "Adulto" para la persona con Alzheimer antes de conectar el dispositivo.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG05.png" width="80%" alt="UG05">
 </div>
 
-#### UG06: Revisar historial de actividades
-El usuario selecciona la opción "Historial de actividades" en el menú principal. En esta pantalla, puede ver un registro detallado de los movimientos y eventos de la persona monitoreada, como entradas y salidas de las zonas seguras y alertas generadas. La información está organizada cronológicamente para facilitar la revisión y el análisis por parte del cuidador o familiar.
+#### UG06: Ver mapa en tiempo real de monitoreo
+El usuario selecciona "Mapa en tiempo real" en el menú principal. Puede observar la ubicación actual de la persona con Alzheimer, y si sale de las zonas seguras (geocercas), se activa una alerta visual y sonora.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG06.png" width="80%" alt="UG06">
 </div>
 
-#### UG07: Activar alarmas y mensajes de emergencia
-En caso de emergencia, el usuario accede a la opción "Alarma de emergencia" desde la pantalla principal. En esta sección, puede activar una alarma sonora en el dispositivo de la persona monitoreada, grabar un mensaje de voz o reproducir un mensaje pregrabado por el altavoz del dispositivo. Además, el usuario puede enviar una notificación de emergencia a otros miembros de la familia de manera simultánea.
+#### UG07: Revisar historial de actividades
+El usuario selecciona "Historial de actividades" en el menú principal. Aquí puede revisar un registro detallado de los movimientos de la persona monitoreada, incluyendo alertas y entradas/salidas de zonas seguras.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG07.png" width="80%" alt="UG07">
 </div>
 
-#### UG08: Monitorear signos vitales (frecuencia cardíaca y oxigenación)
-El usuario selecciona la opción "Signos vitales" desde la pantalla principal. En esta sección, puede monitorear los datos de la frecuencia cardíaca y la oxigenación de la persona monitoreada en tiempo real. Si los valores están fuera de los rangos normales, la aplicación genera una alerta automática que notifica al usuario para que tome acción.
+#### UG08: Activar alarmas y mensajes de emergencia
+El usuario accede a la opción "Alarma de emergencia" y puede activar una alarma sonora, grabar un mensaje de voz o reproducir un mensaje pregrabado a través del altavoz del dispositivo. También puede enviar una notificación de emergencia a varios miembros de la familia.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG08.png" width="80%" alt="UG08">
 </div>
 
-#### UG09: Crear una geocerca
-Desde la pantalla de monitoreo en tiempo real, el usuario selecciona la opción "Crear geocerca". En esta pantalla, puede definir el radio y la ubicación de la zona segura directamente en el mapa. Después de configurar la geocerca, guarda los cambios y recibe una confirmación de que la geocerca ha sido creada exitosamente. Las salidas de la persona monitoreada fuera de esta zona generan una alerta automática.
+#### UG09: Monitorear signos vitales (frecuencia cardíaca y oxigenación)
+El usuario selecciona "Signos vitales" y puede monitorear los datos de la frecuencia cardíaca y la oxigenación de la persona con Alzheimer en tiempo real. Si los valores están fuera de los rangos normales, se genera una alerta automática.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG09.png" width="80%" alt="UG09">
 </div>
 
-#### UG10: Editar geocerca existente
-El usuario selecciona la opción "Editar geocerca" en el menú de configuración. Desde esta pantalla, puede ajustar el radio o cambiar la ubicación de una geocerca previamente creada. Tras realizar los ajustes necesarios, guarda los cambios y recibe una confirmación de que la configuración ha sido actualizada correctamente.
+#### UG10: Crear una geocerca
+El usuario selecciona "Crear geocerca" y puede definir la ubicación y el radio de una zona segura directamente en el mapa. Una vez creada, la aplicación activará alertas si la persona con Alzheimer sale de esta zona.
 
 <div style="text-align: center;">
     <img src="./images/chapter-05/UG10.png" width="80%" alt="UG10">
+</div>
+
+#### UG11: Editar geocerca existente
+El usuario selecciona "Editar geocerca" y puede ajustar la ubicación o el radio de una geocerca previamente creada. Los cambios son guardados y confirmados por la aplicación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG11.png" width="80%" alt="UG11">
+</div>
+
+### **Cuidadores o Familiares de niños pequeños**
+
+#### UG01: Registrar usuario en la aplicación
+El usuario accede a la aplicación y selecciona "Registrarse". Completa el formulario con su información personal y confirma la creación de la cuenta. Luego, verifica su correo electrónico y accede a la pantalla de inicio de sesión.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG01.png" width="80%" alt="UG01">
+</div>
+
+#### UG02: Iniciar sesión en GuardianArea
+El usuario selecciona "Iniciar sesión", ingresa su correo electrónico y contraseña, y accede a la pantalla principal de la aplicación tras la verificación de sus credenciales.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG02.png" width="80%" alt="UG02">
+</div>
+
+#### UG03: Recuperar acceso a la cuenta
+El usuario selecciona "¿Olvidaste tu contraseña?" y recibe un enlace por correo electrónico para restablecerla. Ingresa una nueva contraseña y luego puede iniciar sesión nuevamente.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG03.png" width="80%" alt="UG03">
+</div>
+
+#### UG04: Editar perfil de usuario
+El usuario accede al menú de configuración y selecciona "Editar perfil" para modificar su información personal. Guarda los cambios y recibe una confirmación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG04.png" width="80%" alt="UG04">
+</div>
+
+#### UG05: Conectar con un dispositivo
+El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Al seleccionar "Agregar dispositivo", la aplicación buscará dispositivos cercanos por Bluetooth. Tras encontrar un dispositivo, el usuario asigna un nombre y selecciona el rol "Infante" antes de conectarlo al sistema.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG05.png" width="80%" alt="UG05">
+</div>
+
+#### UG06: Ver mapa en tiempo real de monitoreo
+El usuario selecciona "Mapa en tiempo real" para ver la ubicación actual del niño monitoreado. Si el niño sale de las zonas seguras, la aplicación activa una alerta.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG06.png" width="80%" alt="UG06">
+</div>
+
+#### UG07: Revisar historial de actividades
+El usuario accede al "Historial de actividades", donde puede revisar los movimientos del niño monitoreado, entradas y salidas de las zonas seguras, y alertas generadas.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG07.png" width="80%" alt="UG07">
+</div>
+
+#### UG08: Activar alarmas y mensajes de emergencia
+El usuario selecciona "Alarma de emergencia" para activar una alarma sonora, grabar un mensaje o reproducir un mensaje pregrabado por el altavoz del dispositivo. También puede enviar notificaciones de emergencia a otros miembros de la familia.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG08.png" width="80%" alt="UG09">
+</div>
+
+#### UG09: Crear una geocerca
+El usuario selecciona "Crear geocerca" y puede definir una zona segura en el mapa. Recibe alertas si el niño sale de la geocerca.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG10.png" width="80%" alt="UG10">
+</div>
+
+#### UG10: Editar geocerca existente
+El usuario selecciona "Editar geocerca" y ajusta el radio o la ubicación de una geocerca previamente creada. La configuración actualizada es guardada y confirmada.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-05/UG11.png" width="80%" alt="UG11">
 </div>
 
 ### 5.4.3. Applications Mock-ups.
