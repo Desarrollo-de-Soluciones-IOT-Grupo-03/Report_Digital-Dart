@@ -1508,6 +1508,20 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 
 ## 3.4. Product Backlog
 
+| **# Orden** | **User Story ID** | **Título**                                            | **Descripción**                                                                                                                                     | **Story Points** |
+|-------------|-------------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 1           | US01              | Visualización de Ubicación en Tiempo Real            | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación.                | 5                |
+| 2           | US03              | Establecer Geo-cercas                                | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar.                                               | 8                |
+| 3           | US05              | Activación de Alarmas en Situación de Peligro        | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro, para llamar la atención de personas cercanas.| 5                |
+| 4           | US09              | Revisión del Historial de Eventos                    | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad.              | 5                |
+| 5           | US06              | Monitoreo de Actividad Física                        | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.                         | 5                |
+| 6           | US07              | Control de Dispositivos Externos                    | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro.             | 3                |
+| 7           | US04              | Comunicación Remota con el niño a cuidar             | Como cuidador, quiero poder comunicarme con el niño a través del altavoz del dispositivo para darle instrucciones en caso de emergencia.             | 3                |
+| 8           | US02              | Alerta de Salida de Zona Segura                      | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.                              | 3                |
+| 9           | US10              | Recuperación de Contraseña                           | Como usuario, quiero poder recuperar mi contraseña en caso de olvidarla para acceder nuevamente a mi cuenta sin inconvenientes.                      | 2                |
+| 10          | US08              | Diagnóstico y Solución de Problemas del Dispositivo  | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo GuardianArea para asegurar su correcto funcionamiento.                 | 3                |
+
+
 ### User Stories
 
 | # Orden | User Story Id | Título                                                | Descripción                                                                                                               | Story Points |
@@ -3109,7 +3123,51 @@ La configuración del despliegue del software se realiza mediante pipelines auto
 ## 6.2. Landing Page, Services & Applications Implementation.
 ### 6.2.1. Sprint n
 #### 6.2.1.1. Sprint Planning n.
-#### 6.2.1.2. Sprint Backlog n.
+
+| **Sprint #**                | Sprint 1                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                               |
+| **Date**                    | 2024-09-17                                                                                     |
+| **Time**                    | 17:00 PM                                                                                       |
+| **Location**                | Reunión virtual vía Discord                                                                       |
+| **Prepared By**             | Castillo Robles, Steve Roger                                                                  |
+| **Attendees (to planning meeting)** | Castillo Robles, Steve Roger<br>Castro Soto, Diego Mauricio<br>Espinoza Quispe, Jennifer Mary<br>Esquivel Aguayo, Diego Martín<br>Quito Igreda, Cristian Andrés |
+| **Sprint 0 Review Summary**  | (Como este es el primer sprint, no hay un sprint anterior. El enfoque de este sprint será establecer las bases del diseño y estructura de la aplicación, tanto para la versión web como móvil, y la implementación de la landing page de la aplicación GuardianArea.                                         |
+| **Sprint 0 Retrospective Summary** | Al ser el primer sprint, no hay un Sprint 0 Retrospective. En futuros sprints, esta sección incluirá el análisis de aciertos, oportunidades de mejora y las opiniones del equipo sobre el trabajo realizado.|
+| **Sprint Goal & User Stories** |                                                                                              |
+| **Sprint 1 Goal**           | El objetivo de este primer sprint es diseñar e implementar las vistas clave de la aplicación, tanto en la versión web como en la móvil, desplegar la landing page, y lanzar la primera versión del frontend en web (Angular). En particular, se desarrollarán las vistas de Login, Register, el Mapa para monitoreo en tiempo real, y la Historial de actividades. Aunque estas vistas aún no serán funcionales, se deben construir como mockups para posteriores integraciones. **Métrica de cumplimiento**:  Al finalizar el sprint, se deben haber completado las vistas de la aplicación y la landing page debe estar desplegada en el entorno de producción|
+| **Sprint 1 Velocity**        |                                                                                               |
+| **Velocity establecido**     | El equipo ha decidido que puede aceptar 30 Story Points para este primer sprint, considerando el enfoque en diseño e implementación de la interfaz.|
+| **Sum of Story Points**      | Total de Story Points para este Sprint: 30 Story Points.|
+
+#### 6.2.1.2. Sprint Backlog 1.
+
+## Sprint Backlog Introduction
+
+El objetivo principal de este Sprint 1 es crear y diseñar las vistas clave de la aplicación GuardianArea, tanto en la versión web como en la versión móvil, además de implementar la landing page. Las vistas principales incluyen el login, registro, el mapa de monitoreo en tiempo real, y el historial de actividades. El equipo también desarrollará la landing page con la sección Hero, el carrusel de testimonios y el formulario de suscripción.
+
+
+
+*Trello:* [https://trello.com/b/Cx1a45vr/sprint-backlog-01](https://trello.com/b/Cx1a45vr/sprint-backlog-01)
+
+---
+
+## User Story Work-Items / Tasks
+
+| **User Story ID** | **Título User Story**                            | **Task ID** | **Título Task**                            | **Descripción**                                                                                                                                     | **Estimación (Horas)** | **Assigned To**                     | **Status**     |
+|-------------------|--------------------------------------------------|------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------------------------|----------------|
+| US01              | Visualización de Ubicación en Tiempo Real        | T01        | Crear mapa para mostrar ubicación en tiempo real | Implementar un mapa interactivo que muestre la ubicación de la persona monitoreada en tiempo real.                                                   | 8                      | Esquivel Aguayo, Diego Martin       | In Process      |
+|                   |                                                  | T02        | Integrar actualización automática de ubicación | Configurar el sistema para que actualice la ubicación en tiempo real mientras la persona está en movimiento.                                         | 5                      | Quito Igreda, Cristian Andrés       | To-do           |
+| US03              | Establecer Geo-cercas                            | T04        | Crear interfaz para configuración de geo-cercas | Desarrollar una interfaz en la web donde los cuidadores puedan configurar geo-cercas directamente en el mapa.                                        | 7                      | Esquivel Aguayo, Diego Martin       | In Process      |
+|                   |                                                  | T05        | Habilitar edición de geo-cercas              | Permitir que los cuidadores editen las geo-cercas configuradas previamente desde la aplicación.                                                      | 5                      | Quito Igreda, Cristian Andrés       | To-do           |
+| TS01              | Implementación de Mapa para Visualización en Tiempo Real | T06        | Implementar API de mapas en la aplicación     | Integrar la API de Google Maps para visualizar la ubicación en tiempo real en la aplicación web.                                                     | 6                      | Castro Soto, Diego Mauricio         | In Process      |
+| TS02              | Crear Interfaz de Usuario para Geo-cercas        | T07        | Desarrollar interfaz intuitiva para geo-cercas | Crear una interfaz de usuario simple e intuitiva que permita a los cuidadores establecer y gestionar geo-cercas.                                     | 8                      | Castillo Robles, Steve Roger        | In Process      |
+| TS03              | Implementar Hero Section en el Landing Page      | T08        | Desarrollar la sección Hero en el Landing Page | Crear una sección hero con título, subtítulo, CTA y contenido visual que refleje el propósito de GuardianArea.                                        | 4                      | Espinoza Quispe, Jennifer Mary      | Done            |
+| TS04              | Implementar Carrusel de Testimonios en Landing Page | T09        | Implementar carrusel de testimonios           | Implementar un carrusel interactivo en la landing page que muestre testimonios de usuarios anteriores.                                                | 3                      | Quito Igreda, Cristian Andrés       | Done            |
+| TS05              | Implementar Formulario de Suscripción en Landing Page | T10        | Crear formulario de suscripción               | Crear un formulario que permita a los usuarios ingresar su correo electrónico para suscribirse a actualizaciones y noticias de GuardianArea.          | 4                      | Castillo Robles, Steve Roger        | Done            |
+
+---
+
 #### 6.2.1.3. Development Evidence for Sprint Review.
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
 #### 6.2.1.5. Execution Evidence for Sprint Review.
