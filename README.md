@@ -3516,7 +3516,7 @@ El objetivo principal de este Sprint 1 es crear y diseñar las vistas clave de l
 
 
 
-*Trello:* [https://trello.com/b/Cx1a45vr/sprint-backlog-01](https://trello.com/b/Cx1a45vr/sprint-backlog-01)
+*Trello:* [https://trello.com/b/Cx1a45vr/sprint-backlog-01](https://trello.com/b/s74QJuaK/sprint-01)
 
 ---
 
