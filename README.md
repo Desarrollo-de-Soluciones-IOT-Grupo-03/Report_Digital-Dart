@@ -1396,8 +1396,8 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 | **ID-TS**                | 02                                           |
 | **Owner**                | Castro Soto, Diego Mauricio                  |
 | **Título TS**            | Validar y procesar formulario de contacto sin envío real |
-| **Descripción:**         | Como desarrollador, quiero validar los campos del formulario de contacto y procesar los datos localmente sin enviar la información a un servidor, para simular la funcionalidad de envío y asegurar que la información ingresada es correcta. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Procesar formulario con todos los campos correctamente llenados <br/> **Dado** que el usuario ha llenado todos los campos obligatorios del formulario de contacto con datos válidos <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** el formulario se valida exitosamente <br/> **Y** los datos ingresados se registran en la consola para propósitos de prueba <br/> **Y** se muestra una alerta de confirmación "Formulario enviado con éxito." <br/><br/> **Scenario 02 (Unhappy Path):** Intentar enviar formulario con campos obligatorios vacíos <br/> **Dado** que el usuario ha dejado uno o más campos obligatorios vacíos en el formulario de contacto <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, completa todos los campos." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 03 (Unhappy Path):** Intentar enviar formulario con correo electrónico inválido <br/> **Dado** que el usuario ha ingresado un correo electrónico con formato incorrecto <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, ingresa un correo electrónico válido." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 04 (Unhappy Path):** Intentar enviar formulario con número de teléfono inválido <br/> **Dado** que el usuario ha ingresado caracteres no numéricos en el campo de teléfono <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, ingresa un número de teléfono válido (solo números)." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 05 (Happy Path):** Restringir entrada de caracteres no numéricos en el campo de teléfono <br/> **Dado** que el usuario está ingresando datos en el campo "Teléfono" <br/> **Cuando** el usuario intenta ingresar caracteres no numéricos <br/> **Entonces** dichos caracteres son eliminados automáticamente del campo de entrada <br/> **Y** solo se permiten dígitos numéricos en el campo. <br/><br/> **Scenario 06 (Happy Path):** Simular procesamiento exitoso del formulario con `fakeFetch` <br/> **Dado** que el usuario ha llenado el formulario correctamente <br/> **Cuando** el formulario es procesado <br/> **Entonces** la función `fakeFetch` es llamada para simular una solicitud al servidor <br/> **Y** después de un breve retraso, se muestra una alerta "Formulario enviado con éxito." <br/> **Y** los datos ingresados se registran en la consola para propósitos de prueba. <br/><br/> **Scenario 07 (Unhappy Path):** Manejar error simulado en el procesamiento del formulario <br/> **Dado** que ocurre un error durante el procesamiento del formulario (simulado) <br/> **Cuando** la función `fakeFetch` rechaza la promesa (simulación de error) <br/> **Entonces** se muestra una alerta con el mensaje "Hubo un error al enviar el formulario." <br/> **Y** el usuario puede intentar procesar el formulario nuevamente. |
+| **Descripción:**         | Como desarrollador, quiero validar los campos del formulario de contacto (nombre completo, correo electrónico, asunto, teléfono, seleccionar plan, mensaje) y procesar los datos localmente sin enviar la información a un servidor, para simular la funcionalidad de envío y asegurar que la información ingresada es correcta. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Procesar formulario con todos los campos correctamente llenados <br/> **Dado** que el usuario ha llenado todos los campos obligatorios del formulario de contacto con datos válidos: <br/> - Nombre Completo <br/> - Correo Electrónico <br/> - Asunto <br/> - Teléfono <br/> - Seleccionar Plan <br/> - Mensaje <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** el formulario se valida exitosamente <br/> **Y** los datos ingresados se registran en la consola para propósitos de prueba <br/> **Y** se muestra una alerta de confirmación "Formulario enviado con éxito." <br/><br/> **Scenario 02 (Unhappy Path):** Intentar enviar formulario con campos obligatorios vacíos <br/> **Dado** que el usuario ha dejado uno o más campos obligatorios vacíos en el formulario de contacto <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, completa todos los campos." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 03 (Unhappy Path):** Intentar enviar formulario con correo electrónico inválido <br/> **Dado** que el usuario ha ingresado un correo electrónico con formato incorrecto en el campo "Correo Electrónico" <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, ingresa un correo electrónico válido." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 04 (Unhappy Path):** Intentar enviar formulario con número de teléfono inválido <br/> **Dado** que el usuario ha ingresado caracteres no numéricos en el campo "Teléfono" <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, ingresa un número de teléfono válido (solo números)." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 05 (Happy Path):** Restringir entrada de caracteres no numéricos en el campo de teléfono <br/> **Dado** que el usuario está ingresando datos en el campo "Teléfono" <br/> **Cuando** el usuario intenta ingresar caracteres no numéricos <br/> **Entonces** dichos caracteres son eliminados automáticamente del campo de entrada <br/> **Y** solo se permiten dígitos numéricos en el campo. <br/><br/> **Scenario 06 (Happy Path):** Simular procesamiento exitoso del formulario con `fakeFetch` <br/> **Dado** que el usuario ha llenado el formulario correctamente <br/> **Cuando** el formulario es procesado <br/> **Entonces** la función `fakeFetch` es llamada para simular una solicitud al servidor <br/> **Y** después de un breve retraso, se muestra una alerta "Formulario enviado con éxito." <br/> **Y** los datos ingresados se registran en la consola para propósitos de prueba. <br/><br/> **Scenario 07 (Unhappy Path):** Manejar error simulado en el procesamiento del formulario <br/> **Dado** que ocurre un error durante el procesamiento del formulario (simulado) <br/> **Cuando** la función `fakeFetch` rechaza la promesa (simulación de error) <br/> **Entonces** se muestra una alerta con el mensaje "Hubo un error al enviar el formulario." <br/> **Y** el usuario puede intentar procesar el formulario nuevamente. |
 
 ---
 
@@ -1475,13 +1475,13 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 
 #### **Technical Story 09**
 
-| **Épica**                | **Validación y Procesamiento de Formularios** |
-|--------------------------|----------------------------------------------|
-| **ID-TS**                | 09                                           |
-| **Owner**                | Esquivel Aguayo, Diego Martin                 |
-| **Título TS**            | Restringir entrada de caracteres no numéricos en el campo de teléfono |
-| **Descripción:**         | Como desarrollador, quiero que el campo de teléfono solo permita la entrada de dígitos numéricos, para asegurar que el número de teléfono ingresado sea válido. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Prevenir entrada de caracteres no numéricos en el campo de teléfono <br/> **Dado** que el usuario está ingresando datos en el campo "Teléfono" <br/> **Cuando** el usuario intenta ingresar caracteres no numéricos <br/> **Entonces** dichos caracteres son eliminados automáticamente del campo de entrada <br/> **Y** solo se permiten dígitos numéricos en el campo. |
+| **Épica**                | **Interfaz de Usuario y Diseño** |
+|--------------------------|---------------------------------|
+| **ID-TS**                | 09                              |
+| **Owner**                | Quito Igreda, Cristian Andrés    |
+| **Título TS**            | Mostrar botones de descarga de aplicaciones sin funcionalidad activa |
+| **Descripción:**         | Como desarrollador, quiero mostrar los botones de descarga de App Store y Google Play en la sección principal para simular su presencia, aunque actualmente no estén vinculados a ninguna aplicación. |
+| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar botones de descarga en la sección principal <br/> **Dado** que el usuario está en la sección "Hero" de la página de inicio <br/> **Cuando** la sección se carga <br/> **Entonces** se muestran los botones de descarga de App Store y Google Play sin funcionalidad activa <br/> **Y** los botones sirven como elementos visuales para representar la disponibilidad futura de la aplicación. |
 
 ---
 
@@ -1491,29 +1491,17 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 |--------------------------|---------------------------------|
 | **ID-TS**                | 10                              |
 | **Owner**                | Quito Igreda, Cristian Andrés    |
-| **Título TS**            | Mostrar botones de descarga de aplicaciones sin funcionalidad activa |
-| **Descripción:**         | Como desarrollador, quiero mostrar los botones de descarga de App Store y Google Play en la sección principal para simular su presencia, aunque actualmente no estén vinculados a ninguna aplicación. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar botones de descarga en la sección principal <br/> **Dado** que el usuario está en la sección "Hero" de la página de inicio <br/> **Cuando** la sección se carga <br/> **Entonces** se muestran los botones de descarga de App Store y Google Play sin funcionalidad activa <br/> **Y** los botones sirven como elementos visuales para representar la disponibilidad futura de la aplicación. |
-
----
-
-#### **Technical Story 11**
-
-| **Épica**                | **Interfaz de Usuario y Diseño** |
-|--------------------------|---------------------------------|
-| **ID-TS**                | 11                              |
-| **Owner**                | Quito Igreda, Cristian Andrés    |
 | **Título TS**            | Mostrar botón "Ingresar" sin funcionalidad activa |
 | **Descripción:**         | Como desarrollador, quiero incluir un botón "Ingresar" en el encabezado que actualmente no tiene funcionalidad activa, para representar una futura característica de inicio de sesión. |
 | **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar botón "Ingresar" en el encabezado <br/> **Dado** que el usuario está en cualquier sección de la página de inicio <br/> **Cuando** la página se carga <br/> **Entonces** el botón "Ingresar" se muestra en el encabezado sin funcionalidad activa <br/> **Y** al hacer clic en él, no ocurre ninguna acción. |
 
 ---
 
-#### **Technical Story 12**
+#### **Technical Story 11**
 
 | **Épica**                | **Interfaz de Usuario y Diseño Responsivo** |
 |--------------------------|--------------------------------------------|
-| **ID-TS**                | 12                                         |
+| **ID-TS**                | 11                                         |
 | **Owner**                | Esquivel Aguayo, Diego Martin               |
 | **Título TS**            | Implementar diseño responsivo para dispositivos móviles |
 | **Descripción:**         | Como desarrollador, quiero que la landing page sea responsiva y se adapte correctamente a diferentes tamaños de pantalla, especialmente dispositivos móviles, para mejorar la experiencia del usuario. |
@@ -1689,20 +1677,6 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 </div>
 
 ## 3.4. Product Backlog
-
-| **# Orden** | **User Story ID** | **Título**                                            | **Descripción**                                                                                                                                     | **Story Points** |
-|-------------|-------------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| 1           | US01              | Visualización de Ubicación en Tiempo Real            | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación.                | 5                |
-| 2           | US03              | Establecer Geo-cercas                                | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar.                                               | 8                |
-| 3           | US05              | Activación de Alarmas en Situación de Peligro        | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro, para llamar la atención de personas cercanas.| 5                |
-| 4           | US09              | Revisión del Historial de Eventos                    | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad.              | 5                |
-| 5           | US06              | Monitoreo de Actividad Física                        | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.                         | 5                |
-| 6           | US07              | Control de Dispositivos Externos                    | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro.             | 3                |
-| 7           | US04              | Comunicación Remota con el niño a cuidar             | Como cuidador, quiero poder comunicarme con el niño a través del altavoz del dispositivo para darle instrucciones en caso de emergencia.             | 3                |
-| 8           | US02              | Alerta de Salida de Zona Segura                      | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.                              | 3                |
-| 9           | US10              | Recuperación de Contraseña                           | Como usuario, quiero poder recuperar mi contraseña en caso de olvidarla para acceder nuevamente a mi cuenta sin inconvenientes.                      | 2                |
-| 10          | US08              | Diagnóstico y Solución de Problemas del Dispositivo  | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo GuardianArea para asegurar su correcto funcionamiento.                 | 3                |
-
 
 ### User Stories
 
