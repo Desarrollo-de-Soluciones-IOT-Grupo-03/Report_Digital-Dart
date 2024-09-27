@@ -319,11 +319,11 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         <th><b>Conclusiones</b></th>
     </tr>
     <tr>
-        <td rowspan="1"><b>
+        <td rowspan="2"><b>
             Trabaja en equipo para proporcionar liderazgo en forma conjunta </b></td>
         <td>TB1<br><br>
             <b>Steve Roger Castillo Robles</b><br>
-            - Desarrolló las user personas, user task matrix, y el ubiquitous language. Lideró la creación del product backlog y colaboró en el canvas y las technical stories.
+            - Conjuntamente con mis compañeros, realizamos la planificación de tareas y la distribución de responsabilidades para el desarrollo del proyecto. Aporté en la creación de las user personas, user task matrix, y el ubiquitous language. Además, realicé la creación del product backlog y colaboré en la definición de las technical stories.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
             - Realizó el to-be scenario mapping y contribuyó con user stories, bounded context canvases, bounded context y la arquitectura de software.
@@ -339,15 +339,37 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             <br><br>
         </td>
         <td>TB1<br><br>
+            - EL equipo se distribuyó el liderazgo de tal manera que cada integrante asumió un rol de liderazgo en tareas específicas, lo que permitió una distribución efectiva del trabajo y el logro de los objetivos del proyecto.
+        </td>
+    </tr>
+    <tr>
+        <td>TP<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - En esta parte del proyecto creamos la maquetación de la landing page y el frontend. También realicé las correcciones necesarias y lideré la creación de la landing page.
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - Realizó el to-be scenario mapping y contribuyó con user stories, bounded context canvases, bounded context y la arquitectura de software.
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - Lideró el análisis competitivo y el impact mapping. Participó en la creación de user stories, event storming y la arquitectura de software.
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Promoví el liderazgo compartido colaborando en la redacción del capítulo 1 y coordinando las actividades de entrevistas, needfinding, event storming, y bounded contexts. Aseguré que las decisiones se tomaran en conjunto, fomentando un ambiente donde todas las ideas del equipo fueran escuchadas.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - Realizó el empathy mapping, as-is scenario mapping y context mapping. Contribuyó en los bounded contexts, diagramas de clases y diseño de la base de datos.
+            <br><br>
+        </td>
+        <td>TP<br><br>
             - El equipo trabajó de manera cohesionada para liderar diversas áreas clave del proyecto. Cada miembro asumió un rol de liderazgo en tareas específicas, lo que permitió una distribución efectiva del trabajo y el logro de los objetivos del proyecto.
         </td>
     </tr>
     <tr>
-        <td rowspan="1"><b>
+        <td rowspan="2"><b>
             Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
         <td>TB1<br><br>
             <b>Steve Roger Castillo Robles</b><br>
-            - Contribuyó significativamente en la planificación de tareas mediante la creación de las user personas, la matriz de tareas y el backlog de producto, asegurando una buena organización de las actividades del equipo.
+            - En esta parte del proyecto cree un entorno colaborativo y equitativo, estableciendo metas claras y planificando tareas de manera efectiva. Contribuí en la creación de las user personas, user task matrix, y el ubiquitous language. Además, realicé la creación del product backlog y colaboré en la definición de las technical stories.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
             - Estableció metas claras en el to-be scenario mapping y colaboró en la planificación de los bounded contexts, contribuyendo a la definición clara de roles y responsabilidades dentro del equipo.
@@ -364,6 +386,28 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         </td>
         <td>TB1<br><br>
             - El equipo creó un entorno colaborativo en el que se fijaron metas claras y se asignaron tareas de manera equitativa. La planificación permitió cumplir los objetivos dentro del tiempo previsto y con alta calidad.
+        </td>
+    </tr>
+    <tr>
+        <td>TP<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - En el la creación de los wireframes y mockups pudimos colaborar de manera efectiva, así como la distribución del trabajo para la codificación de la landing page y el frontend.
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - Estableció metas claras en el to-be scenario mapping y colaboró en la planificación de los bounded contexts, contribuyendo a la definición clara de roles y responsabilidades dentro del equipo.
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - Aportó en el impact mapping y análisis competitivo, fomentando un entorno inclusivo al integrar diversas perspectivas para mejorar la estrategia del proyecto.
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Estructuré el capítulo introductorio y fomenté la colaboración activa del equipo en entrevistas y event storming. Contribuí al establecimiento de metas claras y ayudé a que el equipo mantuviera sus tareas alineadas con los objetivos de la startup.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - Facilitó la planificación del contexto y los diagramas de clase, asegurando que el equipo tuviera una estructura clara para la toma de decisiones técnicas.
+            <br><br>
+        </td>
+        <td>TP<br><br>
+            - El equipo se distribuyó de manera equitativa las tareas y estableció metas claras para el desarrollo del proyecto. La colaboración activa y la planificación efectiva permitieron cumplir con los objetivos establecidos y garantizar la calidad del trabajo.
         </td>
     </tr>
 </table>
@@ -1232,7 +1276,6 @@ Carlos Pérez busca una solución de monitoreo para garantizar la seguridad de s
 </div>
 
 ### 2.3.4. Empathy Mapping
-El "empathy mapping" (o mapa de empatía) es una herramienta utilizada en el diseño de experiencias de usuario, desarrollo de productos y marketing para obtener una comprensión más profunda de un grupo objetivo o persona específica. El objetivo es identificar y comprender los sentimientos, pensamientos, experiencias y motivaciones de los usuarios para poder responder mejor a sus necesidades y deseos.
 
 **Segmento 1**
 
@@ -1247,7 +1290,6 @@ El "empathy mapping" (o mapa de empatía) es una herramienta utilizada en el dis
 </div>
 
 ### 2.3.5. As-is Scenario Mapping
-El "As-Is Scenario Mapping" es una técnica utilizada en la gestión de procesos y el análisis de negocios para documentar y entender el estado actual de un proceso o sistema. Consiste en mapear paso a paso cómo se llevan a cabo las tareas o actividades en el presente, sin considerar mejoras o cambios
 
 **Segmento 1**
 
@@ -2939,71 +2981,6 @@ En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que re
 
 
 ### 5.4.4. Applications User Flow Diagrams.
-En esta sección, presentamos los diagramas de flujo de usuario de **GuardianArea** para Mobile, que representan visualmente los caminos y acciones que los usuarios seguirán al interactuar con la aplicación. Estos diagramas proporcionan una guía clara y detallada de cómo los usuarios navegarán por las diferentes secciones y funciones de la aplicación, asegurando una experiencia de usuario coherente y efectiva.
-
--	**UG01: Registrar usuario en la aplicación GuardianArea**
-Después de abrir la aplicación, el usuario selecciona la opción "Registrarse". Completa el formulario de registro ingresando su nombre, correo electrónico y creando una contraseña. Confirma el registro y recibe un enlace por correo electrónico para la verificación. Tras la verificación, el usuario accede a la pantalla principal donde puede comenzar a utilizar la aplicación.
-
-<div style="text-align: center;">
-    <img src="./images/chapter-05/01-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
--   **UG02: Iniciar sesión en GuardianArea**
-El usuario selecciona la opción "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña. Luego de verificar las credenciales, el usuario accede a la pantalla principal de la aplicación donde puede gestionar todas las funcionalidades.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/02-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
--	**UG03: Recuperar acceso a la cuenta**
-En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?". Ingresa su correo electrónico y recibe un enlace para restablecer su contraseña. Al hacer clic en el enlace, es redirigido a una página donde puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/03-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
-- **UG04: Editar perfil de usuario**
-El usuario accede al menú de configuración y selecciona la opción "Editar perfil". Aquí puede modificar su información personal, como nombre, correo electrónico y número de teléfono, además de actualizar su foto de perfil. Guarda los cambios y recibe una confirmación de que el perfil ha sido actualizado.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/04-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
-- **UG05: Ver mapa en tiempo real de monitoreo**
-El usuario selecciona la opción "Mapa en tiempo real" desde el menú principal. En el mapa, puede observar la ubicación actual de la persona monitoreada, así como las zonas seguras configuradas (geocercas). Si la persona sale de la zona segura, se muestra una alerta en tiempo real con notificaciones visuales y sonoras.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/05-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
--	**UG06: Revisar historial de actividades**
-El usuario navega al menú principal y selecciona "Historial de actividades". En esta pantalla, puede ver un registro detallado de los movimientos y eventos de la persona monitoreada, incluyendo entradas y salidas de las zonas seguras, junto con alertas generadas en el día.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/06-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
--	**UG07: Activar alarmas y mensajes de emergencia**
-Desde la pantalla principal, el usuario accede a la opción "Alarma de emergencia". Puede activar una alarma sonora en el dispositivo de la persona monitoreada, grabar un mensaje de voz o reproducir un mensaje pregrabado por altavoz. También tiene la opción de enviar una notificación de emergencia a varios miembros de la familia simultáneamente.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/07-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
--	**UG08: Monitorear signos vitales (frecuencia cardíaca y oxigenación)**
-En la pantalla principal, el usuario selecciona "Signos vitales". Aquí puede visualizar los datos de la frecuencia cardíaca y la oxigenación de la persona monitoreada en tiempo real. La aplicación alerta al usuario si alguno de estos valores está fuera de los rangos normales.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/08-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
--	**UG09: Crear una geocerca**
-El usuario selecciona "Crear geocerca" desde la pantalla de monitoreo. Define el radio y la ubicación de la zona segura directamente en el mapa. Una vez configurada, guarda los cambios y recibe una confirmación de que la geocerca ha sido creada exitosamente. Las salidas de la persona monitoreada fuera de esta zona generarán una alerta.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/09-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
--	**UG10: Editar geocerca existente**
-El usuario selecciona la opción "Editar geocerca" desde el menú de configuración. En la pantalla de edición, ajusta el radio o cambia la ubicación de la geocerca creada previamente. Guarda los cambios y recibe una confirmación de que la configuración ha sido actualizada.
-<div style="text-align: center;">
-    <img src="./images/chapter-05/10-user-flow.png"  width="80%" alt="User Flow">
-</div>
-
-- Link User Flow diagrams: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
-
 
 ## 5.5. Applications Prototyping.
 
@@ -3017,8 +2994,6 @@ En esta sección, presentamos los prototipos interactivos de las aplicaciones de
 
 Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=524%3A3077&node-id=524-3824&node-type=canvas&viewport=1367%2C645%2C0.14&t=b11LAGIjor6GArVT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=524%3A3824
 
-Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
 #### Mobile Web Browser:
 
 <div style="text-align: center;">
@@ -3027,84 +3002,12 @@ Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211
 
 Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=14%3A3923&node-id=555-11703&node-type=frame&viewport=-40728%2C-812%2C1&t=zhbFfof6kQbzcznb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=555%3A11703
 
-Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
 # Capítulo VI: Product Implementation, Validation & Deployment
-
-## 6.1. Software Configuration Management
-
-### 6.1.1. Software Development Environment Configuration
-
-El entorno de desarrollo de la aplicación **GuardianArea** incluye las siguientes herramientas y configuraciones para garantizar un desarrollo eficiente en las distintas plataformas:
-
-- **IDE**: IntelliJ IDEA para el backend (Java Spring Boot), Visual Studio Code para el frontend y para el desarrollo móvil (Flutter y Angular).
-- **Lenguajes de programación**: Java para el backend, TypeScript para el frontend, y Dart para la aplicación móvil.
-- **Frameworks**: Spring Boot (backend), Angular (frontend) y Flutter (app móvil).
-- **Bases de datos**: MySQL para almacenamiento de datos.
-- **Contenedores**: Docker se utiliza para virtualizar y garantizar la consistencia entre los diferentes entornos de desarrollo y producción.
-- **Control de versiones**: Git, con la plataforma GitHub para la gestión del código fuente y trabajo colaborativo entre los desarrolladores.
-
-### 6.1.2. Source Code Management
-
-El código fuente del proyecto se gestiona a través de GitHub, donde se encuentran los siguientes repositorios públicos:
-
-| Solución                          | Repositorio                    | Enlace                                                                     |
-|-----------------------------------|--------------------------------|----------------------------------------------------------------------------|
-| Reporte Digital Dart              | Report_Digital-Dart            | [Report_Digital-Dart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Report_Digital-Dart) |
-| Aplicación Web Guardian           | Guardian-Area-Web              | [Guardian-Area-Web]()     |
-| Landing Page Guardian Area        | Landing-Page-GuardiaArea       | [Landing-Page-GuardiaArea](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Landing-Page-GuardiaArea) |
-| GuardianArea Web | Guardia-Area-Web     | [Guardian-Area-Web](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Guardian-Area-Web) |
-
-#### Organización de GitHub
-
-El proyecto está alojado en la organización de GitHub: [Organización DigitalDart](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03).
-
-#### Gitflow
-
-El equipo de desarrollo sigue la metodología **Gitflow** para la gestión del código fuente. Las siguientes ramas son utilizadas en el flujo de trabajo:
-
-- **Main**: Contiene la versión estable del código que se despliega en producción.
-- **Develop**: Contiene las últimas funcionalidades y correcciones en desarrollo.
-- **Feature**: Se utiliza para desarrollar nuevas funcionalidades de manera aislada.
-- **Hotfix**: Se utiliza para aplicar correcciones rápidas a problemas críticos en producción.
-
-A continuación, un diagrama que ilustra el flujo de trabajo de Gitflow:
-
-![Gitflow Diagram](https://miro.medium.com/v2/resize:fit:1400/1*3-0EDzE63S_UZx2KbIz_dg.png)
-
-### 6.1.3. Source Code Style Guide & Conventions
-
-Se han establecido las siguientes guías de estilo y convenciones para mantener la calidad y consistencia del código:
-
-- **Backend (Java)**:
-  - Usar la convención camelCase para métodos y variables.
-  - Mantener el código modular utilizando principios SOLID.
-  - Implementar un manejo adecuado de excepciones en todas las capas del backend.
-
-- **Frontend (Angular)**:
-  - Utilizar TypeScript con strict typing para evitar errores.
-  - Los nombres de componentes y servicios deben seguir la convención PascalCase.
-  - Mantener la arquitectura de componentes modular, asegurando reutilización y fácil mantenimiento.
-
-- **Móvil (Flutter)**:
-  - Seguir las convenciones de Dart, utilizando camelCase para variables y métodos.
-  - Mantener una separación clara entre lógica de presentación y lógica de negocio utilizando el patrón BLoC (Business Logic Component) o Provider para la gestión de estado.
-
-### 6.1.4. Software Deployment Configuration
-
-La configuración del despliegue del software se realiza mediante pipelines automatizados con GitHub Actions. Las configuraciones de despliegue incluyen:
-
-- **Backend (Spring Boot)**:
-  - Despliegue en un servidor de producción utilizando Azure para mayor simplicidad en la integración de pipelines y automatizacion.
-  - Integración continua que ejecuta pruebas automatizadas antes de desplegar cualquier nueva versión.
-
-- **Frontend (Angular)**:
-  - Despliegue en servidores web utilizando Nginx para servir la aplicación web.
-  - El código es empaquetado y minificado antes de ser desplegado.
-
-- **Aplicación móvil (Flutter)**:
-  - El código fuente de la aplicación móvil es compilado utilizando pipelines automáticos de CI/CD.
-
+## 6.1. Software Configuration Management.
+### 6.1.1. Software Development Environment Configuration.
+### 6.1.2. Source Code Management.
+### 6.1.3. Source Code Style Guide & Conventions.
+### 6.1.4. Software Deployment Configuration.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 ### 6.2.1. Sprint n
@@ -3155,7 +3058,7 @@ En el desarrollo del presente sprint hemos logrado implementar la landing page d
     <div style="text-align: center;">
         <img src="./images/chapter-06/06-web-application.png" alt="Web Aplicacion"  width="100%"/>
     </div>
-- Link Execution Eviden for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 Debido que a que el objetivo de este sprint fue la implementación de la Landing Page y la aplicación web, no se generó documentación de servicios en este sprint.
 <table>
@@ -3217,14 +3120,10 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
     <div style="text-align: center;">
         <img src="./images/chapter-06/06-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
     </div>
-    Después de terminar con la configuración de nuestro hosting debemos configurar firebase en nuestro proyecto web.
     <div style="text-align: center;">
-        <img src="./images/chapter-06/04-deploy-front.png" alt="Deployment Web Application"  width="80%"/>
+        <img src="./images/chapter-06/07-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
     </div>
-    <div style="text-align: center;">
-        <img src="./images/chapter-06/05-deploy-front.png" alt="Deployment Web Application"  width="80%"/>
-    </div>
-    Enlace Aplicación Web: https://guardian-area.web.app/
+    Enlace: 
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
@@ -3246,7 +3145,7 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
     </div>
     Contributors
     <div style="text-align: center;">
-        <img src="./images/chapter-06/03-contributors-web.png" alt="Contributors Evidence"  width="80%"/>
+        <img src="./images/chapter-06/02-contributors-web.png" alt="Contributors Evidence"  width="80%"/>
     </div>
 
 ### Conclusiones
@@ -3285,11 +3184,3 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
 
 ### ANEXOS
 - Link Event Storming: https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
-- Link Aplicacion web: https://guardian-area.web.app/
-- Link Landing Page: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
-- Link Execution Eviden for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- Link Organización de Github: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
-- Link Diagrams LucidChart: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
-- Link Video Prototipo Web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-- Link Video Prototipo Movil: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
