@@ -1276,8 +1276,11 @@ Carlos Pérez busca una solución de monitoreo para garantizar la seguridad de s
 </div>
 
 ### 2.3.4. Empathy Mapping
+Para comprender mejor a nuestros usuarios, realizamos mapas de empatía que capturan las experiencias, necesidades y emociones de cada segmento objetivo de GuardianArea. A continuación, presentamos los resultados de los mapas de empatía para ambos segmentos:
 
 **Segmento 1**
+
+Cuidadores o Familiares de personas con Alzheimer. En el mapa de empatía, se exploran sus preocupaciones sobre la seguridad de sus seres queridos y su necesidad de herramientas de monitoreo en tiempo real que les ofrezcan tranquilidad.
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_empathy_map_1.png" alt="User Empathy Map 1" width="100%">
@@ -1285,19 +1288,26 @@ Carlos Pérez busca una solución de monitoreo para garantizar la seguridad de s
 
 **Segmento 2**
 
+Cuidadores o Familiares de niños pequeños. En este mapa de empatía, se reflejan sus preocupaciones sobre la posibilidad de que los niños se alejen de zonas seguras y su deseo de contar con alertas inmediatas que les permitan actuar rápidamente ante cualquier situación de riesgo.
+
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_empathy_map_2.png" alt="User Empathy Map 2" width="100%">
 </div>
 
 ### 2.3.5. As-is Scenario Mapping
+Para analizar la experiencia actual de nuestros usuarios en situaciones sin la ayuda de nuestra solución GuardianArea, realizamos un mapeo de escenarios As-Is. Este mapeo nos permite identificar las etapas, pensamientos, acciones y emociones de cada segmento objetivo en situaciones críticas.
 
 **Segmento 1**
+
+Cuidadores de personas con Alzheimer. Este escenario As-Is ilustra el flujo de actividades de los cuidadores, desde la vigilancia manual y el monitoreo diario hasta la respuesta y el manejo posterior a un incidente. En este proceso, los cuidadores enfrentan altos niveles de estrés y ansiedad debido a la constante necesidad de monitorear a sus familiares y responder rápidamente ante situaciones peligrosas.
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_asis_map_1.png" alt="User As-is Scenario 1" width="100%">
 </div>
 
 **Segmento 2**
+
+Cuidadores de niños pequeños. Este escenario As-Is describe el día a día de los cuidadores de niños, destacando las actividades de vigilancia, monitoreo y respuesta a incidentes. Los padres y cuidadores enfrentan incertidumbre y preocupación por la seguridad de los niños, especialmente en situaciones donde pueden alejarse o encontrarse en peligro.
 
 <div style="text-align: center; margin-top: 10px">
       <img src="./images/chapter-02/user_asis_map_2.png" alt="User As-is Scenario 2" width="100%">
@@ -1734,6 +1744,8 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 ---
 
 ## 3.3. Impact Mapping
+El Impact Mapping de GuardianArea permite visualizar cómo la solución propuesta impacta en las necesidades de dos segmentos de usuarios clave: cuidadores de personas con Alzheimer y cuidadores de niños pequeños. Este mapeo organiza los objetivos de negocio, identificando los impactos clave que se desean alcanzar, junto con los entregables específicos que ayudan a cumplir estos objetivos. Para cada entregable, se definen historias de usuario que permiten estructurar las funcionalidades de la aplicación en torno a las acciones y necesidades particulares de cada segmento.
+
 <div style="text-align: center;">
     <img src="./images/chapter-03/impact_map_1.png" alt="Impact Mapping" style="max-width: 800px; width: 95%">
 </div>
@@ -1988,15 +2000,6 @@ El Landscape Diagram ofrece una representación visual de los diferentes compone
     <img src="./images/chapter-04/system-landscape.png" alt="System Landscape Diagram" style="max-width: 800px; width: 95%">
 </div>
 
-### 4.1.3.4. Software Architecture Deployment Diagrams
-
-Los Diagramas de Despliegue detallan la implementación física de los componentes del software en el entorno de producción. Estos diagramas muestran cómo se distribuyen y configuran los recursos de hardware y software, incluyendo servidores, redes y dispositivos, así como las relaciones entre ellos, lo que permite entender mejor cómo se ejecuta el sistema en un contexto real.
-
-<div style="text-align: center;">
-    <img src="./images/chapter-04/deployment-diagram.png" alt="Deployment Diagrams" style="max-width: 800px; width: 95%">
-</div>
-
-## 4.2. Tactical-Level Domain-Driven Design
 ### 4.1.3.2. Software Architecture Context Level Diagrams
 El diagrama de contexto ilustra las interacciones entre el sistema "Guardian Area" y sus entidades externas. "Guardian Area" es un sistema de monitoreo en tiempo real IoT diseñado para personas mayores, niños y personas con Alzheimer. Aquí hay una descripción detallada del diagrama:
 
@@ -2085,6 +2088,16 @@ El diagrama de contenedores ilustra la arquitectura de un sistema de monitoreo d
 <div style="text-align: center;">
     <img src="./images/chapter-04/container_diagram.png" alt="Container Level Diagrams" style="max-width: 800px; width: 95%">
 </div>
+
+### 4.1.3.4. Software Architecture Deployment Diagrams
+
+Los Diagramas de Despliegue detallan la implementación física de los componentes del software en el entorno de producción. Estos diagramas muestran cómo se distribuyen y configuran los recursos de hardware y software, incluyendo servidores, redes y dispositivos, así como las relaciones entre ellos, lo que permite entender mejor cómo se ejecuta el sistema en un contexto real.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-04/deployment-diagram.png" alt="Deployment Diagrams" style="max-width: 800px; width: 95%">
+</div>
+
+## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context: Monitoring Bounded Context
 
@@ -3068,7 +3081,7 @@ Hemos creado wireframes para la landing page de **GuardianArea**, tanto en su ve
 
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/Wireframe Landing.png"  width="60%" alt="wireframe web GuardianArea">
+    <img src="./images/chapter-05/Wireframe_landing.png"  width="60%" alt="wireframe web GuardianArea">
 </div>
 
 ---
@@ -3084,7 +3097,7 @@ Hemos creado wireframes para la landing page de **GuardianArea**, tanto en su ve
 7. **Pie de Página**: Enlaces de redes sociales y contacto con un diseño minimalista para dispositivos móviles.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/Wireframe Landing Mobile.png"  width="30%" alt="wireframe mobile GuardianArea">
+    <img src="./images/chapter-05/Wireframe_landing_mobile.png"  width="30%" alt="wireframe mobile GuardianArea">
 </div>
 
 Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=29-3923&t=rLy4RhyWq8BMkuhR-1 
@@ -3108,7 +3121,7 @@ Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id
 - **Pie de página:** Enlaces a redes sociales y datos de contacto con iconografía que sigue los principios del Design System.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/Mockup-landing-web.png"  width="60%" alt="Mockup web GuardianArea">
+    <img src="./images/chapter-05/Mockup_landing_web.png"  width="60%" alt="Mockup web GuardianArea">
 </div>
 
 #### Mobile Web Browser:
@@ -3128,7 +3141,7 @@ Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id
 - **Pie de página:** Enlaces de redes sociales y contacto dispuestos de manera compacta para optimizar el uso del espacio en pantallas más pequeñas.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/Mockup-landing-mobile.png"  width="30%" alt="Mockup mobile GuardianArea">
+    <img src="./images/chapter-05/Mockup_landing_mobile.png"  width="30%" alt="Mockup mobile GuardianArea">
 </div>
 
 Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
@@ -3141,7 +3154,7 @@ En esta sección, hemos colaborado para crear wireframes que actúan como una re
 #### Desktop Web Browser:
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/app-wireframes.png"  width="80%" alt="Wireframes web GuardianArea">
+    <img src="./images/chapter-05/Wireframes.png"  width="80%" alt="Wireframes web GuardianArea">
 </div>
 
 Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
@@ -3149,7 +3162,7 @@ Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id
 #### Mobile Web Browser:
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/app-wireframes-mobile.png"  width="80%" alt="Wireframes mobile GuardianArea">
+    <img src="./images/chapter-05/Wireframes_mobile.png"  width="80%" alt="Wireframes mobile GuardianArea">
 </div>
 
 Enlace al Figma: https://www.figma.com/design/ytLA5YILAfSXEBS9ZsFBus/IOT?node-id=14-3923&t=rLy4RhyWq8BMkuhR-1
@@ -3178,77 +3191,77 @@ En esta sección, presentamos los diagramas de flujo de la aplicación GuardianA
 El usuario accede a la aplicación GuardianArea y selecciona "Registrarse". Completa el formulario con su información personal, como nombre, correo electrónico y contraseña, y luego confirma la creación de su cuenta. Recibe un enlace por correo electrónico para verificar la cuenta y, tras la verificación, es redirigido a la pantalla de inicio de sesión.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG01.png" width="80%" alt="UG01">
+    <img src="./images/chapter-05/Wireflow_1.png" width="80%" alt="UG01">
 </div>
 
 #### UG02: Iniciar sesión en GuardianArea
 El usuario selecciona "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña, y una vez que el sistema verifica las credenciales, es redirigido a la pantalla principal de la aplicación.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG02.png" width="80%" alt="UG02">
+    <img src="./images/chapter-05/Wireflow_2.png" width="80%" alt="UG02">
 </div>
 
 #### UG03: Recuperar acceso a la cuenta
 En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?" e ingresa su correo electrónico. Recibe un enlace para restablecer la contraseña, y al hacer clic en el enlace, puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG03.png" width="80%" alt="UG03">
+    <img src="./images/chapter-05/Wireflow_3.png" width="80%" alt="UG03">
 </div>
 
 #### UG04: Editar perfil de usuario
 El usuario accede al menú de configuración y selecciona "Editar perfil". Aquí puede modificar su información personal, como nombre y correo electrónico, y guardar los cambios.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG04.png" width="80%" alt="UG04">
+    <img src="./images/chapter-05/Wireflow_4.png" width="80%" alt="UG04">
 </div>
 
 #### UG05: Conectar con un dispositivo
 El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Si selecciona "Agregar dispositivo", la aplicación buscará nuevos dispositivos por Bluetooth. Una vez encontrado el dispositivo, el usuario asigna un nombre y selecciona el rol "Adulto" para la persona con Alzheimer antes de conectar el dispositivo.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG05.png" width="80%" alt="UG05">
+    <img src="./images/chapter-05/Wireflow_11.png" width="80%" alt="UG05">
 </div>
 
 #### UG06: Ver mapa en tiempo real de monitoreo
 El usuario selecciona "Mapa en tiempo real" en el menú principal. Puede observar la ubicación actual de la persona con Alzheimer, y si sale de las zonas seguras (geocercas), se activa una alerta visual y sonora.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG06.png" width="80%" alt="UG06">
+    <img src="./images/chapter-05/Wireflow_5.png" width="80%" alt="UG06">
 </div>
 
 #### UG07: Revisar historial de actividades
 El usuario selecciona "Historial de actividades" en el menú principal. Aquí puede revisar un registro detallado de los movimientos de la persona monitoreada, incluyendo alertas y entradas/salidas de zonas seguras.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG07.png" width="80%" alt="UG07">
+    <img src="./images/chapter-05/Wireflow_6.png" width="80%" alt="UG07">
 </div>
 
 #### UG08: Activar alarmas y mensajes de emergencia
 El usuario accede a la opción "Alarma de emergencia" y puede activar una alarma sonora, grabar un mensaje de voz o reproducir un mensaje pregrabado a través del altavoz del dispositivo. También puede enviar una notificación de emergencia a varios miembros de la familia.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG08.png" width="80%" alt="UG08">
+    <img src="./images/chapter-05/Wireflow_7.png" width="80%" alt="UG08">
 </div>
 
 #### UG09: Monitorear signos vitales (frecuencia cardíaca y oxigenación)
 El usuario selecciona "Signos vitales" y puede monitorear los datos de la frecuencia cardíaca y la oxigenación de la persona con Alzheimer en tiempo real. Si los valores están fuera de los rangos normales, se genera una alerta automática.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG09.png" width="80%" alt="UG09">
+    <img src="./images/chapter-05/Wireflow_8.png" width="80%" alt="UG09">
 </div>
 
 #### UG10: Crear una geocerca
 El usuario selecciona "Crear geocerca" y puede definir la ubicación y el radio de una zona segura directamente en el mapa. Una vez creada, la aplicación activará alertas si la persona con Alzheimer sale de esta zona.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG10.png" width="80%" alt="UG10">
+    <img src="./images/chapter-05/Wireflow_9.png" width="80%" alt="UG10">
 </div>
 
 #### UG11: Editar geocerca existente
 El usuario selecciona "Editar geocerca" y puede ajustar la ubicación o el radio de una geocerca previamente creada. Los cambios son guardados y confirmados por la aplicación.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG11.png" width="80%" alt="UG11">
+    <img src="./images/chapter-05/Wireflow_10.png" width="80%" alt="UG11">
 </div>
 
 ### **Cuidadores o Familiares de niños pequeños**
@@ -3257,70 +3270,70 @@ El usuario selecciona "Editar geocerca" y puede ajustar la ubicación o el radio
 El usuario accede a la aplicación y selecciona "Registrarse". Completa el formulario con su información personal y confirma la creación de la cuenta. Luego, verifica su correo electrónico y accede a la pantalla de inicio de sesión.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG01.png" width="80%" alt="UG01">
+    <img src="./images/chapter-05/Wireflow_1.png" width="80%" alt="UG01">
 </div>
 
 #### UG02: Iniciar sesión en GuardianArea
 El usuario selecciona "Iniciar sesión", ingresa su correo electrónico y contraseña, y accede a la pantalla principal de la aplicación tras la verificación de sus credenciales.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG02.png" width="80%" alt="UG02">
+    <img src="./images/chapter-05/Wireflow_2.png" width="80%" alt="UG02">
 </div>
 
 #### UG03: Recuperar acceso a la cuenta
 El usuario selecciona "¿Olvidaste tu contraseña?" y recibe un enlace por correo electrónico para restablecerla. Ingresa una nueva contraseña y luego puede iniciar sesión nuevamente.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG03.png" width="80%" alt="UG03">
+    <img src="./images/chapter-05/Wireflow_3.png" width="80%" alt="UG03">
 </div>
 
 #### UG04: Editar perfil de usuario
 El usuario accede al menú de configuración y selecciona "Editar perfil" para modificar su información personal. Guarda los cambios y recibe una confirmación.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG04.png" width="80%" alt="UG04">
+    <img src="./images/chapter-05/Wireflow_4.png" width="80%" alt="UG04">
 </div>
 
 #### UG05: Conectar con un dispositivo
 El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Al seleccionar "Agregar dispositivo", la aplicación buscará dispositivos cercanos por Bluetooth. Tras encontrar un dispositivo, el usuario asigna un nombre y selecciona el rol "Infante" antes de conectarlo al sistema.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG05.png" width="80%" alt="UG05">
+    <img src="./images/chapter-05/Wireflow_11.png" width="80%" alt="UG05">
 </div>
 
 #### UG06: Ver mapa en tiempo real de monitoreo
 El usuario selecciona "Mapa en tiempo real" para ver la ubicación actual del niño monitoreado. Si el niño sale de las zonas seguras, la aplicación activa una alerta.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG06.png" width="80%" alt="UG06">
+    <img src="./images/chapter-05/Wireflow_5.png" width="80%" alt="UG06">
 </div>
 
 #### UG07: Revisar historial de actividades
 El usuario accede al "Historial de actividades", donde puede revisar los movimientos del niño monitoreado, entradas y salidas de las zonas seguras, y alertas generadas.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG07.png" width="80%" alt="UG07">
+    <img src="./images/chapter-05/Wireflow_6.png" width="80%" alt="UG07">
 </div>
 
 #### UG08: Activar alarmas y mensajes de emergencia
 El usuario selecciona "Alarma de emergencia" para activar una alarma sonora, grabar un mensaje o reproducir un mensaje pregrabado por el altavoz del dispositivo. También puede enviar notificaciones de emergencia a otros miembros de la familia.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG08.png" width="80%" alt="UG09">
+    <img src="./images/chapter-05/Wireflow_7.png" width="80%" alt="UG09">
 </div>
 
 #### UG09: Crear una geocerca
 El usuario selecciona "Crear geocerca" y puede definir una zona segura en el mapa. Recibe alertas si el niño sale de la geocerca.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG10.png" width="80%" alt="UG10">
+    <img src="./images/chapter-05/Wireflow_9.png" width="80%" alt="UG10">
 </div>
 
 #### UG10: Editar geocerca existente
 El usuario selecciona "Editar geocerca" y ajusta el radio o la ubicación de una geocerca previamente creada. La configuración actualizada es guardada y confirmada.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/UG11.png" width="80%" alt="UG11">
+    <img src="./images/chapter-05/Wireflow_10.png" width="80%" alt="UG11">
 </div>
 
 ### 5.4.3. Applications Mock-ups.
@@ -3330,13 +3343,13 @@ En esta sección, hemos trabajado para crear Mock-ups de **GuardianArea** que re
 #### Desktop Web Browser:
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/app-mockup-web.png"  width="80%" alt="Mockup web GuardianArea">
+    <img src="./images/chapter-05/mockups.png"  width="80%" alt="Mockup web GuardianArea">
 </div>
 
 #### Mobile Web Browser:
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/app-mockup-mobile.png"  width="80%" alt="Mockup mobile GuardianArea">
+    <img src="./images/chapter-05/mockups_mobile.png"  width="80%" alt="Mockup mobile GuardianArea">
 </div>
 
 
@@ -3349,77 +3362,77 @@ En esta sección, presentamos los diagramas de flujo de usuario de **GuardianAre
 El usuario accede a la aplicación GuardianArea y selecciona "Registrarse". Completa el formulario con su información personal, como nombre, correo electrónico y contraseña, y luego confirma la creación de su cuenta. Recibe un enlace por correo electrónico para verificar la cuenta y, tras la verificación, es redirigido a la pantalla de inicio de sesión.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/01-user-flow.png" width="80%" alt="UG01">
+    <img src="./images/chapter-05/Userflow_1.png" width="80%" alt="UG01">
 </div>
 
 #### UG02: Iniciar sesión en GuardianArea
 El usuario selecciona "Iniciar sesión" en la pantalla de bienvenida. Ingresa su correo electrónico y contraseña, y una vez que el sistema verifica las credenciales, es redirigido a la pantalla principal de la aplicación.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/02-user-flow.png" width="80%" alt="UG02">
+    <img src="./images/chapter-05/Userflow_2.png" width="80%" alt="UG02">
 </div>
 
 #### UG03: Recuperar acceso a la cuenta
 En la pantalla de inicio de sesión, el usuario selecciona "¿Olvidaste tu contraseña?" e ingresa su correo electrónico. Recibe un enlace para restablecer la contraseña, y al hacer clic en el enlace, puede ingresar una nueva contraseña y recuperar el acceso a su cuenta.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/03-user-flow.png" width="80%" alt="UG03">
+    <img src="./images/chapter-05/Userflow_3.png" width="80%" alt="UG03">
 </div>
 
 #### UG04: Editar perfil de usuario
 El usuario accede al menú de configuración y selecciona "Editar perfil". Aquí puede modificar su información personal, como nombre y correo electrónico, y guardar los cambios.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/04-user-flow.png" width="80%" alt="UG04">
+    <img src="./images/chapter-05/Userflow_4.png" width="80%" alt="UG04">
 </div>
 
 #### UG05: Conectar con un dispositivo
 El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Si selecciona "Agregar dispositivo", la aplicación buscará nuevos dispositivos por Bluetooth. Una vez encontrado el dispositivo, el usuario asigna un nombre y selecciona el rol "Adulto" para la persona con Alzheimer antes de conectar el dispositivo.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/05-user-flow.png" width="80%" alt="UG05">
+    <img src="./images/chapter-05/Userflow_5.png" width="80%" alt="UG05">
 </div>
 
 #### UG06: Ver mapa en tiempo real de monitoreo
 El usuario selecciona "Mapa en tiempo real" en el menú principal. Puede observar la ubicación actual de la persona con Alzheimer, y si sale de las zonas seguras (geocercas), se activa una alerta visual y sonora.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/06-user-flow.png" width="80%" alt="UG06">
+    <img src="./images/chapter-05/Userflow_6.png" width="80%" alt="UG06">
 </div>
 
 #### UG07: Revisar historial de actividades
 El usuario selecciona "Historial de actividades" en el menú principal. Aquí puede revisar un registro detallado de los movimientos de la persona monitoreada, incluyendo alertas y entradas/salidas de zonas seguras.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/07-user-flow.png" width="80%" alt="UG07">
+    <img src="./images/chapter-05/Userflow_7.png" width="80%" alt="UG07">
 </div>
 
 #### UG08: Activar alarmas y mensajes de emergencia
 El usuario accede a la opción "Alarma de emergencia" y puede activar una alarma sonora, grabar un mensaje de voz o reproducir un mensaje pregrabado a través del altavoz del dispositivo. También puede enviar una notificación de emergencia a varios miembros de la familia.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/08-user-flow.png" width="80%" alt="UG08">
+    <img src="./images/chapter-05/Userflow_8.png" width="80%" alt="UG08">
 </div>
 
 #### UG09: Monitorear signos vitales (frecuencia cardíaca y oxigenación)
 El usuario selecciona "Signos vitales" y puede monitorear los datos de la frecuencia cardíaca y la oxigenación de la persona con Alzheimer en tiempo real. Si los valores están fuera de los rangos normales, se genera una alerta automática.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/09-user-flow.png" width="80%" alt="UG09">
+    <img src="./images/chapter-05/Userflow_9.png" width="80%" alt="UG09">
 </div>
 
 #### UG10: Crear una geocerca
 El usuario selecciona "Crear geocerca" y puede definir la ubicación y el radio de una zona segura directamente en el mapa. Una vez creada, la aplicación activará alertas si la persona con Alzheimer sale de esta zona.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/10-user-flow.png" width="80%" alt="UG10">
+    <img src="./images/chapter-05/Userflow_10.png" width="80%" alt="UG10">
 </div>
 
 #### UG11: Editar geocerca existente
 El usuario selecciona "Editar geocerca" y puede ajustar la ubicación o el radio de una geocerca previamente creada. Los cambios son guardados y confirmados por la aplicación.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/11-user-flow.png" width="80%" alt="UG11">
+    <img src="./images/chapter-05/Userflow_11.png" width="80%" alt="UG11">
 </div>
 
 ### **Cuidadores o Familiares de niños pequeños**
@@ -3428,70 +3441,70 @@ El usuario selecciona "Editar geocerca" y puede ajustar la ubicación o el radio
 El usuario accede a la aplicación y selecciona "Registrarse". Completa el formulario con su información personal y confirma la creación de la cuenta. Luego, verifica su correo electrónico y accede a la pantalla de inicio de sesión.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/01-user-flow.png" width="80%" alt="UG01">
+    <img src="./images/chapter-05/Userflow_1.png" width="80%" alt="UG01">
 </div>
 
 #### UG02: Iniciar sesión en GuardianArea
 El usuario selecciona "Iniciar sesión", ingresa su correo electrónico y contraseña, y accede a la pantalla principal de la aplicación tras la verificación de sus credenciales.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/02-user-flow.png" width="80%" alt="UG02">
+    <img src="./images/chapter-05/Userflow_2.png" width="80%" alt="UG02">
 </div>
 
 #### UG03: Recuperar acceso a la cuenta
 El usuario selecciona "¿Olvidaste tu contraseña?" y recibe un enlace por correo electrónico para restablecerla. Ingresa una nueva contraseña y luego puede iniciar sesión nuevamente.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/03-user-flow.png" width="80%" alt="UG03">
+    <img src="./images/chapter-05/Userflow_3.png" width="80%" alt="UG03">
 </div>
 
 #### UG04: Editar perfil de usuario
 El usuario accede al menú de configuración y selecciona "Editar perfil" para modificar su información personal. Guarda los cambios y recibe una confirmación.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/04-user-flow.png" width="80%" alt="UG04">
+    <img src="./images/chapter-05/Userflow_4.png" width="80%" alt="UG04">
 </div>
 
 #### UG05: Conectar con un dispositivo
 El usuario selecciona "Dispositivos" y ve la lista de dispositivos conectados. Al seleccionar "Agregar dispositivo", la aplicación buscará dispositivos cercanos por Bluetooth. Tras encontrar un dispositivo, el usuario asigna un nombre y selecciona el rol "Infante" antes de conectarlo al sistema.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/05-user-flow.png" width="80%" alt="UG05">
+    <img src="./images/chapter-05/Userflow_5.png" width="80%" alt="UG05">
 </div>
 
 #### UG06: Ver mapa en tiempo real de monitoreo
 El usuario selecciona "Mapa en tiempo real" para ver la ubicación actual del niño monitoreado. Si el niño sale de las zonas seguras, la aplicación activa una alerta.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/06-user-flow.png" width="80%" alt="UG06">
+    <img src="./images/chapter-05/Userflow_6.png" width="80%" alt="UG06">
 </div>
 
 #### UG07: Revisar historial de actividades
 El usuario accede al "Historial de actividades", donde puede revisar los movimientos del niño monitoreado, entradas y salidas de las zonas seguras, y alertas generadas.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/07-user-flow.png" width="80%" alt="UG07">
+    <img src="./images/chapter-05/Userflow_7.png" width="80%" alt="UG07">
 </div>
 
 #### UG08: Activar alarmas y mensajes de emergencia
 El usuario selecciona "Alarma de emergencia" para activar una alarma sonora, grabar un mensaje o reproducir un mensaje pregrabado por el altavoz del dispositivo. También puede enviar notificaciones de emergencia a otros miembros de la familia.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/08-user-flow.png" width="80%" alt="UG09">
+    <img src="./images/chapter-05/Userflow_8.png" width="80%" alt="UG09">
 </div>
 
 #### UG09: Crear una geocerca
 El usuario selecciona "Crear geocerca" y puede definir una zona segura en el mapa. Recibe alertas si el niño sale de la geocerca.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/10-user-flow.png" width="80%" alt="UG10">
+    <img src="./images/chapter-05/Userflow_10.png" width="80%" alt="UG10">
 </div>
 
 #### UG10: Editar geocerca existente
 El usuario selecciona "Editar geocerca" y ajusta el radio o la ubicación de una geocerca previamente creada. La configuración actualizada es guardada y confirmada.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/11-user-flow.png" width="80%" alt="UG11">
+    <img src="./images/chapter-05/Userflow_11.png" width="80%" alt="UG11">
 </div>
 
 - Link User Flow diagrams: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
@@ -3503,7 +3516,7 @@ En esta sección, presentamos los prototipos interactivos de las aplicaciones de
 #### Desktop Web Browser:
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/prototype-app-web.png"  width="80%" alt="Prototipo web GuardianArea">
+    <img src="./images/chapter-05/Prototyping_1.png"  width="80%" alt="Prototipo web GuardianArea">
 </div>
 
 Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=524%3A3077&node-id=524-3824&node-type=canvas&viewport=1367%2C645%2C0.14&t=b11LAGIjor6GArVT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=524%3A3824
@@ -3513,7 +3526,7 @@ Enlace video Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211
 #### Mobile Web Browser:
 
 <div style="text-align: center;">
-    <img src="./images/chapter-05/prototype-app-mobile.png"  width="80%" alt="Prototipo mobile GuardianArea">
+    <img src="./images/chapter-05/Prototyping_2.png"  width="80%" alt="Prototipo mobile GuardianArea">
 </div>
 
 Enlace al Prototipo: https://www.figma.com/proto/ytLA5YILAfSXEBS9ZsFBus/IOT?page-id=14%3A3923&node-id=555-11703&node-type=frame&viewport=-40728%2C-812%2C1&t=zhbFfof6kQbzcznb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=555%3A11703
@@ -3665,8 +3678,8 @@ El backend basado en **Spring Boot** se despliega utilizando **Azure** y se auto
 7. Finalmente, se accede al enlace proporcionado por Azure para verificar que el backend esté funcionando correctamente.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
-### 6.2.1. Sprint n
-#### 6.2.1.1. Sprint Planning n.
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1.
 
 | **Sprint #**                | Sprint 1                                                                                       |
 |-----------------------------|------------------------------------------------------------------------------------------------|
@@ -3777,23 +3790,22 @@ En el desarrollo del presente sprint hemos logrado implementar la landing page d
 1. **Landing Page:** Se logró completar la implementación de la Landing Page de GuardianArea se realizó siguiendo las directrices de diseño y estilo establecidas en la fase de diseño UI/UX. Se utilizó HTML, CSS y JavaScript para desarrollar la página de inicio, con un diseño moderno y atractivo que refleja la esencia de la aplicación.
    
    <div style="text-align: center;">
-    <img src="./images/chapter-06/01-landing-page.png" alt="patron z"  width="100%"/>
+    <img src="./images/chapter-06/landing_page_1.png" alt="patron z"  width="100%"/>
     </div>
     <div style="text-align: center;">
-        <img src="./images/chapter-06/02-landing-page.png" alt="patron z"  width="100%"/>
+        <img src="./images/chapter-06/landing_page_2.png" alt="patron z"  width="100%"/>
     </div>
     <div style="text-align: center;">
-        <img src="./images/chapter-06/03-landing-page.png" alt="patron z"  width="100%"/>
+        <img src="./images/chapter-06/landing_page_3.png" alt="patron z"  width="100%"/>
     </div>
     <div style="text-align: center;">
-        <img src="./images/chapter-06/04-landing-page.png" alt="Landing Page"  width="100%"/>
-        
+        <img src="./images/chapter-06/landing_page_4.png" alt="Landing Page"  width="100%"/>
     </div>
     <div style="text-align: center;">
-        <img src="./images/chapter-06/05-landing-page.png" alt="Landing Page"  width="100%"/>
+        <img src="./images/chapter-06/landing_page_5.png" alt="Landing Page"  width="100%"/>
     </div>
     <div style="text-align: center;">
-        <img src="./images/chapter-06/06-landing-page.png" alt="Landing Page"  width="100%"/>
+        <img src="./images/chapter-06/landing_page_6.png" alt="Landing Page"  width="100%"/>
     </div>
 2. **Web Application**: Se avanzó con la creación de la aplicación web de GuardianArea utilizando Angular. Lo que incluyó es la creación de interfaces de registro e inicio de sesión, así como el diseño de la página principal, historial de actividades e integración con mapa usando Mapbox. 
     <div style="text-align: center;">
@@ -3878,11 +3890,7 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
     <div style="text-align: center;">
         <img src="./images/chapter-06/06-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
     </div>
-    <div style="text-align: center;">
-        <img src="./images/chapter-06/07-web-deployment.png" alt="Deployment Web Application"  width="80%"/>
-    </div>
-    Enlace: 
-
+ 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
 - Landing Page: Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la landing page.
