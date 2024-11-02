@@ -319,8 +319,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         <th><b>Conclusiones</b></th>
     </tr>
     <tr>
-        <td rowspan="2"><b>
-            Trabaja en equipo para proporcionar liderazgo en forma conjunta </b></td>
+        <td rowspan="3"><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta</b></td>
         <td>TB1<br><br>
             <b>Steve Roger Castillo Robles</b><br>
             - Conjuntamente con mis compañeros, realizamos la planificación de tareas y la distribución de responsabilidades para el desarrollo del proyecto. Aporté en la creación de las user personas, user task matrix, y el ubiquitous language. Además, realicé la creación del product backlog y colaboré en la definición de las technical stories.
@@ -339,7 +338,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             <br><br>
         </td>
         <td>TB1<br><br>
-            - EL equipo se distribuyó el liderazgo de tal manera que cada integrante asumió un rol de liderazgo en tareas específicas, lo que permitió una distribución efectiva del trabajo y el logro de los objetivos del proyecto.
+            - El equipo se distribuyó el liderazgo de tal manera que cada integrante asumió un rol de liderazgo en tareas específicas, lo que permitió una distribución efectiva del trabajo y el logro de los objetivos del proyecto.
         </td>
     </tr>
     <tr>
@@ -367,31 +366,30 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     <tr>
         <td>TB2<br><br>
             <b>Steve Roger Castillo Robles</b><br>
-            - .
+            - En el Sprint 2, colaboré en el liderazgo del Sprint Planning y en la definición del backlog. Coordiné tareas en el desarrollo de frontend para lograr avances en las funcionalidades de geocercas y perfil de usuario.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
-            - .
+            - Participé activamente en el Sprint Planning y en la organización del backlog, facilitando la asignación de tareas en backend y asegurando una estructura de autenticación robusta para la aplicación.
             <br><br>
             <b>Jennifer Mary Espinoza Quispe</b><br>
-            - .
+            - En este sprint, asumí roles de liderazgo en la planificación y coordinación del desarrollo de la funcionalidad de alertas. También coordiné el equipo para mejorar la estructura del frontend y mantener una experiencia de usuario coherente.
             <br><br>
             <b>Diego Martin Esquivel Aguayo</b><br>
             - En el Sprint Planning y Backlog, promoví el liderazgo compartido coordinando la planificación y asignación de tareas. En el desarrollo de web, móvil, backend e IoT, mantuve comunicación constante para asegurar el avance conjunto.
             <br><br>
             <b>Cristian Andrés Quito Igreda</b><br>
-            - .
+            - Lideré la documentación de servicios y participé en la organización de tareas de IoT en el Sprint Planning, manteniendo una estructura clara de objetivos para el despliegue en el backend.
             <br><br>
         </td>
         <td>TB2<br><br>
-            - Durante el Sprint Planning, promoví un entorno inclusivo y coordiné la planificación para asegurar metas claras. En el desarrollo de web, móvil, backend e IoT, mantuvimos una planificación flexible para cumplir los objetivos.
+            - La colaboración en el liderazgo durante el Sprint Planning permitió al equipo cumplir los objetivos del sprint. Cada miembro asumió roles específicos para optimizar el desarrollo de funcionalidades en cada área.
         </td>
     </tr>
     <tr>
-        <td rowspan="2"><b>
-            Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
+        <td rowspan="3"><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
         <td>TB1<br><br>
             <b>Steve Roger Castillo Robles</b><br>
-            - En esta parte del proyecto cree un entorno colaborativo y equitativo, estableciendo metas claras y planificando tareas de manera efectiva. Contribuí en la creación de las user personas, user task matrix, y el ubiquitous language. Además, realicé la creación del product backlog y colaboré en la definición de las technical stories.
+            - En esta parte del proyecto creé un entorno colaborativo y equitativo, estableciendo metas claras y planificando tareas de manera efectiva. Contribuí en la creación de las user personas, user task matrix, y el ubiquitous language. Además, realicé la creación del product backlog y colaboré en la definición de las technical stories.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
             - Estableció metas claras en el to-be scenario mapping y colaboró en la planificación de los bounded contexts, contribuyendo a la definición clara de roles y responsabilidades dentro del equipo.
@@ -413,7 +411,7 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     <tr>
         <td>TP<br><br>
             <b>Steve Roger Castillo Robles</b><br>
-            - En el la creación de los wireframes y mockups pudimos colaborar de manera efectiva, así como la distribución del trabajo para la codificación de la landing page y el frontend.
+            - En la creación de los wireframes y mockups, colaboramos de manera efectiva, así como en la distribución del trabajo para la codificación de la landing page y el frontend.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
             - Estableció metas claras en el to-be scenario mapping y colaboró en la planificación de los bounded contexts, contribuyendo a la definición clara de roles y responsabilidades dentro del equipo.
@@ -435,23 +433,23 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
     <tr>
         <td>TB2<br><br>
             <b>Steve Roger Castillo Robles</b><br>
-            - .
+            - Durante el Sprint Planning, fomenté un entorno colaborativo al coordinar la planificación y el desarrollo de las funcionalidades de geocercas en frontend.
             <br><br> 
             <b>Diego Mauricio Castro Soto</b><br>
-            - .
+            - Coordiné tareas en el backend y aseguré una estructura clara en el desarrollo de la autenticación, manteniendo un enfoque inclusivo en el equipo.
             <br><br>
             <b>Jennifer Mary Espinoza Quispe</b><br>
-            - .
+            - En el desarrollo del módulo de alertas, promoví un entorno inclusivo y colaborativo, integrando aportes del equipo para mejorar la interfaz de usuario.
             <br><br>
             <b>Diego Martin Esquivel Aguayo</b><br>
             - Durante el Sprint Planning, promoví un entorno inclusivo y coordiné la planificación para asegurar metas claras. En el desarrollo de web, móvil, backend e IoT, mantuvimos una planificación flexible para cumplir los objetivos.
             <br><br>
             <b>Cristian Andrés Quito Igreda</b><br>
-            - .
+            - En el desarrollo de IoT, coordiné la documentación de servicios y promoví un entorno colaborativo, asegurando que todos los miembros comprendieran los objetivos técnicos.
             <br><br>
         </td>
         <td>TB2<br><br>
-            - La colaboración y planificación inclusiva ayudaron al equipo a cumplir eficientemente los objetivos del sprint en cada área del proyecto..
+            - La colaboración y planificación inclusiva ayudaron al equipo a cumplir eficientemente los objetivos del sprint en cada área del proyecto.
         </td>
     </tr>
 </table>
