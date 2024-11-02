@@ -4162,6 +4162,179 @@ No se realizó ninguna prueba en este sprint.
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
+#### <div align="center">UX Heuristics & Principles Evaluation</div>
+
+##### <div align="center">Usability – Inclusive Design – Information Architecture</div>
+
+<b> Carrera: </b> Ingeniería de Software  
+<b> Curso: </b> Desarrollo de Soluciones IoT  
+<b> Sección: </b> Código de la sección  
+<b> Profesores: </b> Todos  
+<b> Auditor: </b> Digital Dart  
+
+<b> <em> SITE O APP A EVALUAR: </em> </b> <br>
+Guardian Area  
+
+<b> <em> TAREAS A EVALUAR: </em> </b> <br>
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Registro de un usuario nuevo
+- Creación de geo-cercas
+- Monitoreo en tiempo real
+- Recepción de alertas de seguridad
+- Conexión con dispositivo IoT
+- Visualización de signos vitales
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Revisión del historial de actividades
+- Gestión de configuraciones avanzadas de dispositivos
+- Opciones de ayuda y soporte
+
+<b> <em> ESCALA DE SEVERIDAD: </em> </b> <br>
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+<table align="center" border="1" width="100%" style="text-align:center;">
+    <tr>
+        <th>
+            <b>Nivel</b>
+        </th>
+        <th>
+            Descripción
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b>1</b>
+        </td>
+        <td align="left">
+            Problema superficial: Puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>2</b>
+        </td>
+        <td align="left">
+            Problema menor: Ocurre más frecuentemente o es un poco más difícil de superar para el usuario. Debería asignarse una prioridad baja para resolverlo en una futura versión.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>3</b>
+        </td>
+        <td align="left">
+            Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y debe asignársele una prioridad alta.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>4</b>
+        </td>
+        <td align="left">
+            Problema muy grave: Un error crítico que impide al usuario continuar utilizando la herramienta. Es imperativo que se corrija antes del lanzamiento.
+        </td>
+    </tr>
+</table>
+
+<b> <em> TABLA DE RESUMEN: </em> </b> <br>
+La siguiente tabla resume los resultados de la evaluación:
+
+<table align="center" border="1" width="100%" style="text-align:center;">
+    <tr>
+        <th>#</th>
+        <th>Problema</th>
+        <th>Escala de severidad</th>
+        <th>Heurística/Principio violada(o)</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td align="left">Falta de retroalimentación al conectar dispositivos IoT</td>
+        <td>4</td>
+        <td align="left">Usabilidad: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td align="left">Dificultad para establecer geo-cercas debido a la complejidad de la interfaz</td>
+        <td>3</td>
+        <td align="left">Diseño inclusivo: Consistencia y estándares</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td align="left">Información de signos vitales poco visible</td>
+        <td>3</td>
+        <td align="left">Arquitectura de información: Diseño estético y minimalista</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td align="left">Iconografía ambigua en alertas de seguridad</td>
+        <td>2</td>
+        <td align="left">Usabilidad: Reconocimiento antes que recuerdo</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td align="left">Campos no validados correctamente en el registro de usuario</td>
+        <td>2</td>
+        <td align="left">Usabilidad: Prevención de errores</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td align="left">Diseño no adaptativo en dispositivos móviles</td>
+        <td>4</td>
+        <td align="left">Diseño inclusivo: Flexibilidad y eficiencia de uso</td>
+    </tr>
+</table>
+
+<b> <em> DESCRIPCIÓN DEL PROBLEMA: </em> </b> <br>
+
+**PROBLEMA #1:** Falta de retroalimentación al conectar dispositivos IoT  
+<b>Severidad:</b> 4  
+<b>Heurística violada:</b> Usabilidad: Visibilidad del estado del sistema  
+<b>Problema:</b>  
+Al conectar un dispositivo IoT, el usuario no recibe retroalimentación visual inmediata, lo que genera incertidumbre sobre si la conexión fue exitosa.  
+<b>Recomendación:</b>  
+Incluir un indicador visual o mensaje de confirmación que indique el éxito o falla de la conexión. <br>
+
+**PROBLEMA #2:** Dificultad para establecer geo-cercas debido a la complejidad de la interfaz  
+<b>Severidad:</b> 3  
+<b>Heurística violada:</b> Diseño inclusivo: Consistencia y estándares  
+<b>Problema:</b>  
+La interfaz para establecer geo-cercas es compleja y poco intuitiva, lo cual dificulta su uso, especialmente para usuarios menos experimentados.  
+<b>Recomendación:</b>  
+Simplificar el proceso de creación de geo-cercas mediante pasos guiados o mejorar la disposición de los elementos en pantalla. <br>
+
+**PROBLEMA #3:** Información de signos vitales poco visible  
+<b>Severidad:</b> 3  
+<b>Heurística violada:</b> Arquitectura de información: Diseño estético y minimalista  
+<b>Problema:</b>  
+Los datos de signos vitales no están claramente destacados, lo que puede dificultar su visualización en situaciones de emergencia.  
+<b>Recomendación:</b>  
+Mejorar el contraste y tamaño de la información crítica para una rápida identificación. <br>
+
+**PROBLEMA #4:** Iconografía ambigua en alertas de seguridad  
+<b>Severidad:</b> 2  
+<b>Heurística violada:</b> Usabilidad: Reconocimiento antes que recuerdo  
+<b>Problema:</b>  
+Algunas alertas utilizan iconos que no son claramente interpretables, lo que puede confundir al usuario sobre el tipo de alerta que se está recibiendo.  
+<b>Recomendación:</b>  
+Actualizar la iconografía para que represente claramente el tipo de alerta y mejore la comprensión inmediata. <br>
+
+**PROBLEMA #5:** Campos no validados correctamente en el registro de usuario  
+<b>Severidad:</b> 2  
+<b>Heurística violada:</b> Usabilidad: Prevención de errores  
+<b>Problema:</b>  
+Los campos de entrada en el registro de usuario no están siendo validados adecuadamente, permitiendo errores en el formato o contenido.  
+<b>Recomendación:</b>  
+Implementar validaciones en tiempo real que alerten al usuario sobre errores en la entrada de datos. <br>
+
+**PROBLEMA #6:** Diseño no adaptativo en dispositivos móviles  
+<b>Severidad:</b> 4  
+<b>Heurística violada:</b> Diseño inclusivo: Flexibilidad y eficiencia de uso  
+<b>Problema:</b>  
+La aplicación no se adapta correctamente a pantallas de dispositivos móviles, dificultando la navegación y visualización de información en pantallas pequeñas.  
+<b>Recomendación:</b>  
+Optimizar el diseño para dispositivos móviles asegurando una experiencia de usuario fluida y accesible en diferentes resoluciones. <br>
+
 ## 6.4 Video About-the-Product.
 
 ### Conclusiones
