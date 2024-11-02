@@ -3920,7 +3920,9 @@ En el desarrollo del presente sprint hemos logrado implementar la landing page d
         <img src="./images/chapter-06/06-web-application.png" alt="Web Aplicacion"  width="100%"/>
     </div>
 
-- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ERrOAPDc_QNElsRmd858ARYBoX_NxgaZ29Jx-m13ZdVNvA?e=XyWtxo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EXDQ53aPdhFGnFo3RmUPEm0BZqaSYiycd4dGfy-NdTY50A?e=EdKy1y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 Debido que a que el objetivo de este sprint fue la implementación de la Landing Page y la aplicación web, no se generó documentación de servicios en este sprint.
@@ -4868,3 +4870,8 @@ Optimizar el diseño para dispositivos móviles asegurando una experiencia de us
 - Link Video Prototipo Web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 - Link Video Prototipo Movil: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ERrOAPDc_QNElsRmd858ARYBoX_NxgaZ29Jx-m13ZdVNvA?e=XyWtxo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EXDQ53aPdhFGnFo3RmUPEm0BZqaSYiycd4dGfy-NdTY50A?e=EdKy1y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
