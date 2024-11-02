@@ -365,6 +365,28 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         </td>
     </tr>
     <tr>
+        <td>TB2<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - .
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - .
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - .
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - En el Sprint Planning y Backlog, promoví el liderazgo compartido coordinando la planificación y asignación de tareas. En el desarrollo de web, móvil, backend e IoT, mantuve comunicación constante para asegurar el avance conjunto.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - .
+            <br><br>
+        </td>
+        <td>TB2<br><br>
+            - Durante el Sprint Planning, promoví un entorno inclusivo y coordiné la planificación para asegurar metas claras. En el desarrollo de web, móvil, backend e IoT, mantuvimos una planificación flexible para cumplir los objetivos.
+        </td>
+    </tr>
+    <tr>
         <td rowspan="2"><b>
             Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
         <td>TB1<br><br>
@@ -410,8 +432,29 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             - El equipo se distribuyó de manera equitativa las tareas y estableció metas claras para el desarrollo del proyecto. La colaboración activa y la planificación efectiva permitieron cumplir con los objetivos establecidos y garantizar la calidad del trabajo.
         </td>
     </tr>
+    <tr>
+        <td>TB2<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - .
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - .
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - .
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Durante el Sprint Planning, promoví un entorno inclusivo y coordiné la planificación para asegurar metas claras. En el desarrollo de web, móvil, backend e IoT, mantuvimos una planificación flexible para cumplir los objetivos.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - .
+            <br><br>
+        </td>
+        <td>TB2<br><br>
+            - La colaboración y planificación inclusiva ayudaron al equipo a cumplir eficientemente los objetivos del sprint en cada área del proyecto..
+        </td>
+    </tr>
 </table>
-
 
 # Capítulo I: Introducción
 
@@ -1641,6 +1684,46 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 
 ---
 
+| **Épica**                | **Gestión de Geo-cercas**                               |
+|--------------------------|--------------------------------------------------------|
+| **ID-TS**                | 31                                                     |
+| **Owner**                | Jennifer Mary                                          |
+| **Título TS**            | Agregar marcadores y figuras de Geo-cercas en el mapa  |
+| **Descripción:**         | Como desarrollador, quiero agregar marcadores en el mapa para delimitar y crear figuras de geocerca, de modo que el usuario pueda establecer áreas seguras. |
+| **Criterio de Aceptación:** | **Scenario 01:** Agregar puntos de marcadores en el mapa <br/> **Dado** que el usuario accede a la pantalla de geocercas, <br/> **Cuando** selecciona puntos en el mapa, <br/> **Entonces** se crean marcadores que permiten definir la zona de geocerca. |
+
+---
+
+| **Épica**                | **Autenticación de Usuario**                           |
+|--------------------------|-------------------------------------------------------|
+| **ID-TS**                | 32                                                    |
+| **Owner**                | Diego Mauricio                                        |
+| **Título TS**            | Implementar interceptores y guardas para iniciar sesión |
+| **Descripción:**         | Como desarrollador, quiero implementar interceptores y guardas de rutas para verificar el inicio de sesión en el frontend, asegurando que solo los usuarios autenticados accedan a ciertas rutas. |
+| **Criterio de Aceptación:** | **Scenario 01:** Redirigir a inicio de sesión si no hay token válido <br/> **Dado** que un usuario no autenticado intenta acceder a una ruta restringida, <br/> **Cuando** el sistema detecta la falta de token válido, <br/> **Entonces** redirige a la pantalla de inicio de sesión. |
+
+---
+
+| **Épica**                | **Interfaz de Usuario**                               |
+|--------------------------|-------------------------------------------------------|
+| **ID-TS**                | 34                                                    |
+| **Owner**                | Steve Roger                                           |
+| **Título TS**            | Crear servicio y componente de spinner                |
+| **Descripción:**         | Como desarrollador, quiero implementar un componente de spinner y su servicio para indicar cuando una operación de carga está en progreso. |
+| **Criterio de Aceptación:** | **Scenario 01:** Mostrar spinner durante carga de datos <br/> **Dado** que el sistema está cargando datos, <br/> **Cuando** el usuario espera la respuesta, <br/> **Entonces** se muestra el spinner en pantalla para indicar el estado de carga. |
+
+---
+
+| **Épica**                | **Gestión de Geo-cercas**                             |
+|--------------------------|-------------------------------------------------------|
+| **ID-TS**                | 35                                                    |
+| **Owner**                | Jennifer Mary                                         |
+| **Título TS**            | Pantalla de registro de Geo-cerca                     |
+| **Descripción:**         | Como desarrollador, quiero crear una pantalla donde el usuario pueda registrar y editar las geo-cercas desde la aplicación. |
+| **Criterio de Aceptación:** | **Scenario 01:** Registrar nueva geo-cerca <br/> **Dado** que el usuario accede a la pantalla de registro de geo-cercas, <br/> **Cuando** completa los campos requeridos y guarda, <br/> **Entonces** el sistema registra la nueva geo-cerca en la base de datos. |
+
+---
+
 ### **Backend Technical Stories**
 
 | **Épica**                | **Configuración y Gestión de Geo-cercas**         |
@@ -1690,6 +1773,16 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 | **Título TS**            | Crear notificación mediante RESTful API           |
 | **Descripción:**         | Como desarrollador, quiero crear una notificación mediante el API, de modo que los usuarios puedan recibir alertas de seguridad. |
 | **Criterio de Aceptación:** | **Scenario 01:** Crear una notificación <br/> **Dado** que el endpoint `/api/v1/notification` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el tipo de notificación y descripción <br/> **Entonces** una respuesta es recibida con el estado 201 <br/> **Y** una Notification Resource es incluida en el cuerpo de la respuesta con una nueva id y registrada con los valores para el tipo de notificación y descripción. |
+
+---
+
+| **Épica**                | **Gestión de Dispositivos**                           |
+|--------------------------|-------------------------------------------------------|
+| **ID-TS**                | 33                                                    |
+| **Owner**                | Cristian Andrés                                       |
+| **Título TS**            | Servicio para listado de dispositivos                 |
+| **Descripción:**         | Como desarrollador, quiero crear un servicio para obtener el listado de dispositivos registrados para mostrarlos en la aplicación. |
+| **Criterio de Aceptación:** | **Scenario 01:** Listar dispositivos en la app <br/> **Dado** que el usuario accede a la lista de dispositivos, <br/> **Cuando** el servicio obtiene los dispositivos, <br/> **Entonces** muestra la información en la interfaz. |
 
 ---
 
@@ -3913,6 +4006,342 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
     <div style="text-align: center;">
         <img src="./images/chapter-06/02-contributors-web.png" alt="Contributors Evidence"  width="80%"/>
     </div>
+
+### 6.2.1. Sprint 2
+#### 6.2.2.1. Sprint Planning 2.
+
+| **Sprint #**                | Sprint 2                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                               |
+| **Date**                    | 2024-10-31                                                                                      |
+| **Time**                    | 17:00 PM                                                                                       |
+| **Location**                | Reunión virtual vía Discord                                                                     |
+| **Prepared By**             | Castillo Robles, Steve Roger                                                                   |
+| **Attendees (to planning meeting)** | Castillo Robles, Steve Roger<br>Castro Soto, Diego Mauricio<br>Espinoza Quispe, Jennifer Mary<br>Esquivel Aguayo, Diego Martín<br>Quito Igreda, Cristian Andrés |
+| **Sprint 1 Review Summary** | Durante el Sprint 1, logramos diseñar e implementar las vistas clave de la aplicación, tanto en la versión web como en la móvil, y desplegamos la landing page en el entorno de producción. Se completaron las vistas de Login, Registro, Mapa para monitoreo en tiempo real y el Historial de actividades como mockups. |
+| **Sprint 1 Retrospective Summary** | En el Sprint 1, el equipo trabajó de manera colaborativa y eficiente. Identificamos la necesidad de mejorar la estimación de tiempos y evitar la sobrecarga de tareas en algunos miembros. |
+| **Sprint Goal**            | Completar funcionalidades clave del backend e IoT para el monitoreo y administración de geo-cercas y alarmas, culminando el frontend móvil y optimizando el frontend web para monitoreo y seguridad. |
+| **Sprint 2 Velocity**       | 40 Story Points |
+| **Sum of Story Points**     | 103 Story Points |
+
+#### 6.2.2.2. Sprint Backlog 2.
+
+## Sprint Backlog Introduction
+
+El objetivo principal de este Sprint es completar las funcionalidades de backend y dispositivos IoT para permitir la creación y gestión de geo-cercas, monitoreo de ubicación y salud en tiempo real, y activación de alarmas. También optimizar el frontend web y móvil para que los cuidadores puedan acceder a la información en tiempo real y gestionar dispositivos de manera efectiva.
+
+*Trello:* [https://trello.com/b/GerPHGC7/sprint-backlog-2-iot](https://trello.com/b/GerPHGC7/sprint-backlog-2-iot)
+
+---
+
+## User Story Work-Items / Tasks
+
+| **User Story / Technical Story Id** | **Título**                                          | **Task Id**     | **Título de la Tarea**                                | **Descripción**                                                                 | **Estimación (Horas)** | **Asignado a**           | **Estado** |
+|-------------------------------------|-----------------------------------------------------|-----------------|------------------------------------------------------|-------------------------------------------------------------------------------|------------------------|--------------------------|------------|
+| **US01**                            | Visualización de Ubicación en Tiempo Real           | US01TASK001     | Integrar vista de mapa con datos en tiempo real       | Conectar vista de mapa en tiempo real con backend para mostrar la ubicación.  | 4                      | Jennifer Mary            | To-do      |
+|                                     |                                                     | US01TASK002     | Actualizar la ubicación en el mapa en tiempo real     | Asegurar que el mapa se actualice automáticamente al cambiar la ubicación.    | 3                      | Cristian Quito           | To-do      |
+| **US11**                            | Ver Perfil de Usuario                               | US11TASK001     | Implementar pantalla de perfil                       | Crear y conectar la pantalla de perfil con el backend.                        | 4                      | Steve Roger              | To-do      |
+|                                     |                                                     | US11TASK002     | Permitir edición de perfil de usuario                | Permitir edición de información personal del usuario.                        | 3                      | Jennifer Mary            | To-do      |
+| **TS12**                            | Crear vista de login utilizando API falso           | TS12TASK001     | Implementar backend para registrar dispositivo       | Programar backend para registrar dispositivos en el servidor de GuardianArea. | 5                      | Diego Esquivel           | To-do      |
+|                                     |                                                     | TS12TASK002     | Crear endpoint para actualizar dispositivo           | Implementar endpoint para actualizar los campos del dispositivo registrado.    | 3                      | Diego Mauricio           | To-do      |
+| **TS16**                            | Crear vista de ritmo cardíaco y oxigenación utilizando API falso | TS16TASK001     | Implementar monitor de signos vitales en frontend    | Configurar servicio para monitorear signos vitales en el frontend.            | 4                      | Diego Mauricio           | To-do      |
+|                                     |                                                     | TS16TASK002     | Crear gráficos para mostrar signos vitales           | Implementar gráficos para mostrar datos de ritmo cardíaco y oxigenación.      | 3                      | Steve Roger              | To-do      |
+| **TS22**                            | Crear Geo-Cerca mediante RESTful API                | TS22TASK001     | Crear endpoint para registrar geo-cercas             | Definir el endpoint para registrar geo-cercas en el backend.                  | 3                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS22TASK002     | Crear endpoint para editar geo-cercas                | Definir el endpoint para editar geo-cercas.                                   | 3                      | Diego Esquivel           | To-do      |
+|                                     |                                                     | TS22TASK003     | Crear endpoint para eliminar geo-cercas              | Definir el endpoint para eliminar geo-cercas.                                 | 3                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS22TASK004     | Realizar pruebas de funcionalidad en endpoints de geo-cercas con Postman | Probar funcionalidad de geo-cercas en backend con Postman.                    | 3                      | Jennifer Mary            | To-do      |
+| **TS23**                            | Configuración y Gestión de Geo-cercas               | TS23TASK001     | Diseñar endpoint para obtener ubicación actual       | Crear y probar el endpoint que retorna la ubicación en tiempo real.           | 4                      | Diego Mauricio           | To-do      |
+| **TS24**                            | Crear un usuario mediante RESTful API               | TS24TASK001     | Mejorar formulario de inicio de sesión               | Mejorar diseño y funcionalidad del formulario de autenticación.              | 4                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS24TASK002     | Implementar validaciones en el formulario de inicio de sesión | Añadir validaciones de email y contraseña en el frontend.                     | 3                      | Diego Esquivel           | To-do      |
+| **TS25**                            | Subir mensaje de voz mediante RESTful API           | TS25TASK001     | Diseñar endpoint para subir archivos de voz          | Crear endpoint para cargar archivos de voz en formato mp3.                    | 5                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS25TASK002     | Validar formato y duración en la carga de archivos de voz | Programar validaciones para limitar formato y duración de los archivos mp3.   | 4                      | Steve Roger              | To-do      |
+| **TS27**                            | API para Activación de Alarmas en Situaciones de Peligro | TS27TASK001     | Implementar backend para activación de alarmas       | Programar backend para la activación de alarmas en dispositivos IoT.          | 6                      | Diego Mauricio           | To-do      |
+|                                     |                                                     | TS27TASK002     | Verificar activación y desactivación de alarmas en backend | Verificar activación y desactivación de alarmas desde backend.                | 4                      | Jennifer Mary            | To-do      |
+| **TS28**                            | API para Control de Dispositivos Externos           | TS28TASK001     | Implementar WebSockets para transmitir health measures en tiempo real | Conectar IoT con backend usando WebSockets para envío de data en tiempo real. | 6                      | Diego Esquivel           | To-do      |
+|                                     |                                                     | TS28TASK002     | Probar estabilidad y rendimiento de la conexión WebSocket | Asegurar que la conexión WebSocket funcione bajo distintas condiciones.       | 3                      | Cristian Quito           | To-do      |
+| **TS30**                            | Crear APIs para Gestionar Geo-cercas en el Backend  | TS30TASK001     | Configurar API para gestionar geo-cercas en IoT      | Crear API para manejar geo-cercas en el dispositivo IoT.                      | 5                      | Steve Roger              | To-do      |
+|                                     |                                                     | TS30TASK002     | Validar funcionamiento de la API de geo-cercas en IoT | Realizar pruebas para validar funcionamiento de API en IoT.                   | 3                      | Diego Esquivel           | To-do      |
+| **TS31**                            | Agregar marcadores y figuras de Geo-cercas en el mapa | TS31TASK001     | Implementar marcador de geo-cercas en el mapa        | Crear marcado de geo-cercas en el mapa y conectar con el backend.            | 4                      | Jennifer Mary            | To-do      |
+|                                     |                                                     | TS31TASK002     | Probar visualización de marcadores de geo-cercas en el mapa | Verificar que los marcadores se muestran correctamente en el mapa.            | 2                      | Diego Mauricio           | To-do      |
+| **TS32**                            | Implementar interceptores y guardas para iniciar sesión | TS32TASK001     | Implementar interceptor de autenticación             | Implementar interceptor para capturar tokens en cada solicitud.               | 3                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS32TASK002     | Configurar guard para rutas protegidas               | Añadir guard en rutas protegidas para verificar sesión iniciada.             | 3                      | Steve Roger              | To-do      |
+|                                     |                                                     | TS32TASK003     | Verificar funcionamiento del interceptor y guardas en rutas protegidas | Probar funcionamiento del interceptor y guards en diferentes rutas.           | 2                      | Diego Esquivel           | To-do      |
+| **TS33**                            | Servicio para listado de dispositivos               | TS33TASK001     | Crear pantalla para listar dispositivos asignados al usuario | Implementar la vista de dispositivos asignados a un usuario.                  | 5                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS33TASK002     | Filtrar dispositivos en el listado por estado (activos/inactivos) | Agregar opción para filtrar dispositivos activos o inactivos.                 | 3                      | Jennifer Mary            | To-do      |
+| **TS34**                            | Crear servicio y componente de spinner              | TS34TASK001     | Crear componente y servicio de carga con spinner     | Implementar un spinner que se active durante la carga de datos.               | 3                      | Diego Mauricio           | To-do      |
+|                                     |                                                     | TS34TASK002     | Integrar spinner en las vistas de carga de datos     | Incluir el spinner en vistas donde se requiera carga de datos.                | 2                      | Steve Roger              | To-do      |
+| **TS35**                            | Gestión de Geo-cercas                               | TS35TASK001     | Crear pantalla para registro de geo-cercas           | Desarrollar pantalla de geo-cercas y registrar su conexión con backend.       | 5                      | Steve Roger              | To-do      |
+|                                     |                                                     | TS35TASK002     | Implementar validaciones en la pantalla de registro de geo-cercas | Agregar validaciones para crear geo-cercas correctas.                         | 3                      | Diego Esquivel           | To-do      |
+
+#### 6.2.2.3. Development Evidence for Sprint Review.
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+No se realizó ninguna prueba en este sprint.
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas
+
+## Preguntas Generales
+
+- ¿Cómo te llamas?
+- ¿Cuántos años tienes?
+- ¿Dónde vives actualmente?
+- ¿A qué te dedicas?
+- ¿Cuál es tu relación con la persona que cuidas?
+
+## Preguntas para Cuidadores o Familiares de Personas con Alzheimer
+
+### Experiencia con la Landing Page y las Aplicaciones
+
+1. Después de ver nuestra landing page y aplicaciones, ¿qué impresión general tienes de GuardianArea?
+2. ¿Crees que las funcionalidades presentadas abordan efectivamente tus necesidades como cuidador de una persona con Alzheimer?
+3. ¿Encontraste la información en la landing page clara y fácil de entender?
+4. ¿Qué opinas sobre el diseño y la estética de las aplicaciones?
+5. ¿Te resultó intuitiva y fácil de navegar la aplicación?
+6. ¿Hay alguna funcionalidad que esperabas ver y no encontraste en nuestras aplicaciones?
+7. ¿Cómo calificarías la experiencia de usuario en una escala del 1 al 5? ¿Por qué?
+
+### Utilidad y Beneficios Percibidos
+
+1. ¿De qué manera crees que GuardianArea puede ayudarte en el cuidado diario de tu ser querido?
+2. ¿Qué funcionalidades te parecen más valiosas? (e.g., monitoreo en tiempo real, alertas de salida de zona segura, comunicación remota, etc.)
+3. ¿Consideras que las alertas y notificaciones serían útiles para reaccionar a tiempo ante situaciones de riesgo?
+
+### Sugerencias y Mejoras
+
+1. ¿Tienes alguna sugerencia para mejorar la usabilidad o funcionalidad de nuestras aplicaciones?
+2. ¿Hay alguna característica adicional que te gustaría que incluyéramos?
+3. ¿Cómo podríamos hacer que la aplicación sea más útil para ti en tu rol de cuidador?
+
+### Interés y Recomendación
+
+1. ¿Estarías dispuesto a usar GuardianArea en tu vida diaria? ¿Por qué?
+2. ¿Recomendarías GuardianArea a otros cuidadores o familiares en situaciones similares?
+3. ¿Estarías dispuesto a compartir la aplicación en tus redes sociales o con tu comunidad?
+
+## Preguntas para Cuidadores o Familiares de Niños Pequeños
+
+### Experiencia con la Landing Page y las Aplicaciones
+
+1. Después de ver nuestra landing page y aplicaciones, ¿cuál es tu impresión general de GuardianArea?
+2. ¿Piensas que las funcionalidades presentadas abordan efectivamente tus necesidades como cuidador de un niño pequeño?
+3. ¿La información en la landing page te pareció clara y relevante?
+4. ¿Qué opinas sobre el diseño y atractivo visual de las aplicaciones?
+5. ¿Te resultó fácil de usar y navegar la aplicación?
+6. ¿Hubo alguna funcionalidad que esperabas ver y no está presente en nuestras aplicaciones?
+7. ¿Cómo calificarías la experiencia de usuario en una escala del 1 al 5? ¿Por qué?
+
+### Utilidad y Beneficios Percibidos
+
+1. ¿De qué manera crees que GuardianArea podría facilitar el cuidado y la seguridad del niño?
+2. ¿Qué funcionalidades te parecen más útiles? (e.g., seguimiento de ubicación, alertas de zona segura, monitoreo de signos vitales, etc.)
+3. ¿Crees que las notificaciones y alertas te ayudarían a responder rápidamente en caso de emergencia?
+
+### Sugerencias y Mejoras
+
+1. ¿Tienes alguna sugerencia para mejorar la aplicación o agregar funcionalidades que consideres importantes?
+2. ¿Hay alguna característica que te gustaría que incluyéramos para satisfacer mejor tus necesidades?
+3. ¿Cómo podríamos mejorar la aplicación para que sea más atractiva y útil para ti como padre/madre o cuidador?
+
+### Interés y Recomendación
+
+1. ¿Te gustaría utilizar GuardianArea en tu vida diaria? ¿Por qué?
+2. ¿Recomendarías GuardianArea a otros padres o cuidadores de niños pequeños?
+3. ¿Estarías dispuesto a compartir la aplicación en tus redes sociales o con otros familiares y amigos?
+
+### 6.3.2. Registro de Entrevistas.
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+#### <div align="center">UX Heuristics & Principles Evaluation</div>
+
+##### <div align="center">Usability – Inclusive Design – Information Architecture</div>
+
+<b> Carrera: </b> Ingeniería de Software  
+<b> Curso: </b> Desarrollo de Soluciones IoT  
+<b> Sección: </b> Código de la sección  
+<b> Profesores: </b> Todos  
+<b> Auditor: </b> Digital Dart  
+
+<b> <em> SITE O APP A EVALUAR: </em> </b> <br>
+Guardian Area  
+
+<b> <em> TAREAS A EVALUAR: </em> </b> <br>
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Registro de un usuario nuevo
+- Creación de geo-cercas
+- Monitoreo en tiempo real
+- Recepción de alertas de seguridad
+- Conexión con dispositivo IoT
+- Visualización de signos vitales
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Revisión del historial de actividades
+- Gestión de configuraciones avanzadas de dispositivos
+- Opciones de ayuda y soporte
+
+<b> <em> ESCALA DE SEVERIDAD: </em> </b> <br>
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+<table align="center" border="1" width="100%" style="text-align:center;">
+    <tr>
+        <th>
+            <b>Nivel</b>
+        </th>
+        <th>
+            Descripción
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b>1</b>
+        </td>
+        <td align="left">
+            Problema superficial: Puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>2</b>
+        </td>
+        <td align="left">
+            Problema menor: Ocurre más frecuentemente o es un poco más difícil de superar para el usuario. Debería asignarse una prioridad baja para resolverlo en una futura versión.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>3</b>
+        </td>
+        <td align="left">
+            Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y debe asignársele una prioridad alta.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>4</b>
+        </td>
+        <td align="left">
+            Problema muy grave: Un error crítico que impide al usuario continuar utilizando la herramienta. Es imperativo que se corrija antes del lanzamiento.
+        </td>
+    </tr>
+</table>
+
+<b> <em> TABLA DE RESUMEN: </em> </b> <br>
+La siguiente tabla resume los resultados de la evaluación:
+
+<table align="center" border="1" width="100%" style="text-align:center;">
+    <tr>
+        <th>#</th>
+        <th>Problema</th>
+        <th>Escala de severidad</th>
+        <th>Heurística/Principio violada(o)</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td align="left">Falta de retroalimentación al conectar dispositivos IoT</td>
+        <td>4</td>
+        <td align="left">Usabilidad: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td align="left">Dificultad para establecer geo-cercas debido a la complejidad de la interfaz</td>
+        <td>3</td>
+        <td align="left">Diseño inclusivo: Consistencia y estándares</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td align="left">Información de signos vitales poco visible</td>
+        <td>3</td>
+        <td align="left">Arquitectura de información: Diseño estético y minimalista</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td align="left">Iconografía ambigua en alertas de seguridad</td>
+        <td>2</td>
+        <td align="left">Usabilidad: Reconocimiento antes que recuerdo</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td align="left">Campos no validados correctamente en el registro de usuario</td>
+        <td>2</td>
+        <td align="left">Usabilidad: Prevención de errores</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td align="left">Diseño no adaptativo en dispositivos móviles</td>
+        <td>4</td>
+        <td align="left">Diseño inclusivo: Flexibilidad y eficiencia de uso</td>
+    </tr>
+</table>
+
+<b> <em> DESCRIPCIÓN DEL PROBLEMA: </em> </b> <br>
+
+**PROBLEMA #1:** Falta de retroalimentación al conectar dispositivos IoT  
+<b>Severidad:</b> 4  
+<b>Heurística violada:</b> Usabilidad: Visibilidad del estado del sistema  
+<b>Problema:</b>  
+Al conectar un dispositivo IoT, el usuario no recibe retroalimentación visual inmediata, lo que genera incertidumbre sobre si la conexión fue exitosa.  
+<b>Recomendación:</b>  
+Incluir un indicador visual o mensaje de confirmación que indique el éxito o falla de la conexión. <br>
+
+**PROBLEMA #2:** Dificultad para establecer geo-cercas debido a la complejidad de la interfaz  
+<b>Severidad:</b> 3  
+<b>Heurística violada:</b> Diseño inclusivo: Consistencia y estándares  
+<b>Problema:</b>  
+La interfaz para establecer geo-cercas es compleja y poco intuitiva, lo cual dificulta su uso, especialmente para usuarios menos experimentados.  
+<b>Recomendación:</b>  
+Simplificar el proceso de creación de geo-cercas mediante pasos guiados o mejorar la disposición de los elementos en pantalla. <br>
+
+**PROBLEMA #3:** Información de signos vitales poco visible  
+<b>Severidad:</b> 3  
+<b>Heurística violada:</b> Arquitectura de información: Diseño estético y minimalista  
+<b>Problema:</b>  
+Los datos de signos vitales no están claramente destacados, lo que puede dificultar su visualización en situaciones de emergencia.  
+<b>Recomendación:</b>  
+Mejorar el contraste y tamaño de la información crítica para una rápida identificación. <br>
+
+**PROBLEMA #4:** Iconografía ambigua en alertas de seguridad  
+<b>Severidad:</b> 2  
+<b>Heurística violada:</b> Usabilidad: Reconocimiento antes que recuerdo  
+<b>Problema:</b>  
+Algunas alertas utilizan iconos que no son claramente interpretables, lo que puede confundir al usuario sobre el tipo de alerta que se está recibiendo.  
+<b>Recomendación:</b>  
+Actualizar la iconografía para que represente claramente el tipo de alerta y mejore la comprensión inmediata. <br>
+
+**PROBLEMA #5:** Campos no validados correctamente en el registro de usuario  
+<b>Severidad:</b> 2  
+<b>Heurística violada:</b> Usabilidad: Prevención de errores  
+<b>Problema:</b>  
+Los campos de entrada en el registro de usuario no están siendo validados adecuadamente, permitiendo errores en el formato o contenido.  
+<b>Recomendación:</b>  
+Implementar validaciones en tiempo real que alerten al usuario sobre errores en la entrada de datos. <br>
+
+**PROBLEMA #6:** Diseño no adaptativo en dispositivos móviles  
+<b>Severidad:</b> 4  
+<b>Heurística violada:</b> Diseño inclusivo: Flexibilidad y eficiencia de uso  
+<b>Problema:</b>  
+La aplicación no se adapta correctamente a pantallas de dispositivos móviles, dificultando la navegación y visualización de información en pantallas pequeñas.  
+<b>Recomendación:</b>  
+Optimizar el diseño para dispositivos móviles asegurando una experiencia de usuario fluida y accesible en diferentes resoluciones. <br>
+
+## 6.4 Video About-the-Product.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/about.png" width="80%" alt="UG07">
+</div>
+
+- **URL del video:** [Ver About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETKkRYbymuBAsTHm6Wnv4NAB8W7N0_uRocLSYo5NsBqcmQ?e=O4tRUJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ### Conclusiones
 * La implementación del enfoque Lean UX en la comprensión de nuestra problemática y la concepción de nuestro concepto empresarial nos permitió llevar a cabo un análisis exhaustivo de nuestros competidores y definir claramente nuestros grupos de interés. 
