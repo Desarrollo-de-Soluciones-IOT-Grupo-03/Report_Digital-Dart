@@ -4337,6 +4337,12 @@ Optimizar el diseño para dispositivos móviles asegurando una experiencia de us
 
 ## 6.4 Video About-the-Product.
 
+<div style="text-align: center;">
+    <img src="./images/chapter-06/about.png" width="80%" alt="UG07">
+</div>
+
+- **URL del video:** [Ver About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETKkRYbymuBAsTHm6Wnv4NAB8W7N0_uRocLSYo5NsBqcmQ?e=O4tRUJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 ### Conclusiones
 * La implementación del enfoque Lean UX en la comprensión de nuestra problemática y la concepción de nuestro concepto empresarial nos permitió llevar a cabo un análisis exhaustivo de nuestros competidores y definir claramente nuestros grupos de interés. 
 
