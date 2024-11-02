@@ -365,6 +365,28 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         </td>
     </tr>
     <tr>
+        <td>TB2<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - .
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - .
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - .
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - En el Sprint Planning y Backlog, promoví el liderazgo compartido coordinando la planificación y asignación de tareas. En el desarrollo de web, móvil, backend e IoT, mantuve comunicación constante para asegurar el avance conjunto.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - .
+            <br><br>
+        </td>
+        <td>TB2<br><br>
+            - Durante el Sprint Planning, promoví un entorno inclusivo y coordiné la planificación para asegurar metas claras. En el desarrollo de web, móvil, backend e IoT, mantuvimos una planificación flexible para cumplir los objetivos.
+        </td>
+    </tr>
+    <tr>
         <td rowspan="2"><b>
             Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
         <td>TB1<br><br>
@@ -410,8 +432,29 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             - El equipo se distribuyó de manera equitativa las tareas y estableció metas claras para el desarrollo del proyecto. La colaboración activa y la planificación efectiva permitieron cumplir con los objetivos establecidos y garantizar la calidad del trabajo.
         </td>
     </tr>
+    <tr>
+        <td>TB2<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - .
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - .
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - .
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Durante el Sprint Planning, promoví un entorno inclusivo y coordiné la planificación para asegurar metas claras. En el desarrollo de web, móvil, backend e IoT, mantuvimos una planificación flexible para cumplir los objetivos.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - .
+            <br><br>
+        </td>
+        <td>TB2<br><br>
+            - La colaboración y planificación inclusiva ayudaron al equipo a cumplir eficientemente los objetivos del sprint en cada área del proyecto..
+        </td>
+    </tr>
 </table>
-
 
 # Capítulo I: Introducción
 
@@ -1641,6 +1684,46 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 
 ---
 
+| **Épica**                | **Gestión de Geo-cercas**                               |
+|--------------------------|--------------------------------------------------------|
+| **ID-TS**                | 31                                                     |
+| **Owner**                | Jennifer Mary                                          |
+| **Título TS**            | Agregar marcadores y figuras de Geo-cercas en el mapa  |
+| **Descripción:**         | Como desarrollador, quiero agregar marcadores en el mapa para delimitar y crear figuras de geocerca, de modo que el usuario pueda establecer áreas seguras. |
+| **Criterio de Aceptación:** | **Scenario 01:** Agregar puntos de marcadores en el mapa <br/> **Dado** que el usuario accede a la pantalla de geocercas, <br/> **Cuando** selecciona puntos en el mapa, <br/> **Entonces** se crean marcadores que permiten definir la zona de geocerca. |
+
+---
+
+| **Épica**                | **Autenticación de Usuario**                           |
+|--------------------------|-------------------------------------------------------|
+| **ID-TS**                | 32                                                    |
+| **Owner**                | Diego Mauricio                                        |
+| **Título TS**            | Implementar interceptores y guardas para iniciar sesión |
+| **Descripción:**         | Como desarrollador, quiero implementar interceptores y guardas de rutas para verificar el inicio de sesión en el frontend, asegurando que solo los usuarios autenticados accedan a ciertas rutas. |
+| **Criterio de Aceptación:** | **Scenario 01:** Redirigir a inicio de sesión si no hay token válido <br/> **Dado** que un usuario no autenticado intenta acceder a una ruta restringida, <br/> **Cuando** el sistema detecta la falta de token válido, <br/> **Entonces** redirige a la pantalla de inicio de sesión. |
+
+---
+
+| **Épica**                | **Interfaz de Usuario**                               |
+|--------------------------|-------------------------------------------------------|
+| **ID-TS**                | 34                                                    |
+| **Owner**                | Steve Roger                                           |
+| **Título TS**            | Crear servicio y componente de spinner                |
+| **Descripción:**         | Como desarrollador, quiero implementar un componente de spinner y su servicio para indicar cuando una operación de carga está en progreso. |
+| **Criterio de Aceptación:** | **Scenario 01:** Mostrar spinner durante carga de datos <br/> **Dado** que el sistema está cargando datos, <br/> **Cuando** el usuario espera la respuesta, <br/> **Entonces** se muestra el spinner en pantalla para indicar el estado de carga. |
+
+---
+
+| **Épica**                | **Gestión de Geo-cercas**                             |
+|--------------------------|-------------------------------------------------------|
+| **ID-TS**                | 35                                                    |
+| **Owner**                | Jennifer Mary                                         |
+| **Título TS**            | Pantalla de registro de Geo-cerca                     |
+| **Descripción:**         | Como desarrollador, quiero crear una pantalla donde el usuario pueda registrar y editar las geo-cercas desde la aplicación. |
+| **Criterio de Aceptación:** | **Scenario 01:** Registrar nueva geo-cerca <br/> **Dado** que el usuario accede a la pantalla de registro de geo-cercas, <br/> **Cuando** completa los campos requeridos y guarda, <br/> **Entonces** el sistema registra la nueva geo-cerca en la base de datos. |
+
+---
+
 ### **Backend Technical Stories**
 
 | **Épica**                | **Configuración y Gestión de Geo-cercas**         |
@@ -1690,6 +1773,16 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 | **Título TS**            | Crear notificación mediante RESTful API           |
 | **Descripción:**         | Como desarrollador, quiero crear una notificación mediante el API, de modo que los usuarios puedan recibir alertas de seguridad. |
 | **Criterio de Aceptación:** | **Scenario 01:** Crear una notificación <br/> **Dado** que el endpoint `/api/v1/notification` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el tipo de notificación y descripción <br/> **Entonces** una respuesta es recibida con el estado 201 <br/> **Y** una Notification Resource es incluida en el cuerpo de la respuesta con una nueva id y registrada con los valores para el tipo de notificación y descripción. |
+
+---
+
+| **Épica**                | **Gestión de Dispositivos**                           |
+|--------------------------|-------------------------------------------------------|
+| **ID-TS**                | 33                                                    |
+| **Owner**                | Cristian Andrés                                       |
+| **Título TS**            | Servicio para listado de dispositivos                 |
+| **Descripción:**         | Como desarrollador, quiero crear un servicio para obtener el listado de dispositivos registrados para mostrarlos en la aplicación. |
+| **Criterio de Aceptación:** | **Scenario 01:** Listar dispositivos en la app <br/> **Dado** que el usuario accede a la lista de dispositivos, <br/> **Cuando** el servicio obtiene los dispositivos, <br/> **Entonces** muestra la información en la interfaz. |
 
 ---
 
@@ -3930,6 +4023,55 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
 | **Sprint Goal**            | Completar funcionalidades clave del backend e IoT para el monitoreo y administración de geo-cercas y alarmas, culminando el frontend móvil y optimizando el frontend web para monitoreo y seguridad. |
 | **Sprint 2 Velocity**       | 40 Story Points |
 | **Sum of Story Points**     | 103 Story Points |
+
+#### 6.2.2.2. Sprint Backlog 2.
+
+## Sprint Backlog Introduction
+
+El objetivo principal de este Sprint es completar las funcionalidades de backend y dispositivos IoT para permitir la creación y gestión de geo-cercas, monitoreo de ubicación y salud en tiempo real, y activación de alarmas. También optimizar el frontend web y móvil para que los cuidadores puedan acceder a la información en tiempo real y gestionar dispositivos de manera efectiva.
+
+*Trello:* [https://trello.com/b/GerPHGC7/sprint-backlog-2-iot](https://trello.com/b/GerPHGC7/sprint-backlog-2-iot)
+
+---
+
+## User Story Work-Items / Tasks
+
+| **User Story / Technical Story Id** | **Título**                                          | **Task Id**     | **Título de la Tarea**                                | **Descripción**                                                                 | **Estimación (Horas)** | **Asignado a**           | **Estado** |
+|-------------------------------------|-----------------------------------------------------|-----------------|------------------------------------------------------|-------------------------------------------------------------------------------|------------------------|--------------------------|------------|
+| **US01**                            | Visualización de Ubicación en Tiempo Real           | US01TASK001     | Integrar vista de mapa con datos en tiempo real       | Conectar vista de mapa en tiempo real con backend para mostrar la ubicación.  | 4                      | Jennifer Mary            | To-do      |
+|                                     |                                                     | US01TASK002     | Actualizar la ubicación en el mapa en tiempo real     | Asegurar que el mapa se actualice automáticamente al cambiar la ubicación.    | 3                      | Cristian Quito           | To-do      |
+| **US11**                            | Ver Perfil de Usuario                               | US11TASK001     | Implementar pantalla de perfil                       | Crear y conectar la pantalla de perfil con el backend.                        | 4                      | Steve Roger              | To-do      |
+|                                     |                                                     | US11TASK002     | Permitir edición de perfil de usuario                | Permitir edición de información personal del usuario.                        | 3                      | Jennifer Mary            | To-do      |
+| **TS12**                            | Crear vista de login utilizando API falso           | TS12TASK001     | Implementar backend para registrar dispositivo       | Programar backend para registrar dispositivos en el servidor de GuardianArea. | 5                      | Diego Esquivel           | To-do      |
+|                                     |                                                     | TS12TASK002     | Crear endpoint para actualizar dispositivo           | Implementar endpoint para actualizar los campos del dispositivo registrado.    | 3                      | Diego Mauricio           | To-do      |
+| **TS16**                            | Crear vista de ritmo cardíaco y oxigenación utilizando API falso | TS16TASK001     | Implementar monitor de signos vitales en frontend    | Configurar servicio para monitorear signos vitales en el frontend.            | 4                      | Diego Mauricio           | To-do      |
+|                                     |                                                     | TS16TASK002     | Crear gráficos para mostrar signos vitales           | Implementar gráficos para mostrar datos de ritmo cardíaco y oxigenación.      | 3                      | Steve Roger              | To-do      |
+| **TS22**                            | Crear Geo-Cerca mediante RESTful API                | TS22TASK001     | Crear endpoint para registrar geo-cercas             | Definir el endpoint para registrar geo-cercas en el backend.                  | 3                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS22TASK002     | Crear endpoint para editar geo-cercas                | Definir el endpoint para editar geo-cercas.                                   | 3                      | Diego Esquivel           | To-do      |
+|                                     |                                                     | TS22TASK003     | Crear endpoint para eliminar geo-cercas              | Definir el endpoint para eliminar geo-cercas.                                 | 3                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS22TASK004     | Realizar pruebas de funcionalidad en endpoints de geo-cercas con Postman | Probar funcionalidad de geo-cercas en backend con Postman.                    | 3                      | Jennifer Mary            | To-do      |
+| **TS23**                            | Configuración y Gestión de Geo-cercas               | TS23TASK001     | Diseñar endpoint para obtener ubicación actual       | Crear y probar el endpoint que retorna la ubicación en tiempo real.           | 4                      | Diego Mauricio           | To-do      |
+| **TS24**                            | Crear un usuario mediante RESTful API               | TS24TASK001     | Mejorar formulario de inicio de sesión               | Mejorar diseño y funcionalidad del formulario de autenticación.              | 4                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS24TASK002     | Implementar validaciones en el formulario de inicio de sesión | Añadir validaciones de email y contraseña en el frontend.                     | 3                      | Diego Esquivel           | To-do      |
+| **TS25**                            | Subir mensaje de voz mediante RESTful API           | TS25TASK001     | Diseñar endpoint para subir archivos de voz          | Crear endpoint para cargar archivos de voz en formato mp3.                    | 5                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS25TASK002     | Validar formato y duración en la carga de archivos de voz | Programar validaciones para limitar formato y duración de los archivos mp3.   | 4                      | Steve Roger              | To-do      |
+| **TS27**                            | API para Activación de Alarmas en Situaciones de Peligro | TS27TASK001     | Implementar backend para activación de alarmas       | Programar backend para la activación de alarmas en dispositivos IoT.          | 6                      | Diego Mauricio           | To-do      |
+|                                     |                                                     | TS27TASK002     | Verificar activación y desactivación de alarmas en backend | Verificar activación y desactivación de alarmas desde backend.                | 4                      | Jennifer Mary            | To-do      |
+| **TS28**                            | API para Control de Dispositivos Externos           | TS28TASK001     | Implementar WebSockets para transmitir health measures en tiempo real | Conectar IoT con backend usando WebSockets para envío de data en tiempo real. | 6                      | Diego Esquivel           | To-do      |
+|                                     |                                                     | TS28TASK002     | Probar estabilidad y rendimiento de la conexión WebSocket | Asegurar que la conexión WebSocket funcione bajo distintas condiciones.       | 3                      | Cristian Quito           | To-do      |
+| **TS30**                            | Crear APIs para Gestionar Geo-cercas en el Backend  | TS30TASK001     | Configurar API para gestionar geo-cercas en IoT      | Crear API para manejar geo-cercas en el dispositivo IoT.                      | 5                      | Steve Roger              | To-do      |
+|                                     |                                                     | TS30TASK002     | Validar funcionamiento de la API de geo-cercas en IoT | Realizar pruebas para validar funcionamiento de API en IoT.                   | 3                      | Diego Esquivel           | To-do      |
+| **TS31**                            | Agregar marcadores y figuras de Geo-cercas en el mapa | TS31TASK001     | Implementar marcador de geo-cercas en el mapa        | Crear marcado de geo-cercas en el mapa y conectar con el backend.            | 4                      | Jennifer Mary            | To-do      |
+|                                     |                                                     | TS31TASK002     | Probar visualización de marcadores de geo-cercas en el mapa | Verificar que los marcadores se muestran correctamente en el mapa.            | 2                      | Diego Mauricio           | To-do      |
+| **TS32**                            | Implementar interceptores y guardas para iniciar sesión | TS32TASK001     | Implementar interceptor de autenticación             | Implementar interceptor para capturar tokens en cada solicitud.               | 3                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS32TASK002     | Configurar guard para rutas protegidas               | Añadir guard en rutas protegidas para verificar sesión iniciada.             | 3                      | Steve Roger              | To-do      |
+|                                     |                                                     | TS32TASK003     | Verificar funcionamiento del interceptor y guardas en rutas protegidas | Probar funcionamiento del interceptor y guards en diferentes rutas.           | 2                      | Diego Esquivel           | To-do      |
+| **TS33**                            | Servicio para listado de dispositivos               | TS33TASK001     | Crear pantalla para listar dispositivos asignados al usuario | Implementar la vista de dispositivos asignados a un usuario.                  | 5                      | Cristian Quito           | To-do      |
+|                                     |                                                     | TS33TASK002     | Filtrar dispositivos en el listado por estado (activos/inactivos) | Agregar opción para filtrar dispositivos activos o inactivos.                 | 3                      | Jennifer Mary            | To-do      |
+| **TS34**                            | Crear servicio y componente de spinner              | TS34TASK001     | Crear componente y servicio de carga con spinner     | Implementar un spinner que se active durante la carga de datos.               | 3                      | Diego Mauricio           | To-do      |
+|                                     |                                                     | TS34TASK002     | Integrar spinner en las vistas de carga de datos     | Incluir el spinner en vistas donde se requiera carga de datos.                | 2                      | Steve Roger              | To-do      |
+| **TS35**                            | Gestión de Geo-cercas                               | TS35TASK001     | Crear pantalla para registro de geo-cercas           | Desarrollar pantalla de geo-cercas y registrar su conexión con backend.       | 5                      | Steve Roger              | To-do      |
+|                                     |                                                     | TS35TASK002     | Implementar validaciones en la pantalla de registro de geo-cercas | Agregar validaciones para crear geo-cercas correctas.                         | 3                      | Diego Esquivel           | To-do      |
 
 ### Conclusiones
 * La implementación del enfoque Lean UX en la comprensión de nuestra problemática y la concepción de nuestro concepto empresarial nos permitió llevar a cabo un análisis exhaustivo de nuestros competidores y definir claramente nuestros grupos de interés. 
