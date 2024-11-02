@@ -3914,6 +3914,23 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
         <img src="./images/chapter-06/02-contributors-web.png" alt="Contributors Evidence"  width="80%"/>
     </div>
 
+### 6.2.1. Sprint 2
+#### 6.2.2.1. Sprint Planning 2.
+
+| **Sprint #**                | Sprint 2                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                               |
+| **Date**                    | 2024-10-31                                                                                      |
+| **Time**                    | 17:00 PM                                                                                       |
+| **Location**                | Reunión virtual vía Discord                                                                     |
+| **Prepared By**             | Castillo Robles, Steve Roger                                                                   |
+| **Attendees (to planning meeting)** | Castillo Robles, Steve Roger<br>Castro Soto, Diego Mauricio<br>Espinoza Quispe, Jennifer Mary<br>Esquivel Aguayo, Diego Martín<br>Quito Igreda, Cristian Andrés |
+| **Sprint 1 Review Summary** | Durante el Sprint 1, logramos diseñar e implementar las vistas clave de la aplicación, tanto en la versión web como en la móvil, y desplegamos la landing page en el entorno de producción. Se completaron las vistas de Login, Registro, Mapa para monitoreo en tiempo real y el Historial de actividades como mockups. |
+| **Sprint 1 Retrospective Summary** | En el Sprint 1, el equipo trabajó de manera colaborativa y eficiente. Identificamos la necesidad de mejorar la estimación de tiempos y evitar la sobrecarga de tareas en algunos miembros. |
+| **Sprint Goal**            | Completar funcionalidades clave del backend e IoT para el monitoreo y administración de geo-cercas y alarmas, culminando el frontend móvil y optimizando el frontend web para monitoreo y seguridad. |
+| **Sprint 2 Velocity**       | 40 Story Points |
+| **Sum of Story Points**     | 103 Story Points |
+
 ### Conclusiones
 * La implementación del enfoque Lean UX en la comprensión de nuestra problemática y la concepción de nuestro concepto empresarial nos permitió llevar a cabo un análisis exhaustivo de nuestros competidores y definir claramente nuestros grupos de interés. 
 
