@@ -4514,6 +4514,22 @@ Para la implementación de la Landing Page y la aplicación web de GuardianArea,
     </div>
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
+La sección "Team Collaboration Insights during Sprint" ofrece un análisis del trabajo en equipo realizado durante el sprint, enfocado en la colaboración entre los miembros del equipo para mejorar la eficiencia y cumplir con los objetivos establecidos. En esta etapa, se ha evaluado la coordinación, la comunicación y los resultados alcanzados en tres componentes clave del proyecto Guardian Area.
+
+Guardian Area API Cloud
+<div style="text-align: center;">
+    <img src="./images/chapter-06/teamwork1.PNG" alt="Pulse Evidence"  width="80%"/>
+</div>
+
+Guardian Area Embeeded Application
+<div style="text-align: center;">
+    <img src="./images/chapter-06/teamwork2.PNG" alt="Pulse Evidence"  width="80%"/>
+</div>
+
+Guardian Area Web
+<div style="text-align: center;">
+    <img src="./images/chapter-06/teamwork3.PNG" alt="Pulse Evidence"  width="80%"/>
+</div>
 
 ## 6.3. Validation Interviews.
 
