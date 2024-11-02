@@ -3918,7 +3918,9 @@ En el desarrollo del presente sprint hemos logrado implementar la landing page d
         <img src="./images/chapter-06/06-web-application.png" alt="Web Aplicacion"  width="100%"/>
     </div>
 
-- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ERrOAPDc_QNElsRmd858ARYBoX_NxgaZ29Jx-m13ZdVNvA?e=XyWtxo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EXDQ53aPdhFGnFo3RmUPEm0BZqaSYiycd4dGfy-NdTY50A?e=EdKy1y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 Debido que a que el objetivo de este sprint fue la implementación de la Landing Page y la aplicación web, no se generó documentación de servicios en este sprint.
@@ -4081,6 +4083,58 @@ El objetivo principal de este Sprint es completar las funcionalidades de backend
 No se realizó ninguna prueba en este sprint.
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
+
+En el desarrollo del presente sprint hemos logrado implementar la landing page de GuardianArea y la aplicación web desarrollada en Angular. A continuación, se presentan las evidencias de la ejecución del sprint.
+
+1. **Landing Page:** Se logró completar la implementación de la Landing Page de GuardianArea se realizó siguiendo las directrices de diseño y estilo establecidas en la fase de diseño UI/UX. Se utilizó HTML, CSS y JavaScript para desarrollar la página de inicio, con un diseño moderno y atractivo que refleja la esencia de la aplicación.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/lp-01.png" width="100%"/>
+</div>
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/lp-02.png" width="100%"/>
+</div>
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/lp-03.png" width="100%"/>
+</div>
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/lp4.png" width="100%"/>
+</div>
+
+2. **Aplicación Web**: Se avanzó con la creación de la aplicación web de GuardianArea utilizando Angular. Lo que incluyó es la creación de interfaces de registro e inicio de sesión, así como el diseño de la página principal, historial de actividades e integración con mapa usando Mapbox.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/web01.png" width="100%"/>
+</div>
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/web02.png" width="100%"/>
+</div>
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/web03.png" width="100%"/>
+</div>
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/web04.png" width="100%"/>
+</div>
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/web05.png" width="100%"/>
+</div>
+
+1. **Backend**: Se completó la implementación de las funcionalidades de backend para la gestión de dispositivos, geo-cercas y alarmas. Se crearon los endpoints necesarios para registrar, actualizar y eliminar dispositivos, así como para gestionar geo-cercas y activar alarmas en situaciones de peligro.
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/api01.png" width="100%"/>
+</div>
+
+<div style="text-align: center;">
+    <img src="./images/chapter-06/api02.png" width="100%"/>
+</div>
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 La tabla anterior documenta los endpoints de la aplicación *GuardianArea*, la cual gestiona dispositivos, usuarios, roles, geo-cercas y autenticación. Cada módulo cuenta con endpoints específicos para realizar operaciones de creación, lectura, actualización y asignación. Por ejemplo, el módulo de **Devices** permite registrar y asignar dispositivos a usuarios, además de consultar un resumen de medidas de salud y geo-cercas asociadas a cada dispositivo. El módulo de **GeoFences** permite gestionar las geo-cercas, mientras que **Users** y **Roles** facilitan la administración de usuarios y sus permisos. Estos endpoints son esenciales para la administración y control de los dispositivos y datos en la plataforma.
@@ -4830,3 +4884,8 @@ Optimizar el diseño para dispositivos móviles asegurando una experiencia de us
 - Link Video Prototipo Web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 - Link Video Prototipo Movil: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ERrOAPDc_QNElsRmd858ARYBoX_NxgaZ29Jx-m13ZdVNvA?e=XyWtxo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EXDQ53aPdhFGnFo3RmUPEm0BZqaSYiycd4dGfy-NdTY50A?e=EdKy1y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
