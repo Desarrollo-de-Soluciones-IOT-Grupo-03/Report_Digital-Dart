@@ -4073,6 +4073,97 @@ El objetivo principal de este Sprint es completar las funcionalidades de backend
 | **TS35**                            | Gestión de Geo-cercas                               | TS35TASK001     | Crear pantalla para registro de geo-cercas           | Desarrollar pantalla de geo-cercas y registrar su conexión con backend.       | 5                      | Steve Roger              | To-do      |
 |                                     |                                                     | TS35TASK002     | Implementar validaciones en la pantalla de registro de geo-cercas | Agregar validaciones para crear geo-cercas correctas.                         | 3                      | Diego Esquivel           | To-do      |
 
+#### 6.2.2.3. Development Evidence for Sprint Review.
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+No se realizó ninguna prueba en este sprint.
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas
+
+## Preguntas Generales
+
+- ¿Cómo te llamas?
+- ¿Cuántos años tienes?
+- ¿Dónde vives actualmente?
+- ¿A qué te dedicas?
+- ¿Cuál es tu relación con la persona que cuidas?
+
+## Preguntas para Cuidadores o Familiares de Personas con Alzheimer
+
+### Experiencia con la Landing Page y las Aplicaciones
+
+1. Después de ver nuestra landing page y aplicaciones, ¿qué impresión general tienes de GuardianArea?
+2. ¿Crees que las funcionalidades presentadas abordan efectivamente tus necesidades como cuidador de una persona con Alzheimer?
+3. ¿Encontraste la información en la landing page clara y fácil de entender?
+4. ¿Qué opinas sobre el diseño y la estética de las aplicaciones?
+5. ¿Te resultó intuitiva y fácil de navegar la aplicación?
+6. ¿Hay alguna funcionalidad que esperabas ver y no encontraste en nuestras aplicaciones?
+7. ¿Cómo calificarías la experiencia de usuario en una escala del 1 al 5? ¿Por qué?
+
+### Utilidad y Beneficios Percibidos
+
+1. ¿De qué manera crees que GuardianArea puede ayudarte en el cuidado diario de tu ser querido?
+2. ¿Qué funcionalidades te parecen más valiosas? (e.g., monitoreo en tiempo real, alertas de salida de zona segura, comunicación remota, etc.)
+3. ¿Consideras que las alertas y notificaciones serían útiles para reaccionar a tiempo ante situaciones de riesgo?
+
+### Sugerencias y Mejoras
+
+1. ¿Tienes alguna sugerencia para mejorar la usabilidad o funcionalidad de nuestras aplicaciones?
+2. ¿Hay alguna característica adicional que te gustaría que incluyéramos?
+3. ¿Cómo podríamos hacer que la aplicación sea más útil para ti en tu rol de cuidador?
+
+### Interés y Recomendación
+
+1. ¿Estarías dispuesto a usar GuardianArea en tu vida diaria? ¿Por qué?
+2. ¿Recomendarías GuardianArea a otros cuidadores o familiares en situaciones similares?
+3. ¿Estarías dispuesto a compartir la aplicación en tus redes sociales o con tu comunidad?
+
+## Preguntas para Cuidadores o Familiares de Niños Pequeños
+
+### Experiencia con la Landing Page y las Aplicaciones
+
+1. Después de ver nuestra landing page y aplicaciones, ¿cuál es tu impresión general de GuardianArea?
+2. ¿Piensas que las funcionalidades presentadas abordan efectivamente tus necesidades como cuidador de un niño pequeño?
+3. ¿La información en la landing page te pareció clara y relevante?
+4. ¿Qué opinas sobre el diseño y atractivo visual de las aplicaciones?
+5. ¿Te resultó fácil de usar y navegar la aplicación?
+6. ¿Hubo alguna funcionalidad que esperabas ver y no está presente en nuestras aplicaciones?
+7. ¿Cómo calificarías la experiencia de usuario en una escala del 1 al 5? ¿Por qué?
+
+### Utilidad y Beneficios Percibidos
+
+1. ¿De qué manera crees que GuardianArea podría facilitar el cuidado y la seguridad del niño?
+2. ¿Qué funcionalidades te parecen más útiles? (e.g., seguimiento de ubicación, alertas de zona segura, monitoreo de signos vitales, etc.)
+3. ¿Crees que las notificaciones y alertas te ayudarían a responder rápidamente en caso de emergencia?
+
+### Sugerencias y Mejoras
+
+1. ¿Tienes alguna sugerencia para mejorar la aplicación o agregar funcionalidades que consideres importantes?
+2. ¿Hay alguna característica que te gustaría que incluyéramos para satisfacer mejor tus necesidades?
+3. ¿Cómo podríamos mejorar la aplicación para que sea más atractiva y útil para ti como padre/madre o cuidador?
+
+### Interés y Recomendación
+
+1. ¿Te gustaría utilizar GuardianArea en tu vida diaria? ¿Por qué?
+2. ¿Recomendarías GuardianArea a otros padres o cuidadores de niños pequeños?
+3. ¿Estarías dispuesto a compartir la aplicación en tus redes sociales o con otros familiares y amigos?
+
+### 6.3.2. Registro de Entrevistas.
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+## 6.4 Video About-the-Product.
+
 ### Conclusiones
 * La implementación del enfoque Lean UX en la comprensión de nuestra problemática y la concepción de nuestro concepto empresarial nos permitió llevar a cabo un análisis exhaustivo de nuestros competidores y definir claramente nuestros grupos de interés. 
 
