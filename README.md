@@ -290,7 +290,13 @@ Evidencias de colaboración y commits - Github:
   - [6.1.2. Source Code Management](#612-source-code-management)
   - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
   - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
+- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
+- [6.3. Validation Interviews](#63-validation-interviews)
+- [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+- [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistass)
+- [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+- [6.4. Video About-the-Product](#64-video-about-the-product)
+
 
 ### [Conclusiones](#conclusiones)
 
@@ -4583,7 +4589,9 @@ Guardian Area Web
     <img src="./images/chapter-06/teamwork3.PNG" alt="Pulse Evidence"  width="80%"/>
 </div>
 
-## 6.3. Validation Interviews.
+
+
+## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
 
@@ -4656,6 +4664,33 @@ Guardian Area Web
 3. ¿Estarías dispuesto a compartir la aplicación en tus redes sociales o con otros familiares y amigos?
 
 ### 6.3.2. Registro de Entrevistas.
+
+### Segmento 1: Cuidadores o Familiares de personas con Alzheimer
+
+
+### Segmento 2: Cuidadores o Familiares de niños pequeños
+
+**Entrevista 01**
+- Nombres: Claudia Leticia
+- Apellidos: Sifuentes Mendieta
+- Edad: 20
+- Distrito: Lince 
+- Evidencia de la reunión: 
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/interviews/entrevista_claudia_sifuentes.png" alt="Entrevista 01"  width="90%"/>
+    </div> 
+- Inicio: 00:00
+- Duración: 00:00
+- Enlace de entrevista: 
+  
+- Resumen de la entrevista: 
+    Claudia Sifuentes, estudiante de 20 años que vive en el distrito de Lince, cuida de su hermano pequeño y expresó un interés positivo en la aplicación Guardian Area. Durante la entrevista, destacó la interfaz gráfica de la aplicación como intuitiva y fácil de usar. La landing page le pareció clara y bien organizada, facilitándole la comprensión de las funcionalidades principales, los planes de suscripción y la información de contacto. Resaltó que la presentación de características clave, como el monitoreo por geocercas, notificaciones en tiempo real e historial de actividades, es accesible y práctica.
+
+    Entre las funcionalidades más útiles, Claudia destacó las geocercas, que le permiten delimitar zonas seguras como el hogar y la escuela de su hermano, recibiendo alertas en caso de que se salga de esas áreas. También valoró el seguimiento de ubicación en tiempo real, destacando que es posible monitorear la ubicación incluso sin conexión a internet gracias a la tarjeta SIM del dispositivo, lo que le aporta tranquilidad y confianza. No identificó necesidades adicionales, afirmando que la aplicación satisface completamente sus expectativas.
+
+    Claudia calificó su experiencia con la aplicación con un 5/5, mencionando que su simplicidad y enfoque en funciones esenciales la hacen destacar frente a otras herramientas similares. Además, destacó que el diseño es especialmente útil para personas sin experiencia técnica, ya que no requiere guías extensas para entender cómo usar la aplicación. Este aspecto la convierte en una herramienta accesible y adecuada para un público amplio.
+
+    Finalmente, manifestó su disposición a recomendar Guardian Area en sus redes sociales, considerando que es una solución útil y práctica para otras personas que necesiten monitorear a familiares, especialmente niños. Su percepción positiva reafirma la efectividad de Guardian Area como una herramienta confiable y funcional para garantizar la seguridad de familiares en situaciones cotidianas.
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
