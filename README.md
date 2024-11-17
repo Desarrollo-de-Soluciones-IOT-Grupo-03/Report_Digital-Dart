@@ -4589,6 +4589,96 @@ Guardian Area Web
     <img src="./images/chapter-06/teamwork3.PNG" alt="Pulse Evidence"  width="80%"/>
 </div>
 
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 3
+
+#### 6.2.3.2. Sprint Backlog 3
+
+#### 6.2.3.3 Development Evidence for Sprint Review
+
+#### 6.2.3.4 Testing Suite Evidence for Sprint Review
+
+#### 6.2.3.5 Execution Evidence for Sprint Review
+
+En el desarrollo del presente sprint hemos logrado terminar todo el desarrollo de la aplicación móvil, web, landing page, backend, edge, cloud y prototipo real de Guardian Area. En donde se han incluido características como el monitoreo en tiempo real, alertas de salida de zona segura, comunicación remota, seguimiento de ubicación, activación de alarmas en situaciones de peligro, control de dispositivos, gestión de geo-cercas, listado de dispositivos, recepción de datos de sensores entre otros.
+
+A continuación, se presentan las evidencias de la ejecución del sprint.
+
+1. **Landing Page:** 
+
+2. **Web Application**:  Se actualizó la interfaz de creación y listado de geocercas, así como la funcionalidad para editarlas, mejorando la usabilidad y claridad de esta herramienta esencial. También se trabajó en la implementación y actualización de gráficos de sensores, optimizando la visualización de datos críticos para el monitoreo, y se actualizó el listado de actividades para garantizar una presentación más estructurada y comprensible. Además, se terminó en la maquetación del módulo de chat, y se añadió la selección de planes en el registro. Por otro lado, se implementaron servicios para sensores y se trabajó en la funcionalidad de monitoreo GPS, incluyendo la maquetación y funcionalidades básicas. Finalmente, se incluyó la posibilidad de actualizar perfiles de usuario y dispositivos. Estos desarrollos consolidan a Guardian Area Web como una plataforma robusta y adaptada a las necesidades de los usuarios.
+
+   **Main Panel**: Se ha agregado los sensores de oxígeno en sangre y ritmo cardíaco, además de la ubicación en tiempo real del dispositivo y se actualizó el diseño de la interfaz para mejorar la experiencia del usuario.
+   
+   <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/web-4.png" alt="Guardian area web"  width="100%"/>
+   </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-12.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Activity History**: Se ha agregado el paginado en página y se implementaron los servicios para filtrarlo por tipo de actividad.
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-7.png" alt="Guardian area web"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-12.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Speak on Device**: Se ha implementado la funcionalidad de comunicación remota con el dispositivo através de un chat en donde se puede enviar mensajes de voz.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-8.png" alt="Guardian area web"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-9.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Vital Functions**: Se ha implementado la funcionalidad de monitoreo, en donde se puede visualizar los gráficos de oxígeno en sangre y ritmo cardíaco.
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-11.png" alt="Guardian area web"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-10.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Geofences**: Se ha actualizado la vista de creación y listado de geocercas, así como la funcionalidad para editarlas, mejorando la usabilidad y claridad de esta herramienta esencial y se ha implementado la funcionalidad de monitoreo GPS.
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-1.png" alt="Guardian area web"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-2.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-3.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Devices**: Se ha implementado la funcionalidad de actualizar dispositivos.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-5.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Profile**: Se ha implementado la funcionalidad de actualizar perfiles de usuario.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-13.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+3. **Mobile Application:** 
+
+4. **Cloud:** 
+
+5. **Edge:** 
+
+
+#### 6.2.3.6 Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.7 Software Deployment Evidence for Sprint Review
+
+#### 6.2.3.8 Team Collaboration Insights during Sprint
 
 
 ## 6.3. Validation Interviews
