@@ -290,7 +290,13 @@ Evidencias de colaboración y commits - Github:
   - [6.1.2. Source Code Management](#612-source-code-management)
   - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
   - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
+- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
+- [6.3. Validation Interviews](#63-validation-interviews)
+- [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+- [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistass)
+- [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+- [6.4. Video About-the-Product](#64-video-about-the-product)
+
 
 ### [Conclusiones](#conclusiones)
 
@@ -4583,7 +4589,102 @@ Guardian Area Web
     <img src="./images/chapter-06/teamwork3.PNG" alt="Pulse Evidence"  width="80%"/>
 </div>
 
-## 6.3. Validation Interviews.
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 3
+
+#### 6.2.3.2. Sprint Backlog 3
+
+#### 6.2.3.3 Development Evidence for Sprint Review
+
+#### 6.2.3.4 Testing Suite Evidence for Sprint Review
+
+#### 6.2.3.5 Execution Evidence for Sprint Review
+
+En el desarrollo del presente sprint hemos logrado terminar todo el desarrollo de la aplicación móvil, web, landing page, backend, edge, cloud y prototipo real de Guardian Area. En donde se han incluido características como el monitoreo en tiempo real, alertas de salida de zona segura, comunicación remota, seguimiento de ubicación, activación de alarmas en situaciones de peligro, control de dispositivos, gestión de geo-cercas, listado de dispositivos, recepción de datos de sensores entre otros.
+
+A continuación, se presentan las evidencias de la ejecución del sprint.
+
+1. **Landing Page:** 
+
+2. **Web Application**:  Se actualizó la interfaz de creación y listado de geocercas, así como la funcionalidad para editarlas, mejorando la usabilidad y claridad de esta herramienta esencial. También se trabajó en la implementación y actualización de gráficos de sensores, optimizando la visualización de datos críticos para el monitoreo, y se actualizó el listado de actividades para garantizar una presentación más estructurada y comprensible. Además, se terminó en la maquetación del módulo de chat, y se añadió la selección de planes en el registro. Por otro lado, se implementaron servicios para sensores y se trabajó en la funcionalidad de monitoreo GPS, incluyendo la maquetación y funcionalidades básicas. Finalmente, se incluyó la posibilidad de actualizar perfiles de usuario y dispositivos. Estos desarrollos consolidan a Guardian Area Web como una plataforma robusta y adaptada a las necesidades de los usuarios.
+
+   **Main Panel**: Se ha agregado los sensores de oxígeno en sangre y ritmo cardíaco, además de la ubicación en tiempo real del dispositivo y se actualizó el diseño de la interfaz para mejorar la experiencia del usuario.
+   
+   <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/web-4.png" alt="Guardian area web"  width="100%"/>
+   </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-12.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Activity History**: Se ha agregado el paginado en página y se implementaron los servicios para filtrarlo por tipo de actividad.
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-7.png" alt="Guardian area web"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-12.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Speak on Device**: Se ha implementado la funcionalidad de comunicación remota con el dispositivo através de un chat en donde se puede enviar mensajes de voz.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-8.png" alt="Guardian area web"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-9.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Vital Functions**: Se ha implementado la funcionalidad de monitoreo, en donde se puede visualizar los gráficos de oxígeno en sangre y ritmo cardíaco.
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-11.png" alt="Guardian area web"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-10.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Geofences**: Se ha actualizado la vista de creación y listado de geocercas, así como la funcionalidad para editarlas, mejorando la usabilidad y claridad de esta herramienta esencial y se ha implementado la funcionalidad de monitoreo GPS.
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-1.png" alt="Guardian area web"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-2.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-3.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Devices**: Se ha implementado la funcionalidad de actualizar dispositivos.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-5.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    **Profile**: Se ha implementado la funcionalidad de actualizar perfiles de usuario.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/web-13.png" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    Link Video Execution:
+    
+
+3. **Mobile Application:** 
+
+4. **Cloud:** 
+
+5. **Edge:** 
+
+
+#### 6.2.3.6 Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.7 Software Deployment Evidence for Sprint Review
+
+#### 6.2.3.8 Team Collaboration Insights during Sprint
+
+
+## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
 
@@ -4656,6 +4757,33 @@ Guardian Area Web
 3. ¿Estarías dispuesto a compartir la aplicación en tus redes sociales o con otros familiares y amigos?
 
 ### 6.3.2. Registro de Entrevistas.
+
+### Segmento 1: Cuidadores o Familiares de personas con Alzheimer
+
+
+### Segmento 2: Cuidadores o Familiares de niños pequeños
+
+**Entrevista 01**
+- Nombres: Claudia Leticia
+- Apellidos: Sifuentes Mendieta
+- Edad: 20
+- Distrito: Lince 
+- Evidencia de la reunión: 
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/interviews/entrevista_claudia_sifuentes.png" alt="Entrevista 01"  width="90%"/>
+    </div> 
+- Inicio: 00:00
+- Duración: 00:00
+- Enlace de entrevista: 
+  
+- Resumen de la entrevista: 
+    Claudia Sifuentes, estudiante de 20 años que vive en el distrito de Lince, cuida de su hermano pequeño y expresó un interés positivo en la aplicación Guardian Area. Durante la entrevista, destacó la interfaz gráfica de la aplicación como intuitiva y fácil de usar. La landing page le pareció clara y bien organizada, facilitándole la comprensión de las funcionalidades principales, los planes de suscripción y la información de contacto. Resaltó que la presentación de características clave, como el monitoreo por geocercas, notificaciones en tiempo real e historial de actividades, es accesible y práctica.
+
+    Entre las funcionalidades más útiles, Claudia destacó las geocercas, que le permiten delimitar zonas seguras como el hogar y la escuela de su hermano, recibiendo alertas en caso de que se salga de esas áreas. También valoró el seguimiento de ubicación en tiempo real, destacando que es posible monitorear la ubicación incluso sin conexión a internet gracias a la tarjeta SIM del dispositivo, lo que le aporta tranquilidad y confianza. No identificó necesidades adicionales, afirmando que la aplicación satisface completamente sus expectativas.
+
+    Claudia calificó su experiencia con la aplicación con un 5/5, mencionando que su simplicidad y enfoque en funciones esenciales la hacen destacar frente a otras herramientas similares. Además, destacó que el diseño es especialmente útil para personas sin experiencia técnica, ya que no requiere guías extensas para entender cómo usar la aplicación. Este aspecto la convierte en una herramienta accesible y adecuada para un público amplio.
+
+    Finalmente, manifestó su disposición a recomendar Guardian Area en sus redes sociales, considerando que es una solución útil y práctica para otras personas que necesiten monitorear a familiares, especialmente niños. Su percepción positiva reafirma la efectividad de Guardian Area como una herramienta confiable y funcional para garantizar la seguridad de familiares en situaciones cotidianas.
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
