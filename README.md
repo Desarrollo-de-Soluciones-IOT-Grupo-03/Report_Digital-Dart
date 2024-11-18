@@ -4681,6 +4681,30 @@ A continuación, se presentan las evidencias de la ejecución del sprint.
 
 #### 6.2.3.7 Software Deployment Evidence for Sprint Review
 
+Para este sprint se ha desplegado la aplicación móvil, la aplicación web, la landing page, el edge y el cloud de Guardian Area. A continuación, se presentan las evidencias de despliegue.
+
+1. Landing Page: Se realizó en GitHub Pages, herramienta que permite alojar sitios web estáticos de forma gratuita, rápida y sencilla. Para ello, se actualizó el codigo que se tenía y tiene integrado un despligue automático al hacer merge en la rama main. A continuación, se muestra el proceso de despliegue.
+
+   <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/landing-deploy-01.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/landing-deploy-02.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/landing-deploy-03.png" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+
+   Enlace: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
+
+
+3. **Mobile Application:**  
+
+
+4. **Cloud:** 
+
+5. **Edge:** 
+
 #### 6.2.3.8 Team Collaboration Insights during Sprint
 
 
