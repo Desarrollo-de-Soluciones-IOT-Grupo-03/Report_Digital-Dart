@@ -4697,6 +4697,30 @@ Para este sprint se ha desplegado la aplicación móvil, la aplicación web, la 
 
    Enlace: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
 
+2. Aplicación Web: Para el despliegue de la aplicación web de GuardianArea, se utilizó Firebase Hosting, una plataforma de alojamiento web que permite desplegar aplicaciones web de forma sencilla y segura. A continuación, se muestra el proceso de actualización de despliegue.
+    - Debido a que se tenía la configuración inicial del despligue, en esta ocasión primero se creó el build de la aplicación con el comando `ng build`.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/web-deploy-01.png" alt="Deployment Web"  width="100%"/>
+    </div>
+        <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/web-deploy-02.png" alt="Deployment Web"  width="100%"/>
+    </div>
+
+    - Luego se realizó el despliegue de la aplicación web en Firebase Hosting con el comando `firebase deploy`.
+    </div>
+        <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/web-deploy-03.png" alt="Deployment Web"  width="100%"/>
+    </div>
+    </div>
+        <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/web-deploy-04.png" alt="Deployment Web"  width="100%"/>
+    </div>
+          </div>
+        <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/web-deploy-05.png" alt="Deployment Web"  width="100%"/>
+    </div>
+
+    Enlace: https://guardian-area.web.app
 
 3. **Mobile Application:**  
 
