@@ -52,51 +52,96 @@
         <th>Descripción de modificación</th>
     </tr>
     <tr>
-        <td rowspan="5">TB1</td>
-        <td rowspan="5">Septiembre-2024</td>
+        <td>1</td>
+        <td>Septiembre-2024</td>
         <td>Steve Roger Castillo Robles</td>
-        <td>- Desarrollo del Task Matrix, User Persona, Ubiquitous Language y Product backlog.</td>
+        <td>- Desarrollo del Task Matrix, User Persona, Ubiquitous Language y Product Backlog.</td>
     </tr>
     <tr>
+        <td>2</td>
+        <td>Septiembre-2024</td>
         <td>Diego Mauricio Castro Soto</td>
-        <td>- Desarrollo de Bounded context Canvas.</td>
+        <td>- Desarrollo de Bounded Context Canvas.</td>
     </tr>
     <tr>
+        <td>3</td>
+        <td>Septiembre-2024</td>
         <td>Jennifer Mary Espinoza Quispe</td>
         <td>- Búsqueda, análisis y estrategias frente a competidores.</td>
     </tr>
     <tr>
+        <td>4</td>
+        <td>Septiembre-2024</td>
         <td>Diego Martin Esquivel Aguayo</td>
-        <td>- Desarrollo del Capítulo I: Introducción y domain message flow modeling.</td>
+        <td>- Desarrollo del Capítulo I: Introducción y Domain Message Flow Modeling.</td>
     </tr>
     <tr>
+        <td>5</td>
+        <td>Septiembre-2024</td>
         <td>Cristian Andrés Quito Igreda</td>
-        <td>- Desarrollo Registro de entrevistas, Empathy map, As Is escenario y Context Mapping</td>
+        <td>- Desarrollo Registro de Entrevistas, Empathy Map, As-Is Escenario y Context Mapping.</td>
     </tr>
     <tr>
-        <td rowspan="5">TP</td>
-        <td rowspan="5">Septiembre-2024</td>
+        <td>6</td>
+        <td>Septiembre-2024</td>
         <td>Steve Roger Castillo Robles</td>
-        <td>- Se realizó las correciones correspondientes. <br> - Contribución en el Landing Page y frontend. <br> - Desarrollo de Landing Page UI design </td>
+        <td>- Se realizaron las correcciones correspondientes. <br> - Contribución en el Landing Page y Frontend. <br> - Desarrollo de Landing Page UI Design.</td>
     </tr>
     <tr>
+        <td>7</td>
+        <td>Septiembre-2024</td>
         <td>Diego Mauricio Castro Soto</td>
-        <td>- Se realizó las correciones correspondientes. <br>- Desarrollo de Software Configuration Management. <br> - Contribución en el Landing Page y frontend.</td>
+        <td>- Se realizaron las correcciones correspondientes. <br>- Desarrollo de Software Configuration Management. <br> - Contribución en el Landing Page y Frontend.</td>
     </tr>
     <tr>
+        <td>8</td>
+        <td>Septiembre-2024</td>
         <td>Jennifer Mary Espinoza Quispe</td>
-        <td>- Se realizó las correciones correspondientes.<br> - Desarrollo de User Flow diagram y application prototyping. <br> - Contribución en el Landing Page y frontend.</td>
+        <td>- Se realizaron las correcciones correspondientes.<br> - Desarrollo de User Flow Diagram y Application Prototyping. <br> - Contribución en el Landing Page y Frontend.</td>
     </tr>
     <tr>
+        <td>9</td>
+        <td>Septiembre-2024</td>
         <td>Diego Martin Esquivel Aguayo</td>
-        <td>- Se realizó las correciones correspondientes. <br> - Desarrollo de WireFlow y mock ups. <br> - Contribución en el Landing Page y frontend.</td>
+        <td>- Se realizaron las correcciones correspondientes. <br> - Desarrollo de WireFlow y Mock Ups. <br> - Contribución en el Landing Page y Frontend.</td>
     </tr>
     <tr>
+        <td>10</td>
+        <td>Septiembre-2024</td>
         <td>Cristian Andrés Quito Igreda</td>
-        <td>- Se realizó las correciones correspondientes. <br>- Contribución en el Landing Page y frontend.<br> - Se adicionó conclusiones y bibliografía. </td>
+        <td>- Se realizaron las correcciones correspondientes. <br>- Contribución en el Landing Page y Frontend.<br> - Se adicionaron conclusiones y bibliografía.</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Octubre-2024</td>
+        <td>Steve Roger Castillo Robles</td>
+        <td>- Se realizaron las correcciones correspondientes. <br>- Contribución en el desarrollo de las aplicaciones web, móvil, backend e IoT. <br>- Participación en el Sprint Planning 2.</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Octubre-2024</td>
+        <td>Diego Mauricio Castro Soto</td>
+        <td>- Se realizaron las correcciones correspondientes. <br>- Contribución en el desarrollo de las aplicaciones web, móvil, backend e IoT. <br>- Generación de la evidencia de despliegue de software para Sprint Review.</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Octubre-2024</td>
+        <td>Jennifer Mary Espinoza Quispe</td>
+        <td>- Se realizaron las correcciones correspondientes. <br>- Contribución en el desarrollo de las aplicaciones web, móvil, backend e IoT. <br>- Generación de la evidencia de ejecución para Sprint Review.</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Octubre-2024</td>
+        <td>Diego Martin Esquivel Aguayo</td>
+        <td>- Se realizaron las correcciones correspondientes. <br>- Contribución en el desarrollo de las aplicaciones web, móvil, backend e IoT. <br>- Elaboración del Sprint Backlog 2.</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Octubre-2024</td>
+        <td>Cristian Andrés Quito Igreda</td>
+        <td>- Se realizaron las correcciones correspondientes. <br>- Contribución en el desarrollo de las aplicaciones web, móvil, backend e IoT. <br>- Generación de la evidencia de documentación de servicios para Sprint Review.</td>
     </tr>
 </table>
-<br><br>
 
 # Project Report Collaboration Insights
 * Link de la organización: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
@@ -1072,7 +1117,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
     Durante la entrevista, recibí a Piero Descalci, un diseñador de videojuegos de 21 años que vive en Lima, Breña, y que se describe como una persona introvertida. Piero me comentó que prefiere pasar tiempo en casa con su familia, especialmente ahora que su primo Campos, diagnosticado con Alzheimer hace unos años, necesita más atención.
 
-    Piero utiliza aplicaciones móviles y páginas web diariamente para coordinar citas médicas y gestionar las tareas del cuidado de su primo. Me comentó que accede a estas plataformas a través de su navegador preferido, Google Chrome, tanto en su teléfono móvil Samsung Galaxy A51 como en su laptop HP Pavilion, dispositivos que usa con regularidad. La seguridad es su principal preocupación, ya que teme que Campos se pierda o enfrente problemas de salud sin que puedan intervenir a tiempo.
+    Piero utiliza aplicaciones móviles y páginas web diariamente para coordinar citas médicas y gestionar las tareas del cuidado de su primo. Me comentó que accede a estas plataformas a través de su navegador preferido, Google Chrome, tanto en su teléfono móvil Samsung Galaxy A51 (Android) como en su laptop HP Pavilion (Windows), dispositivos que usa con regularidad. La seguridad es su principal preocupación, ya que teme que Campos se pierda o enfrente problemas de salud sin que puedan intervenir a tiempo.
 
     El desgaste emocional ha sido una de las mayores dificultades para Piero, quien compartió conmigo momentos angustiosos, como cuando su primo se perdió, lo que resultó en situaciones aterradoras y en un sentimiento constante de no estar haciendo lo suficiente. Me contó que en varias ocasiones la tecnología podría haber sido de gran ayuda, como cuando su primo se alejó de casa y no contaban con un dispositivo que los alertara. Esto los hizo perder mucho tiempo buscándolo, deseando tener alguna herramienta que pudiera ayudarlos en esos momentos críticos.
 
@@ -5008,13 +5053,17 @@ La aplicación no se adapta correctamente a pantallas de dispositivos móviles, 
 <b>Recomendación:</b>  
 Optimizar el diseño para dispositivos móviles asegurando una experiencia de usuario fluida y accesible en diferentes resoluciones. <br>
 
-## 6.4 Video About-the-Product.
+## 6.4 Video About-the-Product
+
+Descubre cómo GuardianArea utiliza tecnología IoT y edge computing para garantizar la seguridad y tranquilidad de los cuidadores. Mira este breve video que explica las principales funcionalidades de nuestro sistema.
 
 <div style="text-align: center;">
-    <img src="./images/chapter-06/about.png" width="80%" alt="UG07">
+    <a href="https://acortar.link/iYzA2D" target="_blank">
+        <img src="./images/chapter-06/about.png" width="80%" alt="About the Product Video">
+    </a>
 </div>
 
-- **URL del video:** [Ver About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETKkRYbymuBAsTHm6Wnv4NAB8W7N0_uRocLSYo5NsBqcmQ?e=O4tRUJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [Ver About-the-Product](https://acortar.link/iYzA2D)
 
 ### Conclusiones
 * La implementación del enfoque Lean UX en la comprensión de nuestra problemática y la concepción de nuestro concepto empresarial nos permitió llevar a cabo un análisis exhaustivo de nuestros competidores y definir claramente nuestros grupos de interés. 
@@ -5037,6 +5086,25 @@ Optimizar el diseño para dispositivos móviles asegurando una experiencia de us
 
 * La creación de diagramas C4 ha sido una herramienta valiosa para visualizar la arquitectura de nuestro sistema en diferentes niveles de abstracción. Estos diagramas han permitido a todos los miembros del equipo, desde desarrolladores hasta stakeholders, comprender la estructura y los componentes clave de nuestra aplicación.
 
+**Hipótesis Cumplidas**
+* Hipótesis 1: Creemos que lograremos mejorar la seguridad y bienestar si los cuidadores de personas vulnerables obtienen una mayor capacidad de monitoreo en tiempo real con la función de monitoreo en tiempo real y geo-cercas.
+Resultado: La función de monitoreo en tiempo real y geo-cercas ha permitido a los cuidadores realizar un seguimiento efectivo de las personas vulnerables, mejorando su seguridad.
+
+* Hipótesis 2: Creemos que lograremos una mayor capacidad de respuesta en situaciones peligrosas si los cuidadores obtienen la capacidad de reaccionar rápidamente con la función de alertas automáticas cuando la persona sale de la zona segura.
+Resultado: Las alertas automáticas han permitido a los cuidadores reaccionar con rapidez ante eventos críticos, aumentando la capacidad de respuesta.
+
+* Hipótesis 3: Creemos que lograremos prevenir riesgos futuros si los cuidadores obtienen la capacidad de prever situaciones peligrosas con la función de acceso al historial de movimientos.
+Resultado: El acceso al historial de movimientos ha proporcionado a los cuidadores herramientas para analizar comportamientos y prevenir riesgos futuros.
+
+* Hipótesis 4: Creemos que lograremos una mejor adaptabilidad en el monitoreo si los cuidadores obtienen flexibilidad para ajustar las zonas seguras con la función de geo-cercas personalizables en tiempo real.
+Resultado: La personalización de geo-cercas en tiempo real ha permitido a los cuidadores adaptar las zonas seguras según las necesidades cambiantes.
+
+* Hipótesis 5: Creemos que lograremos una respuesta más rápida ante alertas si los cuidadores obtienen una mayor eficiencia en la recepción de alertas con la función de notificaciones por voz.
+Resultado: Las notificaciones por voz han permitido que los cuidadores reciban alertas de manera eficiente y oportuna, reduciendo los tiempos de respuesta.
+
+* Hipótesis 6: Creemos que lograremos una mejor prevención de riesgos si los cuidadores obtienen herramientas útiles para anticipar riesgos con la función de historial de alertas con recomendaciones automatizadas.
+Resultado: El historial de alertas con recomendaciones automatizadas ha facilitado la identificación de patrones de riesgo, mejorando las medidas preventivas.
+
 ### Bibliografía
 * Gothelf, J. & Seiden, J. (2021). Lean Ux Designing Great Products with Agile Teams. O'Reilly.
 
@@ -5051,17 +5119,14 @@ Optimizar el diseño para dispositivos móviles asegurando una experiencia de us
 * Araujo, M. & López, F. (2015). Los servicios de cuidado infantil en América Latina y el Caribe. El trimestre económico, 82(326), 249-275. https://www.scielo.org.mx/scielo.php?pid=S2448-718X2015000200249&script=sci_arttext
 
 ### ANEXOS
-- Link Event Storming: https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
-- Link Aplicacion web: https://guardian-area.web.app/
-- Link Landing Page: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
-- Link Execution Eviden for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZlokG-30ftNljrgGLdL0IsBSWqV69z-63dVjSx7Yh23aQ?e=fH65qK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- Link Organización de Github: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
-- Link Diagrams LucidChart: https://lucid.app/lucidchart/c1f986c1-094b-4811-93c4-1807aca7e769/edit?viewport_loc=-6892%2C-1452%2C14087%2C7572%2C0_0&invitationId=inv_13d0de6b-83bd-4e56-8ce2-909aa2e917b0
-- Link Video Prototipo Web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ESSFYDk67hlMnLyNbWc3CZwBC2_MhEEPG4Ugy9Xh7iO08A?e=hgYeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-- Link Video Prototipo Movil: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ETrWoPWfkUhMsysJ5F2JCSMBpqHgQAX6XN2zFpyFRtLkgw?e=cbjEMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ERrOAPDc_QNElsRmd858ARYBoX_NxgaZ29Jx-m13ZdVNvA?e=XyWtxo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-- Link Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EXDQ53aPdhFGnFo3RmUPEm0BZqaSYiycd4dGfy-NdTY50A?e=EdKy1y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
+- [Aplicación Web](https://guardian-area.web.app/)
+- [Landing Page](https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/)
+- [Evidencia de Ejecución para Sprint Review - 1](https://acortar.link/3bnehc)
+- [Organización en GitHub](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03)
+- [Diagramas en LucidChart](https://acortar.link/17lAP9)
+- [Video Prototipo Web](https://acortar.link/YjB6XS)
+- [Video Prototipo Móvil](https://acortar.link/Zptfmo)
+- [Evidencia de Ejecución para Sprint Review - 2](https://acortar.link/itywMh)
+- [Evidencia de Ejecución para Sprint Review - 3](https://acortar.link/x4amVc)
   
