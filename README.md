@@ -4640,8 +4640,17 @@ Guardian Area Web
 #### 6.2.3.2. Sprint Backlog 3
 
 #### 6.2.3.3 Development Evidence for Sprint Review
+Durante este sprint se actualizó la landing page con mejoras como la implementación del call to action, en la aplicación web y mobile se implementó la funcionalidad de monitoreo en tiempo real, alertas de salida de zona segura, comunicación remota, seguimiento de ubicación, activación de alarmas en situaciones de peligro, control de dispositivos, gestión de geo-cercas, listado de dispositivos, recepción de datos de sensores, entre otros. En el backend se implementaron los servicios para sensores y la funcionalidad de monitoreo GPS, incluyendo la maquetación y funcionalidades básicas. Además, se incluyó la posibilidad de actualizar perfiles de usuario y dispositivos. En el edge se implementó el monitoreo de sensores al igual que el prototipo real. A continuación, se presentan las evidencias de desarrollo del sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|--------------------------------------------------------|---------------------|---------------------|
 
 #### 6.2.3.4 Testing Suite Evidence for Sprint Review
+En este sprint se realizó pruebas unitarias en el backend de Guardian Area, utilizando el framework de pruebas JUnit. A continuación, se presentan las pruebas realizadas y los resultados obtenidos.
+
+| Repository   | Branch | Commit ID | Commit Message           | Commit Message Body | Commited on (Date) |
+| :----------- | :----- | :-------- | :----------------------- | :------------------ | :----------------- |
+| TestingSuite | main   | 31836ee   | update: sprint 3 testing | -                   | 19/11/2024         |
 
 #### 6.2.3.5 Execution Evidence for Sprint Review
 
@@ -4649,7 +4658,39 @@ En el desarrollo del presente sprint hemos logrado terminar todo el desarrollo d
 
 A continuación, se presentan las evidencias de la ejecución del sprint.
 
-1. **Landing Page:** 
+1. **Landing Page:** Se logró completar la implementación de la Landing Page de GuardianArea se realizó siguiendo las directrices de diseño y estilo establecidas en la fase de diseño UI/UX. Se utilizó HTML, CSS y JavaScript para desarrollar la página de inicio, con un diseño moderno y atractivo que refleja la esencia de la aplicación. En donde se ha incluido los videos de "about the product" y "about the team".
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-01.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-02.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-03.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-04.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-05.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-06.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-07.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-08.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-09.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/execution/lp-10.png" alt="Guardian area LP"  width="100%"/>
+    </div>
+
+    Link Video Execution: https://acortar.link/8Y3dMs
 
 2. **Web Application**:  Se actualizó la interfaz de creación y listado de geocercas, así como la funcionalidad para editarlas, mejorando la usabilidad y claridad de esta herramienta esencial. También se trabajó en la implementación y actualización de gráficos de sensores, optimizando la visualización de datos críticos para el monitoreo, y se actualizó el listado de actividades para garantizar una presentación más estructurada y comprensible. Además, se terminó en la maquetación del módulo de chat, y se añadió la selección de planes en el registro. Por otro lado, se implementaron servicios para sensores y se trabajó en la funcionalidad de monitoreo GPS, incluyendo la maquetación y funcionalidades básicas. Finalmente, se incluyó la posibilidad de actualizar perfiles de usuario y dispositivos. Estos desarrollos consolidan a Guardian Area Web como una plataforma robusta y adaptada a las necesidades de los usuarios.
 
@@ -4712,7 +4753,7 @@ A continuación, se presentan las evidencias de la ejecución del sprint.
         <img src="./images/chapter-06/sprint-03/web-13.png" alt="Guardian area web"  width="100%"/>
     </div>
 
-    Link Video Execution:
+    Link Video Execution: https://acortar.link/xq9jxI
     
 
 3. **Mobile Application:** 
@@ -4775,11 +4816,84 @@ Para este sprint se ha desplegado la aplicación móvil, la aplicación web, la 
 5. **Edge:** 
 
 #### 6.2.3.8 Team Collaboration Insights during Sprint
+1. **Landing Page:** Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la landing page.
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-lp-01.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-lp-02.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-lp-03.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+2. **Web Application:** Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la aplicación web.
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-web-01.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-web-02.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-web-03.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+3. **Mobile Application:** Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la aplicación móvil.
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-mobile-01.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-mobile-02.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-mobile-03.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
 
+4. **Cloud:** Se adjuntan evidencias del trabajo colaborativo en el desarrollo del cloud.
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-cloud-01.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-cloud-02.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-cloud-03.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+
+5. **Edge:** Se adjuntan evidencias del trabajo colaborativo en el desarrollo del edge.
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-edge-01.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-edge-02.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+
+6. **Prototipo IOT:** Se adjuntan evidencias del trabajo colaborativo en el desarrollo del prototipo IOT.
+    Pulse
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-iot-01.png" alt="Pulse Evidence"  width="80%"/>
+    </div>
+    Contributors
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-iot-02.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/team-collaboration/team-iot-03.png" alt="Contributors Evidence"  width="80%"/>
+    </div>
 
 ## 6.3. Validation Interviews
+En esta sección se presentan los detalles de las entrevistas de validación realizadas a potenciales usuarios de GuardianArea, con el objetivo de obtener retroalimentación sobre la landing page y las aplicaciones desarrolladas. Las entrevistas se llevaron a cabo con cuidadores y familiares de personas con Alzheimer, así como con cuidadores y padres de niños pequeños, quienes son los principales usuarios de la solución propuesta. A continuación, se detallan los aspectos más relevantes de las entrevistas, incluyendo el diseño de las preguntas, el registro de las respuestas y las conclusiones obtenidas.
 
 ### 6.3.1. Diseño de Entrevistas
+A continuación se presentan las preguntas diseñadas para las entrevistas de validación, divididas en dos segmentos: cuidadores o familiares de personas con Alzheimer y cuidadores o familiares de niños pequeños.
 
 ## Preguntas Generales
 
@@ -5142,14 +5256,15 @@ Resultado: El historial de alertas con recomendaciones automatizadas ha facilita
 * Araujo, M. & López, F. (2015). Los servicios de cuidado infantil en América Latina y el Caribe. El trimestre económico, 82(326), 249-275. https://www.scielo.org.mx/scielo.php?pid=S2448-718X2015000200249&script=sci_arttext
 
 ### ANEXOS
-- [Event Storming](https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729)
-- [Aplicación Web](https://guardian-area.web.app/)
-- [Landing Page](https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/)
-- [Evidencia de Ejecución para Sprint Review - 1](https://acortar.link/3bnehc)
-- [Organización en GitHub](https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03)
-- [Diagramas en LucidChart](https://acortar.link/17lAP9)
-- [Video Prototipo Web](https://acortar.link/YjB6XS)
-- [Video Prototipo Móvil](https://acortar.link/Zptfmo)
-- [Evidencia de Ejecución para Sprint Review - 2](https://acortar.link/itywMh)
-- [Evidencia de Ejecución para Sprint Review - 3](https://acortar.link/x4amVc)
-  
+- Event Storming: https://miro.com/app/board/uXjVKk2Q56U=/?share_link_id=145421068729
+- Aplicación Web: https://guardian-area.web.app/
+- Landing Page: https://desarrollo-de-soluciones-iot-grupo-03.github.io/Landing-Page-GuardiaArea/
+- Evidencia de Ejecución para Sprint Review - 1: https://acortar.link/3bnehc
+- Organización en GitHub: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03
+- Diagramas en LucidChart: https://acortar.link/17lAP9
+- Video Prototipo Web: https://acortar.link/YjB6XS
+- Video Prototipo Móvil: https://acortar.link/Zptfmo
+- Evidencia de Ejecución para Sprint Review - 2: https://acortar.link/itywMh
+- Evidencia de Ejecución para Sprint Review - 2: https://acortar.link/x4amVc
+- Evidencia Ejecución Landing Page Sprint Review - 3: https://acortar.link/8Y3dMs
+- Evidencia Ejecución Aplicación Web Sprint Review - 3: https://acortar.link/xq9jxI
