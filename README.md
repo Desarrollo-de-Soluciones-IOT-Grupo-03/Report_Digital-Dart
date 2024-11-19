@@ -4878,6 +4878,29 @@ Para este sprint se ha desplegado la aplicación móvil, la aplicación web, la 
 
     Finalmente, manifestó su disposición a recomendar Guardian Area en sus redes sociales, considerando que es una solución útil y práctica para otras personas que necesiten monitorear a familiares, especialmente niños. Su percepción positiva reafirma la efectividad de Guardian Area como una herramienta confiable y funcional para garantizar la seguridad de familiares en situaciones cotidianas.
 
+**Entrevista 03**
+- Nombres: Camila
+- Apellidos: Amaro Villanueva
+- Edad: 20
+- Distrito: Santiago de Surco 
+- Evidencia de la reunión: 
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/interviews/entrevista-camila-amaro.png" alt="Entrevista 01"  width="90%"/>
+    </div> 
+- Inicio: 00:00
+- Duración: 00:00
+- Enlace de entrevista: 
+  
+- Resumen de la entrevista: 
+    Camila Amaro, estudiante de 20 años que vive en el distrito de Surco, cuida de su primo pequeño y mostró mucho interés en el dispositivo de Guardian Area. Durante la entrevista, destacó la facilidad de uso de la aplicación web y móvil. La landing page le pareció concisa y sencilla de entender, lo que le permitió entender el funcionamiento del dispositivo, los planes de suscripción disponibles, así como lo que ofrece cada uno y el formulario de contacto. Resaltó la opción de delimitar una geocerca y quedó sorprendida de lo útil que resulta ser esta característica.
+
+    Camila destacó las geocercas entre sus características favoritas de la aplicación, las cuales le permitirán ver el desplazamiento en tiempo real de su primo pequeño, y de esta manera tener mayor control y seguridad de que esté a salvo. También valoró el monitoreo de las funciones vitales como los latidos por minuto y la saturación de oxígeno en sangre. Mencionó que le gustaría ver opciones más detalladas de signos vitales, como por ejemplo dar mayor información sobre lo registrado por el sensor de latidos.
+
+    Camila calificó su experiencia con la aplicación con un 4.3/5.0. Mencionó que en general le gusta bastante la aplicación y le ve mucha utilidad, y que la razón por la que no la calificó con la puntuación más alta es porque le gustaría ver datos más detallados sobre las funciones vitales. Además, destacó que las alertas emitidas por la aplicación son muy útiles y le permiten reaccionar rápidamente ante cualquier situación de riesgo.
+
+    Finalmente, indicó que lo compartiría con otros familiares ya que considera que es una herramienta muy útil y que puede ser de gran ayuda para padres o cuidadores de niños pequeños. 
+
+
 ### 6.3.3. Evaluaciones según heurísticas.
 
 #### <div align="center">UX Heuristics & Principles Evaluation</div>
