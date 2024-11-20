@@ -4642,8 +4642,240 @@ Guardian Area Web
 #### 6.2.3.3 Development Evidence for Sprint Review
 Durante este sprint se actualizó la landing page con mejoras como la implementación del call to action, en la aplicación web y mobile se implementó la funcionalidad de monitoreo en tiempo real, alertas de salida de zona segura, comunicación remota, seguimiento de ubicación, activación de alarmas en situaciones de peligro, control de dispositivos, gestión de geo-cercas, listado de dispositivos, recepción de datos de sensores, entre otros. En el backend se implementaron los servicios para sensores y la funcionalidad de monitoreo GPS, incluyendo la maquetación y funcionalidades básicas. Además, se incluyó la posibilidad de actualizar perfiles de usuario y dispositivos. En el edge se implementó el monitoreo de sensores al igual que el prototipo real. A continuación, se presentan las evidencias de desarrollo del sprint.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|------------|--------|-----------|--------------------------------------------------------|---------------------|---------------------|
+# App Web GuardianArea
+
+| Repository        | Branch                              | Commit Id | Commit Message                                                                                                                      | Commit Message Body | Committed on (Date) |
+| ----------------- | ----------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------- |
+| Guardian-Area-Web | develop                             | 82b3abc   | Merge pull request #30 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/update-devices-speak-device                               | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 69c7dda   | feat: enhance imports and formatting in custom dialog component; add index file for pipes                                           | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 124b234   | fix: improve code formatting in custom dialog component template                                                                    | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 1aa1dea   | feat: add index file for shared components; include custom dialog and spinner components                                            | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | fa5057e   | feat: add socket service for real-time data streaming; implement message handling and connection management                         | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 52c9575   | feat: add speak device component for chat functionality; implement message sending and audio recording features                     | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 13f40da   | feat: refactor spinner component for improved readability; update service import and add index file for services                    | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | f8bdcf5   | feat: add animated location feature to geofence map; create index files for enums and models                                        | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 8bfc0fe   | feat: enhance device service with additional methods and refactor for improved readability                                          | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 321aff2   | feat: update devices component styles for responsive design; add index file for device pages                                        | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 34b0357   | feat: update devices component to enhance device management; add edit functionality and improve UI interactions                     | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | f51d7a6   | feat: add device request and message models; introduce sensor model for device data                                                 | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | c5aec39   | feat: create index file for device enums to streamline exports                                                                      | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 87824a8   | feat: add dialog-edit-device component for editing device details with reactive form                                                | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | e9a838e   | feat: enhance dialog-add-device component layout and improve code readability                                                       | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 1759b1d   | refactor: update token interceptor import path and enhance app configuration; add device component exports and improve hover styles | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | b643c85   | refactor: update component imports and improve route structure for clarity                                                          | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | 660440a   | refactor: remove obsolete component tests to clean up the codebase                                                                  | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/update-devices-speak-device | a89f80f   | feat: add SVG icons for heart and SpO2 sensors; update tsconfig paths for auth module                                               | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | develop                             | 3ee0b2e   | Merge pull request #29 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/vital-signs                                               | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | d5f1e51   | feat: implement tabbed interface for vital functions with dynamic content loading                                                   | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | 8064e1b   | refactor: remove heart rate and oxygen saturation services to streamline health measures                                            | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | a323c48   | feat: enhance vital functions component with data fetching and tab management                                                       | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | 6933dbd   | refactor: add index exports for vital functions components and models                                                               | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | 74bf8da   | refactor: remove heart rate model and consolidate oxygen saturation model into health measure                                       | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | 89df1ca   | refactor: update oxygenation monitoring tab layout and improve content formatting                                                   | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | 28f1d22   | refactor: enhance oxygenation monitoring tab with input properties and lifecycle management                                         | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | 6967120   | refactor: update heart rate monitoring tab for improved layout and localization                                                     | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | 7c03bf5   | refactor: update heart rate monitoring component to use input properties and lifecycle hooks                                        | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/vital-signs                 | b933622   | refactor: remove obsolete unit tests for vital functions components                                                                 | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | develop                             | b1b93ed   | Merge pull request #28 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/services                                                  | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/services                    | 9ab161f   | feat: add index file to export profile components from settings                                                                     | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/services                    | 5ccbba3   | feat: add index file to export user model from settings                                                                             | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/services                    | a1e8ee2   | feat: update profile component layout and improve HTML structure                                                                    | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/services                    | 58ebf49   | feat: remove profile component tests and export user service from index                                                             | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/services                    | 083c254   | feat: update user service to use number type for ID in getById and getAllDevices methods                                            | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/services                    | 872b866   | feat: refactor profile component to use AuthService for user ID retrieval                                                           | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/services                    | 334a8bf   | feat: add edit profile component with HTML and CSS styling                                                                          | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | feature/services                    | fcdf0d9   | feat: add edit profile component with form handling                                                                                 | (-)                 | 2024-11-18          |
+| Guardian-Area-Web | develop                             | 989cb7d   | Merge pull request #27 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/geofence                                                  | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/geofence                    | dcdf3ab   | feat: add index service                                                                                                             | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/geofence                    | e5bd430   | geofence service implementation                                                                                                     | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/geofence                    | d195d1b   | feat: add geofence index                                                                                                            | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/geofence                    | 3a042e2   | feat: add geofences page implementation                                                                                             | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/geofence                    | 74ff750   | feat: geofence add and edit page implementation                                                                                     | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/geofence                    | 1aad031   | feat: add geofence index model                                                                                                      | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/geofence                    | 3c92628   | feat: add geofences index enumerator                                                                                                | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | develop                             | 08517d0   | Merge pull request #26 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/auth                                                      | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/auth                        | 0897d78   | feat: auth services implementation                                                                                                  | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/auth                        | 3d583e6   | feat: add auth pages                                                                                                                | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/auth                        | f2458d3   | feat: add auth models                                                                                                               | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/auth                        | c37ee15   | feat: add auth layouts                                                                                                              | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/auth                        | 082125e   | feat: add token and index interceptors                                                                                              | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/auth                        | 7345c6d   | feat: add auth guards                                                                                                               | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/auth                        | 13aaea5   | feat: add auth enumerators                                                                                                          | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | develop                             | abcc723   | Merge pull request #25 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/core                                                      | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | b74ef1b   | feat: add history components                                                                                                        | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | 77891e0   | feat: add query                                                                                                                     | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | dff64f4   | feat: table activities components                                                                                                   | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | 084d0ba   | feat: add table activities html and css                                                                                             | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | 2cfe7b7   | feat: add index activities                                                                                                          | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | 60b10b8   | feat: add custom sidenav                                                                                                            | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | 6275bbf   | feat: add custom sidnav html                                                                                                        | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | 7c7a556   | feat: menu components                                                                                                               | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | b858c4b   | feat: add menu                                                                                                                      | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/core                        | 7e7e4e9   | feat: add index core                                                                                                                | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | develop                             | 17d586a   | Merge pull request #24 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/maps                                                      | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/maps                        | 3a1e145   | feat: remove marker-map component and its associated files                                                                          | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/maps                        | eb56ab2   | feat: refactor preview-map component for improved readability and add cleanup on destroy                                            | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/maps                        | 1fdb857   | feat: add index file to export mini-map and preview-map components                                                                  | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/maps                        | a4a3bc5   | feat: implement real-time location updates and animated marker on mini-map                                                          | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/maps                        | 90fd1d8   | feat: enhance mini-map styling with improved layout and visual effects                                                              | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/maps                        | efa60aa   | feat: improve mini-map component by formatting input element for zoom control                                                       | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/maps                        | c83a182   | feat: add index file to export latitude-longitude model                                                                             | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | develop                             | c3f3c52   | Merge pull request #23 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/home                                                      | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/home                        | 0af39a1   | feat: refactor main panel component to include sensor data retrieval                                                                | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/home                        | f6c4a85   | feat: export main panel component from home page index                                                                              | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/home                        | 113ebae   | feat: enhance main panel with responsive health card layout and styling                                                             | (-)                 | 2024-11-17          |
+| Guardian-Area-Web | feature/home                        | 2dbe63b   | feat: add health monitoring cards for heart rate and oxygenation in main panel                                                      | (-)                 | 2024-11-17          |
+
+# App Mobile GuardianArea
+
+| Repository            | Branch                    | Commit Id | Commit Message                                                                                | Commit Message Body | Committed on (Date) |
+| --------------------- | ------------------------- | --------- | --------------------------------------------------------------------------------------------- | ------------------- | ------------------- |
+| Guardian-Area-Flutter | develop                   | 9573b57   | Merge pull request #8 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/devices              | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | 6e08e98   | feat: add provider                                                                            | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | 6a390de   | feat: add repository impl                                                                     | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | dc316d5   | feat: add mapper                                                                              | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | 9ae3c08   | feat: add datasource impl                                                                     | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | c4704b8   | feat: add infrastructure                                                                      | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | 76108fa   | feat: add repository                                                                          | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | 87bdde3   | feat: add device                                                                              | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | 08af0c4   | feat: add datasource                                                                          | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/update-geofence   | 7f71306   | feat: add domain                                                                              | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | develop                   | 78936d2   | Merge pull request #7 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/update-geofence      | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | 472e8d8   | feat: update GeofenceCard and GeofenceMapWidget to use CameraFit and enhance marker display   | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | d8b0199   | feat: enhance GeofencesScreen with loading state and refresh functionality                    | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | b01fc52   | feat: add GeofenceDetailsScreen for creating and editing geofences                            | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | 383de5e   | feat: replace KeyValueStorageService implementation with provider-based approach              | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | 4487cc5   | feat: add MapNotifier for managing geofence points and map interactions                       | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | 85d42ef   | feat: integrate KeyValueStorageService into GeofenceNotifier for device record management     | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | 30ce329   | feat: modify geofence repository to return Geofence objects and accept device record ID       | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | f22ccd4   | feat: update GeofenceMapper to include ID and correct property mappings                       | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | 9861086   | feat: enhance geofence datasource with create and update methods, and improve token handling  | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | 6083f7a   | feat: update geofence repository methods to return Geofence and accept device record ID       | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/profile           | 053c78a   | feat: enhance geofence datasource and entity with new methods and properties                  | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | develop                   | d6feb87   | Merge pull request #6 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/profile              | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/config            | c4a521f   | fix: correct import path for key value storage service implementation                         | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/config            | a11f5b1   | feat: add key value storage service provider for dependency injection                         | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/config            | afb510f   | feat: add key value service exports for storage services                                      | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/config            | b995d0f   | feat: update inputs export to include email input                                             | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/config            | ece5cc3   | feat: add Email input validation class with error handling                                    | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/config            | 9328bf8   | feat: add SaveChangesModal for confirming user actions in settings                            | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/config            | 162dfeb   | feat: implement SettingsScreen with user profile management and password update functionality | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | feature/config            | 940f868   | feat: enhance ProfileScreen with user authentication and profile display                      | (--)                | 2024-11-19          |
+| Guardian-Area-Flutter | develop                   | f0a115c   | Merge pull request #5 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/config               | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 92a7820   | feat: export authentication screens from screens.dart                                         | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 2e67efe   | feat: add RegisterScreen for user registration interface                                      | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | f6811c9   | feat: add LoginScreen for user authentication interface                                       | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | e3f1e02   | feat: add CheckAuthStatusScreen for displaying authentication loading state                   | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | ca3cbc2   | feat: export LoginFormProvider from providers.dart                                            | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | e50749a   | feat: add LoginFormProvider for managing login form state and validation                      | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 3cc1ac4   | feat: implement AuthProvider for authentication state management                              | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | f7f6e64   | feat: implement AuthRepositoryImpl for authentication operations                              | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 2bad020   | feat: add UserProfileMapper for converting user JSON to UserProfile entity                    | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | db4dad0   | feat: add UserMapper for converting user JSON to AuthenticatedUser entity                     | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 9edd3b2   | feat: add custom error classes for authentication handling                                    | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | a9ab0d6   | feat: implement AuthDatasourceImpl for authentication and user profile management             | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 24d3a7a   | feat: add infrastructure exports for authentication features                                  | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 3f8be4b   | feat: add AuthRepository interface for authentication and user profile management             | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | c689c50   | feat: add UserProfile entity for user profile management                                      | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 4a6f3fb   | feat: add AuthenticatedUser entity for user authentication                                    | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 41dcd01   | feat: add AuthDatasource interface for user authentication and profile management             | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 75319bc   | feat: add domain exports for authentication features                                          | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | b1b2bfe   | fix: update scaffold background color to white and clean up theme configuration               | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 25a860d   | fix: update import paths to use guardian_area namespace                                       | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | e116162   | fix: correct import path for auth_provider in app_router_notifier                             | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 8ee8ddb   | feat: add MapToken class to load API token from environment variables                         | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | f4be721   | fix: ensure app theme is exported correctly                                                   | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/presentation-auth | 7af7bee   | fix: update environment configuration                                                         | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | develop                   | 5f2b326   | Merge pull request #4 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/presentation-auth    | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | 6fa0dd1   | feat: Export device-related widgets for easier access in the presentation layer               | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | 5fcec38   | feat: Add SelectDeviceDialog for selecting a device with confirmation callback                | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | ddd2ae0   | feat: Add EditDeviceDialog for editing device details with input fields and role selection    | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | dcf2af6   | feat: Add DeviceCard widget for displaying device information and actions                     | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | ad9e3c9   | feat: Add AddDeviceDialog for device assignment with input validation                         | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | f14b457   | feat: Implement DeviceProvider and DevicesScreen for device management                        | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | 6d5c08b   | feat: Add RegisterScreen for user registration and update screens export                      | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | df3c0ac   | feat: Add LoginScreen with username and password input fields                                 | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | 6e2395c   | feat: Add CheckAuthStatusScreen for loading state during authentication                       | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | f57075d   | feat: Export LoginFormProvider from providers file                                            | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | c20ef0c   | feat: Add LoginFormProvider with state management for login functionality                     | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | feature/geofences         | 6bea4af   | feat: Implement AuthProvider with login, registration, and session management                 | (--)                | 2024-11-02          |
+| Guardian-Area-Flutter | develop                   | c4bf558   | Merge pull request #3 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/geofences            | (--)                | 2024-11-02          |
+
+# API Cloud GuardianArea
+
+| Repository        | Branch                    | Commit Id | Commit Message                                                                                                                  | Commit Message Body | Committed on (Date) |
+| ----------------- | ------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------- |
+| Guardian-Area-APl | develop                   | d860146   | Merge pull request #11 from Desarrollo-de-Soluciones-IOT-Grupo-03:feature/update-monitoring                                     | (--)                | 2024-11-19          |
+| Guardian-Area-APl | feature/update-monitoring | a41eaae   | feat: Implement ActivityQueryService for querying activities by device record ID                                                | (--)                | 2024-11-19          |
+| Guardian-Area-APl | feature/update-monitoring | fcc15a5   | feat: Add missing import for Option in ExternalIamService                                                                       | (--)                | 2024-11-19          |
+| Guardian-Area-APl | feature/update-monitoring | aec9a01   | feat: Implement HealthThresholdCommandService for handling health threshold updates                                             | (--)                | 2024-11-19          |
+| Guardian-Area-APl | feature/update-monitoring | 4917e6b   | feat: Add missing import for ResourceNotFoundException in HealthMeasureCommandServiceImp                                        | (--)                | 2024-11-19          |
+| Guardian-Area-APl | feature/update-monitoring | 545e693   | feat: Enhance DeviceCommandServiceImpl with validation and health threshold update functionality                                | (--)                | 2024-11-19          |
+| Guardian-Area-APl | feature/update-monitoring | 4f575c9   | feat: Implement ActivityCommandService for handling activity creation commands                                                  | (--)                | 2024-11-19          |
+| Guardian-Area-APl | feature/update-monitoring | e4f38d2   | Merge branch 'develop' of https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Guardian-Area-APl into develop               | (--)                | 2024-11-19          |
+| Guardian-Area-APl | develop                   | 74b5143   | Merge pull request #10 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/monitoring_model                                      | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | d88e41f   | feat: Add missing import statement for UpdateHealthThresholdsCommand in HealthThresholdCommandService                           | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | 34933d9   | feat: Add missing import statement in HealthMeasureQueryService for improved functionality                                      | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | 11e6dcb   | feat: Add optional import to HealthMeasureCommandService for improved functionality                                             | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | 8302cd4   | feat: Update GeoFence and Device query services with additional query imports                                                   | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | 1d3d3f5   | feat: Add ApiKey value object to DeviceCommandService and update ActivityQueryService interface                                 | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | 694b797   | feat: Add RiskLevel enum for activity risk assessment and update ActivityCommandService interface                               | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | 83b2e94   | feat: Add ActivityType enum and HealthThresholds value object for monitoring metrics                                            | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | 01f2d27   | feat: Enhance Device aggregate with health thresholds and update command; modify GeoFence to use eager fetching for coordinates | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | 9b20e37   | feat: Add commands and queries for updating health thresholds and retrieving activities                                         | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/monitoring_model  | ad7dff1   | feat: Add Activity aggregate and CreateActivityCommand                                                                          | (--)                | 2024-11-18          |
+| Guardian-Area-APl | develop                   | 6c0bd19   | Merge pull request #9 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/domain-services                                        | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | 632c4ab   | feat: Add Activity Command Service                                                                                              | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | 43cb656   | feat: Add Activity query service                                                                                                | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | 66a0b5f   | feat: Add Activity Repository with methods find all and with query                                                              | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | e49c32a   | feat: add Health Threshold Command Service                                                                                      | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | aba40f8   | feat: update HealthMeasure Query Service and repository                                                                         | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | 78d9e0d   | update GeoFence Repository and device command                                                                                   | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | 01fb353   | feat: Update geofence query and command                                                                                         | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | 756b158   | feat: Update device query service and repository                                                                                | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/domain-services   | 17545e6   | feat: Update Health Thresholds Command                                                                                          | (--)                | 2024-11-18          |
+| Guardian-Area-APl | develop                   | 7972ee5   | Merge pull request #8 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/mqtt-interface                                         | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/mqtt-interface    | 09db3e2   | feat: add mqtt dependencies                                                                                                     | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/mqtt-interface    | 1550710   | feat: add mqtt config                                                                                                           | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/mqtt-interface    | efaef2b   | feat: commit add config properties                                                                                              | (--)                | 2024-11-18          |
+| Guardian-Area-APl | develop                   | 8562283   | Merge pull request #7 from Desarrollo-de-Soluciones-IOT-Grupo-03/feature/interface-rest                                         | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | 73c9051   | feat: add UpdateHealthThresholdCommandFromResourceAssembler                                                                     | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | d85a9dd   | feat: add UpdateDeviceHealthThresholdResource                                                                                   | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | bc65869   | feat: add GpsWebSocketHandler                                                                                                   | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | db8c2e0   | feat: add GpsResource                                                                                                           | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | 4647619   | feat: add DeviceHealthMeasureResourceFromEntityAssembler                                                                        | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | d164f9d   | feat: add DeviceHealthMeasureResource                                                                                           | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | 26482d4   | feat: add DeviceActivityController                                                                                              | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | 3075af8   | feat: add CurrentLocationResource                                                                                               | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | 6d19260   | feat: add ActivityResourceFromEntityAssembler                                                                                   | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | 741c37e   | feat: add ActivityResource                                                                                                      | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | fa4d1d6   | feat: update WebSocketConfig                                                                                                    | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | 23cb3b8   | feat: update MyWebSocketHandler                                                                                                 | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | c7f143c   | feat: update DevicesController                                                                                                  | (--)                | 2024-11-18          |
+| Guardian-Area-APl | feature/interface-rest    | 55333e0   | feat: update DeviceResourceFromEntityAssembler                                                                                  | (--)                | 2024-11-18          |
+
+# Device GuardianArea
+
+| Repository                         | Branch | Commit Id | Commit Message                                                                                     | Commit Message Body | Committed on (Date) |
+| ---------------------------------- | ------ | --------- | -------------------------------------------------------------------------------------------------- | ------------------- | ------------------- |
+| Guardian-Area-Embedded-Application | main   | 0f91552   | feat: add jsonify function for dynamic JSON creation                                               | (--)                | 2024-11-19          |
+| Guardian-Area-Embedded-Application | main   | 70c6029   | feat: add JsonUtils for dynamic JSON creation                                                      | (--)                | 2024-11-19          |
+| Guardian-Area-Embedded-Application | main   | 9b7c061   | feat: add HeartRateSpo2Utils for sensor initialization, data reading, and health data transmission | (--)                | 2024-11-19          |
+| Guardian-Area-Embedded-Application | main   | e5df302   | feat: add HeartRateSpo2Utils for sensor data processing and health data transmission               | (--)                | 2024-11-19          |
+| Guardian-Area-Embedded-Application | main   | 06b062c   | feat: add ESP8266-Wi-Fi                                                                            | (--)                | 2024-11-19          |
+| Guardian-Area-Embedded-Application | main   | f379b44   | feat: add SDUtils.h                                                                                | (--)                | 2024-11-19          |
+| Guardian-Area-Embedded-Application | main   | 2d8c25e   | feat: add SDUtils.cpp                                                                              | (--)                | 2024-11-19          |
+| Guardian-Area-Embedded-Application | main   | 044fd9f   | feat: add DisplayUtils.h for display initialization function and U8g2 library integration          | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | 725b7ea   | feat: add DisplayUtils.cpp for display initialization and bitmap rendering                         | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | 2a5150d   | feat: add Constants.h for device UUID and API key file path declarations                           | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | 88a680b   | feat: add Constants.cpp for device configuration and API key management                            | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | 6baa693   | feat: add esp8266 interface implementation                                                         | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | 0b5b690   | feat: add esp8266 interface header file                                                            | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | 2fea760   | feat: add GPS utils implementation                                                                 | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | 41da4f6   | feat: add GPS utils header file                                                                    | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | a7b3eb3   | Update README.md                                                                                   | (--)                | 2024-11-18          |
+| Guardian-Area-Embedded-Application | main   | 7fdbe7d   | Initial commit                                                                                     | (--)                | 2024-11-18          |
+
 
 #### 6.2.3.4 Testing Suite Evidence for Sprint Review
 En este sprint se realizó pruebas unitarias en el backend de Guardian Area, utilizando el framework de pruebas JUnit. A continuación, se presentan las pruebas realizadas y los resultados obtenidos.
@@ -4808,8 +5040,26 @@ Para este sprint se ha desplegado la aplicación móvil, la aplicación web, la 
 
     Enlace: https://guardian-area.web.app
 
-3. **Mobile Application:**  
+3. **Mobile Application:**  Para el despliegue de la aplicación móvil de GuardianArea, se utilizó Firebase Hosting, una plataforma de alojamiento web que permite desplegar aplicaciones web de forma sencilla y segura. A continuación, se muestra el proceso de actualización de despliegue.
+    - Debido a que se tenía la configuración inicial del despligue, en esta ocasión primero se creó el build de la aplicación con el comando `ng build`.
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/mobile-deploy-01.png" alt="Deployment Mobile"  width="100%"/>
+    </div>
 
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/mobile-deploy-02.png" alt="Deployment Mobile"  width="100%"/>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/mobile-deploy-03.png" alt="Deployment Mobile"  width="100%"/>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/mobile-deploy-04.png" alt="Deployment Mobile"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/deploy/mobile-deploy-05.png" alt="Deployment Mobile"  width="100%"/>
+    </div>
 
 4. **Cloud:** 
 
