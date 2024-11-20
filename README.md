@@ -6295,6 +6295,7 @@ A continuación se presentan las preguntas diseñadas para las entrevistas de va
 
 ### Segmento 1: Cuidadores o Familiares de personas con Alzheimer
 
+**Entrevista 01**
 - Nombres: Adrian Martín
 - Apellidos: Quito Igreda
 - Edad: 20
@@ -6303,9 +6304,9 @@ A continuación se presentan las preguntas diseñadas para las entrevistas de va
     <div style="text-align: center;">
         <img src="./images/chapter-06/interviews/entrevista-adrian-quito.png" alt="Entrevista 01"  width="90%"/>
     </div> 
-- Inicio: 00:00
-- Duración: 08:30
-- Enlace de entrevista: 
+- Inicio: 00:10
+- Duración: 08:17
+- Enlace de entrevista: https://acortar.link/3k7SvS
   
 - Resumen de la entrevista: 
 
@@ -6316,6 +6317,26 @@ A continuación se presentan las preguntas diseñadas para las entrevistas de va
     Sobre la aplicación, comentó que las funcionalidades de monitoreo de los latidos y oxigenación le trasmitio una mayor seguridad para el cuidado de su ser querido. Asimismo, resaltó que las alertas inmediatas serán de gran utilidad para cuando no se encuentre en su hogar. 
 
     Finalemente, Adrián indicó que compartiría y recomendaría la aplicación ya que considera que es una herramienta indispensable y fácil para todas las personas que cuidan de algún familiar con Alzheimer.
+
+**Entrevista 02**
+- Nombres: Valentino
+- Apellidos: Valcarcel
+- Edad: 20
+- Distrito: Ate (Salamanca) 
+- Evidencia de la reunión: 
+   <div style="text-align: center;">
+    <img src="./images/chapter-06/interviews/entrevista_valentino_valcarcel.png" alt="Entrevista 02" width="90%"/>
+    </div>   
+- Inicio: 08:29
+- Duración: 07:07
+- Enlace de entrevista: https://acortar.link/qNvuOr
+  
+- Resumen de la entrevista: 
+    Valentino Valcarcel, estudiante de administración y finanzas de 20 años, vive en Salamanca, distrito de Ate, y es cuidador de su abuelo de 76 años con Alzheimer. Durante la entrevista, expresó que Guardian Area sería una herramienta útil para familias que necesitan cuidar a personas con esta enfermedad. Destacó que las funcionalidades, como el monitoreo de ubicación, ritmo cardíaco, oxigenación e historial de actividades, cubren adecuadamente sus necesidades como cuidador.
+
+    Opinó que la landing page es clara y bien detallada, resaltando el video explicativo como un recurso clave para entender las funciones. Además, consideró el diseño de la aplicación estéticamente agradable, con una distribución que facilita la navegación y búsqueda de información relevante. Valentino afirmó que la simplicidad de los textos y la organización contribuyen a que la aplicación sea intuitiva y fácil de usar.
+
+    No identificó funcionalidades faltantes y valoró que las opciones presentes son las más esenciales para el uso en personas con Alzheimer. Finalmente, mostró disposición a usar la aplicación en su vida diaria y a recomendarla en sus redes sociales, destacando que la considera innovadora y efectiva para ayudar a familias con necesidades similares.
 
 ### Segmento 2: Cuidadores o Familiares de niños pequeños
 
@@ -6328,9 +6349,9 @@ A continuación se presentan las preguntas diseñadas para las entrevistas de va
     <div style="text-align: center;">
         <img src="./images/chapter-06/interviews/entrevista_claudia_sifuentes.png" alt="Entrevista 01"  width="90%"/>
     </div> 
-- Inicio: 00:00
-- Duración: 00:00
-- Enlace de entrevista: 
+- Inicio: 21:26
+- Duración: 05:02
+- Enlace de entrevista: https://acortar.link/oOfRb0
   
 - Resumen de la entrevista: 
     Claudia Sifuentes, estudiante de 20 años que vive en el distrito de Lince, cuida de su hermano pequeño y expresó un interés positivo en la aplicación Guardian Area. Durante la entrevista, destacó la interfaz gráfica de la aplicación como intuitiva y fácil de usar. La landing page le pareció clara y bien organizada, facilitándole la comprensión de las funcionalidades principales, los planes de suscripción y la información de contacto. Resaltó que la presentación de características clave, como el monitoreo por geocercas, notificaciones en tiempo real e historial de actividades, es accesible y práctica.
@@ -6350,9 +6371,9 @@ A continuación se presentan las preguntas diseñadas para las entrevistas de va
     <div style="text-align: center;">
         <img src="./images/chapter-06/interviews/entrevista-camila-amaro.png" alt="Entrevista 01"  width="90%"/>
     </div> 
-- Inicio: 00:00
-- Duración: 00:00
-- Enlace de entrevista: 
+- Inicio: 15:42
+- Duración: 05:42
+- Enlace de entrevista: https://acortar.link/Dwz3GO
   
 - Resumen de la entrevista: 
     Camila Amaro, estudiante de 20 años que vive en el distrito de Surco, cuida de su primo pequeño y mostró mucho interés en el dispositivo de Guardian Area. Durante la entrevista, destacó la facilidad de uso de la aplicación web y móvil. La landing page le pareció concisa y sencilla de entender, lo que le permitió entender el funcionamiento del dispositivo, los planes de suscripción disponibles, así como lo que ofrece cada uno y el formulario de contacto. Resaltó la opción de delimitar una geocerca y quedó sorprendida de lo útil que resulta ser esta característica.
