@@ -556,6 +556,28 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
             - La colaboración y planificación inclusiva ayudaron al equipo a cumplir eficientemente los objetivos del sprint en cada área del proyecto.
         </td>
     </tr>
+    <tr>
+        <td>TF<br><br>
+            <b>Steve Roger Castillo Robles</b><br>
+            - Lideré la planificación del sprint y coordiné las tareas relacionadas con las funcionalidades de geocercas en el frontend, fomentando la colaboración dentro del equipo.
+            <br><br> 
+            <b>Diego Mauricio Castro Soto</b><br>
+            - Organicé y asigné tareas en el backend, priorizando una estructura clara para desarrollar la autenticación y promover un entorno inclusivo en el equipo.
+            <br><br>
+            <b>Jennifer Mary Espinoza Quispe</b><br>
+            - Dirigí el desarrollo del módulo de alertas, promoviendo la integración de ideas y aportes del equipo para mejorar la experiencia del usuario en la interfaz.
+            <br><br>
+            <b>Diego Martin Esquivel Aguayo</b><br>
+            - Coordiné la planificación del sprint para garantizar objetivos claros y realistas. Además, trabajé en el desarrollo de funcionalidades para web, móvil, backend e IoT, con una planificación flexible que se ajustara a los requerimientos.
+            <br><br>
+            <b>Cristian Andrés Quito Igreda</b><br>
+            - Gestioné la documentación de servicios en el área de IoT y promoví la colaboración dentro del equipo, asegurando una comprensión común de los objetivos técnicos.
+            <br><br>
+        </td>
+        <td>TF<br><br>
+            - Durante esta fase, el equipo mostró un alto nivel de cohesión y organización. Las tareas fueron distribuidas de manera equitativa, y el liderazgo compartido permitió cumplir eficientemente los objetivos establecidos, asegurando calidad en cada área de desarrollo.
+        </td>
+    </tr>
 </table>
 
 # Capítulo I: Introducción
