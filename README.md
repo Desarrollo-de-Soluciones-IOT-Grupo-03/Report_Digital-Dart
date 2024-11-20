@@ -234,7 +234,60 @@ Evidencias de colaboración y commits - Github:
         <img src="./images/chapter-01/notion.PNG" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
     </div>
 
-<br>
+**Entrega TF**
+
+Para la entrega final TF, terminamos consolidando nuestro trabajo mediante reuniones de cierre en Discord, lo que permitió revisar y ajustar los últimos detalles del proyecto de manera colaborativa. Utilizamos nuevamente el chat grupal de WhatsApp como herramienta principal para resolver consultas rápidas y compartir actualizaciones inmediatas. Además, mejoramos el sistema de checklist, añadiendo fechas límite específicas para cada tarea pendiente, lo que facilitó cumplir con los plazos establecidos y asegurar que todas las responsabilidades fueran completadas a tiempo. Con este enfoque, logramos una entrega bien coordinada y de alta calidad.
+
+* Commits del equipo
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/project/project-tb3.png" alt="team-tf-commits" style="max-width: 800px; width: 95%">
+    </div>
+
+* Commits por integrantes
+    * Castillo Robles, Steve Roger
+        - Enfoque principal: Documentación y funcionalidades de la aplicación móvil.
+        - Aportes destacados: Actualización de descripciones detalladas en el README y consolidación de feedback y sugerencias a través de entrevistas.
+        - Tipo de tareas: Documentación, ajustes de funcionalidades y revisiones.
+
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/project/commits-steve-tf.png" alt="steve_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Castro Soto, Diego Mauricio
+        - Enfoque principal: Segmentos específicos de entrevistas y reportes.
+        - Aportes destacados: Adición de resúmenes y fotos a los segmentos de entrevistas en capítulos de evidencia.
+        - Tipo de tareas: Contenidos analíticos y documentación de procesos.
+
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/project/commits-castro-tf.png" alt="diego_c_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Espinoza Quispe, Jennifer Mary
+        - Enfoque principal: Evidencias y documentación general del equipo.
+        - Aportes destacados: Mejora de documentación con ejemplos y adición de imágenes para soportar evidencias. También se encargó de actualizar el proceso de despliegue web.
+        - Tipo de tareas: Documentación colaborativa y aspectos visuales del proyecto.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/project/commits-jenn-tf.png" alt="jennifer_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+    * Esquivel Aguayo, Diego Martin
+        - Enfoque principal: Gestión de backlog y definición de tareas de Sprint.
+        - Aportes destacados: Detalle y planificación de objetivos de Sprint, así como actualización de historias de usuario y priorización de tareas en el backlog.
+        - Tipo de tareas: Gestión ágil del proyecto y documentación de planeación.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/project/commits-esquivel-tf.png" alt="diego_u_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+
+    * Quito Igreda, Cristian Andrés
+        - Enfoque principal: Desarrollo técnico y despliegue en la nube.
+        - Aportes destacados: Implementación de pruebas unitarias, despliegue en la nube y desarrollo de funcionalidades relacionadas con entrevistas y ejecución en Edge.
+        - Tipo de tareas: Programación técnica, despliegue y pruebas.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/project/commits-cristian-tf.png" alt="cris_contribution_tp" style="max-width: 800px; width: 95%">
+    </div>
+
+
 
 # Contenido
 
