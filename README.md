@@ -6720,7 +6720,7 @@ Descubre cómo GuardianArea utiliza tecnología IoT y edge computing para garant
     </a>
 </div>
 
-- **URL del video:** [Ver About-the-Product](https://acortar.link/iYzA2D)
+- **URL del video:** [https://acortar.link/iYzA2D](https://acortar.link/iYzA2D)
 
 ### Conclusiones
 * La implementación del enfoque Lean UX en la comprensión de nuestra problemática y la concepción de nuestro concepto empresarial nos permitió llevar a cabo un análisis exhaustivo de nuestros competidores y definir claramente nuestros grupos de interés. 
