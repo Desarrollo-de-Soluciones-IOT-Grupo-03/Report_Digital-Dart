@@ -6363,6 +6363,29 @@ A continuación se presentan las preguntas diseñadas para las entrevistas de va
 
     Finalmente, manifestó su disposición a recomendar Guardian Area en sus redes sociales, considerando que es una solución útil y práctica para otras personas que necesiten monitorear a familiares, especialmente niños. Su percepción positiva reafirma la efectividad de Guardian Area como una herramienta confiable y funcional para garantizar la seguridad de familiares en situaciones cotidianas.
 
+    **Entrevista 02**
+
+- Nombres: Diego
+
+- Apellidos: Defilippi Santillan
+- Edad: 22
+- Distrito: Santiago de Surco
+- Evidencia de la reunión:
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/interviews/entrevista_diego_defilippi.png" alt="Entrevista 01"  width="90%"/>   
+    </div>
+- Inicio: 26:30
+- Duración: 05:29
+
+- Enlace de entrevista: https://acortar.link/2b0Hcc
+
+- Resumen de la entrevista:
+  Diego Defilippi es un estudiante de 22 años de Ingeniería de Software. En la entrevista que se le realizó para evaluar el proyecto GuardianArea, interactuó y exploró la Landing Page del proyecto, destacando elementos como precios, planes, testimonios y el formulario de contacto, que consideró efectivos para informar a los usuarios.
+  Él detalló las características clave de la aplicación, incluyendo el inicio de sesión con usuarios de prueba y la gestión de dispositivos conectados, destacando la interfaz del proyecto donde este nos permite registrar dispositivos y personalizarlos. En particular, elogió a las geocercas y sus funcionalidades.
+  Aunque valoró los aspectos generales del sistema, sugirió mejoras como redirigir automáticamente al mapa al seleccionar un dispositivo, y así optimizar la navegación. Diego calificó su experiencia con el sistema como positiva, resaltando su utilidad para el cuidado de personas vulnerables, en su caso, en los niños, y destacó el potencial del proyecto para integrar nuevas funcionalidades, como notificaciones inmediatas al salir de una geocerca.
+  Concluyó destacando el valor de la solución para ofrecer seguridad y tranquilidad a los cuidadores, y expresó interés en futuras implementaciones que fortalezcan el impacto del proyecto.
+
+
 **Entrevista 03**
 - Nombres: Camila
 - Apellidos: Amaro Villanueva
