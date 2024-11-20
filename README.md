@@ -5548,7 +5548,41 @@ A continuación, se presentan las evidencias de la ejecución del sprint.
     Link Video Execution: https://acortar.link/xq9jxI
     
 
-3. **Mobile Application:** 
+3. **Mobile Application:** Se actualizó e implementó la aplicación móvil con la lectura de los datos que son recepcionados desde nuestro dispositivo IoT, entre la actualización que tuvimos fue implemetar los gráficos de los sensores donde se verán reflejados el promedio de los datos que se registran en un tiempo determinado. También generamos en el "Home" una pantalla con un indicador de GPS que nos muestra la ubicación actual del dispositivo móvil y si es que está dentro de la zona de seguridad que se ha configurado en la aplicación. También se agregó una pantalla de Historial de Actividades donde podrás ver las actividades que ha notificado la aplicación.
+
+   **Devices**: En esta pantalla se muestra la lista de dispositivos que se han registrado en la aplicación y se puede seleccionar uno para ver los datos que se han registrado en el dispositivo.
+
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-devices-list.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Home**: En esta pantalla se muestra la ubicación actual del dispositivo móvil y si es que está dentro de la zona de seguridad que se ha configurado en la aplicación.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-home.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Activites**: En esta pantalla se muestra el historial de actividades que ha notificado la aplicación.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-activities-list.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Vital Signs**: En esta pantalla se muestra una gráfica donde é+l promedio de los datos que se registran en un tiempo determinado.
+   <div style="text-align: center;">
+   <img src="./images/chapter-06/sprint-03/mobile-vital-signs.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Geofences**: En esta pantalla se muestra la lista de zonas de seguridad que se han configurado en la aplicación.
+
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-geofences.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Profile**: En esta pantalla se muestra la información del usuario que ha iniciado sesión en la aplicación.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-profile.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   También podemos apreciar que debajo de la barra de navegación se encuentra un indicador de bpm y SpO2 que son los datos que se están registrando en tiempo real.
 
 4. **Cloud:** 
     
@@ -6362,6 +6396,29 @@ A continuación se presentan las preguntas diseñadas para las entrevistas de va
     Claudia calificó su experiencia con la aplicación con un 5/5, mencionando que su simplicidad y enfoque en funciones esenciales la hacen destacar frente a otras herramientas similares. Además, destacó que el diseño es especialmente útil para personas sin experiencia técnica, ya que no requiere guías extensas para entender cómo usar la aplicación. Este aspecto la convierte en una herramienta accesible y adecuada para un público amplio.
 
     Finalmente, manifestó su disposición a recomendar Guardian Area en sus redes sociales, considerando que es una solución útil y práctica para otras personas que necesiten monitorear a familiares, especialmente niños. Su percepción positiva reafirma la efectividad de Guardian Area como una herramienta confiable y funcional para garantizar la seguridad de familiares en situaciones cotidianas.
+
+    **Entrevista 02**
+
+- Nombres: Diego
+
+- Apellidos: Defilippi Santillan
+- Edad: 22
+- Distrito: Santiago de Surco
+- Evidencia de la reunión:
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/interviews/entrevista_diego_defilippi.png" alt="Entrevista 01"  width="90%"/>   
+    </div>
+- Inicio: 26:30
+- Duración: 05:29
+
+- Enlace de entrevista: https://acortar.link/2b0Hcc
+
+- Resumen de la entrevista:
+  Diego Defilippi es un estudiante de 22 años de Ingeniería de Software. En la entrevista que se le realizó para evaluar el proyecto GuardianArea, interactuó y exploró la Landing Page del proyecto, destacando elementos como precios, planes, testimonios y el formulario de contacto, que consideró efectivos para informar a los usuarios.
+  Él detalló las características clave de la aplicación, incluyendo el inicio de sesión con usuarios de prueba y la gestión de dispositivos conectados, destacando la interfaz del proyecto donde este nos permite registrar dispositivos y personalizarlos. En particular, elogió a las geocercas y sus funcionalidades.
+  Aunque valoró los aspectos generales del sistema, sugirió mejoras como redirigir automáticamente al mapa al seleccionar un dispositivo, y así optimizar la navegación. Diego calificó su experiencia con el sistema como positiva, resaltando su utilidad para el cuidado de personas vulnerables, en su caso, en los niños, y destacó el potencial del proyecto para integrar nuevas funcionalidades, como notificaciones inmediatas al salir de una geocerca.
+  Concluyó destacando el valor de la solución para ofrecer seguridad y tranquilidad a los cuidadores, y expresó interés en futuras implementaciones que fortalezcan el impacto del proyecto.
+
 
 **Entrevista 03**
 - Nombres: Camila
