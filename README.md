@@ -5548,7 +5548,41 @@ A continuación, se presentan las evidencias de la ejecución del sprint.
     Link Video Execution: https://acortar.link/xq9jxI
     
 
-3. **Mobile Application:** 
+3. **Mobile Application:** Se actualizó e implementó la aplicación móvil con la lectura de los datos que son recepcionados desde nuestro dispositivo IoT, entre la actualización que tuvimos fue implemetar los gráficos de los sensores donde se verán reflejados el promedio de los datos que se registran en un tiempo determinado. También generamos en el "Home" una pantalla con un indicador de GPS que nos muestra la ubicación actual del dispositivo móvil y si es que está dentro de la zona de seguridad que se ha configurado en la aplicación. También se agregó una pantalla de Historial de Actividades donde podrás ver las actividades que ha notificado la aplicación.
+
+   **Devices**: En esta pantalla se muestra la lista de dispositivos que se han registrado en la aplicación y se puede seleccionar uno para ver los datos que se han registrado en el dispositivo.
+
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-devices-list.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Home**: En esta pantalla se muestra la ubicación actual del dispositivo móvil y si es que está dentro de la zona de seguridad que se ha configurado en la aplicación.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-home.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Activites**: En esta pantalla se muestra el historial de actividades que ha notificado la aplicación.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-activities-list.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Vital Signs**: En esta pantalla se muestra una gráfica donde é+l promedio de los datos que se registran en un tiempo determinado.
+   <div style="text-align: center;">
+   <img src="./images/chapter-06/sprint-03/mobile-vital-signs.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Geofences**: En esta pantalla se muestra la lista de zonas de seguridad que se han configurado en la aplicación.
+
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-geofences.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   **Profile**: En esta pantalla se muestra la información del usuario que ha iniciado sesión en la aplicación.
+    <div style="text-align: center;">
+    <img src="./images/chapter-06/sprint-03/mobile-profile.png" alt="Guardian area mobile"  width="60%"/>
+    </div>
+
+   También podemos apreciar que debajo de la barra de navegación se encuentra un indicador de bpm y SpO2 que son los datos que se están registrando en tiempo real.
 
 4. **Cloud:** 
     
