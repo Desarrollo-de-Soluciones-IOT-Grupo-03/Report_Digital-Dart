@@ -5736,6 +5736,27 @@ A continuación se presentan las preguntas diseñadas para las entrevistas de va
 
 ### Segmento 1: Cuidadores o Familiares de personas con Alzheimer
 
+- Nombres: Adrian Martín
+- Apellidos: Quito Igreda
+- Edad: 20
+- Distrito: LinceLos Olivos 
+- Evidencia de la reunión: 
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/interviews/entrevista-adrian-quito.png" alt="Entrevista 01"  width="90%"/>
+    </div> 
+- Inicio: 00:00
+- Duración: 08:30
+- Enlace de entrevista: 
+  
+- Resumen de la entrevista: 
+
+    Adrián Quito, estudiante de 21 años que vive en el distrito de Los Olivos, cuida de su abuelita que padece de Alzheimer. El enttrevistado expresó un interés significativo en la Aplicación Guardian Area. Destacó lo amigable y fácil que resulto ser navegar por la landing page.
+
+    Mencionó que la oferta de valor mostrada por dicho medio aumento la confianza frente al producto, pues comentó que siempre esta al tanto de su ser querido incluso cuando se encuentra fuera de su hogar. Sin embargo, destacó que no contaba con alguna manera para tener un monitoreo preciso de la salud y de las actividades de su abuela.
+
+    Sobre la aplicación, comentó que las funcionalidades de monitoreo de los latidos y oxigenación le trasmitio una mayor seguridad para el cuidado de su ser querido. Asimismo, resaltó que las alertas inmediatas serán de gran utilidad para cuando no se encuentre en su hogar. 
+
+    Finalemente, Adrián indicó que compartiría y recomendaría la aplicación ya que considera que es una herramienta indispensable y fácil para todas las personas que cuidan de algún familiar con Alzheimer.
 
 ### Segmento 2: Cuidadores o Familiares de niños pequeños
 
