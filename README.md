@@ -4991,11 +4991,530 @@ A continuación, se presentan las evidencias de la ejecución del sprint.
 3. **Mobile Application:** 
 
 4. **Cloud:** 
+    
+    Los endpoints relacionados con la gestión de dispositivos se clasifican por el método HTTP que utilizan y las funcionalidades que ofrecen. A continuación, se resumen las operaciones disponibles:
 
-5. **Edge:** 
+    * GET /api/v1/devices/{deviceRecordId}: Permite obtener información detallada sobre un dispositivo específico utilizando su deviceRecordId.
 
+    * PUT /api/v1/devices/{deviceRecordId}: Permite actualizar la información de un dispositivo existente.
+
+    * PUT /api/v1/devices/{deviceRecordId}/health-thresholds: Permite modificar los umbrales de salud de un dispositivo.
+
+    * POST /api/v1/devices/register: Permite registrar un nuevo dispositivo en el sistema.
+
+    * POST /api/v1/devices/assign: Permite asignar un dispositivo a un usuario u otra entidad.
+
+    * GET /api/v1/devices/{deviceRecordId}/health-measures-monthly-summary: Proporciona un resumen mensual de las medidas de salud capturadas por un dispositivo.
+
+    * GET /api/v1/devices/{deviceRecordId}/geo-fences: Permite obtener información sobre las geocercas asociadas a un dispositivo.
+
+    * GET /api/v1/devices/{deviceRecordId}/activities: Recupera un historial de actividades asociadas a un dispositivo.
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-1.PNG" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    Por otro lado, contamos con endpoints adicionales para la creacion de las otras entidades que conforman nuestra aplicación.
+
+    1. Authentication (Autenticación)
+        * POST /api/v1/authentication/sign-up: Permite registrar un nuevo usuario en el sistema.
+        POST /api/v1/authentication/sign-in: Permite a los usuarios autenticarse en el sistema, iniciando sesión.
+    2. Roles (Gestión de Roles)
+        * GET /api/v1/roles: Obtiene una lista de los roles disponibles en el sistema.
+    3. GeoFences (Gestión de Geocercas)
+        * GET /api/v1/geo-fences/{geoFenceId}: Recupera información sobre una geocerca específica mediante su geoFenceId.
+        * PUT /api/v1/geo-fences/{geoFenceId}: Permite actualizar la información de una geocerca existente.
+        * POST /api/v1/geo-fences: Permite crear una nueva geocerca.
+    4. Users (Gestión de Usuarios)
+        * GET /api/v1/users: Obtiene una lista de los usuarios registrados en el sistema.
+        * GET /api/v1/users/{userId}: Recupera información de un usuario específico mediante su userId.
+        * GET /api/v1/users/{userId}/devices: Recupera los dispositivos asociados a un usuario específico mediante su userId.
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-2.PNG" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    En la siguiente documentación de la colección de Postman para Guardian Area, se muestra el formato específico para el envío y recepción de datos mediante WebSockets, organizados en diferentes flujos de datos. Aquí está la descripción de los flujos documentados:
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-4.jpg" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-3.jpg" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-5.jpg" alt="Guardian area web"  width="100%"/>
+    </div>
+    
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-6.jpg" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    Link Video Execution: [Execution Cloud API](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/ERrOAPDc_QNElsRmd858ARYBoX_NxgaZ29Jx-m13ZdVNvA?e=DlufIh)
+
+5. **Edge:**
+
+    En la siguiente documentación de la colección de Postman para Guardian Area, Area, se muestra el formato específico para el envío y recepción de datos mediante WebSockets, organizados en diferentes flujos de datos. Sin embargo, este entorno se ejecuta localmente por lo que el valor de baseUrl se debe setear a localhost.    
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-4.jpg" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-3.jpg" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-5.jpg" alt="Guardian area web"  width="100%"/>
+    </div>
+    
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/execution/cloud-6.jpg" alt="Guardian area web"  width="100%"/>
+    </div>
+
+    Link Video Execution: [Execution Edge API](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116749_upc_edu_pe/EZld-Dlw-w9FhXLbVsCudQ0BSNhwldnszbFuNQURFU0lrA?e=N8ndqm)
 
 #### 6.2.3.6 Services Documentation Evidence for Sprint Review
+
+La siguiente tabla documenta los endpoints de la aplicación *GuardianArea*, la cual gestiona dispositivos, usuarios, roles, geo-cercas y autenticación. Cada módulo cuenta con endpoints específicos para realizar operaciones de creación, lectura, actualización y asignación. Por ejemplo, el módulo de **Devices** permite registrar y asignar dispositivos a usuarios, además de consultar un resumen de medidas de salud y geo-cercas asociadas a cada dispositivo. El módulo de **GeoFences** permite gestionar las geo-cercas, mientras que **Users** y **Roles** facilitan la administración de usuarios y sus permisos. Estos endpoints son esenciales para la administración y control de los dispositivos y datos en la plataforma.
+
+<table>
+    <thead>
+        <tr>
+            <th>Endpoint</th>
+            <th>Acción Implementada</th>
+            <th>Verbo HTTP</th>
+            <th>Sintaxis de Llamada</th>
+            <th>Parámetros</th>
+            <th>Ejemplo de Request</th>
+            <th>Ejemplo de Response</th>
+            <th>Documentación Desplegada</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Devices</td>
+            <td>Obtiene los detalles de un dispositivo específico</td>
+            <td>GET</td>
+            <td>/api/v1/devices/{deviceRecordId}</td>
+            <td>deviceRecordId</td>
+            <td>-</td>
+            <td>{
+  "guardianAreaDeviceRecordId": "string",
+  "nickname": "string",
+  "bearer": "string",
+  "careMode": "string",
+  "status": "string",
+  "userId": 0,
+  "apiKey": "string"
+}</td>
+            <td>Devices Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Devices</td>
+            <td>Actualiza los thresholds de un dispositivo específico</td>
+            <td>PUT</td>
+            <td>/api/v1/devices/{deviceRecordId}</td>
+            <td>deviceRecordId</td>
+            <td>{
+  "bearer": "string",
+  "deviceNickname": "string",
+  "deviceCareModes": "string",
+  "deviceStatuses": "string"
+}</td>
+            <td>{
+  "guardianAreaDeviceRecordId": "string",
+  "nickname": "string",
+  "bearer": "string",
+  "careMode": "string",
+  "status": "string",
+  "userId": 0,
+  "apiKey": "string"
+}</td>
+            <td>Devices Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Devices</td>
+            <td>Actualiza la información de un dispositivo específico</td>
+            <td>PUT</td>
+            <td>/api/v1/devices/{deviceRecordId}/health-thresholds</td>
+            <td>deviceRecordId</td>
+            <td>{
+  "minBpm": 0,
+  "maxBpm": 0,
+  "minSpO2": 0,
+  "maxSpO2": 0
+}</td>
+            <td>{
+  "deviceRecordId": "b573ccb9-22ea-4eac-b27f-94a56af5cc6e",
+  "minBpm": 0,
+  "maxBpm": 0,
+  "minSpO2": 0,
+  "maxSpO2": 0
+}</td>
+            <td>Devices Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Devices</td>
+            <td>Registra un nuevo dispositivo</td>
+            <td>POST</td>
+            <td>/api/v1/devices/register</td>
+            <td>-</td>
+            <td>{
+  "guardianAreaDeviceRecordId": "b573ccb9-22ea-4eac-b27f-94a56af5cc6e"
+}</td>
+            <td>{
+  "apiKey": "AhpUVOGMckHO5Z7KfBDIMmhiWB3bmnw3"
+}</td>
+            <td>Devices Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Devices</td>
+            <td>Asigna un dispositivo a un usuario o entidad</td>
+            <td>POST</td>
+            <td>/api/v1/devices/assign</td>
+            <td>-</td>
+            <td>{
+  "guardianAreaDeviceRecordId": "b573ccb9-22ea-4eac-b27f-94a56af5cc6e",
+  "userId": 8
+}</td>
+            <td>{
+  "guardianAreaDeviceRecordId": "b573ccb9-22ea-4eac-b27f-94a56af5cc6e",
+  "nickname": "-",
+  "bearer": "-",
+  "careMode": "INFANT",
+  "status": "CONNECTED",
+  "userId": 8,
+  "apiKey": "AhpUVOGMckHO5Z7KfBDIMmhiWB3bmnw3"
+}</td>
+            <td>Devices Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Devices</td>
+            <td>Obtiene el resumen mensual de medidas de salud del dispositivo</td>
+            <td>GET</td>
+            <td>/api/v1/devices/{deviceRecordId}/health-measures-monthly-summary</td>
+            <td>deviceRecordId</td>
+            <td>-</td>
+            <td>[
+  {
+    "date": "2024-11-1",
+    "avgBpm": 0,
+    "avgSpo2": 0
+  }
+]</td>
+            <td>Devices Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Devices</td>
+            <td>Obtiene las geo-cercas asociadas a un dispositivo específico</td>
+            <td>GET</td>
+            <td>/api/v1/devices/{deviceRecordId}/geo-fences</td>
+            <td>deviceRecordId</td>
+            <td>-</td>
+            <td>[
+  {
+    "id": 0,
+    "name": "string",
+    "geoFenceStatus": "string",
+    "coordinates": [
+      {
+        "latitude": 0,
+        "longitude": 0
+      }
+    ],
+    "guardianAreaDeviceRecordId": "string"
+  }
+]</td>
+            <td>Devices Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Devices</td>
+            <td>Obtiene las actividades asociadas a un dispositivo específico</td>
+            <td>GET</td>
+            <td>/api/v1/devices/{deviceRecordId}/activities</td>
+            <td>deviceRecordId</td>
+            <td>-</td>
+            <td>[
+  {
+    "guardianAreaDeviceRecordId": "string",
+    "activityName": "string",
+    "activityType": "string",
+    "dateAndTime": "2024-11-20T14:55:20.099Z"
+  }
+]</td>
+            <td>Devices Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Authentication</td>
+            <td>Registra un nuevo usuario en el sistema</td>
+            <td>POST</td>
+            <td>/api/v1/authentication/sign-up</td>
+            <td>-</td>
+            <td>{
+  "username": "Javier",
+  "email": "Javier@gmail.com",
+  "firstName": "Javier",
+  "lastName": "Carranza",
+  "password": "string",
+  "roles": [
+    "ROLE_ADMIN"
+  ]
+}</td>
+            <td>{
+  "id": 8,
+  "username": "Javier",
+  "email": "Javier@gmail.com",
+  "firstName": "Javier",
+  "lastName": "Carranza",
+  "roles": [
+    "ROLE_ADMIN"
+  ]
+}</td>
+            <td>Authentication Endpoints</td>
+        </tr>
+        <tr>
+            <td>Authentication</td>
+            <td>Inicia sesión en el sistema</td>
+            <td>POST</td>
+            <td>/api/v1/authentication/sign-in</td>
+            <td>-</td>
+            <td>{
+  "username": "Javier",
+  "password": "string"
+}</td>
+            <td>{
+  "id": 8,
+  "username": "Javier",
+  "token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJKYXZpZXIiLCJpYXQiOjE3MzA1ODA2ODIsImV4cCI6MTczMTE4NTQ4Mn0.O0wWv3YeiW3q7OzPm0cM0hIXT3_2AWstty-qhIbhZ2zb-_fCtrrE-Mh2ozAUOIoi"
+}</td>
+            <td>Authentication Endpoints</td>
+        </tr>
+        <tr>
+            <td>Roles</td>
+            <td>Obtiene la lista de roles disponibles</td>
+            <td>GET</td>
+            <td>/api/v1/roles</td>
+            <td>-</td>
+            <td>-</td>
+            <td>[
+  {
+    "id": 0,
+    "name": "string"
+  }
+]</td>
+            <td>Role Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>GeoFences</td>
+            <td>Obtiene los detalles de una geo-cerca específica</td>
+            <td>GET</td>
+            <td>/api/v1/geo-fences/{geoFenceId}</td>
+            <td>geoFenceId</td>
+            <td>-</td>
+            <td>{
+  "id": 0,
+  "name": "string",
+  "geoFenceStatus": "string",
+  "coordinates": [
+    {
+      "latitude": 0,
+      "longitude": 0
+    }
+  ],
+  "guardianAreaDeviceRecordId": "string"
+}</td>
+            <td>GeoFences Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>GeoFences</td>
+            <td>Actualiza la información de una geo-cerca específica</td>
+            <td>PUT</td>
+            <td>/api/v1/geo-fences/{geoFenceId}</td>
+            <td>geoFenceId</td>
+            <td>{
+  "name": "string",
+  "geoFenceStatus": "string",
+  "coordinates": [
+    {
+      "latitude": 0,
+      "longitude": 0
+    }
+  ]
+}</td>
+            <td>{
+  "id": 0,
+  "name": "string",
+  "geoFenceStatus": "string",
+  "coordinates": [
+    {
+      "latitude": 0,
+      "longitude": 0
+    }
+  ],
+  "guardianAreaDeviceRecordId": "string"
+}</td>
+            <td>GeoFences Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>GeoFences</td>
+            <td>Crea una nueva geo-cerca</td>
+            <td>POST</td>
+            <td>/api/v1/geo-fences</td>
+            <td>-</td>
+            <td>{
+  "name": "string",
+  "geoFenceStatus": "string",
+  "coordinates": [
+    {
+      "latitude": 0,
+      "longitude": 0
+    }
+  ],
+  "guardianAreaDeviceRecordId": "string"
+}</td>
+            <td>{
+  "id": 0,
+  "name": "string",
+  "geoFenceStatus": "string",
+  "coordinates": [
+    {
+      "latitude": 0,
+      "longitude": 0
+    }
+  ],
+  "guardianAreaDeviceRecordId": "string"
+}</td>
+            <td>GeoFences Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Users</td>
+            <td>Obtiene la lista de usuarios registrados</td>
+            <td>GET</td>
+            <td>/api/v1/users</td>
+            <td>-</td>
+            <td>-</td>
+            <td>[
+  {
+    "id": 5,
+    "username": "Cris",
+    "email": "cris@example.com",
+    "firstName": "Cris",
+    "lastName": "Uchiha",
+    "roles": [
+      "ROLE_USER"
+    ]
+  },
+  {
+    "id": 6,
+    "username": "niki",
+    "email": "niki@hotmail.com",
+    "firstName": "Niki",
+    "lastName": "Espinoza",
+    "roles": [
+      "ROLE_ADMIN"
+    ]
+  },
+  {
+    "id": 7,
+    "username": "test4",
+    "email": "test@test.com",
+    "firstName": "test",
+    "lastName": "test",
+    "roles": [
+      "ROLE_ADMIN"
+    ]
+  },
+  {
+    "id": 8,
+    "username": "Javier",
+    "email": "Javier@gmail.com",
+    "firstName": "Javier",
+    "lastName": "Carranza",
+    "roles": [
+      "ROLE_ADMIN"
+    ]
+  }
+]</td>
+            <td>User Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Users</td>
+            <td>Obtiene los detalles de un usuario específico</td>
+            <td>GET</td>
+            <td>/api/v1/users/{userId}</td>
+            <td>userId</td>
+            <td>-</td>
+            <td>{
+  "id": 8,
+  "username": "Javier",
+  "email": "Javier@gmail.com",
+  "firstName": "Javier",
+  "lastName": "Carranza",
+  "roles": [
+    "ROLE_ADMIN"
+  ]
+}</td>
+            <td>User Management Endpoints</td>
+        </tr>
+        <tr>
+            <td>Users</td>
+            <td>Obtiene los dispositivos asignados a un usuario específico</td>
+            <td>GET</td>
+            <td>/api/v1/users/{userId}/devices</td>
+            <td>userId</td>
+            <td>-</td>
+            <td>[
+  {
+    "guardianAreaDeviceRecordId": "string",
+    "nickname": "string",
+    "bearer": "string",
+    "careMode": "string",
+    "status": "string",
+    "userId": 0,
+    "apiKey": "string"
+  }
+]</td>
+            <td>User Management Endpoints</td>
+        </tr>
+    </tbody>
+</table>
+
+- Interacción con el cloud API:
+
+    Registro de usuario
+
+   <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/service-doc/service-1.PNG" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+
+   <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/service-doc/service-2.PNG" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+
+    Inicio de sesión de usuario
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/service-doc/service-3.PNG" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+
+   <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/service-doc/service-4.PNG" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+
+    Asignacion de dispositivo a un usuario
+
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/service-doc/service-5.PNG" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+
+   <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/service-doc/service-6.PNG" alt="Deployment Landing Page"  width="100%"/>
+    </div>
+
+Link del Cloud API: https://github.com/Desarrollo-de-Soluciones-IOT-Grupo-03/Guardian-Area-APl
 
 #### 6.2.3.7 Software Deployment Evidence for Sprint Review
 
