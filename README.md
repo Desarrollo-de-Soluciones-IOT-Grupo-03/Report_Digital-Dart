@@ -1462,428 +1462,921 @@ A continuación, se presenta el diagrama del proceso To-Be, que ilustra la soluc
 
 ## 3.2. User Stories
 
-### **User Stories**
-
-| **Epic / Story**                          | **ID**  | **Título**                          | **Descripción**                                                                                                                                                                      | **Criterios de Aceptación**                                                                                                                                                                                                                                  | **Relacionado con (Epic ID)**    |
-|-------------------------------------------|---------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Monitoreo y Seguridad en Tiempo Real       | 01      | Visualización de Ubicación en Tiempo Real | Como cuidador, quiero poder visualizar la ubicación en tiempo real de la persona a cuidar para estar atento ante cualquier situación.                                                 | **Scenario 01:** Ver Ubicación en Tiempo Real <br/> Dado que el cuidador ha configurado el dispositivo correctamente, <br/> Cuando accede a la aplicación, <br/> Entonces, el sistema permite visualizar la ubicación en tiempo real de la persona a cuidar en el mapa. <br/><br/> **Scenario 02:** Actualización en Tiempo Real <br/> Dado que la persona a cuidar está en movimiento, <br/> Cuando la ubicación cambia, <br/> Entonces, el sistema actualiza automáticamente la ubicación en el mapa. | N/A                             |
-| Monitoreo y Seguridad en Tiempo Real       | 02      | Alerta de Salida de Zona Segura          | Como cuidador, quiero recibir una notificación si la persona a cuidar sale de la geo-cerca para reaccionar rápidamente.                                                                | **Scenario 01:** Recibir Notificación de Salida <br/> Dado que la persona a cuidar ha salido de la zona segura, <br/> Cuando la geo-cerca es cruzada, <br/> Entonces, el sistema envía una notificación al cuidador. <br/><br/> **Scenario 02:** Notificación Repetida <br/> Dado que la persona a cuidar permanece fuera de la geo-cerca, <br/> Cuando transcurren 2 minutos, <br/> Entonces, el sistema envía una segunda notificación al cuidador. | N/A                             |
-| Configuración y Gestión de Geo-cercas      | 03      | Establecer Geo-cercas                    | Como cuidador, quiero poder establecer geo-cercas para definir zonas seguras para la persona a cuidar.                                                                                | **Scenario 01:** Configurar Geo-cerca <br/> Dado que el cuidador necesita delimitar una zona segura, <br/> Cuando accede a la sección de geo-cercas, <br/> Entonces, el sistema permite dibujar un área en el mapa y guardarla como geo-cerca. <br/><br/> **Scenario 02:** Editar Geo-cerca Existente <br/> Dado que el cuidador necesita modificar los límites de una geo-cerca, <br/> Cuando selecciona una geo-cerca existente, <br/> Entonces, el sistema permite editar su tamaño y forma. | N/A                             |
-| Comunicación y Control Remoto              | 04      | Comunicación Remota con el niño a cuidar | Como cuidador de un niño, quiero poder comunicarme con él a través del altavoz del dispositivo para darle instrucciones en caso de emergencia.                                          | **Scenario 01:** Enviar Mensaje de Voz <br/> Dado que el cuidador necesita comunicarse urgentemente, <br/> Cuando presiona el botón de altavoz en la aplicación, <br/> Entonces, el sistema permite grabar y enviar un mensaje de voz al dispositivo. <br/><br/> **Scenario 02:** Confirmación de Recepción <br/> Dado que el cuidador ha enviado un mensaje de voz, <br/> Cuando el dispositivo recibe el mensaje, <br/> Entonces, el sistema muestra una confirmación en la aplicación. | N/A                             |
-| Monitoreo y Seguridad en Tiempo Real       | 05      | Activación de Alarmas en Situación de Peligro | Como cuidador, quiero que el dispositivo active una alarma sonora si la persona a cuidar está en peligro, para llamar la atención de personas cercanas.                                 | **Scenario 01:** Activación Automática de Alarma <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta la salida, <br/> Entonces, el sistema activa la alarma sonora automáticamente. <br/><br/> **Scenario 02:** Desactivación Manual de Alarma <br/> Dado que el cuidador ha resuelto la situación, <br/> Cuando presiona el botón de desactivar en la aplicación, <br/> Entonces, el sistema apaga la alarma sonora de inmediato. | N/A                             |
-| Visualización de Historial                 | 06      | Monitoreo de Actividad Física             | Como cuidador, quiero poder monitorear la actividad física del niño a cuidar para asegurarme de que esté activo y saludable.                                                           | **Scenario 01:** Visualizar Actividad Física <br/> Dado que el cuidador accede a la pantalla principal de la aplicación, <br/> Cuando ingresa a la sección de historial de actividad física, <br/> Entonces, el sistema muestra un resumen de los movimientos y actividad física del día. <br/><br/> **Scenario 02:** Notificación de Inactividad <br/> Dado que el dispositivo detecta poca actividad física, <br/> Cuando el niño ha excedido el tiempo máximo de inactividad configurado en la aplicación, <br/> Entonces, el sistema envía una notificación al cuidador. | N/A                             |
-| Comunicación y Control Remoto              | 07      | Control de Dispositivos Externos          | Como cuidador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro para ayudarme a controlar la situación.         | **Scenario 01:** Activación de Luces Externas <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta este evento, <br/> Entonces, el sistema activa automáticamente las luces exteriores de la casa. <br/><br/> **Scenario 02:** Activación de Cámara de Seguridad <br/> Dado que la persona a cuidar ha salido de la geo-cerca, <br/> Cuando el sistema detecta este evento, <br/> Entonces, el sistema activa la cámara de seguridad y comienza a grabar. | N/A                             |
-| Diagnóstico y Solución de Problemas del Dispositivo | 08 | Diagnóstico y Solución de Problemas del Dispositivo GuardianArea | Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo a través de la aplicación para asegurar su correcto funcionamiento.                                           | **Scenario 01:** Diagnóstico Automático <br/> Dado que el dispositivo no está funcionando correctamente, <br/> Cuando el cuidador accede a la función de diagnóstico, <br/> Entonces, el sistema ejecuta un diagnóstico automático y genera un informe del estado del dispositivo. <br/><br/> **Scenario 02:** Solución de Problemas Guiada <br/> Dado que se ha identificado un problema, <br/> Cuando el cuidador accede a la función de solución de problemas, <br/> Entonces, el sistema ofrece instrucciones paso a paso para resolver el problema. | N/A                             |
-| Visualización de Historial                 | 09      | Revisión del Historial de Eventos         | Como cuidador, quiero poder revisar un historial de todos los eventos y alertas para analizar el comportamiento y mejorar la seguridad.                                                  | **Scenario 01:** Acceso al Historial de Eventos <br/> Dado que el cuidador necesita revisar eventos pasados, <br/> Cuando accede a la sección de historial, <br/> Entonces, el sistema permite visualizar una lista de todos los eventos y alertas anteriores. <br/><br/> **Scenario 02:** Filtrado del Historial <br/> Dado que el cuidador necesita encontrar eventos específicos, <br/> Cuando utiliza los filtros disponibles, <br/> Entonces, el sistema permite ver solo los eventos que cumplen con los criterios seleccionados. | N/A                             |
-| Monitoreo y Seguridad en Tiempo Real       | 10      | Recuperación de Contraseña              | Como usuario, quiero poder recuperar mi contraseña en caso de olvidarla para acceder nuevamente a mi cuenta sin inconvenientes.                                                      | **Scenario 01:** Solicitar Recuperación de Contraseña <br/> Dado que el usuario ha olvidado su contraseña, <br/> Cuando selecciona la opción de "Olvidé mi contraseña" y proporciona su correo electrónico, <br/> Entonces, el sistema envía un enlace de recuperación al correo del usuario. <br/><br/> **Scenario 02:** Acceder al Enlace de Recuperación <br/> Dado que el usuario ha recibido el enlace de recuperación, <br/> Cuando hace clic en el enlace, <br/> Entonces, el sistema permite que el usuario ingrese una nueva contraseña. <br/><br/> **Scenario 03:** Cambiar Contraseña <br/> Dado que el usuario ha ingresado una nueva contraseña, <br/> Cuando confirma la nueva contraseña, <br/> Entonces, el sistema actualiza la contraseña y permite el acceso a la cuenta. <br/><br/> **Scenario 04:** Notificación de Éxito <br/> Dado que la contraseña se ha cambiado con éxito, <br/> Cuando el usuario intenta iniciar sesión con la nueva contraseña, <br/> Entonces, el sistema le permite acceder a su cuenta. | N/A                             |
-
-### **Landing Page Technical Stories**
-
-#### **Technical Story 01**
-
-| **Épica**                | **Interactividad y Visualización de Características** |
-|--------------------------|------------------------------------------------------|
-| **ID-TS**                | 01                                                   |
-| **Owner**                | Castillo Robles, Steve Roger                         |
-| **Título TS**            | Implementar carrusel en la sección de características |
-| **Descripción:**         | Como desarrollador, quiero implementar un carrusel en la sección de características para mostrar múltiples características de manera interactiva y atractiva. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Navegar al siguiente slide <br/> **Dado** que la página de inicio está cargada <br/> **Y** el carrusel está en la primera diapositiva <br/> **Cuando** el usuario hace clic en el botón "Siguiente" <br/> **Entonces** el carrusel muestra la siguiente diapositiva <br/> **Y** el indicador correspondiente se activa. <br/><br/> **Scenario 02 (Happy Path):** Navegar al slide anterior <br/> **Dado** que el carrusel está en una diapositiva que no es la primera <br/> **Cuando** el usuario hace clic en el botón "Anterior" <br/> **Entonces** el carrusel muestra la diapositiva anterior <br/> **Y** el indicador correspondiente se activa. <br/><br/> **Scenario 03 (Happy Path):** Seleccionar un slide específico usando indicadores <br/> **Dado** que la página de inicio está cargada <br/> **Cuando** el usuario hace clic en uno de los indicadores debajo del carrusel <br/> **Entonces** el carrusel muestra la diapositiva correspondiente al indicador seleccionado <br/> **Y** el indicador seleccionado se activa. <br/><br/> **Scenario 04 (Happy Path):** Ciclar al inicio después de la última diapositiva <br/> **Dado** que el carrusel está en la última diapositiva <br/> **Cuando** el usuario hace clic en el botón "Siguiente" <br/> **Entonces** el carrusel vuelve a la primera diapositiva <br/> **Y** el indicador correspondiente se activa. <br/><br/> **Scenario 05 (Happy Path):** Ciclar al final desde la primera diapositiva <br/> **Dado** que el carrusel está en la primera diapositiva <br/> **Cuando** el usuario hace clic en el botón "Anterior" <br/> **Entonces** el carrusel muestra la última diapositiva <br/> **Y** el indicador correspondiente se activa. |
-
----
-
-#### **Technical Story 02**
-
-| **Épica**                | **Validación y Procesamiento de Formularios** |
-|--------------------------|----------------------------------------------|
-| **ID-TS**                | 02                                           |
-| **Owner**                | Castro Soto, Diego Mauricio                  |
-| **Título TS**            | Validar y procesar formulario de contacto sin envío real |
-| **Descripción:**         | Como desarrollador, quiero validar los campos del formulario de contacto (nombre completo, correo electrónico, asunto, teléfono, seleccionar plan, mensaje) y procesar los datos localmente sin enviar la información a un servidor, para simular la funcionalidad de envío y asegurar que la información ingresada es correcta. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Procesar formulario con todos los campos correctamente llenados <br/> **Dado** que el usuario ha llenado todos los campos obligatorios del formulario de contacto con datos válidos: <br/> - Nombre Completo <br/> - Correo Electrónico <br/> - Asunto <br/> - Teléfono <br/> - Seleccionar Plan <br/> - Mensaje <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** el formulario se valida exitosamente <br/> **Y** los datos ingresados se registran en la consola para propósitos de prueba <br/> **Y** se muestra una alerta de confirmación "Formulario enviado con éxito." <br/><br/> **Scenario 02 (Unhappy Path):** Intentar enviar formulario con campos obligatorios vacíos <br/> **Dado** que el usuario ha dejado uno o más campos obligatorios vacíos en el formulario de contacto <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, completa todos los campos." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 03 (Unhappy Path):** Intentar enviar formulario con correo electrónico inválido <br/> **Dado** que el usuario ha ingresado un correo electrónico con formato incorrecto en el campo "Correo Electrónico" <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, ingresa un correo electrónico válido." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 04 (Unhappy Path):** Intentar enviar formulario con número de teléfono inválido <br/> **Dado** que el usuario ha ingresado caracteres no numéricos en el campo "Teléfono" <br/> **Cuando** el usuario hace clic en el botón "Enviar" <br/> **Entonces** se muestra una alerta con el mensaje "Por favor, ingresa un número de teléfono válido (solo números)." <br/> **Y** el formulario no se procesa ni se registran datos en la consola. <br/><br/> **Scenario 05 (Happy Path):** Restringir entrada de caracteres no numéricos en el campo de teléfono <br/> **Dado** que el usuario está ingresando datos en el campo "Teléfono" <br/> **Cuando** el usuario intenta ingresar caracteres no numéricos <br/> **Entonces** dichos caracteres son eliminados automáticamente del campo de entrada <br/> **Y** solo se permiten dígitos numéricos en el campo. <br/><br/> **Scenario 06 (Happy Path):** Simular procesamiento exitoso del formulario con `fakeFetch` <br/> **Dado** que el usuario ha llenado el formulario correctamente <br/> **Cuando** el formulario es procesado <br/> **Entonces** la función `fakeFetch` es llamada para simular una solicitud al servidor <br/> **Y** después de un breve retraso, se muestra una alerta "Formulario enviado con éxito." <br/> **Y** los datos ingresados se registran en la consola para propósitos de prueba. <br/><br/> **Scenario 07 (Unhappy Path):** Manejar error simulado en el procesamiento del formulario <br/> **Dado** que ocurre un error durante el procesamiento del formulario (simulado) <br/> **Cuando** la función `fakeFetch` rechaza la promesa (simulación de error) <br/> **Entonces** se muestra una alerta con el mensaje "Hubo un error al enviar el formulario." <br/> **Y** el usuario puede intentar procesar el formulario nuevamente. |
-
----
-
-#### **Technical Story 03**
-
-| **Épica**                | **Mantenimiento de Contenido Actualizado** |
-|--------------------------|-------------------------------------------|
-| **ID-TS**                | 03                                        |
-| **Owner**                | Espinoza Quispe, Jennifer Mary            |
-| **Título TS**            | Actualizar automáticamente el año en el pie de página |
-| **Descripción:**         | Como desarrollador, quiero que el año en el pie de página se actualice automáticamente al año actual, para mantener la información de derechos de autor siempre actualizada. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Mostrar el año actual en el pie de página <br/> **Dado** que la página se ha cargado completamente <br/> **Cuando** el script que actualiza el año es ejecutado <br/> **Entonces** el elemento con id "copyRight" muestra "© [año actual] Todos los derechos reservados." <br/> **Y** el año se actualiza dinámicamente sin necesidad de cambiar el código manualmente cada año. |
-
----
-
-#### **Technical Story 04**
-
-| **Épica**                | **Navegación y Accesibilidad** |
-|--------------------------|-------------------------------|
-| **ID-TS**                | 04                            |
-| **Owner**                | Esquivel Aguayo, Diego Martin  |
-| **Título TS**            | Implementar enlaces a las páginas principales de redes sociales en el pie de página |
-| **Descripción:**         | Como desarrollador, quiero que los iconos de redes sociales en el pie de página dirijan a las páginas principales de las redes sociales, para permitir que los usuarios visiten estas plataformas. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Hacer clic en el icono de Facebook <br/> **Dado** que el usuario está viendo el pie de página <br/> **Cuando** el usuario hace clic en el icono de Facebook <br/> **Entonces** se abre una nueva pestaña o ventana que dirige a la página principal de Facebook. <br/><br/> **Scenario 02 (Happy Path):** Hacer clic en el icono de Instagram <br/> **Dado** que el usuario está viendo el pie de página <br/> **Cuando** el usuario hace clic en el icono de Instagram <br/> **Entonces** se abre una nueva pestaña o ventana que dirige a la página principal de Instagram. <br/><br/> **Scenario 03 (Happy Path):** Hacer clic en el icono de Twitter <br/> **Dado** que el usuario está viendo el pie de página <br/> **Cuando** el usuario hace clic en el icono de Twitter <br/> **Entonces** se abre una nueva pestaña o ventana que dirige a la página principal de Twitter. |
-
----
-
-#### **Technical Story 05**
-
-| **Épica**                | **Navegación y Accesibilidad** |
-|--------------------------|-------------------------------|
-| **ID-TS**                | 05                            |
-| **Owner**                | Quito Igreda, Cristian Andrés  |
-| **Título TS**            | Implementar navegación interna en el encabezado |
-| **Descripción:**         | Como desarrollador, quiero que los enlaces del menú de navegación permitan al usuario desplazarse a las diferentes secciones de la página de forma fluida. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Navegar a la sección "Características" <br/> **Dado** que el usuario está en cualquier parte de la página de inicio <br/> **Cuando** el usuario hace clic en el enlace "Características" en el menú <br/> **Entonces** la página se desplaza hasta la sección "Características". <br/><br/> **Scenario 02 (Happy Path):** Navegar a la sección "Planes" <br/> **Dado** que el usuario está en cualquier parte de la página de inicio <br/> **Cuando** el usuario hace clic en el enlace "Planes" en el menú <br/> **Entonces** la página se desplaza hasta la sección "Planes". <br/><br/> **Scenario 03 (Happy Path):** Navegar a la sección "Testimonios" <br/> **Dado** que el usuario está en cualquier parte de la página de inicio <br/> **Cuando** el usuario hace clic en el enlace "Testimonios" en el menú <br/> **Entonces** la página se desplaza hasta la sección "Testimonios". <br/><br/> **Scenario 04 (Happy Path):** Navegar a la sección "Contactos" <br/> **Dado** que el usuario está en cualquier parte de la página de inicio <br/> **Cuando** el usuario hace clic en el enlace "Contactos" en el menú <br/> **Entonces** la página se desplaza hasta la sección "Contactos". |
-
----
-
-#### **Technical Story 06**
-
-| **Épica**                | **Navegación y Accesibilidad** |
-|--------------------------|-------------------------------|
-| **ID-TS**                | 06                            |
-| **Owner**                | Castillo Robles, Steve Roger   |
-| **Título TS**            | Redirigir al inicio de la página al hacer clic en el logo |
-| **Descripción:**         | Como desarrollador, quiero que al hacer clic en el logo de la aplicación en el encabezado, el usuario sea redirigido al inicio de la página, para mejorar la navegación y usabilidad. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Hacer clic en el logo redirige al inicio de la página <br/> **Dado** que el usuario está en cualquier sección de la página <br/> **Cuando** el usuario hace clic en el logo de la aplicación en el encabezado <br/> **Entonces** la página se desplaza hasta la sección "Hero" o inicio de la página. |
-
----
-
-#### **Technical Story 07**
-
-| **Épica**                | **Presentación de Contenido** |
-|--------------------------|------------------------------|
-| **ID-TS**                | 07                           |
-| **Owner**                | Castro Soto, Diego Mauricio   |
-| **Título TS**            | Mostrar testimonios en tarjetas organizadas |
-| **Descripción:**         | Como desarrollador, quiero presentar los testimonios de clientes en tarjetas organizadas para mejorar la legibilidad y el impacto visual. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar testimonios en formato de tarjeta <br/> **Dado** que el usuario ha llegado a la sección de "Testimonios" <br/> **Cuando** la sección se carga <br/> **Entonces** los testimonios se muestran en tarjetas individuales con foto, nombre, descripción y comentario. |
-
----
-
-#### **Technical Story 08**
-
-| **Épica**                | **Presentación de Contenido** |
-|--------------------------|------------------------------|
-| **ID-TS**                | 08                           |
-| **Owner**                | Espinoza Quispe, Jennifer Mary |
-| **Título TS**            | Mostrar planes en tarjetas organizadas |
-| **Descripción:**         | Como desarrollador, quiero mostrar los diferentes planes en tarjetas organizadas para que los usuarios puedan comparar fácilmente las opciones disponibles. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar planes en formato de tarjeta <br/> **Dado** que el usuario ha llegado a la sección de "Planes" <br/> **Cuando** la sección se carga <br/> **Entonces** los planes se muestran en tarjetas individuales con el nombre del plan, precio, características y botón "Obtener Plan". |
-
----
-
-#### **Technical Story 09**
-
-| **Épica**                | **Interfaz de Usuario y Diseño** |
-|--------------------------|---------------------------------|
-| **ID-TS**                | 09                              |
-| **Owner**                | Quito Igreda, Cristian Andrés    |
-| **Título TS**            | Mostrar botones de descarga de aplicaciones sin funcionalidad activa |
-| **Descripción:**         | Como desarrollador, quiero mostrar los botones de descarga de App Store y Google Play en la sección principal para simular su presencia, aunque actualmente no estén vinculados a ninguna aplicación. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar botones de descarga en la sección principal <br/> **Dado** que el usuario está en la sección "Hero" de la página de inicio <br/> **Cuando** la sección se carga <br/> **Entonces** se muestran los botones de descarga de App Store y Google Play sin funcionalidad activa <br/> **Y** los botones sirven como elementos visuales para representar la disponibilidad futura de la aplicación. |
-
----
-
-#### **Technical Story 10**
-
-| **Épica**                | **Interfaz de Usuario y Diseño** |
-|--------------------------|---------------------------------|
-| **ID-TS**                | 10                              |
-| **Owner**                | Quito Igreda, Cristian Andrés    |
-| **Título TS**            | Mostrar botón "Ingresar" sin funcionalidad activa |
-| **Descripción:**         | Como desarrollador, quiero incluir un botón "Ingresar" en el encabezado que actualmente no tiene funcionalidad activa, para representar una futura característica de inicio de sesión. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar botón "Ingresar" en el encabezado <br/> **Dado** que el usuario está en cualquier sección de la página de inicio <br/> **Cuando** la página se carga <br/> **Entonces** el botón "Ingresar" se muestra en el encabezado sin funcionalidad activa <br/> **Y** al hacer clic en él, no ocurre ninguna acción. |
-
----
-
-#### **Technical Story 11**
-
-| **Épica**                | **Interfaz de Usuario y Diseño Responsivo** |
-|--------------------------|--------------------------------------------|
-| **ID-TS**                | 11                                         |
-| **Owner**                | Esquivel Aguayo, Diego Martin               |
-| **Título TS**            | Implementar diseño responsivo para dispositivos móviles |
-| **Descripción:**         | Como desarrollador, quiero que la landing page sea responsiva y se adapte correctamente a diferentes tamaños de pantalla, especialmente dispositivos móviles, para mejorar la experiencia del usuario. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar la página correctamente en dispositivos móviles <br/> **Dado** que el usuario accede a la landing page desde un dispositivo móvil <br/> **Cuando** la página se carga <br/> **Entonces** el contenido se ajusta correctamente al tamaño de pantalla <br/> **Y** los elementos son fácilmente navegables y legibles. |
-
----
-
-### **Frontend Technical Stories**
-
-#### **Technical Story 12**
-
-| **Épica**                | **Autenticación de Usuarios**         |
-|--------------------------|----------------------------------------|
-| **ID-TS**                | 12                                     |
-| **Owner**                | Castillo Robles, Steve Roger           |
-| **Título TS**            | Crear vista de login utilizando API falso      |
-| **Descripción:**         | Como desarrollador, quiero crear una vista de login donde los usuarios puedan ingresar sus credenciales, utilizando un API falso para simular la autenticación, de modo que pueda probar la interfaz y flujo de usuario. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Iniciar sesión exitosamente <br/> **Dado** que el usuario está en la página de login <br/> **Y** ingresa credenciales válidas <br/> **Cuando** el usuario hace clic en el botón "Ingresar" <br/> **Entonces** el sistema verifica las credenciales utilizando el API falso <br/> **Y** el usuario es redirigido a la vista de home. <br/><br/> **Scenario 02 (Unhappy Path):** Fallo en el inicio de sesión por credenciales inválidas <br/> **Dado** que el usuario ingresa credenciales incorrectas <br/> **Cuando** hace clic en el botón "Ingresar" <br/> **Entonces** el sistema muestra un mensaje de error "Credenciales incorrectas" <br/> **Y** permanece en la página de login. |
-
----
-
-#### **Technical Story 13**
-
-| **Épica**                | **Autenticación de Usuarios**         |
-|--------------------------|----------------------------------------|
-| **ID-TS**                | 13                                     |
-| **Owner**                | Castro Soto, Diego Mauricio            |
-| **Título TS**            | Crear vista de registro utilizando API falso   |
-| **Descripción:**         | Como desarrollador, quiero crear una vista de registro donde los nuevos usuarios puedan crear una cuenta, utilizando un API falso para simular el proceso de registro, de modo que pueda probar la interfaz y flujo de usuario. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Registrarse exitosamente <br/> **Dado** que el usuario está en la página de registro <br/> **Y** completa todos los campos requeridos con datos válidos <br/> **Cuando** hace clic en el botón "Registrarse" <br/> **Entonces** el sistema envía los datos al API falso <br/> **Y** muestra un mensaje de confirmación "Registro exitoso" <br/> **Y** el usuario es redirigido a la página de login. <br/><br/> **Scenario 02 (Unhappy Path):** Fallo en el registro por datos inválidos <br/> **Dado** que el usuario ingresa datos inválidos o deja campos obligatorios vacíos <br/> **Cuando** hace clic en el botón "Registrarse" <br/> **Entonces** el sistema muestra mensajes de error indicando los campos a corregir. |
-
----
-
-#### **Technical Story 14**
-
-| **Épica**                | **Monitoreo en Tiempo Real**         |
-|--------------------------|--------------------------------------|
-| **ID-TS**                | 14                                   |
-| **Owner**                | Espinoza Quispe, Jennifer Mary       |
-| **Título TS**            | Crear vista de home con mapa de monitoreo utilizando API falso |
-| **Descripción:**         | Como desarrollador, quiero crear una vista de home que muestre un mapa para monitorear en tiempo real la ubicación de la persona monitoreada, utilizando un API falso que provea datos simulados de ubicación, para probar la funcionalidad de monitoreo. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar ubicación en el mapa <br/> **Dado** que el usuario ha iniciado sesión y accede a la vista de home <br/> **Cuando** la página se carga <br/> **Entonces** el sistema obtiene datos de ubicación del API falso <br/> **Y** muestra la ubicación en el mapa de forma actualizada. |
-
----
-
-#### **Technical Story 15**
-
-| **Épica**                | **Historial de Actividades**         |
-|--------------------------|--------------------------------------|
-| **ID-TS**                | 15                                   |
-| **Owner**                | Esquivel Aguayo, Diego Martin        |
-| **Título TS**            | Crear vista de historial de actividades utilizando API falso |
-| **Descripción:**         | Como desarrollador, quiero crear una vista que muestre el historial de actividades de la persona monitoreada, utilizando un API falso que provea datos simulados, para probar la interfaz y presentación del historial. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar historial de actividades <br/> **Dado** que el usuario está en la vista de historial de actividades <br/> **Cuando** la página se carga <br/> **Entonces** el sistema obtiene los datos del historial del API falso <br/> **Y** muestra una lista o tabla con las actividades realizadas. |
-
----
-
-#### **Technical Story 16**
-
-| **Épica**                | **Monitoreo de Ritmo Cardíaco y Oxigenación** |
-|--------------------------|-----------------------------------------------|
-| **ID-TS**                | 16                                            |
-| **Owner**                | Quito Igreda, Cristian Andrés                 |
-| **Título TS**            | Crear vista de ritmo cardíaco y oxigenación utilizando API falso |
-| **Descripción:**         | Como desarrollador, quiero crear una vista que muestre los datos de ritmo cardíaco y oxigenación de la persona monitoreada, utilizando un API falso que provea datos simulados, para probar la funcionalidad de monitoreo de signos vitales. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar datos de ritmo cardíaco y oxigenación <br/> **Dado** que el usuario está en la vista de ritmo cardíaco y oxigenación <br/> **Cuando** la página se carga <br/> **Entonces** el sistema obtiene los datos del API falso <br/> **Y** muestra gráficos o indicadores actualizados con los datos recibidos. |
-
----
-
-#### **Technical Story 17**
-
-| **Épica**                | **Navegación entre Vistas**         |
-|--------------------------|-------------------------------------|
-| **ID-TS**                | 17                                  |
-| **Owner**                | Castillo Robles, Steve Roger        |
-| **Título TS**            | Implementar navegación entre las diferentes vistas |
-| **Descripción:**         | Como desarrollador, quiero permitir que el usuario pueda navegar entre las vistas de login, registro, home, historial de actividades y ritmo cardíaco/oxigenación, asegurando una experiencia fluida en la aplicación. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Navegar desde login a registro <br/> **Dado** que el usuario está en la vista de login <br/> **Cuando** hace clic en un enlace o botón "Registrarse" <br/> **Entonces** es redirigido a la vista de registro. <br/><br/> **Scenario 02 (Happy Path):** Navegar desde registro a login <br/> **Dado** que el usuario está en la vista de registro <br/> **Cuando** hace clic en un enlace o botón "Iniciar Sesión" <br/> **Entonces** es redirigido a la vista de login. <br/><br/> **Scenario 03 (Happy Path):** Navegar a la vista de home tras iniciar sesión <br/> **Dado** que el usuario ha ingresado credenciales válidas <br/> **Cuando** hace clic en el botón "Ingresar" <br/> **Entonces** es redirigido a la vista de home. <br/><br/> **Scenario 04 (Happy Path):** Navegar entre home, historial y ritmo cardíaco/oxigenación <br/> **Dado** que el usuario está en la vista de home <br/> **Cuando** hace clic en las opciones de navegación <br/> **Entonces** puede acceder a las vistas de historial de actividades y ritmo cardíaco/oxigenación. |
-
----
-
-#### **Technical Story 18**
-
-| **Épica**                | **Interfaz de Usuario y Diseño**         |
-|--------------------------|------------------------------------------|
-| **ID-TS**                | 18                                       |
-| **Owner**                | Castro Soto, Diego Mauricio              |
-| **Título TS**            | Diseñar la interfaz gráfica de las vistas del frontend |
-| **Descripción:**         | Como desarrollador, quiero diseñar la interfaz gráfica de las vistas de login, registro, home, historial de actividades y ritmo cardíaco/oxigenación, aplicando estilos y principios de diseño para ofrecer una experiencia visual coherente y atractiva al usuario. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Aplicar estilos y diseño coherente <br/> **Dado** que el usuario navega por las diferentes vistas <br/> **Cuando** las páginas se cargan <br/> **Entonces** se aplican estilos CSS coherentes en todas las vistas <br/> **Y** la interfaz es atractiva y fácil de usar. |
-
----
-
-#### **Technical Story 19**
-
-| **Épica**                | **Implementación de Rutas en el Frontend** |
-|--------------------------|-------------------------------------------|
-| **ID-TS**                | 19                                        |
-| **Owner**                | Espinoza Quispe, Jennifer Mary            |
-| **Título TS**            | Configurar las rutas para las diferentes vistas |
-| **Descripción:**         | Como desarrollador, quiero configurar las rutas en el frontend para que cada vista tenga su propia URL, permitiendo una navegación más organizada y facilitando el manejo de estados en la aplicación. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Acceder a vistas mediante rutas <br/> **Dado** que el usuario ingresa una URL específica en el navegador <br/> **Cuando** la URL corresponde a una vista existente (e.g., "/login", "/register", "/home") <br/> **Entonces** se carga la vista correspondiente. <br/><br/> **Scenario 02 (Unhappy Path):** Acceder a una ruta inexistente <br/> **Dado** que el usuario ingresa una URL que no corresponde a ninguna vista <br/> **Cuando** la página intenta cargarse <br/> **Entonces** se muestra una página de error 404 o una vista predeterminada. |
-
----
-
-#### **Technical Story 20**
-
-| **Épica**                | **Consumo de API Falso en el Frontend**         |
-|--------------------------|-------------------------------------------------|
-| **ID-TS**                | 20                                              |
-| **Owner**                | Esquivel Aguayo, Diego Martin                   |
-| **Título TS**            | Utilizar API falso para obtener datos en las vistas de monitoreo |
-| **Descripción:**         | Como desarrollador, quiero consumir un API falso en el frontend para obtener datos de ubicación, historial de actividades y signos vitales, permitiendo probar y validar las funcionalidades que dependen de datos externos. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Obtener datos de ubicación del API falso <br/> **Dado** que el usuario está en la vista de home <br/> **Cuando** la página se carga <br/> **Entonces** el sistema realiza una petición al API falso <br/> **Y** obtiene datos de ubicación para mostrar en el mapa. <br/><br/> **Scenario 02 (Happy Path):** Obtener historial de actividades del API falso <br/> **Dado** que el usuario está en la vista de historial de actividades <br/> **Cuando** la página se carga <br/> **Entonces** el sistema obtiene los datos del historial desde el API falso. <br/><br/> **Scenario 03 (Happy Path):** Obtener datos de signos vitales del API falso <br/> **Dado** que el usuario está en la vista de ritmo cardíaco y oxigenación <br/> **Cuando** la página se carga <br/> **Entonces** el sistema obtiene los datos desde el API falso para mostrarlos en gráficos o indicadores. |
-
----
-
-#### **Technical Story 21**
-
-| **Épica**                | **Interfaz de Usuario y Diseño Responsivo**         |
-|--------------------------|----------------------------------------------------|
-| **ID-TS**                | 21                                                 |
-| **Owner**                | Quito Igreda, Cristian Andrés                      |
-| **Título TS**            | Implementar diseño responsivo para las vistas del frontend |
-| **Descripción:**         | Como desarrollador, quiero que las vistas del frontend sean responsivas y se adapten correctamente a diferentes tamaños de pantalla, especialmente dispositivos móviles, para mejorar la experiencia del usuario. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Visualizar las vistas correctamente en dispositivos móviles <br/> **Dado** que el usuario accede a las vistas desde un dispositivo móvil <br/> **Cuando** las páginas se cargan <br/> **Entonces** el contenido se ajusta correctamente al tamaño de pantalla <br/> **Y** los elementos son fácilmente navegables y legibles. |
-
----
-
-| **Épica**                | **Gestión de Geo-cercas**                               |
-|--------------------------|--------------------------------------------------------|
-| **ID-TS**                | 31                                                     |
-| **Owner**                | Jennifer Mary                                          |
-| **Título TS**            | Agregar marcadores y figuras de Geo-cercas en el mapa  |
-| **Descripción:**         | Como desarrollador, quiero agregar marcadores en el mapa para delimitar y crear figuras de geocerca, de modo que el usuario pueda establecer áreas seguras. |
-| **Criterio de Aceptación:** | **Scenario 01:** Agregar puntos de marcadores en el mapa <br/> **Dado** que el usuario accede a la pantalla de geocercas, <br/> **Cuando** selecciona puntos en el mapa, <br/> **Entonces** se crean marcadores que permiten definir la zona de geocerca. |
-
----
-
-| **Épica**                | **Autenticación de Usuario**                           |
-|--------------------------|-------------------------------------------------------|
-| **ID-TS**                | 32                                                    |
-| **Owner**                | Diego Mauricio                                        |
-| **Título TS**            | Implementar interceptores y guardas para iniciar sesión |
-| **Descripción:**         | Como desarrollador, quiero implementar interceptores y guardas de rutas para verificar el inicio de sesión en el frontend, asegurando que solo los usuarios autenticados accedan a ciertas rutas. |
-| **Criterio de Aceptación:** | **Scenario 01:** Redirigir a inicio de sesión si no hay token válido <br/> **Dado** que un usuario no autenticado intenta acceder a una ruta restringida, <br/> **Cuando** el sistema detecta la falta de token válido, <br/> **Entonces** redirige a la pantalla de inicio de sesión. |
-
----
-
-| **Épica**                | **Interfaz de Usuario**                               |
-|--------------------------|-------------------------------------------------------|
-| **ID-TS**                | 34                                                    |
-| **Owner**                | Steve Roger                                           |
-| **Título TS**            | Crear servicio y componente de spinner                |
-| **Descripción:**         | Como desarrollador, quiero implementar un componente de spinner y su servicio para indicar cuando una operación de carga está en progreso. |
-| **Criterio de Aceptación:** | **Scenario 01:** Mostrar spinner durante carga de datos <br/> **Dado** que el sistema está cargando datos, <br/> **Cuando** el usuario espera la respuesta, <br/> **Entonces** se muestra el spinner en pantalla para indicar el estado de carga. |
-
----
-
-| **Épica**                | **Gestión de Geo-cercas**                             |
-|--------------------------|-------------------------------------------------------|
-| **ID-TS**                | 35                                                    |
-| **Owner**                | Jennifer Mary                                         |
-| **Título TS**            | Pantalla de registro de Geo-cerca                     |
-| **Descripción:**         | Como desarrollador, quiero crear una pantalla donde el usuario pueda registrar y editar las geo-cercas desde la aplicación. |
-| **Criterio de Aceptación:** | **Scenario 01:** Registrar nueva geo-cerca <br/> **Dado** que el usuario accede a la pantalla de registro de geo-cercas, <br/> **Cuando** completa los campos requeridos y guarda, <br/> **Entonces** el sistema registra la nueva geo-cerca en la base de datos. |
-
----
-
-### **Backend Technical Stories**
-
-| **Épica**                | **Configuración y Gestión de Geo-cercas**         |
-|--------------------------|--------------------------------------------------|
-| **ID-TS**                | 22                                               |
-| **Owner**                | Jennifer Espinoza                                 |
-| **Título TS**            | Crear Geo-Cerca mediante RESTful API              |
-| **Descripción:**         | Como desarrollador, quiero crear una Geo-Cerca mediante el API, de modo que se puedan establecer zonas seguras. |
-| **Criterio de Aceptación:** | **Scenario 01:** Crear una geo-cerca con nombre único <br/> **Dado** que el endpoint `/api/v1/geofence` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el nombre y coordenadas <br/> **Entonces** una respuesta es recibida con el estado 201. <br/> **Y** una Geofence Resource es incluida en el cuerpo de la respuesta con una nueva id y registrada con los valores para el nombre y coordenadas. <br/><br/> **Scenario 02 (Unhappy Path):** Crear una geo-cerca con nombre existente <br/> **Dado** que el endpoint `/api/v1/geofence` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el nombre y coordenadas <br/> **Y** una Geofence Resource con el mismo nombre ya se encuentra guardada <br/> **Entonces** una respuesta es recibida con el estado 400 <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "A geofence with the same name already exists." <br/><br/> **Scenario 03 (Unhappy Path):** Crear una geo-cerca superpuesta a otra <br/> **Dado** que el endpoint `/api/v1/geofence` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el nombre y coordenadas <br/> **Y** las coordenadas se superponen con una Geofence Resource ya existente <br/> **Entonces** una respuesta es recibida con el estado 400 <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "Coordinates overlap with an already existing geofence." |
-
----
-
-| **Épica**                | **Configuración y Gestión de Geo-cercas**         |
-|--------------------------|--------------------------------------------------|
-| **ID-TS**                | 23                                               |
-| **Owner**                | Cristian Quito                                 |
-| **Título TS**            | Obtener ubicación actual del usuario mediante RESTful API |
-| **Descripción:**         | Como desarrollador, quiero obtener la ubicación actual del usuario mediante el API, de modo que pueda detectar si el usuario entra o sale de una geocerca. |
-| **Criterio de Aceptación:** | **Scenario 01:** Obtener ubicacion actual con el Id del dispositivo <br/> **Dado** que el endpoint `/api/v1/device/{id}/current-location` está disponible, <br/> **Cuando** una solicitud GET es enviada con el id del dispositivo <br/> **Entonces** una respuesta es recibida con el estado 200 <br/> **Y** un Current Location Resource es incluido en el cuerpo de la respuesta con los valores para latitud y longitud en grados, minutos y segundos. |
-
----
-
-| **Épica**                | **Gestión de Usuarios**                           |
-|--------------------------|--------------------------------------------------|
-| **ID-TS**                | 24                                               |
-| **Owner**                | Diego Castro                                       |
-| **Título TS**            | Crear un usuario mediante RESTful API             |
-| **Descripción:**         | Como desarrollador, quiero crear un usuario mediante el API, de modo que pueda tener acceso a las funcionalidades del sistema. |
-| **Criterio de Aceptación:** | **Scenario 01:** Crear un usuario con email, contraseña y username únicos <br/> **Dado** que el endpoint `/api/v1/users` está disponible, <br/> **Cuando** se envía una solicitud POST con los datos para el email, contraseña y username, <br/> **Entonces** se recibe una respuesta con el estado 201, <br/> **Y** un User Resource es incluido en el cuerpo de la respuesta con un nuevo id y los valores registrados para email, contraseña y username. <br/><br/> **Scenario 02:** Crear un usuario con email o username ya existentes <br/> **Dado** que el endpoint `/api/v1/users` está disponible, <br/> **Cuando** se envía una solicitud POST con los datos para el email, contraseña y username, <br/> **Y** ya existe un usuario con el mismo email o username registrado, <br/> **Entonces** se recibe una respuesta con el estado 400, <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "A user with the same email or username already exists." |
-
----
-
-| **Épica**                | **Subir Archivos**                                |
-|--------------------------|--------------------------------------------------|
-| **ID-TS**                | 25                                               |
-| **Owner**                | Diego Esquivel                                     |
-| **Título TS**            | Subir mensaje de voz mediante RESTful API         |
-| **Descripción:**         | Como desarrollador, quiero subir un mensaje de voz mediante el API, de modo que se mejore la experiencia del usuario al permitir la comunicación con su ser querido a través de mensajes de voz. |
-| **Criterio de Aceptación:** | **Scenario 01:** Subir mensaje de voz en formato mp3 y con duración menor a 30 segundos <br/> **Dado** que el endpoint `/api/v1/voice` esta disponible, <br/> **Cuando** una solicitud POST es enviada con el audio <br/> **Y** el formato es mp3 con duración menor a 30 segundos <br/> **Entonces** se recibe una respuesta con el estado 201, <br/> **Y** un Voice Resource es incluido en el cuerpo de la respuesta con un nuevo id y el enlace generado para el audio. <br/><br/> **Scenario 02:** Subir mensaje de voz con un formato diferente de mp3 y con duración menor a 30 segundos <br/> **Dado** que el endpoint `/api/v1/voice` esta disponible, <br/> **Cuando** una solicitud POST es enviada con el audio <br/> **Y** el formato no corresponde a mp3 <br/> **Y** la duración es menor a 30 segundos <br/> **Entonces** se recibe una respuesta con el estado 400, <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "The file format must be mp3." <br/><br/> **Scenario 03:** Subir mensaje de voz en mp3 y con duración mayor a 30 segundos <br/> **Dado** que el endpoint `/api/v1/voice` esta disponible, <br/> **Cuando** una solicitud POST es enviada con el audio <br/> **Y** el formato corresponde a mp3 <br/> **Y** la duración es mayor a 30 segundos <br/> **Entonces** se recibe una respuesta con el estado 400, <br/> **Y** un mensaje es incluido en el cuerpo de la respuesta con el valor "The duration of the audio must be less than 30 seconds." |
-
----
-
-| **Épica**                | **Notificaciones**                               |
-|--------------------------|--------------------------------------------------|
-| **ID-TS**                | 26                                               |
-| **Owner**                | Cristian Quito                                |
-| **Título TS**            | Crear notificación mediante RESTful API           |
-| **Descripción:**         | Como desarrollador, quiero crear una notificación mediante el API, de modo que los usuarios puedan recibir alertas de seguridad. |
-| **Criterio de Aceptación:** | **Scenario 01:** Crear una notificación <br/> **Dado** que el endpoint `/api/v1/notification` está disponible, <br/> **Cuando** una solicitud POST es enviada con los datos para el tipo de notificación y descripción <br/> **Entonces** una respuesta es recibida con el estado 201 <br/> **Y** una Notification Resource es incluida en el cuerpo de la respuesta con una nueva id y registrada con los valores para el tipo de notificación y descripción. |
-
----
-
-| **Épica**                | **Gestión de Dispositivos**                           |
-|--------------------------|-------------------------------------------------------|
-| **ID-TS**                | 33                                                    |
-| **Owner**                | Cristian Andrés                                       |
-| **Título TS**            | Servicio para listado de dispositivos                 |
-| **Descripción:**         | Como desarrollador, quiero crear un servicio para obtener el listado de dispositivos registrados para mostrarlos en la aplicación. |
-| **Criterio de Aceptación:** | **Scenario 01:** Listar dispositivos en la app <br/> **Dado** que el usuario accede a la lista de dispositivos, <br/> **Cuando** el servicio obtiene los dispositivos, <br/> **Entonces** muestra la información en la interfaz. |
-
----
-
-### **IoT Technical Stories**
-
-#### **Technical Story 27**
-
-| **Épica**                | **Monitoreo y Seguridad en Tiempo Real**         |
-|--------------------------|--------------------------------------------------|
-| **ID-TS**                | 27                                               |
-| **Owner**                | Cristian Quito                                    |
-| **Título TS**            | API para Activación de Alarmas en Situaciones de Peligro |
-| **Descripción:**         | Como desarrollador, quiero implementar una API para activar alarmas sonoras en el dispositivo cuando se detecta peligro. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Activación automática de la alarma <br/> **Dado** que la persona a cuidar ha salido de la geo-cerca, <br/> **Cuando** se detecta la salida, <br/> **Entonces** la alarma debe activarse automáticamente. <br/><br/> **Scenario 02 (Unhappy Path):** Error en la activación de la alarma por fallo de conectividad <br/> **Dado** que hay un problema de conectividad con el dispositivo, <br/> **Cuando** se intenta activar la alarma, <br/> **Entonces** no debería activarse, y el sistema debería registrar un error y enviar una notificación. <br/><br/> **Scenario 03 (Unhappy Path):** Fallo en la activación de la alarma por batería baja <br/> **Dado** que la batería del dispositivo está baja o agotada, <br/> **Cuando** se intenta activar la alarma, <br/> **Entonces** no debería activarse, y el sistema debería generar una alerta indicando el nivel bajo de batería. <br/><br/> **Scenario 04 (Unhappy Path):** Error en la activación de la alarma por hardware dañado <br/> **Dado** que el dispositivo tiene un fallo en el hardware que controla la alarma, <br/> **Cuando** se intenta activar la alarma, <br/> **Entonces** no debería activarse, y el sistema debería registrar el fallo de hardware. <br/><br/> **Scenario 05 (Unhappy Path):** Activación retrasada de la alarma <br/> **Dado** que el sistema de alarmas está saturado o presenta un retraso en el procesamiento, <br/> **Cuando** la persona a cuidar sale de la geo-cerca, <br/> **Entonces** la alarma debería activarse con retraso, y el sistema debería registrar el tiempo del retraso. <br/><br/> **Scenario 06 (Unhappy Path):** Error en la desactivación de la alarma <br/> **Dado** que la alarma se ha activado correctamente, <br/> **Cuando** se intenta desactivar manualmente desde la aplicación, <br/> **Entonces** la alarma no debería apagarse, y el sistema debería registrar un error en la desactivación. |
-
----
-
-#### **Technical Story 28**
-
-| **Épica**                | **Comunicación y Control Remoto**         |
-|--------------------------|-------------------------------------------|
-| **ID-TS**                | 28                                        |
-| **Owner**                | Jennifer Espinoza                         |
-| **Título TS**            | API para Control de Dispositivos Externos |
-| **Descripción:**         | Como desarrollador, quiero que GuardianArea pueda activar otros dispositivos como luces o cámaras cuando la persona a cuidar está en peligro. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Activación de luces externas <br/> **Dado** que la persona ha salido de la geo-cerca, <br/> **Cuando** el evento es detectado, <br/> **Entonces** las luces deberían encenderse automáticamente. <br/><br/> **Scenario 02 (Unhappy Path):** Falla en la activación de las luces por falta de conexión <br/> **Dado** que el sistema de luces no está conectado, <br/> **Cuando** se intenta activarlas, <br/> **Entonces** no deberían encenderse, y se debería registrar un error en el sistema. <br/><br/> **Scenario 03 (Unhappy Path):** No existen dispositivos externos conectados <br/> **Dado** que no hay dispositivos externos como luces o cámaras configurados, <br/> **Cuando** el evento es detectado, <br/> **Entonces** el sistema debería notificar que no hay dispositivos disponibles para activar. <br/><br/> **Scenario 04 (Unhappy Path):** Fallo en el dispositivo externo conectado <br/> **Dado** que un dispositivo externo (como luces o cámaras) está dañado o no responde, <br/> **Cuando** se intenta activarlo, <br/> **Entonces** el sistema debería registrar un error y notificar que el dispositivo no pudo ser activado. <br/><br/> **Scenario 05 (Unhappy Path):** Activación retrasada de los dispositivos externos <br/> **Dado** que el sistema está experimentando demoras, <br/> **Cuando** se intenta activar los dispositivos, <br/> **Entonces** deberían activarse con retraso, y el sistema debería registrar el tiempo de demora. <br/><br/> **Scenario 06 (Unhappy Path):** La persona monitoreada está fuera del alcance de los dispositivos externos <br/> **Dado** que la persona ha salido de la geo-cerca pero está fuera del rango de los dispositivos, <br/> **Cuando** se detecta el evento, <br/> **Entonces** el sistema debería notificar que la persona está fuera del alcance de los dispositivos y no se puede realizar la activación. |
-
----
-
-#### **Technical Story 29**
-
-| **Épica**                | **Diagnóstico del Dispositivo**         |
-|--------------------------|-----------------------------------------|
-| **ID-TS**                | 29                                      |
-| **Owner**                | Diego Esquivel                          |
-| **Título TS**            | API para Diagnóstico del Dispositivo     |
-| **Descripción:**         | Como desarrollador, quiero implementar una API que realice un diagnóstico del dispositivo GuardianArea y notifique sobre posibles problemas. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Diagnóstico completo del dispositivo <br/> **Dado** que el dispositivo está funcionando correctamente, <br/> **Cuando** accedo a la función de diagnóstico, <br/> **Entonces** debería recibir un informe que indique que todos los sistemas están operativos. <br/><br/> **Scenario 02 (Unhappy Path):** Error de conectividad durante el diagnóstico <br/> **Dado** que el dispositivo no tiene conexión a Internet, <br/> **Cuando** intento realizar el diagnóstico, <br/> **Entonces** debería recibir una notificación indicando que el dispositivo no está conectado a la red. <br/><br/> **Scenario 03 (Unhappy Path):** La batería del dispositivo está baja <br/> **Dado** que la batería del dispositivo está por debajo del umbral crítico (por ejemplo, 10%), <br/> **Cuando** se realiza el diagnóstico, <br/> **Entonces** debería recibir una notificación de batería baja. <br/><br/> **Scenario 04 (Unhappy Path):** Fallo en el sistema de GPS <br/> **Dado** que el sistema de GPS del dispositivo no está funcionando, <br/> **Cuando** intento realizar el diagnóstico, <br/> **Entonces** debería recibir una notificación indicando un fallo en el GPS. <br/><br/> **Scenario 05 (Unhappy Path):** Fallo en el sensor de movimiento <br/> **Dado** que el sensor de movimiento no está registrando actividad, <br/> **Cuando** se realiza el diagnóstico, <br/> **Entonces** debería recibir una notificación indicando un fallo en el sensor de movimiento. <br/><br/> **Scenario 06 (Unhappy Path):** El dispositivo está sobrecalentado <br/> **Dado** que la temperatura del dispositivo está por encima del límite de seguridad, <br/> **Cuando** se realiza el diagnóstico, <br/> **Entonces** debería recibir una notificación indicando que el dispositivo está sobrecalentado y debe enfriarse. <br/><br/> **Scenario 07 (Unhappy Path):** Diagnóstico incompleto por fallo de hardware <br/> **Dado** que el dispositivo presenta un fallo de hardware en uno de sus componentes, <br/> **Cuando** intento realizar el diagnóstico, <br/> **Entonces** el sistema debería registrar el fallo y notificar que el diagnóstico no se completó correctamente. |
-
----
-
-#### **Technical Story 30**
-
-| **Épica**                | **Integración de APIs para Gestión de Geo-cercas**         |
-|--------------------------|----------------------------------------------------------|
-| **ID-TS**                | 30                                                       |
-| **Owner**                | Steve Castillo                                           |
-| **Título TS**            | Crear APIs para Gestionar Geo-cercas en el Backend |
-| **Descripción:**         | Como desarrollador, quiero implementar APIs en el backend para gestionar geo-cercas, permitiendo la creación, modificación y eliminación de geo-cercas en los dispositivos IoT. |
-| **Criterio de Aceptación:** | **Scenario 01 (Happy Path):** Crear y modificar geo-cercas <br/> **Dado** que el usuario quiere gestionar geo-cercas, <br/> **Cuando** accede a las APIs, <br/> **Entonces** debería poder crear, modificar o eliminar una geo-cerca. <br/><br/> **Scenario 02 (Unhappy Path):** Error por datos incompletos o inválidos <br/> **Dado** que los datos enviados en la solicitud son incompletos o inválidos (e.g., coordenadas incorrectas, radio no válido), <br/> **Cuando** intento crear o modificar una geo-cerca, <br/> **Entonces** el sistema debería devolver un error 400 indicando que los datos son inválidos. <br/><br/> **Scenario 03 (Unhappy Path):** Error al intentar crear una geo-cerca superpuesta <br/> **Dado** que ya existe una geo-cerca activa en la misma área, <br/> **Cuando** intento crear una nueva geo-cerca que se superpone, <br/> **Entonces** el sistema debería devolver un error indicando que no se puede crear una geo-cerca en la misma ubicación. <br/><br/> **Scenario 04 (Unhappy Path):** Límite de geo-cercas alcanzado <br/> **Dado** que se ha alcanzado el número máximo de geo-cercas permitidas, <br/> **Cuando** intento crear una nueva geo-cerca, <br/> **Entonces** debería recibir un error indicando que no se pueden añadir más geo-cercas. <br/><br/> **Scenario 05 (Unhappy Path):** Fallo en la eliminación de una geo-cerca <br/> **Dado** que intento eliminar una geo-cerca, <br/> **Cuando** se produce un fallo en el servidor o en la solicitud, <br/> **Entonces** la geo-cerca no debería ser eliminada, y el sistema debería devolver un error 500. <br/><br/> **Scenario 06 (Unhappy Path):** Error por conflicto al modificar una geo-cerca <br/> **Dado** que dos usuarios intentan modificar la misma geo-cerca simultáneamente, <br/> **Cuando** se envían solicitudes concurrentes, <br/> **Entonces** el sistema debería devolver un error de conflicto y solo permitir que una modificación se aplique. <br/><br/> **Scenario 07 (Unhappy Path):** Error de autenticación o permisos insuficientes <br/> **Dado** que el usuario no tiene permisos suficientes para gestionar las geo-cercas, <br/> **Cuando** intento crear, modificar o eliminar una geo-cerca, <br/> **Entonces** el sistema debería devolver un error 403 indicando que no tiene autorización. |
-
----
+<table border="2">
+    <tr>
+        <td><b>Epic/Story ID</b></td>
+        <td><b>Título</b></td>
+        <td><b>Descripción</b></td>
+        <td><b>Criterios de aceptación</b></td>
+        <td><b>Relacionado con (Epic ID)</b></td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Visualización de Ubicación en Tiempo Real</td>
+        <td>Como cuidador, quiero visualizar la ubicación en tiempo real de la persona a cuidar para monitorear su seguridad de manera continua.</td>
+        <td>
+            <b>Scenario 01:</b> Visualización de la Ubicación<br>
+            Dado que el cuidador está utilizando la aplicación,<br>
+            Cuando consulta el estado de la persona a cuidar,<br>
+            Entonces puede observar su ubicación actual representada en un mapa.<br><br>
+            <b>Scenario 02:</b> Actualización Constante<br>
+            Dado que la persona a cuidar se está moviendo,<br>
+            Cuando su ubicación cambia,<br>
+            Entonces el sistema actualiza automáticamente el mapa para reflejar la nueva posición.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US02</td>
+        <td>Alerta de Salida de Zona Segura</td>
+        <td>Como cuidador, quiero recibir alertas si la persona a cuidar sale de una zona segura para poder reaccionar rápidamente.</td>
+        <td>
+            <b>Scenario 01:</b> Alerta Inicial de Salida<br>
+            Dado que la persona a cuidar está dentro de una zona segura,<br>
+            Cuando cruza los límites establecidos,<br>
+            Entonces el sistema envía una alerta al cuidador indicando la salida de la zona segura.<br><br>
+            <b>Scenario 02:</b> Alerta de Persistencia<br>
+            Dado que la persona a cuidar permanece fuera de la zona segura,<br>
+            Cuando transcurre un período determinado (por ejemplo, 2 minutos),<br>
+            Entonces el sistema envía una nueva alerta al cuidador como recordatorio.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US03</td>
+        <td>Establecer Geo-cercas</td>
+        <td>Como cuidador, quiero definir y personalizar zonas seguras para la persona a cuidar, asegurando su monitoreo dentro de límites establecidos.</td>
+        <td>
+            <b>Scenario 01:</b> Definir Nueva Geo-cerca<br>
+            Dado que el cuidador desea establecer una nueva zona segura,<br>
+            Cuando accede a la configuración de geo-cercas,<br>
+            Entonces el sistema permite delimitar una zona en el mapa y guardarla como una geo-cerca.<br><br>
+            <b>Scenario 02:</b> Modificar Geo-cerca Existente<br>
+            Dado que el cuidador necesita actualizar una zona segura,<br>
+            Cuando selecciona una geo-cerca previamente configurada,<br>
+            Entonces puede ajustar sus límites y guardarlos.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US04</td>
+        <td>Comunicación Remota con el Niño a Cuidar</td>
+        <td>Como cuidador de un niño, quiero comunicarme con él a través del altavoz del dispositivo para proporcionarle instrucciones en situaciones importantes.</td>
+        <td>
+            <b>Scenario 01:</b> Comunicación por Mensaje de Voz<br>
+            Dado que el cuidador necesita comunicarse con el niño,<br>
+            Cuando utiliza la funcionalidad de comunicación en la aplicación,<br>
+            Entonces puede grabar y enviar un mensaje de voz que será reproducido en el altavoz del dispositivo.<br><br>
+            <b>Scenario 02:</b> Confirmación de Envío Exitoso<br>
+            Dado que el cuidador ha enviado un mensaje de voz,<br>
+            Cuando el dispositivo lo recibe correctamente,<br>
+            Entonces el sistema muestra una confirmación en la aplicación para informar al cuidador.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US05</td>
+        <td>Activación de Alarmas en Situación de Peligro</td>
+        <td>Como cuidador, quiero que el dispositivo emita una alarma sonora en caso de emergencia, para alertar a las personas cercanas y facilitar una intervención rápida.</td>
+        <td>
+            <b>Scenario 01:</b> Activación Automática<br>
+            Dado que la persona a cuidar ha salido de la zona segura,<br>
+            Cuando el sistema detecta este evento,<br>
+            Entonces el dispositivo emite una alarma sonora de manera automática.<br><br>
+            <b>Scenario 02:</b> Control Manual de la Alarma<br>
+            Dado que la alarma está sonando,<br>
+            Cuando el cuidador desactiva la alarma desde la aplicación,<br>
+            Entonces el sistema detiene el sonido inmediatamente.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US06</td>
+        <td>Monitoreo de Actividad Física</td>
+        <td>Como cuidador, quiero monitorear la actividad física del niño a cuidar para evaluar su nivel de actividad y promover un estilo de vida saludable.</td>
+        <td>
+            <b>Scenario 01:</b> Acceso al Resumen de Actividad<br>
+            Dado que el cuidador necesita conocer la actividad física del niño,<br>
+            Cuando accede a la sección correspondiente en la aplicación,<br>
+            Entonces puede visualizar un resumen diario de movimientos y actividad física.<br><br>
+            <b>Scenario 02:</b> Notificación de Baja Actividad<br>
+            Dado que el niño ha permanecido inactivo durante un período prolongado,<br>
+            Cuando se alcanza el tiempo máximo configurado en la aplicación,<br>
+            Entonces el sistema envía una notificación al cuidador sugiriendo acciones.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US07</td>
+        <td>Control de Dispositivos Externos</td>
+        <td>Como cuidador, quiero que GuardianArea pueda interactuar con dispositivos externos como luces o cámaras en situaciones de emergencia para mejorar la seguridad de la persona a cuidar.</td>
+        <td>
+            <b>Scenario 01:</b> Activación Automática de Luces<br>
+            Dado que la persona a cuidar ha salido de la zona segura,<br>
+            Cuando el sistema detecta este evento,<br>
+            Entonces activa automáticamente las luces exteriores para mejorar la visibilidad.<br><br>
+            <b>Scenario 02:</b> Activación de Cámara de Seguridad<br>
+            Dado que la persona a cuidar ha salido de la zona segura,<br>
+            Cuando el sistema detecta este evento,<br>
+            Entonces activa la cámara de seguridad para iniciar la grabación del entorno.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US08</td>
+        <td>Diagnóstico y Solución de Problemas del Dispositivo GuardianArea</td>
+        <td>Como cuidador, quiero poder diagnosticar y resolver problemas del dispositivo GuardianArea desde la aplicación para garantizar su correcto funcionamiento.</td>
+        <td>
+            <b>Scenario 01:</b> Diagnóstico Automático<br>
+            Dado que el dispositivo GuardianArea no está funcionando correctamente,<br>
+            Cuando el cuidador utiliza la función de diagnóstico,<br>
+            Entonces el sistema realiza un análisis automático y genera un informe del estado del dispositivo.<br><br>
+            <b>Scenario 02:</b> Instrucciones para Solución de Problemas<br>
+            Dado que se ha identificado un problema en el diagnóstico,<br>
+            Cuando el cuidador accede a la función de solución de problemas,<br>
+            Entonces el sistema proporciona una guía con instrucciones paso a paso para solucionarlo.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US09</td>
+        <td>Revisión del Historial de Eventos</td>
+        <td>Como cuidador, quiero poder consultar un historial de eventos y alertas generados para analizar patrones y mejorar la seguridad de la persona a cuidar.</td>
+        <td>
+            <b>Scenario 01:</b> Visualización del Historial<br>
+            Dado que el cuidador necesita consultar eventos pasados,<br>
+            Cuando accede a la sección de historial en la aplicación,<br>
+            Entonces puede visualizar una lista de eventos y alertas anteriores con detalles relevantes.<br><br>
+            <b>Scenario 02:</b> Filtrado de Eventos<br>
+            Dado que el cuidador necesita buscar eventos específicos,<br>
+            Cuando utiliza los filtros en la sección de historial,<br>
+            Entonces el sistema muestra únicamente los eventos que coinciden con los criterios seleccionados.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US10</td>
+        <td>Recuperación de Contraseña</td>
+        <td>Como usuario, quiero poder recuperar mi contraseña fácilmente en caso de haberla olvidado, para acceder nuevamente a mi cuenta sin problemas.</td>
+        <td>
+            <b>Scenario 01:</b> Solicitud de Recuperación<br>
+            Dado que el usuario ha olvidado su contraseña,<br>
+            Cuando selecciona la opción "Olvidé mi contraseña" y proporciona su correo electrónico,<br>
+            Entonces el sistema envía un enlace de recuperación al correo proporcionado.<br><br>
+            <b>Scenario 02:</b> Acceso al Enlace de Recuperación<br>
+            Dado que el usuario ha recibido el enlace de recuperación,<br>
+            Cuando hace clic en el enlace,<br>
+            Entonces el sistema le permite ingresar y confirmar una nueva contraseña.<br><br>
+            <b>Scenario 03:</b> Actualización Exitosa de Contraseña<br>
+            Dado que el usuario ha confirmado una nueva contraseña,<br>
+            Cuando finaliza el proceso de cambio,<br>
+            Entonces el sistema actualiza la contraseña y muestra una notificación de éxito.<br><br>
+            <b>Scenario 04:</b> Inicio de Sesión con la Nueva Contraseña<br>
+            Dado que el usuario ha cambiado la contraseña,<br>
+            Cuando intenta iniciar sesión con la nueva contraseña,<br>
+            Entonces el sistema permite el acceso a su cuenta sin problemas.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US11</td>
+        <td>Ver Perfil de Usuario</td>
+        <td>Como usuario, quiero ver mi perfil para confirmar que mi información personal es correcta y actualizarla si es necesario.</td>
+        <td>
+            <b>Scenario 01:</b> Visualización de Información Básica<br>
+            Dado que el usuario ha iniciado sesión correctamente,<br>
+            Cuando accede a la sección "Perfil",<br>
+            Entonces el sistema muestra su nombre, correo electrónico, y foto de perfil.<br><br>
+            <b>Scenario 02:</b> Visualización de Información Adicional<br>
+            Dado que el usuario tiene configurada información adicional (por ejemplo, número de teléfono),<br>
+            Cuando accede a la sección "Perfil",<br>
+            Entonces el sistema muestra también estos datos, junto con las opciones para editarlos.<br><br>
+            <b>Scenario 03:</b> Indicación de Información Incompleta<br>
+            Dado que el perfil del usuario no está completo,<br>
+            Cuando accede a la sección "Perfil",<br>
+            Entonces el sistema muestra un aviso indicando qué información falta y permite completarla.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US12</td>
+        <td>Listado de Dispositivos</td>
+        <td>Como usuario, quiero ver una lista de todos los dispositivos asignados a mi cuenta para poder monitorear su estado y gestionar configuraciones.</td>
+        <td>
+            <b>Scenario 01:</b> Visualización de Dispositivos Asignados<br>
+            Dado que el usuario tiene dispositivos asignados,<br>
+            Cuando accede a la pantalla "Dispositivos",<br>
+            Entonces el sistema muestra una lista con los nombres de los dispositivos y su estado de conexión (conectado/desconectado).<br><br>
+            <b>Scenario 02:</b> Indicador de Problemas en Dispositivos<br>
+            Dado que un dispositivo tiene problemas de conexión o batería baja,<br>
+            Cuando el usuario accede a la pantalla "Dispositivos",<br>
+            Entonces el sistema muestra un indicador visual o una alerta al lado del dispositivo afectado.<br><br>
+            <b>Scenario 03:</b> Gestión Directa del Estado<br>
+            Dado que el usuario necesita realizar ajustes en un dispositivo,<br>
+            Cuando selecciona un dispositivo de la lista,<br>
+            Entonces el sistema lo redirige a la página de detalles del dispositivo, mostrando opciones como reiniciar o realizar diagnóstico.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US13</td>
+        <td>Visualizar Indicadores de Ritmo Cardíaco y Oxigenación</td>
+        <td>Como cuidador, quiero monitorear el ritmo cardíaco y los niveles de oxigenación de la persona a cuidar para reaccionar rápidamente ante cualquier anomalía.</td>
+        <td>
+            <b>Scenario 01:</b> Visualización de Datos en Tiempo Real<br>
+            Dado que el cuidador accede a la sección "Indicadores",<br>
+            Cuando la vista se carga,<br>
+            Entonces el sistema muestra los datos actuales de ritmo cardíaco y oxigenación en gráficos claros y detallados.<br><br>
+            <b>Scenario 02:</b> Notificación de Indicadores Anómalos<br>
+            Dado que el sistema detecta que los niveles de oxigenación o ritmo cardíaco están fuera de los rangos configurados,<br>
+            Cuando esto ocurre,<br>
+            Entonces el sistema envía una alerta al cuidador indicando la anomalía.<br><br>
+            <b>Scenario 03:</b> Acceso al Historial de Indicadores<br>
+            Dado que el cuidador desea analizar patrones en los indicadores,<br>
+            Cuando selecciona la opción de "Historial",<br>
+            Entonces el sistema muestra gráficos con los datos de ritmo cardíaco y oxigenación de días anteriores, incluyendo promedios y picos relevantes.
+        </td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>US14</td>
+        <td>Navegar entre Características Interactivas</td>
+        <td>Como visitante, quiero navegar entre las diferentes características del producto de forma interactiva para explorar lo que ofrece GuardianArea.</td>
+        <td>
+            <b>Scenario 01:</b> Navegar a la siguiente característica<br>
+            Dado que el visitante está en la sección "Características",<br>
+            Cuando selecciona la opción para avanzar,<br>
+            Entonces el sistema muestra la siguiente característica de manera interactiva.<br><br>
+            <b>Scenario 02:</b> Navegar a la característica anterior<br>
+            Dado que el visitante está en la sección "Características",<br>
+            Cuando selecciona la opción para retroceder,<br>
+            Entonces el sistema muestra la característica anterior.<br><br>
+            <b>Scenario 03:</b> Seleccionar una característica específica<br>
+            Dado que el visitante está explorando la sección "Características",<br>
+            Cuando selecciona una característica específica de una lista de opciones,<br>
+            Entonces el sistema muestra directamente la información de esa característica.
+        </td>
+        <td>Interactividad y Visualización de Características</td>
+    </tr>
+    <tr>
+        <td>US15</td>
+        <td>Simulación de Envío de Formulario de Contacto</td>
+        <td>Como visitante, quiero llenar y enviar un formulario de contacto para comunicarme con el equipo de GuardianArea y recibir confirmación del envío.</td>
+        <td>
+            <b>Scenario 01:</b> Enviar formulario con todos los campos llenados<br>
+            Dado que el visitante ha llenado todos los campos del formulario de contacto,<br>
+            Cuando hace clic en el botón de enviar,<br>
+            Entonces el sistema valida la información, muestra un mensaje de éxito, y simula el envío del formulario.<br><br>
+            <b>Scenario 02:</b> Validar campos obligatorios vacíos<br>
+            Dado que el visitante deja campos obligatorios vacíos en el formulario,<br>
+            Cuando intenta enviarlo,<br>
+            Entonces el sistema muestra un mensaje indicando los campos faltantes y no procesa el formulario.<br><br>
+            <b>Scenario 03:</b> Validar formato de correo electrónico<br>
+            Dado que el visitante ingresa un correo electrónico en formato incorrecto,<br>
+            Cuando intenta enviarlo,<br>
+            Entonces el sistema muestra un mensaje indicando que el correo es inválido.<br><br>
+            <b>Scenario 04:</b> Validar campo de teléfono<br>
+            Dado que el visitante ingresa caracteres no válidos en el campo de teléfono,<br>
+            Cuando intenta enviarlo,<br>
+            Entonces el sistema permite solo dígitos numéricos en el campo.
+        </td>
+        <td>Validación y Procesamiento de Formularios</td>
+    </tr>
+    <tr>
+        <td>US16</td>
+        <td>Visualización de Testimonios</td>
+        <td>Como visitante, quiero ver testimonios de otros usuarios en un formato claro y organizado para comprender cómo GuardianArea ha ayudado a otras personas.</td>
+        <td>
+            <b>Scenario 01:</b> Mostrar testimonios en formato de tarjeta<br>
+            Dado que el visitante está en la sección "Testimonios",<br>
+            Cuando la sección se carga,<br>
+            Entonces el sistema muestra cada testimonio en una tarjeta con nombre, foto, y comentarios del usuario.<br><br>
+            <b>Scenario 02:</b> Navegar entre testimonios<br>
+            Dado que el visitante desea explorar más testimonios,<br>
+            Cuando selecciona la opción para navegar,<br>
+            Entonces el sistema muestra un nuevo testimonio en un formato accesible.
+        </td>
+        <td>Presentación de Contenido</td>
+    </tr>
+    <tr>
+        <td>US17</td>
+        <td>Exploración de Planes de Suscripción</td>
+        <td>Como visitante, quiero explorar los planes de suscripción ofrecidos por GuardianArea para elegir el que mejor se adapte a mis necesidades.</td>
+        <td>
+            <b>Scenario 01:</b> Visualizar planes disponibles<br>
+            Dado que el visitante está en la sección "Planes",<br>
+            Cuando la sección se carga,<br>
+            Entonces el sistema muestra cada plan con su nombre, precio, características principales y opciones de contratación.<br><br>
+            <b>Scenario 02:</b> Comparar características de planes<br>
+            Dado que el visitante desea comparar diferentes planes,<br>
+            Cuando explora la sección,<br>
+            Entonces el sistema organiza los planes en tarjetas individuales para facilitar la comparación visual.
+        </td>
+        <td>Presentación de Contenido</td>
+    </tr>
+    <tr>
+        <td>US18</td>
+        <td>Exploración de Redes Sociales</td>
+        <td>Como visitante, quiero acceder a las páginas oficiales de GuardianArea en redes sociales desde el pie de página para seguir sus actualizaciones y novedades.</td>
+        <td>
+            <b>Scenario 01:</b> Navegar a la página de Facebook<br>
+            Dado que el visitante está en el pie de página,<br>
+            Cuando selecciona el icono de Facebook,<br>
+            Entonces el sistema redirige al usuario a la página oficial de GuardianArea en Facebook en una nueva pestaña.<br><br>
+            <b>Scenario 02:</b> Navegar a la página de Instagram<br>
+            Dado que el visitante está en el pie de página,<br>
+            Cuando selecciona el icono de Instagram,<br>
+            Entonces el sistema redirige al usuario a la página oficial de GuardianArea en Instagram en una nueva pestaña.<br><br>
+            <b>Scenario 03:</b> Navegar a la página de Twitter<br>
+            Dado que el visitante está en el pie de página,<br>
+            Cuando selecciona el icono de Twitter,<br>
+            Entonces el sistema redirige al usuario a la página oficial de GuardianArea en Twitter en una nueva pestaña.
+        </td>
+        <td>Navegación y Accesibilidad</td>
+    </tr>
+    <tr>
+        <td>US19</td>
+        <td>Navegación Interna en la Página</td>
+        <td>Como visitante, quiero navegar fácilmente entre las secciones principales de la landing page para acceder rápidamente a la información que busco.</td>
+        <td>
+            <b>Scenario 01:</b> Navegar a la sección "Características"<br>
+            Dado que el visitante está en cualquier parte de la página,<br>
+            Cuando selecciona "Características" en el menú de navegación,<br>
+            Entonces el sistema desplaza la página automáticamente a la sección correspondiente.<br><br>
+            <b>Scenario 02:</b> Navegar a la sección "Planes"<br>
+            Dado que el visitante está en cualquier parte de la página,<br>
+            Cuando selecciona "Planes" en el menú de navegación,<br>
+            Entonces el sistema desplaza la página automáticamente a la sección correspondiente.<br><br>
+            <b>Scenario 03:</b> Navegar a la sección "Testimonios"<br>
+            Dado que el visitante está en cualquier parte de la página,<br>
+            Cuando selecciona "Testimonios" en el menú de navegación,<br>
+            Entonces el sistema desplaza la página automáticamente a la sección correspondiente.<br><br>
+            <b>Scenario 04:</b> Navegar a la sección "Contactos"<br>
+            Dado que el visitante está en cualquier parte de la página,<br>
+            Cuando selecciona "Contactos" en el menú de navegación,<br>
+            Entonces el sistema desplaza automáticamente la vista a la sección correspondiente.
+        </td>
+        <td>Navegación y Accesibilidad</td>
+    </tr>
+    <tr>
+        <td>US20</td>
+        <td>Redirección al Inicio desde el Logo</td>
+        <td>Como visitante, quiero regresar al inicio de la página al hacer clic en el logo para facilitar la navegación desde cualquier sección.</td>
+        <td>
+            <b>Scenario 01:</b> Volver al inicio desde cualquier sección<br>
+            Dado que el visitante está en cualquier sección de la página,<br>
+            Cuando selecciona el logo de GuardianArea en el encabezado,<br>
+            Entonces el sistema desplaza automáticamente la vista hasta el inicio de la página.
+        </td>
+        <td>Navegación y Accesibilidad</td>
+    </tr>
+    <tr>
+        <td>TS21</td>
+        <td>Vista de Login</td>
+        <td>Como desarrollador, quiero crear una vista de login donde los usuarios puedan ingresar sus credenciales, utilizando un API falso para simular la autenticación, de modo que pueda probar la interfaz y flujo de usuario.</td>
+        <td>
+            <b>Scenario 01:</b> Iniciar sesión exitosamente<br>
+            Dado que el usuario está en la página de login,<br>
+            Y ha ingresado credenciales válidas,<br>
+            Cuando hace clic en el botón "Ingresar",<br>
+            Entonces el sistema verifica las credenciales utilizando el API falso<br>
+            Y redirige al usuario a la vista de home.<br><br>
+            <b>Scenario 02:</b> Fallo en el inicio de sesión por credenciales inválidas<br>
+            Dado que el usuario ingresa credenciales incorrectas,<br>
+            Cuando hace clic en el botón "Ingresar",<br>
+            Entonces el sistema muestra un mensaje de error "Credenciales incorrectas"<br>
+            Y el usuario permanece en la página de login.
+        </td>
+        <td>Autenticación de Usuarios</td>
+    </tr>
+    <tr>
+        <td>TS22</td>
+        <td>Vista de Registro</td>
+        <td>Como desarrollador, quiero crear una vista de registro donde los nuevos usuarios puedan crear una cuenta, utilizando un API falso para simular el proceso de registro, de modo que pueda probar la interfaz y flujo de usuario.</td>
+        <td>
+            <b>Scenario 01:</b> Registrarse exitosamente<br>
+            Dado que el usuario está en la página de registro,<br>
+            Y completa todos los campos requeridos con datos válidos,<br>
+            Cuando hace clic en el botón "Registrarse",<br>
+            Entonces el sistema envía los datos al API falso,<br>
+            Muestra un mensaje de confirmación "Registro exitoso",<br>
+            Y redirige al usuario a la página de login.<br><br>
+            <b>Scenario 02:</b> Fallo en el registro por datos inválidos<br>
+            Dado que el usuario ingresa datos inválidos o deja campos obligatorios vacíos,<br>
+            Cuando hace clic en el botón "Registrarse",<br>
+            Entonces el sistema muestra mensajes de error indicando los campos a corregir.
+        </td>
+        <td>Autenticación de Usuarios</td>
+    </tr>
+    <tr>
+        <td>TS23</td>
+        <td>Vista de Home con Monitoreo</td>
+        <td>Como desarrollador, quiero crear una vista de home que muestre un mapa para monitorear en tiempo real la ubicación de la persona monitoreada, utilizando un API falso que provea datos simulados de ubicación, para probar la funcionalidad de monitoreo.</td>
+        <td>
+            <b>Scenario 01:</b> Visualizar ubicación en el mapa<br>
+            Dado que el usuario ha iniciado sesión y accede a la vista de home,<br>
+            Cuando la página se carga,<br>
+            Entonces el sistema obtiene datos de ubicación del API falso<br>
+            Y muestra la ubicación en el mapa de forma actualizada.<br><br>
+            <b>Scenario 02:</b> Actualización periódica de ubicación<br>
+            Dado que la persona monitoreada está en movimiento,<br>
+            Cuando se reciben nuevos datos del API falso,<br>
+            Entonces el sistema actualiza la ubicación en el mapa en tiempo real.
+        </td>
+        <td>Monitoreo en Tiempo Real</td>
+    </tr>
+    <tr>
+        <td>TS24</td>
+        <td>Historial de Actividades</td>
+        <td>Como desarrollador, quiero crear una vista que muestre el historial de actividades de la persona monitoreada, utilizando un API falso que provea datos simulados, para probar la interfaz y presentación del historial.</td>
+        <td>
+            <b>Scenario 01:</b> Visualizar historial de actividades<br>
+            Dado que el usuario está en la vista de historial de actividades,<br>
+            Cuando la página se carga,<br>
+            Entonces el sistema obtiene los datos del historial desde el API falso<br>
+            Y muestra una lista o tabla con las actividades realizadas.<br><br>
+            <b>Scenario 02:</b> Filtrar actividades por rango de fechas<br>
+            Dado que el usuario necesita revisar actividades específicas,<br>
+            Cuando selecciona un rango de fechas en la vista de historial,<br>
+            Entonces el sistema filtra y muestra las actividades correspondientes.
+        </td>
+        <td>Historial de Actividades</td>
+    </tr>
+    <tr>
+        <td>TS25</td>
+        <td>Ritmo Cardíaco y Oxigenación</td>
+        <td>Como desarrollador, quiero crear una vista que muestre los datos de ritmo cardíaco y oxigenación de la persona monitoreada, utilizando un API falso que provea datos simulados, para probar la funcionalidad de monitoreo de signos vitales.</td>
+        <td>
+            <b>Scenario 01:</b> Visualizar datos de ritmo cardíaco y oxigenación<br>
+            Dado que el usuario está en la vista de ritmo cardíaco y oxigenación,<br>
+            Cuando la página se carga,<br>
+            Entonces el sistema obtiene los datos del API falso<br>
+            Y muestra gráficos o indicadores actualizados con los datos recibidos.<br><br>
+            <b>Scenario 02:</b> Alerta por valores críticos<br>
+            Dado que el API falso devuelve datos fuera del rango normal,<br>
+            Cuando la vista se actualiza,<br>
+            Entonces el sistema muestra un mensaje de advertencia indicando valores críticos.
+        </td>
+        <td>Monitoreo de Ritmo Cardíaco y Oxigenación</td>
+    </tr>
+    <tr>
+        <td>TS26</td>
+        <td>Navegación entre Vistas</td>
+        <td>Como desarrollador, quiero permitir que el usuario pueda navegar entre las vistas de login, registro, home, historial de actividades y ritmo cardíaco/oxigenación, asegurando una experiencia fluida en la aplicación.</td>
+        <td>
+            <b>Scenario 01:</b> Navegar desde login a registro<br>
+            Dado que el usuario está en la vista de login,<br>
+            Cuando hace clic en un enlace o botón "Registrarse",<br>
+            Entonces es redirigido a la vista de registro.<br><br>
+            <b>Scenario 02:</b> Navegar desde registro a login<br>
+            Dado que el usuario está en la vista de registro,<br>
+            Cuando hace clic en un enlace o botón "Iniciar Sesión",<br>
+            Entonces es redirigido a la vista de login.<br><br>
+            <b>Scenario 03:</b> Navegar a la vista de home tras iniciar sesión<br>
+            Dado que el usuario ha ingresado credenciales válidas,<br>
+            Cuando hace clic en el botón "Ingresar",<br>
+            Entonces es redirigido a la vista de home.<br><br>
+            <b>Scenario 04:</b> Navegar entre home, historial y ritmo cardíaco/oxigenación<br>
+            Dado que el usuario está en la vista de home,<br>
+            Cuando hace clic en las opciones de navegación,<br>
+            Entonces puede acceder a las vistas de historial de actividades y ritmo cardíaco/oxigenación.
+        </td>
+        <td>Navegación entre Vistas</td>
+    </tr>
+    <tr>
+        <td>TS27</td>
+        <td>Diseño de Interfaz Gráfica</td>
+        <td>Como desarrollador, quiero diseñar la interfaz gráfica de las vistas de login, registro, home, historial de actividades y ritmo cardíaco/oxigenación, aplicando estilos y principios de diseño para ofrecer una experiencia visual coherente y atractiva al usuario.</td>
+        <td>
+            <b>Scenario 01:</b> Aplicar estilos y diseño coherente<br>
+            Dado que el usuario navega por las diferentes vistas,<br>
+            Cuando las páginas se cargan,<br>
+            Entonces se aplican estilos CSS coherentes en todas las vistas<br>
+            Y la interfaz es atractiva y fácil de usar.<br><br>
+            <b>Scenario 02:</b> Asegurar consistencia en elementos comunes<br>
+            Dado que las vistas comparten elementos como botones y menús,<br>
+            Cuando el usuario navega entre vistas,<br>
+            Entonces los estilos de los elementos comunes permanecen consistentes.
+        </td>
+        <td>Interfaz de Usuario y Diseño</td>
+    </tr>
+    <tr>
+        <td>TS28</td>
+        <td>Configuración de Rutas</td>
+        <td>Como desarrollador, quiero configurar las rutas en el frontend para que cada vista tenga su propia URL, permitiendo una navegación más organizada y facilitando el manejo de estados en la aplicación.</td>
+        <td>
+            <b>Scenario 01:</b> Acceder a vistas mediante rutas<br>
+            Dado que el usuario ingresa una URL específica en el navegador,<br>
+            Cuando la URL corresponde a una vista existente (e.g., "/login", "/register", "/home"),<br>
+            Entonces se carga la vista correspondiente.<br><br>
+            <b>Scenario 02:</b> Redirección a una página de error para rutas inexistentes<br>
+            Dado que el usuario ingresa una URL que no corresponde a ninguna vista,<br>
+            Cuando la página intenta cargarse,<br>
+            Entonces se muestra una página de error 404 o una vista predeterminada.
+        </td>
+        <td>Implementación de Rutas en el Frontend</td>
+    </tr>
+    <tr>
+        <td>TS29</td>
+        <td>Consumo de API Falso</td>
+        <td>Como desarrollador, quiero consumir un API falso en el frontend para obtener datos de ubicación, historial de actividades y signos vitales, permitiendo probar y validar las funcionalidades que dependen de datos externos.</td>
+        <td>
+            <b>Scenario 01:</b> Obtener datos de ubicación del API falso<br>
+            Dado que el usuario está en la vista de home,<br>
+            Cuando la página se carga,<br>
+            Entonces el sistema realiza una petición al API falso<br>
+            Y obtiene datos de ubicación para mostrar en el mapa.<br><br>
+            <b>Scenario 02:</b> Obtener historial de actividades del API falso<br>
+            Dado que el usuario está en la vista de historial de actividades,<br>
+            Cuando la página se carga,<br>
+            Entonces el sistema obtiene los datos del historial desde el API falso.<br><br>
+            <b>Scenario 03:</b> Obtener datos de signos vitales del API falso<br>
+            Dado que el usuario está en la vista de ritmo cardíaco y oxigenación,<br>
+            Cuando la página se carga,<br>
+            Entonces el sistema obtiene los datos desde el API falso para mostrarlos en gráficos o indicadores.
+        </td>
+        <td>Consumo de API Falso en el Frontend</td>
+    </tr>
+    <tr>
+        <td>TS30</td>
+        <td>Diseño Responsivo</td>
+        <td>Como desarrollador, quiero que las vistas del frontend sean responsivas y se adapten correctamente a diferentes tamaños de pantalla, especialmente dispositivos móviles, para mejorar la experiencia del usuario.</td>
+        <td>
+            <b>Scenario 01:</b> Visualizar las vistas correctamente en dispositivos móviles<br>
+            Dado que el usuario accede a las vistas desde un dispositivo móvil,<br>
+            Cuando las páginas se cargan,<br>
+            Entonces el contenido se ajusta correctamente al tamaño de pantalla<br>
+            Y los elementos son fácilmente navegables y legibles.<br><br>
+            <b>Scenario 02:</b> Manejo de diseño en pantallas grandes<br>
+            Dado que el usuario accede a las vistas desde un dispositivo de escritorio,<br>
+            Cuando las páginas se cargan,<br>
+            Entonces el diseño se adapta para aprovechar el espacio disponible sin afectar la legibilidad.
+        </td>
+        <td>Interfaz de Usuario y Diseño Responsivo</td>
+    </tr>
+    <tr>
+        <td>TS31</td>
+        <td>Gestión de Geo-cercas</td>
+        <td>Como desarrollador, quiero agregar marcadores y figuras en el mapa para delimitar y crear áreas de geocerca, permitiendo que los usuarios definan zonas seguras de forma interactiva y precisa.</td>
+        <td>
+            <b>Scenario 01:</b> Agregar puntos de marcadores en el mapa<br>
+            Dado que el usuario accede a la pantalla de geocercas,<br>
+            Cuando selecciona puntos en el mapa,<br>
+            Entonces el sistema agrega marcadores para definir los límites de la geocerca.<br><br>
+            <b>Scenario 02:</b> Completar la geocerca con una figura<br>
+            Dado que el usuario ha colocado marcadores suficientes,<br>
+            Cuando confirma la geocerca,<br>
+            Entonces el sistema conecta los marcadores para formar una figura cerrada que delimita la zona segura.<br><br>
+            <b>Scenario 03:</b> Validar la configuración de la geocerca<br>
+            Dado que el usuario ha configurado una geocerca,<br>
+            Cuando intenta guardar los cambios,<br>
+            Entonces el sistema valida que la geocerca cumpla con los requisitos de tamaño y forma permitidos.
+        </td>
+        <td>Gestión de Geo-cercas</td>
+    </tr>
+    <tr>
+        <td>TS32</td>
+        <td>Autenticación de Usuario</td>
+        <td>Como desarrollador, quiero implementar interceptores y guardas de rutas en el frontend para asegurar que solo los usuarios autenticados puedan acceder a ciertas vistas, protegiendo la información sensible.</td>
+        <td>
+            <b>Scenario 01:</b> Redirigir a inicio de sesión si no hay token válido<br>
+            Dado que un usuario no autenticado intenta acceder a una ruta restringida,<br>
+            Cuando el sistema detecta la falta de un token válido,<br>
+            Entonces redirige al usuario a la pantalla de inicio de sesión.<br><br>
+            <b>Scenario 02:</b> Permitir acceso a rutas autenticadas con token válido<br>
+            Dado que un usuario autenticado tiene un token válido,<br>
+            Cuando intenta acceder a una ruta restringida,<br>
+            Entonces el sistema permite el acceso sin redirección.<br><br>
+            <b>Scenario 03:</b> Manejar expiración del token<br>
+            Dado que un token ha expirado,<br>
+            Cuando el usuario intenta acceder a una ruta autenticada,<br>
+            Entonces el sistema invalida el token y redirige al usuario a la pantalla de inicio de sesión con un mensaje informativo.
+        </td>
+        <td>Autenticación de Usuario</td>
+    </tr>
+    <tr>
+        <td>TS33</td>
+        <td>Componente de Spinner</td>
+        <td>Como desarrollador, quiero implementar un componente de spinner y su servicio asociado para indicar cuando una operación de carga está en progreso, mejorando la experiencia del usuario.</td>
+        <td>
+            <b>Scenario 01:</b> Mostrar spinner durante la carga de datos<br>
+            Dado que el sistema está cargando datos,<br>
+            Cuando el usuario espera la respuesta,<br>
+            Entonces se muestra el spinner en pantalla para indicar que la operación está en progreso.<br><br>
+            <b>Scenario 02:</b> Ocultar spinner al completar la carga de datos<br>
+            Dado que el sistema ha terminado de cargar los datos,<br>
+            Cuando la operación se completa exitosamente,<br>
+            Entonces el spinner desaparece automáticamente.<br><br>
+            <b>Scenario 03:</b> Mostrar spinner para múltiples operaciones simultáneas<br>
+            Dado que el sistema realiza múltiples operaciones de carga,<br>
+            Cuando al menos una operación está en progreso,<br>
+            Entonces el spinner permanece visible hasta que todas las operaciones concluyen.
+        </td>
+        <td>Interfaz de Usuario</td>
+    </tr>
+    <tr>
+        <td>TS34</td>
+        <td>Pantalla de Registro de Geo-cerca</td>
+        <td>Como desarrollador, quiero crear una pantalla donde el usuario pueda registrar y editar geo-cercas desde la aplicación, proporcionando controles intuitivos para la personalización de las zonas seguras.</td>
+        <td>
+            <b>Scenario 01:</b> Registrar nueva geo-cerca<br>
+            Dado que el usuario accede a la pantalla de registro de geo-cercas,<br>
+            Cuando completa los campos requeridos y selecciona puntos en el mapa,<br>
+            Entonces el sistema registra la nueva geo-cerca en la base de datos.<br><br>
+            <b>Scenario 02:</b> Editar una geo-cerca existente<br>
+            Dado que el usuario selecciona una geo-cerca registrada,<br>
+            Cuando modifica los puntos en el mapa o actualiza los campos de configuración,<br>
+            Entonces el sistema guarda los cambios en la base de datos.<br><br>
+            <b>Scenario 03:</b> Validar datos al registrar o editar geo-cercas<br>
+            Dado que el usuario intenta guardar una geo-cerca,<br>
+            Cuando los datos ingresados no cumplen con los requisitos (e.g., área mínima, superposición con otra geocerca),<br>
+            Entonces el sistema muestra mensajes de error y no permite guardar hasta corregir los datos.
+        </td>
+        <td>Gestión de Geo-cercas</td>
+    </tr>
+    <tr>
+        <td>TS35</td>
+        <td>Crear Geo-Cerca mediante RESTful API</td>
+        <td>Como desarrollador, quiero implementar un servicio RESTful que permita crear geo-cercas, estableciendo zonas seguras configuradas por los usuarios.</td>
+        <td>
+            <b>Scenario 01:</b> Crear una geo-cerca con nombre único<br>
+            Dado que el endpoint /api/v1/geofence está disponible,<br>
+            Cuando se envía una solicitud POST con datos válidos para el nombre y las coordenadas,<br>
+            Entonces el sistema devuelve una respuesta con el estado 201<br>
+            Y una Geo-cerca con un nuevo ID y los valores proporcionados es registrada correctamente.<br><br>
+            <b>Scenario 02:</b> Intentar crear una geo-cerca con nombre existente<br>
+            Dado que el endpoint /api/v1/geofence está disponible,<br>
+            Cuando se envía una solicitud POST con datos para un nombre ya registrado,<br>
+            Entonces el sistema devuelve una respuesta con el estado 400<br>
+            Y un mensaje de error indicando "A geofence with the same name already exists."<br><br>
+            <b>Scenario 03:</b> Intentar crear una geo-cerca que se superpone a otra<br>
+            Dado que el endpoint /api/v1/geofence está disponible,<br>
+            Cuando se envía una solicitud POST con coordenadas que se superponen a una geo-cerca existente,<br>
+            Entonces el sistema devuelve una respuesta con el estado 400<br>
+            Y un mensaje de error indicando "Coordinates overlap with an already existing geofence."
+        </td>
+        <td>Gestión de Geo-cercas</td>
+    </tr>
+    <tr>
+        <td>TS36</td>
+        <td>Gestión de Ubicación</td>
+        <td>Como desarrollador, quiero implementar un servicio que proporcione la ubicación actual del usuario mediante un API, permitiendo determinar si se encuentra dentro o fuera de las geo-cercas configuradas.</td>
+        <td>
+            <b>Scenario 01:</b> Obtener ubicación actual con el ID del dispositivo<br>
+            Dado que el endpoint /api/v1/device/{id}/current-location está disponible,<br>
+            Cuando se envía una solicitud GET con un ID de dispositivo válido,<br>
+            Entonces el sistema devuelve una respuesta con el estado 200<br>
+            Y un recurso que contiene los valores de latitud y longitud en grados, minutos y segundos.
+        </td>
+        <td>Configuración y Gestión de Geo-cercas</td>
+    </tr>
+    <tr>
+        <td>TS37</td>
+        <td>Gestión de Usuarios</td>
+        <td>Como desarrollador, quiero implementar un servicio RESTful para crear usuarios en el sistema, permitiendo registrar sus credenciales y datos básicos.</td>
+        <td>
+            <b>Scenario 01:</b> Crear un usuario con datos únicos<br>
+            Dado que el endpoint /api/v1/users está disponible,<br>
+            Cuando se envía una solicitud POST con datos válidos para el email, contraseña y username,<br>
+            Entonces el sistema devuelve una respuesta con el estado 201<br>
+            Y un recurso del usuario con un nuevo ID y los valores registrados.<br><br>
+            <b>Scenario 02:</b> Intentar crear un usuario con datos duplicados<br>
+            Dado que el endpoint /api/v1/users está disponible,<br>
+            Cuando se envía una solicitud POST con un email o username ya registrados,<br>
+            Entonces el sistema devuelve una respuesta con el estado 400<br>
+            Y un mensaje indicando "A user with the same email or username already exists."
+        </td>
+        <td>Gestión de Usuarios</td>
+    </tr>
+    <tr>
+        <td>TS38</td>
+        <td>Subida de Archivos</td>
+        <td>Como desarrollador, quiero implementar un servicio que permita a los usuarios subir mensajes de voz, asegurando que cumplan con los formatos y restricciones definidas.</td>
+        <td>
+            <b>Scenario 01:</b> Subir mensaje de voz en formato correcto y con duración válida<br>
+            Dado que el endpoint /api/v1/voice está disponible,<br>
+            Cuando se envía una solicitud POST con un archivo MP3 de duración menor a 30 segundos,<br>
+            Entonces el sistema devuelve una respuesta con el estado 201<br>
+            Y un recurso de mensaje de voz con un nuevo ID y enlace al archivo.<br><br>
+            <b>Scenario 02:</b> Intentar subir mensaje de voz con formato no permitido<br>
+            Dado que el endpoint /api/v1/voice está disponible,<br>
+            Cuando se envía una solicitud POST con un archivo en un formato diferente a MP3,<br>
+            Entonces el sistema devuelve una respuesta con el estado 400<br>
+            Y un mensaje indicando "The file format must be mp3."<br><br>
+            <b>Scenario 03:</b> Intentar subir mensaje de voz con duración excesiva<br>
+            Dado que el endpoint /api/v1/voice está disponible,<br>
+            Cuando se envía una solicitud POST con un archivo MP3 de más de 30 segundos,<br>
+            Entonces el sistema devuelve una respuesta con el estado 400<br>
+            Y un mensaje indicando "The duration of the audio must be less than 30 seconds."
+        </td>
+        <td>Subir Archivos</td>
+    </tr>
+    <tr>
+        <td>TS39</td>
+        <td>Notificaciones</td>
+        <td>Como desarrollador, quiero implementar un servicio RESTful que permita generar notificaciones para los usuarios, facilitando la entrega de alertas importantes.</td>
+        <td>
+            <b>Scenario 01:</b> Crear una notificación<br>
+            Dado que el endpoint /api/v1/notification está disponible,<br>
+            Cuando se envía una solicitud POST con datos válidos para el tipo de notificación y descripción,<br>
+            Entonces el sistema devuelve una respuesta con el estado 201<br>
+            Y un recurso de notificación con un nuevo ID y los valores registrados.
+        </td>
+        <td>Notificaciones</td>
+    </tr>
+    <tr>
+        <td>TS40</td>
+        <td>Gestión de Dispositivos</td>
+        <td>Como desarrollador, quiero implementar un servicio que proporcione un listado de los dispositivos registrados, facilitando su gestión en el sistema.</td>
+        <td>
+            <b>Scenario 01:</b> Obtener listado de dispositivos<br>
+            Dado que el endpoint /api/v1/devices está disponible,<br>
+            Cuando se envía una solicitud GET,<br>
+            Entonces el sistema devuelve una respuesta con el estado 200<br>
+            Y un recurso que contiene una lista de dispositivos registrados con su información básica (e.g., ID, nombre, estado de conexión).
+        </td>
+        <td>Gestión de Dispositivos</td>
+    </tr>
+    <tr>
+        <td>TS41</td>
+        <td>Gestión de Geo-cercas</td>
+        <td>Como desarrollador, quiero implementar APIs en el backend para gestionar geo-cercas en dispositivos IoT, permitiendo su creación, modificación y eliminación.</td>
+        <td>
+            <b>Scenario 01:</b> Crear y modificar geo-cercas<br>
+            Dado que un usuario accede a las APIs de geo-cercas,<br>
+            Cuando se envían datos válidos,<br>
+            Entonces el sistema debería permitir crear, modificar o eliminar geo-cercas.<br><br>
+            <b>Scenario 02:</b> Error por datos inválidos<br>
+            Dado que se envían coordenadas o datos no válidos,<br>
+            Cuando se intenta crear o modificar una geo-cerca,<br>
+            Entonces el sistema debería devolver un error indicando los datos incorrectos.<br><br>
+            <b>Scenario 03:</b> Límite de geo-cercas alcanzado<br>
+            Dado que se ha alcanzado el número máximo de geo-cercas permitidas,<br>
+            Cuando se intenta crear una nueva geo-cerca,<br>
+            Entonces el sistema debería notificar que no se pueden añadir más geo-cercas.
+        </td>
+        <td>Integración de APIs para Gestión de Geo-cercas</td>
+    </tr>
+    <tr>
+        <td>TS42</td>
+        <td>Activación de Alarmas</td>
+        <td>Como desarrollador, quiero implementar una API para activar alarmas sonoras en los dispositivos IoT cuando se detecte una situación de peligro, mejorando la seguridad en tiempo real.</td>
+        <td>
+            <b>Scenario 01:</b> Activación automática de la alarma<br>
+            Dado que la persona monitoreada ha salido de la geo-cerca,<br>
+            Cuando se detecta esta situación,<br>
+            Entonces la alarma debe activarse automáticamente.<br><br>
+            <b>Scenario 02:</b> Error por fallo de conectividad<br>
+            Dado que hay un problema de conectividad con el dispositivo,<br>
+            Cuando se intenta activar la alarma,<br>
+            Entonces el sistema no debería activarla, y debería registrar un error y notificar al usuario.<br><br>
+            <b>Scenario 03:</b> Error por batería baja<br>
+            Dado que la batería del dispositivo está baja,<br>
+            Cuando se intenta activar la alarma,<br>
+            Entonces el sistema no debería activarla, y debería notificar al usuario indicando el nivel bajo de batería.<br><br>
+            <b>Scenario 04:</b> Fallo de hardware en el dispositivo<br>
+            Dado que el hardware del dispositivo presenta un fallo,<br>
+            Cuando se intenta activar la alarma,<br>
+            Entonces el sistema no debería activarla, y debería registrar el fallo en el sistema.<br><br>
+            <b>Scenario 05:</b> Activación retrasada por saturación del sistema<br>
+            Dado que el sistema presenta un retraso en el procesamiento,<br>
+            Cuando la persona monitoreada sale de la geo-cerca,<br>
+            Entonces la alarma debería activarse con retraso, y el sistema debería registrar el tiempo del retraso.
+        </td>
+        <td>Monitoreo y Seguridad en Tiempo Real</td>
+    </tr>
+    <tr>
+        <td>TS43</td>
+        <td>Control de Dispositivos Externos</td>
+        <td>Como desarrollador, quiero implementar una API para activar dispositivos externos como luces o cámaras en caso de situaciones de peligro, mejorando la seguridad y la capacidad de respuesta.</td>
+        <td>
+            <b>Scenario 01:</b> Activación de luces externas<br>
+            Dado que la persona monitoreada ha salido de la geo-cerca,<br>
+            Cuando se detecta este evento,<br>
+            Entonces las luces deben encenderse automáticamente.<br><br>
+            <b>Scenario 02:</b> Falla por falta de conexión<br>
+            Dado que el sistema de luces no está conectado,<br>
+            Cuando se intenta activarlas,<br>
+            Entonces el sistema no debería encenderlas y debería registrar un error.<br><br>
+            <b>Scenario 03:</b> Dispositivos no configurados<br>
+            Dado que no hay dispositivos externos configurados,<br>
+            Cuando se detecta una situación de peligro,<br>
+            Entonces el sistema debería notificar que no hay dispositivos disponibles para activar.
+        </td>
+        <td>Comunicación y Control Remoto</td>
+    </tr>
+    <tr>
+        <td>TS44</td>
+        <td>Diagnóstico del Dispositivo</td>
+        <td>Como desarrollador, quiero implementar una API que permita realizar diagnósticos de los dispositivos IoT, detectando y notificando posibles fallos o problemas.</td>
+        <td>
+            <b>Scenario 01:</b> Diagnóstico exitoso<br>
+            Dado que el dispositivo está funcionando correctamente,<br>
+            Cuando se realiza un diagnóstico,<br>
+            Entonces el sistema debería devolver un informe indicando que todos los sistemas están operativos.<br><br>
+            <b>Scenario 02:</b> Error de conectividad<br>
+            Dado que el dispositivo no tiene conexión a Internet,<br>
+            Cuando se realiza un diagnóstico,<br>
+            Entonces el sistema debería devolver un mensaje indicando la falta de conectividad.<br><br>
+            <b>Scenario 03:</b> Notificación por batería baja<br>
+            Dado que la batería del dispositivo está en un nivel crítico,<br>
+            Cuando se realiza un diagnóstico,<br>
+            Entonces el sistema debería notificar el estado de batería baja.
+        </td>
+        <td>Diagnóstico del Dispositivo</td>
+    </tr>
+    <tr>
+        <td>TS45</td>
+        <td>Conexión y Envío de Datos por WebSocket</td>
+        <td>Como desarrollador, quiero establecer conexiones de WebSocket para enviar datos de sensores (BPM, SpO2, giroscopio, GPS) desde dispositivos IoT al sistema central, para garantizar el monitoreo en tiempo real.</td>
+        <td>
+            <b>Scenario 01:</b> Conexión exitosa con WebSocket para datos de BPM y SpO2<br>
+            Dado que el dispositivo está conectado a la red,<br>
+            Cuando se inicie la conexión al servidor WebSocket,<br>
+            Entonces el sistema debería enviar datos de BPM y SpO2 en tiempo real,<br>
+            Y confirmar la conexión exitosa.<br><br>
+            <b>Scenario 02:</b> Conexión exitosa con WebSocket para datos de giroscopio<br>
+            Dado que el dispositivo está conectado a la red,<br>
+            Cuando se inicie la conexión al servidor WebSocket,<br>
+            Entonces el sistema debería enviar datos del giroscopio en tiempo real,<br>
+            Y confirmar la conexión exitosa.<br><br>
+            <b>Scenario 03:</b> Conexión exitosa con WebSocket para datos de GPS<br>
+            Dado que el dispositivo está conectado a la red,<br>
+            Cuando se inicie la conexión al servidor WebSocket,<br>
+            Entonces el sistema debería enviar datos de GPS en tiempo real,<br>
+            Y confirmar la conexión exitosa.
+        </td>
+        <td>Monitoreo y Seguridad en Tiempo Real</td>
+    </tr>
+    <tr>
+        <td>TS46</td>
+        <td>Persistencia de Datos IoT</td>
+        <td>Como desarrollador, quiero implementar la lógica para almacenar datos enviados desde dispositivos IoT (BPM, SpO2, giroscopio, GPS) en el sistema, para análisis y monitoreo en tiempo real.</td>
+        <td>
+            <b>Scenario 01:</b> Almacenar datos de BPM y SpO2<br>
+            Dado que el sistema recibe datos de BPM y SpO2 a través de WebSocket,<br>
+            Cuando los datos llegan al servidor,<br>
+            Entonces el sistema debería almacenarlos en la base de datos con una marca de tiempo.<br><br>
+            <b>Scenario 02:</b> Almacenar datos de giroscopio<br>
+            Dado que el sistema recibe datos del giroscopio a través de WebSocket,<br>
+            Cuando los datos llegan al servidor,<br>
+            Entonces el sistema debería almacenarlos en la base de datos con una marca de tiempo.<br><br>
+            <b>Scenario 03:</b> Almacenar datos de GPS<br>
+            Dado que el sistema recibe datos de GPS a través de WebSocket,<br>
+            Cuando los datos llegan al servidor,<br>
+            Entonces el sistema debería almacenarlos en la base de datos con una marca de tiempo.<br><br>
+            <b>Scenario 04:</b> Error en la persistencia de datos por fallo del servidor<br>
+            Dado que el servidor presenta un error temporal,<br>
+            Cuando se intenten almacenar datos recibidos,<br>
+            Entonces el sistema debería registrar el error y reintentar la operación.
+        </td>
+        <td>Monitoreo y Seguridad en Tiempo Real</td>
+    </tr>
+    <tr>
+        <td>TS47</td>
+        <td>Deployment del Sistema</td>
+        <td>Como desarrollador, quiero desplegar todas las partes del sistema (backend, frontend web, frontend móvil) en entornos productivos, para asegurar la entrega funcional y accesible del sistema a los usuarios.</td>
+        <td>
+            <b>Scenario 01:</b> Despliegue del backend en Azure App Service<br>
+            Dado que el backend está configurado para producción,<br>
+            Cuando se implemente en Azure App Service,<br>
+            Entonces debería estar disponible públicamente con endpoints funcionales.<br><br>
+            <b>Scenario 02:</b> Despliegue del frontend web en Firebase Hosting<br>
+            Dado que la aplicación web está configurada para producción,<br>
+            Cuando se implemente en Firebase Hosting,<br>
+            Entonces debería ser accesible públicamente con una URL funcional.<br><br>
+            <b>Scenario 03:</b> Configuración de entornos seguros<br>
+            Dado que el sistema necesita garantizar la seguridad,<br>
+            Cuando se desplieguen las aplicaciones,<br>
+            Entonces se deben habilitar HTTPS, protección contra ataques comunes y permisos de acceso adecuados.<br><br>
+            <b>Scenario 04:</b> Pruebas post-deployment<br>
+            Dado que el sistema está desplegado,<br>
+            Cuando los desarrolladores accedan a los entornos productivos,<br>
+            Entonces deberían verificar que todas las funcionalidades principales estén operativas.
+        </td>
+        <td>Entrega del Sistema Final</td>
+    </tr>
+    <tr>
+        <td>TS48</td>
+        <td>Ensamblaje y Configuración del Dispositivo IoT</td>
+        <td>Como desarrollador IoT, quiero ensamblar y configurar el dispositivo GuardianArea con sus sensores, módulos y software necesario para garantizar su correcto funcionamiento en el entorno de producción.</td>
+        <td>
+            <b>Scenario 01:</b> Ensamblaje de hardware del dispositivo IoT<br>
+            Dado que se cuenta con todos los componentes necesarios,<br>
+            Cuando el dispositivo se ensambla siguiendo las especificaciones,<br>
+            Entonces el hardware debe estar completamente funcional y operativo.<br><br>
+            <b>Scenario 02:</b> Configuración inicial del software del dispositivo IoT<br>
+            Dado que el dispositivo está ensamblado,<br>
+            Cuando se cargue el firmware en la placa,<br>
+            Entonces todos los módulos deberían responder correctamente.<br><br>
+            <b>Scenario 03:</b> Pruebas de funcionalidad del dispositivo IoT<br>
+            Dado que el dispositivo está ensamblado y configurado,<br>
+            Cuando se realicen pruebas de todos los módulos,<br>
+            Entonces el dispositivo debería pasar todas las pruebas funcionales sin errores.
+        </td>
+        <td>Integración y Funcionamiento del Dispositivo IoT</td>
+    </tr>
+</table>
 
 ## 3.3. Impact Mapping
 El Impact Mapping de GuardianArea permite visualizar cómo la solución propuesta impacta en las necesidades de dos segmentos de usuarios clave: cuidadores de personas con Alzheimer y cuidadores de niños pequeños. Este mapeo organiza los objetivos de negocio, identificando los impactos clave que se desean alcanzar, junto con los entregables específicos que ayudan a cumplir estos objetivos. Para cada entregable, se definen historias de usuario que permiten estructurar las funcionalidades de la aplicación en torno a las acciones y necesidades particulares de cada segmento.
