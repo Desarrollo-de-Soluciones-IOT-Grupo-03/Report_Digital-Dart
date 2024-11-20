@@ -5438,11 +5438,26 @@ Durante este sprint se actualizó la landing page con mejoras como la implementa
 
 
 #### 6.2.3.4 Testing Suite Evidence for Sprint Review
-En este sprint se realizó pruebas unitarias en el backend de Guardian Area, utilizando el framework de pruebas JUnit. A continuación, se presentan las pruebas realizadas y los resultados obtenidos.
+En este sprint se realizó pruebas unitarias en el backend de Guardian Area, utilizando el framework de pruebas JUnit. A continuación, se presentan las pruebas realizadas y los resultados obtenidos. Estas pruebas unitarias se realizaron para la clase de HealthMeasureCommandService que se encarga del registro de los indicadores de salud a la base de datos.
 
 | Repository   | Branch | Commit ID | Commit Message           | Commit Message Body | Commited on (Date) |
 | :----------- | :----- | :-------- | :----------------------- | :------------------ | :----------------- |
-| TestingSuite | main   | 31836ee   | update: sprint 3 testing | -                   | 19/11/2024         |
+| TestingSuite | main   | 31836ee   | update: sprint 3 testing | feat: add HealthMeasureCommandServiceImpTest | 19/11/2024         |
+
+* Unit test:
+  
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/unit-test1.PNG" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/unit-test2.PNG" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/unit-test3.PNG" alt="Guardian area LP"  width="100%"/>
+    </div>
+    <div style="text-align: center;">
+        <img src="./images/chapter-06/sprint-03/unit-test4.PNG" alt="Guardian area LP"  width="100%"/>
+    </div>
 
 #### 6.2.3.5 Execution Evidence for Sprint Review
 
