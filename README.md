@@ -6174,9 +6174,11 @@ Para este sprint se ha desplegado la aplicación móvil, la aplicación web, la 
         <img src="./images/chapter-06/deploy/mobile-deploy-05.png" alt="Deployment Mobile"  width="100%"/>
     </div>
 
-4. **Cloud:** 
+4. **Cloud:**  Se realizó el despliegue de la aplicación Guardian Area, desarrollada en Spring Boot, empleando el servicio de Azure App Services. Este servicio permitió alojar la aplicación en un entorno en la nube confiable y escalable, facilitando la gestión de recursos, la configuración del servidor y la implementación continua. La solución aprovecha las capacidades de Azure para garantizar un rendimiento óptimo, soporte para conexiones seguras (HTTPS) y compatibilidad con herramientas de monitoreo y diagnóstico para supervisar el estado de la aplicación en tiempo real.
 
-5. **Edge:** 
+    <div style="text-align: center;">
+            <img src="./images/chapter-06/deploy/deploy-cloud.png" alt="Deployment Mobile"  width="100%"/>
+    </div>
 
 #### 6.2.3.8 Team Collaboration Insights during Sprint
 1. **Landing Page:** Se adjuntan evidencias del trabajo colaborativo en el desarrollo de la landing page.
